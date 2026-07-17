@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 17-07-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "17-07-2026 -- 08-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Lineation.ai، Polygraf Meeting Guard، CareerBoom Auto Apply، Coasty Computer-Use API، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 17 يوليو 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من حماية الوكلاء إلى وظائف تُقدَّم وحدها — الذكاء الاصطناعي يُؤمّن اجتماعاتك ويُغيّر حياتك المهنية!</h1>
+      <p class="hero-sub">Lineation.ai يُبني Zero Trust للوكلاء الذاتية، Polygraf Meeting Guard يكشف deepfake في Zoom وTeams، CareerBoom Auto Apply Agent يُقدّم لـ 5 ملايين وظيفة شهرياً، وCoasty من YC S26 يُطلق API لوكلاء «استخدام الحاسوب» — أربع ثورات عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 17 يوليو 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Lineation.ai: Zero Trust للوكلاء الذاتية — هوية NHI، MCP آمن، ومسار reasoning لا يُمحى!</h2>
+      <p class="article-lead">الوكيل الذي يقرأ بياناتك ويُحرّك أموالك ليس «تطبيقاً» — إنه كيان يُفكّر ويتصرف. Lineation.ai أطلقت أول منصة أمن runtime للوكلاء: default-deny، تدقيق reasoning كامل، وkill-switch عند الاختراق.</p>
+      <p>في 15–16 يوليو 2026، أعلنت <strong>Lineation.ai</strong> عن الإطلاق العام لمنصتها الشاملة لأمن الوكلاء — أول <strong>Zero Trust runtime security control plane</strong> مخصص للذكاء الاصطناعي الوكيلي. مع تبنّي المؤسسات لوكلاء يقرأون بيانات حساسة ويستدعون APIs وينفّذون workflows بمفردهم، أصبحت جدران الحماية التقليدية وبوابات LLM العادية <strong>عمياء</strong> أمام software يُفكّر ويتصرف.</p>
+      <p>الحل: <strong>Non-Human Identity (NHI)</strong> لكل وكيل — هوية آلة صارمة مع default-deny. <strong>Secure MCP Integration</strong> يتحقق من handshakes بروتوكol Model Context Protocol في الوقت الفعلي لوقف prompt injection. <strong>Immutable Reasoning Audit Trail</strong> يسجّل سلسلة reasoning كاملة — قابلة للاستعلام والإعادة أمام منظمين (SOC 2، HIPAA، EU AI Act). و<strong>Distributed Runtime Defense</strong> daemon خفيف على endpoint يُعترض التهديدات عند طبقة التنفيذ — triage من ساعات إلى دقائق.</p>
+      <p>«الشبكات التقليدية لم تُبنَ لبرمجيات تُفكّر وتصل لقواعد البيانات عبر MCP وتنفّذ عمليات بمفردها»، قال <strong>Cameron Manavian</strong>، CEO. المنصة تغطي OWASP Agentic Top 10 (2026): goal hijack، tool misuse، memory poisoning، وrogue agents — policy-as-code، machine identity، lineage، detection، وkill-switch في طبقة واحدة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Lineation.ai؟</h3>
+        <ul>
+          <li><strong>تكامل Agent Security للمؤسسات:</strong> اضبط NHI وسياسات MCP للشركات الخليجية — مشروع 5000–25000 دولار.</li>
+          <li><strong>استشارات EU AI Act وSOC 2:</strong> صمّم Reasoning Audit Trail للامتثال — retainer 3000–12000 دولار/شهر.</li>
+          <li><strong>دورات «أمن الوكلاء للمؤسسات»:</strong> علّم CISOs وDevSecOps على agentic security — workshop 399–1299 دولار.</li>
+          <li><strong>قوالب policy-as-code:</strong> بِع packs لـ fintech، healthcare، وe-commerce agents — 49–199 دولار/pack.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Lineation.ai</span>
+        <span class="tag">Zero Trust</span>
+        <span class="tag">Agent Security</span>
+        <span class="tag">MCP</span>
+        <span class="tag">NHI</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Polygraf Meeting Guard: كل اجتماع أصبح حدث أمني — deepfake وPII وAI-generated في 100ms!</h2>
+      <p class="article-lead">«كل اجتماع أصبح حدثاً أمنياً» — ليس شعاراً تسويقياً، بل واقع 2026. Polygraf AI أطلقت Meeting Guard: مشارك مرئي في Zoom وTeams وMeet يكشف deepfake صوتي بنسبة 92% ونص AI بنسبة 98% — دون إرسال بيانات خارجية.</p>
+      <p>في 15 يوليو 2026، أعلنت <strong>Polygraf AI</strong> — المُدرجة في Gartner Market Guide for Guardian Agents 2026 — عن <strong>Meeting Guard</strong>: حل كشف احتيال AI في الوقت الفعلي للاجتماعات المؤسسية. المنصة تنضم للاجتماع كـ<strong>مشارك مرئي</strong> وتُعلِن دخولها صوتياً وبصرياً — ثلاثة محركات تفحص كل متحدث: محتوى AI-generated، deepfake صوتي، وتسريبات PII.</p>
+      <p>الأرقام مذهلة: <strong>98% دقة</strong> في كشف النص الاصطناعي، <strong>92% دقة</strong> في deepfake صوتي، و<strong>100ms latency</strong> على المقاطع المعالجة. البنية: SOC 2 Type II وISO 27001، سياسة <strong>No-Training</strong> صارمة، ونشر سحابي في <strong>أقل من 15 دقيقة</strong> — أو hybrid/on-premise خلال 1–2 أسبوع. Webhook APIs تدفع التنبيهات لـ SIEM المؤسسة.</p>
+      <p>للمبدعين العرب في banking وgovernment وlegal: فرصة لبناء «Meeting Security as a Service» للشركات الخليجية، تدريب IT على deepfake defense، وconsulting قبل أن يصبح Meeting Guard standard في كل board meeting وclient call — خاصة مع تزايد هجمات voice fraud في MENA.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Polygraf Meeting Guard؟</h3>
+        <ul>
+          <li><strong>Meeting Security للبنوك:</strong> نشر Meeting Guard لـ board meetings وclient calls — مشروع 4000–20000 دولار.</li>
+          <li><strong>استشارات Deepfake Defense:</strong> صمّم policies للاجتماعات الحساسة — retainer 2500–10000 دولار/شهر.</li>
+          <li><strong>دورات «اجتماعات آمنة في عصر AI»:</strong> علّم فرق compliance على Meeting Guard — workshop 349–999 دولار.</li>
+          <li><strong>Integration packs:</strong> بِع تكاملات Slack، Teams، وSIEM للشركات — 79–249 دولار/pack.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Polygraf</span>
+        <span class="tag">Meeting Guard</span>
+        <span class="tag">Deepfake</span>
+        <span class="tag">Voice Fraud</span>
+        <span class="tag">Enterprise Security</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>CareerBoom Auto Apply Agent: وكيل يبحث ويُقدّم لـ 5 ملايين وظيفة شهرياً — وأنت تتحكم بالهدف!</h2>
+      <p class="article-lead">البحث عن وظيفة أصبح «وظيفة ثانية»: نفس المواقع، نفس النماذج، نفس الإرهاق. CareerBoom أطلقت Auto Apply Agent — يمسح 5+ مليون وظيفة جديدة شهرياً، يُخصّص كل طلب، ويُقدّم نيابة عنك — وأنت تُحدّد الأهداف وتوقفه متى شئت.</p>
+      <p>في 17 يوليو 2026، أعلنت <strong>CareerBoom</strong> من نيويورك عن <strong>Auto Apply Agent</strong> — مساعد بحث وظائف مدعوم بالذكاء الاصطناعي يُغطي العمل بين «قررت أبحث» و«حصلت على مقابلة». تبدأ باستيراد LinkedIn أو رفع CV، ثم تحديد الأدوار والموقع وتفضيلات العمل. <strong>Auto Discover</strong> يمسح أكثر من <strong>5 ملايين وظيفة جديدة شهرياً</strong> ويُطابقها بملفك.</p>
+      <p>الوكيل لا يُرسل نفس المستند everywhere — لكل فرصة: <strong>تخصيص CV وإجابات الطلب</strong> للدور المحدد. أربع مراحل: اكتشاف → تقييم → تحضير → تقديم. صندوق بريد مخصص لردود recruiters. خطط تتراوح من 30 إلى 50+ تقديم تلقائي شهرياً — مع إمكانية الإيقاف والتعديل في أي لحظة.</p>
+      <p>«بنينا CareerBoom لاسترداد وقتك. الوكيل يتولى الاكتشاف والتقديم بينما تبقى أنت المتحكم بالأدوار التي يستهدفها»، قال الفريق. للمبدعين العرب: فرصة لبناء «Career Agent للسوق العربي»، خدمات CV optimization بالعربية، وconsulting للخريجين MENA — سوق التوظيف الذكي ينمو بسرعة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من CareerBoom Auto Apply؟</h3>
+        <ul>
+          <li><strong>Career Agent عربي:</strong> ابنِ وكيلاً مخصصاً لـ LinkedIn وBayt وGulfTalent — retainer 500–3000 دولار/شهر.</li>
+          <li><strong>خدمات CV AI بالعربية:</strong> خصّص CV لكل طلب باستخدام Auto Apply logic — 49–199 دولار/عميل.</li>
+          <li><strong>دورات «البحث عن وظيفة بالذكاء الاصطناعي»:</strong> علّم الخريجين استخدام CareerBoom وبدائل — bootcamp 99–399 دولار.</li>
+          <li><strong>Affiliate وwhite-label:</strong> روّج CareerBoom أو ابنِ wrapper للسوق العربي — عمولة 20–40%.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">CareerBoom</span>
+        <span class="tag">Auto Apply</span>
+        <span class="tag">Job Search AI</span>
+        <span class="tag">Career Agent</span>
+        <span class="tag">Recruitment</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Coasty (YC S26): API لوكلاء «استخدام الحاسوب» — أتمتة مهام رقمية عبر أي برنامج!</h2>
+      <p class="article-lead">الوكيل الذي يكتب كوداً جيد — لكنه لا يستطيع النقر على زر في Excel؟ Coasty من Y Combinator S26 أطلقت API لبناء computer-use agents: أتمتة إدارة بيانات، تفاعلات ويب، وworkflows رقمية — عبر أي بيئة برمجية.</p>
+      <p>في 16 يوليو 2026، أعلنت <strong>Coasty</strong> — startup من <strong>YC S26</strong> بقيادة Nitish وPrateek — عن إطلاق API عام لبناء <strong>computer-use agents</strong>. الفكرة: empower developers لإنشاء وكلاء ذكيين يعملون عبر بيئات برمجية مختلفة — من إدارة البيانات إلى أتمتة الويب والتفاعلات الرقمية.</p>
+      <p>الـ API يوفّر framework لنشر وكلاء يُنفّذون مهاماً على الحاسوب: data management، web automation، digital workflow automation. Coasty تؤكد <strong>مرونة</strong> للاستخدام الشخصي والمؤسسي — early adopters يختبرون القدرات الآن. الهدف: تقليل الجهد اليدوي وزيادة الإنتاجية عبر أدوات AI-driven.</p>
+      <p>Computer-use agents هي frontier 2026: OpenAI Operator، Anthropic Computer Use، وGoogle Project Mariner — Coasty ت democratize البناء عبر API. للمبدعين العرب: فرصة لبناء وكلاء لـ ERP محلي، أتمتة government portals، وRPA alternatives للشركات الصغيرة MENA — قبل أن يصبح السوق مزدحماً.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Coasty Computer-Use API؟</h3>
+        <ul>
+          <li><strong>وكلاء ERP وportals حكومية:</strong> أتمت إدخال بيانات SAP وبوابات e-government — مشروع 3000–15000 دولار.</li>
+          <li><strong>RPA-as-a-Service للشركات الصغيرة:</strong> ابنِ وكلاء Coasty لـ accounting وinventory — retainer 1500–8000 دولار/شهر.</li>
+          <li><strong>دورات «Computer-Use Agents»:</strong> علّم مطوّري MENA بناء على Coasty API — workshop 249–799 دولار.</li>
+          <li><strong>Workflow templates:</strong> بِع packs لـ Excel، CRM، وe-commerce automation — 29–99 دولار/pack.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Coasty</span>
+        <span class="tag">YC S26</span>
+        <span class="tag">Computer-Use</span>
+        <span class="tag">RPA</span>
+        <span class="tag">Automation API</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 17-07-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
