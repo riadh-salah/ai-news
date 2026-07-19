@@ -1,0 +1,164 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate Arabic AI news HTML edition with guaranteed UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "19-07-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Emergent، Thira، InstaLILY، Reo.Dev، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 19 يوليو 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من يونيكورن الهند إلى مهندس AI مُرسَل للمصانع — أربعة انقلابات عالمية تُعيد رسم اقتصاد الذكاء الاصطناعي!</h1>
+      <p class="hero-sub">Emergent تُحقق 1.5 مليار دولار في عام واحد مع Wingman على WhatsApp، Thira من مؤسسي Apptio يُنفّذ عمليات المؤسسات بـ 21 مليون، InstaLILY تُطلق Lily كأول مهندس AI مُرسَل للاقتصاد المادي بـ 60 مليون، وReo.Dev يُراقب نوايا المطوّرين والوكلاء عبر 100 مليون ملف — أربع ثورات مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 19 يوليو 2026</span>
+        <span>🕓 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Emergent: يونيكورن بـ 130 مليون دولار — من vibe coding إلى «نظام تشغيل» للشركات الصغيرة!</h2>
+      <p class="article-lead">12 مليون تطبيق. 200 ألف عميل يدفعون. 120 مليون دولار ARR. وكل ذلك في عام واحد فقط. Emergent لا تُنافس Cursor — بل تُنافس Excel وWhatsApp و«البرمجة المستحيلة» لروّاد الأعمال غير التقنيين.</p>
+      <p>في 15 يوليو 2026، أعلنت <strong>Emergent</strong> — من San Francisco وBengaluru — عن جولة <strong>Series C بقيمة 130 مليون دولار</strong> بقيادة <strong>Creaegis</strong>، مع Claypond وSentinel Global وKhosla Ventures وSoftBank Vision Fund 2 وLightspeed وY Combinator. التقييم: <strong>1.5 مليار دولار</strong> — خمسة أضعاف Series B في يناير. Mukund Jha (CEO) وMadhav Jha (CTO): «نريد أن يتحرك كل رائد أعمال بسرعة فكرته».</p>
+      <p>الفرق عن Replit وLovable: Emergent لا يكتفي بالكود — بل <strong>deployment، hosting، testing، debugging</strong> في منصة واحدة. ERP، CRM، marketplaces، dashboards مالية — كلها تُبنى بلغة طبيعية. والآن: <strong>Wingman</strong> — وكيل يعمل عبر WhatsApp والبريد لإدارة social media، marketing، lead qualification، ومكالمات outbound. الهدف الجديد: <strong>operating system للـ SMB</strong> — لا تبني software فقط، بل تُؤتمت يومك التشغيلي.</p>
+      <p>للمبدعين العرب: 190 دولة مدعومة، 9% من الإيرادات من الهند — والشرق الأوسط في صلب النمو. فرصة لبناء «Emergent agencies» لـ SMB عربية، قوالب Wingman بالعربية، ودورات «ابنِ SaaS بدون كود» — قبل أن يصبح Emergent standard لكل متجر وعيادة ومكتب محاماة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Emergent؟</h3>
+        <ul>
+          <li><strong>Emergent build agency:</strong> ابنِ ERP/CRM/storefronts لـ SMB عربية — مشروع 1500–15000 دولار + صيانة 200–1500/شهر.</li>
+          <li><strong>Wingman templates:</strong> بِع configs جاهزة لـ restaurants، clinics، e-commerce — 49–299 دولار/pack.</li>
+          <li><strong>دورات «vibe business»:</strong> علّم روّاد الأعمال بناء + أتمتة — bootcamp 99–449 دولار.</li>
+          <li><strong>Vertical SaaS factory:</strong> ابنِ 10 clones لـ niches MENA على Emergent — subscription 29–99/شهر لكل عميل.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Emergent</span>
+        <span class="tag">Wingman</span>
+        <span class="tag">Unicorn</span>
+        <span class="tag">SMB OS</span>
+        <span class="tag">Vibe Coding</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Thira: مؤسسو Apptio يعودون — 21 مليون دولار لطبقة «تنفيذ» enterprise AI تُغلق الفجوة بين chatbot والعمل الحقيقي!</h2>
+      <p class="article-lead">كل CEO يريد AI agents. لكن الـ back office — procurement، IT ops، finance workflows — لا يزال يعمل بـ spreadsheets وemail chains. Thira يُنفّذ. لا يُجيب. يُنجز.</p>
+      <p>في 14 يوليو 2026، خرجت <strong>Thira</strong> من stealth — Bellevue، Washington — مع <strong>21 مليون دولار seed</strong> بقيادة <strong>Madrona</strong> وFUSE. المؤسسان: <strong>Sunny Gupta</strong> و<strong>Kurt Shintaffer</strong> — co-founders لـ <strong>Apptio</strong> (باعتها IBM بـ 4.6 مليار). بعد سنوات في «فهم IT spend»، السؤال الجديد: كيف نُجبر enterprise work على <strong>التنفيذ فعلاً</strong>؟</p>
+      <p>Thira يبني <strong>Enterprise AI Execution Layer</strong>: وكلاء يُديرون routine operations عبر corporate back offices — procurement، service management، finance ops — داخل الأنظمة الفوضوية التي تستخدمها الشركات يومياً. 10 design partners enterprise قبل launch أوسع في خريف 2026. Gupta: «Interest في AI عالي — لكن المنتج يجب أن يعمل داخل mess الحقيقي».</p>
+      <p>للمبدعين العرب في enterprise consulting: فرصة لبناء «Thira integration» لـ banks وtelcos MENA، playbooks لـ governed agent execution، ودورات «من chatbot إلى execution» — Madrona backing يفتح أبواب CIOs في المنطقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Thira؟</h3>
+        <ul>
+          <li><strong>Execution layer consulting:</strong> اضبط Thira workflows لـ enterprises — مشروع 3000–20000 دولار.</li>
+          <li><strong>Back-office automation packs:</strong> بِع templates لـ procurement، ITSM، finance — 199–799 دولار.</li>
+          <li><strong>دورات «Enterprise AI Execution»:</strong> workshop للـ CIOs وops leaders — 149–599 دولار.</li>
+          <li><strong>Managed agent ops:</strong> شغّل Thira agents لعملاء — retainer 1000–5000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Thira</span>
+        <span class="tag">Apptio</span>
+        <span class="tag">Madrona</span>
+        <span class="tag">Enterprise Execution</span>
+        <span class="tag">Back Office AI</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>InstaLILY Lily: أول «مهندس AI مُرسَل» — 60 مليون دولار لاقتصاد المصانع والمستودعات!</h2>
+      <p class="article-lead">Pilot يستغرق 6 أشهر. Demo يُنسى. Lily تدخل شركتك، تتعلّم كيف تعمل، تبني ما ينقص، وتُشغّل — في أيام. ولا تغادر عندما «يُسلّم المشروع».</p>
+      <p>في 14 يوليو 2026، أعلنت <strong>InstaLILY</strong> — New York — عن <strong>Series B بقيمة 60 مليون دولار</strong> بقيادة <strong>Energize Capital</strong>، مع Insight Partners وHome Depot Ventures وUnited Rentals. إجمالي التمويل: ~100 مليون. الإيرادات ×5 في سنة. المؤسسان Amit Shah (CEO، ex-1-800-Flowers President) وSumantro Das يُطلقان <strong>Lily™</strong> — «أول AI Forward Deployed Engineer في العالم».</p>
+      <p>Lily يتعلّم business processes، يبني software يربط SAP وNetSuite وEpicor وSalesforce، يُشغّل RFQs وpricing quotes وroute planning وتشخيص equipment في الميدان. <strong>InstaBrain</strong> — SLM مملوك للعميل — يتعلّم من SOPs وdocumentation وpricing. <strong>Small Data Center</strong> مع NVIDIA: cloud، on-prem، أو edge. Home Depot وUnited Rentals كمستثمرين = validation للاقتصاد المادي.</p>
+      <p>للمبدعين العرب في logistics، construction، healthcare ops: فرصة لبناء «Lily deployments» لـ distributors MENA، consulting لـ InstaBrain setup، ودورات «AI FDE للاقتصاد المادي» — قبل أن تملأ Lily كل مستودع وموقع بناء.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من InstaLILY Lily؟</h3>
+        <ul>
+          <li><strong>AI FDE agency:</strong> نشر Lily لـ distributors وlogistics — onboarding 5000–25000 دولار + retainer 800–4000/شهر.</li>
+          <li><strong>InstaBrain data prep:</strong> تنظيم SOPs وdocs لـ SLM — مشروع 2000–12000 دولار.</li>
+          <li><strong>Vertical workflow packs:</strong> بِع RFQ/pricing/route templates — 149–499 دولار.</li>
+          <li><strong>دورات «Forward Deployed AI»:</strong> bootcamp للـ ops teams — 199–699 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">InstaLILY</span>
+        <span class="tag">Lily</span>
+        <span class="tag">InstaBrain</span>
+        <span class="tag">Forward Deployed Engineer</span>
+        <span class="tag">Physical Economy</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Reo.Dev: 100 مليون مطوّر في graph واحد — 11.3 مليون دولار لاكتشاف من يشتري قبل أن يرسل email!</h2>
+      <p class="article-lead">Sales teams تُرسل cold emails. Reo.Dev يرى GitHub commit قبل أن يفكر المطوّر في demo. والآن: Agent Intent Gateway يلتقط إشارات الوكلاء عبر MCP — commerce بين agents بدأ.</p>
+      <p>في 16 يوليو 2026، أعلنت <strong>Reo.Dev</strong> — Bengaluru/San Francisco — عن <strong>Series A بقيمة 11.3 مليون دولار</strong> بقيادة <strong>Elevation Capital</strong>، بعد 8 أشهر من seed. Achintya Gupta (Founder): <strong>Developer Knowledge Graph</strong> يتجاوز 100 مليون engineer profile و625M+ activity signals — npm installs، docs engagement، CLI usage، hiring patterns.</p>
+      <p>200+ شركة — NVIDIA، LangChain، ElevenLabs، Couchbase، Temporal، n8n. التكامل: Salesforce، HubSpot، Salesloft، Outreach، Apollo، Claude. الجديد: <strong>Agent Intent Gateway</strong> — يلتقط buying signals عندما AI agents تُقيّم software عبر MCP وAPI calls. «DevGTM Academy» للتعلم. Reo.Dev ≠ Common Room — focus حصري على developer-led buying.</p>
+      <p>للمبدعين العرب في devtools وB2B SaaS: فرصة لبناء «Arabic DevGTM» consulting، integration services لـ Reo.Dev، ودورات «بيع لـ developers وagents» — قبل أن يصبح agent-to-agent commerce standard في كل enterprise purchase.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Reo.Dev؟</h3>
+        <ul>
+          <li><strong>DevGTM consulting:</strong> اضبط Reo.Dev لـ devtools startups — retainer 800–4000 دولار/شهر.</li>
+          <li><strong>Agent Intent setup:</strong> ربط MCP signals بـ CRM — مشروع 1500–8000 دولار.</li>
+          <li><strong>DevGTM Academy affiliate:</strong> دورات «بيع للمطوّرين» بالعربية — 79–299 دولار.</li>
+          <li><strong>Intent signal reports:</strong> بِع MENA developer market insights — subscription 99–499/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Reo.Dev</span>
+        <span class="tag">Developer GTM</span>
+        <span class="tag">Agent Intent Gateway</span>
+        <span class="tag">MCP</span>
+        <span class="tag">Knowledge Graph</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 19-07-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+if __name__ == "__main__":
+    main()
