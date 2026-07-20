@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 20-07-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "20-07-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — CuspAI Materials Foundry، Emergent، Feyn SQRL، InstaLILY Lily، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 20 يوليو 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من مختبر مواد ذكي بـ 650 مليون دولار إلى يونيكورن برمجة بـ 1.5 مليار — الذكاء الاصطناعي يُعيد تشكيل الاقتصاد العالمي!</h1>
+      <p class="hero-sub">CuspAI تُطلق AI Materials Foundry مع NVIDIA وMeta، Emergent تُصبح يونيكورن بـ 130 مليون دولار و12 مليون تطبيق، Feyn AI تُطلق SQRL الذي يتفوّق على Claude في SQL، وInstaLILY تُقدّم Lily — أول مهندس AI forward-deployed — بـ 60 مليون دولار. أربع ثورات عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 20 يوليو 2026</span>
+        <span>🕓 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>CuspAI Materials Foundry: شبكة عالمية لاكتشاف مواد المستقبل — NVIDIA وMeta وSamsung في صف واحد!</h2>
+      <p class="article-lead">تخيّل أن AI يُصمّم مادة جديدة للبطاريات أو الرقائق الإلكترونية، يُحاكيها، يخطّط لطريقة تصنيعها، ثم يُنسّق مع مختبر حقيقي للتحقق — كل ذلك عبر منصة واحدة. هذا ليس sci-fi. هذا AI Materials Foundry.</p>
+      <p>في 20 يوليو 2026، أعلنت <strong>CuspAI</strong> من Cambridge عن إطلاق <strong>AI Materials Foundry</strong> — شبكة عالمية تجمع compute وبيانات ومختبرات وخبراء علميين لاكتشاف مواد جديدة، بقيادة منصة <strong>MIRA</strong> الوكيلية. أكثر من <strong>45 عضواً مؤسّساً</strong> يشملون <strong>NVIDIA</strong> و<strong>Meta</strong> و<strong>Samsung</strong> و<strong>Hyundai Motor Group</strong> و<strong>Henkel</strong> و<strong>Applied Materials</strong> و<strong>Tokyo Electron</strong> و<strong>Lam Research</strong>.</p>
+      <p>المنصة تُشغّل دورة اكتشاف كاملة: تصميم مواد generative، محاكاة، تخطيط مسارات التصنيع، وvalidation تجريبي منسّق — مدعومة بأكبر datasets تجريبية للمواد في العالم. مراكز إقليمية في أمريكا وأوروبا وAPAC. CuspAI — تأسست 2024 بقيادة Dr. Chad Edwards وProf. Max Welling — جمعت أكثر من <strong>650 مليون دولار</strong> من Kleiner Perkins وNEA وTemasek وNVentures وBezos Expeditions. advisory board يضم Geoffrey Hinton.</p>
+      <p>للمبدعين العرب في energy وsemiconductors وclimate tech: فرصة لبناء «MIRA integrations» لـ labs محلية، consulting لـ materials discovery workflows، ودورات «AI للعلوم المادية» — قبل أن يصبح Foundry standard في كل R&amp;D department.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من CuspAI Materials Foundry؟</h3>
+        <ul>
+          <li><strong>Materials AI consulting:</strong> ساعد labs وuniversities MENA تُعدّ datasets للـ Foundry — مشروع 5000–25000 دولار.</li>
+          <li><strong>Vertical discovery packs:</strong> بِع configs جاهزة لـ battery materials، coatings، polymers — 199–799 دولار/pack.</li>
+          <li><strong>دورات «AI + علوم المواد»:</strong> bootcamp للمهندسين والباحثين — 149–549 دولار.</li>
+          <li><strong>Regional hub liaison:</strong> كن bridge بين startups عربية وشبكة Foundry — retainer 2000–10000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">CuspAI</span>
+        <span class="tag">MIRA</span>
+        <span class="tag">Materials Foundry</span>
+        <span class="tag">NVIDIA</span>
+        <span class="tag">Scientific AI</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Emergent: يونيكورن بـ 1.5 مليار دولار — 12 مليون تطبيق بُني بدون كتابة سطر كود واحد!</h2>
+      <p class="article-lead">رائد أعمال بدون خلفية تقنية يصف فكرته — وخلال ساعات يحصل على تطبيق full-stack جاهز للإنتاج: تصميم، بناء، اختبار، deploy. Emergent يُحوّل هذا إلى واقع لـ 200,000 عميل مدفوع.</p>
+      <p>في 20 يوليو 2026، أعلنت <strong>Emergent</strong> من San Francisco عن جولة <strong>Series C بقيمة 130 مليون دولار</strong> بقيادة <strong>Creaegis</strong> و<strong>MNI Ventures</strong> و<strong>Claypond Capital</strong> و<strong>Sentinel Global</strong>، مع Khosla Ventures وSoftBank Vision Fund 2 وLightspeed وY Combinator — valuation <strong>1.5 مليار دولار</strong>. Mukund Jha (CEO) وMadhav Jha (CTO) — أخوان من Bengaluru — بنيا المنصة في أقل من 18 شهراً.</p>
+      <p>الأرقام مذهلة: <strong>12 مليون+ تطبيق</strong> بُني على Emergent، <strong>200,000 عميل مدفوع</strong>، ARR <strong>120 مليون دولار</strong> (+70% في 4 أشهر). المنصة تُشغّل AI agents كـ «فريق تطوير كامل» — design، build، test، scale — للرواد وSMBs بدون خلفية تقنية. adoption قوي في USA وEurope وSoutheast Asia والشرق الأوسط.</p>
+      <p>للمبدعين العرب: فرصة لبناء «Emergent agencies» لـ SMBs محلية، consulting لـ no-code AI apps، ودورات «ابنِ SaaS بدون برمجة» — Emergent يُوسّع في MENA والشرق الأوسط صراحةً.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Emergent؟</h3>
+        <ul>
+          <li><strong>AI app agency:</strong> ابنِ تطبيقات Emergent لـ SMBs عربية — مشروع 1500–15000 دولار + retainer 300–2000/شهر.</li>
+          <li><strong>Vertical templates:</strong> بِع starter apps لـ restaurants، clinics، real estate — 49–249 دولار.</li>
+          <li><strong>دورات «ابنِ SaaS بـ AI»:</strong> bootcamp للرواد غير التقنيين — 99–399 دولار.</li>
+          <li><strong>Managed Emergent:</strong> شغّل وطوّر apps عملاء — 500–3500 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Emergent</span>
+        <span class="tag">Unicorn</span>
+        <span class="tag">AI Agents</span>
+        <span class="tag">No-Code</span>
+        <span class="tag">Full-Stack</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Feyn SQRL: نموذج SQL يتفوّق على Claude Opus — يفحص قاعدة البيانات قبل أن يكتب استعلاماً!</h2>
+      <p class="article-lead">معظم أنظمة text-to-SQL تترجم سؤالك مباشرة إلى query — ثم تفشل لأنها لم تفهم schema. SQRL من Feyn AI يفعل العكس: يُجري probes read-only أولاً، يفهم البيانات، ثم يكتب SQL صحيح.</p>
+      <p>في 19 يوليو 2026، أطلقت <strong>Feyn AI</strong> — startup مدعومة من <strong>Y Combinator</strong> — عائلة <strong>SQRL</strong>: نماذج open-weight تحوّل أسئلة natural language إلى SQL. الفكرة الجوهرية: <strong>inspection قبل generation</strong> — SQRL يفحص قاعدة البيانات أولاً لحل الغموض، ثم يكتب queries مدعومة بالبيانات الفعلية.</p>
+      <p>الأرقام تتحدث: <strong>SQRL-35B-A3B</strong> يحقق <strong>70.6% execution accuracy</strong> على BIRD Dev — أعلى من <strong>Claude Opus 4.6</strong> (68.77%). ثلاثة checkpoints مفتوحة على Hugging Face: SQRL-4B، SQRL-9B، SQRL-35B-A3B. SQRL-4B يطابق Opus في هذا الاختبار — بنموذج صغير enough للـ self-hosting. schema وqueries وobservations تبقى على infrastructure تتحكم بها.</p>
+      <p>للمبدعين العرب في data analytics وBI: فرصة لبناء «SQRL-powered dashboards» للشركات، consulting لـ self-hosted text-to-SQL، ودورات «اسأل بياناتك بالعربية» — open weights = لا vendor lock-in.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Feyn SQRL؟</h3>
+        <ul>
+          <li><strong>Self-hosted BI consulting:</strong> اضبط SQRL على databases عملاء — مشروع 2000–12000 دولار.</li>
+          <li><strong>Arabic NL-to-SQL layer:</strong> بِع wrapper يدعم أسئلة عربية — SaaS 29–199 دولار/شهر.</li>
+          <li><strong>دورات «Text-to-SQL مع SQRL»:</strong> workshop للمحللين — 79–299 دولار.</li>
+          <li><strong>Industry query packs:</strong> بِع prompts وconfigs لـ e-commerce، healthcare، finance — 39–149 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Feyn AI</span>
+        <span class="tag">SQRL</span>
+        <span class="tag">Text-to-SQL</span>
+        <span class="tag">Open Weights</span>
+        <span class="tag">Y Combinator</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>InstaLILY Lily: أول مهندس AI forward-deployed — 60 مليون دولار من Home Depot وUnited Rentals!</h2>
+      <p class="article-lead">المشكلة ليست بناء software — بل إبقاؤه يعمل عندما يتغيّر business. Lily من InstaLILY يتعلّم كيف تعمل شركتك، يبني software مخصّص، يُطلقه في أيام — ويبقى ليُصلحه ويُحدّثه للأبد.</p>
+      <p>في 14 يوليو 2026، أعلنت <strong>InstaLILY</strong> من New York عن <strong>Series B بقيمة 60 مليون دولار</strong> بقيادة <strong>Energize Capital</strong>، مع Insight Partners و<strong>Home Depot Ventures</strong> و<strong>United Rentals</strong>. إجمالي التمويل يقترب من <strong>100 مليون دولار</strong>، والإيرادات نمت <strong>5x</strong> خلال السنة. Amit Shah وSumantro Das (المؤسسان، 2023) يُطلقان <strong>Lily</strong> — «أول AI Forward Deployed Engineer في العالم».</p>
+      <p>Lily يتعلّم business processes، يبني software integrations مخصّصة، يُطلقها في أيام — ولا يغادر. يعمل cloud أو on-premise أو edge عبر <strong>Small Data Center</strong> مع NVIDIA. عملاء يشملون SRS Distribution (Home Depot)، United Rentals، ShipStation، PartsTown، Radwell، Henry Schein. case study: موزّع وطني حقق <strong>200 مليون دولار</strong> sales opportunities جديدة.</p>
+      <p>للمبدعين العرب في distribution وlogistics وhealthcare: فرصة لبناء «Lily deployments» للشركات الصناعية MENA، consulting لـ enterprise AI engineering، ودورات «AI teammate للعمليات» — InstaLILY لديها offices في SF وLondon وToronto.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من InstaLILY Lily؟</h3>
+        <ul>
+          <li><strong>Enterprise AI deployment:</strong> ساعد distributors وlogistics firms MENA تُطلق Lily — مشروع 10000–50000 دولار.</li>
+          <li><strong>Process mapping consulting:</strong> حلّل workflows قبل Lily deployment — 3000–15000 دولار.</li>
+          <li><strong>دورات «AI Forward Deployed Engineer»:</strong> bootcamp للـ ops teams — 199–699 دولار.</li>
+          <li><strong>Vertical Lily configs:</strong> بِع templates لـ construction، healthcare supply — 149–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">InstaLILY</span>
+        <span class="tag">Lily</span>
+        <span class="tag">Forward Deployed Engineer</span>
+        <span class="tag">Enterprise AI</span>
+        <span class="tag">Home Depot</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 20-07-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
