@@ -1,0 +1,183 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate Arabic AI news HTML edition with guaranteed UTF-8 encoding."""
+
+from pathlib import Path
+
+NEWS_DIR = Path(__file__).resolve().parent.parent / "news"
+FILENAME = "20-07-2026 -- 08-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — CuspAI Materials Foundry، Emergent، InstaLILY Lily، Reo.Dev، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 20 يوليو 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من مسبك مواد AI بـ 450 مليون دولار إلى يونيكورن هندي بـ 1.5 مليار — الذكاء الاصطناعي يُعيد تشكيل الاقتصاد!</h1>
+      <p class="hero-sub">CuspAI تُطلق AI Materials Foundry بتحالف 48 شريكاً واستثمار جيف Bezos، Emergent يصبح يونيكورن بـ 130 مليون دولار لبناء تطبيقات كاملة بالمحادثة، InstaLILY تُطلق Lily كمهندس AI مُتمرّب، وReo.Dev يلتقط نوايا الشراء من وكلاء MCP — أربع ثورات عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 20 يوليو 2026</span>
+        <span>🕗 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>CuspAI Materials Foundry: 450 مليون دولار من Bezos وTemasek لاكتشاف مواد الرقائق بالذكاء الاصطناعي!</h2>
+      <p class="article-lead">تخيّل أن AI يُصمّم مادة بديلة عن ruthenium أو iridium — نادرة ومُهدّدة بالنضوب — في أسابيع بدلاً من سنوات. CuspAI لم تعد startup صغيراً؛ أصبحت قوة صناعية بـ 2.6 مليار دولار valuation.</p>
+      <p>في 20 يوليو 2026، أعلنت <strong>CuspAI</strong> — startup بريطاني عمره عامان — عن <strong>AI Materials Foundry</strong>: تحالف يضم أكثر من <strong>48</strong> شركة تقنية وصناعية ومختبرات بحث. الهدف: استخدام الذكاء الاصطناعي لاكتشاف مواد جديدة لصناعة الرقائق، وتقليل أو إلغاء الاعتماد على معادن نادرة ذات مخاطر سلسلة توريد.</p>
+      <p>الجولة <strong>Series B</strong> بقيمة <strong>450 مليون دولار</strong> — بقيادة Kleiner Perkins وNEA مع مشاركة كبيرة من <strong>Bezos Expeditions</strong> وTemasek — رفعت valuation من 520 مليون في سبتمبر 2025 إلى <strong>2.6 مليار دولار</strong>. المؤسس <strong>Chad Edwards</strong> (CEO): معظم التمويل يُوجّه لمختبرات مع شركاء foundry في Cambridge وسنغافورة وSan Francisco Bay Area. AMD Ventures انضمت للجولة.</p>
+      <p>السياق: Bezos أطلق Prometheus بـ 41 مليار دولار، وPrometheus وCuspAI يمثلان موجة جديدة — AI ليس chatbot بل <strong>محرك اكتشاف علمي</strong>. للمبدعين العرب: فرصة في consulting لـ materials AI، دورات «AI للصناعة الثقيلة»، وpartnerships مع universities MENA في computational chemistry — قبل أن يصبح Materials Foundry standard في كل fab عالمي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من CuspAI Materials Foundry؟</h3>
+        <ul>
+          <li><strong>Materials AI consulting:</strong> ساعد manufacturers MENA تُقيّم AI لـ supply chain resilience — مشروع 5000–25000 دولار.</li>
+          <li><strong>Industry newsletter + reports:</strong> غطِّ مواد الرقائق وAI discovery بالعربية — اشتراك 29–99 دولار/شهر.</li>
+          <li><strong>University partnerships:</strong> اربط chemistry departments بـ computational materials tools — grant facilitation 2000–10000 دولار.</li>
+          <li><strong>دورات «AI + Semiconductors»:</strong> bootcamp للمهندسين — 199–699 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">CuspAI</span>
+        <span class="tag">Materials Foundry</span>
+        <span class="tag">Bezos</span>
+        <span class="tag">Semiconductors</span>
+        <span class="tag">Series B</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Emergent: يونيكورن بـ 1.5 مليار دولار — «فريق هندسة كامل في صندوق» لغير المبرمجين!</h2>
+      <p class="article-lead">12 مليون تطبيق. 1.5 مليار valuation في سنة واحدة. Emergent لا يُ competition لـ Cursor — بل لـ Replit: منصة تبني CRM وERP وmarketplace وmobile app من محادثة واحدة، مع deploy وhosting وtesting.</p>
+      <p>في 15–17 يوليو 2026، أعلنت <strong>Emergent</strong> — من San Francisco وBangalore — عن <strong>Series C</strong> بقيمة <strong>130 مليون دولار</strong> بقيادة Creaegis، مع MNI Ventures-Claypond وSentinel Global وKhosla وSoftBank Vision Fund 2 وLightspeed وY Combinator. Valuation: <strong>1.5 مليار دولار</strong> — quintuple في 4 أشهر. إجمالي التمويل: 230 مليون دولار.</p>
+      <p>المؤسس <strong>Mukund Jha</strong> (CEO): «Our thesis has always been to build a production-grade application for serious builders — you're basically getting an engineering team in a box.» Emergent يستهدف entrepreneurs وSMBs الذين يعتمدون email وspreadsheets — لا developers. الوكلاء الذاتيون يبنون CRMs، ERPs، marketplaces، internal tools، customer-facing products — deployment وhosting وdebugging included.</p>
+      <p>الأرقام مذهلة: 12M+ apps، 5M+ users، $50M+ ARR. Pricing من $17/شهر. للمبدعين العرب: فرصة لبناء «Emergent agencies» لـ SMBs MENA، vertical templates (restaurants، clinics، logistics)، ودورات «ابنِ SaaS بدون مبرمج» — قبل أن يملأ Emergent كل سوق non-technical builders.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Emergent؟</h3>
+        <ul>
+          <li><strong>Emergent build agency:</strong> ابنِ CRM/ERP لـ SMBs عربية — مشروع 1500–15000 دولار + retainer 300–2000/شهر.</li>
+          <li><strong>Vertical app templates:</strong> بِع configs جاهزة (عيادات، مطاعم، عقارات) — 49–299 دولار/pack.</li>
+          <li><strong>دورات «فريق هندسة في صندوق»:</strong> bootcamp لرواد الأعمال — 99–449 دولار.</li>
+          <li><strong>White-label SaaS:</strong> ابنِ على Emergent وبيع subscription لعملاء — MRR passive.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Emergent</span>
+        <span class="tag">Unicorn</span>
+        <span class="tag">No-Code AI</span>
+        <span class="tag">SMB</span>
+        <span class="tag">Autonomous Agents</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>InstaLILY Lily: مهندس AI مُتمرّب بـ 60 مليون دولار — يبني ويُحدّث برمجيات عملك تلقائياً!</h2>
+      <p class="article-lead">InstaWorkers أتمتت المبيعات والعمليات. الآن Lily — «AI forward-deployed engineer» — يبني تطبيقات pricing quotes وlogistics planning وfield technician assistants، ويتكيّف مع بياناتك دون إعادة كتابة الكود.</p>
+      <p>في 14 يوليو 2026، أعلنت <strong>InstaLILY</strong> عن إغلاق <strong>Series B</strong> بقيمة <strong>60 مليون دولار</strong> — إجمالي التمويل ~100 مليون. الشركة تخدم physical goods وservices firms بـ <strong>InstaWorkers</strong>: وكلاء AI domain-specific لأتمتة sales وoperations وservice workflows.</p>
+      <p><strong>Lily</strong> — الإضافة الجديدة — مهندس AI مُتمرّب: مُدرّب على business processes للمؤسسة، يطوّر software applications لاحتياجاتها (pricing quotes، logistics planning، sales opportunities). يعمل كـ assistant للفنيين الميدانيين لتشخيص equipment problems. بعد deploy، يتصل بأنظمة الشركة ويتكيّف مع تطور البيانات والعمليات.</p>
+      <p>النتائج: distributor وطني حقق <strong>200 مليون دولار</strong> مبيعات جديدة؛ industrial supply firm أتمت request-for-quote processes. للمبدعين العرب: فرصة لبناء «Lily integrations» لـ distribution وlogistics MENA، consulting لـ forward-deployed AI engineers، ودورات «AI teammate للصناعة» — vertical automation قبل أن يصبح Lily standard.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من InstaLILY Lily؟</h3>
+        <ul>
+          <li><strong>Vertical automation agency:</strong> نفّذ InstaWorkers/Lily لـ distributors وlogistics — مشروع 8000–40000 دولار + retainer.</li>
+          <li><strong>Process mapping consulting:</strong> حوّل workflows يدوية إلى Lily-ready — 3000–15000 دولار.</li>
+          <li><strong>دورات «AI teammate للصناعة»:</strong> bootcamp لـ operations teams — 249–899 دولار.</li>
+          <li><strong>Industry playbooks:</strong> بِع configs لـ HVAC، industrial supply، distribution — 199–599 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">InstaLILY</span>
+        <span class="tag">Lily</span>
+        <span class="tag">InstaWorkers</span>
+        <span class="tag">Enterprise Automation</span>
+        <span class="tag">Forward-Deployed Engineer</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Reo.Dev: 11.3 مليون دولار لالتقاط نوايا الشراء من وكلاء MCP — 100 مليون مهندس في Knowledge Graph!</h2>
+      <p class="article-lead">عندما وكيل AI يقرأ docs منتجك عبر MCP — من يعرف؟ Reo.Dev. Agent Intent Gateway يلتقط: ماذا سأل الوكيل، متى، وأي account يعود إليه. التقييم الذي كان يحدث في الظلام أصبح pipeline signal.</p>
+      <p>في 16–17 يوليو 2026، أعلنت <strong>Reo.Dev</strong> — Bengaluru/San Francisco — عن <strong>Series A</strong> بقيمة <strong>11.3 مليون دولار</strong> بقيادة Elevation Capital، مع Heavybit وIndia Quotient وUncorrelated Ventures. إجمالي التمويل: 15.3 مليون. أكثر من <strong>200</strong> شركة تستخدم المنصة: NVIDIA، LangChain، ElevenLabs، Couchbase، n8n، Temporal.</p>
+      <p><strong>Developer Knowledge Graph</strong>: أكثر من <strong>100 مليون</strong> engineer profile عبر 3000+ technology و250+ technical function. AI Signals من GitHub commits، CLI activity، package managers، documentation، product usage. <strong>Agent Intent Gateway</strong>: عندما وكيل يتفاعل مع منتجك عبر MCP — reading docs، calling API، running CLI — Reo.Dev يلتقط buying intent.</p>
+      <p>المؤسس <strong>Achintya Gupta</strong>: «When an agent interacts with your product through MCP, the evaluation that used to happen in the dark shows up in your pipeline as a signal you can act on.» للمبدعين العرب: فرصة لبناء «DevGTM consulting» لـ B2B SaaS MENA، DevGTM Academy content بالعربية، وintegrations مع Salesforce/HubSpot — قبل أن يصبح agent intent standard في كل GTM stack.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Reo.Dev؟</h3>
+        <ul>
+          <li><strong>DevGTM consulting:</strong> اضبط Reo.Dev + Agent Intent Gateway لـ SaaS — retainer 2000–8000 دولار/شهر.</li>
+          <li><strong>MCP instrumentation:</strong> ساعد products تُفعّل agent intent capture — مشروع 1500–7000 دولار.</li>
+          <li><strong>DevGTM Academy بالعربية:</strong> دورات selling to engineers — 79–399 دولار.</li>
+          <li><strong>Signal reports:</strong> newsletter عن developer buying trends MENA — اشتراك 19–79 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Reo.Dev</span>
+        <span class="tag">Agent Intent Gateway</span>
+        <span class="tag">Developer Knowledge Graph</span>
+        <span class="tag">MCP</span>
+        <span class="tag">DevGTM</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 20-07-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="20-07-2026 -- 08-AM.html">
+          📰 20 يوليو 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">CuspAI Materials Foundry · Emergent · InstaLILY Lily · Reo.Dev</small>
+        </a>
+      </li>
+"""
+
+
+def main():
+    edition_path = NEWS_DIR / FILENAME
+    edition_path.write_text(HTML, encoding="utf-8")
+
+    index_path = NEWS_DIR / "index.html"
+    index_content = index_path.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if INDEX_ENTRY.strip() not in index_content:
+        index_content = index_content.replace(marker, marker + INDEX_ENTRY)
+        index_path.write_text(index_content, encoding="utf-8")
+
+    print(f"Created: {edition_path}")
+    print(f"Updated: {index_path}")
+
+
+if __name__ == "__main__":
+    main()
