@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 23-07-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "23-07-2026 -- 12-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Fireworks AI، Chai Discovery، Spectro Cloud، State Affairs، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 23 يوليو 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من 17.5 مليار دولار لـ inference مخصّص إلى 3.8 مليار لتصميم الأدوية — الذكاء الاصطناعي يُحكم البنية التحتية والسياسة والعلوم معاً!</h1>
+      <p class="hero-sub">Fireworks AI يُحقق مليار دولار ARR و40 تريليون token يومياً، Chai Discovery يُصمّم جزيئات دوائية بـ 400 مليون دولار، Spectro Cloud يُدير GPU clusters للإنتاج، وState Affairs يدمج صحافة statehouse مع AI لرصد التشريعات. أربع ثورات عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 23 يوليو 2026</span>
+        <span>🕛 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Fireworks AI: 1.5 مليار دولار وvaluation 17.5 مليار — inference مخصّص يُحقق مليار دولار ARR و40 تريليون token يومياً!</h2>
+      <p class="article-lead">النماذج العامة رائعة — لكن الشركات التي تربح حقاً لا تستخدم GPT كما هو. تُخصّصه على بياناتها، تُحسّنه لمهمة واحدة، وتُشغّله على inference stack يُنافس frontier بـ 10% من التكلفة. Fireworks AI بنى هذه الطبقة — والسوق يُكافئها بـ valuation يتجاوز 17 مليار دولار.</p>
+      <p>في 16 يوليو 2026، أعلنت <strong>Fireworks AI</strong> عن <strong>Series D بقيمة 1.505 مليار دولار</strong> — valuation <strong>17.5 مليار دولار</strong> — بقيادة <strong>Atreides Management</strong> و<strong>Index Ventures</strong> و<strong>TCV</strong>، مع Nvidia وLightspeed وBessemer وMenlo Ventures وInsight Partners وOntario Teachers' Pension Plan و20VC وغيرهم.</p>
+      <p>الأرقام تُروي القصة: ARR تجاوز <strong>مليار دولار</strong> — نمو ~5× سنوياً — من ~315 مليون في فبراير إلى ~800 مليون في مايو ثم مليار في يوليو. المنصة تُخدم <strong>أكثر من 40 تريليون token يومياً</strong> — 95% منها من models مُخصّصة على بيانات proprietary ومُحسّنة لمهام محددة. عملاء مثل <strong>Cursor</strong> (coding models) و<strong>Harvey</strong> (legal AI) يبنون intelligence متخصصة على Fireworks.</p>
+      <p>المنصة تُحوّل general-purpose models إلى <strong>specialized intelligence</strong> عبر fine-tuning وoptimization على inference stack عالي الأداء. Fireworks أعلنت أيضاً <strong>Fireworks on Microsoft Foundry</strong> — أفضل open model inference على Azure — و<strong>acquisition لـ Hathora</strong> لتسريع global compute orchestration. للمبدعين العرب: consulting لـ custom model deployment، managed inference للـ startups، ودورات «من prompt إلى production model» — سوق enterprise inference ينمو مع كل شركة تُخصّص AI.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Fireworks AI وطبقة inference المخصّص؟</h3>
+        <ul>
+          <li><strong>Custom model deployment consulting:</strong> انشر models مُخصّصة للشركات العربية — مشروع 15000–75000 دولار.</li>
+          <li><strong>Arabic fine-tuning services:</strong> خصّص models للغة العربية والسياق المحلي — 8000–40000 دولار.</li>
+          <li><strong>دورات «Inference Engineering للمؤسسات»:</strong> bootcamp للـ ML teams — 199–999 دولار.</li>
+          <li><strong>Managed inference retainer:</strong> شغّل وحدّث models للعملاء — 3000–20000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Fireworks AI</span>
+        <span class="tag">Enterprise Inference</span>
+        <span class="tag">Custom Models</span>
+        <span class="tag">$1B ARR</span>
+        <span class="tag">Fine-Tuning</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Chai Discovery: 400 مليون دولار وvaluation 3.8 مليار — AI يُصمّم أدوية «undruggable» بدقة هندسة!</h2>
+      <p class="article-lead">اكتشاف الأدوية استغرق عقوداً: trial and error، ملايين التجارب، و90% فشل. Chai Discovery يقول: الأدوية الجديدة يجب أن تُصمَّم — لا تُكتشف بالصدفة. نماذج AI تُفكّر في البنية البيولوجية، تُولّد جزيئات من الصفر، وتُساعد pharma على targets «undruggable».</p>
+      <p>في 14 يوليو 2026، أعلنت <strong>Chai Discovery</strong> عن <strong>Series C بقيمة 400 مليون دولار</strong> — valuation <strong>3.8 مليار دولار</strong> — بقيادة <strong>Index Ventures</strong> مع Kleiner Perkins وSequoia Capital وDimension. مستثمرون جدد: Bain Capital Ventures وBattery Ventures وBaillie Gifford وSapphire Ventures. OpenAI وThrive Capital وMenlo Ventures وGeneral Catalyst شاركوا أيضاً.</p>
+      <p>المنصة تُسرّع <strong>pre-clinical drug discovery</strong> — تتنبأ وتُعيد برمجة تفاعلات الجزيئات. نموذج <strong>Chai-3</strong> — الجيل الثالث — يُوصف بـ «CAD suite للجزيئات الدوائية»: يُحسّن success rates وantibody binding affinity. شركاء نشطون: <strong>Eli Lilly</strong> و<strong>Pfizer</strong> و<strong>Novartis</strong> — آخرهم وقع alliance أسبوع الإعلان لتطوير antibodies ضد targets متعددة.</p>
+      <p>المؤسس <strong>Joshua Meier</strong> يقول: «AI drug discovery انتقل من promise إلى deployment». Chai تأسست 2024 — ثلاث جولات في أقل من سنتين. للمبدعين العرب: consulting لـ pharma MENA، training لـ computational biology teams، وcontent عن «AI في اكتشاف الأدوية» — سوق life sciences AI يُتوقع أن يتجاوز 10 مليار دولار بحلول 2030.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Chai Discovery وAI في اكتشاف الأدوية؟</h3>
+        <ul>
+          <li><strong>Pharma AI consulting MENA:</strong> ساعد مختبرات محلية على تبني AI molecular design — مشروع 20000–100000 دولار.</li>
+          <li><strong>Computational biology training:</strong> دورات «AI Drug Discovery 101» — 299–1499 دولار.</li>
+          <li><strong>Arabic science content:</strong> newsletters وpodcasts عن biotech AI — اشتراكات 9–49 دولار/شهر.</li>
+          <li><strong>Research translation services:</strong> ترجم وتلخّص papers عن molecular AI للفرق العربية — 500–3000 دولار/مشروع.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Chai Discovery</span>
+        <span class="tag">Drug Discovery</span>
+        <span class="tag">Chai-3</span>
+        <span class="tag">Biotech AI</span>
+        <span class="tag">Molecular Design</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Spectro Cloud: 100 مليون دولار — PaletteAI يُدير GPU clusters وAI factories من data center إلى edge!</h2>
+      <p class="article-lead">الشركات تشتري GPUs بملايين الدولارات — ثم تُشغّلها بـ 30% utilization وتُنفق fortunes على tokens بدون governance. Spectro Cloud من San Jose يبني control plane واحد: Kubernetes + GPU orchestration + token cost control + governance — من VMware migration إلى AI factory production.</p>
+      <p>في 15–16 يوليو 2026، أعلنت <strong>Spectro Cloud</strong> عن <strong>Series D بأكثر من 100 مليون دولار</strong> — oversubscribed — بقيادة <strong>Growth Equity at Goldman Sachs Alternatives</strong>، مع AMD Ventures وEricsson وLG Technology Ventures وMaximus. إجمالي التمويل: <strong>260 مليون دولار</strong>. Valuation يتجاوز مليار دولار.</p>
+      <p><strong>PaletteAI</strong> — أُطلق أكتوبر 2025 — يمنح platform teams وcloud providers <strong>operating model واحد</strong> يشمل GPU clusters وAI factories وdistributed inference. يدعم VMs وKubernetes وedge وregulated وair-gapped environments. <strong>Launchpads</strong> للبدء السريع: VMware migration، token cost control، edge modernization — ثم scale إلى enterprise-wide governance. Architecture مُ validated من NVIDIA لـ AI factory deployments.</p>
+      <p>عملاء: <strong>U.S. Air Force</strong> و<strong>T-Mobile</strong> و<strong>Airbus</strong> و<strong>Yum Brands</strong>. التوسع المُخطّط: أوروبا والشرق الأوسط وAsia-Pacific. للمبدعين العرب: consulting لـ sovereign cloud AI infrastructure، MENA deployment partner، ودورات «Production AI Infrastructure» — Gartner يتوقع 2.59 تريليون دولار AI spend، معظمها hardware — software layer يستخرج القيمة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Spectro Cloud وإدارة بنية AI التحتية؟</h3>
+        <ul>
+          <li><strong>Sovereign cloud AI setup:</strong> نشر PaletteAI للجهات الحكومية MENA — مشروع 25000–120000 دولار.</li>
+          <li><strong>Token cost optimization:</strong> قلّل تكلفة LLM inference للشركات — retainer 3000–18000 دولار/شهر.</li>
+          <li><strong>دورات «GPU Fleet Management»:</strong> workshop للـ platform engineers — 249–1199 دولار.</li>
+          <li><strong>VMware-to-AI migration:</strong> انقل workloads legacy إلى AI-ready infrastructure — 15000–80000 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Spectro Cloud</span>
+        <span class="tag">PaletteAI</span>
+        <span class="tag">AI Infrastructure</span>
+        <span class="tag">GPU Orchestration</span>
+        <span class="tag">Sovereign Cloud</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>State Affairs: 70 مليون دولار — صحافة statehouse + AI knowledge graph لرصد 50 ولاية!</h2>
+      <p class="article-lead">في عالم AI، معظم الشركات تُهمل journalism — وتعتمد على scraping. State Affairs يفعل العكس: يُوظّف صحفيين داخل capitols، يجمع exclusive reporting يومياً، ويُغذّي knowledge graph AI يُتتبع كل bill وregulation وhearing عبر 50 ولاية والكونgress. Thiel وKhosla يُمولان — والمنتج enterprise-ready.</p>
+      <p>في 14 يوليو 2026، أعلنت <strong>State Affairs</strong> عن <strong>70 مليون دولار</strong> إجمالي تمويل — بقيادة <strong>Khosla Ventures</strong> و<strong>Founders Fund</strong> (Peter Thiel) وTru Arrow Partners وAlumni Ventures. مستثمرون بارزون: Marcus Brauchli (ex-Washington Post) وAlex Mather وAdam Hansmann (The Athletic founders) وRichard Sarnoff (KKR).</p>
+      <p>المنصة تجمع: <strong>embedded statehouse reporters</strong> — أكبر شبكة صحافة capitol في أمريكا؛ <strong>structured government data</strong> — كل bill وvote وamendment وregulation؛ <strong>AI intelligence layer</strong> — chat enterprise، comments، @mentions، share خارج الحساب. Workflow: Monitor → Analyze → Coordinate → Influence → Report. منتجات جديدة يونيو 2026: AI chat للـ Enterprise وcomments للـ Pro &amp; Enterprise.</p>
+      <p>الفكرة: policy يُشكّل markets وindustries وcapital allocation — والمؤسسات تحتاج real-time intelligence. Washington Post وصفها: «startup AI يُوظّف صحفيين محليين في statehouses» — نادر في tech. للمبدعين العرب: consulting لـ regulatory intelligence MENA، Arabic policy monitoring tools، ودورات «GovTech AI للمؤسسات» — كل سوق له تشريعات تتحرك بسرعة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من State Affairs وذكاء السياسات التنظيمية؟</h3>
+        <ul>
+          <li><strong>MENA regulatory intelligence:</strong> ابنِ أدوات رصد تشريعات محلية للشركات — مشروع 10000–50000 دولار.</li>
+          <li><strong>Policy brief automation:</strong> حوّل legislative noise إلى briefings للـ executives — retainer 2000–12000 دولار/شهر.</li>
+          <li><strong>دورات «GovTech AI للمؤسسات»:</strong> workshop لـ government affairs teams — 199–899 دولار.</li>
+          <li><strong>Arabic policy newsletters:</strong> رصد AI/regulation/tax في المنطقة — اشتراكات 15–99 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">State Affairs</span>
+        <span class="tag">Policy AI</span>
+        <span class="tag">GovTech</span>
+        <span class="tag">Regulatory Intelligence</span>
+        <span class="tag">Knowledge Graph</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 23-07-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
