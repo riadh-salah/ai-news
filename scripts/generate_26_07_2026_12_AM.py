@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 26-07-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "26-07-2026 -- 12-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Prentis، Prime Intellect، Norm AI، Trooly، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 26 يوليو 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من وكلاء يتحكمون بكل شاشة في مكتبك إلى محامين رقميين يُحكمون AI في البنوك — الذكاء الاصطناعي يُعيد تعريف «العمل المكتبي» في 2026!</h1>
+      <p class="hero-sub">Prentis — بقيادة Reid Hoffman وMark Pincus — يجمع 100 مليون دولار لوكلاء computer-use، Prime Intellect يُمكّن الشركات من تدريب agents خاصة بها، Norm AI يبني «قانوناً مُضمّناً» للـ AI المنظّم، وTrooly يُجرِي مقابلات 45 دقيقة مع المستهلكين حول العالم. أربع ثورات عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 26 يوليو 2026</span>
+        <span>🕛 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Prentis: Reid Hoffman وMark Pincus يجمعان 100 مليون دولار — وكيل AI يُحرّك الماوس ويُنجز مهام المكتب!</h2>
+      <p class="article-lead">تخيّل أن يفتح وكيل AI برنامج Excel، يُراجع فاتورة، يُدخل بيانات في CRM، ويُرسل email تأكيد — كل ذلك بمشاهدة كيف يعمل الموظفون فعلياً، لا بمجرد «كتابة prompt». Prentis يبني computer-use models تُنافس GPT-5.4 وClaude Opus 4.6 على benchmarks حقيقية — بـ 10× تكلفة أقل. والسوق يُصدّق بـ 100 مليون دولار وvaluation مليار دولار في 3 أشهر فقط!</p>
+      <p>في يوليو 2026، دخلت <strong>Prentis</strong> — مختبر AI جديد — مفاوضات متقدمة لجولة <strong>100 مليون دولار</strong> بـ valuation <strong>مليار دولار</strong>. المؤسسون: <strong>Reid Hoffman</strong> (LinkedIn)، <strong>Mark Pincus</strong> (Zynga)، و<strong>Ritankar Das</strong>. أُطلقت في أبريل 2026 — أي قبل 3 أشهر فقط — لكنها وقعت عقوداً بقيمة تصل إلى <strong>50 مليون دولار</strong> مع عملاء في healthcare وmanufacturing وclothing.</p>
+      <p>النموذج <strong>Hive-32B</strong> يتفوّق على GPT-5.4 وClaude Opus 4.6 في <strong>WindowsAgentArena</strong> (إنجاز مهام end-to-end على Windows حقيقي) و<strong>ScreenSpot-v2</strong> (تحديد عناصر الشاشة بدقة). نموذج أصغر، تكلفة أقل — فلسفة «efficiency beats scale» في عصر computer-use. نموذج الإيرادات: <strong>20% من التوفير المُحقَّق</strong> — performance-based pricing يُشجّع على نتائج حقيقية لا demos.</p>
+      <p>TechCrunch وصف Prentis كـ «automating everyday office tasks will soon outpace coding as AI's biggest use case». المنافسة: Anthropic (استحوذت على Vercept)، OpenAI، وThinking Machines Lab. للمبدعين العرب: consulting لـ workflow automation، training لـ office teams، وcontent عن «كيف تُ automate عملك بدون برمجة» — سوق computer-use agents ينفجر في 2026.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Prentis وثورة computer-use agents؟</h3>
+        <ul>
+          <li><strong>Office automation consulting:</strong> حلّل workflows وصمّم agent deployments للشركات — 5000–40000 دولار/مشروع.</li>
+          <li><strong>Workflow audit service:</strong> حدّد المهام القابلة للأتمتة وقدّر ROI — 2000–15000 دولار/تقرير.</li>
+          <li><strong>دورات «Computer-Use AI للمكاتب»:</strong> bootcamp عربي — 199–899 دولار.</li>
+          <li><strong>MENA RPA + AI agency:</strong> نفّذ أتمتة مكتبية للـ SMBs — retainer 1500–12000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Prentis</span>
+        <span class="tag">Computer-Use AI</span>
+        <span class="tag">Reid Hoffman</span>
+        <span class="tag">Hive-32B</span>
+        <span class="tag">$1B Valuation</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Prime Intellect: 130 مليون دولار وvaluation مليار — كل شركة تستحق AI agents خاصة بها!</h2>
+      <p class="article-lead">لماذا تستأجر ذكاءً من OpenAI أو Anthropic بينما يمكنك تدريب agents على بياناتك وقواعدك؟ Prime Intellect يبني البنية التحتية: compute، reinforcement learning، وdeployment — لتُصبح كل enterprise «AI lab» مصغّر. 130 مليون دولار Series A، 100 مليون دولار ARR، و6000 عميل — والمستثمرون من NVIDIA وIntel وDell.</p>
+      <p>في 8 يوليو 2026، أعلنت <strong>Prime Intellect</strong> عن <strong>Series A بقيمة 130 مليون دولار</strong> — valuation <strong>مليار دولار</strong> — بقيادة <strong>Radical Ventures</strong>. المشاركون: <strong>NVIDIA Ventures</strong>، <strong>Intel Capital</strong>، <strong>Dell Technologies Capital</strong>، <strong>Iconiq</strong>، وangels من Aravind Srinivas (Perplexity)، Aaron Levie (Box)، Winston Weinberg (Harvey)، Jeff Wang (Cognition)، وBrendan Foody (Mercor).</p>
+      <p>المنصة تُوفّر: <strong>compute access</strong> لتدريب نماذج مخصصة، <strong>RL tools</strong> لتحسين agents، و<strong>deployment infrastructure</strong> للإنتاج. الفلسفة: «own your intelligence» — لا dependency على frontier labs. ARR تجاوز <strong>100 مليون دولار</strong> قبل الجولة — إثبات أن enterprises تدفع لـ AI infrastructure حقيقي.</p>
+      <p>TechCrunch وSiliconANGLE وصفا Prime Intellect كـ «help enterprises build their own AI agents». عندما data sensitivity وcompliance يمنعان استخدام APIs عامة، custom-trained agents تصبح ضرورة. للمبدعين العرب: consulting لـ custom AI training، implementation لـ MENA enterprises، ودورات «Train Your Own Agent» — كل bank وinsurance وhealthcare تحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Prime Intellect وAI training infrastructure؟</h3>
+        <ul>
+          <li><strong>Custom agent training:</strong> درّب agents على بيانات العملاء — 10000–80000 دولار/مشروع.</li>
+          <li><strong>Enterprise AI infrastructure setup:</strong> نفّذ compute وRL pipeline — 15000–60000 دولار.</li>
+          <li><strong>دورات «Own Your AI»:</strong> workshop للـ CTOs — 299–1499 دولار/مشارك.</li>
+          <li><strong>Managed AI training retainer:</strong> fine-tune وdeploy models شهرياً — 4000–25000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Prime Intellect</span>
+        <span class="tag">Custom AI Training</span>
+        <span class="tag">Enterprise Agents</span>
+        <span class="tag">RL Infrastructure</span>
+        <span class="tag">$100M ARR</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Norm AI: 120 مليون دولار وvaluation 1.2 مليار — «القانون المُضمَّن» لعصر AI المنظّم!</h2>
+      <p class="article-lead">عندما يُ deploy AI في بنك أو صندوق استثمار أو شركة تأمين — من يضمن أنه يلتزم بالقوانين؟ Norm AI لا يُقدّم chatbot قانوني — بل يُضمّن القانون داخل AI agents: supervisory agents تُراقب، تُصحّح، وتُوقف violations قبل أن تصل للعملاء. 120 مليون دولار Series C، 260 مليون دولار إجمالي، وعملاء يُمثّلون 30 تريليون دولار assets under management.</p>
+      <p>في 7 يوليو 2026، أعلنت <strong>Norm AI</strong> عن <strong>Series C بقيمة 120 مليون دولار</strong> — valuation <strong>1.2 مليار دولار</strong> — بقيادة <strong>Khosla Ventures</strong> (أول مستثمر مؤسسي في OpenAI). المشاركون: <strong>Blackstone</strong>، <strong>Bain Capital Ventures</strong>، <strong>Craft Ventures</strong>، <strong>Coatue</strong>، <strong>Vanguard</strong>، <strong>New York Life</strong>، <strong>TIAA</strong>، Tony James (Blackstone)، Jeff Hammes (Kirkland &amp; Ellis)، وFenwick LLP.</p>
+      <p>المنصة تبني <strong>agentic law</strong>: أنظمة تُ govern كيف يعمل AI في بيئات regulated عالية المخاطر. <strong>Norm Law</strong> — أول مكتب محاماة AI-native للعملاء المؤسسيين. Supervisory agents تُراقب deployments enterprise وتُ enforce compliance في real-time. التمويل يُسرّع hiring، توسيع practice areas، وتطوير supervisory agents.</p>
+      <p>PR Newswire وصف Norm AI كـ «full-stack model for legal AI». عندما EU AI Act وregulations الأمريكية تُلزم enterprises بـ AI governance، Norm يُ positioning كـ «compliance layer» لا «legal chatbot». للمبدعين العرب: consulting لـ AI compliance MENA، training لـ legal وcompliance teams، وcontent عن «كيف تُ deploy AI في sector منظّم».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Norm AI وحوكمة AI القانونية؟</h3>
+        <ul>
+          <li><strong>AI compliance consulting:</strong> صمّم governance frameworks للشركات المنظّمة — 8000–50000 دولار/مشروع.</li>
+          <li><strong>Regulatory AI audit:</strong> راجع deployments AI مقابل EU AI Act وlocal laws — 10000–45000 دولار.</li>
+          <li><strong>دورات «Legal AI &amp; Compliance»:</strong> bootcamp للـ legal ops — 349–1699 دولار.</li>
+          <li><strong>MENA regulated AI retainer:</strong> راقب compliance شهرياً — 3500–20000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Norm AI</span>
+        <span class="tag">Legal AI</span>
+        <span class="tag">AI Compliance</span>
+        <span class="tag">Agentic Law</span>
+        <span class="tag">$1.2B Valuation</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Trooly: 20 مليون دولار — AI يُجرِي مقابلات 45 دقيقة مع المستهلكين حول العالم!</h2>
+      <p class="article-lead">استطلاعات 5 أسئلة لا تكفي. Trooly يُجري مقابلة in-depth لمدة 45 دقيقة مع أي مستهلك في العالم — وengine ذكي يُقرّر السؤال التالي بناءً على ما قاله فعلياً، لا script ثابت. النتيجة: insights بعمق باحث senior، بسرعة وتكلفة جزء من التقليدي. 20 مليون دولار seed وbeta عام في أمريكا الشمالية.</p>
+      <p>في 23 يوليو 2026، أطلقت <strong>Trooly</strong> من Wilmington منصة <strong>AI-native user research</strong> وفتحت <strong>public beta</strong> في أمريكا الشمالية — مدعومة بـ <strong>nearly 20 مليون دولار seed</strong>. الفلسفة: «Make User's Voice Matter» — optimize for depth لا quantity.</p>
+      <p>المنصة: <strong>intelligent follow-up engine</strong> يُقرّر كل سؤال تالي في real-time، <strong>multimodal voice-agent</strong> للمحادثات الطبيعية، و<strong>global panel</strong> من المشاركين. 45 دقيقة = information density عالية عندما المُقابل يُ follow up بذكاء. التمويل يذهب لـ R&amp;D، بناء panel عالمي، وتوسيع في industries عالية-stakes.</p>
+      <p>PR Newswire وصف Trooly كـ «depth of a senior research interview at a fraction of the time and cost». للمبدعين العرب: agency لـ AI user research، consulting لـ product teams، ودورات «User Research with AI» — كل startup وbrand يحتاج customer insights قبل launch.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Trooly وثورة AI user research؟</h3>
+        <ul>
+          <li><strong>AI research agency:</strong> نفّذ studies للعملاء — 3000–25000 دولار/مشروع.</li>
+          <li><strong>Product insight consulting:</strong> حلّل interviews وقدّم recommendations — 5000–35000 دولار.</li>
+          <li><strong>دورات «AI User Research»:</strong> workshop للـ PMs — 149–699 دولار/مشارك.</li>
+          <li><strong>MENA consumer panel service:</strong> وصل brands بمشاركين عرب — 2000–15000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Trooly</span>
+        <span class="tag">User Research AI</span>
+        <span class="tag">Voice Agents</span>
+        <span class="tag">Consumer Insights</span>
+        <span class="tag">$20M Seed</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 26-07-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
