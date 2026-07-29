@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 29-07-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "29-07-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Encore AI، Freehand، Modus، Rime، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 29 يوليو 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من «تعدين المحادثات» الذي يُقلّد أفضل موظفيك، إلى وكلاء يُديرون سلاسل التوريد بـ 75 مليون دولار — الذكاء الاصطناعي يُحوّل كل مكالمة وكل فاتورة إلى فرصة ذهبية!</h1>
+      <p class="hero-sub">Encore AI يجمع 30 مليون دولار لـ «interaction mining» من مكالمات العملاء، Freehand يضع وكلاء AI على عرش procurement بـ 75 مليون دولار مع Meta وPfizer، Modus يُطلق Context Warehouse لتقليل تكلفة tokens بـ 10×، وRime تُبني speech-to-speech لـ Mayo Clinic وUpstart. أربع ثورات عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 29 يوليو 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Encore AI: 30 مليون دولار — وكيل AI يتعلّم من مكالماتك ويُقلّد أفضل موظفيك!</h2>
+      <p class="article-lead">تخيّل أن يستمع AI لآلاف مكالمات المبيعات والدعم، يكتشف أي joke نجح مع العملاء، أي anecdote أغلقت الصفقة، وأي tactic أطال المكالمة بلا فائدة — ثم يبني agent يُطبّق «playbooks» الفائزة تلقائياً. Encore AI لا يُدرب على scripts عامة — بل على تاريخ محادثاتك الحقيقية. 30 مليون دولار Series A، ARR ×5 في 18 شهراً، و40+ عميل enterprise — معظمها بنوك ومؤسسات مالية!</p>
+      <p>في 29 يوليو 2026، أعلنت <strong>Encore AI</strong> — سابقاً Insait IO — عن <strong>Series A بقيمة 30 مليون دولار</strong> بقيادة <strong>Team8</strong>. المشاركون: Planven، Lukatz، Garage، وبنوك ومؤمنون استخدموا المنتج قبل أن يستثمروا. المؤسس <strong>Dvir Ginzburg</strong> بدأ في 2022 ببرمجيات توصيات لـ financial advisers — واليوم يُطلق ثورة «interaction mining».</p>
+      <p>المنصة تجمع: تسجيلات مكالمات، emails، رسائل نصية، وبيانات CRM. تُقسّم كل تفاعل إلى stages، وتكتشف أي جزء من المحادثة دفع العملية للأمام وأي جزء فشل. النتيجة: agent يُجمّع أفضل playbooks من موظفيك — أحياناً يُعيد نفس النكات والأمثلة التي نجحت مع عملاء حقيقيين!</p>
+      <p>Encore تُقدّم وضعين: agents مستقلة تتواصل صوتاً أو نصاً مع العملاء، وassistants للموظفين تُوصي بردود وتكتيكات أثناء المكالمة live. TechCrunch وصف Encore كـ «AI agents that learn from customer calls». المنافسة: Salesforce وHubSpot — لكن Ginzburg يُ argue أن giants لا يستغلون conversational history كـ data foundation. للمبدعين العرب: consulting لـ voice AI في finance، training لـ sales teams، وcontent عن «interaction mining» — كل bank وinsurance في MENA يحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Encore AI وثورة interaction mining؟</h3>
+        <ul>
+          <li><strong>Voice AI sales consulting:</strong> نفّذ interaction mining للشركات — 5000–35000 دولار/مشروع.</li>
+          <li><strong>Call analytics audit:</strong> حلّل recordings واستخرج playbooks — 3000–20000 دولار/تقرير.</li>
+          <li><strong>دورات «AI Voice Sales»:</strong> bootcamp عربي للـ sales teams — 199–899 دولار.</li>
+          <li><strong>MENA financial voice AI retainer:</strong> deploy وصِيان agents — 2500–15000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Encore AI</span>
+        <span class="tag">Interaction Mining</span>
+        <span class="tag">Voice Agents</span>
+        <span class="tag">Financial Services</span>
+        <span class="tag">$30M Series A</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Freehand: 75 مليون دولار — وكلاء AI يُديرون فواتير Meta وPfizer وUnilever!</h2>
+      <p class="article-lead">فاتورة supplier خاطئة بـ 50,000 دولار تمرّ دون مراجعة. عقد بأسعار قديمة يُدفع عليه شهراً بعد شهر. Freehand يضع AI agents على عرش supply-chain spend: يقرأ contracts، يُفاوض suppliers، يكتشف overbilling، يُعالج payments، ويُ reconcile داخل ERP — لا يُ advise فقط، بل يُ act ويتحمّل accountability. 75 مليون دولار، وعملاء من Meta وJohnson &amp; Johnson وDunkin'!</p>
+      <p>في يوليو 2026، جمعت <strong>Freehand</strong> <strong>75 مليون دولار</strong> بقيادة مشتركة من <strong>Battery Ventures</strong> و<strong>NewRoad Capital Partners</strong>. المشاركون: Nexus Venture Partners وPSP Growth (Penny Pritzker، ex-US Commerce Secretary). المؤسس <strong>Nitin Jayakrishnan</strong> — سابقاً Pando logistics — يبني «AI agents that decide, act and take accountability for outcomes».</p>
+      <p>Freehand بدأت من stealth في فبراير 2026 — لكن roster العملاء blue-chip: Meta، Unilever، Johnson &amp; Johnson، Pfizer، Dunkin'، Cardinal Health. Agents تقرأ contracts، تُفاوض rates، تكتشف overbilling، تُعالج invoices، وتُ reconcile في ERP systems — work كان يعتمد على legacy software وoutsourced teams ضخمة.</p>
+      <p>The Next Web وصف Freehand كـ «AI agents in charge of supply-chain spend». المنافسة: Pivot ($40M procurement) وLevelpath — لكن Freehand يُ positioning كـ infrastructure لـ global supply chains. الخطة: التوسع من invoice checking إلى كل supply-chain processes. للمبدعين العرب: consulting لـ procurement automation، implementation لـ MENA enterprises، ودورات «AI Supply Chain» — كل manufacturer وretailer يحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Freehand وثورة supply-chain AI agents؟</h3>
+        <ul>
+          <li><strong>Procurement AI consulting:</strong> نفّذ invoice automation للشركات — 8000–50000 دولار/مشروع.</li>
+          <li><strong>Supply chain audit:</strong> حدّد overbilling وcontract inefficiencies — 5000–30000 دولار/تقرير.</li>
+          <li><strong>دورات «AI Procurement»:</strong> workshop للـ finance teams — 249–1299 دولار/مشارك.</li>
+          <li><strong>MENA supply-chain AI retainer:</strong> راقب invoices وcontracts شهرياً — 4000–25000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Freehand</span>
+        <span class="tag">Supply Chain AI</span>
+        <span class="tag">Procurement Agents</span>
+        <span class="tag">Invoice Automation</span>
+        <span class="tag">$75M Funding</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Modus: 10 مليون دولار — Context Warehouse يُقلّل tokens بـ 10× ويُغلق «فجوة السياق»!</h2>
+      <p class="article-lead">ربط AI بكل بيانات شركتك لا يجعله أذكى — بل يُغرقه في noise ويُفجر فاتورة tokens. Modus يبني «Context Warehouse»: طبقة infrastructure تتعلّم كيف تعمل مؤسستك فعلياً — من dashboards التي يعتمد عليها analysts، إلى source code وinternal conversations — وتُقدّم للـ agent فقط السياق relevant لكل task. 10 مليون دولار seed من Insight Partners، ومؤسسون من Cyera وLusha!</p>
+      <p>في 29 يوليو 2026، خرجت <strong>Modus</strong> من stealth بـ <strong>10 مليون دولار seed</strong> بقيادة <strong>Insight Partners</strong>. المشاركون: Soma Capital، Bullet Ventures، Eyal Kishon، Nadav Avrami (Wix/Dazl)، مؤسسو Cyera، ومؤسسو Epsagon. المؤسسان: <strong>Daniel Shimoni</strong> (CEO) و<strong>Tomer Mesika</strong> (CTO) — خبرة في data وenterprise infrastructure.</p>
+      <p>Modus تُسمّي المشكلة «Context Gap»: agents تُ retrieve أكثر tokens من اللازم، responses أبطأ، تكلفة أعلى، وaccuracy أقل. الحل: <strong>Context Warehouse</strong> — يحلل queries المتكررة، dashboards، documents، pipelines، وconversations — ويُ compose فقط السياق relevant. النتيجة: <strong>تقليل retrieval وtoken consumption حتى 10×</strong>.</p>
+      <p>المنصة model-agnostic، تعمل مع MCP، وتُ enforce governance قبل وصول البيانات للـ model. Insight Partners وصف Modus كـ «defining the Context Warehouse category». عندما data warehouses أصبحت foundation لـ enterprise data، Context Warehouse قد تصبح foundation لـ enterprise AI. للمبدعين العرب: consulting لـ AI context architecture، implementation لـ MCP integrations، ودورات «Enterprise AI Context» — كل CTO يُ deploy agents يحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Modus وثورة Context Warehouse؟</h3>
+        <ul>
+          <li><strong>AI context architecture:</strong> صمّم Context Warehouse للشركات — 10000–60000 دولار/مشروع.</li>
+          <li><strong>Token optimization audit:</strong> حلّل AI spend وقلّل retrieval costs — 5000–25000 دولار/تقرير.</li>
+          <li><strong>دورات «MCP &amp; Context Layer»:</strong> workshop للـ AI engineers — 299–1499 دولار/مشارك.</li>
+          <li><strong>Managed context retainer:</strong> صِيان governance وcontext pipelines — 3500–20000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Modus</span>
+        <span class="tag">Context Warehouse</span>
+        <span class="tag">Enterprise AI</span>
+        <span class="tag">MCP</span>
+        <span class="tag">10x Token Savings</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Rime: 24 مليون دولار — speech-to-speech يُشغّل 100 مليون مكالمة شهرياً لـ Mayo Clinic وUpstart!</h2>
+      <p class="article-lead">في healthcare وfintech، خطأ في نطق drug name أو financial product يُنهي الثقة — لا مجرد «صوت طبيعي». Rime تبني speech-to-speech models مُصمَّمة للمحادثات عالية المخاطر: latency منخفض، turn-taking ذكي، HIPAA compliance، وpronunciation دقيق للمصطلحات المعقدة. 24 مليون دولار Series A، 100 مليون مكالمة/شهر، وعملاء من Mayo Clinic وDialpad وAsurion!</p>
+      <p>في 15 يوليو 2026، أعلنت <strong>Rime</strong> عن <strong>Series A بقيمة 24 مليون دولار</strong> بقيادة <strong>M13</strong>. المشاركون: Twilio Ventures، Corazon Capital، Unusual Ventures، Cadenza Ventures. المؤسسة: <strong>Lily Clifford</strong> (Stanford linguistics PhD)، <strong>Brooke Larson</strong> (ex-Amazon Alexa)، و<strong>Ares Geovanis</strong>. Chief Scientist الجديد: <strong>Rafael Valle</strong> (ex-Meta Superintelligence Labs، NVIDIA ADLR).</p>
+      <p>Rime انتقلت من pipeline منفصل (STT + LLM + TTS) إلى <strong>speech-to-speech end-to-end</strong> — latency أقل، turn-taking أفضل، noise handling أذكى، orchestration أبسط. Models تُدرَّب على conversational data تُسجّله Rime — تقليل customization load على العملاء. Traction: healthcare (Mayo Clinic)، fintech (Upstart)، airlines، food service — <strong>100 مليون مكالمة/شهر</strong>.</p>
+      <p>TechCrunch وصف Rime كـ «ChatGPT of voice» للـ enterprise regulated. Oracle Cloud Infrastructure partnership أعطى 3× price-performance لـ healthcare workloads. Together AI hosting يُوفّر latency &lt;700ms. للمبدعين العرب: consulting لـ voice AI في healthcare/fintech، implementation لـ Arabic voice agents، ودورات «Speech-to-Speech AI» — كل hospital وbank في MENA يحتاج voice infrastructure موثوق.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Rime وثورة enterprise speech-to-speech؟</h3>
+        <ul>
+          <li><strong>Healthcare voice AI:</strong> نفّذ appointment scheduling وRCM agents — 10000–70000 دولار/مشروع.</li>
+          <li><strong>Fintech voice deployment:</strong> بناء customer service agents compliant — 8000–55000 دولار.</li>
+          <li><strong>دورات «Regulated Voice AI»:</strong> bootcamp للـ healthcare/fintech — 349–1699 دولار.</li>
+          <li><strong>MENA voice AI retainer:</strong> deploy وmonitor speech models — 4000–22000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Rime</span>
+        <span class="tag">Speech-to-Speech</span>
+        <span class="tag">Healthcare Voice AI</span>
+        <span class="tag">HIPAA</span>
+        <span class="tag">$24M Series A</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 29-07-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
