@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 31-07-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "31-07-2026 -- 08-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Simile، Smallest.ai، Dili، Pangram Labs، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 31 يوليو 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من توأم رقمي للبشر إلى صوت يُفكّر ويستمع في آنٍ واحد — أربع ثورات تُعيد رسم اقتصاد AI في يوليو 2026!</h1>
+      <p class="hero-sub">Simile يُحقّق يونيكورن بـ 200 مليون دولار في 5 أشهر فقط، Smallest.ai يُطلق Hydra لصوت full-duplex بلا تأخير، Dili يحمي مليارات تمويل البنية التحتية بامتثال AI، وPangram Labs يُحارب «AI slop» بكشف النص والصور بدقة 99%. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 31 يوليو 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Simile: 200 مليون دولار بقيمة 2 مليار — عندما يصبح «الإنسان الافتراضي» أغلى من الاستطلاع الحقيقي!</h2>
+      <p class="article-lead">تخيّل أن تختبر حملة تسويقية أو قراراً دوائياً أو استراتيجية سياسية — قبل أن تُنفّذ في الواقع — عبر ملايين «توائم رقميين» يُحاكون سلوك البشر بدقة مُذهلة. Simile لا يُجري استطلاعات؛ بل يُشغّل محاكاة تنبؤية على نطاق Fortune 100. 200 مليون دولار Series B بقيمة 2 مليار دولار — بعد 100 مليون Series A قبل 5 أشهر فقط!</p>
+      <p>في 30 يوليو 2026، أعلنت <strong>Simile</strong> من سان فرانسisco عن <strong>Series B بقيمة أكثر من 200 مليون دولار</strong> بقيمة <strong>2 مليار دولار post-money</strong>. الجولة بقيادة <strong>Greenoaks</strong>، مع Index Ventures (ضاعف استثماره)، Hanabi، Bain Capital Ventures، A*، Factory، Definition، و<strong>CVS Health Ventures</strong> — الذي يُعدّ أيضاً من أبرز العملاء.</p>
+      <p>المؤسس <strong>Joon Sung Park</strong> — خريج Stanford PhD — بنى Simile على أطروحته «Smallville» حيث agents AI عاشوا حياة بشرية محاكاة. المنصة: <strong>foundation model لسلوك الإنسان</strong> — نفّذت عشرات الملايين من المحاكاات لـ Fortune 100. منتج جديد: <strong>confidence model</strong> يتنبّأ بدقة كل simulation — أول منتج يتيح للمؤسسات «التنبّؤ بالمستقبل» بشكل قابل للتحقق.</p>
+      <p>الإيرادات نمت <strong>5×</strong> منذ الإطلاق قبل 5 أشهر. العملاء: Wealthfront، Gallup (نمذجة اتجاهات السياسات)، CVS Health (تحسين التزام المرضى بالأدوية). TechCrunch وصف Simile كـ «fast-and-furious AI unicorn». المنافسون: Aaru — لكن Simile تتقدّم بسرعة تمويل غير مسبوقة. للمبدعين العرب: consulting لـ synthetic research، products للـ MENA market testing، وcontent عن «كيف تختبر أفكارك قبل الإطلاق».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Simile وثورة المحاكاة التنبؤية؟</h3>
+        <ul>
+          <li><strong>Synthetic research consulting:</strong> صمّم محاكاات لاختبار منتجات وحملات — 8000–50000 دولار/مشروع.</li>
+          <li><strong>MENA market simulation:</strong> اختبر استراتيجيات للأسواق العربية قبل الإطلاق — 5000–35000 دولار.</li>
+          <li><strong>دورات «Predict Before You Launch»:</strong> bootcamp للمسوّقين وproduct managers — 199–899 دولار.</li>
+          <li><strong>Agency for synthetic users:</strong> خدمة محاكاة لـ SMBs — retainer 2000–12000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Simile</span>
+        <span class="tag">Synthetic Users</span>
+        <span class="tag">$2B Valuation</span>
+        <span class="tag">Greenoaks</span>
+        <span class="tag">Predictive Simulation</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Smallest.ai: 13 مليون دولار — Hydra يُنهي عصر «الصوت الروبوتي» بمعمارية Voice 4.0!</h2>
+      <p class="article-lead">الصوت AI التقليدي: استمع → فكّر → تحدّث — بالتسلسل. النتيجة؟ تأخير، مقاطعات غير طبيعية، ومحادثات «روبوتية». Smallest.ai يُغيّر القواعد: Hydra يُعالج الاستماع والتفكير والرد <strong>بالتوازي</strong> — full-duplex بزمن استجابة بالميلي ثانية. 13 مليون دولار Series A — وإجمالي 21 مليون دولار!</p>
+      <p>في 30 يوليو 2026، أعلنت <strong>Smallest.ai</strong> (Smallest Inc.) عن <strong>Series A بقيمة 13 مليون دولار</strong> بقيادة <strong>Seligman Ventures</strong>، مع Sierra Ventures و3one4 Capital — إجمالي <strong>أكثر من 21 مليون دولار</strong>. المؤسسان: <strong>Sudarshan Kamath</strong> (CEO) و<strong>Akshat Mandloi</strong>. الشركة ~60 موظفاً وتخطّط للتوسع.</p>
+      <p>المنتج <strong>Hydra</strong>: speech-to-speech model على معمارية <strong>Voice 4.0</strong> — asynchronous، يُعالج listening وreasoning وactions وresponse <strong>concurrently</strong>. ليس chain من STT → LLM → TTS — بل world model في latent space يُضغّط الصوت ويُنتج رداً طبيعياً. يدعم <strong>38 لغة</strong>، speaker diarization، emotion detection، وPII/PCI redaction تلقائي.</p>
+      <p>العملاء: RingCentral، Truecaller، Readymode — بعضهم أبلغ عن <strong>تخفيض 80%</strong> في تكاليف دعم العملاء. السوق العالمي للـ voice AI: من 2.4 مليار إلى 47.5 مليار دولار بحلول 2034. SiliconANGLE وصف Hydra كـ «paradigm shift». للمبدعين العرب: voice agent deployment، contact center AI للـ MENA، ودورات «Build Natural Voice AI».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Smallest.ai وثورة الصوت الطبيعي؟</h3>
+        <ul>
+          <li><strong>Voice agent implementation:</strong> نفّذ Hydra للشركات — 6000–40000 دولار/مشروع.</li>
+          <li><strong>Arabic voice AI products:</strong> contact center وIVR ذكي بالعربية — 3000–25000 دولار.</li>
+          <li><strong>دورات «Full-Duplex Voice AI»:</strong> workshop للمطورين — 179–799 دولار.</li>
+          <li><strong>Managed voice AI retainer:</strong> تشغيل وصيانة agents — 1500–9000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Smallest.ai</span>
+        <span class="tag">Hydra</span>
+        <span class="tag">Voice 4.0</span>
+        <span class="tag">Full-Duplex</span>
+        <span class="tag">$21M Total</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Dili: 21.7 مليون دولار — AI يحمي مليارات تمويل البنية التحتية من غرامات الامتثال!</h2>
+      <p class="article-lead">مراكز بيانات AI، مشاريع طاقة نظيفة، مصانع متقدمة — كلها تحتاج امتثالاً لقوانين الأجور والتدريب المهني. خطأ واحد = ملايين غرامات واسترداد tax credits. Dili يُ automates 100% من بيانات المشروع في الوقت الفعلي — لا sampling. 700+ مشروع فدرالي، 1.4 مليار دولار أجور معالجة، وأكثر من مليار دولار تمويل محمي!</p>
+      <p>في 30 يوليو 2026، أعلنت <strong>Dili</strong> من نيويورك عن <strong>Series A بقيمة 15 مليون دولار</strong> — إجمالي <strong>21.7 مليون دولار</strong>. الجولة بقيادة <strong>Khosla Ventures</strong>، مع Allianz، Rebel Fund، Brick and Mortar (Darren Bechtel)، وGarry Tan (YC). المؤسسان: <strong>Anand Chaturvedi</strong> (CEO) و<strong>Brian Fernandez</strong> (CTO) — YC S23.</p>
+      <p>المنصة: <strong>AI-native compliance</strong> للطاقة، البنية التحتية، البناء، والتصنيع المتقدم. تُ automates: prevailing wage tracking، apprenticeship monitoring، Davis-Bacon compliance، certified payroll review، وaudit-ready reporting. تفحص <strong>100% من البيانات</strong> — لا عينات. قوانين IRA وPWA وOSHA وEPA — tangled web يُحلّه AI.</p>
+      <p>العملاء: EDF، Radiance، Heelstone، Borea. Chaturvedi: «Non-compliance can result in millions of dollars of fines». Startup Fortune وصف Dili كـ «boring paperwork becomes the product — in infrastructure, boring is where the money is». للمبدعين العرب: consulting لـ compliance في مشاريع MENA، products للـ construction tech، ودورات «AI for Regulated Industries».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Dili وثورة امتثال البنية التحتية؟</h3>
+        <ul>
+          <li><strong>Compliance automation consulting:</strong> نفّذ Dili-like workflows — 10000–60000 دولار/مشروع.</li>
+          <li><strong>MENA construction compliance:</strong> حلول للمشاريع الحكومية والطاقة — 8000–45000 دولار.</li>
+          <li><strong>دورات «AI Compliance for Infrastructure»:</strong> workshop للـ EPCs — 299–1299 دولار.</li>
+          <li><strong>Regulated industry retainer:</strong> مراقبة امتثال مستمرة — 3000–18000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Dili</span>
+        <span class="tag">AI Compliance</span>
+        <span class="tag">Infrastructure</span>
+        <span class="tag">Khosla Ventures</span>
+        <span class="tag">$21.7M Total</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Pangram Labs: 9 ملايين دولار — الحرب على «AI slop» تبدأ بكشف النص والصور بدقة 99%!</h2>
+      <p class="article-lead">الإنترنت يغرق في محتوى AI غير مُعلَن عنه — نصوص، صور، مقالات «مُ humanized». الناشرون والمدرسون والصحفيون يحتاجون «legibility of authorship». Pangram Labs يُطلق Pangram 4 (false positive 1 من 10,000) وPangram Image (99.5% accuracy) — 9 ملايين دولار من Menlo Ventures!</p>
+      <p>في 29 يوليو 2026، أعلنت <strong>Pangram Labs</strong> من نيويورك عن <strong>9 ملايين دولار</strong> بقيادة <strong>Menlo Ventures</strong>، مع Haystack، ScOp، Script Capital، وCadenza — إجمالي <strong>~13 مليون دولار</strong>. المؤسسان: <strong>Max Spero</strong> (CEO) و<strong>Bradley Emi</strong> (CTO).</p>
+      <p><strong>Pangram 4</strong>: classifier model يُحدّد AI-generated، AI-assisted، وmixed human-AI content — accuracy &gt;99%، false positive rate 0.0041% (1 من 24,000). <strong>Pangram Image</strong>: research preview — 99.5% accuracy في benchmarks داخلية. Spero: «Fully AI-generated content is everywhere now, and much of it is undisclosed».</p>
+      <p>العملاء: آلاف الشركات، مؤسسات أكاديمية، content moderators، صحفيون. TechCrunch: «demand for tools that distinguish human from AI will only grow». للمبدعين العرب: AI detection SaaS للـ publishers، consulting للـ academic integrity، products «Verify Before Publish» — كل منصة عربية تحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Pangram واقتصاد كشف المحتوى AI؟</h3>
+        <ul>
+          <li><strong>AI detection integration:</strong> ادمج Pangram APIs للناشرين — 4000–25000 دولار/مشروع.</li>
+          <li><strong>Academic integrity SaaS:</strong> منصة للجامعات العربية — 2000–15000 دولار/شهر.</li>
+          <li><strong>دورات «Detect AI Content»:</strong> workshop للصحفيين والم educators — 149–599 دولار.</li>
+          <li><strong>Content verification agency:</strong> خدمة «تحقق قبل النشر» — 500–3000 دولار/مشروع.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Pangram Labs</span>
+        <span class="tag">AI Detection</span>
+        <span class="tag">Pangram 4</span>
+        <span class="tag">Menlo Ventures</span>
+        <span class="tag">Content Authenticity</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 31-07-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
