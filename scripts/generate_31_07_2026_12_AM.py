@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 31-07-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "31-07-2026 -- 12-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Simile، Encore AI، Fish Audio، Atoms، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 31 يوليو 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من مستخدمين اصطناعيين بمليارين دولار إلى روبوتات صناعية بـ 1.7 مليار — عصر الذكاء الذي يُحاكي البشر ويُحرّك العالم المادي!</h1>
+      <p class="hero-sub">Simile تُطلق «مستخدمين اصطناعيين» بـ 200 مليون دولار وvaluation 2 مليار، Encore AI يتعلّم من مكالمات العملاء بـ 30 مليون، Fish Audio يُعطي الصوت مجاناً ويجمع 52 مليون دولار، وTravis Kalanick يعود بـ Atoms — 1.7 مليار دولار لتحويل التعدين والبناء والنقل إلى «حواسيب للعالم المادي». أربع ثورات عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 31 يوليو 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Simile: 200 مليون دولار وvaluation 2 مليار — «مستخدمون اصطناعيون» يختبرون منتجك قبل أن يراه بشر حقيقيون!</h2>
+      <p class="article-lead">تخيّل أن تطرح سؤالاً واحداً على 10,000 مستخدم — وتحصل على إجابات دقيقة خلال دقائق، دون استطلاعات بطيئة أو focus groups باهظة. Simile لا يُحاكي واجهات فقط — بل يبني «بشراً اصطناعيين» يعيشون حياة رقمية، يتخذون قرارات، ويُقيّمون منتجاتك وإعلاناتك كما يفعل جمهورك الحقيقي. 200 مليون دولار Series B بعد 5 أشهر فقط من Series A — وvaluation 2 مليار دولار!</p>
+      <p>في 30 يوليو 2026، أعلنت <strong>Simile</strong> عن <strong>Series B بقيمة 200 مليون دولار</strong> بvaluation <strong>2 مليار دولار</strong> — بعد خمسة أشهر فقط من خروجها من stealth بـ <strong>100 مليون Series A</strong> بقيادة Index Ventures. الجولة الجديدة بقيادة <strong>Greenoaks</strong> مع مشاركة Index وHanabi وBain Capital Ventures وA* وFactory وDefinition و<strong>CVS Health Ventures</strong> — وCVS من أبرز عملائها.</p>
+      <p>المؤسس <strong>Joon Sung Park</strong> — خريج PhD من Stanford — بنى Simile على أطروحته «Smallville»: عالم افتراضي حيث AI agents يعيشون حياة بشرية كاملة — يذهبون للحفلات، يتخذون قرارات، ويتفاعلون. اليوم، Simile يُقدّم <strong>synthetic users</strong> للتسويق وبحث المنتجات: شركات مثل CVS تختبر حملاتها ومنتجاتها على «جمهور اصطناعي» يُحاكي سلوك المستهلكين الحقيقيين بدقة مذهلة.</p>
+      <p>TechCrunch وصف Simile كـ «fastest unicorn in synthetic-user space». المنافسة: Aaru (Series A بـ 1 مليار valuation) — لكن Simile تتقدّم بسرعة خيالية. للمبدعين العرب: agency لـ synthetic user research، consulting لـ product testing، ودورات «AI User Research» — كل startup وmarketer يحتاج feedback قبل launch.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Simile وثورة المستخدمين الاصطناعيين؟</h3>
+        <ul>
+          <li><strong>Synthetic user research agency:</strong> اختبر منتجات العملاء على Simile — 3000–25000 دولار/مشروع.</li>
+          <li><strong>Marketing pre-testing:</strong> اختبر إعلانات وحملات قبل launch — 2000–15000 دولار/حملة.</li>
+          <li><strong>دورات «AI User Research»:</strong> bootcamp للـ product managers — 199–899 دولار.</li>
+          <li><strong>MENA synthetic research retainer:</strong> research مستمر للـ brands — 1500–8000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Simile</span>
+        <span class="tag">Synthetic Users</span>
+        <span class="tag">Product Research</span>
+        <span class="tag">Stanford</span>
+        <span class="tag">$2B Valuation</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Encore AI: 30 مليون دولار — عندما يتعلّم الوكيل من كل مكالمة ناجحة مع عميل!</h2>
+      <p class="article-lead">ملايين المكالمات تُسجَّل يومياً في call centers — كنز من المعرفة يُرمى. Encore AI لا يُ transcribe فقط — بل يُ mining التفاعلات: أي جملة أغلقت صفقة؟ أي tone حلّ مشكلة؟ أي tactic فشل؟ ثم يُدرّب وكلاء AI يتحدثون بصوت ونص — أو يُ assist موظفيك في real-time. 30 مليون دولار Series A — والبنوك والتأمين تستثمر بعد أن جربوا المنتج.</p>
+      <p>في 29 يوليو 2026، أعلنت <strong>Encore AI</strong> (سابقاً Insait IO) عن <strong>Series A بقيمة 30 مليون دولار</strong> بقيادة <strong>Team8</strong>، مع Planven وLukatz وGarage — و<strong>بنوك ومؤسسات تأمين</strong> شاركت بعد استخدام المنتج أولاً. المؤسس <strong>Dvir Ginzburg</strong> بدأ 2022 بـ recommendation software للم advisors الماليين — ثم توسّع إلى platform كاملة لـ «interaction mining».</p>
+      <p>المنصة تجمع: تسجيلات مكالمات، emails، رسائل نصية — وربطها بـ CRM. تُقسّم كل interaction إلى مراحل، وتُحدّد أي أجزاء نجحت وأيها فشلت. Ginzburg يسميها <strong>«interaction mining»</strong> — مثل data mining لكن للمحادثات البشرية. النتيجة: AI agents تتواصل مع العملاء صوتاً أو نصاً، أو تُ assist الموظفين بتوصيات tactics أثناء المكالمة.</p>
+      <p>Encore يُحدّد أيضاً inefficiencies وfriction points في عمليات support وsales — قبل أن يُ deploy agents. TechCrunch وصف Encore كـ «AI agents that learn from customer calls». للمبدعين العرب: implementation لـ call center AI، consulting لـ financial services MENA، وcontent عن «كيف تُ monetize call recordings» — كل bank في الخليج لديه call center.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Encore AI و«تعدين التفاعلات»؟</h3>
+        <ul>
+          <li><strong>Call center AI implementation:</strong> نفّذ Encore للبنوك والتأمين — 10000–60000 دولار/مشروع.</li>
+          <li><strong>Interaction mining consulting:</strong> حلّل مكالمات العملاء واستخرج insights — 5000–30000 دولار.</li>
+          <li><strong>دورات «AI Voice Agents for Finance»:</strong> workshop للـ contact centers — 249–999 دولار.</li>
+          <li><strong>MENA voice AI retainer:</strong> deployment + optimization — 2000–12000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Encore AI</span>
+        <span class="tag">Interaction Mining</span>
+        <span class="tag">Voice Agents</span>
+        <span class="tag">Team8</span>
+        <span class="tag">$30M Series A</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Fish Audio: 52 مليون دولار seed — يُعطي أفضل نموذج صوتي مجاناً ويجمع 21 مليون دولار ARR!</h2>
+      <p class="article-lead">من غرفة نوم على GPU واحد إلى 8 ملايين مستخدم و21 مليون دولار ARR في سنة واحدة. Fish Audio لا يُ compite مع ElevenLabs بالتسويق — بل بـ inference engineering: S2.1 Pro مجاني، 83 لغة، تحكم عاطفي word-level، و66% من المستمعين يفضّلونه في blind tests. 52 مليون دولار seed — أكبر seed في voice AI 2026!</p>
+      <p>في 28 يوليو 2026، أعلنت <strong>Fish Audio</strong> من Palo Alto عن <strong>52 مليون دولار seed funding</strong> بقيادة <strong>Coreline Ventures</strong> و<strong>Capital Today</strong>، مع 359 Capital وPlay Time وHF0 و645 Ventures وParable وCarya Venture Partners. الشركة عمرها سنة — 22 موظفاً — و<strong>21 مليون دولار ARR</strong> و<strong>8M+ creators</strong> و<strong>2M+ voice models</strong> في community library.</p>
+      <p>الاستراتيجية: <strong>open weights تربح developers</strong>، و<strong>enterprises تدفع للـ wiring</strong> — HIPAA، on-premises، zero-data retention. HeyGen وLiveKit وRetell وSanas وOpenArt يستخدمون APIs. Shijia Liao (chief scientist، ex-NVIDIA) بدأ على 4090 في غرفة النوم — dual autoregressive architecture قبل أن يلحق بها الصناعة بسنتين. S2.1 Pro يعمل بـ fraction من تكلفة ElevenLabs.</p>
+      <p>TechCrunch وصف Fish Audio كـ «give voice AI away and charge enterprises». المنافسة: ElevenLabs (11 مليار valuation)، Bland، Smallest.ai — لكن Fish يُ positioning كـ «default choice for creators globally». للمبدعين العرب: voice-over services، Arabic TTS products، podcast automation، وcourses «Build Voice AI Apps» — سوق voice AI يتجاوز 10 مليارات دولار.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Fish Audio وثورة الصوت الذكي؟</h3>
+        <ul>
+          <li><strong>Arabic voice-over agency:</strong> أنتج محتوى صوتي للعملاء — 50–500 دولار/مشروع.</li>
+          <li><strong>Voice AI app development:</strong> بناء products على Fish APIs — 5000–40000 دولار/مشروع.</li>
+          <li><strong>دورات «Voice AI للمبدعين»:</strong> TTS وpodcast automation — 149–699 دولار.</li>
+          <li><strong>Enterprise voice deployment:</strong> HIPAA-compliant للـ healthcare MENA — 8000–50000 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Fish Audio</span>
+        <span class="tag">Voice AI</span>
+        <span class="tag">Open Weights</span>
+        <span class="tag">TTS</span>
+        <span class="tag">$52M Seed</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Atoms: 1.7 مليار دولار — Travis Kalanick يُحوّل التعدين والبناء والطعام إلى «حواسيب للعالم المادي»!</h2>
+      <p class="article-lead">Uber digitized النقل. CloudKitchens digitized الطعام. الآن Atoms — 1.7 مليار دولار من a16z وUber — يبني «atoms-based computers» للصناعات الثقيلة: mining، construction، transport، food. لا humanoids عامة — بل machines مخصصة لكل مهمة. Ben Horowitz: «Travis is back.»</p>
+      <p>في 22–23 يوليو 2026، أعلنت <strong>Atoms</strong> — holding company بقيادة <strong>Travis Kalanick</strong> — عن <strong>1.7 مليار دولار</strong> بقيادة <strong>Andreessen Horowitz</strong>، مع Ben Horowitz في الـ board. المشاركون: Uber، Bain Capital، Fifth Wall، Chemistry، A*، K5 Global، Abstract، SV Angel. Atoms تجمع CloudKitchens و<strong>Pronto</strong> (autonomous haulage، Anthony Levandowski) في ثلاث وحدات: <strong>Atoms Food</strong>، <strong>Atoms Mining</strong>، <strong>Atoms Transport</strong>.</p>
+      <p>الفلسفة: «Age of Atoms» — CPU هو manufacturing، storage هو real estate، network هو transportation. Kalanick: «16 years ago I started a journey to digitize the physical world.» Atoms يبني task-specific machines — لا humanoids — engineered للبيئات الصناعية القاسية. Pronto autonomous driving في mines، CloudKitchens للـ ghost kitchens — والتوسع إلى construction وheavy transport.</p>
+      <p>TechCrunch وصف Atoms كـ «largest cheque a16z has ever written». robotics funding global وصل 55.8 مليار دولار في 2026 — physical AI هو الـ frontier. للمبدعين العرب: consulting لـ industrial automation MENA، content عن mining tech، وpartnerships مع construction firms — كل mega-project في الخليج يحتاج automation.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Atoms وثورة Physical AI الصناعية؟</h3>
+        <ul>
+          <li><strong>Industrial automation consulting:</strong> نفّذ automation للـ mining وconstruction — 15000–100000 دولار/مشروع.</li>
+          <li><strong>Autonomous systems integration:</strong> ربط Pronto-style systems للعملاء — 20000–80000 دولار.</li>
+          <li><strong>دورات «Physical AI للصناعات»:</strong> workshop للـ engineers — 399–1999 دولار.</li>
+          <li><strong>MENA industrial AI partner:</strong> delivery لـ mega-projects — retainer 5000–30000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Atoms</span>
+        <span class="tag">Physical AI</span>
+        <span class="tag">Travis Kalanick</span>
+        <span class="tag">Industrial Robotics</span>
+        <span class="tag">$1.7B</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 31-07-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
