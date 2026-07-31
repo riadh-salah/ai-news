@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 31-07-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "31-07-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Ellis AI، CopySight، Henry AI، Cantina، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 31 يوليو 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من ائتمان خاص ذكي إلى أمان آلي وحماية الملكية الفكرية — أربع ثورات AI تُغيّر قواعد اللعبة في 31 يوليو!</h1>
+      <p class="hero-sub">Ellis يُعيد بناء عمليات الائتمان الخاص بـ 10 ملايين دولار، CopySight يحمي فيديو AI من مخاطر حقوق النشر، Henry AI يُؤتمت صفقات العقارات بـ 16.5 مليون دولار، وCantina يُطلق جيشاً أمنياً من الوكلاء بـ 8 ملايين. أربع فرص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 31 يوليو 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Ellis AI: 10 ملايين دولار — عندما يصبح الائتمان الخاص «نظاماً تشغيلياً» يُدار بالوكلاء!</h2>
+      <p class="article-lead">مليارات الدولارات تُدار عبر جداول Excel متفرقة، تقارير fund administrator، ورسائل بريد لا تنتهي. Ryan Williams — مؤسس Cadre الذي بيع بـ Yieldstreet — يعود بـ Ellis: منصة AI-native تُوحّد كل مصادر البيانات وتُطلق وكلاء متخصصين للمصالحة، تقارير LP، والامتثال. مبدأ واحد: «الوكلاء يُنبّهون، البشر يُقرّرون».</p>
+      <p>في 30–31 يوليو 2026، خرجت <strong>Ellis</strong> من stealth بأكثر من <strong>10 ملايين دولار seed</strong> من First Round Capital و645 Ventures وHarlem Capital وKhosla Ventures وThrive Capital وSlow Capital وKearny Jackson — مع مشاركة Mellody Hobson (CEO، Ariel Alternatives). المؤسس <strong>Ryan Williams</strong> سبق أن بنى Cadre مع Josh وJared Kushner — منصة استثمار عقاري جمعت 160 مليون دولار ووصلت لتقييم 800 مليون قبل البيع لـ Yieldstreet في 2024.</p>
+      <p>المنصة تُنشئ <strong>طبقة بيانات موحّدة</strong> تربط fund administrator وloan servicing وgeneral ledger وbank feeds والملفات التنظيمية — وحتى نماذج Excel بين الأنظمة. فوق هذه الطبقة: <strong>وكلاء AI متخصصون</strong> يأخذون «المرور الأول» على المصالحة، مراقبة المحفظة، capital calls، تقارير المستثمرين، وامتثال SBIC. كل مخرج قابل للتتبع إلى مصدره — explainable، reviewable، traceable.</p>
+      <p>TechCrunch وصف Ellis كـ «AI-native operating foundation for private credit». السوق: private credit managers الذين ما زالوا يُشغّلون عمليات حرجة عبر أنظمة منفصلة. Williams يُدرك أن Cadre علّمه كيف تُدار assets معقدة — والآن يُطبّق نفس الفلسفة على workflows الائتمان الخاص. للمبدعين العرب: consulting لـ fintech وfamily offices في الخليج، automation لـ LP reporting، وproducts على reconciled data layers — كل fund في MENA يحتاج هذا.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Ellis وثورة الائتمان الخاص الذكي؟</h3>
+        <ul>
+          <li><strong>Private credit ops consulting:</strong> نفّذ data unification وagent workflows — 12000–75000 دولار/مشروع.</li>
+          <li><strong>LP reporting automation:</strong> أتمتة تقارير المستثمرين للـ family offices — 5000–35000 دولار/ربع.</li>
+          <li><strong>دورات «AI for Alternative Assets»:</strong> bootcamp للـ finance teams — 299–1299 دولار.</li>
+          <li><strong>MENA fund ops retainer:</strong> reconciliation + compliance support — 3000–18000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Ellis AI</span>
+        <span class="tag">Private Credit</span>
+        <span class="tag">Ryan Williams</span>
+        <span class="tag">Cadre Founder</span>
+        <span class="tag">$10M Seed</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>CopySight: 3 ملايين دولار — «طبقة التخليص» التي تُنقذ فيديو AI من كوارث حقوق النشر!</h2>
+      <p class="article-lead">فيديو generative واحد قد يُخفي logo لثانية، أو وجهاً يشبه مشهوراً، أو style مُستعاراً — عبر آلاف الإطارات. CopySight يُطلق CopyScore V2: يُحلّل كل frame، يُقارن الوجوه والشعارات والأنماط، ويُصدر risk score في milliseconds. قبل الإنتاج لا بعد الدعاوى — IP governance للعصر الجديد.</p>
+      <p>في 29 يوليو 2026، أعلنت <strong>CopySight</strong> عن <strong>3 ملايين دولار seed</strong> بقيادة Mucker Capital مع Taisu VC وFlint Capital وYellow Rocks!. وفي نفس الإعلان: إطلاق <strong>CopyScore V2</strong> — امتداد منصة risk-scoring من الصور إلى <strong>generative video</strong>. الشركة مقرها Los Angeles وتُ positioning كـ «AI IP governance company».</p>
+      <p>المنصة تُحلّل المحتوى <strong>frame by frame</strong>: characters، faces، logos، styles — مقابل reference libraries. تُدمج signals من prompts وmodel versions وgeneration settings. تُكتشف مخاطر عابرة: logo في الخلفية لجزء من ثانية، أو likeness match لحظي. <strong>Deep Thinking Mode</strong> للـ compliance workflows: multi-pass analysis للمقاطع الغامضة. sensitivity thresholds قابلة للتخصيص حسب معايير legal الداخلية.</p>
+      <p>PR Newswire وصف CopySight كـ «intellectual property clearance layer for generative AI». العملاء: studios، brands، ad agencies، AI platforms. Thesis: AI-generated content يجب أن يكون commercially safe وtrustworthy — قبل النشر لا بعده. للمبدعين العرب: consulting لـ MENA media houses، pre-production review services، وproducts للـ content creators — كل agency في دبي تُنتج AI video يحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من CopySight وحماية IP في عصر AI؟</h3>
+        <ul>
+          <li><strong>Pre-production IP review:</strong> فحص فيديو AI قبل النشر — 2000–15000 دولار/مشروع.</li>
+          <li><strong>Agency compliance retainer:</strong> CopyScore workflows للـ ad agencies — 2500–12000 دولار/شهر.</li>
+          <li><strong>دورات «AI Content Legal Safety»:</strong> workshop للـ creatives وlegal — 199–899 دولار.</li>
+          <li><strong>MENA media IP audit:</strong> تقييم مخاطر حقوق النشر للـ studios — 8000–50000 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">CopySight</span>
+        <span class="tag">CopyScore V2</span>
+        <span class="tag">IP Governance</span>
+        <span class="tag">Generative Video</span>
+        <span class="tag">$3M Seed</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Henry AI: 16.5 مليون دولار — من عروض PowerPoint إلى صفقات عقارية كاملة بضغطة واحدة!</h2>
+      <p class="article-lead">وسطاء العقارات يُحبّون Henry لبناء العروض — والآن Henry Deal يُؤتمت buyer lists، memos، وunderwriting بالكامل. 35 يوم sprint، إطلاق 15 يونيو، وautonomous من اليوم الأول. صناعة بـ 112 مليار دولار إيرادات سنوية — وHenry يراهن أن AI سيلتهمها قبل Anthropic Claude.</p>
+      <p>في 29 يوليو 2026، أعلنت <strong>Henry AI</strong> من New York عن <strong>Series A بقيمة 16.5 مليون دولار</strong> (جُمعت quietly الخريف الماضي) بقيادة <strong>FirstMark Capital</strong> مع Thomson Reuters Ventures. المشاركون: Y Combinator وSusa Ventures و1Sharpe وStoryHouse Ventures وPioneer Fund وRXR Arden Digital Ventures وKarman Ventures وCoalition Operators.</p>
+      <p>المنتج الجديد <strong>Henry Deal</strong>: يُؤتمت buyer lists، investment memos، وunderwriting — leveraging in-house tech وoutside AI models. على عكس product العروض (decks) الذي ما زال يحتاج human intervention في الـ back-end (سيُ phase out خلال سنة)، Henry Deal صُمّم <strong>fully autonomous من البداية</strong>. sprint 35 يوماً — من الفكرة إلى test users.</p>
+      <p>Upstarts Media وصف Henry كـ startup يراهن على niche كبير: real estate brokers. FirstMark يُ backing — Thomson Reuters Ventures يُ signal credibility في legal/real estate data. المنافسة: Claude وgeneric AI — لكن Henry يُ specialization depth. للمبدعين العرب: white-label deal automation للـ brokers في الخليج، Arabic memo generation، وconsulting لـ PropTech — سوق Dubai وRiyadh جاهز.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Henry AI وأتمتة صفقات العقارات؟</h3>
+        <ul>
+          <li><strong>PropTech integration:</strong> ربط brokers بـ Henry workflows — 10000–60000 دولار/مشروع.</li>
+          <li><strong>Arabic deal memo service:</strong> memos وunderwriting بالعربية — 1500–8000 دولار/صفقة.</li>
+          <li><strong>دورات «AI for Real Estate Brokers»:</strong> bootcamp للـ MENA brokers — 249–999 دولار.</li>
+          <li><strong>Brokerage AI retainer:</strong> decks + deals automation — 2000–15000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Henry AI</span>
+        <span class="tag">Henry Deal</span>
+        <span class="tag">PropTech</span>
+        <span class="tag">FirstMark</span>
+        <span class="tag">$16.5M Series A</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Cantina: 8 ملايين دولار — جيش أمني من الوكلاء يُصلح الثغرات قبل أن يصل المهاجمون!</h2>
+      <p class="article-lead">المهاجمون يُكتشفون الثغرات ويبنون exploits أسرع من أي وقت. Cantina يُجيب بـ «autonomous security workers»: digital twin ديناميكي للبيئة، prioritization بالـ business risk، remediation آلي، وverified resolution — مع evidence قابل للتدقيق. من triage إلى fix مُثبت — لا alert يُترك معلّقاً.</p>
+      <p>في 30 يوليو 2026، خرجت <strong>Cantina</strong> من stealth بـ <strong>8 ملايين دولار</strong> بقيادة <strong>Framework Ventures</strong> — إجمالي <strong>16.5 مليون دولار</strong>. المؤسس والـ CEO <strong>Hari Mulackal</strong> — veteran security researcher. المقر: New York/Miami. الشركة في OpenAI trusted access وAnthropic Cyber Verification Program — early visibility على model capabilities.</p>
+      <p>المنصة: <strong>community-powered agentic security</strong>. ثلاثة أنواع agents: out-of-the-box، custom-built، وcommunity-shared من customers آخرين. Core capabilities: <strong>Security Memory Layer</strong> (digital twin ديناميكي)، <strong>Risk Prioritization</strong> (business context)، <strong>Autonomous Remediation</strong> (investigation + coordination)، <strong>Verified Resolution</strong> (confirm fixes + auditable evidence). كل investigation يُ feed back — المنصة تتعلّم وتصبح أدق.</p>
+      <p>SecurityWeek وSiliconANGLE وصفوا Cantina كـ «agentic security from triage to verified fix». Customers: healthcare، fintech، regulated industries — mid-market إلى Fortune 500. Mulackal: «Defenders need AI that doesn't just identify problems, but helps investigate, coordinate remediation, validate fixes». للمبدعين العرب: MSSP services على Cantina، compliance automation للـ banks MENA، ودورات «Agentic Security Ops».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Cantina وأمن الوكلاء المستقلين؟</h3>
+        <ul>
+          <li><strong>Agentic security implementation:</strong> نشر Cantina للـ enterprises — 15000–90000 دولار/مشروع.</li>
+          <li><strong>MSSP on Cantina:</strong> managed security workforce — retainer 4000–25000 دولار/شهر.</li>
+          <li><strong>Custom security agents:</strong> بناء agents متخصصة للـ MENA — 8000–45000 دولار.</li>
+          <li><strong>دورات «AI Security Operations»:</strong> workshop للـ SOC teams — 349–1499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Cantina</span>
+        <span class="tag">Agentic Security</span>
+        <span class="tag">Hari Mulackal</span>
+        <span class="tag">Framework Ventures</span>
+        <span class="tag">$16.5M Total</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 31-07-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
