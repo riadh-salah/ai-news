@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 02-08-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "02-08-2026 -- 12-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Smallest.ai، EliseAI، Generative Bionics، AI² Robotics، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 2 أغسطس 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من أصوات AI فورية لا تُميَّز عن البشر إلى روبوتات بجلد ذكي ووكلاء يُديرون 10% من سكن أمريكا — أغسطس 2026 يُعيد رسم حدود «الذكاء المادي»!</h1>
+      <p class="hero-sub">Smallest.ai يُطلق Voice 4.0 وHydra لمحادثات صوتية بلا تأخير، EliseAI يجمع 250 مليون دولار لأتمتة healthcare وhousing، Generative Bionics يكشف Gene.01 بجلد حسّاس على كامل الجسم، وAI² Robotics يُموَّل بـ 735 مليون دولار لروبوتات humanoid على عجلات. أربع ثورات عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 2 أغسطس 2026</span>
+        <span>🕛 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Smallest.ai: 13 مليون دولار — Voice 4.0 وHydra يجعلان التحدث مع AI أسرع من التفكير!</h2>
+      <p class="article-lead">لماذا تنتظر 3 ثوانٍ حتى يُجيبك وكيل الدعم الصوتي؟ Smallest.ai يُغيّر المعادلة: نموذج speech-to-speech صغير متخصص يُجري محادثة طبيعية في real-time، وعندما يحتاج «بحثاً عميقاً» يُحوّلك مؤقتاً لـ LLM كبير — تماماً كموظف بشري يقول «دقيقة، أتحقق». 13 مليون دولار Series A، Hydra architecture، و70% no-touch resolution في contact centers.</p>
+      <p>في 31 يوليو 2026، أعلنت <strong>Smallest.ai</strong> — مختبر AI صوتي من San Francisco — عن <strong>Series A بقيمة 13 مليون دولار</strong> بقيادة <strong>Seligman Ventures</strong>، مع Sierra Ventures و3one4 Capital. التمويل الإجمالي تجاوز <strong>21 مليون دولار</strong> في 9 أشهر فقط من التأسيس.</p>
+      <p>قلب المنصة: <strong>Voice 4.0</strong> و<strong>Hydra</strong> — نموذج speech-to-speech يُنفّذ الاستماع والتفكير والتصرف والرد <strong>بالتوازي</strong> لا بالتسلسل. النتيجة: محادثات قابلة للمقاطعة، tool use أثناء الحديث، وتأخير شبه معدوم. المنصة تشمل <strong>Pulse STT Pro</strong> (38 لغة، diarization، emotion detection، PII/PCI redaction) و<strong>Lightning V3.1</strong> — من أفضل نماذج voice AI على Artificial Analysis من حيث السرعة والجودة والتكلفة.</p>
+      <p>الفلسفة: نموذجان لكل agent — <strong>small voice model</strong> للتفاعل الفوري، و<strong>offline LLM</strong> للمشاكل المعقدة. العملاء: RingCentral، Truecaller، Readymode، Piramal — منظمات تُدير ملايين المكالمات. TechCrunch وصف Smallest.ai كـ «making speaking to an AI agent indistinguishable from talking to a human». للمبدعين العرب: voice agent agency، consulting لـ contact centers MENA، ودورات «Voice AI للمؤسسات».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Smallest.ai وثورة Voice 4.0؟</h3>
+        <ul>
+          <li><strong>Voice agent deployment:</strong> نفّذ وكلاء صوتيين للبنوك والتأمين والتجارة — 8000–60000 دولار/مشروع.</li>
+          <li><strong>Contact center AI audit:</strong> حلّل workflows صوتية وقدّر ROI — 3000–20000 دولار/تقرير.</li>
+          <li><strong>دورات «Voice AI للمؤسسات»:</strong> bootcamp عربي — 199–999 دولار.</li>
+          <li><strong>MENA voice AI retainer:</strong> صيانة وتحسين agents صوتية — 2500–18000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Smallest.ai</span>
+        <span class="tag">Voice 4.0</span>
+        <span class="tag">Hydra</span>
+        <span class="tag">Speech-to-Speech</span>
+        <span class="tag">$13M Series A</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>EliseAI: 250 مليون دولار Series E — وكيل AI يُدير 10% من سكن أمريكا ويُعيد تشكيل healthcare!</h2>
+      <p class="article-lead">Healthcare وhousing = 40% من إنفاق الأسرة الأمريكية — وكلاهما معقّدان، بطيئان، ويُسببان صداعاً يومياً. EliseAI لا يُقدّم chatbot — بل agentic AI مُدمج في workflows: scheduling مواعيد، إدارة عقارات، follow-ups، وbilling. 250 مليون دولار Series E، valuation 2.2 مليار دولار، و100 مليون دولار ARR. a16z يقود الجولة.</p>
+      <p>في أغسطس 2025، أعلنت <strong>EliseAI</strong> عن <strong>Series E بقيمة 250 مليون دولار</strong> — valuation <strong>2.2 مليار دولار</strong> — بقيادة <strong>Andreessen Horowitz (a16z)</strong>، مع Bessemer Venture Partners وSapphire Ventures وNavitas Capital. منذ Series D (75 مليون دولار في 2024)، نمت الشركة من 150 إلى <strong>300+ موظف</strong>.</p>
+      <p>EliseAI تُ automate عمليات معقدة في <strong>healthcare</strong> (scheduling، patient engagement، billing) و<strong>housing</strong> (leasing، maintenance، resident communication). المنصة تُشغّل <strong>10% من سوق الشقق الأمريكي</strong> — وAlex Immerman من a16z وصفها: «the most exciting software solution in the industry». ARR تجاوز <strong>100 مليون دولار</strong> — إثبات أن agentic AI في sectors «غير sexy» يُولّد revenue ضخم.</p>
+      <p>Minna Song، CEO: «We're here to fix it with agentic AI». التمويل يُسرّع hiring في NY، SF، Boston، Chicago — وتوسع international. BusinessWire وEliseAI blog وصفا الشركة كـ «automating complex healthcare and housing systems». للمبدعين العرب: consulting لـ property management AI، healthcare automation MENA، وcontent عن «كيف تُ automate sector منظّم».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من EliseAI وagentic AI في healthcare وhousing؟</h3>
+        <ul>
+          <li><strong>Property management AI setup:</strong> نفّذ agents للعقارات والإيجارات — 10000–70000 دولار/مشروع.</li>
+          <li><strong>Healthcare scheduling automation:</strong> أتمتة مواعيد وfollow-ups للعيادات — 8000–50000 دولار.</li>
+          <li><strong>دورات «Agentic AI للقطاعات المنظّمة»:</strong> workshop — 299–1499 دولار/مشارك.</li>
+          <li><strong>MENA real estate AI retainer:</strong> إدارة agents للمطورين — 4000–25000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">EliseAI</span>
+        <span class="tag">Healthcare AI</span>
+        <span class="tag">Housing Automation</span>
+        <span class="tag">Agentic AI</span>
+        <span class="tag">$250M Series E</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Generative Bionics: Gene.01 — روبوت humanoid بجلد ذكي يشعر بك قبل أن يلمسك!</h2>
+      <p class="article-lead">روبوت معدني يلتقي عامل بشري في مصنع — والاصطدام كارثة. Generative Bionics يُقدّم الحل: Gene.01، humanoid مغطّى بـ smart-skin sensors تتتبع اللمس والحرارة والقرب والقوة — فيُعدّل حركته <strong>قبل</strong> أي contact. بُني في 6 أشهر، physics-native AI، و81 مليون دولار seed. أول use case: welding في shipyards Fincantieri.</p>
+      <p>في 20 يوليو 2026، كشفت <strong>Generative Bionics</strong> — deep-tech إيطالية من Genoa — عن <strong>Gene.01</strong> في AMD Advancing AI 2026. الشركة — فرع IIT (Italian Institute of Technology) — جمعت <strong>81 مليون دولار seed</strong> (70 مليون يورو) بقيادة <strong>CDP Venture Capital</strong>، مع AMD Ventures وDuferco وEni Next وRoboIT وTether.</p>
+      <p>الابتكار: <strong>physics-native AI</strong> — body وmechanics وintelligence مُدمجة كنظام واحد، لا hardware ثم software. Smart-skin من torso إلى limbs يُمكّن الروبوت من «الشعور» باقتراب الإنسان — مثل سحب يدك من موقد ساخن قبل اللمس. البحث منشور في <strong>Nature Machine Intelligence</strong> — أول تطبيق industrial لـ peer-reviewed tactile sensing على humanoid كامل.</p>
+      <p>Gene.01 <strong>open-source</strong> كـ robot model للمطورين — foundation لـ Physical AI applications. شراكة مع <strong>Fincantieri</strong> (عملاق shipbuilding) لـ welding humanoid في shipyards. New Atlas وThe Robot Report وصفا Gene.01 كـ «senses people before collisions happen». للمبدعين العرب: consulting لـ industrial robotics، content عن Physical AI، وtraining لـ manufacturing safety.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Generative Bionics وPhysical AI؟</h3>
+        <ul>
+          <li><strong>Industrial robotics consulting:</strong> قيّم use cases للمصانع والورش — 15000–80000 دولار/مشروع.</li>
+          <li><strong>Physical AI integration:</strong> نفّذ tactile sensing workflows — 20000–100000 دولار.</li>
+          <li><strong>دورات «Physical AI للصناعة»:</strong> bootcamp — 399–1899 دولار.</li>
+          <li><strong>MENA manufacturing safety AI:</strong> consulting لـ human-robot collaboration — 5000–30000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Generative Bionics</span>
+        <span class="tag">Gene.01</span>
+        <span class="tag">Smart-Skin Robot</span>
+        <span class="tag">Physical AI</span>
+        <span class="tag">$81M Seed</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>AI² Robotics: 735 مليون دولار وvaluation 3 مليار — humanoid على عجلات يُغيّر قواعد اللعبة!</h2>
+      <p class="article-lead">لماذا تبني روبوتاً يمشي على قدمين إذا كان 90% من عمل المصانع على أرضية مستوية؟ AI² Robotics من Shenzhen يُجيب: AlphaBot — torso humanoid بيدين بـ 5 أصابع على <strong>base بعجلات</strong>. أرخص، أثبت، وأسهل regulatory approval. 735 مليون دولار، valuation ~3 مليار دولار، وAlpha Brain VLA model يُشغّل كل robot.</p>
+      <p>في يونيو 2026، جمعت <strong>AI² Robotics</strong> — startup صينية من Shenzhen — <strong>~735 مليون دولار</strong>، رفع valuation إلى <strong>~3 مليار دولار</strong> (50 مليار RMB). المستثمرون: National SMEs Development Fund، Sino Biopharmaceutical، Moutai Group، CICC Capital، GSR Ventures — مزيج من state-backed وcorporate وfinancial.</p>
+      <p>المنتج: <strong>AlphaBot series</strong> — wheeled mobile manipulator مع humanoid torso و<strong>34+ degrees of freedom</strong>، arm span ~2.3 feet، وwaist-leg lifting mechanism. البرمجيات: <strong>Alpha Brain</strong> — proprietary <strong>vision-language-action (VLA)</strong> model للـ spatial reasoning وmulti-step task planning. Use cases: logistics، manufacturing، biotech، automotive — شراكات مع Dongfeng Liuzhou Motor.</p>
+      <p>SiliconANGLE وThe Robot Report وصفا AI² Robotics كـ «wheeled humanoid for industrial stability». China «birthed two robot unicorns in a single day» — AI² وX Square Robot. المنافسة: Unitree، Figure AI، Agility — لكن AI² يختار pragmatism على hype. للمبدعين العرب: consulting لـ warehouse automation، content عن embodied AI، وpartnerships مع logistics MENA.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من AI² Robotics وثورة wheeled humanoids؟</h3>
+        <ul>
+          <li><strong>Warehouse automation consulting:</strong> صمّم deployments للمستودعات — 12000–90000 دولار/مشروع.</li>
+          <li><strong>VLA integration services:</strong> ربط vision-language-action models بـ workflows — 15000–75000 دولار.</li>
+          <li><strong>دورات «Embodied AI للصناعة»:</strong> workshop — 249–1299 دولار/مشارك.</li>
+          <li><strong>MENA logistics robotics retainer:</strong> تقييم وتحسين automation — 6000–35000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AI² Robotics</span>
+        <span class="tag">AlphaBot</span>
+        <span class="tag">Wheeled Humanoid</span>
+        <span class="tag">VLA Model</span>
+        <span class="tag">$735M Funding</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 02-08-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
