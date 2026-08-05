@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 05-08-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "05-08-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — HappyRobot، Hark Handoff، Convex، Zenity، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 5 أغسطس 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من يونيكورن الوكلاء التشغيليين إلى حارس أمن مليار وكيل — أربع ثورات تُعيد كتابة قواعد AI في أغسطس 2026!</h1>
+      <p class="hero-sub">HappyRobot يدخل نادي الوحيد القرن بـ 150 مليون دولار، Hark Handoff يُطلق وكيلاً يُدير متصفحك بالكامل، Convex يجمع 57 مليون دولار لبناء backend البرمجيات التي تكتبها الوكلاء، وZenity يُؤمّن عصر مليار وكيل AI بـ 125 مليون دولار. أربع قصص عالمية مُذهلة — مع خريطة ذهبية للمبدعين العرب الذين يريدون تحويل هذه الموجة إلى دخل حقيقي.</p>
+      <div class="hero-meta">
+        <span>📅 5 أغسطس 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>HappyRobot: 150 مليون دولار — يونيكورن الوكلاء التشغيليين يُحكم العالم!</h2>
+      <p class="article-lead">تخيّل شركة تُنسّق شحنات DHL وتُدير عمليات Uber — ليس بـ chatbot يُجيب أسئلة، بل بوكلاء AI يتصلون بالهاتف، يُرسلون emails، يُحلّلون مستندات، ويتصفّحون الويب — ويتعلّمون من كل تفاعل. HappyRobot أثبت نفسه في اللوجستيات — والآن يُوسّع إلى التأمين والطاقة والاتصالات والطيران. 150 مليون دولار Series C بقيادة Prysm Capital — وتقييم 1.2 مليار دولار.</p>
+      <p>في 4 أغسطس 2026، أعلنت <strong>HappyRobot</strong> عن <strong>جولة Series C بقيمة 150 مليون دولار</strong> بقيادة <strong>Prysm Capital</strong> و<strong>Eurazeo</strong>، مع a16z وBase10 وY Combinator وKoch Disruptive Technologies وOrange وT.Capital (Deutsche Telekom) وBankinter وEndeavor Catalyst. التقييم post-money: <strong>1.2 مليار دولار</strong> — إجمالي التمويل ~200 مليون دولار.</p>
+      <p>المؤسسان <strong>Pablo Palafox</strong> (CEO) و<strong>Javi Palafox</strong> (COO) و<strong>Luis Palafox</strong> (CTO) — ثلاثة إسبان بدأوا 2022 بعد pivot من startup computer vision. المنصة تُمكّن المؤسسات من <strong>بناء ونشر وإدارة وكلاء AI</strong> عبر workflows معقدة: voice وemail وdocuments وweb. HappyRobot يعمل مع <strong>أكثر من 150 شركة</strong> — DHL وUber من أبرزها.</p>
+      <p>الفلسفة: «business-critical work still depends on manual coordination across fragmented systems». HappyRobot يُغلق هذه الفجوة — وكلاء يتصرّفون ويُفكّرون داخل أنظمة المؤسسة الحالية، جنباً إلى جنب مع الموظفين. Sifted وTech.eu وصفوا HappyRobot كـ «European AI agent unicorn». للمبدعين العرب: كل شركة logistics وairlines وtelco في MENA تحتاج deployment partner — consulting وcustom agents وvoice AI بالعربية فرصة ضخمة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من HappyRobot وثورة operational AI agents؟</h3>
+        <ul>
+          <li><strong>Operational agent deployment:</strong> نشر وكلاء للـ logistics وcall centers — 15000–80000 دولار/مشروع.</li>
+          <li><strong>Arabic voice agent integration:</strong> وكلاء صوت عربية للـ airlines وe-commerce — 10000–50000 دولار.</li>
+          <li><strong>Workflow automation consulting:</strong> تحليل processes وبناء agents — 8000–45000 دولار.</li>
+          <li><strong>دورات «Enterprise AI Agents»:</strong> bootcamp للـ operations teams — 249–1299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">HappyRobot</span>
+        <span class="tag">Operational AI</span>
+        <span class="tag">Voice Agents</span>
+        <span class="tag">Unicorn</span>
+        <span class="tag">$150M Series C</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Hark Handoff: وكيلك يطلب العشاء ويحجز الطيران — من المتصفح بالكامل!</h2>
+      <p class="article-lead">Brett Adcock — مؤسس Figure AI — أطلق Hark بـ 700 مليون دولار Series A. الآن المنتج الأول: Handoff — computer use agent يُشغّل جهازاً افتراضياً كاملاً: متصفح، ملفات، terminal — ويُنفّذ مهام end-to-end: طلب على DoorDash، حجز على United وDelta، messaging على LinkedIn. أعطِه حساباتك — وسيُنفّذ. التسجيل مفتوح على hark.com.</p>
+      <p>في 5 أغسطس 2026، أعلنت <strong>Hark</strong> عن <strong>Handoff</strong> — «computer use agent» (CUA) يُصنّف among top-performing globally في التنقل على الويب المفتوح. VentureBeat وصف Handoff كـ agent يُشغّل <strong>virtual computer مخصص</strong> لكل طلب — browser وfile system وterminal — مع إمكانية ربط accounts موجودة (addresses، payment methods، history).</p>
+      <p>التقنية: supervised fine-tuning + asynchronous reinforcement learning (GRPO algorithm). Hark أقرّ أن post-training مكتمل — pre-training «planned for later this year». التمويل: <strong>700 مليون دولار Series A</strong> في مايو 2026 بقيادة Parkway Venture Capital — Nvidia وAMD وIntel Capital وQualcomm Ventures وSalesforce Ventures وARK Invest.</p>
+      <p>الأمان: «security and privacy is a primary focus, but this is a technical preview». للمبدعين العرب: early adopters يمكنهم content creation حول Handoff demos، consulting لـ computer use automation للشركات، ودورات «AI Browser Agents» — كل freelancer وSMB يريد automation بدون coding يحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Hark Handoff وثورة computer use agents؟</h3>
+        <ul>
+          <li><strong>Browser automation consulting:</strong> إعداد Handoff للـ SMB workflows — 5000–35000 دولار/مشروع.</li>
+          <li><strong>Content &amp; demos:</strong> فيديوهات وtutorials لـ Handoff use cases — monetization عبر ads وsponsorships.</li>
+          <li><strong>Managed automation retainer:</strong> صيانة workflows للعملاء — 1500–8000 دولار/شهر.</li>
+          <li><strong>دورات «Computer Use AI»:</strong> workshop للـ non-technical users — 99–599 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Hark</span>
+        <span class="tag">Handoff</span>
+        <span class="tag">Computer Use Agent</span>
+        <span class="tag">Brett Adcock</span>
+        <span class="tag">Browser Automation</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Convex: 57 مليون دولار — الـ backend الذي تكتبه الوكلاء بأمان!</h2>
+      <p class="article-lead">عندما يكتب وكيل AI تطبيقاً كاملاً — من يضمن أن state management صحيح؟ Convex — من مهندسي Dropbox infrastructure — يجمع 57 مليون دولار Series B لبناء «backend for agent-written software». Convex Components: building blocks معزولة — كل component بحجم context window — الوكيل يفهمه بالكامل دون كسر invariants. a16z وSpark Capital يُعيدان الاستثمار.</p>
+      <p>في 4 أغسطس 2026، أعلنت <strong>Convex</strong> عن <strong>Series B بقيمة 57 مليون دولار</strong> بقيادة <strong>Insight Partners</strong>، مع Etna Labs وSpark Capital وAndreessen Horowitz وJustin Kan. يتبع Series A بـ 26 مليون دولار (2022). المؤسسان <strong>James Cowling</strong> و<strong>Jamie Turner</strong> — ex-Dropbox infrastructure.</p>
+      <p>المنتج: reactive state graph يُ collapse stack معقد (database، server، optimistic updates) في backend واحد consistent. <strong>Convex Components</strong> — sandboxed units مع schema وfunctions وdata وAPI صريح. التصميم سبق موجة agents — لكن الآن يُباع كـ agent infrastructure: component = unit يفهمه الوكيل بالكامل.</p>
+      <p>Unite.AI وصف Convex كـ «correctness enforced by the platform rather than by engineers reading every line». للمبدعين العرب: كل startup يبني agents يحتاج backend — Convex consulting وcomponent development وtraining للـ developers — developer infrastructure economy في ازدهار.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Convex وثورة agent-written software؟</h3>
+        <ul>
+          <li><strong>Convex implementation:</strong> بناء backends للـ agent apps — 10000–60000 دولار/مشروع.</li>
+          <li><strong>Component library development:</strong> reusable Convex Components — 5000–30000 دولار.</li>
+          <li><strong>دورات «Convex for AI Agents»:</strong> bootcamp للـ full-stack developers — 199–999 دولار.</li>
+          <li><strong>Agent app retainer:</strong> صيانة وscaling للـ production — 2500–12000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Convex</span>
+        <span class="tag">Agent Backend</span>
+        <span class="tag">Convex Components</span>
+        <span class="tag">Developer Infrastructure</span>
+        <span class="tag">$57M Series B</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Zenity: 125 مليون دولار — حارس أمن عصر مليار وكيل AI!</h2>
+      <p class="article-lead">كل مؤسسة تُ-deploy وكلاء AI — لكن من يحميها؟ Zenity يبني أول platform أمن مخصص للوكلاء المستقلين: visibility، posture management، runtime protection — عبر SaaS وcloud وendpoint. 125 مليون دولار Series C من Norwest — SoftBank Vision Fund 2 وHitachi Ventures وLG Technology Ventures ينضمون. أكثر من 230 موظف — R&amp;D في Tel Aviv، GTM من New York.</p>
+      <p>في 3–4 أغسطس 2026، أعلنت <strong>Zenity</strong> عن <strong>Series C بقيمة 125 مليون دولار</strong> بقيادة <strong>Norwest</strong>، مع Qumra Capital وSoftBank Vision Fund 2 وHitachi Ventures وLG Technology Ventures — وVertex Ventures وThird Point Ventures وDTCP وIntel Capital. المؤسسان <strong>Ben Kliger</strong> و<strong>Michael</strong> — «AI agents change how we all work».</p>
+      <p>المنصة: <strong>AI security at the decision layer</strong> — govern AI decisions قبل أن تصبح enterprise actions. يحمي long-horizon agents عبر multi-step workflows. Zenity Labs: original research وthreat intelligence — prompt injection patterns وpolicy best practices. AP News وصف Zenity كـ «industry's first AI security platform for autonomous agents».</p>
+      <p>الفلسفة: «As we enter the era of 1 billion AI agents, security will become one of the defining cybersecurity disciplines». للمبدعين العرب: كل bank وgovernment وenterprise في MENA يُ deploy agents — AI security consulting وZenity implementation وcompliance training فرصة ذهبية قبل أن تُفرض regulations.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Zenity وثورة AI agent security؟</h3>
+        <ul>
+          <li><strong>AI security assessment:</strong> تقييم posture للوكلاء — 8000–40000 دولار/مشروع.</li>
+          <li><strong>Zenity deployment partner:</strong> نشر وإعداد للمؤسسات — 15000–70000 دولار.</li>
+          <li><strong>Compliance &amp; governance consulting:</strong> policies للـ agentic AI — 5000–35000 دولار.</li>
+          <li><strong>دورات «AI Agent Security»:</strong> certification للـ CISOs — 299–1499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Zenity</span>
+        <span class="tag">AI Security</span>
+        <span class="tag">Agent Governance</span>
+        <span class="tag">Runtime Protection</span>
+        <span class="tag">$125M Series C</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 05-08-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
