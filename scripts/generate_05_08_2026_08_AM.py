@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 05-08-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "05-08-2026 -- 08-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — HappyRobot، Zenity، Convex، Simile، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 5 أغسطس 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من وكلاء الموانئ إلى حارس مليار وكيل — أغسطس 2026 يُعلن عصر «العمليات الذكية الآمنة»!</h1>
+      <p class="hero-sub">HappyRobot يُحقّق يونيكورن بـ 150 مليون دولار لأتمتة عمليات المؤسسات الحرجة، Zenity يجمع 125 مليون دولار لحماية عصر مليار وكيل AI، Convex يبني backend لبرمجيات يكتبها الوكلاء بـ 57 مليون دولار، وSimile يُحاكي 8 مليار مستخدم بـ 200 مليون دولار وvaluation مليارين. أربع ثورات عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 5 أغسطس 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>HappyRobot: 150 مليون دولار وvaluation 1.2 مليار — وكيلك الجديد يُدير الموانئ والطاقة والاتصالات!</h2>
+      <p class="article-lead">بدأت من مكالمات الشحن — أقل زاوية «جذابة» في الاقتصاد — واليوم valuation 1.2 مليار دولار. HappyRobot لا يبني chatbot؛ بل «نظام تشغيل AI-native» للعمليات المؤسسية: logistics، energy، telecom، airlines، insurance. الموظف يطلب؛ الوكيل يُنسّق عبر أنظمة متعددة — ويُنفّذ. 150 مليون دولار Series C في 4 أغسطس 2026، والإيرادات نمت 5× منذ Series B قبل 11 شهراً.</p>
+      <p>في 4 أغسطس 2026، أعلنت <strong>HappyRobot</strong> عن <strong>Series C بقيمة 150 مليون دولار</strong> — valuation <strong>1.2 مليار دولار post-money</strong> — بقيادة <strong>Prysm Capital</strong> و<strong>Eurazeo</strong>. المشاركون: <strong>a16z</strong>، <strong>Base10</strong>، <strong>Y Combinator</strong>، <strong>Koch Disruptive Technologies</strong>، <strong>Orange</strong>، <strong>T.Capital</strong> (Deutsche Telekom)، <strong>Bankinter</strong>، <strong>Endeavor Catalyst</strong>، <strong>Kfund</strong>، و<strong>Wave-X</strong>. إجمالي التمويل: نحو 200 مليون دولار.</p>
+      <p>المؤسسان <strong>Pablo Palafox</strong> (CEO) و<strong>Luis Paarup</strong> (CTO) — بدأا في Madrid 2022 — بنوا منصة agentic AI تُ automates workflows معقدة: تنسيق shipments، dispatch، customer coordination، compliance checks. HappyRobot توسّعت من مكتبين إلى 8 مكاتب عبر North America وEurope وLatin America وAustralia. Eurazeo وصفها بـ «AI-native operating system for enterprise operations».</p>
+      <p>الفرق الجوهري: الوكلاء يعملون في <strong>mission-critical work</strong> — حيث الخطأ مكلف. لا demos؛ deployments حقيقية في logistics وenergy وtelecom. Tech.eu وSiliconANGLE وSifted غطّوا الجولة كـ unicorn milestone لـ European AI agents. للمبدعين العرب: كل port authority وlogistics company وtelco في MENA تحتاج implementation — consulting وcustom workflows وtraining فرصة ضخمة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من HappyRobot وثورة enterprise operations AI؟</h3>
+        <ul>
+          <li><strong>Operations AI consulting:</strong> تحليل workflows وتصميم deployments للـ logistics وenergy — 10000–60000 دولار/مشروع.</li>
+          <li><strong>Custom agent workflows:</strong> بناء وكلاء مخصّصين للـ MENA supply chains — 8000–45000 دولار.</li>
+          <li><strong>دورات «Enterprise Operations AI»:</strong> bootcamp للـ operations managers — 249–1299 دولار.</li>
+          <li><strong>Managed operations retainer:</strong> صيانة وتحسين الوكلاء — 3000–15000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">HappyRobot</span>
+        <span class="tag">Enterprise AI Agents</span>
+        <span class="tag">Logistics</span>
+        <span class="tag">Unicorn</span>
+        <span class="tag">$150M Series C</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Zenity: 125 مليون دولار — حارس أمني لعصر «مليار وكيل AI»!</h2>
+      <p class="article-lead">الخطر لم يعد في الـ prompt — بل في ما يفعله الوكيل بعد أن تُمنحه صلاحيات. Zenity لا يُراقب النماذج فقط؛ بل يفهم <strong>intent</strong> الوكيل ويُ allow أو block كل action قبل تنفيذه — عبر Copilot وChatGPT Enterprise وClaude وCursor وBedrock وAgentCore. 125 مليون دولار Series C من Norwest وSoftBank وHitachi وLG — في 3 أغسطس 2026.</p>
+      <p>في 3 أغسطس 2026، أعلنت <strong>Zenity</strong> عن <strong>Series C بقيمة 125 مليون دولار</strong> بقيادة <strong>Norwest</strong>. المشاركون الجدد: <strong>Qumra Capital</strong>، <strong>SoftBank Vision Fund 2</strong>، <strong>Hitachi Ventures</strong>، <strong>LG Technology Ventures</strong> — مع Vertex وThird Point وDTCP وIntel Capital. الشركة من Tel Aviv وNew York، أكثر من 230 موظفاً.</p>
+      <p>الفلسفة: <strong>AI security is agent security</strong>. Zenity يُ deterministically يُ allow أو block actions بناءً على فهم intent — لا prompt filtering فقط ولا post-hoc analysis. المنصة unified layer عبر أي agentic framework: Microsoft Copilot، ChatGPT Enterprise، Gemini، Claude، Codex، Cursor، AWS Bedrock، AgentCore، Vertex AI.</p>
+      <p>Fortune وصف Zenity كـ «police AI agents» — SoftBank وHitachi وLG يُ bet أن agent security سيكون category ضخم. عندما enterprises تُ deploy آلاف الوكلاء بصلاحيات حقيقية — access data، execute transactions، modify systems — governance layer ضروري. للمبدعين العرب: كل bank وgovernment وenterprise في MENA تحتاج AI agent security audit — consulting وcompliance وtraining فرصة ذهبية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Zenity وثورة AI agent security؟</h3>
+        <ul>
+          <li><strong>Agent security audit:</strong> تقييم وgovernance للـ enterprise AI deployments — 15000–80000 دولار/مشروع.</li>
+          <li><strong>AI compliance consulting:</strong> policies وcontrols للـ MENA regulators — 10000–50000 دولار.</li>
+          <li><strong>دورات «Secure AI Agents»:</strong> bootcamp للـ CISO وIT teams — 299–1499 دولار.</li>
+          <li><strong>Managed agent governance retainer:</strong> monitoring وincident response — 5000–20000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Zenity</span>
+        <span class="tag">AI Agent Security</span>
+        <span class="tag">Governance</span>
+        <span class="tag">SoftBank</span>
+        <span class="tag">$125M Series C</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Convex: 57 مليون دولار — backend يُحمي برمجيات يكتبها الوكلاء!</h2>
+      <p class="article-lead">البرمجيات تُكتب اليوم بواسطة developers <strong>و</strong> agents معاً — لكن backend التقليدي لم يُصمَّم لهذا. Convex يبني substrate حيث ACID transactions تمنع corruption، TypeScript end-to-end يحوّل hallucinated field names إلى build errors، وComponents معزولة بحجم context window. 57 مليون دولار Series B من Insight Partners — 500,000 developer و2 million application.</p>
+      <p>في 4 أغسطس 2026، أعلنت <strong>Convex</strong> عن <strong>Series B بقيمة 57 مليون دولار</strong> بقيادة <strong>Insight Partners</strong>، مع <strong>Etna Labs</strong> و<strong>Spark Capital</strong> و<strong>a16z</strong> و<strong>Justin Kan</strong>. إجمالي التمويل: 110.5 مليون دولار. المؤسسان <strong>Jamie Turner</strong> (CEO) و<strong>James Cowling</strong> (CTO) — ex-Dropbox infrastructure engineers.</p>
+      <p>المنصة: database + server logic + auth + file storage + scheduling — reactive state graph. <strong>Convex Components</strong>: sandboxed building blocks، كل component له schema وfunctions وdata معزولة — agent يمكنه reason عن component كامل دون كسر invariants في أجزاء أخرى. «A hallucinated field name is a build error, not a production incident.»</p>
+      <p>Unite.AI وصف Convex كـ «backend for agent-written software». Nearly 500,000 developers، 2 million applications، 1.2 million weekly npm downloads. Pattern: investors يدفعون للطبقة التي تجعل agent-written software safe to ship — مثل DataBahn وEmergent. للمبدعين العرب: agencies تبني AI-native apps، courses «Agent-Safe Backend»، وConvex implementation services — كل startup يستخدم coding agents يحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Convex وثورة agent-written software؟</h3>
+        <ul>
+          <li><strong>Convex implementation:</strong> بناء AI-native apps على Convex — 8000–40000 دولار/مشروع.</li>
+          <li><strong>Agent-safe architecture consulting:</strong> تصميم systems للـ coding agents — 10000–50000 دولار.</li>
+          <li><strong>دورات «Backend for AI Agents»:</strong> bootcamp للـ full-stack developers — 199–999 دولار.</li>
+          <li><strong>SaaS on Convex:</strong> بناء products للـ MENA market — recurring revenue.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Convex</span>
+        <span class="tag">Agent-Written Software</span>
+        <span class="tag">TypeScript Backend</span>
+        <span class="tag">ACID</span>
+        <span class="tag">$57M Series B</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Simile: 200 مليون دولار وvaluation 2 مليار — «مستخدمون اصطناعيون» يُختبرون منتجاتك قبل إطلاقها!</h2>
+      <p class="article-lead">تخيّل أن تختبر حملة marketing أو product feature على «مستخدمين» يُ simulaten بدقة — قبل أن تنفق مليون دولار على focus groups. Simile يبني synthetic users للـ marketing وproduct research — mission: simulate «all eight billion people on earth». 200 مليون دولار Series B وvaluation 2 مليار — بعد 100 مليون Series A قبل 5 أشهر فقط. CVS Health من أكبر العملاء.</p>
+      <p>في 30 يوليو 2026، أعلنت <strong>Simile</strong> عن <strong>Series B بقيمة 200 مليون دولار</strong> — valuation <strong>2 مليار دولار</strong> — بقيادة <strong>Greenoaks</strong>، مع Index وHanabi وBain Capital Ventures وA* وFactory وDefinition و<strong>CVS Health Ventures</strong>. المؤسس <strong>Joon Sung Park</strong> — Stanford PhD — dissertation «Smallville»: AI agents يعيشون حياة بشرية محاكاة، حتى parties.</p>
+      <p>الفكرة: market research لأن البشر unpredictable — لكن simulating users للـ research promising. «Vibe coding for product mock-ups» — اختبر ideas بسرعة قبل real users. TechCrunch وصف Simile كـ «fast-and-furious AI unicorn club». Aaru competitor raised Series A بـ 1 billion valuation في December.</p>
+      <p>للمبدعين العرب: agencies تقدّم synthetic user research للـ brands، consultants تُصمّم simulated focus groups، courses «AI Market Research» — كل CMO وproduct manager يريد test قبل launch. CVS Health deployment يُثبت enterprise adoption — healthcare وretail وfinance كلها targets.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Simile وثورة synthetic users؟</h3>
+        <ul>
+          <li><strong>Synthetic user research services:</strong> simulated focus groups للعملاء — 5000–30000 دولار/مشروع.</li>
+          <li><strong>Marketing pre-testing:</strong> اختبار campaigns على synthetic audiences — 3000–20000 دولار.</li>
+          <li><strong>دورات «AI Market Research»:</strong> bootcamp للـ product وmarketing teams — 199–899 دولار.</li>
+          <li><strong>MENA audience simulation:</strong> synthetic users للـ Arabic markets — niche consulting.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Simile</span>
+        <span class="tag">Synthetic Users</span>
+        <span class="tag">Market Research</span>
+        <span class="tag">Product Testing</span>
+        <span class="tag">$200M Series B</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 05-08-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
