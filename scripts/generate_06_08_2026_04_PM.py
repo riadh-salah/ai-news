@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 06-08-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "06-08-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Omilia، Sapiom، QuantHealth، Ambrook، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 6 أغسطس 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من وكلاء الدعم الذكي إلى محاكاة التجارب السريرية — أربع ثورات تُعيد تشكيل اقتصاد AI في أغسطس 2026!</h1>
+      <p class="hero-sub">Omilia تجمع 67 مليون دولار لإعادة تعريف مراكز الاتصال بذكاء انتقائي، Sapiom يُوفّر 35 مليون دولار لخفض فواتير وكلاء AI مع دعم Anthropic، QuantHealth يُحاكي التجارب السريرية قبل تسجيل أي مريض بـ 45 مليون دولار، وAmbrook يُحوّل QuickBooks للمزارع والمقاولين بـ 30 مليون دولار. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 6 أغسطس 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Omilia: 67 مليون دولار — الذكاء الانتقائي يُعيد تعريف مراكز الاتصال العالمية!</h2>
+      <p class="article-lead">ليس كل استفسار يحتاج نموذجاً لغوياً ضخماً. Omilia — من أثينا منذ 2002 — تُثبت أن 80% من مكالمات الدعم تتعلق بمعلومات بسيطة: رصيد حساب، موعد، حالة طلب. لماذا تُحرق آلاف الدولارات على LLM لكل مكالمة؟ Omilia تُطبّق «ذكاءً انتقائياً»: مهام بسيطة بـ automation خفيف، ومهام معقدة بوكلاء self-learning — وقد ضاعفت ARR عشر مرات إلى 60 مليون دولار.</p>
+      <p>في 6 أغسطس 2026، أعلنت <strong>Omilia</strong> عن <strong>Series B بقيمة 67 مليون دولار</strong> بقيادة <strong>Expedition Growth Capital</strong>، بعد 20 مليون دولار من Grafton Capital في 2020. CEO <strong>Dimitris Vassos</strong> يقود 500 موظفاً اليوم — والهدف 600 بنهاية 2026.</p>
+      <p>العملاء يشملون <strong>Capital One</strong> و<strong>Discover</strong> و<strong>RBC</strong> و<strong>DWP</strong> و<strong>PSEG</strong>. Omilia تُركّز الآن على <strong>quick-service restaurants</strong>: Taco Bell نشرت التقنية في أكثر من 1000 فرع — والشركة تتفاوض مع مطاعم أمريكية كبرى أخرى. الوكلاء يعملون عبر voice وchat وmessages بنفس «عقل» موحّد.</p>
+      <p>TechCrunch وصف Omilia كـ «throwing AI at every process can be wasteful». الفلسفة: <strong>right tool for right task</strong> — توفير 40–70% من تكلفة AI في call centers. للمبدعين العرب: كل bank وtelco وe-commerce في MENA لديه call center — consulting لـ selective AI deployment وArabic voice agents فرصة ضخمة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Omilia وثورة الذكاء الانتقائي في الدعم؟</h3>
+        <ul>
+          <li><strong>Call center AI audit:</strong> تحليل أي مهام تحتاج LLM وأيها automation بسيط — 8000–35000 دولار/مشروع.</li>
+          <li><strong>Arabic voice agent deployment:</strong> نشر وكلاء صوت عربية للـ banks وrestaurants — 10000–50000 دولار.</li>
+          <li><strong>QSR voice ordering integration:</strong> ربط أنظمة الطلب الصوتي للمطاعم — 15000–60000 دولار.</li>
+          <li><strong>دورات «Smart Customer Support AI»:</strong> bootcamp للـ CX teams — 199–999 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Omilia</span>
+        <span class="tag">Customer Support</span>
+        <span class="tag">Voice AI</span>
+        <span class="tag">Selective Intelligence</span>
+        <span class="tag">$67M Series B</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Sapiom: 35 مليون دولار — Anthropic يدعم startup يُقلّص فواتير نماذج AI!</h2>
+      <p class="article-lead">كل startup يبني وكلاء AI يُفاجأ بالفاتورة: GPT-4 للمهام البسيطة، Claude للمعقدة، compute مُهدَر، tools غير محسّنة. Sapiom يجلس بين الوكيل والنموذج — يختار أفضل مسار في الوقت الفعلي حسب التكلفة والجودة والlatency والسياسات. 270 مليون transaction في 6 أشهر، 100000 agent run يومياً — وAnthropic مستثمر رغم أن Sapiom يُقلّص إنفاق model makers!</p>
+      <p>في 6 أغسطس 2026، أعلنت <strong>Sapiom</strong> عن <strong>Series A بقيمة 35 مليون دولار</strong> بقيادة <strong>Dragonfly</strong>، مع Accel وGradient وCoinbase Ventures وOperator Collective وFormus Capital وVanEck Ventures — واستمرار دعم Okta Ventures وMenlo Ventures و<strong>Anthropic</strong> وArray Ventures. المؤسس <strong>Ilan Zerbib</strong> أطلق الشركة في San Francisco 2025 — والإجمالي 50 مليون دولار في 11 شهراً فقط.</p>
+      <p>المنصة تُحوّل infrastructure choices إلى <strong>real-time decisions</strong>: أي model؟ أي compute؟ أي tool؟ — مع enforcement للـ budgets والـ permissions قبل التنفيذ. Zerbib يُؤكّد أن Anthropic يرى Sapiom كـ aligned لا adversarial: «more agents = more total spend» حتى مع optimization.</p>
+      <p>The Next Web وصف Sapiom كـ «the startup whose product is spending less on model makers». للمبدعين العرب: كل team يبني agents يحتاج cost optimization layer — consulting وintegration وtraining workshops فرصة سريعة النمو.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Sapiom وثورة AI agent cost optimization؟</h3>
+        <ul>
+          <li><strong>Agent cost audit &amp; routing setup:</strong> تحليل وتحسين مسارات الوكلاء — 5000–25000 دولار/مشروع.</li>
+          <li><strong>Multi-model routing consulting:</strong> تصميم policies للـ cost/quality tradeoffs — 8000–40000 دولار.</li>
+          <li><strong>Agent infrastructure retainer:</strong> monitoring وoptimization مستمر — 2000–10000 دولار/شهر.</li>
+          <li><strong>دورات «AI Agent Economics»:</strong> workshop لـ CTOs وML teams — 249–1199 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Sapiom</span>
+        <span class="tag">Agent Infrastructure</span>
+        <span class="tag">Cost Optimization</span>
+        <span class="tag">Anthropic</span>
+        <span class="tag">$35M Series A</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>QuantHealth: 45 مليون دولار — محاكاة التجارب السريرية قبل تسجيل أي مريض!</h2>
+      <p class="article-lead">90% من candidate drugs تفشل في clinical trials — وكل فشل يكلف مئات الملايين. QuantHealth يُحاكي التجارب virtually قبل enrollment: أي protocol design؟ أي patient population؟ ما احتمال النجاح؟ Sanofi Ventures وPitango HealthTech يستثمرون 45 مليون دولار Series B — والمنصة Katina تُغطي 40+ indication عبر oncology وcardiology.</p>
+      <p>في أغسطس 2026، أعلنت <strong>QuantHealth</strong> (Tel Aviv، تأسست 2020) عن <strong>Series B بقيمة 45 مليون دولار</strong> بقيادة <strong>Qumra Capital</strong>، مع Pitango HealthTech وSanofi Ventures وArtofin Venture Capital وBertelsmann Healthcare Investments وGC Ventures وNewHealth Ventures وShoni Top Ventures وEsplanade Ventures. الإجمالي ~70 مليون دولار.</p>
+      <p>المنصة <strong>Katina</strong> (launched November 2023) تُقدّم AI-guided workflow: simulation-first clinical trial development — تحديد optimal endpoints وsample sizes وinclusion criteria قبل أي patient contact. QuantHealth simulates أكثر من 30 trials وexpand إلى 40+ indications.</p>
+      <p>MedCity News وصف QuantHealth كـ «simulate clinical trials before patients ever enroll». Capital يُوجّه لـ: sharpening AI models، expanding disease coverage، growing team، وpushing platform deeper في drug positioning وgo-to-market. للمبدعين العرب: pharma consulting وregulatory AI وArabic medical data partnerships — healthcare AI economy ينمو بسرعة في MENA.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من QuantHealth وثورة clinical trial simulation؟</h3>
+        <ul>
+          <li><strong>Clinical trial design consulting:</strong> استخدام simulation tools للـ pharma — 15000–80000 دولار/مشروع.</li>
+          <li><strong>Healthcare AI integration:</strong> ربط منصات simulation بأنظمة hospitals — 10000–50000 دولار.</li>
+          <li><strong>Regulatory AI documentation:</strong> إعداد dossiers مدعومة بـ simulation data — 8000–40000 دولار.</li>
+          <li><strong>دورات «AI in Drug Development»:</strong> bootcamp للـ pharma professionals — 499–2499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">QuantHealth</span>
+        <span class="tag">Clinical Trials</span>
+        <span class="tag">Healthcare AI</span>
+        <span class="tag">Katina</span>
+        <span class="tag">$45M Series B</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Ambrook: 30 مليون دولار — «قاتل QuickBooks» للمزارع والمقاولين والناقلين!</h2>
+      <p class="article-lead">مزارع بـ 20 مليون دولار مبيعات سنوية — ولا يزال يستخدم دفاتر ورقية. Ambrook يُقدّم AI-native financial management للـ «real economy»: agriculture، trucking، construction، property management. 8000 business في 50 ولاية — من 2500 قبل سنة. Lachy Groom (Physical Intelligence co-founder) يقود Series B بـ 30 مليون دولار.</p>
+      <p>في 4–6 أغسطس 2026، أعلنت <strong>Ambrook</strong> (Denver/San Francisco، تأسست 2020) عن <strong>Series B بقيمة 30 مليون دولار</strong> بقيادة <strong>Lachy Groom</strong>، مع Thomson Reuters Ventures وThrive Capital وField Ventures وCameron Ventures — وملائكة Akshay Kothari (Notion) وTomer London (Gusto) وGuillermo Rauch (Vercel). الإجمالي 59 مليون دولار.</p>
+      <p>المؤسسة <strong>Mackenzie Burnett</strong> (CEO) مع Dan Schlosser وJeff Anders. المنصة: bookkeeping + payments + cash management + <strong>AI assistant</strong> يُصنّف transactions ويُقترح categorizations. Bank وcard وloan feeds تُدمج تلقائياً. أكثر من 1000 trucking business — ومئات contractors وproperty managers.</p>
+      <p>Upstarts Media وصف Ambrook كـ «QuickBooks killer for farms». Burnett تُخطّط services function وpayroll expansion للـ mid-market farms. للمبدعين العرب: agriculture fintech وconstruction bookkeeping AI وArabic-language financial tools — «real economy» underserved globally.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Ambrook وثورة AI fintech للاقتصاد الحقيقي؟</h3>
+        <ul>
+          <li><strong>Agribusiness bookkeeping setup:</strong> نشر وتخصيص Ambrook-like tools — 3000–15000 دولار/عميل.</li>
+          <li><strong>Construction/trucking AI accounting:</strong> automation للـ contractors وlogistics — 5000–25000 دولار.</li>
+          <li><strong>Arabic financial AI assistant:</strong> بناء مساعد محاسبة عربي للـ SMEs — 10000–50000 دولار.</li>
+          <li><strong>دورات «AI Bookkeeping for Real Economy»:</strong> training للـ accountants — 149–799 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Ambrook</span>
+        <span class="tag">AgTech Fintech</span>
+        <span class="tag">AI Bookkeeping</span>
+        <span class="tag">Real Economy</span>
+        <span class="tag">$30M Series B</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 06-08-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
