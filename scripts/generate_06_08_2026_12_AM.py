@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 06-08-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "06-08-2026 -- 12-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — HappyRobot، Convex، Sapiom، Obsidian Security، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 6 أغسطس 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من يونيكورن بـ 1.2 مليار دولار إلى حارس يُطارد الوكلاء الشاردين — أربع ثورات تُعيد تشكيل اقتصاد AI في أغسطس 2026!</h1>
+      <p class="hero-sub">HappyRobot يُصبح يونيكورن بـ 150 مليون دولار لأتمتة العمليات الحرجة، Convex يجمع 57 مليون دولار لبناء backend يُحمي المطورين من هلوسة AI، Sapiom يُقلّص فواتير الوكلاء بـ 35 مليون دولار مع دعم Anthropic، وObsidian Security يُؤمّن 85 مليون دولار لمراقبة الوكلاء داخل المؤسسات. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 6 أغسطس 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>HappyRobot: 150 مليون دولار — يونيكورن بـ 1.2 مليار يُبني «الذكاء الخارق للمؤسسات»!</h2>
+      <p class="article-lead">تخيّل وكيل AI يتصل بالموظفين الغائبين لملء جدول الورديات، يرسل emails للمتابعة، ويُحدّث التقويم — بينما فريقك يركز على القرارات الاستراتيجية. HappyRobot لا يُجيب على أسئلة فقط؛ بل يُفكّر ويُنفّذ داخل أنظمة المؤسسة عبر الصوت والبريد والمستندات. 150 مليون دولار Series C بقيادة Prysm Capital — والتقييم 1.2 مليار دولار.</p>
+      <p>في 4 أغسطس 2026، أعلنت <strong>HappyRobot</strong> عن <strong>جولة Series C بقيمة 150 مليون دولار</strong> بقيادة <strong>Prysm Capital</strong> و<strong>Eurazeo</strong>، مع a16z وBase10 وY Combinator وKoch Disruptive Technologies وOrange وT.Capital وBankinter وEndeavor Catalyst وKfund وWave-X. إجمالي التمويل يتجاوز <strong>200 مليون دولار</strong> — والتقييم post-money <strong>1.2 مليار دولار</strong>.</p>
+      <p>المؤسسان <strong>Pablo Palafox</strong> و<strong>Javi Palafox</strong> و<strong>Luis Paarup</strong> — تأسس 2022 في San Francisco. المنصة تسمح لفرق العمليات بإنشاء وكلاء جديدة بمحادثة إنجليزية بسيطة: «أحتاج وكيلاً يُتابع الغيابات ويملأ الورديات». الوكيل يتصل بالموظفين، يُرسل reminders، ويُحدّث الأنظمة المتصلة — مع تكوين مرن يُبقي العمليات تعمل حتى عند ضغط الموارد البشرية.</p>
+      <p>SiliconANGLE وصف HappyRobot كـ «enterprise superintelligence». Use cases: logistics، scheduling، workforce coordination، customer outreach. AI builder يُمكّن non-engineers من ideate وdeploy agents. للمبدعين العرب: كل شركة logistics وhealthcare وretail في MENA تحتاج custom agents — implementation وtraining وmanaged operations فرصة بملايين الدولارات.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من HappyRobot وثورة enterprise superintelligence؟</h3>
+        <ul>
+          <li><strong>HappyRobot implementation partner:</strong> نشر وكلاء للـ logistics وworkforce — 10000–60000 دولار/مشروع.</li>
+          <li><strong>Operations AI consulting:</strong> تحليل workflows وبناء agents مخصّصة — 8000–40000 دولار.</li>
+          <li><strong>دورات «Enterprise AI Agents»:</strong> bootcamp لفرق العمليات — 249–1299 دولار.</li>
+          <li><strong>Managed agent operations:</strong> صيانة وتحسين الوكلاء — 3000–18000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">HappyRobot</span>
+        <span class="tag">Unicorn</span>
+        <span class="tag">Enterprise Agents</span>
+        <span class="tag">Workforce AI</span>
+        <span class="tag">$150M Series C</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Convex: 57 مليون دولار — backend يُحمي مطوريك من كوارث هلوسة AI!</h2>
+      <p class="article-lead">المطورون يبنون تطبيقات AI agents بسرعة — لكن hallucinations تُفسد databases وتُعيد كتابة بيانات حرجة. Convex يقدّم application backend مُحسّناً للـ AI agents: TypeScript بدلاً من SQL، ACID transactions، RAG مدمج، وmitigations ضد أخطاء الكود. 57 مليون دولار Series B من Insight Partners — و2 مليون تطبيق يعمل على المنصة.</p>
+      <p>في 4 أغسطس 2026، أعلنت <strong>Convex</strong> عن <strong>Series B بقيمة 57 مليون دولار</strong> بقيادة <strong>Insight Partners</strong>، مع Etna Labs وAndreessen Horowitz وSpark Capital. إجمالي التمويل <strong>110.5 مليون دولار</strong>. تأسس 2021 على يد مهندسين سابقين من <strong>Dropbox</strong>.</p>
+      <p>المنصة تُوفّر database وsearch وauthentication وfile storage و<strong>RAG</strong> في bundle واحد. الفرق: مُحسّن لـ AI agents — يستبدل SQL queries بـ TypeScript code (type-safe)، يُطبّق ACID لمنع overwrites غير مقصودة، ويُ automate مهام coding متقدمة تُعجز عنها agents. عملاء: <strong>OpenAI</strong> و<strong>Zapier</strong> وشركات tech كبرى.</p>
+      <p>SiliconANGLE وصف Convex كـ «AI-optimized application backend». للمبدعين العرب: كل startup يبني agents custom يحتاج backend آمن — Convex consulting، migration services، ودورات «Build AI Apps with Convex» فرصة للمطورين MENA.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Convex وثورة AI-safe backends؟</h3>
+        <ul>
+          <li><strong>Convex migration consulting:</strong> نقل تطبيقات لـ Convex backend — 8000–45000 دولار/مشروع.</li>
+          <li><strong>AI app development:</strong> بناء agents على Convex للعملاء — 10000–80000 دولار.</li>
+          <li><strong>دورات «Convex + AI Agents»:</strong> bootcamp للمطورين — 199–999 دولار.</li>
+          <li><strong>Backend retainer:</strong> صيانة وoptimization — 2500–12000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Convex</span>
+        <span class="tag">AI Backend</span>
+        <span class="tag">Hallucination Mitigation</span>
+        <span class="tag">RAG</span>
+        <span class="tag">$57M Series B</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Sapiom: 35 مليون دولار — وAnthropic يُمول الشركة التي تُقلّص فواتير النماذج!</h2>
+      <p class="article-lead">فاتورة AI agents تتضخم بسرعة — كل استدعاء لـ GPT-4 أو Claude Pro يُكلّف. Sapiom يجلس بين agents والنماذج: Router يُوجّه كل call لأرخص model قادر، يفرض budget قبل الإنفاق، ويُشغّل open-weight models من racks خاصة في San Jose. 270 مليون transaction في 6 أشهر — و35 مليون دولار Series A مع Anthropic كمستثمر!</p>
+      <p>في أوائل أغسطس 2026، أعلنت <strong>Sapiom</strong> عن <strong>Series A بقيمة 35 مليون دولار</strong> بقيادة <strong>Dragonfly</strong>، بعد seed بـ 15 مليون دولار من Accel قبل 6 أشهر. إجمالي <strong>50 مليون دولار</strong>. المستثمرون: <strong>Anthropic</strong> وOkta Ventures وMenlo Ventures وArray Ventures.</p>
+      <p>الفلسفة: <strong>infrastructure layer</strong> — ليس middleman فقط. Sapiom يُشغّل inference من racks خاصة، يفرض budget enforcement، وRouter يختار أرخص capable model. Paradox: Anthropic يُمول startup يُقلّل إنفاق على model makers — Zerbib يُؤكد alignment. منافسون: OpenRouter، Amazon Bedrock، Azure — لكن Sapiom يمتلك compute تحتها.</p>
+      <p>The Next Web وصف Sapiom كـ «slashes AI agent bills». 80 منافس active في routing — Sapiom يراهن على inference + controls. للمبدعين العرب: consulting لـ cost optimization، Sapiom integration للـ startups MENA، ودورات «AI Cost Management» — كل team يبني agents يحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Sapiom وثورة AI cost routing؟</h3>
+        <ul>
+          <li><strong>AI cost optimization consulting:</strong> تقليل فواتير agents للعملاء — 5000–35000 دولار/مشروع.</li>
+          <li><strong>Sapiom integration services:</strong> ربط Router وbudget controls — 6000–30000 دولار.</li>
+          <li><strong>دورات «AI FinOps»:</strong> bootcamp لإدارة تكلفة AI — 149–799 دولار.</li>
+          <li><strong>Cost monitoring retainer:</strong> مراقبة وoptimization مستمر — 1500–8000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Sapiom</span>
+        <span class="tag">Model Routing</span>
+        <span class="tag">AI FinOps</span>
+        <span class="tag">Anthropic</span>
+        <span class="tag">$35M Series A</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Obsidian Security: 85 مليون دولار — الحارس الذي يُطارد الوكلاء الشاردين داخل مؤسستك!</h2>
+      <p class="article-lead">AI agents تتسلل إلى Slack وSalesforce وCopilot Studio — لكن من يراقب ماذا يفعلون؟ Obsidian Security يُأمّن non-human identities وAI agents عبر التطبيقات: governance لـ Claude Code وCowork، runtime protection ضد privilege escalation، inventory لـ MCP servers، وتتبع أي LLM يُشغّل كل agent. 85 مليون دولار Series D — و100+ عميل يدفعون أكثر من 100 ألف دولار سنوياً.</p>
+      <p>في 5 أغسطس 2026، أعلنت <strong>Obsidian Security</strong> عن <strong>Series D بقيمة 85 مليون دولار</strong> بقيادة <strong>Crescent Cove Advisors</strong>، مع Greylock Partners وMenlo Ventures. أكثر من <strong>100 عميل</strong> يدفعون 100K+ سنوياً، و<strong>14 عميل</strong> يدفعون 1 مليون+.</p>
+      <p>القدرات الجديدة: <strong>agent access governance</strong> لـ Claude Code وCowork وCopilot Studio وOpenAI وSalesforce Agentforce وn8n — اكتشاف وcontrol وenforce permissions. <strong>Runtime protection</strong> real-time ضد privilege escalation وexcessive data access. <strong>MCP server inventory</strong> — mapping كل server لـ agents التي تستدعيه. <strong>LLM tracking</strong> — تنبيه عند تبديل models غير مصرّح بها.</p>
+      <p>FinTech Global وصف Obsidian كـ «police rogue AI agents». OWASP-aligned risk factors. للمبدعين العرب: كل bank وenterprise في MENA يُ deploy agents — security consulting، Obsidian implementation، ودورات «AI Agent Security» فرصة ضخمة مع نمو agentic AI.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Obsidian Security وثورة AI agent governance؟</h3>
+        <ul>
+          <li><strong>AI security consulting:</strong> تقييم وgovernance للـ agents — 15000–80000 دولار/مشروع.</li>
+          <li><strong>Obsidian implementation:</strong> نشر وmonitoring للمؤسسات — 10000–60000 دولار.</li>
+          <li><strong>دورات «AI Agent Security»:</strong> bootcamp لـ CISO وsecurity teams — 299–1499 دولار.</li>
+          <li><strong>Security retainer:</strong> مراقبة agents وMCP servers — 4000–20000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Obsidian Security</span>
+        <span class="tag">AI Governance</span>
+        <span class="tag">MCP Security</span>
+        <span class="tag">Runtime Protection</span>
+        <span class="tag">$85M Series D</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 06-08-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
