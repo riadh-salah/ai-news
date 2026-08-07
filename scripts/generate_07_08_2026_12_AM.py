@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 07-08-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "07-08-2026 -- 12-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — HappyRobot، June، Convex، Zenity، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 7 أغسطس 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من وكلاء بمليار دولار إلى أمن يحمي مليار وكيل — أغسطس 2026 يُعلن: «عصر التنفيذ» بدأ فعلاً!</h1>
+      <p class="hero-sub">HappyRobot يُصبح «يونicorn» بـ 150 مليون دولار لأتمتة العمليات الحرجة، June من Marc Benioff يُحوّل خريطة نشر الوكلاء إلى نقرة واحدة، Convex يجمع 57 مليون دولار لبناء backend يُقلّل هلوسة AI، وZenity يُؤمّن عصر «مليار وكيل» بـ 125 مليون دولار. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 7 أغسطس 2026</span>
+        <span>🕛 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>HappyRobot: 150 مليون دولار وvaluation 1.2 مليار — وكيل AI يُدير عملياتك بينما تنام!</h2>
+      <p class="article-lead">تخيّل وكيلاً يتصل بالموظفين الغائبين، يُحدّث الجداول، يُنسّق الشحنات، ويُعيد جدولة الورديات — كل ذلك بمحادثة إنجليزية بسيطة تُنشئ agent جديداً في دقائق. HappyRobot لا يُقدّم chatbot؛ بل بنية تحتية لـ AI agents تعمل على نطاق enterprise حقيقي. 150 مليون دولار Series C — valuation 1.2 مليار دولار — والشركة تُخطّط للتوسع العالمي.</p>
+      <p>في 4 أغسطس 2026، أعلنت <strong>HappyRobot</strong> عن <strong>Series C بقيمة 150 مليون دولار</strong> بقيادة <strong>Prysm Capital</strong> و<strong>Eurazeo</strong>، مع a16z وBase10 وY Combinator وKoch Disruptive Technologies وOrange وT.Capital وBankinter وEndeavor Catalyst وKfund وWave-X. إجمالي التمويل يتجاوز <strong>200 مليون دولار</strong> — والـ valuation وصل <strong>1.2 مليار دولار</strong>.</p>
+      <p>المنصة تُتيح لفرق العمليات إنشاء وكلاء بـ <strong>AI builder</strong>: تُخبر النظام ما تحتاج، أي أنظمة سيُؤثّر عليها، وما المهام المطلوبة — والوكيل يُبنى. HappyRobot يُدير workflows معقدة: تتبع حالة العمال، ملء الورديات، التواصل عبر مكالمات أو email، وتحديث التقويمات تلقائياً. النظام <strong>قابل للتخصيص بدرجة عالية</strong> ويُبقي العمليات تعمل حتى عند ضغط الموارد البشرية.</p>
+      <p>SiliconANGLE وصف HappyRobot كـ «AI agents to critical enterprise work». الفرق: infrastructure للـ deployment والتشغيل على نطاق واسع — لا demo. للمبدعين العرب: logistics وmanufacturing وhealthcare في MENA تحتاج implementation partners، training لفرق العمليات، وcontent عن «كيف تُ automate عملياتك بدون برمجة».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من HappyRobot وثورة enterprise operations AI؟</h3>
+        <ul>
+          <li><strong>Operations AI consulting:</strong> تحليل workflows ونشر وكلاء HappyRobot — 10000–60000 دولار/مشروع.</li>
+          <li><strong>Agent builder training:</strong> workshop لفرق العمليات — 299–1499 دولار/مشارك.</li>
+          <li><strong>Industry-specific agent templates:</strong> قوالب جاهزة للـ logistics وhealthcare — 5000–30000 دولار.</li>
+          <li><strong>Managed operations retainer:</strong> صيانة وتحسين الوكلاء — 3000–18000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">HappyRobot</span>
+        <span class="tag">Enterprise Agents</span>
+        <span class="tag">Operations AI</span>
+        <span class="tag">$1.2B Valuation</span>
+        <span class="tag">Series C</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>June: Marc Benioff وMichael Dell يُمولون 20 مليون دولار — من «100 وكيل» إلى خريطة تنفيذ تلقائية!</h2>
+      <p class="article-lead">معظم الشركات تُعلن عن AI agents في المؤتمرات — ثم تُقضي أسابيع عالقة مع architects وconsultants. June يُقلب المعادلة: يمسح أنظمتك، يكتشف bottlenecks، يُبني roadmap خطوة بخطوة، ثم ينقر «build» فيُنفّذ. 20 مليون دولار pre-seed من Marc Benioff's Time Ventures — مع Michael Dell وAaron Levie وGeorge Kurtz.</p>
+      <p>في 3 أغسطس 2026، خرجت <strong>June</strong> من stealth بـ <strong>20 مليون دولار pre-seed</strong> بقيادة <strong>Time Ventures</strong> (Marc Benioff)، مع Michael Dell وAaron Levie (Box) وGeorge Kurtz (CrowdStrike). المؤسسة <strong>Shira Rapoport</strong> (CEO) مع Ohad Hen وBarak Goldstein وIdan Tsitiat.</p>
+      <p>المنصة <strong>تُمسح أنظمة الشركة</strong> لفهم business processes، اكتشاف الاختناقات، وبناء workflows محسّنة مدعومة بـ agents — مع إشعار الفرق عبر قنوات التواصل. June يُقدّم: «Remove these duplicates. Connect to this data source.» — ثم click «build» وJune يُنفّذ في المؤسسة. CMG (شركة إعلانات أمريكية كبرى) استخدمت June لتحقيق هدف «100 agents running» بعد أسابيع من العجز.</p>
+      <p>TechCrunch وصف June كـ «AI can solve the AI deployment problem». الفلسفة: complement FDEs وconsultants — أو تجنّبهم بالكامل. للمبدعين العرب: كل enterprise في MENA يُعاني من «agent deployment gap» — June implementation partner، training، وcontent عن «من الفكرة إلى 100 وكيل» فرصة ضخمة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من June وثورة AI deployment automation؟</h3>
+        <ul>
+          <li><strong>June deployment partner:</strong> مسح ونشر وكلاء للشركات — 15000–80000 دولار/مشروع.</li>
+          <li><strong>Agent roadmap consulting:</strong> تحليل processes وخطة تنفيذ — 5000–35000 دولار.</li>
+          <li><strong>دورات «من Demo إلى Production»:</strong> bootcamp للـ CTOs — 399–1999 دولار.</li>
+          <li><strong>Enterprise AI readiness audit:</strong> تقييم جاهزية المؤسسة — 3000–20000 دولار/تقرير.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">June</span>
+        <span class="tag">Marc Benioff</span>
+        <span class="tag">Agent Deployment</span>
+        <span class="tag">Enterprise AI</span>
+        <span class="tag">$20M Pre-Seed</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Convex: 57 مليون دولار — backend مُحسّن لـ AI agents يُقلّل الهلوسة ويُسرّع التطوير!</h2>
+      <p class="article-lead">عندما يبني AI agent تطبيقاً، الهلوسة في الكود يمكن أن تُدمّر production. Convex — من فريق Dropbox infrastructure — يُقدّم application backend مُصمّم خصيصاً لـ AI agents: ACID transactions، RAG مدمج، وmodules جاهزة. 57 مليون دولار Series B — و2 مليون تطبيق يعمل على المنصة!</p>
+      <p>في 4 أغسطس 2026، أعلنت <strong>Convex</strong> عن <strong>Series B بقيمة 57 مليون دولار</strong> بقيادة <strong>Insight Partners</strong>، مع Etna Labs وAndreessen Horowitz وSpark Capital. إجمالي التمويل <strong>110.5 مليون دولار</strong>. المؤسسان من فريق <strong>Dropbox infrastructure</strong> — تأسيس 2021.</p>
+      <p>Convex ليس backend عادياً: <strong>مُحسّن لـ AI agents</strong>. يساعد developers على mitigating hallucination-related coding errors — ACID best practices تمنع database overwrites غير مقصودة، وautomates مهام coding متقدمة تُشكّل challenge للـ agents. المنصة تشمل: database، search، authentication، file storage، و<strong>RAG</strong> لتوسيع knowledge base الوكلاء.</p>
+      <p>SiliconANGLE وصف Convex كـ «AI-optimized application backend». العملاء: OpenAI وZapier وtech giants. للمبدعين العرب: consulting لـ Convex-based apps، دورات «Build with AI Backend»، وagency لـ agent-powered SaaS — كل startup يبني agents يحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Convex وثورة AI-native backend؟</h3>
+        <ul>
+          <li><strong>Convex app development:</strong> بناء تطبيقات agent-powered — 8000–50000 دولار/مشروع.</li>
+          <li><strong>AI backend migration:</strong> نقل apps لـ Convex — 10000–45000 دولار.</li>
+          <li><strong>دورات «Convex + AI Agents»:</strong> bootcamp للـ developers — 249–1299 دولار.</li>
+          <li><strong>RAG implementation service:</strong> إعداد knowledge bases للوكلاء — 5000–25000 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Convex</span>
+        <span class="tag">AI Backend</span>
+        <span class="tag">Agent Development</span>
+        <span class="tag">RAG</span>
+        <span class="tag">$57M Series B</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Zenity: 125 مليون دولار — أمن «عصر مليار وكيل» يُحمي مؤسستك قبل أن يُنفّذ الوكيل!</h2>
+      <p class="article-lead">prompt inspection وpost-incident analysis لم يعودا كافيين. Zenity يُقيّم intent كل action قبل التنفيذ — approve، modify، أو block ديناميكياً. Gartner وصفها «the company to beat in AI agent governance». 125 مليون دولار Series C — 185 مليون دولار إجمالي — والتوسع يشمل أوروبا وAsia-Pacific والشرق الأوسط!</p>
+      <p>في 3 أغسطس 2026، أعلنت <strong>Zenity</strong> عن <strong>Series C بقيمة 125 مليون دولار</strong> بقيادة <strong>Norwest</strong>، مع Qumra Capital وSoftBank Vision Fund 2 وHitachi Ventures وLG Technology Ventures وVertex وThird Point وDTCP وIntel Capital. إجمالي التمويل <strong>185 مليون دولار</strong>. المؤسسان <strong>Ben Kliger</strong> (CEO) و<strong>Michael Bargury</strong> (CTO) — veterans من Unit 8200 وMicrosoft.</p>
+      <p>المنصة: <strong>Surface</strong> (اكتشاف agents وattack paths)، <strong>Enforce</strong> (Runtime Boundaries — approve/block/terminate قبل business impact)، <strong>Protect</strong> (AI-powered DFIR). Zenity Labs كشف AgentFlayer وvulnerabilities في Copilot Studio وPerplexity Comet. يدعم Gemini وChatGPT Enterprise وCopilot وClaude وCursor — وagents داخلية.</p>
+      <p>SiliconANGLE وAP News وصفا Zenity كـ «security layer for 1 billion AI agents». التوسع يشمل <strong>Europe وAsia-Pacific والشرق الأوسط</strong>. للمبدعين العرب: agent security consulting، compliance training، وimplementation partner — كل bank وinsurance وtelco في MENA يحتاج هذه الطبقة قبل نشر agents.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Zenity وثورة AI agent security؟</h3>
+        <ul>
+          <li><strong>Agent security consulting:</strong> تقييم ونشر Zenity للمؤسسات — 15000–90000 دولار/مشروع.</li>
+          <li><strong>AI governance training:</strong> workshop للـ CISOs وsecurity teams — 499–2499 دولار.</li>
+          <li><strong>Compliance audit service:</strong> مراجعة agent policies — 5000–40000 دولار.</li>
+          <li><strong>MENA security retainer:</strong> مراقبة وgovernance مستمر — 4000–25000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Zenity</span>
+        <span class="tag">AI Agent Security</span>
+        <span class="tag">Runtime Governance</span>
+        <span class="tag">Gartner Leader</span>
+        <span class="tag">$125M Series C</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 07-08-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
