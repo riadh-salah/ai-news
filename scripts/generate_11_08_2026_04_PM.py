@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 11-08-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "11-08-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — River AI، Baseten، Harvey، Sail Research، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 11 أغسطس 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>مليار دولار في يوم واحد — River AI يُشعل المعركة، وBaseten وHarvey وSailboxes يُعيدون رسم اقتصاد الذكاء الاصطناعي!</h1>
+      <p class="hero-sub">في 11 أغسطس 2026، River AI — من مؤسس xAI السابق Igor Babuschkin — يجمع 1.1 مليار دولار لتخصيص نماذج مفتوحة للمؤسسات. Baseten يُعالج مليار استدعاء inference يومياً بـ 1.5 مليار دولار Series F، Harvey يُحكم قبضته القانونية بـ 11 مليار دولار تقييم، وSail Research يُطلق Sailboxes لتشغيل وكلاء لأيام لا ثوانٍ. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 11 أغسطس 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>River AI: 1.1 مليار دولار — نماذجك الخاصة تُدرَّب في 20 دقيقة بدون فريق infrastructure!</h2>
+      <p class="article-lead">تخيّل أن شركتك تملك نموذج AI مخصّصاً يفهم عقودها ومنتجاتها وسياساتها — ليس chatbot عاماً يُجيب عن كل شيء بلا مسؤولية. River AI، التي أسسها Igor Babuschkin (ex-DeepMind، ex-OpenAI، co-founder xAI)، جمعت 1.1 مليار دولار في 11 أغسطس 2026 بقيادة General Catalyst وAMP PBC — مع NVIDIA وAMD Ventures وY Combinator وTemasek. التقييم: 5 مليار دولار. الشركة عمرها أشهر — والرسالة واضحة: AI يجب أن يكون مفتوحاً، مخصّصاً، وتحت سيطرة المستخدم.</p>
+      <p>في 11 أغسطس 2026، أعلنت <strong>River AI</strong> عن <strong>جولة تمويل بقيمة 1.1 مليار دولار</strong> — من أكبر جولات seed/early-stage في تاريخ AI. المؤسس <strong>Igor Babuschkin</strong> قاد تدريب نماذج ضخمة في Google DeepMind وOpenAI وxAI قبل أن يبني River في Palo Alto. الجولة بقيادة <strong>General Catalyst</strong> و<strong>AMP PBC</strong> (التي جمعت 1.3 مليار دولار في مايو 2026 لبناء «AI grid» للحوسبة المشتركة).</p>
+      <p>المنصة full-stack: <strong>LoRA fine-tuning</strong> و<strong>reinforcement learning</strong> لنماذج frontier open-weight عبر API — بدون فريق infrastructure أو hardware مكلف. River يُكمل training runs في <strong>15–20 دقيقة</strong> — بتكلفة <strong>2–4× أقل</strong> من closed-source rivals. الفلسفة: المؤسسات ستنتقل من off-the-shelf models إلى <strong>نماذج مملوكة ومفتوحة الوزن</strong> مُخصّصة لبياناتها.</p>
+      <p>River يبني أيضاً hardware وconsumer products — استراتيجية vertically integrated حيث personal AI يعمل قرب المستخدم ويتعلّم باستمرار. QZ وFinsmes وصفوا River كـ «enterprise custom AI at scale». للمبدعين العرب: كل شركة تملك بيانات proprietary (عقود، تقارير، سجلات عملاء) تحتاج fine-tuning partner — consulting وRLHF pipelines وArabic model customization فرصة ضخمة قبل أن يمتلئ السوق.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من River AI وثورة custom open models؟</h3>
+        <ul>
+          <li><strong>Enterprise fine-tuning consulting:</strong> تخصيص نماذج مفتوحة لبيانات العملاء — 15000–80000 دولار/مشروع.</li>
+          <li><strong>Arabic RLHF &amp; SFT services:</strong> تدريب نماذج عربية على domain-specific data — 8000–50000 دولار.</li>
+          <li><strong>دورات «Custom AI Models»:</strong> bootcamp للمطورين والشركات — 299–1499 دولار.</li>
+          <li><strong>Managed model ops retainer:</strong> صيانة وتحديث النماذج المخصّصة — 3000–20000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">River AI</span>
+        <span class="tag">Igor Babuschkin</span>
+        <span class="tag">Open-Weight Models</span>
+        <span class="tag">Fine-Tuning</span>
+        <span class="tag">$1.1B Funding</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Baseten: 1.5 مليار دولار Series F — مليار استدعاء inference يومياً يُغيّر قواعد اللعبة!</h2>
+      <p class="article-lead">Inference لم يعد «طبقة خلفية» — بل أصبح قلب منتجات AI. Baseten، التي تخدم Cursor وLovable وAbridge، أعلنت في 22 يونيو 2026 عن Series F بقيمة 1.5 مليار دولار بتقييم 13 مليار دولار. الإيرادات نمت 20× خلال سنة، وحجم inference 40×. المنصة تُعالج أكثر من <strong>مليار استدعاء يومياً</strong> عبر 87 cluster و18 cloud — Multi-Cloud Manager يوزّع الطلبات تلقائياً مع failover عند ندرة GPU.</p>
+      <p><strong>Baseten</strong> (San Francisco، تأسست 2019) بقيادة <strong>Tuhin Srivastava</strong> تبني systems software لـ AI application workloads: GPU orchestration، autoscaling، observability، billing، وdeveloper tools. الجولة بقيادة <strong>Altimeter Capital</strong> و<strong>Conviction</strong> و<strong>Spark Capital</strong>، مع Sands Capital وWellington Management وIVP وGreylock وBattery Ventures — إجمالي التمويل يتجاوز 2 مليار دولار.</p>
+      <p>الفكرة: الشركات تحتاج <strong>multi-model strategies</strong> — frontier models + custom/post-trained models لكل workflow. Baseten لا يملك GPU hardware؛ بل يشتري compute من 18 cloud ويُحسّن inference engine. العملاء يبنون specialized models للـ healthcare وlegal وcoding — وBaseten يُشغّلها في production بـ reliability وcost efficiency.</p>
+      <p>BusinessWire: «inference is the most important layer in the AI stack». Baseten plans to <strong>triple headcount</strong> في 2026. للمبدعين العرب: كل startup AI في MENA تحتاج inference partner — consulting لـ deployment، cost optimization، وmulti-cloud setup. وكل agency تبني AI products للعملاء يمكنها white-label Baseten infrastructure كخدمة managed inference.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Baseten وثورة AI inference؟</h3>
+        <ul>
+          <li><strong>Managed inference services:</strong> نشر وإدارة models للعملاء على Baseten — 5000–40000 دولار/شهر.</li>
+          <li><strong>Cost optimization consulting:</strong> تقليل فواتير inference 30–60% — 8000–35000 دولار/مشروع.</li>
+          <li><strong>AI product launch agency:</strong> بناء وdeploy منتجات AI للشركات المحلية — 10000–60000 دولار.</li>
+          <li><strong>دورات «Production AI &amp; Inference»:</strong> workshop للمطورين — 249–1299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Baseten</span>
+        <span class="tag">AI Inference</span>
+        <span class="tag">Multi-Cloud</span>
+        <span class="tag">Series F</span>
+        <span class="tag">$1.5B</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Harvey: 11 مليار دولار — 100,000 محامٍ يعملون على «نظام التشغيل القانوني»!</h2>
+      <p class="article-lead">بينما labs العامة تتوسع، Harvey يُثبت أن vertical AI — متخصص في صناعة واحدة — يمكن أن يُنافس العمالقة. في مارس 2026، جمع Harvey 200 مليون دولار بتقييم 11 مليار دولار (GIC وSequoia). أكثر من 100,000 محامٍ عبر 1,300 مؤسسة — Allen &amp; Overy، HSBC، NBCUniversal — يستخدمون Harvey لتحليل العقود وdue diligence والامتثال والتقاضي. ARR وصل 190 مليون دولار في يناير 2026 — من 100 مليون في أغسطس 2025.</p>
+      <p><strong>Harvey</strong> (San Francisco، تأسست 2022) من <strong>Winston Weinberg</strong> و<strong>Gabriel Pereyra</strong> — «operating system for legal and professional services». المنتجات: AI Assistant، Vault لإدارة المستندات، Knowledge للبحث — و<strong>legal AI agents</strong> تُنفّذ workflows مع embedded legal engineering teams حول العالم.</p>
+      <p>CNBC وReuters: Harvey أصبح أحد أوضح أمثلة vertical AI — لا generic chatbot بل أدوات تندمج في workflow المحامي: contract analysis، compliance checks، litigation prep. Sequoia قادت 3 جولات — «ultimate sign of conviction». إجمالي التمويل يتجاوز 1.2 مليار دولار.</p>
+      <p>الدرس للمبدعين العرب: MENA لديها أنظمة قانونية معقدة (شريعة، مدني، تجاري) — Harvey-style products للمحامين العرب، consulting لـ legal AI deployment، وtraining datasets عربية للعقود فرصة قبل أن يدخل المنافسون. كل مكتب محاماة وكل legal department في bank يحتاج automation partner محلي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Harvey وثورة Legal AI؟</h3>
+        <ul>
+          <li><strong>Arabic legal AI consulting:</strong> تخصيص أدوات AI للمحامين العرب — 10000–60000 دولار/مشروع.</li>
+          <li><strong>Contract review automation:</strong> بناء workflows لتحليل عقود عربية — 8000–45000 دولار.</li>
+          <li><strong>Legal AI training:</strong> دورات للمحامين وlegal ops — 299–1999 دولار.</li>
+          <li><strong>Compliance AI retainer:</strong> صيانة وتحديث أنظمة الامتثال — 3000–18000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Harvey</span>
+        <span class="tag">Legal AI</span>
+        <span class="tag">Vertical AI</span>
+        <span class="tag">Legal Agents</span>
+        <span class="tag">$11B Valuation</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Sail Research Sailboxes: 80 مليون دولار — وكلاء AI يعملون أياماً لا ثوانٍ!</h2>
+      <p class="article-lead">معظم cloud sandboxes تُصمَّم لثوانٍ — agent يكتب كوداً ويختفي. Sail Research يبني العكس تماماً: Sailboxes — بيئة cloud stateful تُشغّل وكلاء long-horizon لأيام مع persistent state وauto-sleep. في 14 يوليو 2026 أُطلقت Sailboxes؛ وفي 25 يونيو جمعت الشركة 80 مليون دولار (Seed + Series A) بتقييم 450 مليون دولار — Kleiner Perkins وSequoia وRedpoint وJohn Hennessy (chairman Alphabet) وLip-Bu Tan (CEO Intel).</p>
+      <p><strong>Sail Research</strong> يجمع مكوّنين: <strong>inference stack</strong> مُ rebuilt من الصفر — حتى <strong>10× lower cost per token</strong>؛ و<strong>Sailboxes</strong> — full machines مع persistent state للـ multi-turn، long-horizon workflows. Fortune وSiliconANGLE: inference الحالي صُمم لـ latency-bounded calls؛ agent work القادم سيستمر ساعات وأيام — وهذا يكسر economics الحالية.</p>
+      <p>Sailboxes تمنح enterprise teams machines كاملة — agents تُنشر بـ cost efficiency أكبر وscale أوسع. Use cases: research agents، coding agents طويلة المدى، data analysis pipelines، automated workflows تتطلب أيام من التفكير. Sail backed by أقوى investors في AI infrastructure.</p>
+      <p>للمبدعين العرب: long-horizon agents = فرصة consulting جديدة — بناء agents تُشغَّل على Sailboxes للـ e-commerce automation، financial research، content pipelines. وكل agency تبني «AI employees» للعملاء تحتاج partner يفهم economics الـ multi-day agent runs — retainer model مربح جداً.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Sail Research وثورة long-horizon agents؟</h3>
+        <ul>
+          <li><strong>Long-horizon agent development:</strong> بناء وكلاء multi-day للعملاء — 12000–70000 دولار/مشروع.</li>
+          <li><strong>Agent infrastructure consulting:</strong> نشر Sailboxes وoptimization — 8000–45000 دولار.</li>
+          <li><strong>«AI Employees» agency:</strong> وكلاء مُدارون للشركات — 5000–25000 دولار/شهر.</li>
+          <li><strong>دورات «Long-Horizon AI Agents»:</strong> bootcamp للمطورين — 299–1499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Sail Research</span>
+        <span class="tag">Sailboxes</span>
+        <span class="tag">Long-Horizon Agents</span>
+        <span class="tag">Agent Infrastructure</span>
+        <span class="tag">$80M Funding</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 11-08-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
