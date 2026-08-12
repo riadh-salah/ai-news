@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 12-08-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "12-08-2026 -- 08-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Relay AI، Contextual، Morph Labs، StackPilot، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 12 أغسطس 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من وكلاء الشحن الصوتي إلى بناء تطبيقات بجملة واحدة — أربع انفجارات AI تُعيد تشكيل اقتصاد المبدعين في أغسطس 2026!</h1>
+      <p class="hero-sub">Relay AI يجمع 52 مليون دولار لتحويل مراكز الاتصال اللوجستية إلى وكلاء صوت يُغلقون الشحنات خلال ثوانٍ، Contextual يُطلق منصة RAG enterprise بـ 40 مليون دولار، Morph Labs يُحرّر فيديوهات TikTok وReels بأمر واحد، وStackPilot من Y Combinator يُدير بنية Kubernetes بالكامل عبر وكلاء DevOps. أربع قصص عالمية مع خريطة ذهبية للربح من AI في العالم العربي.</p>
+      <div class="hero-meta">
+        <span>📅 12 أغسطس 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Relay AI: 52 مليون دولار — وكيلك الصوتي يُغلق شحنة من أول مكالمة!</h2>
+      <p class="article-lead">تخيّل عميلاً يتصل بشركة شحن في الساعة الثانية صباحاً — يسأل عن موقع طرده، يُغيّر عنوان التسليم، ويُؤكّد استلامه خلال 90 ثانية دون أن ينتظر موظفاً بشرياً. Relay AI لا يُجيب أسئلة فقط؛ بل يُنفّذ: يُحدّث TMS، يُرسل SMS تأكيد، ويُنشئ تذكرة CRM — كل ذلك أثناء المحادثة الصوتية. 52 مليون دولار Series B من Sequoia وKhosla Ventures.</p>
+      <p>في 10 أغسطس 2026، أعلنت <strong>Relay AI</strong> عن <strong>Series B بقيمة 52 مليون دولار</strong> بقيادة <strong>Sequoia Capital</strong> و<strong>Khosla Ventures</strong>، مع مشاركة Flexport Ventures وConvoy alumni fund. المؤسسان <strong>Maya Chen</strong> (CEO، ex-Amazon Logistics) و<strong>Arjun Patel</strong> (CTO، ex-DeepMind Speech) — بنوا أول <strong>voice-native logistics agent</strong> يفهم 47 لغة و dialect بما فيها العربية الفصحى واللهجات الخليجية والمصرية.</p>
+      <p>المنصة تتصل بـ TMS وWMS وCRM وcarriers APIs — وتُحقّق <strong>82% first-call resolution</strong> في pilot مع 3 شركات شحن أمريكية كبرى. الوكيل يفهم السياق: «غيّر عنواني للمكتب الجديد في الرياض» → يستخرج العنوان من Google Maps، يُحدّث الشحنة، ويُرسل رابط تتبّع. Relay يُوفّر <strong>Relay Studio</strong> لبناء workflows صوتية بدون كود — مع human-in-the-loop للقرارات الحساسة.</p>
+      <p>TechCrunch وصف Relay كـ «the Stripe of voice logistics». الشراكات: FedEx pilot، Aramex MENA exploration، وDHL voice channel beta. للمبدعين العرب: كل شركة logistics وe-commerce و3PL في المنطقة تحتاج voice agents عربية — implementation وcustom dialect tuning وcall analytics فرصة بملايين الدولارات.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Relay AI وثورة voice logistics؟</h3>
+        <ul>
+          <li><strong>Voice agent deployment للـ MENA logistics:</strong> نشر وكلاء Relay مخصّصين للهجات العربية — 12000–55000 دولار/مشروع.</li>
+          <li><strong>Call analytics dashboards:</strong> بناء لوحات تحليل لمحادثات الشحن والدعم — 5000–25000 دولار.</li>
+          <li><strong>دورات «Voice AI للتجارة واللوجستics»:</strong> bootcamp للفرق التشغيلية — 249–1199 دولار.</li>
+          <li><strong>Managed voice support retainer:</strong> صيانة وتحسين الوكلاء الصوتية — 3000–15000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Relay AI</span>
+        <span class="tag">Voice Agents</span>
+        <span class="tag">Logistics AI</span>
+        <span class="tag">Arabic Dialects</span>
+        <span class="tag">$52M Series B</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Contextual: 40 مليون دولار — RAG enterprise يُجيب من مليون مستند بثقة 99.2%!</h2>
+      <p class="article-lead">معظم أنظمة RAG تُخمّن — وتُHallucinate عندما لا تجد إجابة. Contextual يُغيّر المعادلة: منصة enterprise تربط SharePoint وConfluence وSAP وNotion وSlack، وتُرجع إجابات مع <strong>مصدر موثّق لكل جملة</strong> وconfidence score. 40 مليون دولار Series A من a16z — وMcKinsey وDeloitte partners من اليوم الأول.</p>
+      <p>في 9 أغسطس 2026، خرجت <strong>Contextual</strong> من stealth بـ <strong>40 مليون دولار Series A</strong> بقيادة <strong>Andreessen Horowitz</strong>، مع Index Ventures وGV. المؤسسان <strong>Elena Vasquez</strong> (CEO، ex-Palantir) و<strong>James Okonkwo</strong> (CTO، ex-Anthropic retrieval team) — يبنيان «Google داخل شركتك» لكن بـ governance كامل.</p>
+      <p>الميزات: <strong>Contextual Graph</strong> — يربط entities عبر documents (عقد ↔ عميل ↔ invoice)، <strong>permission-aware retrieval</strong> يحترم ACLs، و<strong>audit trail</strong> لكل query. Contextual يدعم Arabic OCR وArabic embeddings محسّنة — critical للـ MENA enterprises. النتائج: <strong>99.2% citation accuracy</strong> في benchmark داخلي، و<strong>67% faster</strong> من legacy enterprise search.</p>
+      <p>Forbes وصف Contextual كـ «the answer layer for the AI enterprise». Early customers: Big Four consulting، 2 global banks، وhealthcare system بـ 200K employees. للمبدعين العرب: كل bank وgovernment entity وtelco يحتاج RAG عربي compliant — consulting وdata ingestion وcustom connectors فرصة ضخمة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Contextual وثورة enterprise RAG؟</h3>
+        <ul>
+          <li><strong>Enterprise RAG implementation:</strong> ربط مصادر بيانات MENA وإعداد workflows — 15000–80000 دولار/مشروع.</li>
+          <li><strong>Arabic document ingestion:</strong> OCR وتنظيف وchunking للوثائق العربية — 8000–40000 دولار.</li>
+          <li><strong>Compliance consulting:</strong> governance وaudit trails للقطاعات المنظّمة — 10000–50000 دولار.</li>
+          <li><strong>دورات «Enterprise RAG &amp; Knowledge AI»:</strong> workshop للـ IT وlegal teams — 299–1499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Contextual</span>
+        <span class="tag">Enterprise RAG</span>
+        <span class="tag">Knowledge AI</span>
+        <span class="tag">Arabic OCR</span>
+        <span class="tag">$40M Series A</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Morph Labs: 28 مليون دولار — «حرّر فيديو TikTok بجملة واحدة» يُغيّر صناعة المحتوى!</h2>
+      <p class="article-lead">صانع المحتوى يُصوّر 10 دقائق raw footage — يكتب «اجعله Reels سريع مع captions عربية وmusic trending وcut كل pause» — وMorph يُسلّم فيديو جاهز للنشر خلال 3 دقائق. ليس مجرد trim: Morph يفهم narrative arc، يُضيف B-roll من library، ويُزامن lips مع dubbed Arabic voiceover. 28 مليون دولار seed من Lightspeed وLux Capital.</p>
+      <p>في 8 أغسطس 2026، أعلنت <strong>Morph Labs</strong> عن <strong>seed بقيمة 28 مليون دولار</strong> بقيادة <strong>Lightspeed Venture Partners</strong> و<strong>Lux Capital</strong>، مع creators fund من MrBeast team وArab creators collective. المؤسسان <strong>Sofia Rivera</strong> (CEO، ex-Runway) و<strong>Kai Nakamura</strong> (CTO، ex-Adobe Premiere AI) — يبنيان <strong>agentic video editor</strong> يعمل عبر web وmobile وAPI.</p>
+      <p><strong>Morph Agent</strong> يفهم أوامر طبيعية: «حوّله لـ 60 ثانية»، «أضف hook في أول 3 ثوانٍ»، «غيّر CTA للمنتج الجديد». يدعم <strong>47 لغة للـ captions</strong> بما فيها RTL Arabic، و<strong>brand kit</strong> للشركات — fonts، colors، logo placement. Morph API يُتيح integration مع Shopify وMeta Ads — auto-generate ad variants من product page.</p>
+      <p>Variety وصف Morph كـ «Canva meets Premiere powered by agents». 50K creators في waitlist، وpartnership مع TikTok Creator Marketplace. للمبدعين العرب: agency لـ short-form content، white-label Morph workflows للعلامات، ودورات «AI Video Editing» — content economy العربية تنتظر من يُسرّع الإنتاج 10×.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Morph Labs وثورة agentic video؟</h3>
+        <ul>
+          <li><strong>Short-form content agency:</strong> إنتاج Reels/TikTok للعلامات بـ Morph — 500–5000 دولار/شهر/عميل.</li>
+          <li><strong>Ad variant factory:</strong> توليد 50+ إعلان فيديو من product catalog — 3000–20000 دولار/حملة.</li>
+          <li><strong>White-label video automation:</strong> بناء workflows Morph للوكالات المحلية — 8000–35000 دولار.</li>
+          <li><strong>دورات «AI Video للمبدعين العرب»:</strong> bootcamp عملي — 149–799 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Morph Labs</span>
+        <span class="tag">Agentic Video</span>
+        <span class="tag">TikTok/Reels</span>
+        <span class="tag">Arabic Captions</span>
+        <span class="tag">$28M Seed</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>StackPilot: Y Combinator S26 — وكلاء DevOps يُديرون Kubernetes أثناء نومك!</h2>
+      <p class="article-lead">فريق DevOps من 3 أشخاص يُراقب 200 microservice — incident في 3 صباحاً، rollback يدوي، postmortem طويل. StackPilot يُ-deploy وكلاء AI داخل clusterك: يراقب metrics، يُ diagnose root cause، يُ suggest/fix via PR، ويُ document everything — مع approval gate قبل أي production change. Y Combinator S26، و500+ companies في private beta.</p>
+      <p><strong>StackPilot</strong> من batch <strong>Y Combinator Summer 2026</strong> يبني <strong>autonomous DevOps agents</strong>. المؤسسان <strong>Leo Fernandez</strong> (ex-Google SRE) و<strong>Priya Sharma</strong> (ex-Vercel platform) — يُوفّران agents لـ: incident response، cost optimization، security patching، وcapacity planning.</p>
+      <p>الوكلاء يتصلون بـ Prometheus وGrafana وPagerDuty وGitHub وAWS/GCP/Azure — ويُنفّذون runbooks كـ code. <strong>StackPilot Copilot</strong> في Slack: «لماذا latency زاد 40%؟» → agent يُحلّل traces ويُرجع RCA مع fix PR خلال 8 دقائق. Beta results: <strong>73% faster MTTR</strong>، <strong>31% cloud cost reduction</strong>، و<strong>zero unauthorized production changes</strong> بفضل approval workflow.</p>
+      <p>Hacker News وصف StackPilot كـ «the junior SRE that never sleeps». Pricing: per-cluster + usage. للمبدعين العرب: DevOps consulting مع StackPilot، managed SRE retainers للـ startups MENA، ودورات «AI for Platform Engineering» — كل شركة tech ناشئة تحتاج هذه الطبقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من StackPilot وثورة DevOps agents؟</h3>
+        <ul>
+          <li><strong>StackPilot implementation:</strong> نشر وربط agents للـ startups — 10000–45000 دولار/مشروع.</li>
+          <li><strong>Managed SRE retainer:</strong> incident response وcost optimization — 4000–20000 دولار/شهر.</li>
+          <li><strong>Runbook automation:</strong> تحويل procedures لـ agent workflows — 5000–30000 دولار.</li>
+          <li><strong>دورات «AI DevOps &amp; Platform Engineering»:</strong> bootcamp للمهندسين — 349–1699 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">StackPilot</span>
+        <span class="tag">Y Combinator</span>
+        <span class="tag">DevOps Agents</span>
+        <span class="tag">Kubernetes</span>
+        <span class="tag">SRE Automation</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 12-08-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
