@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 14-08-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "14-08-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Vals AI، Mindgard، Town، Kinetik For Teams، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 14 أغسطس 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من اختبار النماذج إلى حمايتها، ومن ويكي شخصي إلى تسويق المؤثرين — أربع ثورات تُعيد رسم خريطة AI في منتصف أغسطس 2026!</h1>
+      <p class="hero-sub">Vals AI يجمع 40 مليون دولار لتقييم النماذج بلا تلاعب، Mindgard يكسر حواجز Cursor وChatGPT بـ 30 مليون دولار، Town يُطلق ويكي ذاتي التنظيم بـ 55 مليون دولار، وKinetik من JetBrains يُدير حملات المؤثرين من داخل Slack. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 14 أغسطس 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Vals AI: 40 مليون دولار بقيادة a16z — الحكم المستقل على نماذج AI أصبح صناعة بـ 400 مليون دولار!</h2>
+      <p class="article-lead">عندما يُعلن OpenAI أو Google أن نموذجهم «الأفضل في العالم»، من يتحقق؟ Vals AI بنى empire على الإجابة: تقييم مستقل عبر مهام حقيقية في البرمجة والقانون والطب والمالية — ونتائجه تُقتبس في model cards لـ OpenAI وAnthropic وGoogle وMeta وxAI. 40 مليون دولار Series A بقيادة Andreessen Horowitz، وتقييم 400 مليون دولار.</p>
+      <p>في 13 أغسطس 2026، أعلنت <strong>Vals AI</strong> عن <strong>جولة Series A بقيمة 40 مليون دولار</strong> بتقييم <strong>400 مليون دولار</strong>، بقيادة <strong>Andreessen Horowitz (a16z)</strong>، مع 8VC وPear VC وBloomberg Beta وHRT Ventures وNext Ladder Ventures. الإيرادات في 2026 تجاوزت بالفعل <strong>8 أضعاف</strong> توقعات 2025 الكاملة.</p>
+      <p>المشكلة التي يحلّها Vals: benchmarks العامة أصبحت ساحة تلاعب — data contamination، targeted optimization، و«high scores» لا تضمن usability حقيقية. Vals يُقيّم النماذج على <strong>مهام مهنية حقيقية</strong> عبر القانون والمصارف والهندسة والرعاية الصحية، ويُوفّر للمؤسسات مقارنة objective بين النماذج وتقييم ROI للـ AI deployments.</p>
+      <p>مع الجولة، أطلق Vals ثلاثة منتجات: <strong>Vals Smith</strong> — يحوّل أي GitHub repo إلى coding benchmark من pull requests حقيقية (120 credit مجاني)، <strong>Frontier Risk Benchmarks</strong> — cyber وmental health وAI safety، و<strong>Vals Index 2.0</strong> — تغطية أوسع للاقتصاد. a16z يستثمر لأن «الحكم المستقل» أصبح infrastructure حاسمة في era النماذج المتسارعة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Vals AI وثورة AI evaluation؟</h3>
+        <ul>
+          <li><strong>Custom benchmark consulting:</strong> بناء benchmarks مخصّصة للشركات عبر Vals Smith — 8000–35000 دولار/مشروع.</li>
+          <li><strong>Model selection advisory:</strong> تقارير مقارنة نماذج للـ MENA enterprises — 5000–25000 دولار.</li>
+          <li><strong>دورات «AI Model Evaluation»:</strong> bootcamp للـ ML teams — 199–999 دولار.</li>
+          <li><strong>Compliance &amp; risk assessment:</strong> تقييم frontier risks للـ banks وhealthcare — 10000–60000 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Vals AI</span>
+        <span class="tag">AI Benchmarking</span>
+        <span class="tag">Vals Smith</span>
+        <span class="tag">Model Evaluation</span>
+        <span class="tag">$40M Series A</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Mindgard: 30 مليون دولار — كسر حواجز Cursor وChatGPT وGoogle في 150 ثغرة AI!</h2>
+      <p class="article-lead">AI security لم يعد optional — كل deployment جديد يحمل prompt injection وdata leaks وshadow AI. Mindgard من Lancaster University يُشغّل red-teaming هجومي automated ضد models وagents وapplications — واكتشف أكثر من 150 vulnerability، بما فيها zero-day في Cursor وضعف في حواجز ChatGPT. 30 مليون دولار Series A — والسوق متجه نحو 56.5 مليار دولار بحلول 2033.</p>
+      <p>أعلنت <strong>Mindgard</strong> عن <strong>Series A بقيمة 30 مليون دولار</strong> بقيادة <strong>Album VC</strong>، مع Karma Ventures و.406 Ventures وAtlantic Bridge وIQ Capital وLakestar — ليصل إجمالي التمويل إلى نحو <strong>42 مليون دولار</strong>. الشركة spinout من Lancaster University، وتُشغّل منصة red-teaming تُحاكي سلوك المهاجمين لا checklists ثابتة.</p>
+      <p>المنصة تفعل ثلاثة أشياء: <strong>اكتشاف shadow AI</strong> غير المراقب داخل المؤسسة، <strong>اختبار الأنظمة المنشورة</strong> قبل وبعد الإطلاق، و<strong>red-teaming مستمر</strong> ضد models وagents. مثال: بنك يُطلق chatbot للعملاء — Mindgard يفحص prompt injection وتسريب البيانات قبل go-live.</p>
+      <p>السوق يت consolidates بسرعة: HiddenLayer جمع 56 مليون دولار، Lakera (Gandalf) استُحوذ عليها Check Point، Protect AI (60 مليون دولار) استُحوذ عليها Palo Alto Networks. Mindgard ي-position نفسه كـ offensive automated alternative. للمبدعين العرب: كل fintech وhealthtech وe-commerce في MENA يحتاج AI security audit — consulting وpenetration testing وcompliance فرصة ضخمة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Mindgard وثورة AI security؟</h3>
+        <ul>
+          <li><strong>AI red-teaming services:</strong> فحص agents وchatbots للشركات — 8000–50000 دولار/مشروع.</li>
+          <li><strong>Shadow AI discovery:</strong> مسح واكتشاف AI غير المصرّح به — 5000–20000 دولار.</li>
+          <li><strong>دورات «AI Security &amp; Red Teaming»:</strong> bootcamp للـ security engineers — 249–1299 دولار.</li>
+          <li><strong>Managed AI security retainer:</strong> مراقبة مستمرة — 3000–15000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Mindgard</span>
+        <span class="tag">AI Security</span>
+        <span class="tag">Red Teaming</span>
+        <span class="tag">Prompt Injection</span>
+        <span class="tag">$30M Series A</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Town: 55 مليون دولار + Town Wiki — مساعدك الشخصي يبني «ويكي ذاتي التنظيم» عنك!</h2>
+      <p class="article-lead">معظم مساعدي AI يُجيبون على أسئلة. Town يفعل العكس: يتعلّم كيف تعمل، يُبقي context، يُقترح workflows، ويُنفّذ — عبر email وcalendar وSlack وWhatsApp و40+ integration. 55 مليون دولار Series A من a16z — والآن Town Wiki: صفحة حية تُحدّث كل ليلة بفهم Townie عن أهدافك ومشاريعك وأسلوب عملك.</p>
+      <p>خرجت <strong>Town</strong> من stealth في يونيو 2026 بـ <strong>55 مليون دولار Series A</strong> بقيادة <strong>a16z</strong>، مع Forerunner وFirst Round وAlt Capital وConviction. المؤسسان <strong>Jean-Denis Greze</strong> (ex-CTO Plaid) و<strong>Tony</strong> (ex-Google AI product، ex-Dropbox design) — يبنيان «personal AI assistant» يعمل عبر أدواتك الحالية.</p>
+      <p>في 29 يوليو 2026، أطلق Town <strong>Town Wiki</strong>: صفحة living profile يبنيها Townie عنك — أهدافك، مشاريعك، أولوياتك، patterns عملك. تُحدّث كل ليلة، ويمكنك تعديلها. الفلسفة: بدلاً من بناء Notion workspace يدوياً، agent يبني ويُحدّث equivalent من email وmeeting notes وSlack. Federated search عبر Gmail وCalendar وSlack دون reindex كل شيء.</p>
+      <p>Integrations: Google Workspace، Slack، WhatsApp، Telegram، Salesforce، HubSpot، Jira، Linear، GitHub، Notion، QuickBooks، Zoom، Gong، Cursor — وroutines جاهزة: briefings، inbox triage، meeting follow-up. Platformer وصف Town كـ «self-organizing company». a16z: «الفائز لن يكون من يُطلق أكثر features — بل من يكسب trust ليحمل context وwork الفعلي.»</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Town وثورة personal AI assistants؟</h3>
+        <ul>
+          <li><strong>Town onboarding &amp; setup:</strong> إعداد Townie للشركات والمبدعين — 500–5000 دولار/عميل.</li>
+          <li><strong>Custom routines development:</strong> بناء automations مخصّصة — 2000–15000 دولار.</li>
+          <li><strong>دورات «Personal AI &amp; Productivity»:</strong> workshop للمحترفين — 149–699 دولار.</li>
+          <li><strong>Executive assistant consulting:</strong> تحويل workflows للـ C-suite — 3000–20000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Town</span>
+        <span class="tag">Town Wiki</span>
+        <span class="tag">Personal AI</span>
+        <span class="tag">Townie</span>
+        <span class="tag">$55M Series A</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Kinetik For Teams: من JetBrains — وكيل AI يُدير تسويق المؤثرين من داخل Slack!</h2>
+      <p class="article-lead">تسويق المؤثرين ينمو 16% في 2026 — لكن معظم الشركات لا تستطيع تشغيله in-house بسبب العبء التشغيلي. Kinetik، spinout من JetBrains (صانع IntelliJ وKotlin وJunie)، أطلقت For Teams: agent يعيش في Slack وWhatsApp، يكتشف creators، يُجري outreach، يكتب briefs، ويُحلّل الحملات — من 50 دولار/شهر.</p>
+      <p>في 13 أغسطس 2026، أعلنت <strong>Kinetik</strong> (Kineto) عن <strong>Kinetik For Teams</strong> — AI agent لـ influencer وcontent marketing من داخل Slack وWhatsApp. CEO <strong>Andrew Zakonov</strong> — co-creator لـ Junie، coding agent من JetBrains — يقود startup مستقلة مدعومة من JetBrains investments.</p>
+      <p>القدرات: <strong>Creator discovery &amp; vetting</strong> — scoring reach وrelevance وbrand fit مع كشف fake engagement. <strong>Outreach &amp; deals</strong> — drafts شخصية ومتابعة negotiations. <strong>SEO &amp; content engine</strong> — blog posts وLinkedIn وX posts بصوت brand. <strong>Campaign analytics</strong> — GA4 وAmplitude وMeta Ads weekly. <strong>Trend research</strong> — مراقبة competitors عبر X وInstagram وTikTok.</p>
+      <p>الفرق عن generic AI agents: specialized agent يُكمل tasks end-to-end من اليوم الأول دون ساعات configuration. Kinetik for creators يُساعد في research وanalytics وmedia kits وscripts من voice notes. للمبدعين العرب: agencies وbrands في MENA يمكنها تشغيل influencer programs in-house — consulting وsetup وArabic content adaptation فرصة ذهبية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Kinetik وثورة influencer AI agents؟</h3>
+        <ul>
+          <li><strong>Kinetik setup &amp; training:</strong> إعداد For Teams للـ brands — 1000–8000 دولار/مشروع.</li>
+          <li><strong>Influencer campaign management:</strong> إدارة حملات عبر Kinetik — 2000–15000 دولار/شهر.</li>
+          <li><strong>Arabic creator outreach:</strong> campaigns مخصّصة للـ MENA creators — 3000–20000 دولار.</li>
+          <li><strong>دورات «AI Influencer Marketing»:</strong> bootcamp للـ marketers — 149–799 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Kinetik</span>
+        <span class="tag">JetBrains</span>
+        <span class="tag">Influencer Marketing</span>
+        <span class="tag">Slack Agent</span>
+        <span class="tag">For Teams</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 14-08-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
