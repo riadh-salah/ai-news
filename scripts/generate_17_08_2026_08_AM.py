@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 17-08-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "17-08-2026 -- 08-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — OpenRouter، River AI، Infiforce، ChipAgents، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 17 أغسطس 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من بوابة بـ 7 مليارات دولار إلى رقائق تُصمَّم بوكلاء — أربع صدمات تُعيد رسم اقتصاد AI في أغسطس 2026!</h1>
+      <p class="hero-sub">Stripe تُنهي صفقة OpenRouter بأكثر من 7 مليارات دولار لتصبح «Stripe للـ AI»، River AI يجمع 1.1 مليار دولار لإعادة بناء المكدس من الصفر، Infiforce يُموِّل نموذج عالم إدراكي للروبوتات بـ 150 مليون دولار في الصين، وChipAgents يتوسّع إلى 134 مليون دولار لوكلاء تصميم الرقائق. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 17 أغسطس 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>OpenRouter + Stripe: أكثر من 7 مليارات دولار — البوابة التي تُحرّر العالم من قفل نموذج واحد!</h2>
+      <p class="article-lead">تخيّل أن تدفع مرة واحدة وتختار بين أكثر من 400 نموذج ذكاء اصطناعي — GPT وClaude وGemini وLlama — حسب المهمة والميزانية. OpenRouter بنت بالضبط هذا: «Stripe للـ AI». والآن Stripe نفسها تشتريها بأكثر من 7 مليارات دولار — أكبر صفقة في تاريخ بوابات النماذج. 8 مليون مستخدم عالمي لا يريدون الارتباط بمزوّد واحد.</p>
+      <p>في 16 أغسطس 2026، أفادت <strong>Bloomberg</strong> أن <strong>Stripe</strong> أنهت صفقة استحواذ على <strong>OpenRouter</strong> بقيمة <strong>أكثر من 7 مليارات دولار</strong>. الصفقة تُكمل محادثات بدأتها <strong>Wall Street Journal</strong> في يوليو — وتحوّل Stripe من معالج مدفوعات إلى حارس البوابة الرئيسية لاقتصاد AI.</p>
+      <p>تأسست OpenRouter على فكرة بسيطة لكنها ثورية: <strong>نقطة وصول واحدة لكل النماذج</strong>. المطوّر يكتب API واحداً؛ المنصة تُوجّه الطلب إلى أفضل نموذج للمهمة — ترجمة، كود، reasoning، أو توليد صور — مع شفافية كاملة في التكلفة. في مايو 2026 جمعت OpenRouter <strong>113 مليون دولار Series B</strong> بقيمة 1.3 مليار دولار من Sequoia وa16z وMenlo وCapital G. CEO <strong>Alex Atallah</strong> وصف الشركة كـ «Stripe للـ AI» — وها هو Stripe يُؤكّد المقارنة بالاستحواذ.</p>
+      <p>المنصة تُوفّر وصولاً لـ <strong>أكثر من 400 نموذج</strong> و<strong>8 مليون مستخدم</strong> حول العالم. الفلسفة: <strong>منع vendor lock-in</strong> — لا شركة تريد أن تبني منتجها على نموذج واحد قد يرتفع سعره أو يُقيَّد. للمبدعين العرب: كل startup وagency في MENA يحتاج integration layer يختار النموذج الأمثل — consulting وrouting optimization وcost dashboards فرصة ذهبية قبل أن تُغلق Stripe الباب للمنافسين.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OpenRouter وثورة AI gateways؟</h3>
+        <ul>
+          <li><strong>AI routing consulting:</strong> تصميم استراتيجيات اختيار النموذج للشركات — 5000–35000 دولار/مشروع.</li>
+          <li><strong>Cost optimization dashboards:</strong> أدوات مراقبة إنفاق AI عبر OpenRouter — 2000–15000 دولار/شهر retainer.</li>
+          <li><strong>Arabic model routing layer:</strong> طبقة تُفضّل نماذج عربية تلقائياً — 8000–40000 دولار.</li>
+          <li><strong>دورات «Multi-Model AI Architecture»:</strong> bootcamp للمطوّرين — 149–799 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenRouter</span>
+        <span class="tag">Stripe</span>
+        <span class="tag">AI Gateway</span>
+        <span class="tag">Multi-Model</span>
+        <span class="tag">$7B+ Acquisition</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>River AI: 1.1 مليار دولار في شهرين — إعادة بناء مكدس AI من الصفر!</h2>
+      <p class="article-lead">معظم شركات AI تبيع API فوق نماذج جاهزة. River AI — بقيادة Igor Babuschkin مؤسس xAI — تريد امتلاك كل الطبقة: التدريب، التخصيص، التعلّم المستمر، وحتى hardware يُشغّل AI شخصياً قرب المستخدم لا في مراكز بيانات غرباء. 1.1 مليار دولار seed + Series A في أغسطس 2026 — بقيمة تقارب 5 مليارات دولار — بعد شهرين فقط من الخروج من stealth.</p>
+      <p>في 11 أغسطس 2026، أعلنت <strong>River AI</strong> عن جولة بقيمة <strong>1.1 مليار دولار</strong> (seed + Series A مجمّعة) بقيادة <strong>General Catalyst</strong> و<strong>AMP PBC</strong>، مع استثمار استراتيجي من <strong>NVIDIA</strong> و<strong>AMD Ventures</strong> وY Combinator وTemasek. <strong>New York Times</strong> ذكرت تقييماً قريباً من <strong>5 مليارات دولار</strong>. المؤسس <strong>Igor Babuschkin</strong> — co-founder لـ xAI — يضع حتى <strong>100 مليون دولار</strong> من ماله الشخصي.</p>
+      <p>المنتج الأول <strong>River API v0.1</strong> يتخصّص في شيء واحد بدقة نادرة: <strong>LoRA fine-tuning وreinforcement learning</strong> على نماذج open-weight — عبر Python client بسيط. المنصة تُطبّق low-rank adapters على كل weight matrix بما فيها MoE experts، وتُدير weight transfers وsampling-training consistency وelastic compute — ثم تُserve أي checkpoint عبر endpoint متوافق مع OpenAI.</p>
+      <p>الرؤية الأبعد: <strong>المكدس الكامل end-to-end</strong> — بنية تدريب، منتجات personalization وcontinual learning، وhardware جديد يُشغّل AI شخصياً قرب المستخدم. للمبدعين العرب: كل fintech وhealthtech يريد model مخصّص بدون vendor lock-in — River consulting وArabic LoRA campaigns وenterprise fine-tuning retainers سوق ضخم قبل أن تُغلق API للجميع.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من River AI وثورة open-weight training؟</h3>
+        <ul>
+          <li><strong>Custom model fine-tuning:</strong> حملات LoRA/RL للعملاء على River — 15000–90000 دولار/مشروع.</li>
+          <li><strong>Arabic open-weight models:</strong> تدريب نماذج عربية مخصّصة للـ MENA — 10000–60000 دولار.</li>
+          <li><strong>Continual learning retainer:</strong> تحديث النماذج ببيانات جديدة شهرياً — 3000–20000 دولار/شهر.</li>
+          <li><strong>دورات «Open-Weight AI Training»:</strong> bootcamp للـ ML engineers — 299–1499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">River AI</span>
+        <span class="tag">Igor Babuschkin</span>
+        <span class="tag">LoRA Fine-Tuning</span>
+        <span class="tag">Open-Weight</span>
+        <span class="tag">$1.1B Raise</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Infiforce: 150 مليون دولار — «نموذج عالم إدراكي» يُعلّم الروبوتات أن تفهم السبب لا المظهر!</h2>
+      <p class="article-lead">معظم روبوتات اليوم ترى pixels وتُقلّد حركات. Infiforce من الصين تبني شيئاً أعمق: AtomBrain — نظام ذكاء تجسّدي مع causal world models يفهم <strong>لماذا</strong> الأشياء تتحرّك لا <strong>كيف</strong> تبدو. 150 مليون دولار Series A وA+، DataGrid infrastructure، وروبوتات في أكثر من 100 سيناريو عبر 30 مدينة صينية — من التصنيع إلى اللوجستيات.</p>
+      <p>في منتصف أغسطس 2026، جمعت <strong>Infiforce</strong> ما يقارب <strong>150 مليون دولار</strong> عبر جولتي Series A وA+ بقيادة Dunhong Asset Management ومنصات استثمار حكومية، مع Zhejiang University Science and Technology Innovation Group وGenesis Partners. التمويل يُوجَّه لثلاثة محاور: تطوير <strong>AtomBrain</strong> وcausal world models، توسيع <strong>DataGrid</strong> infrastructure، ونشر روبوتات في بيئات صناعية وتجارية.</p>
+      <p>الفلسفة: <strong>ego-native world model</strong> — النموذج يتعلّم من منظور الروبوت (first-person) لا من كاميرات خارجية فقط. جمع البيانات عبر grippers يدوية، أجهزة تسجيل first-person، وremote operation لروبوتات حقيقية — feedback loop مستمر بين البيانات والتدريب والنشر. Infiforce تعمل مع CRRC High-Tech على embodied intelligence للبنية التحتية وتشارك في مواصفة وطنية لـ crowdsourced embodied data.</p>
+      <p>الروبوتات تُختبر أو تُسوَّق في <strong>أكثر من 30 مدينة</strong> و<strong>100+ سيناريو</strong>: خدمات تجارية، مستودعات، لوجستيات، تصنيع. للمبدعين العرب: MENA logistics وmanufacturing hubs تحتاج integration partners — data collection consulting وrobot deployment pilots ودورات «Embodied AI» فرصة قبل أن تتوسّع Infiforce خارج الصين.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Infiforce وثورة embodied AI؟</h3>
+        <ul>
+          <li><strong>Warehouse robot integration:</strong> نشر روبوتات Infiforce في مستودعات MENA — 20000–100000 دولار/مشروع.</li>
+          <li><strong>Embodied data collection:</strong> جمع بيانات first-person للتدريب — 8000–45000 دولار.</li>
+          <li><strong>Manufacturing AI consulting:</strong> pilot deployments في المصانع — 15000–80000 دولار.</li>
+          <li><strong>دورات «Embodied Intelligence»:</strong> bootcamp للمهندسين — 249–1299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Infiforce</span>
+        <span class="tag">AtomBrain</span>
+        <span class="tag">Embodied AI</span>
+        <span class="tag">World Models</span>
+        <span class="tag">$150M Funding</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>ChipAgents: 134 مليون دولار — وكلاء AI يُصمّمون الرقائق بدلاً من مساعدة المهندسين!</h2>
+      <p class="article-lead">صناعة الرقائق كانت آخر حصن للهندسة اليدوية — آلاف الساعات في verification وlayout وtiming. ChipAgents يُقلب المعادلة: وكلاء AI domain-specific يُنفّذون workflow كاملاً لا يُقترحون snippets. Series A تتوسّع إلى 134 مليون دولار في 6 أشهر — Bessemer وMicron وMediaTek وEricsson وB Capital — والعملاء ينشرون في production الآن.</p>
+      <p>في 13 أغسطس 2026، أعلنت <strong>ChipAgents</strong> عن <strong>60 مليون دولار Series A2</strong> إضافية — لتصل الجولة الموسّعة إلى <strong>134 مليون دولار</strong> خلال 6 أشهر من الإغلاق الأول. انضم <strong>B Capital</strong> إلى Bessemer Venture Partners وMicron وMediaTek وEricsson وScOp. CEO <strong>William Wang</strong> يقول: «نُمكّن الصناعة من تجاوز AI assistants نحو وكلاء autonomous ينفّذون engineering work حقيقي».</p>
+      <p>المنصة تُطبّق <strong>domain-specific AI agents</strong> على workflows تصميم الرقائق التي اعتمدت تاريخياً على هندسة يدوية — verification، synthesis، place-and-route، timing closure. الفرق عن Copilot: ChipAgents <strong>ينفّذ</strong> لا يُقترح — agents تُكمل tasks end-to-end مع human oversight عند الحاجة. Bessemer وصفتهم كـ «platform that customers are deploying in production».</p>
+      <p>التمويل يُموّل توسيع customer deployments، نمو engineering وgo-to-market، وتسريع تطوير <strong>AI-native semiconductor design platform</strong>. للمبدعين العرب: MENA tech hubs (UAE، السعودية، مصر) تبني fabs وdesign centers — ChipAgents consulting وtraining للـ semiconductor teams وintegration partners فرصة نادرة في سوق شبه مغلق.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من ChipAgents وثورة AI chip design؟</h3>
+        <ul>
+          <li><strong>Semiconductor AI consulting:</strong> نشر ChipAgents لفرق التصميم — 25000–120000 دولار/مشروع.</li>
+          <li><strong>Verification automation:</strong> وكلاء AI لـ verification workflows — 15000–80000 دولار.</li>
+          <li><strong>MENA chip design training:</strong> bootcamp للمهندسين — 499–2499 دولار.</li>
+          <li><strong>Managed design retainer:</strong> صيانة وتحسين الوكلاء — 5000–25000 دولار/شهر.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">ChipAgents</span>
+        <span class="tag">Semiconductor AI</span>
+        <span class="tag">Autonomous Agents</span>
+        <span class="tag">Chip Design</span>
+        <span class="tag">$134M Series A</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 17-08-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
