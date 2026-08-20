@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 20-08-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "20-08-2026 -- 08-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — TrueForge، Stripe/OpenRouter، Sydekick، GainTrace، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 20 أغسطس 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من وكيل مفتوح المصدر يُنافس Claude إلى صفقة بـ 7.5 مليار دولار — أربع ثورات تُعيد تشكيل الوكلاء والتسويق والاحتفاظ بالعملاء في 20 أغسطس 2026!</h1>
+      <p class="hero-sub">TrueFoundry تُطلق TrueForge — harness مفتوح المصدر لبناء وكلاء إنتاج بأقل 50% من التكلفة، Stripe تستحوذ على OpenRouter بـ 7.5 مليار دولار لتصبح «Stripe للـ tokens»، Synup تُعيد بناء نفسها كشركة AI وتُطلق Sydekick لوكيل التسويق المحلي، وGainTrace يفتح أبواب منصة customer success الذكية بينما retention SaaS ينزل إلى 84%. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 20 أغسطس 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>TrueForge: منافس مفتوح المصدر لـ Claude Managed Agents — وكلاء إنتاج بأقل نصف التكلفة!</h2>
+      <p class="article-lead">«الوكيل الذكي لم يعد حكراً على منصة واحدة». في 19 أغسطس 2026، أطلقت TrueFoundry من San Francisco منصة TrueForge — harness مفتوح المصدر لبناء ونشر ومراقبة وكلاء AI في بيئات الإنتاج، بدون vendor lock-in وبتكلفة تشغيل أقل بنسبة 50% مقارنة بالمنصات المُدارة.</p>
+      <p>TrueFoundry ليست شركة ناشئة عادية — منصة AI infrastructure تُعالج أكثر من <strong>تريليون token يومياً</strong> عبر AI Gateway وMCP Gateway لعملاء enterprise. <strong>TrueForge</strong> يُطلق كبديل مفتوح لـ Claude Managed Agents: أي نموذج، أي MCP server، أي API keys — على بنية الفريق نفسها.</p>
+      <p>المنصة تدعم OpenAI وAnthropic وأكثر من 20 نموذجاً، مع 40+ أداة مدمجة، sandboxed execution، human-approval workflows، generative UI، وweb search عبر Tavily. كل استدعاء model أو MCP يمر عبر Gateway — logged وgoverned وpolicy-controlled مركزياً. CEO Nikunj Bajaj: «الموجة الثالثة من AI agents تتحرك من laptops المطورين إلى منتجات customer-facing — TrueForge يُمكّن ذلك بدون lock-in».</p>
+      <p>الإصدار مفتوح المصدر على GitHub مجاناً مع API keys الخاصة بك. نسخة hosted pay-per-usage للفرق التي لا تريد إدارة infrastructure. للمبدعين العرب: كل startup وagency في MENA تبني agents — TrueForge deployment consulting وArabic agent templates وMCP integration services فرصة قبل saturation.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من TrueForge وثورة open-source agents؟</h3>
+        <ul>
+          <li><strong>Agent deployment consulting:</strong> نشر TrueForge للشركات — 8000–45000 دولار/مشروع.</li>
+          <li><strong>MCP server integration:</strong> ربط أدوات enterprise بـ TrueForge — 5000–30000 دولار.</li>
+          <li><strong>Arabic agent templates:</strong> قوالب وكلاء جاهزة بالعربية — 49–299 دولار/شهر.</li>
+          <li><strong>دورات «Production AI Agents with TrueForge»:</strong> bootcamp للمطورين — 149–799 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">TrueForge</span>
+        <span class="tag">TrueFoundry</span>
+        <span class="tag">Open Source Agents</span>
+        <span class="tag">MCP</span>
+        <span class="tag">50% Cost Cut</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Stripe + OpenRouter: 7.5 مليار دولار — «Stripe للـ tokens» يُغيّر اقتصاد الذكاء الاصطناعي!</h2>
+      <p class="article-lead">«Tokens هي العملة المركزية لشركات AI». في 19 أغسطس 2026، أعلنت Stripe عن الاتفاق على استحواذ OpenRouter — منصة routing لأكثر من 400 نموذج من 80+ مزود — بصفقة تُقدّر بـ 7.5 مليار دولار، أكبر استحواذ في تاريخ Stripe.</p>
+      <p>أسس <strong>OpenRouter</strong> Alex Atallah (co-founder OpenSea) في 2023. المنصة تخدم <strong>8 ملايين مطور</strong> عالمياً — routing ديناميكي لكل request بناءً على complexity والسعر والسرعة والموثوقية. عملاء: NVIDIA وZoom وLovable. Fusion API يوزّع prompt على panel من budget models ويُدمج الإجابات — على benchmark DRACO: 64.7% vs GPT-5.5 solo 60%.</p>
+      <p>Stripe CEO Patrick Collison: «Stripe تبني economic infrastructure للـ AI — مع OpenRouter نُساعد الشركات على maximize profitability عبر routing ذكي وإنفاق tokens بكفاءة». OpenRouter ستستمر بنفس الاسم والمنتج والroadmap — neutrality مضمونة. الصفقة: 1.5 مليار للمؤسسين، 6 مليار للمستثمرين (NYT).</p>
+      <p>المنطق: Stripe كانت already تُعالج payments OpenRouter — الآن routing decision والinvoice في نفس الشركة. end-to-end pipeline من model selection إلى billing. للمبدعين العرب: كل SaaS وagency يستهلك AI APIs — token optimization consulting وmulti-model routing setup وArabic AI cost dashboards فرصة ضخمة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Stripe/OpenRouter وثورة token economics؟</h3>
+        <ul>
+          <li><strong>Token optimization consulting:</strong> تقليل AI costs للشركات — 5000–35000 دولار/مشروع.</li>
+          <li><strong>Multi-model routing setup:</strong> نشر OpenRouter/Fusion للفرق — 3000–25000 دولار.</li>
+          <li><strong>Arabic AI cost dashboards:</strong> لوحات مراقبة إنفاق AI بالعربية — 29–149 دولار/شهر.</li>
+          <li><strong>دورات «Token Economics for CTOs»:</strong> bootcamp للقادة التقنيين — 199–999 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Stripe</span>
+        <span class="tag">OpenRouter</span>
+        <span class="tag">Token Routing</span>
+        <span class="tag">$7.5B Deal</span>
+        <span class="tag">AI Infrastructure</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Sydekick: Synup تُعيد بناء نفسها كشركة AI — وكيل التسويق المحلي الذي «ينفّذ» لا «يقترح»!</h2>
+      <p class="article-lead">«لم نُضِف AI لميزة — أعدنا بناء الشركة حول الوكيل». Synup، منصة التسويق المحلي لأكثر من 2 مليون موقع تجاري، أعلنت في 19 أغسطس 2026 عن Sydekick — وكيل autonomous ينفّذ مهام التسويق المحلي: SEO audits، posts، ردود reviews — لا يكتفي بالاقتراحات.</p>
+      <p><strong>Sydekick</strong> ليس wrapper حول prompt — بل agentic harness حقيقي: memory يحمل context عبر workspace وclient وconversation، capabilities تُنفّذ actions على listings وreviews وposts وAI visibility، و5000+ integration تربطه بأينما يعمل الفريق — داخل Synup أو Slack أو Teams.</p>
+      <p>كل شيء يعمل على <strong>نماذج Synup وinference الخاصة</strong> — لا chain من third-party dependencies. Synup تملك action layer: 100+ publisher integration، 13 سنة business logic، 2 مليون location. nearly 5000 partner، 3 من أكبر 10 listings providers في US على API. Sydekick يعمل bidirectional عبر MCP — operate Synup من أي assistant standardized.</p>
+      <p>التسعير: usage-based credits لا tiered seats. approvals queue مدمجة للإشراف. free trial متاح اليوم. للمبدعين العرب: كل restaurant chain وretail brand وagency في MENA يحتاج local presence — Arabic Sydekick-like agent setup وlocal SEO automation وreview response services فرصة ذهبية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Sydekick وثورة local marketing agents؟</h3>
+        <ul>
+          <li><strong>Local SEO agent setup:</strong> نشر وكلاء تسويق محلي للعلامات — 2000–15000 دولار/مشروع.</li>
+          <li><strong>Review response automation:</strong> خدمات ردود reviews بالعربية — 500–3000 دولار/شهر.</li>
+          <li><strong>Multi-location marketing playbooks:</strong> قوالب playbooks للعلامات متعددة الفروع — 99–499 دولار.</li>
+          <li><strong>دورات «Local Marketing AI Agents»:</strong> bootcamp للوكالات — 149–699 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Sydekick</span>
+        <span class="tag">Synup</span>
+        <span class="tag">Local Marketing</span>
+        <span class="tag">Agentic Harness</span>
+        <span class="tag">2M Locations</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>GainTrace: منصة customer success الذكية — عندما retention SaaS ينزل إلى 84%!</h2>
+      <p class="article-lead">«إشارة فقدان العملاء لم تكن مفقودة — كانت منتشرة». GainTrace فتحت التوفر العام لمنصة AI customer success في 20 أغسطس 2026 — بينما تقرير Aleph x Benchmarkit 2026 يُظهر median gross revenue retention انخفض من 88% إلى 84% — 4 نقاط على قاعدة 10 ملايين ARR = 400 ألف دولار مفقودة سنوياً.</p>
+      <p>المنصة تُصمَّم لـ <strong>customer success manager</strong> لا CS ops hire مخصص. تربط 20+ مصدر: Salesforce وHubSpot وStripe وPaddle وIntercom وZendesk وJira وSlack وGmail وMixpanel وAmplitude وPostHog وSnowflake وBigQuery — في timeline واحد live لكل account.</p>
+      <p><strong>Trace AI</strong> — scoring agent — يقرأ product usage وbilling events وsupport conversations وemail فور حدوثها، يرتّب accounts بمن يحتاج attention اليوم، ويشرح كل score signal بsignal — لا opaque number. عندما يرتفع risk أو upgrade trigger، CSM يعرف قبل renewal call.</p>
+      <p>الفكرة: CSM يغطي 60 account لا يستطيع reconcile 10 dashboards كل صباح — GainTrace يُجمّع كل شيء في score واحد. للمبدعين العرب: كل SaaS startup في MENA يُعاني churn — Arabic CS AI setup وchurn prediction consulting وlocalized account health dashboards فرصة قبل mainstream.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من GainTrace وثورة AI customer success؟</h3>
+        <ul>
+          <li><strong>CS platform integration:</strong> ربط GainTrace-like solutions للشركات — 3000–20000 دولار/مشروع.</li>
+          <li><strong>Churn prediction consulting:</strong> تحليل وتقليل churn للـ SaaS — 5000–30000 دولار.</li>
+          <li><strong>Arabic account health dashboards:</strong> لوحات صحة accounts بالعربية — 49–249 دولار/شهر.</li>
+          <li><strong>دورات «AI Customer Success for SaaS»:</strong> bootcamp لفرق CS — 99–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">GainTrace</span>
+        <span class="tag">Customer Success</span>
+        <span class="tag">Churn Prediction</span>
+        <span class="tag">SaaS Retention</span>
+        <span class="tag">Trace AI</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 20-08-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
