@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 22-08-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "22-08-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — DeepSeek Vision، Grok Bot، OpenJM، Locus Pro، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 22 أغسطس 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من رؤية متعددة الوسائط صينية إلى زملاء AI يعملون في صندوق الوارد — أربع ثورات تُعيد تشكيل الوكلاء والإبداع والبنية التحتية في 22 أغسطس 2026!</h1>
+      <p class="hero-sub">DeepSeek يدخل سباق multimodal بـ V4-Flash-Vision-Exp ويفتح API للمطورين، Grok Bot يوسّع الوصول ليصبح زميل AI حقيقي يُسجّل الدخول لأدواتك ويُنجز العمل، OpenJM يُطلق أول منصة agentic متعددة الوسائط في الكاريبي بذاكرة طويلة المدى، وLocus Pro يُجمّع أكثر من 600 خدمة API في رصيد واحد للوكلاء. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 22 أغسطس 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>DeepSeek-V4-Flash-Vision-Exp: الصين تدخل سباق multimodal — نموذج تجريبي يفهم الصور ويفتح API للعالم!</h2>
+      <p class="article-lead">«النص لم يعد كافياً — الذكاء الاصطناعي القادم يرى ويفهم ويُجيب». في 22 أغسطس 2026، أعلنت DeepSeek عن إطلاق <strong>DeepSeek-V4-Flash-Vision-Exp</strong>: نموذج multimodal تجريبي قادر على معالجة البيانات البصرية، مع فتح خدمة multimodal API للمطورين حول العالم.</p>
+      <p>الإطلاق يُمثّل خطوة استراتيجية في توسّع الشركة الصينية خارج نماذج النص — حيث تنافس OpenAI وGoogle وAnthropic في بناء أنظمة AI عامة الأغراض أكثر قدرة. النموذج التجريبي يُركّز على <strong>visual understanding</strong>: تحليل الصور والمخططات والوثائق المرئية بسرعة Flash مع دقة Vision.</p>
+      <p>فتح API multimodal يعني أن المطورين يمكنهم الآن دمج قدرات الرؤية في تطبيقاتهم — من فحص المنتجات في e-commerce إلى تحليل المستندات في fintech وhealthcare. DeepSeek تُثبت أنها لا تكتفي بـ text-only models التي جعلتها من أشهر startups AI في العالم.</p>
+      <p>للمبدعين العرب: كل startup في MENA يبني chatbot أو مساعداً ذكياً — دمج DeepSeek Vision API في حلول OCR وdocument analysis وvisual QA فرصة بأسعار تنافسية قبل saturation. استشارات integration وArabic visual datasets وmanaged vision API services سوق ناشئ في المنطقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من DeepSeek Vision وثورة multimodal AI؟</h3>
+        <ul>
+          <li><strong>Vision API integration:</strong> دمج DeepSeek Vision في تطبيقات العملاء — 3000–25000 دولار/مشروع.</li>
+          <li><strong>Document OCR solutions:</strong> حلول استخراج بيانات من مستندات عربية — 5000–35000 دولار/مشروع.</li>
+          <li><strong>Visual QA automation:</strong> فحص جودة منتجات بالصور — 2000–15000 دولار/شهر.</li>
+          <li><strong>دورات «Multimodal AI with DeepSeek»:</strong> bootcamp للمطورين — 99–599 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">DeepSeek</span>
+        <span class="tag">V4-Flash-Vision</span>
+        <span class="tag">Multimodal AI</span>
+        <span class="tag">Vision API</span>
+        <span class="tag">Computer Vision</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Grok Bot: زميل AI حقيقي يُسجّل الدخول لأدواتك — SpaceXAI وCursor يوسّعان الوصول للجميع!</h2>
+      <p class="article-lead">«لم تعد تكتب prompt وتنتظر — بل تراسل زميلاً يُنجز العمل ويعود بالنتيجة». في 21 أغسطس 2026، وسّعت SpaceXAI وCursor وصول <strong>Grok Bot</strong> بعد 10 أيام من الإطلاق التجريبي: تطبيق Mac وiOS حيث Bots هم «زملاء AI يمكنك إسناد عمل حقيقي إليهم».</p>
+      <p>كل Bot يحصل على <strong>حاسوب خاص</strong>، ثم يُسجّل الدخول للتطبيقات والخدمات التي تستخدمها — Gmail وSlack وNotion وأي أداة أخرى — ويُنجز المهام من البداية للنهاية. SpaceXAI تقول: Bots يُكملون الوظائف end-to-end، ويعودون فقط عندما يحتاجون موافقة.</p>
+      <p>التوسيع الجديد: كل مشتركي <strong>SuperGrok Plus</strong> و<strong>Cursor Pro+</strong> و<strong>Cursor Teams</strong> يحصلون على وصول — مع trial مجاني محدود لباقي المستخدمين. Windows وLinux desktop متاحان، وAndroid «قريباً». Grok Bot يُمثّل merger SpaceXAI وCursor كشركة واحدة — لكن المنتج يصل قبل الإعلان الرسمي عن الاندماج.</p>
+      <p>للمبدعين العرب: كل freelancer وagency في MENA يُدير inbox وcontent وresearch — Grok Bot setup consulting وArabic workflow templates وmanaged Bot retainers فرصة ضخمة. «راسل Bot كزميل» paradigm جديد يُغيّر كيف نفكر في productivity.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Grok Bot وثورة AI teammates؟</h3>
+        <ul>
+          <li><strong>Bot workflow setup:</strong> إعداد Grok Bot للفرق والأفراد — 500–5000 دولار/مشروع.</li>
+          <li><strong>Arabic Bot templates:</strong> قوالب مهام جاهزة بالعربية — 29–149 دولار/شهر.</li>
+          <li><strong>Managed Bot services:</strong> إدارة Bots للعملاء — 1000–8000 دولار/شهر.</li>
+          <li><strong>دورات «AI Teammates with Grok Bot»:</strong> bootcamp للمحترفين — 79–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Grok Bot</span>
+        <span class="tag">SpaceXAI</span>
+        <span class="tag">Cursor</span>
+        <span class="tag">AI Teammates</span>
+        <span class="tag">Agent Automation</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>OpenJM: الكاريبي يدخل سباق AI — منصة agentic متعددة الوسائط بذاكرة طويلة المدى ونموذج Rahkia محلي!</h2>
+      <p class="article-lead">«الذاكرة ليست feature — بل البنية التحتية التي تُميّز الوكيل عن chatbot». في 21 أغسطس 2026، أطلقت Crimsontide AI Limited من جاماica <strong>OpenJM</strong>: أول منصة agentic متعددة الوسائط في الكاريبي، تجمع image وvideo وmusic generation وspeech processing وautonomous agents في نظام واحد.</p>
+      <p>الجوهر: <strong>memory-centric cognitive architecture</strong> — تُحتفظ بالمعلومات المهمة، تُعزّز الرؤى المفيدة، وتنسى البيانات غير ذات الصلة. OpenJM يحافظ على context عبر الجلسات ويدعم personalization مستدام وinstitutional knowledge — بعيداً عن short-term context للأنظمة التقليدية.</p>
+      <p><strong>OpenJM Harness</strong> هو agent runtime مدعوم بنموذج <strong>Rahkia V1.0</strong> المُدرّب محلياً. الوكلاء يخططون وينفّذون ويتكيّفون ويُصحّحون ذاتياً أثناء التفاعل مع tools وfiles وAPIs. المنصة تعمل on-premise أو في private cloud — data sovereignty وregulatory compliance للمؤسسات الحكومية والجامعات.</p>
+      <p>للمبدعين العرب: OpenJM model للـ sovereign AI في MENA — consulting لـ on-premise agentic platforms وArabic memory architectures وregional AI partnerships فرصة قبل global players. Jamaica تُثبت أن AI ليس monopoly لـ Silicon Valley.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OpenJM وثورة sovereign agentic AI؟</h3>
+        <ul>
+          <li><strong>Sovereign AI consulting:</strong> استشارات نشر AI محلي للمؤسسات — 10000–60000 دولار/مشروع.</li>
+          <li><strong>On-premise agent deployment:</strong> إعداد OpenJM أو بدائل محلية — 15000–80000 دولار.</li>
+          <li><strong>Arabic memory playbooks:</strong> أدلة ذاكرة AI بالعربية — 49–199 دولار/شهر.</li>
+          <li><strong>دورات «Sovereign Agentic AI»:</strong> bootcamp للحكومات والمؤسسات — 199–999 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenJM</span>
+        <span class="tag">Rahkia V1.0</span>
+        <span class="tag">Sovereign AI</span>
+        <span class="tag">Memory-Centric</span>
+        <span class="tag">Caribbean AI</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Locus Pro: «OpenRouter لكل شيء» — رصيد واحد لـ 600+ API وbilling layer للوكلاء!</h2>
+      <p class="article-lead">«الوكلاء يجمعون subscriptions — Locus يُجمّع الفواتير». في 20 أغسطس 2026، أطلق Cole Dermott <strong>Locus Pro</strong>: billing وmetering layer يمنح منتجات AI <strong>رصيد prepaid واحد</strong> وcredential واحد لمئات خدمات model وsearch وscraping وdata.</p>
+      <p>الفهرس يضم أكثر من <strong>600 خدمة pay-per-use</strong> من 48 provider موثّق — OpenAI وAnthropic وOpenRouter وTavily وExa وFirecrawl وApollo وDeepgram. Dermott وصف المنتج: «OpenRouter for everything» — لكن Locus يُوجّه <strong>المدفوعات وAPI access</strong> عبر categories، لا اختيار models فقط.</p>
+      <p>Locus Pro يتيح للمنصات: fund wholesale pool، decide APIs المتاحة، set markups، allocate prepaid credits لكل end user. Calls تستخدم common endpoint format مع request body الأصلي. Balance check قبل كل request — underfunded call يرجع <strong>HTTP 402</strong> قبل أي spending. Ledger كامل filterable by user وAPI.</p>
+      <p>للمبدعين العرب: كل AI startup في MENA يُدير 5–10 API accounts — Locus integration consulting وreseller margin strategies وArabic billing dashboards فرصة infrastructure. Y Combinator W25 graduate يُبني utility layer للـ agent economy.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Locus Pro وثورة agent billing infrastructure؟</h3>
+        <ul>
+          <li><strong>Locus Pro integration:</strong> دمج billing layer في منتجات AI — 8000–45000 دولار/مشروع.</li>
+          <li><strong>API marketplace setup:</strong> بناء marketplace على Locus — 15000–70000 دولار.</li>
+          <li><strong>Margin optimization consulting:</strong> استشارات pricing للوكلاء — 3000–20000 دولار/مشروع.</li>
+          <li><strong>دورات «Agent Billing with Locus»:</strong> bootcamp للمطورين — 149–799 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Locus Pro</span>
+        <span class="tag">API Billing</span>
+        <span class="tag">Agent Infrastructure</span>
+        <span class="tag">Metered Credits</span>
+        <span class="tag">Y Combinator</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 22-08-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
