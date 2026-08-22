@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 22-08-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "22-08-2026 -- 08-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — NewFace.AI، Twin1 AI، Harvey II Tenet، Keyworth، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 22 أغسطس 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من استوديو UGC للتجارة الإلكترونية إلى توأم رقمي لكل محترف ونموذج قانوني خاص وSEO يُكتب للآلة التي تُجيب — أربع ثورات تُعيد تشكيل الإنتاج والمعرفة والقانون والمحتوى في 22 أغسطس 2026!</h1>
+      <p class="hero-sub">LibAI Lab تُطلق NewFace.AI — منصة صور وفيديو للتجارة الإلكترونية بـ Agent وCanvas لا محدود، Twin1 AI يخرج من stealth بـ 20 مليون دولار seed لبناء digital twins لكل محترف، Harvey يُطلق Harvey II مع نموذج Tenet القانوني الخاص وMemory التي تتعلّم أسلوب كل محامٍ، وKeyworth من لشبونة يُطلق منصة SEO تُكتب للبحث وإجابات AI المُولّدة. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 22 أغسطس 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>NewFace.AI: LibAI Lab تُطلق استوديو UGC للتجارة الإلكترونية — Agent وCanvas وSkills جاهزة لإعلانات Viral!</h2>
+      <p class="article-lead">«أظهر وجهاً جديداً — واكتشف وجوهاً جديدة». في 20 أغسطس 2026، أعلنت LibAI Lab — التي ظهرت في كل إصدار من ترتيب Andreessen Horowitz لأفضل 100 تطبيق Gen AI من سبتمبر 2023 حتى مارس 2026 — عن إطلاق <strong>NewFace.AI</strong>: منصة إنشاء صور وفيديو AI مبنية للبائعين والوكالات وصناع UGC.</p>
+      <p>قلب المنصة: <strong>Skill-powered Agent</strong> و<strong>Canvas</strong> لا محدود. المبدع يصف رؤيته بلغة طبيعية — والـ Agent يبني المشروع node بnode على canvas واحد، محتفظاً بالـ brief والمراجع والقرارات السابقة. يمكن الموافقة على كل تغيير، أو ترك الـ Agent يعمل وحده، أو استلام أي node في أي لحظة.</p>
+      <p>Skills مُختبرة ميدانياً تطبّق هياكل إبداعية من محتوى apparel وskincare وproduct showcase عالي الأداء. <strong>Viral Remake</strong> يُكيّف storyboard وpacing وhook مرجع قوي حول منتجك؛ <strong>Batch Product Video</strong> يُولّد حتى 10 فيديوهات قصيرة جاهزة للمنصات لاختبار زوايا إبداعية دفعة واحدة. أدوات fast-track — AI Image Generator وAI Video Generator وVideo to Audio وPDP Design — تُعالج مهاماً منفردة. كل شيء يعمل على نماذج صناعية رائدة بما فيها <strong>Seedance 2.5</strong> الجديد — takes حتى 30 ثانية مع تحكم editing أقوى.</p>
+      <p>Canvas يتكامل مع Codex وClaude — يُعدّ workflows ويُشغّل agent خاص. للمبدعين العرب: كل متجر Shopify وseller على Noon وAmazon MENA يحتاج UGC at scale — NewFace.AI setup consulting وArabic e-commerce Skills library وmanaged UGC production retainers فرصة ضخمة قبل saturation.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من NewFace.AI وثورة UGC للتجارة الإلكترونية؟</h3>
+        <ul>
+          <li><strong>UGC production agency:</strong> إنتاج فيديوهات منتجات بـ NewFace — 1500–15000 دولار/مشروع.</li>
+          <li><strong>Arabic e-commerce Skills pack:</strong> قوالب Viral Remake وBatch Video بالعربية — 49–199 دولار/شهر.</li>
+          <li><strong>Store onboarding consulting:</strong> إعداد Canvas وworkflows للبائعين — 3000–20000 دولار.</li>
+          <li><strong>دورات «AI UGC for E-Commerce»:</strong> bootcamp للبائعين والوكالات — 99–599 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">NewFace.AI</span>
+        <span class="tag">LibAI Lab</span>
+        <span class="tag">UGC Production</span>
+        <span class="tag">Seedance 2.5</span>
+        <span class="tag">E-Commerce AI</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Twin1 AI: 20 مليون دولار seed لبناء digital twin لكل محترف — خبرة تتوسع عبر Slack وTeams والبريد!</h2>
+      <p class="article-lead">«كل محترف يستحق توأماً رقمياً يحفظ حكمه وعلاقاته وسياقه». في 20 أغسطس 2026، خرجت <strong>Twin1 AI</strong> من stealth مع <strong>20 مليون دولار seed</strong> — co-led من Bessemer Venture Partners وTribeca Venture Partners وAramco Ventures — لبناء منصة privacy-first تمنح كل محترف digital twin مدعوماً بالذكاء الاصطناعي.</p>
+      <p>الفكرة: pairing كل محترف مع twin يعكس معرفته وحكمه وسياق عمله وأسلوب تواصله — يعمل عبر email وmeetings وdocuments وSlack وMicrosoft Teams. Twins فردية تتصل عبر <strong>governed network</strong> تُحرّر المعرفة المُقفلة في silos وتُنسّق عبر أشخاص وworkflows وAI agents — إجابات permission-aware في real time.</p>
+      <p>المؤسسون: Dr. Lewis Z. Liu وTom Cahn وHuiting Liu وDr. Jonathan Budd — تأسيس 2025، فرق في San Mateo (HQ) ولندن. العملاء: Linklaters وOrrick وDechert وCustomers Bank وAegis Energy — قطاعات legal وfinancial services وenergy. Privacy وgovernance وhuman control مُدمجة في المنصة من البداية.</p>
+      <p>الاستثمار يُوسّع الفرق في San Mateo ولندن وgo-to-market وتطوير التقنية الأساسية. للمبدعين العرب: كل مكتب محاماة وبنك وenergy firm في MENA يبحث عن knowledge scaling — Twin1 deployment consulting وArabic twin configuration playbooks وenterprise governance setup فرصة enterprise-grade قبل competition.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Twin1 AI وثورة digital twins للمحترفين؟</h3>
+        <ul>
+          <li><strong>Enterprise twin deployment:</strong> إعداد Twin1 للمؤسسات — 15000–75000 دولار/مشروع.</li>
+          <li><strong>Knowledge governance consulting:</strong> تصميم policies وpermissions — 8000–40000 دولار.</li>
+          <li><strong>Arabic professional twin templates:</strong> twins جاهزة لقطاعات MENA — 99–399 دولار/شهر.</li>
+          <li><strong>دورات «Digital Twins for Enterprise»:</strong> bootcamp لقادة المعرفة — 199–999 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Twin1 AI</span>
+        <span class="tag">Digital Twin</span>
+        <span class="tag">Knowledge Scaling</span>
+        <span class="tag">Enterprise AI</span>
+        <span class="tag">Privacy-First</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Harvey II وTenet: Harvey يبني نموذجاً قانونياً خاصاً بدلاً من استئجار OpenAI — Memory تتعلّم أسلوب كل محامٍ!</h2>
+      <p class="article-lead">«لم نعد نستأجر ذكاءً — بل نملكه». في 18 أغسطس 2026، أطلقت Harvey — startup قانوني AI بقيمة تقارب <strong>15.5 مليار دولار</strong> — <strong>Harvey II</strong> مع <strong>Tenet</strong>: أول نموذج proprietary post-trained على Kimi K3 base مع Fireworks AI لعمل قانوني long-horizon — contract reviews وdiligence وevidence sweeps وlitigation tasks تستغرق ساعات لا ثوانٍ.</p>
+      <p>Tenet ليس chatbot يرتدي بدلة محامٍ — بل نموذج open-weight مُخصّص مُدرّب على case files يُولّدها محامون حقيقيون. Harvey II يُضيف <strong>Memory</strong>: يتعلّم كيف يُلخّص المحامي الفرد ويُقتبس ويكتب ويُحرّر — ويحمل تفضيلاته عبر Harvey وMicrosoft Word وOutlook. المستخدم يرى ويُغيّر ويُوقف ما يتذكّره Harvey — والذاكرة <strong>لا تُستخدم أبداً</strong> لتدريب النماذج.</p>
+      <p>Harvey II يُطلق legal agents وshared matter context وmemory على مستوى المنصة. Kimi K3 — أكبر open-weight model بـ 2.8 تريليون parameter — أُطلقت أوزانها 26 يوليو ووصلت Cursor نفس اليوم. المعركة مع Legora — بـ 1000+ مكتب محاماة في 50 سوق — على legal AI سريع ودقيق ورخيص enough ليصبح normal في المكاتب الكبيرة.</p>
+      <p>للمبدعين العرب: كل مكتب محاماة وlegal department في MENA يستكشف AI — Harvey/Tenet readiness consulting وArabic legal workflow playbooks وMemory configuration services فرصة قبل Legora saturation في المنطقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Harvey II وTenet وثورة legal AI proprietary؟</h3>
+        <ul>
+          <li><strong>Legal AI implementation:</strong> إعداد Harvey للمكاتب — 20000–100000 دولار/مشروع.</li>
+          <li><strong>Memory & workflow customization:</strong> ضبط أسلوب المحامين — 5000–35000 دولار.</li>
+          <li><strong>Arabic legal AI playbooks:</strong> أدلة عقود وdue diligence بالعربية — 79–299 دولار/شهر.</li>
+          <li><strong>دورات «Proprietary Legal AI»:</strong> bootcamp لفرق legal ops — 249–1299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Harvey II</span>
+        <span class="tag">Tenet</span>
+        <span class="tag">Legal AI</span>
+        <span class="tag">Kimi K3</span>
+        <span class="tag">AI Memory</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Keyworth: من لشبونة — منصة SEO تُكتب للآلة التي تُجيب عندما الترتيب الأول لا يُجلب أي نقرة!</h2>
+      <p class="article-lead">«الترتيب الأول بدون نقرة — هذه ليست فشلاً، بل عصر جديد». في 21 أغسطس 2026، أطلقت startup برتغالية من لشبونة <strong>Keyworth</strong>: منصة SEO content مبنية حول حقيقة أن visibility في إجابات AI المُولّدة لم تعد outcome غير مقصود — بل الهدف نفسه.</p>
+      <p>التحليل الذي أطلق Keyworth: مئات حالات حيث صفحات عملاء ترتيب top 3 في Google لأشهر <strong>بدون أي نقرة</strong>. المنصة تتصل بـ Google Search Console وتحلل حتى 16 شهراً من بيانات الأداء الحقيقية — لا keyword estimates فقط. تبحث عن أربعة أنماط: searches حيث الموقع قريب enough من الصفحة الأولى، صفحات click rate أقل من position، topics ذات صلة بمجالات relevance موجودة بدون محتوى مخصص، وحالات cannibalization بين صفحتين.</p>
+      <p>Keyworth يُؤتمت workflow المحتوى: من تحديد فرص البحث إلى research وwriting وoptimizing وpublishing مقالات long-form. يستهدف small businesses وmarketing agencies تُدير content لمواقع متعددة. الأسعار من <strong>50 دولار/موقع/شهر</strong> — متاح الآن على keyworth.co.</p>
+      <p>للمبدعين العرب: كل agency SEO وpublisher في MENA يُقاتل zero-click SERPs — Keyworth setup consulting وArabic content optimization playbooks وmanaged SEO content retainers فرصة قبل أن تُبتلع السوق. «Writing for the machine that answers» — Keyworth يُسمّيها صراحة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Keyworth وثورة SEO لعصر AI answers؟</h3>
+        <ul>
+          <li><strong>SEO agency white-label:</strong> إدارة Keyworth لعملاء متعددين — 2000–15000 دولار/شهر.</li>
+          <li><strong>Arabic AI-optimized content:</strong> مقالات long-form للبحث وAI answers — 500–3000 دولار/مقال.</li>
+          <li><strong>Zero-click audit services:</strong> تحليل GSC وفرص ranking — 1500–8000 دولار.</li>
+          <li><strong>دورات «SEO for AI Answers»:</strong> bootcamp للمسوقين — 99–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Keyworth</span>
+        <span class="tag">SEO AI</span>
+        <span class="tag">Zero-Click</span>
+        <span class="tag">Content Automation</span>
+        <span class="tag">Google Search Console</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 22-08-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
