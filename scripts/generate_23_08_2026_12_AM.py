@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 23-08-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "23-08-2026 -- 12-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Supernova، Vidocu AI Recorder، Router by Ramp، AuriQ essentia.ai، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 23 أغسطس 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من مركز بيانات واحد لـ Claude وCodex إلى وكيل يُصوّر منتجك ويُوثّقه — أربع ثورات تُعيد تشكيل الإنتاجية والتكلفة والابتكار في 23 أغسطس 2026!</h1>
+      <p class="hero-sub">Supernova يُجمّع كل بياناتك في نقطة واحدة لـ Claude وCodex، Vidocu AI Recorder يُحوّل prompt واحداً إلى فيديو منتج احترافي، Router by Ramp يُقلّص فواتير tokens بنصف التكلفة، وAuriQ essentia.ai يجعل تحليل براءات الاختراع في متناول المخترعين العرب. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 23 أغسطس 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Supernova: مركز بيانات واحد يُغذّي Claude وCodex — 298 صوتاً على Product Hunt يُعلن نهاية عصر التطبيقات المُتفرّقة!</h2>
+      <p class="article-lead">«البيانات مُشتتة في 47 أداة — والذكاء الاصطناعي يُجيب بجهل نسبي». في 22 أغسطس 2026، تصدّر <strong>Supernova</strong> إطلاقات Product Hunt بـ 298 upvote: منصة تربط كل بياناتك — Notion وSlack وGmail وGoogle Drive وGitHub — في طبقة context واحدة تُغذّي Claude وCodex مباشرة.</p>
+      <p>المشكلة التي يحلّها Supernova ليست تقنية فقط — بل إنسانية. كل محترف يعمل مع 5–10 أدوات يعرف الإحباط: تسأل Claude سؤالاً عن مشروع، فيُجيب بشكل عام لأنه لا يرى Slack thread من الأسبوع الماضي أو spec document في Notion. Supernova يُنشئ <strong>unified knowledge graph</strong> يُحدّث تلقائياً ويُزوّد أي LLM بـ context كامل.</p>
+      <p>التكامل مع Claude وCodex ليس cosmetic — بل native. Supernova يُرسل structured context blocks مع كل prompt، يُحدّد permissions per source، ويُتيح semantic search عبر كل repositories. المستخدم يسأل «ما آخر قرار اتخذناه بخصوص pricing؟» — فيُجيب Claude باقتباس من Slack وNotion وGoogle Doc في نفس الوقت.</p>
+      <p>للمبدعين العرب: كل agency وconsultancy في MENA يُدير عملاء متعددين عبر أدوات مختلفة — Supernova setup consulting وArabic data connectors وmanaged context layers فرصة بـ 3000–20000 دولار/مشروع. «Context engineering» أصبح skill مطلوب قبل prompt engineering.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Supernova وثورة unified AI context؟</h3>
+        <ul>
+          <li><strong>Supernova integration:</strong> ربط أدوات العملاء بـ Claude/Codex — 3000–20000 دولار/مشروع.</li>
+          <li><strong>Arabic context templates:</strong> قوالب context جاهزة للفرق العربية — 49–199 دولار/شهر.</li>
+          <li><strong>Managed context services:</strong> إدارة knowledge layers للشركات — 1500–10000 دولار/شهر.</li>
+          <li><strong>دورات «Context Engineering with Supernova»:</strong> bootcamp للمحترفين — 99–599 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Supernova</span>
+        <span class="tag">Claude</span>
+        <span class="tag">Codex</span>
+        <span class="tag">Context Engineering</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Vidocu AI Recorder: prompt واحد = فيديو منتج استوديو — الوكيل يُسجّل الدخول ويُنفّذ ويُصوّر بنفسه!</h2>
+      <p class="article-lead">«التوثيق يأكل 40% من وقت فريق المنتج — Vidocu يُنهيه في دقائق». في 19 أغسطس 2026، أخرجت Vidocu <strong>AI Recorder</strong> من private beta إلى كل الخطط المدفوعة: وكيل AI يفتح متصفحاً حقيقياً، يُسجّل الدخول، يُنفّذ workflow بنفسه، ويُسجّل نفسه أثناء التنفيذ — ثم Vidocu يُحوّل اللقطات إلى فيديو منتج احترافي.</p>
+      <p>خلال beta في يوليو وأغسطس، اختبر العملاء المنصة على أنظمة حقيقية: HR platforms وERP وmanufacturing systems وhelp centers — ليس demo sites. النتيجة: مئات الخطوات موثّقة، كل خطوة screenshot وسطر في guide لم يكتبه أحد. <strong>Failed runs مجانية</strong> — تدفع فقط عن الفيديو المُنجز.</p>
+      <p>التسعير: 50 credits لكل دقيقة فيديو مُنجز، minimum دقيقة واحدة. Pro وBusiness وEnterprise كلها تشمل AI Recorder. REST API يُتيح trigger recording من deploy pipeline — MCP server يُتيح Claude بدء recording وإرجاع النتيجة. تسجيلان متزامنان per workspace، والباقي في queue.</p>
+      <p>للمبدعين العرب: كل SaaS startup في MENA يحتاج product demos وonboarding videos — Vidocu workflow setup وArabic narration overlays وmanaged documentation retainers فرصة ضخمة. «Describe once, document forever» paradigm يُغيّر product marketing.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Vidocu AI Recorder وثورة automated product videos؟</h3>
+        <ul>
+          <li><strong>Product video automation:</strong> إعداد Vidocu workflows للعملاء — 2000–15000 دولار/مشروع.</li>
+          <li><strong>Arabic demo packages:</strong> فيديوهات منتج بالعربية — 500–3000 دولار/فيديو.</li>
+          <li><strong>Documentation retainers:</strong> إدارة docs وvideos شهرية — 1000–6000 دولار/شهر.</li>
+          <li><strong>دورات «AI Product Documentation»:</strong> bootcamp لفرق المنتج — 79–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Vidocu</span>
+        <span class="tag">AI Recorder</span>
+        <span class="tag">Product Videos</span>
+        <span class="tag">Documentation</span>
+        <span class="tag">Agent Automation</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Router by Ramp: «Tokens are money. Save both.» — طبقة ذكية تُقلّص فواتير LLM بنصف التكلفة!</h2>
+      <p class="article-lead">«كل startup AI يُحرق cash على tokens — Router يُوقف النزيف». في 22 أغسطس 2026، أطلقت Ramp <strong>Router</strong>: طبقة optimization لاستخدام LLM tokens وAPI costs، مع شعار لا يُخطئ: «Tokens are money. Save both.»</p>
+      <p>Router يعمل كـ <strong>intelligent proxy</strong> بين تطبيقك وmodel providers. يُحلّل كل request: task complexity وcontext length وlatency requirements — ثم يُوجّه للنموذج الأنسب والأرخص. Simple classification task؟ Router يُرسل لـ small model بـ 1/10 التكلفة. Complex reasoning؟ Frontier model فقط عند الحاجة.</p>
+      <p>الميزات: automatic model routing وtoken compression وcaching للـ repeated queries وreal-time cost dashboards. Ramp — شركة fintech معروفة بـ corporate cards — تدخل AI infrastructure بخبرة deep في spend management. Router يتكامل مع OpenAI وAnthropic وGoogle وopen-source models عبر endpoint واحد.</p>
+      <p>للمبدعين العرب: كل AI startup في MENA يُدير API bills متعددة — Router setup consulting وcost optimization audits وArabic spend dashboards فرصة infrastructure. «FinOps for AI» skill جديد يُدفع premium.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Router by Ramp وثورة AI cost optimization؟</h3>
+        <ul>
+          <li><strong>Router integration:</strong> دمج Router في منتجات AI — 5000–30000 دولار/مشروع.</li>
+          <li><strong>Cost optimization audits:</strong> مراجعة فواتير LLM وتقليلها — 2000–15000 دولار/مشروع.</li>
+          <li><strong>FinOps for AI consulting:</strong> استشارات إدارة تكاليف AI — 3000–20000 دولار/شهر.</li>
+          <li><strong>دورات «AI FinOps with Router»:</strong> bootcamp للمطورين — 149–799 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Router by Ramp</span>
+        <span class="tag">Token Optimization</span>
+        <span class="tag">FinOps</span>
+        <span class="tag">LLM Costs</span>
+        <span class="tag">AI Infrastructure</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>AuriQ essentia.ai: ذكاء اصطناعي يُحلّل براءات الاختراع — طبقة مجانية للمخترعين العرب!</h2>
+      <p class="article-lead">«براءة الاختراع كانت حكراً على المحامين — essentia.ai يجعل البحث والتحليل في متناول الجميع». في 18 أغسطس 2026، أطلقت AuriQ Systems من Pasadena <strong>essentia.ai</strong>: منصة Patent Analysis AI مبنية على corpus USPTO كامل — prior art discovery وclaim charting وprosecution-history analysis وdraft generation.</p>
+      <p>المنصة تستخدم LLMs مُحسّنة لـ patent language — semantic search عبر millions of applications وgrants. <strong>Free tier</strong> مخصص للمخترعين المستقلين وboutique IP law firms. Claim charting automation يُقلّص ساعات manual work إلى دقائق. Prosecution history analysis يُكشف patterns في office actions.</p>
+      <p>essentia.ai ليس chatbot عام — بل vertical AI مُدرّب على patent corpus. Structured output: claim charts وprior art reports وdraft sections جاهزة للمراجعة. Beta launch يستهدف inventors وIP professionals قبل enterprise expansion.</p>
+      <p>للمبدعين العرب: MENA region في نمو IP awareness — essentia.ai consulting وArabic patent search services وIP workflow setup للمخترعين العرب فرصة قبل saturation. «Patent AI» vertical ناشئ يُكافئ المبادرين الأوائل.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من AuriQ essentia.ai وثورة Patent AI؟</h3>
+        <ul>
+          <li><strong>Patent search services:</strong> خدمات prior art للمخترعين — 500–5000 دولار/بحث.</li>
+          <li><strong>IP workflow setup:</strong> إعداد essentia.ai للشركات — 3000–25000 دولار/مشروع.</li>
+          <li><strong>Arabic patent consulting:</strong> استشارات IP للمخترعين العرب — 200–2000 دولار/جلسة.</li>
+          <li><strong>دورات «Patent AI for Inventors»:</strong> bootcamp للمخترعين — 99–599 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AuriQ</span>
+        <span class="tag">essentia.ai</span>
+        <span class="tag">Patent AI</span>
+        <span class="tag">IP Law</span>
+        <span class="tag">Prior Art</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 23-08-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
