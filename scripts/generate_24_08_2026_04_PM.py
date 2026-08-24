@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 24-08-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "24-08-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Wispr Flow، Higgsfield، Construct Computer، Findrix، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 24 أغسطس 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من مليار دولار في الصوت إلى فيديو بـ 700 مليون دولار إيرادات — أربع ثورات تُعيد تعريف الإدخال الصوتي وصناعة الفيديو وموظف AI السحابي ورؤية العلامة في محركات الذكاء في 24 أغسطس 2026!</h1>
+      <p class="hero-sub">Wispr Flow يجمع 280 مليون دولار بتقييم 2 مليار دولار ويُطلق نموذج Canto للتعرف على الكلام في البيئات الصاخبة، Higgsfield تُعلن عن 400 مليون دولار Series B بتقييم 5.4 مليار دولار مع 700 مليون دولار إيرادات سنوية، Construct Computer يُعطي وكيل AI «حاسوباً سحابياً» كاملاً للمؤسسين المستقلين، وFindrix يُدقّق كيف يراك ChatGPT وClaude وGemini — ويُعطيك قائمة إصلاحات لزيادة ظهورك. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 24 أغسطس 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Wispr Flow: 280 مليون دولار Series B بتقييم 2 مليار دولار — من الإملاء الصوتي إلى طبقة ذكاء صوتي كاملة!</h2>
+      <p class="article-lead">«الصوت ليس ميزة — بل واجهة المستقبل». في 17 أغسطس 2026، أعلنت <strong>Wispr Flow</strong> (المعروفة سابقاً بـ Wispr) عن <strong>280 مليون دولار Series B</strong> بتقييم <strong>2 مليار دولار</strong> بقيادة Menlo Ventures — ليصل إجمالي التمويل إلى 361 مليون دولار في أقل من 14 شهراً.</p>
+      <p>المنتج الأساسي Flow يُحوّل كلامك إلى نص في أي تطبيق — Slack وGmail وNotion وIDE — بسرعة تفوق الكتابة 3–4 مرات. أكثر من <strong>60 مليار كلمة</strong> كُتبت عبر المنصة، مع انتشار في Fortune 500. لكن Wispr لا تتوقف عند الإملاء: أطلقت <strong>Notetaker</strong> — أداة اجتماعات تُسجّل المكالمات والحوارات وجهاً لوجه، تُعرّف المتحدثين على نص حي، وتُنتج ملخصات منظمة بالقرارات والخطوات التالية.</p>
+      <p>مع الإعلان عن التمويل، كشفت Wispr عن <strong>Canto</strong> — أول نموذج كلام proprietary داخلي. معظم نماذج الكلام تُدرَّب في غرف هادئة؛ Canto يستهدف معدلات خطأ 5–10% في البيئات الحقيقية الصاخبة — انخفاضاً من أكثر من 30%. Wispr Advanced Interfaces Lab بقيادة Ariya يبني نحو تفاعل بشري-AI سلس يبدأ بالصوت ويمتد لاحقاً لوسائط أخرى.</p>
+      <p>للمبدعين العرب: كل content creator وconsultant وdeveloper في MENA يُضيّع ساعات في الكتابة — Wispr Flow setup وArabic voice workflows وenterprise Notetaker deployment فرصة B2B ضخمة. «Voice-first productivity layer» vertical ينمو مع 2 مليار دولار valuation.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Wispr Flow وثورة الإنتاجية الصوتية؟</h3>
+        <ul>
+          <li><strong>Wispr enterprise rollout:</strong> نشر Flow وNotetaker للشركات — 3000–25000 دولار/مشروع.</li>
+          <li><strong>Arabic voice workflow templates:</strong> قوالب إملاء وملخصات عربية — 500–4000 دولار/حزمة.</li>
+          <li><strong>Managed voice productivity:</strong> تحسين workflows صوتية شهرياً — 1500–12000 دولار/شهر.</li>
+          <li><strong>دورات «Voice-First Productivity»:</strong> bootcamp للمحترفين — 59–449 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Wispr Flow</span>
+        <span class="tag">280M Series B</span>
+        <span class="tag">Canto Speech Model</span>
+        <span class="tag">Voice AI</span>
+        <span class="tag">Notetaker</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Higgsfield: 400 مليون دولار Series B بتقييم 5.4 مليار دولار — 700 مليون دولار إيرادات سنوية من فيديو AI!</h2>
+      <p class="article-lead">«من San Francisco إلى Central Asia — Higgsfield تُثبت أن فيديو AI ليس hype بل business». في 24 أغسطس 2026، أعلنت <strong>Higgsfield</strong> — منصة إنشاء فيديو بالذكاء الاصطناعي — عن <strong>400 مليون دولار Series B</strong> بتقييم <strong>5.4 مليار دولار</strong> بقيادة DST Global — أكثر من أربعة أضعاف تقييم Series A البالغ 1.3 مليار دولار.</p>
+      <p>الأرقام مذهلة: <strong>700 مليون دولار إيرادات سنوية</strong> (annualized revenue) هذا الشهر — نمو استثنائي في فئة AI video creation. المستثمرون: Tribe Capital وGoldman Sachs Alternatives وFifth Wall وIntel Capital — وNatalia Vodianova Arnault كمستشارة. التمويل يُوجَّه لـ R&D وتوسيع البنية التحتية العالمية واستقطاب مواهب AI elite.</p>
+      <p>المبادرات الاجتماعية تُثبت عمق الرؤية: <strong>Higgsfield Academy</strong> جذبت أكثر من 400 ألف زائر للدورات، و<strong>Higgsfield For Good</strong> تُطلق في سبتمبر 2026 لجلب أدوات AI للطلاب والمعلمين عالمياً — شراكة مع YGA تُتيح 70 ألف طالب و13 ألف معلم تحويل مواضيع علمية معقدة إلى تجارب بصرية. CTO Yerzat Dulat يقود برنامج STEM في 8 مدارس ريفية في Central Asia.</p>
+      <p>للمبدعين العرب: كل agency وcreator وedtech في MENA يُريد فيديو AI بجودة احترافية — Higgsfield reseller وArabic video templates وmanaged content production retainers فرصة premium. «AI video at scale» vertical يُكافئ المبكرين مع 700 مليون دولار revenue proof.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Higgsfield وثورة فيديو AI التجاري؟</h3>
+        <ul>
+          <li><strong>Higgsfield agency packages:</strong> إنتاج فيديو AI للعلامات — 2000–20000 دولار/مشروع.</li>
+          <li><strong>Arabic AI video templates:</strong> قوالب فيديو تسويقية عربية — 800–6000 دولار/حزمة.</li>
+          <li><strong>Managed video retainers:</strong> إنتاج فيديو AI شهري للشركات — 5000–30000 دولار/شهر.</li>
+          <li><strong>دورات «AI Video for Creators»:</strong> bootcamp للمبدعين — 99–699 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Higgsfield</span>
+        <span class="tag">400M Series B</span>
+        <span class="tag">AI Video</span>
+        <span class="tag">700M ARR</span>
+        <span class="tag">Creator Economy</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Construct Computer: موظف AI سحابي بـ 9 دولارات شهرياً — حاسوب كامل وذاكرة دائمة و1000+ تطبيق!</h2>
+      <p class="article-lead">«الوكلاء كانوا يتحدثون — Construct يُعطيهم مكتباً». في 23 أغسطس 2026، انفجر <strong>Construct Computer</strong> على Product Hunt — منصة «AI employee» من Ankush وNischal تُعطي وكيل AI <strong>حاسوباً سحابياً كاملاً</strong>: Linux desktop وbrowser وterminal وذاكرة طويلة المدى وcron jobs و1000+ تطبيق متصل.</p>
+      <p>الفرق الجوهري عن ChatGPT وClaude: Construct <strong>persistent workforce platform</strong> — ليس chatbot جلسة واحدة. الوكيل يتذكر سياق أسابيع، يعمل على جدول، يُنفّذ actions عبر Slack وGmail وCRM، ويترك audit trail. supervised autonomy: تشاهد desktop الوكيل في الوقت الفعلي وتتدخل متى شئت — أكثر ثقة من fire-and-forget API.</p>
+      <p>الميزة القاتلة: <strong>turn successful agent runs into static workflows</strong> — لا re-reasoning ولا token burn متكرر. Lite plan بـ 9 دولارات/شهر entry point؛ tiers أعلى تُتيح BYOK وruntime أطول. البنية على Cloudflare Durable Objects وSandboxes وR2 — secure enclaves بـ WASM. blog Construct يشرح «agent task half-life»: وكيل 95% موثوق يُكمل 48 خطوة 8.5% فقط من المرات — الحل resumable runs لا نموذج أفضل.</p>
+      <p>للمبدعين العرب: كل solo founder وagency في MENA يرتدي 10 قبعات — Construct setup وArabic agent workflows وmanaged AI employee retainers فرصة B2B. «Cloud AI coworker» vertical ينمو مع Product Hunt momentum.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Construct Computer وثورة موظف AI السحابي؟</h3>
+        <ul>
+          <li><strong>Construct onboarding:</strong> إعداد AI employee للشركات — 1500–10000 دولار/عميل.</li>
+          <li><strong>Arabic workflow libraries:</strong> مكتبة workflows عربية جاهزة — 500–5000 دولار/حزمة.</li>
+          <li><strong>Managed AI employee:</strong> إدارة وكيل AI شهرياً — 2000–15000 دولار/شهر.</li>
+          <li><strong>دورات «AI Employee for Founders»:</strong> bootcamp للمؤسسين — 69–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Construct Computer</span>
+        <span class="tag">AI Employee</span>
+        <span class="tag">Cloud Desktop</span>
+        <span class="tag">Product Hunt</span>
+        <span class="tag">Agentic OS</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Findrix: تدقيق ظهورك في ChatGPT وClaude وGemini — 29 فحصاً حتمياً وقائمة إصلاحات لزيادة الاقتباسات!</h2>
+      <p class="article-lead">«SEO مات — GEO وُلد. Findrix يُخبرك ماذا يرى عملاؤك عندما يسألون AI عنك». في أغسطس 2026، أطلقت <strong>Findrix</strong> — منصة AI visibility audit — حلاً لأزمة العلامات التجارية: ChatGPT يقتبس أسعاراً قديمة، يُفوّت شهادات compliance، أو يصفك أصغر مما أنت.</p>
+      <p>Findrix يُشغّل prompts فئتك عبر كل نموذج AI رئيسي — ChatGPT وGoogle AI Overviews وPerplexity وGemini وGoogle AI Mode. ترى <strong>نسبة الإجابات التي تذكر شركتك</strong>، citation share وrank وrecommendations وsource mix — مُقسّمة حسب النموذج والأسبوع. 29 فحصاً deterministic تُعاد أسبوعياً — ليس snapshot لمرة واحدة بل رقم تستطيع الدفاع عنه.</p>
+      <p>confidence ranges شفافة: ترى 38% مع [29–47%] — لا أرقام وهمية. Source fact-checker يُتتبع الحقائق التي تُقتبسها AI ومصادرها. خطط من 24–69 دولار/شهر؛ free audit يُعطيك 29 فحصاً ونتائجك على الشاشة في دقيقة. عميل مبكر: «أول تقرير كشف أن ChatGPT يسحب نسخة قديمة من product specs — لم نكن لنكتشف ذلك بأنفسنا».</p>
+      <p>للمبدعين العرب: كل SaaS وagency وe-commerce في MENA يُريد ظهوراً في AI search — Findrix consulting وArabic GEO audits وmanaged AI visibility retainers فرصة ناشئة ضخمة. «AI visibility / GEO» category يُكافئ المبكرين قبل saturation.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Findrix وثورة ظهور العلامة في محركات AI؟</h3>
+        <ul>
+          <li><strong>GEO audit packages:</strong> تدقيق ظهور AI للشركات — 1000–8000 دولار/عميل.</li>
+          <li><strong>Arabic AI visibility reports:</strong> تقارير GEO عربية branded PDF — 500–4000 دولار/تقرير.</li>
+          <li><strong>Managed GEO retainers:</strong> تحسين ظهور AI شهرياً — 2000–15000 دولار/شهر.</li>
+          <li><strong>دورات «AI Visibility for Brands»:</strong> bootcamp للمسوقين — 49–399 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Findrix</span>
+        <span class="tag">GEO</span>
+        <span class="tag">AI Visibility</span>
+        <span class="tag">ChatGPT Audit</span>
+        <span class="tag">Brand Intelligence</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 24-08-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
