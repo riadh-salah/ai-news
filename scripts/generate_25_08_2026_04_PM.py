@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 25-08-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "25-08-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Lightning Rod، Codex Subagents، JusRecruit AI، AgreeGuard، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 25 أغسطس 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من بياناتك الخام إلى وكلاء متوازيين — أربع ثورات تُعيد تعريف التدريب والتوظيف والحماية القانونية في 25 أغسطس 2026!</h1>
+      <p class="hero-sub">Lightning Rod تُحوّل أرشيفك إلى بيانات تدريب بلا تسمية يدوية عبر منهج «المستقبل كتسمية»، Codex Subagents يُطلق وكلاء مخصصين متوازيين من OpenAI، JusRecruit AI يُوظّف «ساينا» لإجراء مكالمات الفرز تلقائياً، وAgreeGuard يقرأ الشروط والأحكام قبل أن تضغط «أوافق». أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 25 أغسطس 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Lightning Rod: المستقبل نفسه يصبح تسمية — حوّل PDFs وأرشيفك إلى محرك تنبؤ بـ 22% دقة أعلى من GPT-5!</h2>
+      <p class="article-lead">«لا تحتاج بيانات مُوسومة — المستقبل يُعلّم نفسه». في 2026، تتصدر <strong>Lightning Rod Labs</strong> موجة post-training AI بمنهج proprietary اسمه <strong>Future-as-Label</strong> — المستقبل نفسه يصبح إشارة التدريب، بلا أي تسمية بشرية.</p>
+      <p>المشكلة التي حلّتها: معظم الشركات لا تملك datasets مُوسومة للتدريب — لكنها تملك جبالاً من PDFs وmemos وreports مع timestamps. Lightning Rod تُحوّل هذه الأرشيفات إلى <strong>verified training datasets</strong> في دقائق عبر SDK مفتوح وAPI متوافق مع OpenAI.</p>
+      <p>الدليل العملي مذهل: فريق Lightning Rod درّب نموذجاً للتنبؤ بالتغيرات الاقتصادية من <strong>Beige Book</strong> للاحتياطي الفederalي الأمريكي — PDFs نصية نوعية فقط. النتيجة: <strong>22% أقل خطأ تنبؤ</strong> و<strong>84% أقل خطأ معايرة</strong> من GPT-5. على MIMIC-III الطبي، نموذج GPT-OSS-120B قلّص خطأ المعايرة ~70% وتفوّق على GPT-5 في Brier score.</p>
+      <p>المنهج اختير كأحد <strong>10 spotlights</strong> في ICML 2026 Workshop on AI Forecasting. Foresight Learning يتنبأ بالأحداث السريرية مباشرة من الملاحظات الخام — بدون dataset مُوسوم يدوياً. للمبدعين العرب: كل bank وinsurance وhealthcare في MENA يملك أرشيفاً ضخماً — Lightning Rod consulting وArabic domain pipelines وmanaged forecasting retainers فرصة B2B premium.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Lightning Rod وثورة «المستقبل كتسمية»؟</h3>
+        <ul>
+          <li><strong>Domain training pipelines:</strong> بناء pipelines تنبؤ من أرشيف العميل — 5000–35000 دولار/مشروع.</li>
+          <li><strong>Arabic document forecasting:</strong> تدريب نماذج تنبؤ من تقارير عربية — 3000–25000 دولار/عميل.</li>
+          <li><strong>Managed Foresight retainers:</strong> صيانة وتحديث نماذج التنبؤ شهرياً — 2500–20000 دولار/شهر.</li>
+          <li><strong>دورات «Future-as-Label for Data Teams»:</strong> bootcamp للفرق التقنية — 79–549 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Lightning Rod</span>
+        <span class="tag">Future-as-Label</span>
+        <span class="tag">ICML 2026</span>
+        <span class="tag">Post-Training AI</span>
+        <span class="tag">Foresight Learning</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Codex Subagents: وكلاء مخصصون متوازيون — OpenAI يُطلق ثورة التنسيق متعدد الوكلاء في IDE!</h2>
+      <p class="article-lead">«مهمة واحدة، ستة وكلاء، نتيجة واحدة». في 2026، أطلقت OpenAI <strong>Codex Subagents</strong> — قدرة على تشغيل وكلاء متخصصين <strong>بالتوازي</strong> داخل جلسة Codex واحدة، ثم تجميع نتائجهم في رد موحّد.</p>
+      <p>الآلية: تُعرّف وكلاءك المخصصين في ملفات TOML تحت <strong>.codex/agents/</strong> للمشروع أو <strong>~/.codex/agents/</strong> للاستخدام الشخصي. كل ملف يحدّد الاسم والوصف والتعليمات واختيارياً النموذج وإعدادات sandbox. الوكلاء المدمجة — worker وexplorer — تُستخدم للاستكشاف المتوازي ومراجعة التغييرات.</p>
+      <p>الطيف يمتد من <strong>in-session subagents</strong> (مساحة عمل مشتركة) إلى <strong>custom agents</strong> (نموذج وsandbox لكل دور) إلى <strong>batch fan-out</strong> عبر CSV إلى <strong>Symphony</strong> — نظام always-on يُ driven بissue tracker. الحد الافتراضي: 6 threads متزامنة وعمق تداخل 1. Codex App يدعم worktrees لعزل تغييرات كل وكيل.</p>
+      <p>للمبدعين العرب: كل dev agency وconsultancy في MENA يُضيّع أياماً في مهام متوازية — Codex agent templates وArabic AGENTS.md packages وmanaged multi-agent workflows فرصة premium. «Multi-agent orchestration» vertical ينمو مع Symphony وFirecrawl guides.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Codex Subagents وثورة الوكلاء المتوازيين؟</h3>
+        <ul>
+          <li><strong>Custom agent templates:</strong> حزم وكلاء جاهزة للمشاريع — 500–5000 دولار/حزمة.</li>
+          <li><strong>Multi-agent workflow setup:</strong> إعداد تنسيق وكلاء للفرق — 2000–15000 دولار/عميل.</li>
+          <li><strong>Managed Codex retainers:</strong> إدارة fleets وكلاء شهرياً — 3000–20000 دولار/شهر.</li>
+          <li><strong>دورات «Multi-Agent Orchestration with Codex»:</strong> bootcamp للمطورين — 59–449 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Codex Subagents</span>
+        <span class="tag">OpenAI</span>
+        <span class="tag">Multi-Agent</span>
+        <span class="tag">Parallel Agents</span>
+        <span class="tag">Symphony</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>JusRecruit AI: انشر وظيفة واستيقظ على shortlist — «ساينا» تُجري مكالمات الفرز والمقابلات الأولى تلقائياً!</h2>
+      <p class="article-lead">«توقف عن قراءة 500 CV — دع ساينا تتصل». في مارس 2026، حققت <strong>JusRecruit</strong> المركز <strong>Top 10 على Product Hunt</strong> — منصة توظيف AI حول <strong>Saina</strong>، مُ recruiter مستقل يُجري phone screens ومقابلات first-round تلقائياً.</p>
+      <p>الفكرة: تنشر وظيفة مجاناً، ساينا تُقيّم كل applicant ضد متطلباتك — ليس keyword matching بل تقييم خبرة ومهارات وevidence. ثم تُجري <strong>مكالمات ثنائية الاتجاه</strong> مع الم shortlisted — 20–45 دقيقة فيديو مع scorecards موحّدة: fit score وskill ratings وevidence من المحادثة وsummary للنقاط القوية والضعيفة.</p>
+      <p>المنصة تتضمن <strong>ATS خفيف</strong> — board view، drag-and-drop للمراحل، تكامل مع Google Meet وMicrosoft Teams وmajor ATS platforms. Setup يستغرق ~10 دقائق: تحدّد must-haves وnice-to-haves وdealbreakers، ساينا تُولّد script وscoring rubric. تعمل عبر engineering وsales وmarketing وoperations وdesign.</p>
+      <p>للمبدعين العرب: كل HR agency وstartup وenterprise في MENA يغرق في CVs — JusRecruit reseller وArabic Saina customization وmanaged recruiting retainers فرصة B2B. «AI phone screening» vertical ينمو مع Classet Joy ومنافسين — لكن JusRecruit تُكافئ full-pipeline approach.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من JusRecruit AI وثورة التوظيف الذكي؟</h3>
+        <ul>
+          <li><strong>JusRecruit enterprise rollout:</strong> نشر منصة للشركات — 2000–15000 دولار/عميل.</li>
+          <li><strong>Arabic interview customization:</strong> تخصيص ساينا للسوق العربي — 1500–10000 دولار/مشروع.</li>
+          <li><strong>Managed recruiting retainers:</strong> إدارة pipeline توظيف شهرياً — 1500–12000 دولار/شهر.</li>
+          <li><strong>دورات «AI Recruiting for HR Teams»:</strong> bootcamp لفرق الموارد البشرية — 49–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">JusRecruit</span>
+        <span class="tag">Saina AI</span>
+        <span class="tag">Product Hunt Top 10</span>
+        <span class="tag">AI Recruiting</span>
+        <span class="tag">Phone Screening</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>AgreeGuard: AI يقرأ الشروط قبل «أوافق» — اكتشف التجديد التلقائي وبطلان حقوقك في ثوانٍ!</h2>
+      <p class="article-lead">«كل نقرة أوافق = عقد قانوني — AgreeGuard يقرأه قبل أن توقّع». في 2026، أطلقت <strong>AgreeGuard</strong> على Product Hunt — إضافة Chrome تُحلّل Terms & Conditions وPrivacy Policy <strong>في الوقت الفعلي</strong> قبل أن تضغط «I Agree».</p>
+      <p>المشكلة: معظم المستخدمين يوافقون blindly على شروط طويلة — hidden auto-renewals، بيع بيانات لthird parties، no-refund traps، waived legal rights، binding arbitration، forced class-action waivers، unlimited license لمحتواك. AgreeGuard يكتشف هذه <strong>red flags</strong> تلقائياً ويُقدّم summaries مفهومة.</p>
+      <p>التقنية: <strong>deep crawl</strong> يكتشف كل المستندات القانونية المرتبطة — Terms وPrivacy وCookie policies عبر صفحات متعددة. التحليل يعمل في الخلفية تلقائياً بعد التثبيت. Free tier: 2 analyses يومياً. Red flag detection يُحدّد auto-renewals وdata selling وarbitration clauses.</p>
+      <p>للمبدعين العرب: كل fintech وSaaS وe-commerce في MENA يحتاج transparency — AgreeGuard enterprise licensing وArabic legal summary packages وcompliance consulting retainers فرصة B2B. «Terms analysis» vertical ينمو مع regulatory pressure — AgreeGuard تُكافئ consumer-first approach.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من AgreeGuard وثورة حماية المستخدم القانونية؟</h3>
+        <ul>
+          <li><strong>Enterprise AgreeGuard licensing:</strong> ترخيص للشركات لفرقها — 500–5000 دولار/سنة.</li>
+          <li><strong>Arabic legal summary packages:</strong> حزم تحليل شروط بالعربية — 300–3000 دولار/حزمة.</li>
+          <li><strong>Compliance consulting retainers:</strong> مراجعة شروط منصات للعملاء — 1000–8000 دولار/شهر.</li>
+          <li><strong>دورات «Terms Analysis for Legal Teams»:</strong> bootcamp للمحامين — 39–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AgreeGuard</span>
+        <span class="tag">Terms Analysis</span>
+        <span class="tag">Chrome Extension</span>
+        <span class="tag">Privacy Protection</span>
+        <span class="tag">Red Flag Detection</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 25-08-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
