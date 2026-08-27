@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 27-08-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "27-08-2026 -- 12-AM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Recall 9، DeployHermes، ChatCut Desktop، Knack MCP Server، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 27 أغسطس 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من محرك بحث شخصي يُذكّرك بكل ما اكتشفته إلى وكلاء Hermes دائمون ومحطة فيديو بـ Claude Code — أربع ثورات تُعيد تعريف الذاكرة والأتمتة والإبداع في 27 أغسطس 2026!</h1>
+      <p class="hero-sub">Recall 9 يحوّل bookmarks وnotes وvoice memos إلى عقل ثانٍ قابل للبحث، DeployHermes يُشغّل فرق وكلاء Hermes بأدوار وذاكرة على Telegram وDiscord، ChatCut Desktop يُعطي Claude Code وCodex يداً على timeline فيديو حقيقي، وKnack MCP Server يُزوّد Lovable وClaude بbackend متوافق مع HIPAA. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 27 أغسطس 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Recall 9: محرك البحث لحياتك الشخصية — bookmarks وnotes وvoice memos وصور تُحفظ من أي مكان وتُسترجَع بوصفها!</h2>
+      <p class="article-lead">«توقّف عن فقدان ما تكتشفه على الإنترنت وفي الحياة الواقعية». في 27 أغسطس 2026، أُطلق <strong>Recall 9</strong> — محرك بحث شخصي و<strong>AI second brain</strong> يحوّل كل ما تحفظه إلى ذاكرة قابلة للاسترجاع بالوصف الطبيعي، لا بالتذكّر.</p>
+      <p>المشكلة التي حلّتها: الملايين يحفظون روابط وملاحظات وvoice memos في تطبيقات متفرقة، ثم يُضيّعونها للأبد. Recall 9 يجمع bookmarks وnotes وvoice memos وimages من أي مصدر — ثم تبحث عن أي شيء بوصفه: «ذلك المقال عن startup في دبي» أو «الفكرة التي سجّلتها بعد الاجتماع».</p>
+      <p>القدرات الأساسية: حفظ من أي مكان (متصفح، تطبيق، IRL)، بحث بالوصف الطبيعي بدلاً من الكلمات المفتاحية، دعم voice memos وimages وnotes، وpersonal knowledge management يعمل كـ second brain حقيقي. الفئات: productivity، bookmarks، note-taking، personal search.</p>
+      <p>للمبدعين العرب: كل researcher وcontent creator وconsultant في MENA يُضيّع أفكاره في 47 تطبيقاً — Recall 9 setup وArabic knowledge curation وmanaged second-brain retainers فرصة productivity premium. «Personal AI search» vertical ينمو مع كل professional يغرق في المعلومات — Recall 9 تُكافئ describe-to-find approach.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Recall 9 وثورة العقل الثاني الشخصي؟</h3>
+        <ul>
+          <li><strong>Second-brain setup packages:</strong> إعداد Recall 9 للمحترفين والفرق — 500–5000 دولار/عميل.</li>
+          <li><strong>Arabic knowledge curation:</strong> تنظيم وتصنيف المحتوى العربي المحفوظ — 300–3000 دولار/مشروع.</li>
+          <li><strong>Managed research retainers:</strong> إدارة ذاكرة معرفية شهرية للباحثين — 800–6000 دولار/شهر.</li>
+          <li><strong>دورات «Personal AI Search with Recall 9»:</strong> bootcamp للمحترفين — 39–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Recall 9</span>
+        <span class="tag">Second Brain</span>
+        <span class="tag">Personal Search</span>
+        <span class="tag">Knowledge Management</span>
+        <span class="tag">Productivity</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>DeployHermes: #1 على Product Hunt — وظّف وكلاء Hermes دائمين بأدوار وذاكرة وskills على Telegram وDiscord في أقل من دقيقة!</h2>
+      <p class="article-lead">«Heroku لوكلاء Hermes — بدون Docker وبدون VPS». في 26 أغسطس 2026، تصدر <strong>DeployHermes</strong> Product Hunt كـ <strong>#1 Product of the Day</strong> — منصة managed hosting تُشغّل وكلاء Hermes persistent بأدوار وذاكرة وskills على Telegram وDiscord وSlack.</p>
+      <p>المشكلة: بناء وكيل Hermes persistent يتطلب Docker وVPS وFly.io وإدارة servers وenvironment variables — tax تشغيلي يُقتل productivity. DeployHermes يُزيل كل ذلك: أدخل bot credentials، اختر AI provider (OpenAI، Anthropic، أو BYOK)، ووكيلك live في أقل من 60 ثانية.</p>
+      <p>القدرات الأساسية: persistent memory عبر restarts، scheduled jobs (حتى unlimited على Power tier)، browser automation وweb search، custom skill development، BYOK encryption، health checks وupdates تلقائية، dashboard تشغيلي لمراقبة الوكلاء. التسعير من 16 دولار/شهر — تدفع compute لا AI calls.</p>
+      <p>للمبدعين العرب: كل agency وcommunity manager وstartup founder في MENA يريد وكيل Telegram/Discord 24/7 — DeployHermes reseller وArabic agent templates وmanaged agent squad retainers فرصة automation premium. «Managed Hermes hosting» vertical ينمو مع Nous Research ecosystem — DeployHermes تُكافئ one-click deployment.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من DeployHermes وثورة الوكلاء الدائمين؟</h3>
+        <ul>
+          <li><strong>Agent squad packages:</strong> فرق وكلاء بأدوار متخصصة (دعم، مبيعات، بحث) — 1000–10000 دولار/عميل.</li>
+          <li><strong>Arabic agent templates:</strong> presets جاهزة للمجتمعات العربية — 200–2000 دولار/حزمة.</li>
+          <li><strong>Managed agent retainers:</strong> صيانة وتحسين الوكلاء شهرياً — 1500–12000 دولار/شهر.</li>
+          <li><strong>دورات «Deploy Hermes Agent Squads»:</strong> bootcamp لبناء فرق وكلاء — 49–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">DeployHermes</span>
+        <span class="tag">Hermes Agent</span>
+        <span class="tag">Telegram Bot</span>
+        <span class="tag">Persistent Memory</span>
+        <span class="tag">Managed Hosting</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>ChatCut Desktop: محرر فيديو editing-first — Claude Code وCodex يُحرّكان timeline حقيقي بـ 4K export محلي وcaptions وmotion graphics!</h2>
+      <p class="article-lead">«لا generate-and-pray — describe your edit واستلم timeline قابل للتعديل». في 26 أغسطس 2026، أُطلق <strong>ChatCut Desktop</strong> على Product Hunt — محرر فيديو <strong>editing-first</strong> يُعطي Claude Code وCodex يداً على timeline حقيقي: cuts، captions، B-roll، motion graphics، وexport حتى 4K محلياً.</p>
+      <p>المشكلة: أدوات AI video generation-first تُنتج clip واحد بprompt — بدون تحكم حقيقي بعد التوليد. ChatCut Desktop يقلب المعادلة: تصف edit بالإنجليزية (أو أي لغة) ويُجمّع timeline قابل للتعديل — AI يُنجز assembly، أنت تحتفظ بالcreative control.</p>
+      <p>القدرات الأساسية: Agent Selection يمسح Codex أو Claude Code المثبت محلياً، timeline editing (cut، trim، arrange)، transcription وcaptions، motion graphics قابلة للتعديل، generate video/image/music/SFX، export 4K H.264/ProRes محلياً، XML export لـ Premiere/DaVinci/CapCut. Editing وmotion graphics مجاني مع CLI محلي؛ generation يتطلب subscription.</p>
+      <p>للمبدعين العرب: كل YouTuber وcourse creator وmarketing agency في MENA يُضيّع ساعات على editing — ChatCut Desktop setup وArabic caption templates وmanaged video production retainers فرصة creative premium. «Editing-first AI video» vertical ينمو مع agent-native workflows — ChatCut تُكافئ timeline control.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من ChatCut Desktop وثورة المونتاج بالوكلاء؟</h3>
+        <ul>
+          <li><strong>AI video editing packages:</strong> montage وcaptions وB-roll للعملاء — 500–8000 دولار/مشروع.</li>
+          <li><strong>Arabic caption &amp; subtitle templates:</strong> presets جاهزة للمحتوى العربي — 200–2000 دولار/حزمة.</li>
+          <li><strong>Managed video retainers:</strong> إنتاج فيديوهات شهرياً بـ ChatCut + agents — 2000–15000 دولار/شهر.</li>
+          <li><strong>دورات «Edit Video with Claude Code &amp; ChatCut»:</strong> bootcamp لصناع المحتوى — 59–399 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">ChatCut Desktop</span>
+        <span class="tag">Claude Code</span>
+        <span class="tag">Timeline Editing</span>
+        <span class="tag">4K Export</span>
+        <span class="tag">Editing-First</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Knack MCP Server: backend متوافق مع HIPAA لـ Lovable وClaude وReplit — قاعدة بيانات وworkflows و700+ integration بضغطة OAuth!</h2>
+      <p class="article-lead">«AI يبني frontend في دقائق — لكن أين backend المتوافق مع HIPAA؟». في 26 أغسطس 2026، أعلنت <strong>Knack</strong> عن <strong>MCP Server</strong> — backend compliance-ready يتصل مباشرة بـ Claude وLovable وChatGPT وBolt وBase44 وReplit عبر Model Context Protocol.</p>
+      <p>المشكلة: AI coding tools تُسرّع بناء apps لكن regulated industries تحتاج HIPAA وBAA وaudit trails قبل أي deployment. Knack MCP Server يُغلق الفجوة: أضف URL إلى MCP config، سجّل دخول OAuth 2.1، ووكيلك AI يبني على relational database مع role-based access وrecord change logs و700+ integrations.</p>
+      <p>القدرات الأساسية: scalable relational database عبر MCP، HIPAA-compliant hosting مع signed BAA عبر Knack Health، role-based access controls وaudit logs، built-in workflows وautomations، production-ready hosting بدون server config. Endpoint: mcp.knack.com/mcp — GovCloud/HIPAA: knack-mcp-server.us-gov-west-1.gprd.knack.com/mcp.</p>
+      <p>للمبدعين العرب: كل healthtech startup وclinic وinsurance company في MENA تريد AI-built apps compliant — Knack MCP setup وArabic healthcare app packages وmanaged compliance retainers فرصة enterprise premium. «HIPAA backend for AI builders» vertical ينمو مع Lovable/Bolt explosion — Knack تُكافئ compliance-from-day-one.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Knack MCP Server وثورة الـ backend المتوافق؟</h3>
+        <ul>
+          <li><strong>HIPAA app packages:</strong> patient intake وscheduling على Knack Health — 3000–30000 دولار/مشروع.</li>
+          <li><strong>Lovable + Knack integration setup:</strong> ربط AI frontend بbackend compliant — 1500–15000 دولار/عميل.</li>
+          <li><strong>Managed compliance retainers:</strong> صيانة BAA وaudit trails شهرياً — 2000–20000 دولار/شهر.</li>
+          <li><strong>دورات «Build HIPAA Apps with Lovable &amp; Knack MCP»:</strong> bootcamp للمطورين — 79–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Knack MCP</span>
+        <span class="tag">HIPAA</span>
+        <span class="tag">Lovable</span>
+        <span class="tag">Model Context Protocol</span>
+        <span class="tag">Compliance Backend</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 27-08-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
