@@ -1,0 +1,166 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 28-08-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+OUTPUT = Path(__file__).resolve().parent.parent / "news" / "28-08-2026 -- 04-PM.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Gemini Expert Intelligence، Unanimous AI (Co)agents، BLERBZ، SonarQube Hunter Agent، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 28 أغسطس 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من كتبك المشتراة إلى زميل AI يشارك الاجتماعات، ومن ترتيب الأخبار بالذكاء إلى وكيل أمن يكتشف ثغرات المنطق — أربع ثورات تُغيّر القراءة والتعاون والإعلام والأمن في 28 أغسطس 2026!</h1>
+      <p class="hero-sub">Google تُطلق Expert Intelligence في Gemini Notebook لتحليل أكثر من 100 ألف كتاب مشترى، Unanimous AI تُقدّم (Co)agents كزملاء يدخلون النقاشات حيّاً، BLERBZ تُطلق تطبيقاً جوّالاً يرتّب الأخبار بالذكاء الاصطناعي، وSonar تُطلق Hunter Agent لاكتشاف ثغرات المنطق في الكود. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 28 أغسطس 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Gemini Expert Intelligence: Google تُحوّل كتبك المشتراة إلى معلم AI شخصي — أكثر من 100 ألف عنوان مع ملخصات واختبارات وتحليلات عميقة!</h2>
+      <p class="article-lead">«الكتاب الذي اشتريته لا يجلس على الرف — بل يُصبح محادثاً». في 28 أغسطس 2026، أعلنت Google عن <strong>Expert Intelligence</strong> ضمن <strong>Gemini Notebook</strong> (المُعاد تسميته من NotebookLM) — ميزة تُتيح استيراد الكتب الإلكترونية المشتراة من Google Play Books والتحدّث معها وطرح الأسئلة والحصول على إجابات مبنية على محتوى الكتاب نفسه.</p>
+      <p>المشكلة التي حلّتها: القرّاء يُعيدون قراءة كتبهم المفضلة ويُطبّقون أفكار المؤلفين على حياتهم — لكن البحث في مئات الصفحات يستغرق وقتاً. Expert Intelligence يُضيف الكتب مباشرة إلى Gemini Notebook ويُولّد إنفوغرافيك وملخصات صوتية واختبارات تُعمّق الفهم. Google قضت شهوراً في نقاشات مع المؤلفين والناشرين لضمان احترام حقوق المحتوى وتعظيم تجربة القراءة.</p>
+      <p>القدرات الأساسية: دعم أكثر من 100 ألف عنوان من Google Play Books، تحليل متقدّم يشمل تنفيذ الكود (كان حصراً على Google AI Ultra وأُتاح لجميع مستخدمي Pro)، إعادة تسمية NotebookLM إلى Gemini Notebook مع تكامل أعمق مع خدمات Google، وإنشاء محتوى تعليمي تفاعلي من الكتب. Google تُؤكد: «Expert Intelligence يُحوّل القراءة من استهلاك إلى حوار مع المؤلف.»</p>
+      <p>للمبدعين العرب: كل مدرب وكاتب ومؤسسة تعليمية في MENA تملك محتوى أو تُوصي بكتب — Expert Intelligence Arabic book clubs وcurriculum packages وmanaged learning retainers فرصة edtech premium. «AI-powered reading companion» vertical ينمو مع demand على التعلم الذاتي — Expert Intelligence تُكافئ content creators الذين يُحوّلون الكتب إلى تجارب تفاعلية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Gemini Expert Intelligence وثورة القراءة الذكية؟</h3>
+        <ul>
+          <li><strong>Arabic book club packages:</strong> إعداد نوادٍ قرائية تفاعلية بالعربية عبر Expert Intelligence — 500–5000 دولار/نادي.</li>
+          <li><strong>Curriculum design from ebooks:</strong> تحويل كتب إلى مسارات تعليمية مع اختبارات — 1000–10000 دولار/مسار.</li>
+          <li><strong>Managed learning retainers:</strong> إدارة برامج قراءة ذكية للمؤسسات شهرياً — 1500–15000 دولار/شهر.</li>
+          <li><strong>دورات «Turn Books into AI Tutors with Expert Intelligence»:</strong> bootcamp للمدربين والمؤلفين — 49–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Gemini Expert Intelligence</span>
+        <span class="tag">Google Play Books</span>
+        <span class="tag">AI Reading</span>
+        <span class="tag">Gemini Notebook</span>
+        <span class="tag">EdTech</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Unanimous AI (Co)agents: زميل AI يدخل الاجتماع حيّاً — يتابع النقاش بالنص والصوت والفيديو ويُشارك المعلومات في اللحظة المناسبة!</h2>
+      <p class="article-lead">«المساعد ينتظر أمرك — (Co)agent يُتابع الاجتماع ويُشارك عندما يحتاج الفريق». في 27 أغسطس 2026، أعلنت Unanimous AI عن إطلاق <strong>(Co)agents</strong> — <strong>زملاء AI تعاونيين</strong> يشاركون في مناقشات جماعية حيّة كنظراء حقيقيين، يتابعون المحادثات بالنص والصوت والفيديو ويقفزون بالمعلومات المفيدة في اللحظة الدقيقة.</p>
+      <p>المشكلة التي حلّتها: فرق العمل تُجري brainstorming وforecasting وproblem-solving — لكن المعلومات تتأخر أو تُفوت. (Co)agents مُدمجة في منصة Thinkscape® وتدعم brainstorming وجدولة الأولويات والتنبؤ وحل المشكلات. متاحة في beta لـ Microsoft Teams وSlack، وقابلة للنشر عبر API في أدوات enterprise مخصصة.</p>
+      <p>القدرات الأساسية: مشاركة حية في المناقشات الجماعية، تكامل Thinkscape وTeams وSlack، نشر API للحلول المؤسسية، دعم النص والصوت والفيديو، وتركيز على تضخيم ذكاء الفريق (amplified group intelligence) — مجال Unanimous AI الرائد عالمياً في hyper-communication.</p>
+      <p>للمبدعين العرب: كل consultant وfacilitator وHR lead في MENA يُدير اجتماعات قرار — (Co)agents Arabic meeting facilitation وenterprise deployment packages وmanaged collaboration retainers فرصة B2B premium. «Proactive AI coworker» vertical ينمو مع hybrid work — (Co)agents تُكافئ teams-first approach.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Unanimous AI (Co)agents وثورة الزملاء الذكيين؟</h3>
+        <ul>
+          <li><strong>Meeting facilitation packages:</strong> إعداد (Co)agents لسيناريوهات اجتماعات بالعربية — 2000–20000 دولار/مؤسسة.</li>
+          <li><strong>Enterprise (Co)agent deployment:</strong> تكامل Teams/Slack/API للفرق العربية — 5000–50000 دولار/مشروع.</li>
+          <li><strong>Managed collaboration retainers:</strong> تشغيل وتحسين (Co)agents شهرياً — 2500–25000 دولار/شهر.</li>
+          <li><strong>دورات «Add AI Teammates to Your Meetings»:</strong> bootcamp لمديري الفرق — 79–449 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Unanimous AI</span>
+        <span class="tag">Coagents</span>
+        <span class="tag">Team Intelligence</span>
+        <span class="tag">Slack AI</span>
+        <span class="tag">Microsoft Teams</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>BLERBZ: تطبيق جوّال يرتّب الأخبار بالذكاء الاصطناعي — يُصفّي الضوضاء ويُبرز ما يهم مع ربط كل قصة بمصدرها الأصلي!</h2>
+      <p class="article-lead">«القرّاء لا يحتاجون المزيد من الأخبار — بل طريقة أسرع لفهم ما يحدث». في 28 أغسطس 2026، أطلقت BLERBZ <strong>تطبيقاً جوّالاً</strong> يُقدّم <strong>ذكاء أخبار AI</strong> — يرتّب ويُبرز ما يهم من تقارير مئات الناشرين، مع الحفاظ على ربط كل قصة بمصدرها الأصلي.</p>
+      <p>المشكلة التي حلّتها: الخلاصات الخوارزمية تُغرق القرّاء بالتكرار والضوضاء — والمسافة بين الخبر والتقرير الأصلي تتسع. BLERBZ يُرتّب حسب الحداثة والسرعة وجودة المصدر والتأثير المحتمل — لا engagement وحده. المنصة تعمل في أمريكا وبريطانيا وكندا والمكسيك والهند وألمانيا، وتُقدّم قائمة يومية مرتّبة وAPI للمطورين.</p>
+      <p>القدرات الأساسية: تطبيق جوّال للقرّاء، ترتيب AI يُحسب freshness وvelocity وsource quality وlikely impact، إصدارات محلية متعددة، News Data API للمطورين، تحليل AI للقصص، وطموح BLERBZ: «منصة أخبار تستخدم AI لتنظيم المعلومات لا لتصنيع الرأي».</p>
+      <p>للمبدعين العرب: كل media startup وdeveloper وcontent curator في MENA يُريد «أخبار مرتّبة لا مُغرقة» — BLERBZ Arabic edition setup وnews API integration packages وmanaged news intelligence retainers فرصة media tech premium. «AI news intelligence» vertical ينمو مع information overload — BLERBZ تُكافئ source-attribution approach.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من BLERBZ وثورة ذكاء الأخبار؟</h3>
+        <ul>
+          <li><strong>Arabic news edition setup:</strong> إعداد إصدار عربي أو MENA على منصة BLERBZ — 3000–30000 دولار/مشروع.</li>
+          <li><strong>News API integration packages:</strong> دمج feeds مرتّبة في تطبيقات ومواقع — 1500–15000 دولار/تكامل.</li>
+          <li><strong>Managed news intelligence retainers:</strong> curating وتحليل أخبار للعملاء شهرياً — 2000–20000 دولار/شهر.</li>
+          <li><strong>دورات «Build AI-Ranked News Products with BLERBZ»:</strong> bootcamp للمطورين والإعلاميين — 59–399 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">BLERBZ</span>
+        <span class="tag">AI News Intelligence</span>
+        <span class="tag">News Ranking</span>
+        <span class="tag">Mobile App</span>
+        <span class="tag">News API</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>SonarQube Hunter Agent: وكيل أمن AI يكتشف ثغرات المنطق — broken access control وbusiness logic وauthentication flaws التي لا تجدها الماسحات التقليدية!</h2>
+      <p class="article-lead">«الماسح يلتقط الأنماط — Hunter Agent يُفكّر كمهاجم». في 27 أغسطس 2026، أعلنت Sonar عن <strong>توفر SonarQube Hunter Agent</strong> — <strong>وكيل أمن AI</strong> يكتشف ثغرات عالية التأثير تتطلب استدلالاً لا مطابقة أنماط: broken access control وbusiness-logic vulnerabilities ومشكلات authentication وsession management.</p>
+      <p>المشكلة التي حلّتها: الماسحات التقليدية pattern-based تفوت ثغرات المنطق — مستخدم عادي يصل لبيانات admin، أو business rule يُستغل بطريقة غير متوقعة. Hunter Agent يُحلّل codebase كاملاً ويُطبّق reasoning لاكتشاف هذه الفئات الثلاث. متاح الآن لـ SonarQube Cloud مع دعم SonarQube Server قريباً.</p>
+      <p>القدرات الأساسية: تحليل codebase كامل، اكتشاف broken access control وbusiness-logic وauth/session flaws، reasoning-based detection لا pattern-matching، تكامل SonarQube Cloud (Server قريباً)، وإطلاق ضمن portfolio Sonar Vortex وRemediation Agent لتحسين agentic effectiveness.</p>
+      <p>للمبدعين العرب: كل DevSecOps lead وsecurity consultant وSaaS founder في MENA يُطلب منه «أمان logic-based» — Hunter Agent deployment وArabic security audit packages وmanaged code security retainers فرصة cybersecurity premium. «AI security agent» vertical ينمو مع agentic coding — Hunter Agent تُكافئ reasoning-first approach.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من SonarQube Hunter Agent وثورة أمن المنطق؟</h3>
+        <ul>
+          <li><strong>Security agent deployment:</strong> إعداد Hunter Agent للمؤسسات العربية — 4000–40000 دولار/مشروع.</li>
+          <li><strong>Arabic security audit packages:</strong> تقارير ثغرات منطقية بالعربية — 2500–25000 دولار/تدقيق.</li>
+          <li><strong>Managed code security retainers:</strong> مراقبة وremediation شهرياً — 3500–35000 دولار/شهر.</li>
+          <li><strong>دورات «Catch Logic Flaws with Hunter Agent»:</strong> bootcamp لفرق DevSecOps — 99–599 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">SonarQube Hunter Agent</span>
+        <span class="tag">AI Security</span>
+        <span class="tag">Logic Vulnerabilities</span>
+        <span class="tag">DevSecOps</span>
+        <span class="tag">Code Verification</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 28-08-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+
+
+if __name__ == "__main__":
+    main()
