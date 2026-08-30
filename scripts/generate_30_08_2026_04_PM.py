@@ -1,0 +1,190 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 30-08-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "30-08-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — seendiff، Caddi، WIT، oqoqo، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 30 أغسطس 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من مراجعة diffs عملاقة تُتتبّع تلقائياً وتُفسّرها الوكيل نفسه، إلى أتمتة back-office من screenshare واحد، ومن فحص رسائلك قبل الإرسال عبر لهجات إنجليزية عالمية إلى benchmarks خاصة تقيس قدرة الوكلاء على استخدام منتجك — أربع ثورات تُعيد تعريف المراجعة والأتمتة والتواصل والتقييم في 30 أغسطس 2026!</h1>
+      <p class="hero-sub">seendiff يُحلّ أزمة «YOLO commit» بمراجعة diffs ضخمة مع تتبّع ما رأيته وwalkthrough يُشرح فيه الوكيل كوده، Caddi يُحوّل screenshare مُروّى إلى وكلاء إنتاج يعملون عبر 100+ تطبيق بكود حتمي ومسارات تدقيق، WIT يُحلّل رسائل Slack والبريد قبل الإرسال لترى كيف تُفهم عبر American وIndian وSingapore English، وoqoqo يبني benchmarks خاصة في sandboxes معزولة ويقيس هل وكيلك يستطيع فعلاً استخدام MCP أو CLI منتجك. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 30 أغسطس 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>seendiff: مراجع diffs للعصر الوكيلي — تتبّع ما رأيته، راجع على دفعات، واجعل الوكيل يُفسّر كوده بنفسه!</h2>
+      <p class="article-lead">«الوكيل أنشأ 3000 سطر — لديك خياران: مراجعة مؤلمة أو YOLO commit». في 29 أغسطس 2026، احتل <strong>seendiff</strong> المركز الرابع Product of the Day على Product Hunt بـ 142 upvote — أداة diff محلية مفتوحة المصدر لـ <strong>التغييرات الضخمة التي يُنتجها coding agents</strong>، مع تتبّع تلقائي لما راجعته وwalkthrough يُشرح فيه الوكيل عمله.</p>
+      <p>المشكلة التي حلّتها: أدوات diff التقليدية بُنيت لعالم pre-AI — عندما يُنتج Claude Code أو Codex آلاف الأسطر دفعة واحدة، تضيع في «هل راجعت هذا الملف؟» و«أين توقفت؟». seendiff يُسجّل تلقائياً كل hunk رأيته، يُميّز الكتل التي راجعتها يدوياً، ويُدمج code walkthrough يستدعي فيه الوكيل ليشرح diffه — تحوّل المراجعة من عبء إلى جولة مُوجّهة.</p>
+      <p>القدرات الأساسية: تتبّع progress عبر diff ضخم، مراجعة على chunks، global search محلي، minimap، integration مع coding agent للشرح. مجاني ومفتوح المصدر على seendiff.com. Use cases: أي فريق يستخدم agentic coding ويريد maintain codebase دون التخلي عن code review — «المراجعة لم تعد مستحيلة، بل قابلة للإدارة».</p>
+      <p>للمبدعين العرب: كل AI dev shop وagency في MENA تُنتج diffs ضخمة يومياً — seendiff setup packages وArabic code-review workflows وmanaged agent-review retainers فرصة quality-as-a-service premium. «Agentic code review» vertical ينمو — seendiff تُكافئ teams التي تُريد velocity مع accountability.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من seendiff وثورة مراجعة كود الوكلاء؟</h3>
+        <ul>
+          <li><strong>seendiff team rollout packages:</strong> إعداد مراجعة diffs للفرق — 800–6000 دولار/فريق.</li>
+          <li><strong>Agent code-review SOP design:</strong> سياسات مراجعة مُخصّصة لـ AI coding — 1200–10000 دولار/SOP.</li>
+          <li><strong>Managed agent-review retainers:</strong> مراجعة diffs وتحسين workflows شهرياً — 2000–18000 دولار/شهر.</li>
+          <li><strong>دورات «Review AI Code Without YOLO»:</strong> bootcamp للمطورين — 39–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">seendiff</span>
+        <span class="tag">Code Review</span>
+        <span class="tag">Open Source</span>
+        <span class="tag">Coding Agents</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Caddi: وكيل يبني وكلاء من screenshare واحد — أظهر المهمة مرة، واحصل على أتمتة back-office عبر 100+ تطبيق!</h2>
+      <p class="article-lead">«RPA يتكسّر عند أول edge case — Caddi يُسجّل عملك ويُحوّله إلى كود حتمي». في 28 أغسطس 2026، احتل <strong>Caddi</strong> المركز الثاني Product of the Day على Product Hunt بـ 305 upvote — <strong>وكيل AI يبني ويحكم وكلاء back-office</strong> للقطاعات ذات المكاتب الخلفية الضخمة: wealth management وlaw firms وinsurance.</p>
+      <p>المشكلة التي حلّتها: workflow builders تتطلب scoping ومطورين وخطوات if/then — وRPA هشّ عند PDFs وemails غير مهيكلة. في Loop Studio، الشخص الذي ينفّذ المهمة يُشارك شاشته ويُروي العمل — Caddi لا يُسجّل فقط: يُقترح تحسينات، يتوقف عند الغموض ويسأل، وكل إجابة تصبح rule داخل الوكيل. النتيجة: أتمتة production بـ AI reasoning حيث يلزم judgment وكود حتمي في الباقي — كل run مسجّل وreplayable.</p>
+      <p>القدرات الأساسية: Loop Studio لتصميم الوكلاء، اتصال بـ 100+ business app، SOC 2 Type II، governance dashboard لكل الوكلاء، تحديث المنطق بلغة إنجليزية بسيطة. Use cases: onboarding clients، processing claims، document workflows — «استخرج في 20 دقيقة ما يكتشفه مشروع RPA تقليدي خلال 6 أشهر من incidents».</p>
+      <p>للمبدعين العرب: كل law firm وfinancial services وinsurance broker في MENA يعاني back-office — Caddi implementation packages وArabic workflow capture sessions وmanaged automation retainers فرصة enterprise premium. «Show once, automate forever» vertical ينمو — Caddi تُكافئ firms التي تُريد velocity دون فقدان audit trail.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Caddi وثورة أتمتة back-office بالعرض لا بالبناء؟</h3>
+        <ul>
+          <li><strong>Caddi workflow capture packages:</strong> تسجيل وتحويل workflows للعملاء — 5000–45000 دولار/مشروع.</li>
+          <li><strong>Regulated industry automation:</strong> أتمتة للقطاعات المنظّمة (قانون، تأمين، wealth) — 8000–60000 دولار/vertical.</li>
+          <li><strong>Managed back-office retainers:</strong> تشغيل وصيانة وكلاء Caddi شهرياً — 4000–35000 دولار/شهر.</li>
+          <li><strong>دورات «Automate Back-Office with Screen Recording»:</strong> bootcamp للعمليات — 79–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Caddi</span>
+        <span class="tag">Back-Office Automation</span>
+        <span class="tag">RPA Alternative</span>
+        <span class="tag">Legal Tech</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>WIT (Will It Travel): فحص AI لرسائلك قبل الإرسال — كيف تُفهم عبر American وIndian وSingapore English؟</h2>
+      <p class="article-lead">«رسالتك واضحة لك — لكنها قد تُفهم خطأ في سنغافورة أو الهند». في 29 أغسطس 2026، أطلق <strong>WIT (Will It Travel)</strong> على Product Hunt بـ 91 upvote — <strong>فحص تواصل AI للمؤسسين والفرق العالمية</strong>: الصق email أو Slack message أو product copy وشاهد كيف قد تُفهم عبر لهجات إنجليزية مختلفة، مع بديل أوضح دون فقدان صوتك.</p>
+      <p>المشكلة التي حلّتها: الفرق الموزّعة عبر MENA وIndia وSingapore وUS تُرسل رسائل «واضحة» محلياً — لكن «I'll revert back» أو «do the needful» أو tone مُباشر قد يُفسّر كـ rude أو confusing أو ambiguous. WIT يُحلّل النص عبر dialects متعددة، يُظهر لماذا قد يُفهم خطأ، ويقترح صياغة أوضح — قبل أن تضغط Send.</p>
+      <p>القدرات الأساسية: تحليل email وSlack وproduct copy، مقارنة عبر American وIndian وSingapore English، explanations لـ potential misunderstandings، alternatives تحافظ على voice الأصلي. Use cases: founders تتواصل مع investors عالميين، support teams تكتب للعملاء الدوليين، product copy للأسواق متعددة — «Before you hit send, see if your message travels».</p>
+      <p>للمبدعين العرب: كل startup MENA تبيع globally أو تتوظّف remotely — WIT integration packages وArabic-to-global-English workflows وmanaged communication QA retainers فرصة cross-cultural premium. «Global English communication check» vertical ينمو — WIT تُكافئ teams التي تُريد clarity دون bland corporate tone.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من WIT وثورة التواصل العالمي بالذكاء الاصطناعي؟</h3>
+        <ul>
+          <li><strong>Global communication audit packages:</strong> مراجعة copy وemails للفرق — 1500–12000 دولار/audit.</li>
+          <li><strong>Arabic-to-global-English workflows:</strong> pipelines ترجمة وتواصل مُخصّصة — 2000–15000 دولار/workflow.</li>
+          <li><strong>Managed cross-cultural QA retainers:</strong> فحص رسائل قبل الإرسال شهرياً — 1800–14000 دولار/شهر.</li>
+          <li><strong>دورات «Write Messages That Travel Globally»:</strong> bootcamp للفرق الدولية — 49–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">WIT</span>
+        <span class="tag">Global Communication</span>
+        <span class="tag">Cross-Cultural</span>
+        <span class="tag">Writing Assistant</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>oqoqo: benchmarks خاصة للوكلاء — قِس هل Codex أو Claude Code يستطيع فعلاً استخدام MCP أو CLI منتجك!</h2>
+      <p class="article-lead">«الوكيل يمرّ في demo — لكنه يفشل 67% من مهام الإنتاج الحقيقية». في 10 أغسطس 2026، احتل <strong>oqoqo</strong> المركز الأول Product of the Day على Product Hunt بـ 364 upvote — منصة تبني <strong>evals وbenchmarks مُخصّصة للمهام الواقعية</strong> في sandboxes معزولة، وتقيس قدرة agents على استخدام أي product عبر SDK أو CLI أو MCP.</p>
+      <p>المشكلة التي حلّتها: الجميع يبني evals لـ prompts — تقريباً لا أحد يقيس هل agent يستطيع integrate Supabase أو use Stripe MCP في مهمة حقيقية. oqoqo يُعرّف tasks بسيطة كـ prompt المستخدم («integrate supabase to store user sign ups»)، يُشغّل infrastructure تُنشئ sandboxes معزولة، تُنفّذ tasks ضد agents من اختيارك، وتُسجّل كل step وtool call وretry وtoken consumption — ثم تقارن pass rates عبر models وtreatments.</p>
+      <p>القدرات الأساسية: private benchmarks مُخصّصة، مقارنة agents وmodels، insights على interface friction وtoken waste، web app وCLI وMCP، 100 runs/month مجاناً ثم 20 دولار/شهر Pro. مثال Stripe: agent خام 33% pass rate مقابل 58% مع MCP server — فرق 25 نقطة مع trajectory كامل للفشل.</p>
+      <p>للمبدعين العرب: كل builder يُطلق MCP server أو CLI أو SDK للوكلاء — oqoqo benchmark packages وArabic agent-testing reports وmanaged eval retainers فرصة developer-tools premium. «Can agents use your product?» سؤال commercial ينمو — oqoqo تُكافئ teams التي تُريد evidence لا hype.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من oqoqo وثورة تقييم قابلية استخدام المنتج للوكلاء؟</h3>
+        <ul>
+          <li><strong>oqoqo benchmark design packages:</strong> بناء task sets وrubrics للمنتج — 2500–20000 دولار/مشروع.</li>
+          <li><strong>Agent usability reports:</strong> تقارير friction وtoken waste للفرق — 1800–15000 دولار/تقرير.</li>
+          <li><strong>Managed agent eval retainers:</strong> experiments مستمرة وتحسين شهرياً — 3000–25000 دولار/شهر.</li>
+          <li><strong>دورات «Benchmark Your Product for Agents»:</strong> bootcamp للمطورين — 59–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">oqoqo</span>
+        <span class="tag">Agent Evals</span>
+        <span class="tag">Benchmarks</span>
+        <span class="tag">MCP Testing</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 30-08-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="30-08-2026 -- 04-PM.html">
+          📰 30 أغسطس 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">seendiff · Caddi · WIT · oqoqo</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "30-08-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
