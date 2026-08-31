@@ -1,0 +1,190 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 31-08-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "31-08-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Offloop، x1، Cursor 2.0، Kilo Code، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 31 أغسطس 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من workspace يُحوّل نتائج AI الفردية إلى تقدّم جماعي مع وكلاء وموظفين في قنوات واحدة، إلى بناء تطبيق iPhone خطوة بخطوة حتى App Store، ومن agentic flows تُنجز features كاملة في Cursor 2.0 إلى مطوّر AI مفتوح المصدر يعمل محلياً — أربع ثورات تُعيد تعريف العمل الجماعي والبناء والبرمجة في 31 أغسطس 2026!</h1>
+      <p class="hero-sub">Offloop يجعل الوكلاء والبشر مشاركين من الدرجة الأولى في workspace واحد مع Flows قابلة للتكرار وBYOP بدون markup، x1 يُرشدك سؤالاً بسؤال من الفكرة إلى App Store مع ذاكرة للقرارات التصميمية، Cursor 2.0 يُكامل Claude Opus 5 ويُبني features كاملة لا أسطراً منفردة، وKilo Code يُقدّم AI developer مفتوح المصدر يكتب ويراجع ويُصلح محلياً. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 31 أغسطس 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Offloop: workspace مشترك للبشر والوكلاء — حوّل نتائج AI الفردية إلى تقدّم جماعي دون إعادة البدء في chat جديد!</h2>
+      <p class="article-lead">«AI جعل الأفراد أسرع — لكن التقدّم الجماعي ما زال يتعطّل عند طبقة المؤسسة». في 24 أغسطس 2026، احتل <strong>Offloop</strong> المركز الثالث Product of the Day على Product Hunt بـ 308 upvote — <strong>workspace مشترك</strong> حيث الزملاء والوكلاء يخطّطون وينفّذون ويتتبّعون عملاً متعدد الخطوات معاً.</p>
+      <p>المشكلة التي حلّتها: كل شخص يستخدم ChatGPT أو Claude في chat منفصل — النتائج مفيدة لكنها لا تتحوّل إلى تقدّم فريق. Offloop يُعامل الوكلاء والبشر كمشاركين من الدرجة الأولى: يشاركون Channels، يُذكرون بـ @، يملكون مهاماً، يراجعون نتائج، ويُسلّمون للمالك التالي. Flow يُعطي كل مرحلة owner واضح ويُدخل البشر في القرارات الحاسمة — العمل يستمر عبر handoffs بدلاً من إعادة البدء.</p>
+      <p>القدرات الأساسية: org-level harness يُبقي context وfiles وdecisions وtool activity وartifacts مرتبطة بالعمل، privacy وhuman control عبر workspace-scoped identity وapproval gates، BYOP بدون markup على model usage، وreusable execution يُحوّل Agents وFlows ناجحة إلى قدرة تشغيلية قابلة للتكرار. Offloop live على الويب مع 30 يوم credits مجانية للفريق.</p>
+      <p>للمبدعين العرب: كل AI-native startup وagency في MENA يُعاني siloed AI chats — Offloop workspace setup packages وArabic agent workflow design وmanaged team-AI retainers فرصة collaboration-as-a-service premium. «Human + agent team workspace» vertical ينمو — Offloop تُكافئ teams التي تُريد velocity جماعية لا فردية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Offloop وثورة workspace البشر والوكلاء؟</h3>
+        <ul>
+          <li><strong>Offloop team rollout packages:</strong> إعداد workspace وFlows للفرق — 2000–18000 دولار/فريق.</li>
+          <li><strong>Agent workflow design:</strong> تصميم Flows قابلة للتكرار للعمليات — 1500–12000 دولار/workflow.</li>
+          <li><strong>Managed team-AI retainers:</strong> تشغيل وتحسين workspace شهرياً — 2500–22000 دولار/شهر.</li>
+          <li><strong>دورات «Build Team Progress with AI Agents»:</strong> bootcamp للفرق — 49–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Offloop</span>
+        <span class="tag">Team Workspace</span>
+        <span class="tag">AI Agents</span>
+        <span class="tag">Collaboration</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>x1: من فكرة إلى App Store — بناء تطبيق iPhone خطوة بخطوة مع ذاكرة للقرارات لا prompt واحد ضخم!</h2>
+      <p class="article-lead">«AI يُنتج demo رائعاً — لكن لا مسار واضح لشيء تثق به للإطلاق». في 26 أغسطس 2026، احتل <strong>x1</strong> المركز الأول Product of the Day على Product Hunt بـ 495 upvote — <strong>AI app builder</strong> يأخذك من فكرة إلى تطبيق iPhone جاهز للنشر على App Store، خطوة بخطوة.</p>
+      <p>المشكلة التي حلّتها: معظم AI app builders يحاولون توليد التطبيق كاملاً من prompt واحد — النتيجة demo مبهرة لكن incoherent عند التعديل. x1 يُرشدك: أسئلة مركّزة، خطة للتطبيق كاملاً، تصميم كل شاشة للمراجعة والتعديل، بناء على مراحل مع preview على iPhone أثناء العمل. x1 يتذكّر قرارات التصميم — إذا غيّرت شيئاً لاحقاً، يُحدّث الشاشات والflows والfeatures المرتبطة بدلاً من معاملة كل طلب كـ prompt جديد.</p>
+      <p>القدرات الأساسية: guided step-by-step building، screen-by-screen design review، iPhone preview أثناء البناء، App Store listing وscreenshots وsubmission عبر Apple Developer account، prototype مجاني على x1.new بدون بطاقة ائتمان. Use cases: مؤسسون غير تقنيين، creators يريدون app خاص، agencies تُسرّع delivery — «من 6 أسابيع إلى ساعات».</p>
+      <p>للمبدعين العرب: كل founder وcreator في MENA يحلم بتطبيق iPhone — x1 white-label packages وArabic app design workflows وmanaged app-building retainers فرصة no-code premium. «Guided iPhone app builder» vertical ينمو — x1 تُكافئ patience على one-shot magic.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من x1 وثورة بناء تطبيقات iPhone بالوصف؟</h3>
+        <ul>
+          <li><strong>x1 app building packages:</strong> بناء تطبيقات iPhone للعملاء — 1500–15000 دولار/تطبيق.</li>
+          <li><strong>App Store launch consulting:</strong> إعداد listing وscreenshots وcompliance — 800–6000 دولار/تطبيق.</li>
+          <li><strong>Managed app development retainers:</strong> صيانة وتطوير تطبيقات x1 شهرياً — 1200–10000 دولار/شهر.</li>
+          <li><strong>دورات «Ship iPhone Apps with x1»:</strong> bootcamp للمؤسسين غير التقنيين — 39–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">x1</span>
+        <span class="tag">iPhone Apps</span>
+        <span class="tag">No-Code</span>
+        <span class="tag">Vibe Coding</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Cursor 2.0: agentic flows تُنجز features كاملة — تكامل Claude Opus 5 وreasoning يتكيّف مع تعقيد المهمة!</h2>
+      <p class="article-lead">«أغسطس 2026: الأدوات لم تعد تُكمّل أسطراً — بل تُكمّل features». في أغسطس 2026، أطلقت <strong>Cursor</strong> <strong>Cursor 2.0</strong> — <strong>agentic flows</strong> native تسمح للمطورين ببناء تطبيقات full-stack بوصف ما يريدون بلغة طبيعية، مع تكامل <strong>Claude Opus 5</strong> حيث reasoning depth يتكيّف تلقائياً مع تعقيد المهمة.</p>
+      <p>المشكلة التي حلّتها: autocomplete وchat suggestions ماتت — teams تتوقع AI يكتب features كاملة وdebug services ويدفع كوداً يعمل للإنتاج. Cursor 2.0 يُعيد بناء تجربة المطور حول agents: تصف feature، الوكيل يُنسّق reasoning وcode writing وtesting وpush — الفرق بين أغسطس 2025 وأغسطس 2026: من «اقترح سطراً» إلى «أنجز feature».</p>
+      <p>القدرات الأساسية: native agentic flows، تكامل Claude Opus 5 مع auto-adjusting reasoning depth، full-stack app building من description، orchestration للtesting وdeployment. Benchmarks داخلية: أكثر من 50% من المطورين يستخدمون agentic workflows بدلاً من chat interfaces — قفزة من 15% في أغسطس 2025. Use cases: startups تُسرّع shipping، enterprises تُقلّل time-to-feature، solo devs تُنافس teams.</p>
+      <p>للمبدعين العرب: كل dev shop وagency في MENA يُنافس على velocity — Cursor 2.0 training packages وArabic agentic coding SOPs وmanaged development retainers فرصة engineering premium. «Agentic IDE» vertical ينمو — Cursor 2.0 تُكافئ teams التي تُريد autonomy لا assistance.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Cursor 2.0 وثورة البرمجة الوكيلية؟</h3>
+        <ul>
+          <li><strong>Cursor 2.0 team training:</strong> bootcamp agentic coding للفرق — 2000–15000 دولار/فريق.</li>
+          <li><strong>Agentic development consulting:</strong> SOPs وworkflows مُخصّصة — 3000–25000 دولار/مشروع.</li>
+          <li><strong>Managed feature development retainers:</strong> بناء features بـ Cursor agents — 4000–35000 دولار/شهر.</li>
+          <li><strong>دورات «Build Features with Cursor Agents»:</strong> bootcamp للمطورين — 59–449 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Cursor 2.0</span>
+        <span class="tag">Agentic Coding</span>
+        <span class="tag">Claude Opus 5</span>
+        <span class="tag">Full-Stack</span>
+        <span class="tag">Developer Tools</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Kilo Code: مطوّر AI مفتوح المصدر — يكتب ويراجع ويُصلّح ويشرح محلياً دون vendor lock-in!</h2>
+      <p class="article-lead">«الفرق تريد AI coding layer تتحكم بها — Kilo Code يُقدّم AI developer لا suggestion engine». في أغسطس 2026، شهد <strong>Kilo Code</strong> — <strong>open-source AI coding assistant</strong> — ارتفاعاً حاداً في التبنّي بين teams التي تُريد تشغيل AI coding layer محلياً.</p>
+      <p>المشكلة التي حلّتها: Copilot وCursor cloud ممتازان — لكن enterprises وprivacy-conscious teams تريد control كامل على code وmodels. Kilo Code يعمل كـ AI developer: يكتب ويراجع ويُصلّح ويشرح code — ليس autocomplete بل reasoning عن systems كاملة. مفتوح المصدر، self-hostable، بدون vendor lock-in.</p>
+      <p>القدرات الأساسية: write/review/fix/explain code، local deployment للـ privacy، open-source community، integration مع workflows موجودة. Use cases: enterprises مع data sovereignty requirements، teams تريد customize AI coding layer، developers يُفضّلون local-first approach — «AI developer you control».</p>
+      <p>للمبدعين العرب: كل enterprise وgovernment project في MENA يحتاج on-premise AI — Kilo Code deployment packages وArabic documentation وmanaged local-AI retainers فرصة sovereignty premium. «Open-source AI developer» vertical ينمو مع privacy concerns — Kilo Code تُكافئ teams التي تُريد freedom من cloud lock-in.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Kilo Code وثورة AI coding مفتوح المصدر؟</h3>
+        <ul>
+          <li><strong>Kilo Code deployment packages:</strong> إعداد local AI coding للمؤسسات — 5000–40000 دولار/مشروع.</li>
+          <li><strong>On-premise AI consulting:</strong> architecture وsecurity للـ local deployment — 3000–25000 دولار/audit.</li>
+          <li><strong>Managed local-AI retainers:</strong> صيانة وتحديث Kilo Code شهرياً — 2500–20000 دولار/شهر.</li>
+          <li><strong>دورات «Self-Hosted AI Coding with Kilo Code»:</strong> bootcamp للفرق — 69–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Kilo Code</span>
+        <span class="tag">Open Source</span>
+        <span class="tag">Local AI</span>
+        <span class="tag">AI Developer</span>
+        <span class="tag">Privacy</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 31-08-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="31-08-2026 -- 04-PM.html">
+          📰 31 أغسطس 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Offloop · x1 · Cursor 2.0 · Kilo Code</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "31-08-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
