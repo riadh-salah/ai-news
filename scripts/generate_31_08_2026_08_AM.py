@@ -1,0 +1,203 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 31-08-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "31-08-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — oMLX، Superagent، Olostep، Murfy AI، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 31 أغسطس 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من خادم Mac يُقطع زمن انتظار الوكلاء من 90 ثانية إلى 5، إلى تطبيق macOS يُعطي Claude Code متصفحاً حقيقياً ومحاكي iOS، ومن بنية تحتية تُحوّل الويب إلى بيانات نظيفة للوكلاء إلى فريق AI agents يكتب ويراجع وينشر على arXiv — أربع ثورات تُعيد تعريف السرعة المحلية والتطوير والبيانات والبحث العلمي في 31 أغسطس 2026!</h1>
+      <p class="hero-sub">oMLX يُخزّن KV cache على SSD فيُعيد Claude Code وCursor من 90 ثانية إلى 5، Superagent يُحوّل وكيل الترميز إلى تطبيق Mac كامل بمتصفح ومحاكي iOS وworktrees منفصلة، Olostep يُفتّش ويُزحلق ويُراقب الويب عبر API وMCP وCLI واحد، وMurfy AI يكتب ويراجع ويُصلح LaTeX ويُولّد Beamer slides وينشر على arXiv بسرعة 10×. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 31 أغسطس 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>oMLX: خادم LLM أصلي لـ Mac يُقطع زمن انتظار الوكلاء من 90 ثانية إلى 5 — KV cache على SSD وOpenAI وAnthropic APIs جاهزة!</h2>
+      <p class="article-lead">«Claude Code على نموذج محلي يُجمّد 90 ثانية كلما تغيّر السياق — oMLX يُنهي هذه الكابوس». في 31 أغسطس 2026، احتل <strong>oMLX</strong> المركز الثاني Product of the Day على Product Hunt — <strong>خادم استدلال LLM أصلي لـ macOS</strong> مبني على MLX، يُحوّل Mac بـ Apple Silicon إلى endpoint محلي سريع لوكلاء الترميز.</p>
+      <p>المشكلة التي حلّتها: Ollama وLM Studio يُخزّنان KV cache في RAM — عندما يُغيّر coding agent السياق (وهذا يحدث عشرات المرات في الجلسة)، يُعاد حساب كل شيء من الصفر. Time-To-First-Token يصل 30–90 ثانية — workflow مُكسّر. oMLX يُخزّن كل cache block على SSD بصيغة safetensors: بنية ثنائية الطبقات — hot blocks في RAM، cold blocks على SSD مع LRU — عندما يعود الوكيل لسياق سابق، يُستعاد من القرص في milliseconds لا recompute.</p>
+      <p>القدرات الأساسية: continuous batching حتى 4.14× سرعة عند 8 طلبات متزامنة، OpenAI-compatible وAnthropic-compatible APIs تُسقط مباشرة في Claude Code وCursor وOpenClaw، دعم text وvision وOCR وembedding وreranker models، تطبيق menu bar أصلي Swift (لا Electron)، Apache 2.0 مفتوح المصدر. M3 Ultra 512GB: TTFT أقل من 5 ثوانٍ على contexts طويلة.</p>
+      <p>للمبدعين العرب: كل AI dev وagency في MENA يُريد privacy وسرعة على Mac — oMLX setup packages وArabic local-AI consulting وmanaged inference retainers فرصة developer-tools premium. «Local-first agent speed on Apple Silicon» vertical ينمو — oMLX تُكافئ teams التي تُريد sovereignty دون انتظار 90 ثانية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من oMLX وثورة الاستدلال المحلي السريع؟</h3>
+        <ul>
+          <li><strong>oMLX Mac inference packages:</strong> إعداد خادم محلي للفرق — 1200–10000 دولار/فريق.</li>
+          <li><strong>Local AI privacy consulting:</strong> استشارات نماذج محلية للشركات — 2000–18000 دولار/مشروع.</li>
+          <li><strong>Managed on-premise AI retainers:</strong> صيانة inference stacks شهرياً — 1500–12000 دولار/شهر.</li>
+          <li><strong>دورات «Run Coding Agents Locally with oMLX»:</strong> bootcamp للمطورين — 49–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">oMLX</span>
+        <span class="tag">Local LLM</span>
+        <span class="tag">Apple Silicon</span>
+        <span class="tag">KV Cache</span>
+        <span class="tag">Open Source</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Superagent: Claude Code للجميع — تطبيق Mac يُعطي وكيلك متصفحاً حقيقياً ومحاكي iOS وworktrees وiPhone pairing!</h2>
+      <p class="article-lead">«العمل مع coding agent يجب أن يشبه تطبيق Mac جيداً — لا terminal». في 30 أغسطس 2026، احتل <strong>Superagent</strong> مكاناً بارزاً على Product Hunt بـ 106 upvote — <strong>بيئة macOS مفتوحة المصدر</strong> تُعطي وكيل AI مثل Claude Code «حاسوباً» كاملاً: متصفح حقيقي، iOS Simulator، ملفات، board، وroutines على timer.</p>
+      <p>المشكلة التي حلّتها: Claude Code في terminal قوي — لكن بلا واجهة بصرية دائمة، بلا متصفح يُسجّل دخولك، بلا محاكي iOS للاختبار، وبلا persistence عبر restarts. Superagent يُشغّل كل شيء محلياً 100%: chats في sidebar قابلة للتجميع، تبقى بعد إعادة التشغيل، كل chat على git worktree منفصل، pair iPhone والعمل يتبعك encrypted end-to-end. لا حساب، لا server، لا فاتورة ثانية.</p>
+      <p>القدرات الأساسية: browser يقوده الوكيل على sessions مسجّلة دخولك، iOS Simulator يُنقر ويُمرّر، filesystem access، board للمهام، routines مجدولة، model-agnostic (Claude Code الآن، Codex وAntigravity على roadmap). مفتوح المصدر على superagent.computer — binaries مجانية.</p>
+      <p>للمبدعين العرب: كل iOS/macOS dev shop وAI agency في MENA يُريد agent experience أفضل — Superagent setup packages وArabic mobile-agent workflows وmanaged dev-environment retainers فرصة premium. «Visual agent IDE for Mac» vertical ينمو — Superagent تُكافئ builders التي تُريد local-first power.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Superagent وثورة واجهة الوكلاء البصرية؟</h3>
+        <ul>
+          <li><strong>Superagent team setup packages:</strong> إعداد workspaces وagents للفرق — 1000–9000 دولار/فريق.</li>
+          <li><strong>Mobile-agent workflow design:</strong> تصميم workflows iOS/macOS — 1800–15000 دولار/workflow.</li>
+          <li><strong>Managed agent IDE retainers:</strong> إدارة بيئات agents شهرياً — 2000–18000 دولار/شهر.</li>
+          <li><strong>دورات «Build with Superagent on Mac»:</strong> bootcamp للمطورين — 39–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Superagent</span>
+        <span class="tag">Claude Code</span>
+        <span class="tag">macOS</span>
+        <span class="tag">iOS Simulator</span>
+        <span class="tag">Open Source</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Olostep: حوّل الويب إلى بيانات نظيفة للـ AI — scrape وcrawl وmonitor وanswers عبر API وMCP وCLI واحد!</h2>
+      <p class="article-lead">«الوكيل يحتاج الويب — لا HTML فوضوي». في 30 أغسطس 2026، احتل <strong>Olostep</strong> المركز الثالث Product of the Day على Product Hunt بـ 219 upvote — <strong>بنية تحتية بيانات الويب للمستخدم الثاني: AI agents</strong> — API واحد للبحث والزحف والاستخراج والمراقبة والتنظيم.</p>
+      <p>المشكلة التي حلّتها: AI teams تبني scraping infrastructure من الصفر — proxies وJavaScript rendering وanti-bot وbatch processing — أو تدفع لخدمات باهظة بـ retrieval rate منخفض. Olostep يُحوّل أي URL إلى Markdown أو JSON أو HTML نظيف جاهز للـ LLM: /scrapes لصفحة واحدة، /crawls لموقع كامل، /answers لإجابات مُستندة للمصادر، /agents لworkflows بلغة طبيعية، /monitors لتتبّع أسعار ووظائف وتغييرات DOM.</p>
+      <p>القدرات الأساسية: batch حتى 10000 URL في 5–7 دقائق، full JS rendering وresidential proxies، MCP server لـ Cursor وClaude Code وWindsurf، CLI وSDKs وintegrations مع LangChain وn8n وZapier، self-healing extractors لـ JSON مُtyped. Use cases: market research وlead gen وcompetitive intelligence وRAG grounding — «Infrastructure for the Web's second user».</p>
+      <p>للمبدعين العرب: كل AI startup وconsulting firm في MENA يحتاج web data — Olostep integration packages وArabic research pipelines وmanaged data-enrichment retainers فرصة infrastructure premium. «Web data API for agents» vertical ينمو — Olostep تُكافئ teams التي تُريد scale دون DevOps scraping.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Olostep وثورة بيانات الويب للوكلاء؟</h3>
+        <ul>
+          <li><strong>Olostep MCP integration packages:</strong> ربط Olostep بـ agents وworkflows — 1500–14000 دولار/مشروع.</li>
+          <li><strong>Custom web-data pipelines:</strong> pipelines بحث ومراقبة مُخصّصة — 2000–18000 دولار/pipeline.</li>
+          <li><strong>Managed research automation retainers:</strong> أتمتة research شهرياً — 2500–22000 دولار/شهر.</li>
+          <li><strong>دورات «Ground AI Agents with Olostep»:</strong> bootcamp لفرق البيانات — 49–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Olostep</span>
+        <span class="tag">Web Scraping</span>
+        <span class="tag">MCP</span>
+        <span class="tag">Agent Infrastructure</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Murfy AI: اكتب وراجع وانشر على arXiv 10× أسرع — فريق AI agents لـ LaTeX وpeer review وBeamer slides!</h2>
+      <p class="article-lead">«الباحثون يستخدمون AI لكل شيء — إلا كتابة الورقة نفسها». في 30 أغسطس 2026، احتل <strong>Murfy AI</strong> المركز الخامس Product of the Day على Product Hunt بـ 181 upvote و5.0 rating — <strong>محرر LaTeX AI-native</strong> يُجمّع فريق agents للـ workflow البحثي كاملاً: كتابة، مراجعة، إصلاح compile errors، والنشر.</p>
+      <p>المشكلة التي حلّتها: Copilot للكود، Elicit للمراجعات، ChatGPT للأفكار — لكن كتابة الورقة في Overleaf بلا AI حقيقي مُدمج. Murfy ليس chatbot مُلحقاً — agents تعمل معك في السياق: تُ drafts معك، تُراجع الورقة بـ multi-agent peer review (readers متعددون + cross-check)، تُصلح LaTeX compile errors فوراً، تُتحقق من المراجع، وتُولّد Beamer slides في دقائق.</p>
+      <p>القدرات الأساسية: تعاون real-time بcollaborators غير محدودين (مجاناً)، compilation engine سريع، version history كامل على free tier، AI credits للمراجعة والترجمة (Korean→English)، smart code completion. بديل Overleaf مع AI review وerror fixing مُدمج — «Write, review, and publish to arXiv 10x faster».</p>
+      <p>للمبدعين العرب: كل university وresearch lab وEdTech في MENA يُريد accelerate publishing — Murfy setup packages وArabic academic writing workflows وmanaged research retainers فرصة EdTech premium. «AI-native academic publishing» vertical ينمو — Murfy تُكافئ teams التي تُريد publish لا procrastinate.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Murfy AI وثورة النشر الأكاديمي بالوكلاء؟</h3>
+        <ul>
+          <li><strong>Murfy lab setup packages:</strong> إعداد workspaces للفرق البحثية — 800–8000 دولار/lab.</li>
+          <li><strong>Arabic academic writing workflows:</strong> pipelines كتابة ومراجعة بالعربية — 1200–10000 دولار/workflow.</li>
+          <li><strong>Managed research writing retainers:</strong> دعم نشر شهري للباحثين — 1500–12000 دولار/شهر.</li>
+          <li><strong>دورات «Publish Faster with Murfy AI»:</strong> bootcamp للباحثين — 39–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Murfy AI</span>
+        <span class="tag">LaTeX</span>
+        <span class="tag">arXiv</span>
+        <span class="tag">Academic AI</span>
+        <span class="tag">Peer Review</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 31-08-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="31-08-2026 -- 08-AM.html">
+          📰 31 أغسطس 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">oMLX · Superagent · Olostep · Murfy AI</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "31-08-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise ValueError("File contains null bytes — possible corruption")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if text.count("<article") != 4:
+        raise ValueError(f"Expected 4 articles, found {text.count('<article')}")
+    if not text.strip().endswith("</html>"):
+        raise ValueError("File does not end with </html>")
+    print(f"Validation passed: UTF-8, {len(data)} bytes, 4 articles")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
