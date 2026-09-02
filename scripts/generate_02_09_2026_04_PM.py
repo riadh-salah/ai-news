@@ -1,0 +1,190 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 02-09-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "02-09-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Browzer، Monid، Google Pics، Dial، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 2 سبتمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من استوديو DevRel يُحوّل كل merge إلى docs ومدونات وفيديوهات تُصلّح نفسها، إلى سوق OpenRouter لوكلاء AI يشتري 1800+ API وقت التشغيل، ومن Google Pics الذي يُحرّر الصور داخل Docs وSlides بـ Nano Banana، إلى Dial الذي يُعطي وكيلك رقماً حقيقياً في 10 ثوانٍ — أربع ثورات تُعيد تعريف المحتوى التقني والأدوات والتصميم والاتصال في 2 سبتمبر 2026!</h1>
+      <p class="hero-sub">Browzer يقرأ GitHub ويُنتج changelogs وcookbooks وdocs تُشفى ذاتياً مع كل merge، Monid يُمكّن الوكلاء من اكتشاف وشراء APIs ديناميكياً بلا مفاتيح منفصلة، Google Pics يُدمج توليد وتحرير الصور في Workspace عبر pics.new، وDial يُزوّد الوكلاء بصوت وSMS وWhatsApp وiMessage من API واحد أو MCP. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 2 سبتمبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Browzer: استوديو DevRel بالذكاء الاصطناعي — اربط GitHub ودع المحتوى التقني يُكتب ويُصلّح نفسه!</h2>
+      <p class="article-lead">«أنت تُطلق الكود — Browzer يكتب الباقي». في 2 سبتمبر 2026، احتل <strong>Browzer</strong> المركز الأول Product of the Day على Product Hunt بـ 266 upvote — <strong>استوديو DevRel native بالذكاء الاصطناعي</strong> يضع docs والمدونات والفيديوهات والcookbooks على autopilot من مستودعك مباشرة.</p>
+      <p>المشكلة التي حلّتها: فرق DevRel تغرق في عمل ممل — كتابة docs، quickstarts، cookbooks، changelogs، ومدونات تقنية — بينما المجتمع والنمو يتطلبان وقتها. Browzer يربط GitHub repo ويقرأ المصدر والتعليقات والبنية بلا config files، ثم يُسودّ demo videos وlaunch posts وchangelogs وcookbooks وموقع docs كامل — جاهزة للمراجعة والنشر.</p>
+      <p>القدرات الأساسية: self-healing على كل merge — عندما يُعاد تسمية method أو يُشحن feature جديد، Browzer يكتشف drift في docs وblog posts وcookbooks ويُسودّ الإصلاح أو المحتوى الجديد. MCP integration للوكلاء، scheduled automations، QA test suites مع AI failure diagnosis، وCI/CD integration. 14 يوم trial مجاني بلا بطاقة ائتمان.</p>
+      <p>للمبدعين العرب: كل startup تقنية وopen-source project في MENA يحتاج docs عربية/إنجليزية محدّثة — Browzer setup packages وArabic DevRel workflow design وmanaged content retainers فرصة developer-marketing premium. «Self-healing technical content» vertical ينمو — Browzer تُكافئ teams التي تُريد velocity لا backlogs.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Browzer وثورة المحتوى التقني الذاتي الإصلاح؟</h3>
+        <ul>
+          <li><strong>Browzer DevRel packages:</strong> إعداد repo وworkflows للفرق التقنية — 2000–18000 دولار/شركة.</li>
+          <li><strong>Arabic docs automation:</strong> pipelines ثنائية اللغة من codebase — 1500–12000 دولار/مشروع.</li>
+          <li><strong>Managed Browzer retainers:</strong> مراجعة ونشر محتوى شهرياً — 1800–14000 دولار/شهر.</li>
+          <li><strong>دورات «DevRel on Autopilot with Browzer»:</strong> bootcamp لفرق التسويق التقني — 39–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Browzer</span>
+        <span class="tag">DevRel</span>
+        <span class="tag">Self-Healing Docs</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Monid: OpenRouter لأدوات الوكلاء — 1800+ API يُكتشف ويُدفع لها وقت التشغيل بلا subscriptions منفصلة!</h2>
+      <p class="article-lead">«الوكلاء يحتاجون أدوات — لا 1800 API key و1800 فاتورة». في 2 سبتمبر 2026، احتل <strong>Monid</strong> المركز الثاني على Product Hunt بـ 222 upvote — وفي 1 سبتمبر جمع <strong>2.1 مليون دولار</strong> pre-seed — <strong>سوق أدوات للوكلاء</strong> يُمكّن AI agents من البحث والفحص وشراء وصول APIs ديناميكياً أثناء تنفيذ المهمة.</p>
+      <p>المشكلة التي حلّتها: كل agent يحتاج search وSEO وlead generation وcontent APIs — لكن developers يُديرون keys وsubscriptions وbilling relationships منفصلة لكل أداة. Monid يُقدّم «OpenRouter for agent tools»: منصة حيث الوكلاء يكتشفون وينفّذون ويدفعون للأدوات الخارجية runtime — usage-based commerce للبرمجيات الذاتية.</p>
+      <p>القدرات الأساسية: 1800+ APIs وtools في marketplace، runtime tool discovery وmetered payment، CLI (`monid inspect`، `monid run`) للمطورين، تمويل من 1984 Ventures وLlama Ventures وUntapped Capital. Use cases: agents تبحث عن leads، تُحلّل SEO، تُولّد محتوى — بلا إعداد billing مسبق لكل provider.</p>
+      <p>للمبدعين العرب: كل AI agency وSaaS builder في MENA يبني agents متعددة الأدوات — Monid integration packages وArabic agent marketplace consulting وmanaged agent-tool retainers فرصة infrastructure premium. «Agent tool commerce» vertical ينمو — Monid تُكافئ builders التي تُريد agents تشتري ما تحتاج لا ما سجّلت له مسبقاً.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Monid وثورة سوق أدوات الوكلاء؟</h3>
+        <ul>
+          <li><strong>Monid agent integration packages:</strong> ربط agents بـ marketplace — 2500–20000 دولار/مشروع.</li>
+          <li><strong>Agent tool strategy consulting:</strong> اختيار وتركيب APIs للقطاعات — 3000–25000 دولار/عميل.</li>
+          <li><strong>Managed Monid retainers:</strong> monitoring وbilling optimization شهرياً — 2000–16000 دولار/شهر.</li>
+          <li><strong>دورات «Build Tool-Using Agents with Monid»:</strong> bootcamp للمطورين — 49–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Monid</span>
+        <span class="tag">Agent Tools</span>
+        <span class="tag">API Marketplace</span>
+        <span class="tag">Pre-seed</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Google Pics: محرّر صور AI داخل Workspace — Nano Banana يُولّد ويُحرّر داخل Docs وSlides بلا Canva!</h2>
+      <p class="article-lead">«Google تُجيب على Canva — prompt بدلاً من design من الصفر». في 2 سبتمبر 2026، أطلقت <strong>Google</strong> <strong>Google Pics</strong> — <strong>منصة إنشاء وتحرير صور بالذكاء الاصطناعي</strong> مبنية على نموذج Nano Banana، مُدمجة في Google Workspace للعملاء المميزين.</p>
+      <p>المشكلة التي حلّتها: فرق العمل تنزّل صوراً، تُحرّرها في أدوات خارجية، ثم تُعيد رفعها — workflow مكسور. Google Pics يُدمج التوليد والتحرير داخل Docs وSlides مباشرة: posters، social media posts، illustrations، marketing collateral — بلا مغادرة المستند. pics.new يُقدّم مساحة مستقلة للإنشاء المركّز.</p>
+      <p>القدرات الأساسية: prompt-to-create بدلاً من design manual، aisolation وtransform للobjects، تعديل وترجمة نص داخل الصور، collaborative editing، عدة generations للاختيار الأفضل، تكامل Google Drive قريباً. متاح لـ Google AI Pro وUltra وWorkspace eligible users — rollout تدريجي عالمياً.</p>
+      <p>للمبدعين العرب: كل marketing team وcontent creator في MENA على Workspace — Google Pics workflow packages وArabic prompt libraries وmanaged visual-content retainers فرصة creative-as-a-service premium. «Prompt-first design in Workspace» vertical ينمو — Google Pics تُكافئ teams التي تُريد velocity بلا tool-switching.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Google Pics وثورة التصميم بالـ prompt داخل Workspace؟</h3>
+        <ul>
+          <li><strong>Google Pics team rollout:</strong> إعداد workflows وbrand prompts للشركات — 1500–12000 دولار/فريق.</li>
+          <li><strong>Arabic visual prompt libraries:</strong> packs للتسويق والتعليم بالعربية — 800–6000 دولار/صناعة.</li>
+          <li><strong>Managed Pics retainers:</strong> إنتاج visuals شهرياً للفرق — 2000–15000 دولار/شهر.</li>
+          <li><strong>دورات «Prompt Design with Google Pics»:</strong> bootcamp للمسوقين — 29–199 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Google Pics</span>
+        <span class="tag">Nano Banana</span>
+        <span class="tag">Workspace</span>
+        <span class="tag">AI Design</span>
+        <span class="tag">Google</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Dial: رقم هاتف حقيقي لوكيل AI في 10 ثوانٍ — صوت وSMS وWhatsApp وiMessage من API واحد أو MCP!</h2>
+      <p class="article-lead">«وكيلك يُنجز كل شيء — ثم يتوقف عند كود التحقق SMS». في 2 سبتمبر 2026، أُطلق <strong>Dial</strong> على Product Hunt (#5 يومياً، 147 upvote) — <strong>communication stack مُصمّم للوكلاء</strong> يُزوّد AI agents برقم هاتف حقيقي carrier-grade في ~10 ثوانٍ عبر REST API أو MCP server.</p>
+      <p>المشكلة التي حلّتها: agents تُبنى في دقائق لكن لا تستطيع الحصول على رقم هاتف — Twilio يتطلب 10DLC registration (10–15 يوم review) قبل أول SMS. Dial agent-native: رقم واحد يُتصل ويُرسِل SMS في 200+ دولة وWhatsApp في 180+ دولة وiMessage مع RCS/SMS fallback — webhook موحّد لكل القنوات.</p>
+      <p>القدرات الأساسية: provisioning فوري US/Canada/international، قراءة inbound verification codes (phone-gated signups لم تعد dead end)، MCP server يعمل مع Claude Code وCursor وOpenClaw، SDKs Node.js/Python، $5 free credit بلا بطاقة، $3/شهر per number، $0.13–0.22/دقيقة voice، $0.02/SMS. Use cases: booking by phone، supplier outreach، signup automation.</p>
+      <p>للمبدعين العرب: كل AI agency وstartup في MENA تبني voice/SMS agents — Dial integration packages وArabic IVR workflow design وmanaged agent-comms retainers فرصة telephony premium. «Agent-native CPaaS» vertical ينمو — Dial تُكافئ builders التي تُريد agents تتواصل في العالم الحقيقي لا chat فقط.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Dial وثورة اتصالات الوكلاء؟</h3>
+        <ul>
+          <li><strong>Dial agent setup packages:</strong> ربط agents بصوت وSMS وWhatsApp — 2000–16000 دولار/مشروع.</li>
+          <li><strong>Arabic voice agent workflows:</strong> IVR وSMS flows للسوق العربي — 1500–12000 دولار/صناعة.</li>
+          <li><strong>Managed Dial retainers:</strong> تشغيل وmonitoring للوكلاء الصوتية — 1800–14000 دولار/شهر.</li>
+          <li><strong>دورات «Give Your Agent a Phone with Dial»:</strong> bootcamp للمطورين — 39–279 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Dial</span>
+        <span class="tag">AI Agents</span>
+        <span class="tag">Voice SMS</span>
+        <span class="tag">MCP</span>
+        <span class="tag">Product Hunt</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 02-09-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="02-09-2026 -- 04-PM.html">
+          📰 2 سبتمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Browzer · Monid · Google Pics · Dial</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "02-09-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
