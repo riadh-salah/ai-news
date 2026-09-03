@@ -1,0 +1,207 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 03-09-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "03-09-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Agent Builder by Airtop، MagiCrew، Omi، Nex، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 3 سبتمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Agent Builder by Airtop الذي يُحوّل وصفاً بالعربية إلى وكيل مُجمّع يُصلّح نفسه عند الكسر، إلى MagiCrew الذي يُشغّل جيشاً من العمال الرقميين مفتوح المصدر، ومن Omi الذي يُحوّل كل محادثة إلى ذاكرة قابلة للبحث، إلى Nex الذي يُشغّل workflows مبيعات بـ 10000 lead يومياً — أربع ثورات تُعيد تشكيل الأتمتة والقوى العاملة الرقمية والذاكرة الشخصية ونمو الإيرادات في 3 سبتمبر 2026!</h1>
+      <p class="hero-sub">Airtop يُجمّع الأتمتة إلى كود قابل لإعادة الاستخدام ويُشخّص الأعطال ويُصلّحها تلقائياً، MagiCrew يُسلّم PPT وتقارير وdashboards عبر multi-agent collaboration، Omi يلتقط الاجتماعات والمحادثات ويُحوّلها إلى ملخصات وaction items، وNex يُبني ويشغّل GTM workflows عالية الحجم بدعم مؤسس HubSpot. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 3 سبتمبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Agent Builder by Airtop: وكلاء تُصلّح أنفسهم — من وصف بالكلمات إلى أتمتة مُجمّعة تعمل كبرمجيات!</h2>
+      <p class="article-lead">«لا تُصلّح الوكيل يدوياً — دعه يُشخّص نفسه». في 3 سبتمبر 2026، أُطلق <strong>Agent Builder</strong> من <strong>Airtop</strong> على Product Hunt — <strong>منصة بناء وكلاء ويب محادثية</strong> تُحوّل وصف workflow بالإنجليزية أو العربية إلى agent مُجمّع يعمل كبرمجيات حقيقية، لا كـ LLM يُخمّن كل خطوة.</p>
+      <p>المشكلة التي حلّتها: وكلاء LLM-per-step بطيئون ومكلفون ويُكسرون عند تغيّر واجهة الموقع — كل run يُعيد «التفكير» من الصفر. Agent Builder يُجمّع الأتمتة إلى كود قابل لإعادة الاستخدام — أسرع حتى 100x من agents غير المُجمّعة — مع 85+ template جاهز للتخصيص. يُسجّل الدخول، يتصفّح أي موقع، يستخرج البيانات، ويُنجز المهام خلف logins بدون APIs.</p>
+      <p>القدرات الأساسية: self-healing — عند فشل run، Airtop يُشخّص العطل، يُعدّ draft إصلاح، ويختبره تلقائياً؛ تشغيل على schedule أو trigger أو demand؛ credentials في vault آمن؛ logs كاملة. مقارنة Airtop vs LLM Agents: compiled agents تُبنى مرة وتعمل كsoftware، بينما LLM-per-step يُعيد حل المشكلة في كل مرة.</p>
+      <p>للمبدعين العرب: كل agency وops team في MENA يُريد أتمتة portals حكومية وبنوك وe-commerce — Airtop agent templates وArabic workflow packs وmanaged self-healing retainers فرصة automation premium. «Compiled agents that heal» vertical ينمو — Airtop تُكافئ builders التي تُسلّم reliability لا demos.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Agent Builder by Airtop وثورة الوكلاء ذاتية الإصلاح؟</h3>
+        <ul>
+          <li><strong>Airtop agent templates:</strong> تخصيص 85+ template للأسواق العربية — 1500–15000 دولار/مشروع.</li>
+          <li><strong>Self-healing automation retainers:</strong> مراقبة وإصلاح workflows شهرياً — 2000–12000 دولار/شهر.</li>
+          <li><strong>Portal automation packages:</strong> أتمتة مواقع حكومية وبنكية — 3000–25000 دولار/عميل.</li>
+          <li><strong>دورات «Build Self-Healing Agents with Airtop»:</strong> bootcamp للفرق — 49–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Airtop</span>
+        <span class="tag">Agent Builder</span>
+        <span class="tag">Self-Healing Agents</span>
+        <span class="tag">Compiled Automation</span>
+        <span class="tag">No-Code</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>MagiCrew: منصة AI مفتوحة المصدر — جيش عمال رقميين يُسلّم PPT وتقارير وdashboards!</h2>
+      <p class="article-lead">«لا تتحدث مع AI — أدر قوة عاملة». في 3 سبتمبر 2026، أُطلق <strong>MagiCrew</strong> على Product Hunt — <strong>منصة AI Agent مفتوحة المصدر Apache 2.0</strong> تُتيح لكل موظف نشر عمال رقميين متخصصين يُنجزون مهاماً حقيقية: بحث، تحليل، تقارير، عروض تقديمية، وملفات Excel.</p>
+      <p>المشكلة التي حلّتها: chatbots تُجيب لكنها لا تُسلّم deliverables — PPT جاهز، dashboard، تقرير Excel. MagiCrew يُوفّر AI Digital Worker Marketplace، multi-agent collaboration، human-in-the-loop approval، sandbox container isolation، VPC multi-tenant security، وcost attribution حسب department/user/agent. مُتوافق مع Anthropic Skills وOpenClaw Skills وMCP ecosystem.</p>
+      <p>القدرات الأساسية: cloud SaaS مجاني على magicrew.ai، self-host من GitHub (5K+ stars)، enterprise private deployment مع dedicated models؛ تكامل ERP/CRM وEnterprise WeChat وDingTalk وFeishu؛ Skill Creator لبناء skills مخصصة؛ real-time organization-wide collaboration. مبني على Magic platform — Generalist AI Agent + Workflow Engine + IM + collaborative office.</p>
+      <p>للمبدعين العرب: كل enterprise في MENA يُريد AI workforce بتحكم أمني — MagiCrew deployment packages وArabic skill libraries وmanaged digital worker retainers فرصة B2B premium. «AI workforce not chatbot» vertical ينمو — MagiCrew تُكافئ teams التي تُحوّل AI من أداة إلى قوة عاملة قابلة للإدارة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من MagiCrew وثورة القوى العاملة الرقمية؟</h3>
+        <ul>
+          <li><strong>MagiCrew enterprise deployment:</strong> private deployment وتكامل ERP — 8000–50000 دولار/مشروع.</li>
+          <li><strong>Digital worker skill packs:</strong> skills جاهزة للمالية والموارد البشرية والمبيعات — 2000–15000 دولار/pack.</li>
+          <li><strong>Managed AI workforce retainers:</strong> تشغيل agents وتقارير شهرية — 3000–20000 دولار/شهر.</li>
+          <li><strong>دورات «Deploy Your AI Workforce with MagiCrew»:</strong> bootcamp — 59–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">MagiCrew</span>
+        <span class="tag">Open Source</span>
+        <span class="tag">AI Workforce</span>
+        <span class="tag">Multi-Agent</span>
+        <span class="tag">Apache 2.0</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Omi: عقلك الثاني — wearable AI يلتقط كل محادثة ويُحوّلها إلى ذاكرة قابلة للبحث!</h2>
+      <p class="article-lead">«ذاكرة تثق بها أكثر من ذاكرتك الأولى». في 3 سبتمبر 2026، أُطلق <strong>Omi</strong> على Product Hunt — <strong>wearable AI + تطبيق desktop</strong> يلتقط محادثاتك في الوقت الفعلي، يُسجّل الاجتماعات والدردشات، ويُحوّلها إلى ملخصات قابلة للبحث وaction items منظمة.</p>
+      <p>المشكلة التي حلّتها: تفاصيل مهمة تضيع بين اجتماعات Zoom ومحادثات face-to-face ومكالمات — notes يدوية incomplete وmemory unreliable. Omi wearable + desktop app + mobile app يعملون معاً: يلتقط audio في real-time، يُلخّص virtual meetings على desktop، ويُوفّر insights on-the-go عبر تطبيق الجوال — memory sharp وworkflow organized عبر كل البيئات.</p>
+      <p>القدرات الأساسية: capture conversations in real-time، searchable summaries، action items تلقائية، تكامل desktop + mobile + wearable necklace، open-source AI necklace foundation. يُحوّل Omi من «نسيت ماذا قال» إلى «اسأل Omi عن أي شيء سمعته أو رأيته» — second brain you trust more than your first.</p>
+      <p>للمبدعين العرب: كل executive وconsultant وcreator في MENA يُريد memory augmentation — Omi setup packages وArabic transcription workflows وmanaged memory retainers فرصة productivity premium. «Ambient AI memory» vertical ينمو — Omi تُكافئ professionals التي تُريد never miss an important detail.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Omi وثورة الذاكرة المُعزّزة بالذكاء الاصطناعي؟</h3>
+        <ul>
+          <li><strong>Omi enterprise rollout:</strong> wearables + desktop للفرق — 2000–18000 دولار/مؤسسة.</li>
+          <li><strong>Meeting intelligence consulting:</strong> workflows للملخصات والaction items — 1000–8000 دولار/عميل.</li>
+          <li><strong>Managed Omi retainers:</strong> تكامل CRM وfollow-up automation — 800–5000 دولار/شهر.</li>
+          <li><strong>دورات «Build Your Second Brain with Omi»:</strong> bootcamp — 29–179 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Omi</span>
+        <span class="tag">AI Wearable</span>
+        <span class="tag">Second Brain</span>
+        <span class="tag">Meeting Intelligence</span>
+        <span class="tag">Ambient AI</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Nex: Claude Cowork لـ GTM — workflows مبيعات عالية الحجم بـ 10000 lead يومياً!</h2>
+      <p class="article-lead">«الوكلاء العامون لا يستطيعون GTM عالي الحجم — Nex يُبنى لهذا». في 3 سبتمبر 2026، أُطلق <strong>Nex</strong> على Product Hunt — <strong>منصة GTM workflow automation</strong> تُبني وتُشغّل workflows مبيعات وتسويق معقدة وعالية الحجم التي تُعجز general-purpose agents عنها.</p>
+      <p>المشكلة التي حلّتها: GTM teams تحتاج enrich 10000 leads يومياً، personalize outreach على scale، sync CRM، وrun multi-step campaigns — بينما Claude Cowork وagents عامة تتعثر مع volume وcomplexity. Nex مبني من ex-HubSpotters الذين أداروا أكبر ثلاث customer platforms في HubSpot، بدعم Dharmesh Shah مؤسس HubSpot.</p>
+      <p>القدرات الأساسية: complex high-volume GTM workflows، lead enrichment على scale، personalized outreach automation، CRM sync، campaign orchestration. Nex يُكمّل Claude Cowork — حيث Cowork يُنجز tasks عامة، Nex يُتخصص في GTM workflows التي تتطلب reliability وvolume وdomain expertise.</p>
+      <p>للمبدعين العرب: كل B2B startup وagency في MENA يُريد GTM automation — Nex implementation packages وArabic outreach templates وmanaged GTM retainers فرصة revenue premium. «GTM-specific agent platform» vertical ينمو — Nex تُكافئ teams التي تُريد scale outreach بدون scale headcount.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Nex وثورة أتمتة GTM عالية الحجم؟</h3>
+        <ul>
+          <li><strong>Nex GTM setup packages:</strong> workflows enrichment وoutreach — 4000–30000 دولار/شركة.</li>
+          <li><strong>High-volume lead enrichment:</strong> pipelines يومية 10000+ lead — 2500–15000 دولار/شهر.</li>
+          <li><strong>Arabic outreach campaign design:</strong> templates وsequences للأسواق العربية — 1500–10000 دولار/campaign.</li>
+          <li><strong>دورات «GTM Automation with Nex»:</strong> bootcamp لفرق المبيعات — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Nex</span>
+        <span class="tag">GTM Automation</span>
+        <span class="tag">Lead Enrichment</span>
+        <span class="tag">HubSpot</span>
+        <span class="tag">Sales AI</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 03-09-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="03-09-2026 -- 04-PM.html">
+          📰 3 سبتمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Agent Builder by Airtop · MagiCrew · Omi · Nex</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "03-09-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
