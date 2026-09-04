@@ -1,0 +1,212 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 04-09-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "04-09-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Kilo for JetBrains، OrcaReplay، Kong AI Gateway 2.0، Microsoft Canvas Authoring Agent، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 4 سبتمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Kilo for JetBrains غرفة التحكم متعددة الوكلاء التي تُشغّل 600+ نموذجاً في worktrees معزولة، إلى OrcaReplay الذي يُسجّل ويُعيد تشغيل traces الوكلاء للتصحيح والتفرع، ومن Kong AI Gateway 2.0 الذي يُجمّع MCP servers تحت حوكمة enterprise، إلى Microsoft Canvas Authoring Agent الذي يُشاركك بناء تطبيقات Power Platform عبر MCP — أربع ثورات تُعيد تشكيل التطوير متعدد الوكلاء والمراقبة والبنية التحتية والتطبيقات low-code في 4 سبتمبر 2026!</h1>
+      <p class="hero-sub">Kilo يُصبح #1 على Product Hunt في سبتمبر 2026 بـ 509 upvote ووكلاء متوازيين داخل IntelliJ وWebStorm، OrcaReplay يُحوّل agent runs إلى traces قابلة للتفرع محلياً، Kong AI Gateway 2.0 GA يُدير تكلفة النماذج وMCP tools مع identity policies، وMicrosoft تُطلق coauthoring agentic لتطبيقات Canvas في الإنتاج. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 4 سبتمبر 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Kilo for JetBrains: غرفة تحكم متعددة الوكلاء — 600+ نموذج وworktrees معزولة دون مغادرة IDE!</h2>
+      <p class="article-lead">«JetBrains لم يعد IDE واحداً — أصبح غرفة تحكم لجيش من الوكلاء». في 1 سبتمبر 2026، احتل <strong>Kilo for JetBrains</strong> المركز الأول على Product Hunt في سبتمبر 2026 بـ <strong>509 upvote</strong> — إعادة بناء كاملة لامتداد Kilo Code كـ <strong>multi-agent control room</strong> أصلي داخل IntelliJ IDEA وWebStorm وPyCharm وGoLand وRider وClion وRubyMine.</p>
+      <p>المشكلة التي حلّتها: المطورون يُشغّلون agent واحداً في terminal منفصل — لا visibility ولا parallel tasks ولا test integration. Kilo for JetBrains يُشغّل عدة coding agents على مهام مختلفة بالتوازي، يُعطي كل agent <strong>git worktree معزول</strong>، يُشغّل النتيجة عبر Run Configurations الموجودة، ويتتبع diff وGitHub PR — كل ذلك من إطار IDE واحد. 5M+ Kilo Coders و10T+ tokens شهرياً تُثبت أن open-source AI coding layer أصبح mainstream.</p>
+      <p>القدرات الأساسية: 600+ نموذج عبر Gateway موحّد؛ parallel agents مع isolated worktrees؛ test وreview وPR tracking من IDE؛ Cloud Agents للمهام طويلة الأمد؛ Code Reviews بنقرة واحدة؛ Voice Prompting وAutocomplete أصليان؛ Skills marketplace وMCP integrations؛ يعمل على Community وpaid editions وRemote Development. Kilo ليس autocomplete — إنه AI developer layer تتحكم به فرقتك بالكامل.</p>
+      <p>للمبدعين العرب: كل dev shop وenterprise وgovernment project في MENA يستخدم JetBrains — Kilo JetBrains setup packages وArabic agent personas وmanaged multi-agent retainers فرصة developer premium. «Multi-agent IDE control room» vertical ينمو — Kilo تُكافئ teams التي تُسلّم velocity بـ worktrees نظيفة لا terminal chaos.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Kilo for JetBrains وثورة غرفة التحكم متعددة الوكلاء؟</h3>
+        <ul>
+          <li><strong>Kilo JetBrains team setup:</strong> multi-agent workflows + worktree policies — 3000–25000 دولار/فريق.</li>
+          <li><strong>Custom agent persona packs:</strong> reviewer وtest-first coder وdoc writer — 1200–9000 دولار/pack.</li>
+          <li><strong>Managed multi-agent retainers:</strong> orchestration وvelocity reports — 3500–22000 دولار/شهر.</li>
+          <li><strong>دورات «Parallel AI Coding with Kilo for JetBrains»:</strong> bootcamp — 59–399 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Kilo Code</span>
+        <span class="tag">JetBrains</span>
+        <span class="tag">Multi-Agent IDE</span>
+        <span class="tag">Open Source</span>
+        <span class="tag">Worktrees</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>OrcaReplay: محرك open-source لتسجيل وإعادة تشغيل الوكلاء — fork من أي خطوة دون إعادة البداية!</h2>
+      <p class="article-lead">«الوكلاء black box — OrcaReplay يُحوّلها إلى فيلم قابل للتشغيل والتفرع». في 2 سبتمبر 2026، أعلنت <strong>OrcaRouter</strong> عن <strong>OrcaReplay</strong> — <strong>محرك record-and-replay مفتوح المصدر</strong> يجعل تنفيذ AI agents قابلاً للتكرار والتصحيح والفهم.</p>
+      <p>المشكلة التي حلّتها: agent يفشل في خطوة 47 — لا تعرف ما رآه النموذج، أي tools استُدعيت، أو أين انحرف المسار. OrcaReplay يُسجّل agent execution كـ <strong>replayable trace</strong>: ما رآه النموذج، tool calls، تغييرات البيئة، نقاط الانحراف. من أي خطوة مسجّلة يمكنك replay للتصحيح، أو <strong>fork</strong> لتجربة نموذج مختلف أو prompt مختلف أو tool result مختلف — دون إعادة workflow من الصفر.</p>
+      <p>القدرات الأساسية: agent-agnostic وmodel-agnostic؛ replay data محلي للخصوصية؛ debugging وevaluation وsecurity workflows؛ يعمل standalone أو مع OrcaRouter unified API؛ open source بالكامل. OrcaRouter تبني infrastructure مفتوحة للمطورين: model routing وagent security وautomated code review وlocal models وobservability.</p>
+      <p>للمبدعين العرب: كل AI agency وenterprise يبني production agents — OrcaReplay integration packages وArabic debugging playbooks وmanaged agent observability retainers فرصة devops premium. «Agent reproducibility» vertical ينمو — OrcaRouter تُكافئ teams التي تُريد traces قابلة للتدقيق لا «جرب مرة أخرى».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OrcaReplay وثورة تسجيل وإعادة تشغيل الوكلاء؟</h3>
+        <ul>
+          <li><strong>OrcaReplay integration packages:</strong> ربط agents بـ trace recording — 2000–18000 دولار/مشروع.</li>
+          <li><strong>Agent debugging &amp; eval retainers:</strong> trace analysis وregression testing — 2500–20000 دولار/شهر.</li>
+          <li><strong>Arabic agent QA playbooks:</strong> SOPs للتصحيح والتفرع — 800–6000 دولار/pack.</li>
+          <li><strong>دورات «Debug AI Agents with OrcaReplay»:</strong> bootcamp — 39–279 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OrcaReplay</span>
+        <span class="tag">OrcaRouter</span>
+        <span class="tag">Open Source</span>
+        <span class="tag">Agent Debugging</span>
+        <span class="tag">Observability</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Kong AI Gateway 2.0: GA مع MCP Server Bundling — حوكمة enterprise لـ LLM وagents وtools!</h2>
+      <p class="article-lead">«AI infrastructure يتحرك أسرع من release train — Kong AI Gateway 2.0 يُلحق بالسرعة». في 1 سبتمبر 2026، أعلنت <strong>Kong</strong> أن <strong>Kong AI Gateway 2.0</strong> أصبح <strong>generally available</strong> — بوابة AI production-ready تُدير LLM traffic وMCP servers وagent tools تحت حوكمة enterprise واحدة.</p>
+      <p>المشكلة التي حلّتها: teams تُشغّل agents مع 20 provider و50 MCP tool — لا unified governance ولا cost control ولا identity policies. AI Gateway 2.0 يُقدّم <strong>MCP Server Bundling</strong> لـ governed agent tool access؛ dynamic modality-aware cost management؛ تغطية موسّعة عبر Kimi وMicrosoft Foundry وAmazon SageMaker؛ identity-aware AI policies عبر Kong Identity؛ native IAM authentication لـ Amazon Bedrock AgentCore. migration tooling من decK dump متاح الآن.</p>
+      <p>القدرات الأساسية: production-supported runtime وcontrol plane وKong Konnect؛ route LLM وMCP وagent traffic في دقائق؛ compliance وsupport posture enterprise؛ provider failover وBYOK؛ no beta enablement required. Kong تُعدّ AI Gateway «infrastructure layer» — ليس plugin بل product مستقل يُشحن بسرعة ecosystem AI.</p>
+      <p>للمبدعين العرب: كل bank وtelco وenterprise في MENA يحتاج governed AI routing — Kong AI Gateway setup packages وArabic policy templates وmanaged AI infrastructure retainers فرصة enterprise premium. «Governed AI gateway» vertical ينمو — Kong تُكافئ consultants التي تُسلّم compliance-ready routing لا shadow AI.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Kong AI Gateway 2.0 وثورة البنية التحتية المحكومة للذكاء الاصطناعي؟</h3>
+        <ul>
+          <li><strong>Kong AI Gateway migration packages:</strong> نقل من plugins إلى 2.0 — 8000–60000 دولار/مشروع.</li>
+          <li><strong>MCP bundling &amp; policy setup:</strong> governed tool access للفرق — 5000–35000 دولار/enterprise.</li>
+          <li><strong>Managed AI gateway retainers:</strong> cost optimization وpolicy updates — 4000–30000 دولار/شهر.</li>
+          <li><strong>دورات «Govern AI Traffic with Kong AI Gateway 2.0»:</strong> bootcamp — 79–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Kong</span>
+        <span class="tag">AI Gateway</span>
+        <span class="tag">MCP</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Governance</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Microsoft Canvas Authoring Agent: coauthoring agentic لتطبيقات Power Platform — GA في الإنتاج!</h2>
+      <p class="article-lead">«Canvas apps لم تعد solo — agent يُشاركك البناء خطوة بخطوة». أعلنت <strong>Microsoft</strong> أن <strong>canvas apps coauthoring with agents</strong> أصبح <strong>generally available</strong> — <strong>Canvas Authoring Agent plugin</strong> يُتيح للوكلاء إنشاء screens وربط data sources وتحديث formulas عبر MCP server مخصّص.</p>
+      <p>المشكلة التي حلّتها: low-code makers يقضون ساعات على repetitive updates — screens متشابهة وformulas متكررة وconnector wiring. Canvas authoring plugin يُعطي agents toolset مخصّص: create responsive screens، connect approved data sources عبر 1400+ connector، update formulas، validate refactors. أنت تختار ما تُفوّضه وما تُحرّره يدوياً — shared authoring model حيث people وagents يُساهمون في نفس app.</p>
+      <p>القدرات الأساسية: agentic plugin عبر MCP server؛ يعمل مع coding agents المفضلة لديك؛ production canvas workloads بدون إعادة البناء؛ rich governance controls؛ delegate large changes وedit manually للدقة؛ conserve token budget بتحكم granular. GA يعني agentic collaboration جزء من production development practices — ليس demo.</p>
+      <p>للمبدعين العرب: كل Power Platform consultant وcitizen developer في MENA يُريد velocity — Canvas agent setup packages وArabic app templates وmanaged low-code retainers فرصة Microsoft ecosystem premium. «Agentic low-code coauthoring» vertical ينمو — Microsoft تُكافئ partners التي تُسلّم apps أسرع مع governance intact.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Microsoft Canvas Authoring Agent وثورة التطوير التعاوني low-code؟</h3>
+        <ul>
+          <li><strong>Canvas agent setup packages:</strong> MCP integration + app templates — 3500–28000 دولار/مشروع.</li>
+          <li><strong>Power Platform agent workflows:</strong> automated screen generation وrefactoring — 2500–20000 دولار/عميل.</li>
+          <li><strong>Managed Canvas coauthoring retainers:</strong> agent-assisted development شهرياً — 3000–22000 دولار/شهر.</li>
+          <li><strong>دورات «Build Apps Faster with Canvas Authoring Agent»:</strong> bootcamp — 49–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Microsoft</span>
+        <span class="tag">Power Platform</span>
+        <span class="tag">Canvas Apps</span>
+        <span class="tag">MCP</span>
+        <span class="tag">Low-Code</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 04-09-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="04-09-2026 -- 08-AM.html">
+          📰 4 سبتمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Kilo for JetBrains · OrcaReplay · Kong AI Gateway 2.0 · Microsoft Canvas Authoring Agent</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "04-09-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    # Check for common corruption patterns
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
