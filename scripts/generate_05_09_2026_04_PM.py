@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 05-09-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "05-09-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — WeatherNext 3، LaunchDarkly AI SDK، Naseem، Stella AI، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 5 سبتمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من WeatherNext 3 الذي يُتنبّأ بالأمطار بدقة أعلى 60% على شبكة 5 كيلومتر كل ساعة، إلى LaunchDarkly AI SDK الذي يُشغّل وكلاء الإنتاج بأمر invoke() واحد، ومن Naseem الوكيل الأصلي على macOS الذي يُحرّك Terminal وSimulator بموافقتك، إلى Stella AI مدير التسويق الذكي الذي يُسلّم حملاتك كل صباح — أربع ثورات تُعيد تشكيل الطقس الذكي وإدارة الوكلاء والعمل المحلي والتسويق الذاتي في 5 سبتمبر 2026!</h1>
+      <p class="hero-sub">Google DeepMind تُدمج WeatherNext 3 في Search وMaps وGemini مع بيانات أقمار صناعية حية، LaunchDarkly تُبسّط AgentControl إلى install واحد مع agent graphs وjudges، Naseem يُقدّم Swift-native agent بـ MCP وSkills وOllama محلياً، وStella AI تُشغّل أربعة وكلاء تسويق ليلاً وتُسلّم standup صباحي للموافقة. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 5 سبتمبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>WeatherNext 3: أقوى نموذج طقس AI من Google DeepMind — توقعات كل ساعة بدقة 5 كيلومتر!</h2>
+      <p class="article-lead">«السماء لا تنتظر ست ساعات — WeatherNext 3 يُحدّث كل ساعة». في 3 سبتمبر 2026، أعلنت <strong>Google DeepMind</strong> و<strong>Google Research</strong> عن <strong>WeatherNext 3</strong> — أقوى وأدق نموذج طقس AI عالمي حتى الآن، حسب تقييمات Brightband المستقلة.</p>
+      <p>المشكلة التي حلّتها: نماذج الطقس التقليدية تعتمد على دورات NWP كل 6 ساعات — تأخير يُكلّف المزارعين وشركات الطاقة ومنظمي الأحداث قرارات حاسمة. WeatherNext 3 يتعلّم مباشرة من ملاحظات الأقمار الصناعية الثابتة في المدار الحية، ويُنتج توقعات <strong>كل ساعة</strong> بدقة مكانية حتى <strong>5 كيلومتر</strong> — خمسة أضعاف WeatherNext 2.</p>
+      <p>القدرات الأساسية: Functional Generative Network مع 64 ensemble members؛ تحسين CRPS للأمطار حتى <strong>60%</strong> مقابل IMERG؛ متغيرات طاقة نظيفة (رياح، غطاء سحابي، إشعاع شمسي) لشبكات الكهرباء؛ تكامل فوري في Google Search وGemini وMaps وMaps Platform Weather API وEarth Engine؛ BigQuery وCloud Storage بصيغة Zarr للمطورين.</p>
+      <p>للمبدعين العرب: كل شركة طاقة وزراعة وسياحة في MENA تحتاج weather intelligence — WeatherNext 3 API integration packages وArabic weather dashboards وrenewable energy forecasting retainers فرصة climate-tech premium. «Hyperlocal weather AI» vertical ينمو — Google تُكافئ teams التي تُبني تطبيقات قرار على بيانات hourly لا daily.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من WeatherNext 3 وثورة الطقس الذكي؟</h3>
+        <ul>
+          <li><strong>WeatherNext API integration:</strong> Maps Platform + BigQuery pipelines — 3500–28000 دولار/مشروع.</li>
+          <li><strong>Renewable energy forecasting:</strong> solar/wind output dashboards للشبكات — 5000–40000 دولار/عميل.</li>
+          <li><strong>Agri-tourism weather apps:</strong> توقعات دقيقة للمزارع والفعاليات — 2000–15000 دولار/تطبيق.</li>
+          <li><strong>دورات «Climate AI with WeatherNext 3»:</strong> bootcamp — 39–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">WeatherNext 3</span>
+        <span class="tag">Google DeepMind</span>
+        <span class="tag">Weather AI</span>
+        <span class="tag">Earth Engine</span>
+        <span class="tag">Climate Tech</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>LaunchDarkly AI SDK: من خمس حزم إلى install واحد — AgentControl يُشغّل الوكلاء في الإنتاج!</h2>
+      <p class="article-lead">«وكيل في الإنتاج يحتاج control plane لا مجرد prompt — LaunchDarkly AI SDK يُقدّمه». في 3 سبتمبر 2026، أعلنت <strong>LaunchDarkly</strong> عن <strong>LaunchDarkly AI SDK</strong> — الطريق الموصى به لكل تكامل AgentControl جديد، متاح لـ Python وJavaScript.</p>
+      <p>المشكلة التي حلّتها: فرق AI في الإنتاج تثبّت 5 packages، تبني telemetry يدوياً، وتُغيّر models عبر deploys — بطيء ومكلف. AI SDK يُقلّص الإعداد إلى <strong>install واحد</strong>، ثم `invoke()` — SDK يُدير client lifecycle، يُوجّه للـ provider المحدّد في config، يُسجّل metrics تلقائياً، ويُرسل traces إلى LaunchDarkly Observability.</p>
+      <p>القدرات الأساسية: AgentControl configs تُغيّر model وprovider وprompt في runtime دون deploy؛ agent graphs لـ multi-step workflows مع LangGraph وOpenAI Agents SDK؛ judges لـ quality scoring مُرفقة بالـ variations في UI؛ Python وNode.js SDKs stable عند 1.0 منذ مايو 2026؛ legacy SDKs في maintenance mode بدون deadline إجباري.</p>
+      <p>للمبدعين العرب: كل startup يُطلق agents في production — LaunchDarkly AI SDK setup packages وArabic agent governance playbooks وmanaged AgentControl retainers فرصة DevOps premium. «Agent control plane» vertical ينمو — LaunchDarkly تُكافئ integrators التي تُسلّم production-ready agents لا demos.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من LaunchDarkly AI SDK وثورة إدارة الوكلاء؟</h3>
+        <ul>
+          <li><strong>AgentControl setup packages:</strong> SDK integration + agent graphs — 4000–32000 دولار/مشروع.</li>
+          <li><strong>Production agent governance:</strong> judges + experiments + rollout policies — 3000–25000 دولار/عميل.</li>
+          <li><strong>Managed AgentControl retainers:</strong> monitoring وconfig updates — 2500–20000 دولار/شهر.</li>
+          <li><strong>دورات «Ship Agents with LaunchDarkly AI SDK»:</strong> bootcamp — 49–279 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">LaunchDarkly AI SDK</span>
+        <span class="tag">AgentControl</span>
+        <span class="tag">Agent Graphs</span>
+        <span class="tag">Production AI</span>
+        <span class="tag">MLOps</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Naseem: وكيل AI أصلي 100% على macOS — Swift وTerminal وSimulator بموافقتك!</h2>
+      <p class="article-lead">«لا Electron. لا Node. عمل حقيقي على Mac — Naseem يُثبت ذلك». في 1 سبتمبر 2026، أُطلق <strong>Naseem</strong> على Product Hunt — وكيل AI <strong>native لـ macOS</strong> مبني بالكامل في Swift، يُنفّذ عملاً حقيقياً على جهازك معك في السيطرة.</p>
+      <p>المشكلة التي حلّتها: معظم agents تعمل في Electron wrappers بطيئة أو cloud-only — لا وصول حقيقي لملفاتك وterminal وSimulator. Naseem يعمل مع ملفاتك، يُشغّل terminal commands وPython، يُحرّك تطبيقات Mac الأصلية، يُؤتمت ويختبر apps في iOS Simulator، يستخدم MCP وSkills، يُفوّض sub-agents، ويعمل عن بُعد عبر Telegram.</p>
+      <p>القدرات الأساسية: BYOM أو تشغيل محلي عبر Ollama/MLX؛ كل action مهم يتطلب موافقتك — autonomous mode opt-in فقط؛ sub-agents delegation؛ MCP وSkills support؛ Telegram remote control؛ #21 على Product Hunt يوم الإطلاق بـ 76 upvote.</p>
+      <p>للمبدعين العرب: كل مطور iOS/macOS freelancer — Naseem setup packages وArabic automation playbooks وmanaged local-agent retainers فرصة dev-tools premium. «Native macOS agent» vertical ينمو — Naseem يُكافئ builders التي تُسلّم workflows محلية آمنة لا cloud-dependent demos.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Naseem وثورة الوكلاء المحليين؟</h3>
+        <ul>
+          <li><strong>Naseem automation packages:</strong> macOS/iOS workflows + Skills — 1500–12000 دولار/مشروع.</li>
+          <li><strong>Local AI consulting:</strong> Ollama/MLX setup + agent tuning — 2000–18000 دولار/عميل.</li>
+          <li><strong>Managed Naseem retainers:</strong> صيانة workflows وSkills — 800–6000 دولار/شهر.</li>
+          <li><strong>دورات «Build macOS Agents with Naseem»:</strong> bootcamp — 29–179 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Naseem</span>
+        <span class="tag">macOS Agent</span>
+        <span class="tag">Swift</span>
+        <span class="tag">Local AI</span>
+        <span class="tag">MCP</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Stella AI: مدير التسويق الذكي للشركات الناشئة — أربعة وكلاء يعملون ليلاً وأنت تُوافق صباحاً!</h2>
+      <p class="article-lead">«التسويق لا ينتظر deadline — Stella يُجعله يحدث كل ليلة». في سبتمبر 2026، أُطلقت <strong>Stella AI</strong> — <strong>AI CMO</strong> للشركات الناشئة والمستقلين، يُحوّل موقعك إلى آلة تسويق تعمل بينما تنام.</p>
+      <p>المشكلة التي حلّتها: المؤسسون يؤجلون التسويق أسابيع — ليس لأنه غير مهم، بل لأنه لا deadline يُجبره. Stella: الصق موقعك → أربعة وكلاء متخصصون (lead sourcing، copy وpositioning، brand safety، distribution) يعملون ليلاً → كل صباح standup 10 دقائق: ما أُنجز، ما يحتاج عينيك، أعلى leverage move لليوم.</p>
+      <p>القدرات الأساسية: أربعة وكلاء متخصصون يعملون overnight؛ morning standup مُختصر؛ nothing goes out without your yes — fast لكن never behind your back؛ agentic marketing للـ solopreneurs؛ built as opposite لـ «fully autonomous» agents التي تُفشل علناً.</p>
+      <p>للمبدعين العرب: كل founder عربي يُؤجل marketing — Stella setup packages وArabic copy positioning services وmanaged AI CMO retainers فرصة growth premium. «Human-in-the-loop marketing agent» vertical ينمو — Stella تُكافئ consultants التي تُسلّم approved campaigns لا spam.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Stella AI وثورة التسويق الذاتي؟</h3>
+        <ul>
+          <li><strong>Stella AI setup packages:</strong> website onboarding + agent tuning — 1000–8000 دولار/startup.</li>
+          <li><strong>AI CMO consulting:</strong> positioning + distribution strategy — 2500–20000 دولار/عميل.</li>
+          <li><strong>Managed marketing retainers:</strong> daily standup + campaign approval — 1500–12000 دولار/شهر.</li>
+          <li><strong>دورات «Agentic Marketing with Stella AI»:</strong> bootcamp — 39–199 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Stella AI</span>
+        <span class="tag">AI CMO</span>
+        <span class="tag">Agentic Marketing</span>
+        <span class="tag">Startups</span>
+        <span class="tag">Growth</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 05-09-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="05-09-2026 -- 04-PM.html">
+          📰 5 سبتمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">WeatherNext 3 · LaunchDarkly AI SDK · Naseem · Stella AI</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "05-09-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "الLlatinية", "Gيostationary"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
