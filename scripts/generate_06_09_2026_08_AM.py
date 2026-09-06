@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 06-09-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "06-09-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — ant apply، AWS MCP Serverless، OKF Agent Memory، Claude Commerce Agents، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 6 سبتمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من ant apply الذي يُحوّل وكلاء Claude إلى ملفات Git تمرّ عبر pull request، إلى AWS MCP Serverless الذي يُشخّص Lambda في استدعاء واحد، ومن OKF Agent Memory الذي يُخزّن ذاكرة الوكيل في Markdown داخل المستودع، إلى Claude Commerce Agents المخطّط مفتوح المصدر لوكلاء التسوق والتجارة — أربع ثورات تُعيد تشكيل GitOps للوكلاء وتشخيص Serverless والذاكرة الدائمة واقتصاد الوكلاء التجارية في 6 سبتمبر 2026!</h1>
+      <p class="hero-sub">ant CLI 1.30 يُطلق Managed Agents بأمر apply واحد، AWS MCP Server يُحلّل Lambda وAPI Gateway وDynamoDB في 7 أيام baseline، OKF Agent Memory يُقلّص استهلاك التوكنات بنسبة 80% بدون vector DB، وClaude Commerce Agents يُسلّم shopping agent وmerchant agent لأربعة قطاعات مع UCP وACP. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 6 سبتمبر 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>ant CLI 1.30: ant apply يُحوّل وكلاء Claude إلى GitOps — من Markdown إلى production بأمر واحد!</h2>
+      <p class="article-lead">«لا dashboards ولا scripts مؤقتة — وكيلك الآن ملف في المستودع». في أسبوع 1 سبتمبر 2026، أطلقت <strong>Anthropic</strong> <strong>ant apply</strong> ضمن <strong>ant CLI 1.30.0</strong> — أمر واحد يُدير Claude Managed Agents وskills وenvironments وmemory stores وdeployments كملفات داخل repository.</p>
+      <p>المشكلة التي حلّتها: فرق production agents تُدير configs عبر dashboards منفصلة — لا review ولا CI/CD ولا rollback. ant apply: اكتب agent definition في Markdown أو YAML، شغّل <strong>ant apply</strong>، والوكيل live على Claude platform. Configs في Git، تمرّ عبر pull request، وتندمج في pipelines مثل أي infrastructure.</p>
+      <p>القدرات الأساسية: Skills API خرج من beta (Python SDK 1.2.0، TypeScript 0.122.0، Go 1.68.0)؛ Memory للـ Managed Agents في public beta؛ <strong>ant apply --dry-run</strong> للتحقق قبل deploy؛ lockfile للـ reproducibility. لا مكافئ مباشر في OpenAI أو Google بعد — GitOps-first agent deployment أصبح ميزة Claude.</p>
+      <p>للمبدعين العرب: كل agency وstartup تُطلق Claude agents — ant apply migration packages وArabic agent-as-code playbooks وmanaged GitOps retainers فرصة devops premium. «Agent infrastructure as code» vertical ينمو — Anthropic تُكافئ teams التي تُسلّم reviewed agent repos لا one-off dashboards.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من ant apply وثورة GitOps للوكلاء؟</h3>
+        <ul>
+          <li><strong>ant apply migration packages:</strong> dashboard → GitOps conversion — 2500–22000 دولار/مشروع.</li>
+          <li><strong>Managed agent CI/CD pipelines:</strong> PR review + staging + prod — 3500–30000 دولار/عميل.</li>
+          <li><strong>Claude Managed Agents retainers:</strong> skills + memory + deploy — 2000–18000 دولار/شهر.</li>
+          <li><strong>دورات «Deploy Claude Agents as Code with ant apply»:</strong> bootcamp — 49–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">ant CLI</span>
+        <span class="tag">ant apply</span>
+        <span class="tag">Claude Managed Agents</span>
+        <span class="tag">GitOps</span>
+        <span class="tag">Agent as Code</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>AWS MCP Server Serverless: وكيلك يُشخّص Lambda في استدعاء واحد — 7 أيام baseline وtimeline للتغييرات!</h2>
+      <p class="article-lead">«من عشرات API calls إلى MCP call واحد — AWS يُعلّم الوكيل كيف يُصلّح Lambda». في 4 سبتمبر 2026، أضاف <strong>AWS MCP Server</strong> قدرة <strong>serverless</strong> جديدة تُمكّن coding agents مثل Claude Code وKiro من تشخيص مشاكل <strong>AWS Lambda</strong> ومواردها المرتبطة بكفاءة.</p>
+      <p>المشكلة التي حلّتها: agents تستهلك آلاف tokens لاستدعاء APIs متعددة — API Gateway، EventBridge، S3، DynamoDB، SNS، SQS، Step Functions — دون رؤية موحّدة. Serverless capability: inspect function + connected resources، correlate errors ضد <strong>7-day baseline</strong>، surface recurring errors، retrieve deployed config، timeline للتغييرات، analyze latency عبر الموارد.</p>
+      <p>القدرات الأساسية: Agent Toolkit for AWS عبر <strong>aws configure agent-toolkit</strong>؛ MCP Server standalone؛ comprehensive data في call واحد = tokens أقل؛ متاح في US East (N. Virginia) وEurope (Frankfurt)؛ diagnostic capabilities بدون تكلفة إضافية. Integration مع Claude Code وKiro وCodex عبر MCP.</p>
+      <p>للمبدعين العرب: كل فريق serverless في MENA — AWS MCP Serverless setup packages وArabic Lambda troubleshooting playbooks وmanaged serverless ops retainers فرصة cloud premium. «Agent-native serverless ops» vertical ينمو — AWS تُكافئ integrators التي تُسلّم one-call diagnostics لا manual log hunting.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من AWS MCP Serverless وتشخيص Lambda الذكي؟</h3>
+        <ul>
+          <li><strong>AWS MCP Server setup packages:</strong> agent-toolkit + Lambda diagnostics — 2000–20000 دولار/مشروع.</li>
+          <li><strong>Serverless troubleshooting retainers:</strong> 7-day baseline monitoring — 1500–15000 دولار/شهر.</li>
+          <li><strong>Multi-service correlation playbooks:</strong> API Gateway + DynamoDB + SQS — 3000–28000 دولار/عميل.</li>
+          <li><strong>دورات «Serverless Ops with AWS MCP Server»:</strong> bootcamp — 39–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AWS MCP Server</span>
+        <span class="tag">Lambda Diagnostics</span>
+        <span class="tag">Serverless</span>
+        <span class="tag">Claude Code</span>
+        <span class="tag">Agent Toolkit</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>OKF Agent Memory: ذاكرة الوكيل في Git — Markdown + BM25 و80% tokens أقل بدون vector DB!</h2>
+      <p class="article-lead">«كل جلسة تبدأ من الصفر؟ OKF يُخزّن قراراتك في knowledge/ ويُرجعها في 300 ميكروثانية». في 6 سبتمبر 2026، أُطلق <strong>OKF Agent Memory</strong> على GitHub — طبقة ذاكرة دائمة git-native مبنية على <strong>Open Knowledge Format (OKF) v0.2</strong> من Google.</p>
+      <p>المشكلة التي حلّتها: coding agents تفقد architectural decisions وdomain discoveries عند إغلاق context window — vector DBs مكلفة ومعقّدة. OKF: ملفات Markdown + YAML frontmatter في <strong>knowledge/</strong> داخل المستودع؛ version-controlled وauditable بـ git diff وgit log؛ لا databases خارجية ولا embeddings.</p>
+      <p>القدرات الأساسية: بحث lexical BM25 في الذاكرة أقل من <strong>300µs</strong>؛ embedded MCP server (<strong>okf mcp</strong>) لـ Claude Code وCursor وCodex؛ bootstrap بأمر واحد (<strong>okf bootstrap</strong>)؛ CLI للvalidation والsearch؛ MIT licensed؛ zero external dependencies. Claims: 80% token reduction مقارنة بـ re-explaining architecture كل session.</p>
+      <p>للمبدعين العرب: كل فريق engineering وresearch — OKF memory setup packages وArabic knowledge base templates وmanaged agent memory retainers فرصة dev premium. «Git-native agent memory» vertical ينمو — OKF يُكافئ teams التي تُصمّم structured knowledge/ dirs لا ad-hoc notes.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OKF Agent Memory وثورة الذاكرة الدائمة؟</h3>
+        <ul>
+          <li><strong>OKF memory bootstrap packages:</strong> knowledge/ scaffolding + MCP — 1200–12000 دولار/مشروع.</li>
+          <li><strong>Agent memory architecture consulting:</strong> domain-neutral standards — 2000–18000 دولار/عميل.</li>
+          <li><strong>Managed knowledge base retainers:</strong> monthly curation + search tuning — 800–8000 دولار/شهر.</li>
+          <li><strong>دورات «Git-Native Agent Memory with OKF»:</strong> bootcamp — 29–199 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OKF Agent Memory</span>
+        <span class="tag">Git-Native Memory</span>
+        <span class="tag">BM25 Search</span>
+        <span class="tag">MCP Server</span>
+        <span class="tag">Open Knowledge Format</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Claude Commerce Agents: مخطّط Apache-2.0 لوكلاء التسوق والتجارة — retail وtravel وtelecom وentertainment!</h2>
+      <p class="article-lead">«وكيل يشتري ووكيل يُدير المتجر — Anthropic نشرت scaffolding كاملاً مفتوح المصدر». في 2–4 سبتمبر 2026، أعلنت <strong>Anthropic</strong> عن <strong>Claude Commerce Agents</strong> — مخطّط Apache-2.0 على GitHub (<strong>anthropics/commerce-agents</strong>) يُسلّم shopping agent وmerchant agent مع أربعة verticals جاهزة.</p>
+      <p>المشكلة التي حلّتها: فرق commerce agents تُعيد بناء agent loop وtool layer وapproval gates وevaluation suites من الصفر. Blueprint الجديد: agent loop + skills + tool contracts + memory + safety gates + eval harnesses — shopping agent (discovery، purchase research، planning، customer care) وmerchant agent (performance، listings، inventory، pricing، campaigns).</p>
+      <p>القدرات الأساسية: reference implementations لـ <strong>retail</strong> و<strong>travel</strong> و<strong>telecom</strong> و<strong>entertainment</strong>؛ Claude Code plugin للتكييف؛ يعمل على Messages API وClaude Agent SDK وManaged Agents؛ Shopify implementation مع <strong>Universal Commerce Protocol (UCP)</strong>؛ Agentic Commerce Protocol (ACP) مع Stripe للcheckout. Python 3.11+ وNode 22.</p>
+      <p>للمبدعين العرب: كل e-commerce وtravel agency وtelecom في MENA — Commerce Agents customization packages وArabic catalog optimization playbooks وmanaged commerce agent retainers فرصة retail premium. «Agentic commerce infrastructure» vertical ينمو — Anthropic تُكافئ teams التي تُسلّم catalog-ready agents لا generic chatbots.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Claude Commerce Agents واقتصاد الوكلاء التجارية؟</h3>
+        <ul>
+          <li><strong>Commerce Agents customization:</strong> retail/travel vertical setup — 4000–40000 دولار/مشروع.</li>
+          <li><strong>Catalog optimization for agents:</strong> search_products readiness — 2500–25000 دولار/عميل.</li>
+          <li><strong>Shopify UCP integration packages:</strong> storefront agent + checkout — 5000–45000 دولار/متجر.</li>
+          <li><strong>دورات «Build Commerce Agents with Claude Blueprint»:</strong> bootcamp — 59–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Claude Commerce Agents</span>
+        <span class="tag">Shopping Agent</span>
+        <span class="tag">Universal Commerce Protocol</span>
+        <span class="tag">Apache 2.0</span>
+        <span class="tag">Agentic Commerce</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 06-09-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="06-09-2026 -- 08-AM.html">
+          📰 6 سبتمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">ant apply · AWS MCP Serverless · OKF Agent Memory · Claude Commerce Agents</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "06-09-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "أفكar"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
