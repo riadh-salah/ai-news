@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 07-09-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "07-09-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Boomi Agent Control Plane، F5 AI Guardrails مع MuleSoft Agent Fabric، Genesys Cloud Navigator، Cloudmersive Enterprise MCP Server، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 7 سبتمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Boomi Agent Control Plane الذي يُحكم وصول الوكلاء إلى SAP وOracle وSalesforce ويُوقف إنفاق tokens الجامح، إلى F5 AI Guardrails المدمجة في MuleSoft Agent Fabric التي تُفحص كل prompt وresponse في الوقت الفعلي، ومن Genesys Cloud Navigator الذي يُحافظ على سياق رحلة العميل من البداية إلى الحل، إلى Cloudmersive Enterprise MCP Server الذي يُربط الوكلاء بـ SharePoint وOneDrive داخل شبكتك — أربع ثورات تُعيد تشكيل حوكمة الوكلاء وأمان enterprise وتجربة العملاء والاتصال الداخلي في 7 سبتمبر 2026!</h1>
+      <p class="hero-sub">Boomi يُكمل Lunar.dev AI Gateway ويُعرّض 1000+ MCP tool محكوم، F5 وMuleSoft يُضعان الحماية في مسار كل استدعاء LLM، Genesys تُطلق Navigator وOrchestrator وAI Control Plane في Xperience 2026، وCloudmersive يُسلّم MCP self-hosted مع default-deny وper-tool scoping. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 7 سبتمبر 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Boomi Agent Control Plane: حوكمة enterprise للوكلاء — 1000+ MCP tool وإيقاف إنفاق tokens الجامح!</h2>
+      <p class="article-lead">«الوكيل يتصل بـ SAP — لكن من يُراقب ماذا يفعل؟ ومن يوقف الفاتورة عندما يتكرر الاستدعاء 500 مرة؟» في 2–3 سبتمبر 2026، أطلقت <strong>Boomi</strong> <strong>Agent Control Plane</strong> — بنية تحتية AI-native تُحكم وصول الوكلاء إلى أنظمة الأعمال الأساسية وتُدير إنفاق tokens في الوقت الفعلي.</p>
+      <p>المشكلة التي حلّتها: enterprise AI يتوقف عند «فجوة الحوكمة» — agents تتصل بـ ERP وCRM لكن لا أحد يرى live traffic ولا يُطبّق rate limits ولا يُوقف المعاملات عالية المخاطر. Boomi يتموضع بين أي agent (Boomi أو third-party أو open source) وSAP وOracle وSalesforce وWorkday — يفحص traffic، يُطبّق identity policies، ويُعلّق actions التي تحتاج موافقة بشرية.</p>
+      <p>القدرات الأساسية: <strong>Boomi Connect</strong> يُعرّض أنظمة enterprise كـ MCP tools محكومة (1000+)؛ <strong>Boomi AI Gateway</strong> (من Lunar.dev acquisition) كطبقة enforcement؛ deployment على public cloud أو VPC أو on-premises لسيادة البيانات؛ BYOM support لنماذج مفتوحة المصدر؛ fine-grained token budgeting؛ human-in-the-loop للمعاملات transactional عالية المخاطر.</p>
+      <p>للمبدعين العرب: كل bank وtelco وgovernment في MENA يُخطّط agentic AI — Boomi control plane setup packages وArabic governance playbooks وmanaged agent ops retainers فرصة enterprise premium. «Agent governance infrastructure» vertical ينمو — Boomi تُكافئ integrators التي تُسلّم governed agent-to-ERP pipelines لا shadow automations.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Boomi Agent Control Plane وثورة حوكمة الوكلاء؟</h3>
+        <ul>
+          <li><strong>Boomi control plane deployment packages:</strong> MCP gateway + ERP connectors — 10000–80000 دولار/مشروع.</li>
+          <li><strong>Agent governance consulting:</strong> policies + human approval workflows — 5000–50000 دولار/عميل.</li>
+          <li><strong>Managed agent ops retainers:</strong> token monitoring + audit — 3000–30000 دولار/شهر.</li>
+          <li><strong>دورات «Govern Enterprise Agents with Boomi»:</strong> bootcamp — 69–399 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Boomi Agent Control Plane</span>
+        <span class="tag">AI Governance</span>
+        <span class="tag">MCP Gateway</span>
+        <span class="tag">Enterprise Integration</span>
+        <span class="tag">Token Management</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>F5 AI Guardrails + MuleSoft Agent Fabric: أمان inline لكل prompt — حماية Agentforce والتطبيقات المخصصة!</h2>
+      <p class="article-lead">«الوكيل يُنفّذ — لكن prompt injection قد يُسرّب بياناتك قبل أن تلاحظ». في 4 سبتمبر 2026، أعلنت <strong>F5</strong> و<strong>MuleSoft</strong> (Salesforce) عن تكامل يُدمج <strong>F5 AI Guardrails</strong> مباشرة في <strong>Agent Fabric Omni Gateway</strong> — حماية runtime موحّدة لكل استدعاء LLM عبر agentic workflows.</p>
+      <p>المشكلة التي حلّتها: enterprise agents تتوسع عبر نماذج ومنصات متعددة — security teams تُبني guardrails منفصلة لكل stack. Omni Gateway الآن يُوجّه LLM calls إلى <strong>F5 AI Guardrails Scan API</strong> — يفحص inbound prompts وoutbound completions inline قبل invoke أو return.</p>
+      <p>القدرات الأساسية: centralized policy enforcement عبر Agentforce agents وAgent Fabric workflows وتطبيقات AI مخصصة؛ real-time protection ضد malicious prompts وdata leakage؛ enhanced auditability لكل interaction؛ F5 كـ first-class provider في Agent Fabric LLM API؛ consistent runtime security controls عبر multi-model deployments.</p>
+      <p>للمبدعين العرب: كل enterprise يُسرّع agentic AI — F5+MuleSoft integration packages وArabic security policy templates وmanaged AI security retainers فرصة compliance premium. «Inline agent security» vertical ينمو — F5 تُكافئ teams التي تُسلّم protection-in-path لا post-hoc audits.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من F5 AI Guardrails وثورة أمان الوكلاء enterprise؟</h3>
+        <ul>
+          <li><strong>Agent Fabric + F5 integration packages:</strong> Omni Gateway setup — 8000–70000 دولار/مشروع.</li>
+          <li><strong>AI security policy design:</strong> prompt/output guardrails — 4000–40000 دولار/عميل.</li>
+          <li><strong>Managed AI security retainers:</strong> monitoring + incident response — 2500–25000 دولار/شهر.</li>
+          <li><strong>دورات «Secure Agentic Workflows with F5»:</strong> bootcamp — 59–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">F5 AI Guardrails</span>
+        <span class="tag">MuleSoft Agent Fabric</span>
+        <span class="tag">Agent Security</span>
+        <span class="tag">Prompt Injection</span>
+        <span class="tag">Salesforce</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Genesys Cloud Navigator: من intent إلى outcome — orchestration وكيلي لرحلة العميل الكاملة!</h2>
+      <p class="article-lead">«العميل يُعيد شرح مشكلته في كل قناة — Navigator يتذكّر ويُكمل». في 2 سبتمبر 2026، في <strong>Xperience 2026</strong>، أطلقت <strong>Genesys</strong> <strong>Cloud Navigator</strong> و<strong>Cloud Orchestrator</strong> و<strong>Contextual Intelligence</strong> و<strong>AI Control Plane</strong> — foundation وكيلي متكامل لتجربة العملاء (CX) من engagement الأول إلى resolution.</p>
+      <p>المشكلة التي حلّتها: CX agents (AI أو بشر) تفقد context عند handoffs — journeys تتوقف ولا تُستأنف. Navigator يُحافظ على journey state ويُحلّل context وpolicies وguardrails لتحديد next best step — يُحرّك work عبر AI وemployees وsystems مع تغيّر conditions.</p>
+      <p>القدرات الأساسية: <strong>Contextual Intelligence</strong> و<strong>AI Control Plane</strong> متاحان اليوم؛ Navigator GA متوقع Q4 FY2026؛ Orchestrator GA Q1 FY2027؛ centralized discovery وidentity وpolicy وobservability؛ journeys تتوقف وتُستأنف وتتكيف مع outcome focus؛ governance boundaries تُ scale مع autonomy.</p>
+      <p>للمبدعين العرب: كل contact center وbank وe-commerce في MENA — Genesys agentic CX packages وArabic journey design playbooks وmanaged CX automation retainers فرصة service premium. «Agentic customer experience» vertical ينمو — Genesys تُكافئ teams التي تُسلّم connected journeys لا channel silos.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Genesys Cloud Navigator وثورة CX الوكيلي؟</h3>
+        <ul>
+          <li><strong>Genesys agentic CX packages:</strong> Navigator + Orchestrator setup — 6000–60000 دولار/مشروع.</li>
+          <li><strong>Customer journey automation:</strong> multi-channel orchestration — 4000–45000 دولار/عميل.</li>
+          <li><strong>Managed CX agent retainers:</strong> journey optimization — 2000–20000 دولار/شهر.</li>
+          <li><strong>دورات «Build Agentic CX with Genesys»:</strong> bootcamp — 49–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Genesys Cloud Navigator</span>
+        <span class="tag">Agentic CX</span>
+        <span class="tag">Customer Experience</span>
+        <span class="tag">AI Control Plane</span>
+        <span class="tag">Journey Orchestration</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Cloudmersive Enterprise MCP Server: SharePoint وOneDrive و800+ API داخل شبكتك — default-deny وper-tool scoping!</h2>
+      <p class="article-lead">«الوكيل يحتاج ملفات SharePoint — لكن لا أحد يريد بيانات enterprise تخرج إلى SaaS خارجي». في 4 سبتمبر 2026، أطلقت <strong>Cloudmersive</strong> <strong>Enterprise MCP Server</strong> — حل self-hosted يُمكّن AI agents من الاتصال بأنظمة enterprise وAPIs داخلية وCloudmersive capabilities من infrastructure المؤسسة.</p>
+      <p>المشكلة التي حلّتها: agents تحتاج enterprise data لكن cloud MCP servers تُخرج sensitive content خارج network boundary. Cloudmersive MCP: deployment on-premises أو Azure أو AWS أو GCP؛ search في SharePoint وOneDrive عبر Microsoft Graph؛ Cloudmersive API suite (800+ endpoints) كـ MCP tools للأمان والAI والautomation.</p>
+      <p>القدرات الأساسية: <strong>default-deny API-key authentication</strong> — unauthenticated requests لا تُعالَج أبداً؛ multiple keys للsegmentation by agent/team؛ per-tool scoping لgrant/revoke granular؛ كل backing API يُ authenticate بcredentials خاصة؛ enterprise data وtool activity تبقى داخل controlled network.</p>
+      <p>للمبدعين العرب: كل enterprise وgovernment في MENA يُقيّد cloud egress — Cloudmersive MCP deployment packages وArabic SharePoint agent playbooks وmanaged private MCP retainers فرصة security premium. «Self-hosted enterprise MCP» vertical ينمو — Cloudmersive تُكافئ teams التي تُسلّم in-network agent connectivity لا external data leaks.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Cloudmersive Enterprise MCP وثورة الاتصال الداخلي للوكلاء؟</h3>
+        <ul>
+          <li><strong>Enterprise MCP deployment packages:</strong> SharePoint + API suite — 5000–45000 دولار/مشروع.</li>
+          <li><strong>Private agent connectivity consulting:</strong> per-tool scoping + auth — 3500–35000 دولار/عميل.</li>
+          <li><strong>Managed private MCP retainers:</strong> monitoring + key rotation — 1500–15000 دولار/شهر.</li>
+          <li><strong>دورات «Build Private MCP with Cloudmersive»:</strong> bootcamp — 39–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Cloudmersive MCP</span>
+        <span class="tag">Self-Hosted MCP</span>
+        <span class="tag">SharePoint</span>
+        <span class="tag">Enterprise Security</span>
+        <span class="tag">Microsoft Graph</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 07-09-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="07-09-2026 -- 08-AM.html">
+          📰 7 سبتمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Boomi Agent Control Plane · F5 AI Guardrails · Genesys Cloud Navigator · Cloudmersive Enterprise MCP</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "07-09-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "أفكar", "دolار"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
