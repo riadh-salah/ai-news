@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 08-09-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "08-09-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — AWS MCP Server Serverless لتشخيص Lambda، Supernova Editor MCP لأنظمة التصميم الوكيلية، Docusign Agreement Layer MCP للعقود، AIR AI Security بـ 50 مليون دولار، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 8 سبتمبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من AWS MCP Server Serverless الذي يُشخّص Lambda ومواردها المترابطة في استدعاء واحد، إلى Supernova Editor MCP الذي يمنح Cursor وClaude صلاحية الكتابة على أنظمة التصميم، ومن Docusign Agreement Layer MCP الذي يُحوّل العقود إلى طبقة ذكاء قابلة للاستدعاء من أي وكيل، إلى AIR AI Security بـ 50 مليون دولار لحماية سلسلة توريد الوكلاء — أربع ثورات تُعيد تشكيل DevOps الوكيلي وأنظمة التصميم والعقود الذكية وأمن AI في 8 سبتمبر 2026!</h1>
+      <p class="hero-sub">AWS تُضيف قدرة serverless لتشخيص Lambda عبر Agent Toolkit، Supernova تفتح mcp.supernova.io للكتابة على التوثيق والـ tokens، Docusign تُطلق MCP Server عالمياً بمحرك Iris، وAIR تخرج من stealth بـ 50 مليون دولار لمراقبة skills وMCP servers. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 8 سبتمبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>AWS MCP Server Serverless: Claude Code وKiro يُشخّصون Lambda وAPI Gateway وDynamoDB — في استدعاء واحد!</h2>
+      <p class="article-lead">«وكيل الترميز يُجري 12 استدعاء API لمعرفة سبب خطأ Lambda — ويستهلك آلاف tokens بلا نتيجة واضحة». في 4 سبتمبر 2026، أضافت <strong>AWS</strong> قدرة <strong>serverless</strong> إلى <strong>AWS MCP Server</strong>، لتُمكّن وكلاء الترميز مثل Claude Code وKiro من تشخيص مشاكل <strong>Lambda</strong> ومواردها المترابطة بكفاءة استثنائية.</p>
+      <p>المشكلة التي حلّتها: فرق DevOps تعتمد على وكلاء AI لتصحيح serverless stacks، لكن كل resource يتطلب استدعاءات API منفصلة — API Gateway، EventBridge، S3، DynamoDB، SNS، SQS، Step Functions — مما يُربك الوكيل ويُكلف tokens. القدرة الجديدة تُجمّع كل الإشارات في call واحد: مقارنة الأخطاء بـ baseline لـ 7 أيام، تحديد ما تغيّر، استرجاع configuration المنشور، timeline للتغييرات الأخيرة، وتحليل latency عبر الموارد المترابطة.</p>
+      <p>القدرات الأساسية: متاح عبر Agent Toolkit for AWS أو تثبيت standalone؛ يعمل في جميع المناطق التجارية لـ AWS بينما يُشغّل MCP Server في US East (N. Virginia) وEurope (Frankfurt)؛ بدون تكلفة إضافية؛ البدء عبر <code>aws configure agent-toolkit</code> أو تفعيل MCP Server مباشرة.</p>
+      <p>للمبدعين العرب: كل startup وenterprise في MENA تُشغّل serverless على AWS — AWS MCP serverless diagnostic packages وArabic Lambda troubleshooting playbooks وmanaged serverless ops retainers فرصة DevOps premium. «Agentic serverless diagnostics» vertical ينمو — AWS تُكافئ integrators التي تُسلّم one-call root cause analysis لا multi-API orchestration.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من AWS MCP Server Serverless وثورة تشخيص Lambda الوكيلي؟</h3>
+        <ul>
+          <li><strong>AWS MCP serverless diagnostic packages:</strong> Agent Toolkit setup + Lambda playbooks — 4000–30000 دولار/مشروع.</li>
+          <li><strong>Serverless troubleshooting consulting:</strong> baseline monitoring + agent workflows — 3000–25000 دولار/عميل.</li>
+          <li><strong>Managed serverless ops retainers:</strong> 7-day error correlation + incident response — 2000–15000 دولار/شهر.</li>
+          <li><strong>دورات «Diagnose Lambda with AWS MCP Server»:</strong> bootcamp — 39–199 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AWS MCP Server</span>
+        <span class="tag">Serverless Diagnostics</span>
+        <span class="tag">Lambda Troubleshooting</span>
+        <span class="tag">Claude Code</span>
+        <span class="tag">Agent Toolkit</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Supernova Editor MCP: Cursor وClaude وVS Code يكتبون على أنظمة التصميم — أول خطوة نحو design system وكيلي بالكامل!</h2>
+      <p class="article-lead">«الوكيل يقرأ توثيق design system — لكنه لا يستطيع تحديث token أو component أو pipeline». في 1 سبتمبر 2026، أطلقت <strong>Supernova</strong> <strong>Editor MCP</strong> في public beta — أول MCP يمنح أدوات AI التي تستخدمها يومياً صلاحية <strong>الكتابة</strong> على Supernova: documentation، tokens، components، files، skills، contexts، pipelines.</p>
+      <p>المشكلة التي حلّتها: MCP servers سابقاً كانت read-only — الوكلاء «متفرجون مطّلعون» لا مشغّلين. Editor MCP يُغيّر المعادلة: URL واحد <strong>https://mcp.supernova.io/mcp</strong> يتصل من Cursor أو Claude أو VS Code أو Codex أو ChatGPT؛ عند تسجيل الدخول تختار design system للكتابة أو context للقراءة فقط؛ documentation skills مدمجة في الـ server.</p>
+      <p>القدرات الأساسية: public beta مجاني — لا يستهلك Workspace credits حالياً؛ bulk edits وaudits وتنظيف documentation backlog أصبحت ممكنة عبر محادثة؛ Supernova تُمهّد لـ «fully agentic design system» حيث البشر يحددون الحدود — ما يُنفّذ بلا إشراف، ما يحتاج review، ما يبقى قراراً بشرياً.</p>
+      <p>للمبدعين العرب: كل design team وproduct company في MENA تُدير design tokens — Supernova Editor MCP setup packages وArabic design system audit playbooks وmanaged design ops retainers فرصة design engineering premium. «Agentic design system operations» vertical ينمو — Supernova تُكافئ teams التي تُسلّم write-enabled design governance لا read-only documentation bots.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Supernova Editor MCP وثورة أنظمة التصميم الوكيلية؟</h3>
+        <ul>
+          <li><strong>Supernova Editor MCP integration packages:</strong> Cursor/Claude connectors + token sync — 3500–28000 دولار/مشروع.</li>
+          <li><strong>Design system automation consulting:</strong> documentation audit + bulk cleanup — 2500–22000 دولار/عميل.</li>
+          <li><strong>Managed design ops retainers:</strong> token governance + agent monitoring — 1800–14000 دولار/شهر.</li>
+          <li><strong>دورات «Build Agentic Design Systems with Supernova MCP»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Supernova Editor MCP</span>
+        <span class="tag">Design Systems</span>
+        <span class="tag">Agentic Design</span>
+        <span class="tag">Design Tokens</span>
+        <span class="tag">Cursor Integration</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Docusign Agreement Layer MCP: Claude وChatGPT وGemini وCopilot يُديرون العقود — agreement intelligence من أي وكيل!</h2>
+      <p class="article-lead">«الوكيل يُعدّ مسودة العقد — لكنه لا يستطيع إرسالها أو تتبعها أو تحليل بنودها ضمن governance enterprise». في 4 سبتمبر 2026، أعلنت <strong>Docusign</strong> (Nasdaq: DOCU) أن <strong>MCP Server</strong> سيصبح متاحاً عالمياً لكل وكيل AI في 30 سبتمبر — <strong>Agreement Layer for the Agentic Enterprise</strong> مدعوماً بمحرك <strong>Docusign Iris</strong>.</p>
+      <p>المشكلة التي حلّتها: enterprise AI يحتاج الوصول لـ agreement intelligence — تحليل terms، إرسال، تتبع، CLM workflows — لكن كل integration كان مخصصاً. Docusign MCP يُمدّد 20 عاماً من API-first platform: agents تستدعي agreement context — past negotiations، accepted terms، clauses، company policy — عبر Iris natively من Claude أو ChatGPT أو Gemini أو Copilot أو Slack أو أي MCP client.</p>
+      <p>القدرات الأساسية: admin controls على مستوى الحساب؛ بنية multi-region عالمية؛ دعم متعدد اللغات؛ eSignature مدمج في أكثر من 1100 تطبيق شريك؛ يُزيل handoffs بين CRM مثل Oracle وSlack وDocusign — contract analysis وsending وtracking داخل workflow الوكيل نفسه.</p>
+      <p>للمبدعين العرب: كل bank وlegaltech وreal estate وHR في MENA تُدير عقوداً — Docusign MCP integration packages وArabic contract agent playbooks وmanaged agreement automation retainers فرصة legal ops premium. «Agentic agreement management» vertical ينمو — Docusign تُكافئ integrators التي تُسلّم governed contract workflows لا draft-only chatbots.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Docusign Agreement Layer MCP وثورة العقود الوكيلية؟</h3>
+        <ul>
+          <li><strong>Docusign MCP integration packages:</strong> Claude/Gemini/Slack connectors — 5000–45000 دولار/مشروع.</li>
+          <li><strong>Agreement automation consulting:</strong> Iris-powered contract workflows — 4000–35000 دولار/عميل.</li>
+          <li><strong>Managed agreement ops retainers:</strong> send/track/analyze dashboards — 2500–20000 دولار/شهر.</li>
+          <li><strong>دورات «Automate Contracts with Docusign MCP»:</strong> bootcamp — 59–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Docusign MCP</span>
+        <span class="tag">Agreement Layer</span>
+        <span class="tag">Docusign Iris</span>
+        <span class="tag">Contract Automation</span>
+        <span class="tag">Agentic Enterprise</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>AIR AI Security: 50 مليون دولار لحماية سلسلة توريد الوكلاء — 27% من الإضافات تُرفض تلقائياً!</h2>
+      <p class="article-lead">«الوكيل يثبت skill من مصدر مجهول — ولا أحد يتحقق منه كما نتحقق من device driver». في 7 سبتمبر 2026، خرجت <strong>AIR</strong> من stealth بـ <strong>50 مليون دولار</strong> عبر جولتين seed — 10 مليون بقيادة Sequoia و40 مليون بقيادة Greenoaks — لبناء منصة تُراقب ecosystem الـ skills والـ plug-ins و<strong>MCP servers</strong> التي يستخدمها AI agents.</p>
+      <p>المشكلة التي حلّتها: AI agents أصبحت «أنظمة تشغيل» داخل الشركات، لكن الأدوات والإضافات التي تتصل بها تفتقر لـ verification rigor. منصة AIR تكتشف agents نشطة عبر البيئة، تُعلّم استخدام أدوات AI غير معتمدة، وتُطبّق security checks في real time — whitelist محدّث باستمرار يُصفّي حوالي 27% من الإضافات التي تُقيَّم.</p>
+      <p>القدرات الأساسية: أكثر من 20 عميلاً — أقوى طلب من financial services وpharmaceuticals؛ founders: Yair Saban (CEO) وNiv Hoffman (CTO) من Unit 8200؛ ~40 موظفاً؛ يتنافس مع Zenity وNoma Security وAstrix Security وOperant AI؛ Sequoia partner Bogomil Balkansky يصف التحدي كـ «continuous infrastructure problem» لا مهمة scanning بسيطة.</p>
+      <p>للمبدعين العرب: كل bank وinsurance وpharma في MENA تُطلق production agents — AIR integration packages وArabic agent supply chain audit playbooks وmanaged AI security retainers فرصة cybersecurity premium. «Agent supply chain security» vertical ينمو — AIR تُكافئ teams التي تُسلّم whitelist governance وreal-time tool screening لا reactive incident response only.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من AIR AI Security وثورة أمن سلسلة توريد الوكلاء؟</h3>
+        <ul>
+          <li><strong>AIR agent security integration packages:</strong> discovery + whitelist setup — 8000–55000 دولار/مشروع.</li>
+          <li><strong>Agent supply chain audit consulting:</strong> MCP/skills risk assessment — 5000–40000 دولار/عميل.</li>
+          <li><strong>Managed AI security retainers:</strong> real-time tool screening + compliance — 3000–25000 دولار/شهر.</li>
+          <li><strong>دورات «Secure AI Agent Supply Chains with AIR»:</strong> bootcamp — 69–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AIR AI Security</span>
+        <span class="tag">Agent Supply Chain</span>
+        <span class="tag">MCP Security</span>
+        <span class="tag">Seed Funding</span>
+        <span class="tag">Enterprise AI Trust</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 08-09-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="08-09-2026 -- 12-AM.html">
+          📰 8 سبتمبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">AWS MCP Serverless · Supernova Editor MCP · Docusign Agreement Layer · AIR AI Security</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "08-09-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "أفكar", "دolار"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
