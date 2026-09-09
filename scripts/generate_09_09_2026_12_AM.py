@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 09-09-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "09-09-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — context-mode MCP يُقلّص سياق الوكلاء 98%، Tenably AI زميل تسويق وكيلي، Phonely Alma نموذج صوتي بعد 10 ملايين مكالمة، Tealium Configuration MCP لسياق العملاء المُحكَم، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 9 سبتمبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من context-mode الذي يُبتر سياق وكلاء البرمجة 98% عبر MCP ويحتل #1 على Hacker News، إلى Tenably AI الذي يُحوّل «أهداف التسويق» إلى حملات منفّذة عبر قنوات متعددة، ومن Phonely Alma — نموذج صوتي مُدرَّب على 10 ملايين مكالمة حقيقية، إلى Tealium Configuration MCP الذي يُسلّم سياق العملاء المُحكَم لأي منصة AI — أربع ثورات تُعيد تشكيل هندسة السياق والتسويق الوكيلي والصوت والبيانات في 9 سبتمبر 2026!</h1>
+      <p class="hero-sub">context-mode يُحقق 20,900+ نجمة على GitHub بخفض 315 KB إلى 5.4 KB، Tenably AI يُطلق Marketing Teammate الذي ينفّذ لا يُخطّط فقط، Phonely تفتح Alma لفرق voice agents بعد إثباتها داخلياً، وTealium تُطلق Configuration MCP + APIs لربط بيانات العملاء بالوكلاء دون فقدان الحوكمة. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 9 سبتمبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>context-mode: MCP يُبتر سياق وكلاء البرمجة 98% — 20,900 نجمة و#1 على Hacker News!</h2>
+      <p class="article-lead">«Claude Code يأكل 33 ألف token عند الإقلاع — والجلسة تموت قبل أن تُنهي الميزة». في 7 سبتمبر 2026، تجاوز مشروع <strong>context-mode</strong> — خادم MCP مفتوح المصدر مكتوب بـ TypeScript — <strong>20,900 نجمة</strong> على GitHub (+96 في يوم واحد) واحتل <strong>#1 على Hacker News</strong> بـ 570+ نقطة، بحلّ مشكلة «انتفاخ السياق» التي تُقتل وكلاء البرمجة.</p>
+      <p>المشكلة التي حلّتها: وكلاء البرمجة (Claude Code، Cursor، Copilot CLI، Gemini CLI و14 منصة أخرى) يغرقون نافذة السياق بمخرجات الأدوات الخام — 315 KB تصبح 5.4 KB، أي <strong>خفض 98%</strong>. context-mode يعمل كـ middleware بين الوكيل وأدواته: sandboxing لمخرجات الأدوات، ذاكرة جلسة في SQLite، واسترجاع BM25 بعد compaction بدلاً من إعادة dump كل شيء.</p>
+      <p>القدرات الأساسية: 11 أداة MCP — <code>ctx_execute</code> ينفّذ كوداً في 12 لغة ويدخل stdout فقط للسياق، <code>ctx_search</code> يستعلم المعرفة المُفهرسة، hooks تُفرض routing؛ ترخيص Elastic v2 — مجاني للاستخدام والتفرع؛ <code>npm install -g context-mode</code> ثم تسجيله كـ MCP server — integration في دقائق.</p>
+      <p>للمبدعين العرب: كل فريق dev وagency وfreelancer يستخدم وكلاء برمجة يعاني context exhaustion — context-mode integration packages وArabic agent optimization playbooks وmanaged context engineering retainers فرصة DevTools premium. «Context engineering infrastructure» vertical ينمو — 20k+ stars يُشير أن category definition بدأت الآن.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من context-mode وثورة هندسة السياق؟</h3>
+        <ul>
+          <li><strong>Context-mode MCP integration packages:</strong> agent + middleware setup — 4000–35000 دولار/مشروع.</li>
+          <li><strong>Agent context optimization consulting:</strong> token reduction + session memory — 3000–28000 دولار/عميل.</li>
+          <li><strong>Managed context engineering retainers:</strong> monitoring + compaction tuning — 2000–18000 دولار/شهر.</li>
+          <li><strong>دورات «Context Engineering for AI Agents»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">context-mode</span>
+        <span class="tag">MCP Server</span>
+        <span class="tag">Context Engineering</span>
+        <span class="tag">Coding Agents</span>
+        <span class="tag">Open Source</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Tenably AI: زميل تسويق وكيلي ينفّذ الحملات — لا dashboard ولا copilot!</h2>
+      <p class="article-lead">«الـ brief جاهز — لكن التنفيذ عبر 7 أدوات يأخذ أسبوعين». في 2 سبتمبر 2026، أطلقت <strong>Tenably AI</strong> <strong>Marketing Teammate</strong> — وكيل تسويقي يخطّط ويُنشئ وينفّذ ويدير حملات cross-channel من أهداف بلغة طبيعية — ليس copilot يُقترح، بل <strong>عامل يُنفّذ</strong>.</p>
+      <p>المشكلة التي حلّتها: فرق التسويق تغرق في dashboards وcopilots تُولّد نصوصاً — لكن التنفيذ الفعلي (scheduling، A/B testing، budget allocation، channel coordination) يبقى يدوياً. Tenably يُقدّم agentic teammate: تُعطيه objective («زِد leads من LinkedIn 30% هذا الربع») — يخطّط، يُنشئ assets، ينفّذ، ويدير — human-in-the-loop عند نقاط approval فقط.</p>
+      <p>القدرات الأساسية: cross-channel execution من natural-language objectives؛ positioning كـ «hands-on worker» لا analytics layer؛ early signal أن marketing teams = first home لـ autonomous workflows في enterprise؛ السؤال المفتوح: كم خطوة ينفّذ قبل human step-in — لكن category definition واضحة.</p>
+      <p>للمبدعين العرب: كل agency وe-commerce وSME في MENA يحتاج marketing execution أسرع — Tenably-inspired agent stacks وArabic campaign automation playbooks وmanaged marketing agent retainers فرصة MarTech premium. «Agentic marketing execution» vertical ينمو — window مفتوح للintegrators قبل consolidation.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Tenably AI وثورة التسويق الوكيلي؟</h3>
+        <ul>
+          <li><strong>Marketing agent stack packages:</strong> campaign automation + channel integration — 5000–45000 دولار/مشروع.</li>
+          <li><strong>Agentic MarTech consulting:</strong> workflow design + approval gates — 3500–32000 دولار/عميل.</li>
+          <li><strong>Managed marketing agent retainers:</strong> campaign ops + optimization — 2500–22000 دولار/شهر.</li>
+          <li><strong>دورات «Build Agentic Marketing Workflows»:</strong> bootcamp — 59–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Tenably AI</span>
+        <span class="tag">Marketing Teammate</span>
+        <span class="tag">Agentic Marketing</span>
+        <span class="tag">Cross-Channel</span>
+        <span class="tag">MarTech</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Phonely Alma: نموذج صوتي مُدرَّب على 10 ملايين مكالمة — مفتوح لفرق voice agents!</h2>
+      <p class="article-lead">«الـ voice agent يتقطع عند كل ضجيج — والعميل يغلق». في 4 سبتمبر 2026، أطلقت <strong>Phonely</strong> <strong>Alma</strong> — نموذج لغة كبير مُبنى خصيصاً لـ <strong>voice agents</strong>، مُدرَّب على أكثر من <strong>10 ملايين محادثة هاتفية حقيقية</strong> — ويفتحه الآن لفرق أخرى بعد إثباته داخلياً على نطاق واسع.</p>
+      <p>المشكلة التي حلّتها: نماذج LLM العامة تفشل في المكالمات الحقيقية — interruptions، background speech، transcription errors، latency. Alma مُصمَّم لهذا: يتعامل مع المقاطعات، الضجيج الخلفي، وأخطاء التفريغ — مُختبر على 10M+ call قبل الإطلاق العام.</p>
+      <p>القدرات الأساسية: built for voice agents لا chatbots؛ trained on real phone conversations at scale؛ Phonely تفتح النموذج لـ external teams — signal أن voice AI infrastructure ينضج؛ use cases: customer support، sales calls، appointment booking، IVR replacement — أي business يعتمد على الهاتف.</p>
+      <p>للمبدعين العرب: call centers وbanks وhealthcare وreal estate في MENA = massive phone volume — Alma integration packages وArabic voice agent playbooks وmanaged voice AI retainers فرصة voice premium. «Production-grade voice LLM» vertical ينمو — 10M calls proof يُشير product-market fit حقيقي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Phonely Alma وثورة voice agents؟</h3>
+        <ul>
+          <li><strong>Voice agent integration packages:</strong> Alma + telephony stack — 6000–50000 دولار/مشروع.</li>
+          <li><strong>Voice AI consulting:</strong> call flow design + interruption handling — 4000–38000 دولار/عميل.</li>
+          <li><strong>Managed voice agent retainers:</strong> monitoring + optimization — 3000–25000 دولار/شهر.</li>
+          <li><strong>دورات «Build Production Voice Agents with Alma»:</strong> bootcamp — 69–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Phonely</span>
+        <span class="tag">Alma</span>
+        <span class="tag">Voice AI</span>
+        <span class="tag">Voice Agents</span>
+        <span class="tag">LLM</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Tealium Configuration MCP: سياق العملاء المُحكَم لأي منصة AI — واجهة طبيعية + APIs!</h2>
+      <p class="article-lead">«الوكيل يريد بيانات العملاء — لكن compliance يقول لا بدون governance». في سبتمبر 2026، أعلنت <strong>Tealium</strong> عن <strong>Configuration MCP</strong> — واجهة بلغة طبيعية في Tealium Studio — بالإضافة إلى <strong>platform APIs</strong> جديدة عبر developer portal، لربط أدوات AI ببيانات العملاء وإعدادات المنصة <strong>دون فقدان الحوكمة</strong>.</p>
+      <p>المشكلة التي حلّتها: enterprise AI tools تحتاج customer data وplatform settings — لكن فتح البيانات للوكلاء = risk (PII leakage، consent violations، audit gaps). Tealium تُقدّم governed access: Configuration MCP يتيح natural-language interface لإعدادات المنصة، وAPIs تفتح programmatic access — كلاهما مع governance layer مُدمج.</p>
+      <p>القدرات الأساسية: Configuration MCP في Tealium Studio — AI tools تعمل مع customer data بدون losing governance؛ platform APIs عبر developer portal — programmatic + conversational access؛ signal أن CDP/customer data platforms تتحول إلى MCP endpoints؛ Tealium توسّع agentic capabilities — governed customer context لأي AI platform.</p>
+      <p>للمبدعين العرب: كل enterprise وbank وretailer في MENA يحتاج AI + customer data + compliance — Tealium-style governed MCP packages وArabic CDP agent playbooks وmanaged data governance retainers فرصة enterprise premium. «Governed customer context for agents» vertical ينمو — CDP vendors تُصبح MCP infrastructure.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Tealium Configuration MCP وثورة سياق العملاء المُحكَم؟</h3>
+        <ul>
+          <li><strong>Governed MCP integration packages:</strong> CDP + agent workflows — 7000–55000 دولار/مشروع.</li>
+          <li><strong>Customer data governance consulting:</strong> consent + audit + agent access — 5000–42000 دولار/عميل.</li>
+          <li><strong>Managed CDP agent retainers:</strong> context provisioning + compliance — 3500–28000 دولار/شهر.</li>
+          <li><strong>دورات «Governed Customer Context for AI Agents»:</strong> bootcamp — 59–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Tealium</span>
+        <span class="tag">Configuration MCP</span>
+        <span class="tag">Customer Data</span>
+        <span class="tag">Governance</span>
+        <span class="tag">CDP</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 09-09-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="09-09-2026 -- 12-AM.html">
+          📰 9 سبتمبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">context-mode MCP · Tenably AI Marketing · Phonely Alma · Tealium Configuration MCP</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "09-09-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "أفكar", "دolار"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
