@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 09-09-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "09-09-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Backblaze B2 MCP لتخزين سحابي آمن للوكلاء، Splunk MCP 2.0 مُثبّت مسبقاً في Splunk Cloud 10.6، GitHub MCP 1.12.0 حوكمة enterprise للوكلاء، Lightsage Agent-Led Growth بـ 4 ملايين دولار، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 9 سبتمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Backblaze B2 MCP الذي يُسلّم 40 أداة تخزين سحابي للوكلاء بمفاتيح محدودة النطاق ونقرة واحدة، إلى Splunk MCP 2.0 المُثبّت جاهزاً في Splunk Cloud 10.6 مع SPL2 وfederated search، ومن GitHub MCP 1.12.0 الذي يُضمّن rulesets وحوكمة enterprise مباشرة في طبقة البروتوكول، إلى Lightsage — 4 ملايين دولار لبناء «Agent-Led Growth» حيث الوكيل هو عميلك الجديد — أربع ثورات تُعيد تشكيل التخزين السحابي والمراقبة والحوكمة ونمو المنتجات في 9 سبتمبر 2026!</h1>
+      <p class="hero-sub">Backblaze تُطلق b2-mcp.mcpb بنقرة واحدة في Claude Desktop، Splunk تُسلّم MCP 2.0 مع alert tools وSPL2 عبر federated providers، GitHub يُضيف governance tooling وrulesets management على مستوى enterprise، وLightsage بقيادة Nexus Venture Partners تُموّل منصة simulations لمساعدة SaaS على «البيع للوكلاء». أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 9 سبتمبر 2026</span>
+        <span>🌙 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Backblaze B2 MCP: 40 أداة تخزين سحابي للوكلاء — مفاتيح محدودة النطاق ونقرة واحدة في Claude!</h2>
+      <p class="article-lead">«الوكيل يحتاج ملفات — لكن من يُعطيه master key؟». في 8 سبتمبر 2026، أعلنت <strong>Backblaze</strong> عن <strong>Backblaze B2 MCP Server</strong> — خادم MCP مفتوح المصدر يُتيح للوكلاء إدارة <strong>B2 Cloud Storage</strong> بطريقة آمنة ومعيارية، عبر B2 Native API وS3 Compatible API وstorage analytics.</p>
+      <p>المشكلة التي حلّتها: الوكلاء تحتاج قراءة وكتابة ملفات في السحابة — لكن إعطاء credentials كاملة = مخاطرة أمنية. B2 MCP Server يُطبّق <strong>scoped application keys</strong> وpolicy settings على مستوى الخادم — لا تُعرّض كل الأدوات لكل وكيل. destructive operations محمية، ونفس credentials وtransfer path يعمل عبر Claude Desktop وCursor وCopilot.</p>
+      <p>القدرات الأساسية: حتى <strong>40 أداة</strong> عبر B2 Native وS3 APIs وanalytics؛ تثبيت <strong>b2-mcp.mcpb</strong> بنقرة مزدوجة في Claude Desktop — بدون config files؛ surface يتكيّف مع connected key؛ open source — نفس implementation لكل MCP clients؛ webinar وdocumentation للworkflow الكامل.</p>
+      <p>للمبدعين العرب: كل startup AI وagency وSaaS في MENA يحتاج agent-safe cloud storage — B2 MCP integration packages وArabic storage agent playbooks وmanaged backup automation retainers فرصة infrastructure premium. «Agent-safe object storage» vertical ينمو — Backblaze تُثبت أن cloud storage = next MCP category بعد dev tools.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Backblaze B2 MCP وثورة التخزين السحابي للوكلاء؟</h3>
+        <ul>
+          <li><strong>B2 MCP integration packages:</strong> scoped keys + agent setup + backup workflows — 3500–32000 دولار/مشروع.</li>
+          <li><strong>Agent-safe storage consulting:</strong> policy design + destructive op guardrails — 2500–22000 دولار/عميل.</li>
+          <li><strong>Managed cloud storage automation:</strong> B2 + MCP clients + monitoring — 1800–15000 دولار/شهر.</li>
+          <li><strong>دورات «Build Agent-Safe Cloud Storage with B2 MCP»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Backblaze B2</span>
+        <span class="tag">MCP Server</span>
+        <span class="tag">Cloud Storage</span>
+        <span class="tag">Agent Security</span>
+        <span class="tag">Open Source</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Splunk MCP 2.0: مُثبّت جاهزاً في Splunk Cloud 10.6 — SPL2 وfederated search وalert tools للوكلاء!</h2>
+      <p class="article-lead">«الوكيل يسأل عن alerts — لكن Splunk يحتاج 3 أيام setup». في 8 سبتمبر 2026، أعلنت <strong>Splunk</strong> عن <strong>Splunk MCP Server 2.0</strong> — الآن <strong>مُثبّت مسبقاً</strong> مع Splunk Cloud 10.6، يُتيح للوكلاء البحث عبر مصادر متعددة واكتشاف indexes تلقائياً ومراجعة alerts — مع حوكمة كاملة للمسؤولين.</p>
+      <p>المشكلة التي حلّتها: observability data ضخمة — الوكلاء تحتاج query وalert reasoning لكن Splunk setup معقد. MCP 2.0 = layer تحت Splunk AI Assistant وAI Canvas وEnterprise Security وITSI — configure access مرة واحدة، connect clients. Admins يتحكمون عبر login-based security وpermission rules وsafe search command lists وactivity logs.</p>
+      <p>القدرات الأساسية: <strong>out of the box</strong> مع Splunk Cloud 10.6 — لا downloads؛ SPL2 search عبر <strong>federated providers</strong>؛ auto-discover indexes؛ alert estate reasoning؛ custom tools من فريقك؛ governance كامل — agents سريعة، admins في control؛ path أقصر لبقية Splunk AI portfolio.</p>
+      <p>للمبدعين العرب: كل enterprise وfintech وtelecom في MENA يستخدم observability — Splunk MCP integration packages وArabic security ops agent playbooks وmanaged SIEM automation retainers فرصة enterprise premium. «Observability MCP infrastructure» vertical ينمو — Splunk preinstall signal أن enterprise observability = standard agent capability.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Splunk MCP 2.0 وثورة المراقبة الوكيلية؟</h3>
+        <ul>
+          <li><strong>Splunk MCP integration packages:</strong> Cloud 10.6 + agent clients + alert workflows — 8000–65000 دولار/مشروع.</li>
+          <li><strong>Security ops agent consulting:</strong> SPL2 queries + governance design — 5000–45000 دولار/عميل.</li>
+          <li><strong>Managed observability automation:</strong> alert reasoning + incident response agents — 3500–28000 دولار/شهر.</li>
+          <li><strong>دورات «Build Security Ops Agents with Splunk MCP 2.0»:</strong> bootcamp — 59–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Splunk MCP 2.0</span>
+        <span class="tag">Observability</span>
+        <span class="tag">SPL2</span>
+        <span class="tag">Enterprise Security</span>
+        <span class="tag">SIEM</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>GitHub MCP 1.12.0: حوكمة enterprise مُضمّنة في طبقة البروتوكول — rulesets وcustom properties للوكلاء!</h2>
+      <p class="article-lead">«الوكيل يُعدّل repo — لكن من يُطبّق org policy؟». في 4 سبتمبر 2026، أطلقت <strong>GitHub</strong> <strong>GitHub MCP Server v1.12.0</strong> — release يُضيف <strong>governance tooling</strong> للوكلاء: قراءة وإدارة repository rulesets وcustom properties على مستوى repo وorganization وenterprise — policy controls مُضمّنة في MCP layer.</p>
+      <p>المشكلة التي حلّتها: AI agents في GitHub workflows تحتاج write access — لكن enterprise policy (branch protection، merge rules، label requirements) يجب أن تُطبّق تلقائياً. v1.12.0 يُضيف functional availability rules (lazy evaluation بعد static filtering)، safer write operations (pin merge HEADs، recover file SHAs، least-privilege public-repo access، detect dropped labels)، وricher review support (range coordinates، thread resolution reasons).</p>
+      <p>القدرات الأساسية: governance tools للـ rulesets وcustom properties؛ enterprise-level policy embedding؛ safer agent writes؛ review وdiscovery extensions؛ signal أن MCP layer = place for org guardrails — agents operate within policy لا خارجها؛ shift من «agent with token» إلى «agent with governance».</p>
+      <p>للمبدعين العرب: كل dev team وplatform engineering في MENA يستخدم GitHub — GitHub MCP governance packages وArabic DevOps agent playbooks وmanaged code automation retainers فرصة developer tools premium. «Governance-first agent DevOps» vertical ينمو — GitHub يُثبت أن enterprise agents تحتاج policy في protocol layer.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من GitHub MCP 1.12.0 وثورة حوكمة الوكلاء؟</h3>
+        <ul>
+          <li><strong>GitHub MCP governance packages:</strong> rulesets + agent setup + approval workflows — 5000–42000 دولار/مشروع.</li>
+          <li><strong>Enterprise agent DevOps consulting:</strong> policy design + safe write patterns — 4000–38000 دولار/عميل.</li>
+          <li><strong>Managed code automation retainers:</strong> PR agents + review workflows + compliance — 3000–25000 دولار/شهر.</li>
+          <li><strong>دورات «Build Governance-First GitHub Agents with MCP 1.12.0»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">GitHub MCP</span>
+        <span class="tag">Governance</span>
+        <span class="tag">Rulesets</span>
+        <span class="tag">DevOps</span>
+        <span class="tag">Enterprise</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Lightsage: 4 ملايين دولار لـ Agent-Led Growth — عندما يصبح الوكيل عميلك الجديد!</h2>
+      <p class="article-lead">«SEO مات — من يُبيع لـ Claude Code؟». في 8 سبتمبر 2026، أعلنت <strong>Lightsage</strong> — startup من San Francisco — عن <strong>4 ملايين دولار seed</strong> بقيادة <strong>Nexus Venture Partners</strong> لبناء <strong>Agent-Led Growth</strong>: منصة تُساعد شركات البرمجيات على النمو عبر <strong>استهداف AI agents</strong> كعملاء — لا humans فقط.</p>
+      <p>المشكلة التي حلّتها: coding agents (Claude Code، Codex، Cursor، Copilot) «يتسوقون» لأدوات — لكن SaaS لا يعرف كيف يظهر أمامهم. Lightsage تُشغّل simulations عبر answer engines وتُعطي agents مهام integration حقيقية، تقيس visibility مقارنة بالمنافسين، ثم تُجبر agent على استخدام منتجك — attribution وevaluation وoptimization.</p>
+      <p>القدرات الأساسية: simulations عبر Claude Code، Codex، Cursor، GitHub Copilot، OpenCode؛ customers: Firecrawl، Reducto، Daytona، Rime، Tinyfish؛ concept جديد: <strong>agent = customer</strong>؛ expansion planned: APIs، SDKs، CLIs، agent skills، B2B SaaS، cloud infra، payments؛ angels: Steven Tamm (ex-Salesforce CTO)، Abhinav Asthana (Postman CEO)، Robert Chatwani (DocuSign President).</p>
+      <p>للمبدعين العرب: كل SaaS وAPI وdeveloper tool في MENA يحتاج agent visibility — Lightsage-style ALG consulting وArabic agent discoverability audits وmanaged agent growth retainers فرصة growth premium. «Agent-Led Growth» category جديد — window مفتوح للconsultants قبل category ينضج.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Lightsage وثورة Agent-Led Growth؟</h3>
+        <ul>
+          <li><strong>Agent discoverability audits:</strong> simulation + visibility report + optimization plan — 3000–28000 دولار/مشروع.</li>
+          <li><strong>ALG strategy consulting:</strong> API/SDK positioning for agents — 4000–35000 دولار/عميل.</li>
+          <li><strong>Managed agent growth retainers:</strong> ongoing simulations + attribution — 2500–20000 دولار/شهر.</li>
+          <li><strong>دورات «Sell Your SaaS to AI Agents — Agent-Led Growth Playbook»:</strong> bootcamp — 59–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Lightsage</span>
+        <span class="tag">Agent-Led Growth</span>
+        <span class="tag">SaaS</span>
+        <span class="tag">Developer Tools</span>
+        <span class="tag">Seed Funding</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 09-09-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="09-09-2026 -- 04-PM.html">
+          📰 9 سبتمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Backblaze B2 MCP · Splunk MCP 2.0 · GitHub MCP 1.12.0 · Lightsage ALG</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "09-09-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "أفكar", "دolار"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
