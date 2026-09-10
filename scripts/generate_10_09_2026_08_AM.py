@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 10-09-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "10-09-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — M11 Labs OpenMarket لثقة التجارة الوكيلية، COEY GroundSlate محرّر فيديو MCP بدون timeline، Mastercard Agent Connect للتسوق بالوكلاء، Phony.ai منصة صوت AI محايدة للمزودين، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 10 سبتمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من M11 Labs OpenMarket الذي يُتحقق من كل claim قبل أن يُوصي الوكيل بمنتج، إلى COEY GroundSlate الذي يُحرّر فيلمك كاملاً عبر 385 أداة MCP محلية بدون timeline، ومن Mastercard Agent Connect الذي يُمكّن التاجر من دخول كل منصات التسوق بالوكلاء بربط واحد، إلى Phony.ai — منصة صوت AI تختار فيها carrier وLLM وvoice بنفسك — أربع ثورات تُعيد تشكيل ثقة التجارة الوكيلية والإبداع المرئي والمدفوعات والاتصالات في 10 سبتمبر 2026!</h1>
+      <p class="hero-sub">M11 Labs تُطلق OpenMarket على Universal Commerce Protocol مع Verifiability Index، COEY تُقدّم GroundSlate مجاناً على Apple Silicon، Mastercard تُطلق Agent Connect وAgent Pay للتسوق بالوكلاء، وPhony.ai تُطلق منصة voice agent محايدة للمزودين. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 10 سبتمبر 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>M11 Labs OpenMarket: سوق وكيلي حيّ — كل claim يُتحقق منه في الوقت الفعلي قبل التوصية!</h2>
+      <p class="article-lead">«الوكيل أوصى بكريم skincare — لكن ادّعاءات المنتج لا دليل عليها». في 9 سبتمبر 2026، خرجت <strong>M11 Labs</strong> من stealth كمختبر تجارة وكيلية — وتُطلق <strong>OpenMarket</strong>، سوقاً حياً حيث brand agents تتنافس على التوصية وكل claim يُفحص في الوقت الفعلي عبر ملايين التجار ومليارات المنتجات.</p>
+      <p>المشكلة التي حلّتها: agentic commerce ينمو — لكن ثقة المستهلك تتراجع. 47% من brands في skincare لا تملك أدلة مستقلة على ادعاءاتها (تقرير M11 State-of-the-Category). OpenMarket يُعيد بناء الثقة: المتسوق يصف ما يريد، وكل agent يُنافس، وكل claim يُتحقق منه machine-readable قبل أن يصل للمستخدم.</p>
+      <p>القدرات الأساسية: يعمل على <strong>Universal Commerce Protocol</strong> — المعيار المشترك من Shopify وGoogle بدعم Amazon وMeta وMicrosoft وSalesforce وStripe وEtsy وTarget وWayfair؛ agents تقرأ catalog data حياً — السعر والعرض كما ينشره التاجر؛ يغطي Shopify و3+ مليون تاجر؛ <strong>M11 Verifiability Index</strong> يقيس مدى قابلية claims للتحقق المستقل؛ تقرير skincare الأول مع توسّع لcategories أخرى.</p>
+      <p>للمبدعين العرب: كل e-commerce وmarketplace وbeauty brand في MENA يستعد لعصر AI shopping — M11-style trust verification packages وArabic agentic commerce playbooks وmanaged verifiability retainers فرصة premium. «Trust-before-recommend» = category جديد — window مفتوح قبل أن تُطبّقه Noon وAmazon.ae وNamshi.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من M11 Labs OpenMarket وثورة ثقة التجارة الوكيلية؟</h3>
+        <ul>
+          <li><strong>Agentic commerce trust packages:</strong> UCP integration + claim verification + brand agent setup — 7000–62000 دولار/مشروع.</li>
+          <li><strong>Verifiability consulting:</strong> product claim audit + M11 Index alignment — 5000–45000 دولار/عميل.</li>
+          <li><strong>Managed agentic marketplace retainers:</strong> OpenMarket monitoring + claim compliance + reporting — 3500–28000 دولار/شهر.</li>
+          <li><strong>دورات «Build Trustworthy AI Shopping Agents with UCP»:</strong> bootcamp — 59–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">M11 Labs</span>
+        <span class="tag">OpenMarket</span>
+        <span class="tag">Agentic Commerce</span>
+        <span class="tag">UCP</span>
+        <span class="tag">Trust</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>COEY GroundSlate: أول محرّر فيديو MCP — 385 أداة محلية، لا timeline، فيلم جاهز!</h2>
+      <p class="article-lead">«ساعتان على Premiere trimming clips — والفيديو لم يُنتهَ». في 9 سبتمبر 2026، أعلنت <strong>COEY</strong> عن <strong>GroundSlate</strong> — أول محرّر فيديو مُصمَّم من الصفر ليُقاد بواسطة AI assistant عبر MCP، لا بإنسان على keyboard. 385 أداة محلية، توليد media على الجهاز، مجاناً اليوم.</p>
+      <p>المشكلة التي حلّتها: Premiere وFinal Cut وDaVinci وCapCut = manual labor — import، drag، trim، export. GroundSlate = MCP Server: assistant يقرأ library، يختار اللحظات، يُجمّع sequence، يختار effects، يُولّد footage ناقص، ويُصدّر — والمستخدم يصف الفيلم بلغة طبيعية.</p>
+      <p>القدرات الأساسية: <strong>385 local tools</strong> لـ ChatGPT وClaude وCursor وGemini وأي MCP assistant؛ لا credits للتوليد — كل شيء على Mac؛ مُحسَّن لـ Apple Silicon وMLX framework؛ يُولّد video وmusic وsound effects وspeech محلياً؛ يعمل على أي M-Series Mac بـ 16GB+ shared memory؛ interface media-centric تُظهر ما يراه AI داخل التطبيق.</p>
+      <p>للمبدعين العرب: كل content creator وagency وproduction house في MENA يبحث عن سرعة — GroundSlate-style MCP video packages وArabic prompt-to-film playbooks وmanaged creative AI retainers فرصة media premium. «No timeline, just results» = paradigm shift — consultants الذين يُدرّبون creators مبكراً يبنون vertical قوي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من COEY GroundSlate وثورة تحرير الفيديو الوكيلي؟</h3>
+        <ul>
+          <li><strong>MCP video production packages:</strong> GroundSlate setup + prompt libraries + render workflows — 4500–42000 دولار/مشروع.</li>
+          <li><strong>Creative AI consulting:</strong> describe-to-film pipelines + local generation optimization — 3500–32000 دولار/عميل.</li>
+          <li><strong>Managed video AI retainers:</strong> template libraries + batch production + quality review — 2500–22000 دولار/شهر.</li>
+          <li><strong>دورات «Edit Films with AI via MCP — No Timeline Required»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">COEY</span>
+        <span class="tag">GroundSlate</span>
+        <span class="tag">MCP Video</span>
+        <span class="tag">Apple Silicon</span>
+        <span class="tag">Creative AI</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Mastercard Agent Connect: ربط واحد — كل منصات التسوق بالوكلاء، Agent Pay للدفع المُصرَّح!</h2>
+      <p class="article-lead">«التاجر يريد الدخول لـ ChatGPT shopping وPerplexity و10 منصات — لكن كل واحدة integration منفصل». في 9 سبتمبر 2026، أعلنت <strong>Mastercard</strong> عن <strong>Agent Connect</strong> — ربط واحد يُمكّن التاجر من product discovery وcart creation وcustomer-approved payments عبر كل منصات AI shopping.</p>
+      <p>المشكلة التي حلّتها: AI-assisted shopping ينمو — لكن merchants عالقون: integration منفصل لكل platform. Agent Connect يُوحّد: agent يبحث catalog، يُجمّع cart، ويُكمل الدفع بعد authorization العميل — buyer control محفوظ. Agent Pay يُسجّل authority عبر tokenized permission.</p>
+      <p>القدرات الأساسية: <strong>Agent Connect</strong> ضمن Agent Suite for Merchants — AI shopping + payments في commerce system واحد؛ product وprice وinventory data من catalog الحالي؛ Agent Pay = tokenized permissions للمشتريات بالوكلاء؛ أكثر من 30 شركة تدعم AI payment network (Ripple، Coinbase، Stripe، Adyen، Cloudflare، OKX، Solana Foundation)؛ customers يبحثون ويقارنون ويستلمون recommendations ويكملون checkout في channels التجار.</p>
+      <p>للمبدعين العرب: كل merchant وmarketplace وfintech في MENA يستعد لـ agentic checkout — Agent Connect-style integration packages وArabic AI shopping playbooks وmanaged commerce AI retainers فرصة payments premium. «One connection, all AI platforms» = pattern ينتقل من Mastercard إلى regional gateways — window مفتوح.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Mastercard Agent Connect وثورة التسوق بالوكلاء؟</h3>
+        <ul>
+          <li><strong>Agentic commerce integration packages:</strong> Agent Connect setup + catalog sync + payment flows — 8000–75000 دولار/مشروع.</li>
+          <li><strong>AI shopping consulting:</strong> multi-platform strategy + tokenized permission design — 5500–48000 دولار/عميل.</li>
+          <li><strong>Managed agentic checkout retainers:</strong> platform onboarding + conversion optimization — 4000–35000 دولار/شهر.</li>
+          <li><strong>دورات «Enable AI Shopping with Agent Connect & Agent Pay»:</strong> bootcamp — 69–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Mastercard</span>
+        <span class="tag">Agent Connect</span>
+        <span class="tag">Agent Pay</span>
+        <span class="tag">AI Shopping</span>
+        <span class="tag">Payments</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Phony.ai: منصة صوت AI محايدة — اختر carrier وSTT وLLM وvoice بنفسك!</h2>
+      <p class="article-lead">«منصة voice AI تُقفلنا على vendor واحد — وكل مكالمة فائتة = عميل فائت». في 10 سبتمبر 2026، أعلنت <strong>Phony.ai</strong> عن منصة AI phone وvoice agent — provider-neutral، تُتيح للأعمال أتمتة inbound calls وreturn inquiries وdeploy voice agents بدون stack مغلق.</p>
+      <p>المشكلة التي حلّتها: voice AI platforms = vendor lock-in — telephony وSTT وLLM وvoice من vendor واحد. Phony.ai يُعطي control كامل: اختر carrier وspeech-to-text وlanguage model وsynthetic voice لكل agent. built على ERP.io — transparent usage costs، provider flexibility، consent-based outbound، software-enforced controls.</p>
+      <p>القدرات الأساسية: agents تُجيب calls وتُجيب inquiries وتُؤهل leads وتُلتقط معلومات وتُوجّه callers وتُنفّذ approved actions وتُحوّل لhumans عند الحاجة؛ create وconfigure وtest وoperate من platform واحد؛ company knowledge للردود؛ structured information capture؛ ideal للأعمال حيث missed call = missed customer.</p>
+      <p>للمبدعين العرب: كل clinic وreal estate agency وcall center وSME في MENA يحتاج voice automation — Phony.ai-style provider-neutral packages وArabic voice agent playbooks وmanaged call AI retainers فرصة voice premium. «Choose your stack» = differentiation — consultants الذين يُصمّمون multi-provider setups يبنون recurring revenue.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Phony.ai وثورة voice AI المحايدة للمزودين؟</h3>
+        <ul>
+          <li><strong>Provider-neutral voice packages:</strong> Phony.ai setup + multi-vendor stack design + knowledge base — 5000–45000 دولار/مشروع.</li>
+          <li><strong>Voice AI consulting:</strong> inbound automation + qualification flows + human handoff — 3500–32000 دولار/عميل.</li>
+          <li><strong>Managed voice agent retainers:</strong> agent tuning + call analytics + compliance — 2500–22000 دولار/شهر.</li>
+          <li><strong>دورات «Build Provider-Neutral Voice Agents with Phony.ai»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Phony.ai</span>
+        <span class="tag">Voice AI</span>
+        <span class="tag">Provider-Neutral</span>
+        <span class="tag">Call Automation</span>
+        <span class="tag">ERP.io</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 10-09-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="10-09-2026 -- 08-AM.html">
+          📰 10 سبتمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">M11 Labs OpenMarket · COEY GroundSlate · Mastercard Agent Connect · Phony.ai</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "10-09-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "أفكar", "دolار", "البروtokol"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
