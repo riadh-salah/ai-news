@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 10-09-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "10-09-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — OpenAI Data agent لوحات بيانات وكيلية في ChatGPT Work، ClickHouse plugin عبر MCP، Dock فريق وكلاء AI في workspace واحد، WRITER Enterprise Brain طبقة سياق موحّدة، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 10 سبتمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من OpenAI Data agent الذي يُحوّل سؤالك بلغة طبيعية إلى لوحة بيانات تفاعلية مُنسّقة حسب علامتك التجارية، إلى ClickHouse plugin الذي يُربط 13 أداة MCP read-only بـ ClickHouse Cloud عبر OAuth، ومن Dock الذي يُشغّل فريق وكلاء AI بأدوار وذاكرة وhandoffs في workspace واحد، إلى WRITER Enterprise Brain — طبقة سياق مؤسسي موحّدة عبر Slack وMeet وTeams — أربع ثورات تُعيد تشكيل analytics الوكيلي والعمل الجماعي بالوكلاء والسياق المؤسسي في 10 سبتمبر 2026!</h1>
+      <p class="hero-sub">OpenAI تُطلق Data agent في ChatGPT Work مع ClickHouse كشريك إطلاق، Dock يُقدّم workspace لوكلاء proactive بأهداف وhandoffs، وWRITER Enterprise Brain يُوحّد Agent Memory وMeet وSlack. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 10 سبتمبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>OpenAI Data agent: اسأل @Data — واحصل على لوحة بيانات تفاعلية من ClickHouse وSnowflake وDatabricks!</h2>
+      <p class="article-lead">«كم مستخدم Pro لدينا في إيطاليا؟» — ثلاثة اجتماعات وخمس Slack threads قبل الإجابة. في 10 سبتمبر 2026، أطلقت <strong>OpenAI</strong> <strong>Data agent</strong> داخل <strong>ChatGPT Work</strong> — وكيل يُحوّل أسئلة الأعمال بلغة طبيعية إلى استعلامات وتحليلات ولوحات بيانات تفاعلية مُنسّقة حسب brand guidelines مؤسستك.</p>
+      <p>المشكلة التي حلّتها: data teams مُ overwhelmed — 80% من الموظفين يحتاجون insights لكن SQL وBI tools تُبطئ كل قرار. Data agent يُغيّر المعادلة: اكتب <code>@Data</code> متبوعاً بسؤالك، والوكيل يستكشف schemas، يُشغّل queries، يُحلّل النتائج، ويُبني dashboard — مع admin controls موسّعة وdata connections محسّنة.</p>
+      <p>القدرات الأساسية: يعمل عبر <strong>plugin directory</strong> موحّد لـ ChatGPT Work وCodex؛ يتصل بـ Snowflake وDatabricks وClickHouse ومصادر أخرى؛ يُنشئ <strong>agentic dashboards</strong> تفاعلية styled لمؤسستك؛ يُوصي بخطوات follow-up بناءً على البيانات؛ admins يُديرون plugins وpermissions من Workspace settings؛ يُكمل ما بدأه OpenAI internally — حيث teams في Engineering وFinance وGTM تُجيب أسئلة high-impact في دقائق لا أيام.</p>
+      <p>للمبدعين العرب: كل startup وbank وe-commerce في MENA يملك data لكن lacks self-service analytics — Data agent-style consulting packages وArabic dashboard playbooks وmanaged analytics AI retainers فرصة BI premium. «Question-to-dashboard in minutes» = category explosion — consultants الذين يُربطون ChatGPT Work بـ BigQuery وSnowflake وPostgreSQL مبكراً يبنون vertical قوي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OpenAI Data agent وثورة analytics الوكيلي؟</h3>
+        <ul>
+          <li><strong>Data agent integration packages:</strong> plugin setup + schema mapping + dashboard templates — 6000–55000 دولار/مشروع.</li>
+          <li><strong>Self-service analytics consulting:</strong> natural-language BI strategy + governance — 4500–42000 دولار/عميل.</li>
+          <li><strong>Managed data agent retainers:</strong> query optimization + dashboard maintenance + training — 3000–25000 دولار/شهر.</li>
+          <li><strong>دورات «Build Dashboards with @Data in ChatGPT Work»:</strong> bootcamp — 59–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">Data Agent</span>
+        <span class="tag">ChatGPT Work</span>
+        <span class="tag">Dashboards</span>
+        <span class="tag">Analytics</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>ClickHouse + ChatGPT Work: 13 أداة MCP read-only — OAuth بدون API keys، dashboards من queries!</h2>
+      <p class="article-lead">«ربط BI tool يعني API keys وpermissions معقدة — والفريق يخاف من write access». في 10 سبتمبر 2026، أعلنت <strong>ClickHouse</strong> أنها <strong>launch partner</strong> لـ Data agent في ChatGPT Work — plugin يُجمّع Remote MCP server وClickHouse Agent Skills في listing واحد، يتصل بـ ClickHouse Cloud عبر OAuth، ويُبني dashboards من query results.</p>
+      <p>المشكلة التي حلّتها: data connections في AI tools = friction — API keys، paste credentials، fear of accidental writes. ClickHouse plugin: 13 أداة MCP كلها <strong>read-only</strong> مع <code>readOnlyHint: true</code> — list databases وtables، inspect schemas، run SELECT queries، read service وbackup وClickPipes وbilling info. OAuth scopes access لـ organizations وservices التي يراها user — لا API key لإنشائه.</p>
+      <p>القدرات الأساسية: <strong>Remote MCP server</strong> مُدار بالكامل في ClickHouse Cloud؛ <strong>Agent Skills</strong> open-source تُعلّم النموذج best practices لـ schema design وquery optimization وdata ingestion؛ install من plugin directory → Connect → sign in بـ ClickHouse Cloud credentials؛ اسأل «turn this into a dashboard for the growth team» — Data agent يُبني interactive dashboard styled لـ brand؛ dashboard في ChatGPT ليس path للكتابة في ClickHouse — access scoped لصلاحيات user.</p>
+      <p>للمبدعين العرب: كل fintech وad-tech وlogistics company في MENA تستخدم أو تفكر في ClickHouse — ClickHouse MCP packages وArabic data agent playbooks وmanaged read-only analytics retainers فرصة data premium. «OAuth + read-only MCP» = pattern ينتقل لـ PostgreSQL وBigQuery — integrators مبكرون يفوزون.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من ClickHouse plugin وثورة MCP analytics الآمن؟</h3>
+        <ul>
+          <li><strong>ClickHouse MCP integration packages:</strong> Cloud setup + OAuth + Agent Skills tuning — 5000–48000 دولار/مشروع.</li>
+          <li><strong>Read-only analytics consulting:</strong> schema optimization + query libraries — 3500–32000 دولار/عميل.</li>
+          <li><strong>Managed ClickHouse agent retainers:</strong> dashboard pipelines + performance monitoring — 2500–22000 دولار/شهر.</li>
+          <li><strong>دورات «Secure Analytics with ClickHouse MCP + ChatGPT Work»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">ClickHouse</span>
+        <span class="tag">MCP</span>
+        <span class="tag">Read-Only</span>
+        <span class="tag">OAuth</span>
+        <span class="tag">Data Plugin</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Dock: شركة من وكلاء AI في workspace واحد — أدوار، أهداف، handoffs، وذاكرة مشتركة!</h2>
+      <p class="article-lead">«وكيل واحد يُنجز prompt — لكن العمل الحقيقي يحتاج فريقاً يتذكر ما قرره cofounder أمس». في 9 سبتمبر 2026، أطلقت <strong>Dock</strong> workspace حيث <strong>فريق من وكلاء proactive</strong> يعمل جنباً إلى جنب مع البشر — لكل وكيل اسم وrole وobjectives وmanager، وhandoffs بين الوكلاء كفريق حقيقي.</p>
+      <p>المشكلة التي حلّتها: AI tools = isolated prompts — لا shared context، لا persistent roles، لا agent-to-agent communication. Dock يُبني «company of agents»: workspace واحد، context مشترك في docs وsheets وfiles وthreads؛ agents تملك outcomes لا prompts — goal واحد → plan → schedule → chase → report؛ any model per agent (Claude، OpenAI، Kimi، GLM)؛ handoffs وescalations لhumans؛ harness للعمل المكتبي لا للكود فقط.</p>
+      <p>القدرات الأساسية: <strong>native docs, sheets, files</strong> كsubstrate مع memory وlessons وdaily logs لكل agent؛ <strong>agent runner</strong> بcomputer وstorage منفصل لكل وكيل؛ vault للcredentials؛ channels: email، calendar، iMessage، وأدواتك؛ infrastructure لـ agent-to-agent messaging وhandoffs على record واحد؛ human يتدخل في أي نقطة؛ waitlist مفتوح على trydock.ai — أول وكيل running في دقائق بدون terminal.</p>
+      <p>للمبدعين العرب: كل agency وstartup وoperations team في MENA يحتاج automation بteam dynamics — Dock-style multi-agent packages وArabic role-based agent playbooks وmanaged agent team retainers فرصة ops premium. «Agents with roles, not prompts» = paradigm shift — consultants الذين يُصمّمون agent org charts مبكراً يبنون recurring revenue.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Dock وثورة فرق الوكلاء AI؟</h3>
+        <ul>
+          <li><strong>Multi-agent team packages:</strong> Dock setup + role design + handoff workflows — 5500–52000 دولار/مشروع.</li>
+          <li><strong>Agent org design consulting:</strong> objectives mapping + escalation rules — 4000–38000 دولار/عميل.</li>
+          <li><strong>Managed agent team retainers:</strong> daily logs review + performance tuning — 3000–26000 دولار/شهر.</li>
+          <li><strong>دورات «Build an AI Agent Company with Dock»:</strong> bootcamp — 59–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Dock</span>
+        <span class="tag">Multi-Agent</span>
+        <span class="tag">Agent Teams</span>
+        <span class="tag">Handoffs</span>
+        <span class="tag">Workspace</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>WRITER Enterprise Brain: ذاكرة فريقية + Meet + Slack — سياق مؤسسي واحد لكل وكيل وtouchpoint!</h2>
+      <p class="article-lead">«Marketing وSales يشتريان نفس AI — لكن كل session معزولة وgeneric». في 10 سبتمبر 2026، كشفت <strong>WRITER</strong> عن <strong>Enterprise Brain</strong> — طبقة سياق universal مُحكَمة تُلتقط brand وinstitutional knowledge وdecision logic وبيانات live وتجعلها usable في real time عبر كل team وagent.</p>
+      <p>المشكلة التي حلّتها: 90% من marketing وsales executives يُبلّغون عن conflicting priorities (Gartner) — وAI point solutions تُفاقم: كل user session معزولة، memory flat markdown يدوي. Enterprise Brain: <strong>Agent Memory</strong> team-level — decisions وideas وpreferences تُلتقط تلقائياً؛ brand وcompliance layer يُشفّر tone وvisual identity وlegal guardrails؛ context يُربط accounts وopportunities وcampaigns وconversations — ليس session واحد.</p>
+      <p>القدرات الأساسية: يتكامل مع Salesforce وSnowflake وAdobe Experience Manager وGong وContentful؛ <strong>WRITER for Slack وMicrosoft Teams</strong> — tag WRITER Agent في channel، يرد بcontext مؤسسي، الفريق يبني على العمل؛ <strong>WRITER Meet</strong> عبر Zoom وTeams وGoogle Meet — transcribe وsummaries وdecisions وaction items، meetings = context للوكلاء لا ملفات ميتة؛ Clorox وLabcorp وQualcomm وVanguard among Fortune 500 users.</p>
+      <p>للمبدعين العرب: كل enterprise marketing وrevenue team في MENA يُكافئ brand consistency — Enterprise Brain-style context packages وArabic multi-player AI playbooks وmanaged GTM agent retainers فرصة enterprise premium. «Multi-player AI» = differentiation — consultants الذين يُصمّمون team memory architectures يبنون high-ticket vertical.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من WRITER Enterprise Brain وثورة السياق المؤسسي الموحّد؟</h3>
+        <ul>
+          <li><strong>Enterprise Brain deployment packages:</strong> Agent Memory setup + brand encoding + CRM integration — 8000–75000 دولار/مشروع.</li>
+          <li><strong>Multi-player AI consulting:</strong> team memory design + compliance guardrails — 5500–50000 دولار/عميل.</li>
+          <li><strong>Managed GTM agent retainers:</strong> Meet + Slack workflows + campaign context — 4000–35000 دولار/شهر.</li>
+          <li><strong>دورات «Build Team-Level AI Memory with Enterprise Brain»:</strong> bootcamp — 69–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">WRITER</span>
+        <span class="tag">Enterprise Brain</span>
+        <span class="tag">Agent Memory</span>
+        <span class="tag">WRITER Meet</span>
+        <span class="tag">Multi-Player AI</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 10-09-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="10-09-2026 -- 04-PM.html">
+          📰 10 سبتمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">OpenAI Data agent · ClickHouse MCP · Dock · WRITER Enterprise Brain</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "10-09-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "أفكar", "دolار", "البروtokol"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
