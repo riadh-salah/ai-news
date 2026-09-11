@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 11-09-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "11-09-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — OpenAI Agents API مع sandboxes مُستضافة، Medeo VideoClaw وكيل فيديو وكيلي، Anthropic MCP 2026-07-28 بلا جلسات، PolyAI Wren وكيل يُحسّن وكلاء الحوار، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 11 سبتمبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من OpenAI Agents API الذي يُشغّل حلقة الوكيل الكاملة على بنية OpenAI مع sandboxes مُستضافة أو مُخصّصة، إلى Medeo VideoClaw الذي يُحوّل اكتشاف الترندات إلى فيديوهات جاهزة للنشر، ومن Anthropic MCP 2026-07-28 الذي يُلغي الجلسات ويُسرّع OAuth المؤسسي عبر Okta وEntra، إلى PolyAI Wren — وكيل يُحلّل آلاف المحادثات يومياً ويُحسّن وكلاء الحوار تلقائياً — أربع ثورات تُعيد تشكيل بنية الوكلاء السحابية وصناعة الفيديو الوكيلي والبروتوكولات المؤسسية في 11 سبتمبر 2026!</h1>
+      <p class="hero-sub">OpenAI تُطلق Agents API في beta عامة، Medeo تُعلن VideoClaw لصناع المحتوى، Anthropic تُطبّق MCP stateless على Claude، وPolyAI تُقدّم Wren لتحسين الوكلاء بلا توقف. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 11 سبتمبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>OpenAI Agents API: من الفكرة إلى وكيل يعمل في السحاب — orchestration وsandboxes وCodex harness!</h2>
+      <p class="article-lead">«بنيت وكيلاً في weekend — لكن orchestration وsessions وsandbox provisioning أكلت شهراً كاملاً». في 10 سبتمبر 2026، أطلقت <strong>OpenAI</strong> <strong>Agents API</strong> في <strong>beta عامة</strong> — واجهة تُشغّل حلقة الوكيل الكاملة على بنية OpenAI: model calls وtool use وcontext management — بينما تركّز أنت على ما يُميّز وكيلك.</p>
+      <p>المشكلة التي حلّتها: بناء وكيل production-ready = orchestration layer + long-running sessions + sandbox infra + context management — كلها boilerplate قبل business logic. Agents API يُزيل هذا: OpenAI تُدير agent loop على بنيتها، تُنسّق model calls وtool use وcontext؛ أنت تتحكم بقدرات الوكيل وتختار أين يُشغّل الكود ويتعامل مع الملفات.</p>
+      <p>القدرات الأساسية: <strong>no additional fees</strong> للـ API نفسه — تدفع tokens وأدوات الوكيل فقط؛ <strong>hosted sandboxes</strong> من OpenAI — run code، work with files، produce artifacts، install packages، add skills وplugins؛ أو <strong>bring your own sandbox</strong> عبر Blaxel AI وCloudflare Dev وDaytona وDigitalOcean وE2B وModal وOracle Cloud وRunloop AI وVercel؛ CPU/GPU/memory options وfully managed أو VPC deployments؛ يُبني على <strong>Codex harness</strong> — نفس البنية خلف Codex في GitHub.</p>
+      <p>للمبدعين العرب: كل agency وSaaS وautomation shop في MENA يريد agents بلا DevOps overhead — Agents API packages وArabic agent playbooks وmanaged cloud agent retainers فرصة infra premium. «Idea to working agent in hours» = category explosion — developers الذين يُصمّمون agent templates على OpenAI sandboxes مبكراً يبنون vertical قوي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OpenAI Agents API وثورة الوكلاء السحابية؟</h3>
+        <ul>
+          <li><strong>Agents API deployment packages:</strong> harness setup + sandbox config + tool integration — 5500–52000 دولار/مشروع.</li>
+          <li><strong>Cloud agent architecture consulting:</strong> orchestration design + VPC sandbox strategy — 4000–38000 دولار/عميل.</li>
+          <li><strong>Managed agent retainers:</strong> session monitoring + artifact pipelines + cost optimization — 3000–26000 دولار/شهر.</li>
+          <li><strong>دورات «Build Production Agents with OpenAI Agents API»:</strong> bootcamp — 59–299 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">Agents API</span>
+        <span class="tag">Hosted Sandboxes</span>
+        <span class="tag">Codex Harness</span>
+        <span class="tag">Cloud Agents</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Medeo VideoClaw: من ترند TikTok إلى فيديو جاهز — وكيل فيديو وكيلي يُوحّد الاكتشاف والإنتاج!</h2>
+      <p class="article-lead">«رأيت ترنداً الساعة 9 صباحاً — بحلول الظهر انتهى، وأنا ما زلت أبحث عن أداة montage». في 11 سبتمبر 2026، أعلنت <strong>Medeo AI</strong> عن <strong>VideoClaw</strong> — وكيل فيديو ذكي يُحوّل اكتشاف الترندات وفرص المحتوى إلى فيديوهات جاهزة عبر workflow واحد مُدمج.</p>
+      <p>المشكلة التي حلّتها: صناع المحتوى يقفزون بين 7 أدوات — trend discovery وresearch وscripting وgeneration وediting وscheduling وpublishing. VideoClaw يُوحّد كل هذا: يُحدّد trending topics، يُبحث فرص المحتوى، يُطوّر الأفكار، ويُحوّلها إلى فيديوهات مُنتجة عبر Medeo AI workflow.</p>
+      <p>القدرات الأساسية: <strong>viral trend discovery</strong> و<strong>social listening</strong> مُدمجان؛ <strong>conversational video creation</strong> — تحدّث مع الوكيل كأنه creative partner؛ AI video generation وAI image generation وAI editing في منصة واحدة؛ <strong>social media management</strong> وscheduling وpublishing؛ انتقال seamless من research إلى production بلا switching tools؛ متاح الآن على medeo.app للـ creators وmarketers وagencies وbusinesses.</p>
+      <p>للمبدعين العرب: كل influencer وagency وe-commerce brand في MENA يُنافس على short-form video — VideoClaw-style packages وArabic trend-to-video playbooks وmanaged social video retainers فرصة content premium. «Trend to published video in one agent» = workflow revolution — consultants الذين يُصمّمون Arabic viral content pipelines مبكراً يبنون recurring revenue.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Medeo VideoClaw وثورة الفيديو الوكيلي؟</h3>
+        <ul>
+          <li><strong>VideoClaw workflow packages:</strong> trend setup + brand templates + publishing automation — 3500–32000 دولار/مشروع.</li>
+          <li><strong>Social video agent consulting:</strong> content strategy + viral discovery tuning — 2500–22000 دولار/عميل.</li>
+          <li><strong>Managed video agent retainers:</strong> daily trend monitoring + video production + scheduling — 2000–18000 دولار/شهر.</li>
+          <li><strong>دورات «From Trend to Video with VideoClaw»:</strong> bootcamp — 39–199 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Medeo</span>
+        <span class="tag">VideoClaw</span>
+        <span class="tag">AI Video</span>
+        <span class="tag">Trend Discovery</span>
+        <span class="tag">Social Media</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Anthropic MCP 2026-07-28: بلا جلسات، بلا handshake — OAuth مؤسسي و950+ connector في Claude!</h2>
+      <p class="article-lead">«MCP server يعمل locally — لكن production يعني sticky sessions وRedis cluster و400 سطر session management». في 28 يوليو 2026، أطلقت <strong>Anthropic</strong> مواصفة <strong>MCP 2026-07-28</strong> — أكبر تغيير في البروتوكول منذ الإطلاق: core <strong>stateless</strong>، extensions رسمية، وOAuth 2.0/OIDC مُ hardened — والدعم يُطبَّق الآن عبر منتجات Claude.</p>
+      <p>المشكلة التي حلّتها: MCP القديم = bidirectional stateful protocol — initialize handshake وMcp-Session-Id header وsticky sessions. 2026-07-28 يُلغي كل هذا: request/response stateless، round-robin load balancing، serverless deployment، autoscaling seamless. Extensions رسمية: <strong>MCP Apps</strong> (UI تفاعلي في المحادثة) و<strong>Tasks</strong> (عمل طويل الأمد).</p>
+      <p>القدرات الأساسية: <strong>Enterprise-Managed Authorization</strong> — admin يُصرّح connector مرة واحدة عبر Okta، users يَرثون access من IdP groups، zero-touch على first login؛ Asana وAtlassian وCanva وFigma وGranola وLinear وSupabase وSlack وDatadog وNotion مدعومون؛ <strong>MCP tunnels</strong> (research preview) — connectors داخل private network بلا public endpoints؛ <strong>950+ MCP servers</strong> في connectors directory يستخدمها millions يومياً؛ observability dashboard للناشرين.</p>
+      <p>للمبدعين العرب: كل enterprise IT team في MENA يُخطّط لـ AI agent rollout — MCP stateless migration packages وArabic enterprise auth playbooks وmanaged connector retainers فرصة infra premium. «Sessions deleted, scale unlocked» = migration wave — consultants الذين يُرحّلون MCP servers إلى 2026-07-28 مبكراً يفوزون بعقود enterprise.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من MCP 2026-07-28 وثورة البروتوكولات المؤسسية؟</h3>
+        <ul>
+          <li><strong>MCP stateless migration packages:</strong> spec upgrade + session removal + load balancer config — 6000–55000 دولار/مشروع.</li>
+          <li><strong>Enterprise-managed auth consulting:</strong> Okta/Entra integration + connector provisioning — 5000–45000 دولار/عميل.</li>
+          <li><strong>Managed MCP retainers:</strong> connector monitoring + observability + auth governance — 3500–30000 دولار/شهر.</li>
+          <li><strong>دورات «Migrate to MCP 2026-07-28 Stateless Core»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Anthropic</span>
+        <span class="tag">MCP 2026-07-28</span>
+        <span class="tag">Stateless</span>
+        <span class="tag">Enterprise Auth</span>
+        <span class="tag">Claude Connectors</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>PolyAI Wren: وكيل يُحسّن وكلاء الحوار — 6000+ تحسين في 30 يوم، تقارير يومية تلقائية!</h2>
+      <p class="article-lead">«وكيل call center يعمل — لكن من يُحسّنه بعد كل محادثة؟ الفريق يُراجع samples يدوياً». في 9 سبتمبر 2026، أطلقت <strong>PolyAI</strong> <strong>Wren</strong> — وكيل مُصمَّم لتحسين dialog agents بلا توقف: يُحلّل كل محادثة، يُقترح improvements، يختبرها، ويُثبت أن metrics التي تهمّك تحركت فعلاً.</p>
+      <p>المشكلة التي حلّتها: dialog agents = deploy and forget — improvement manual وslow وsample-based. Wren يأخذ نهجاً مختلفاً: agent لا يتوقف عن العمل على dialog agents، كما self-driving system لا يتوقف عن التعلم من كل mile. «Miles» لـ Wren = محادثاتك الحقيقية، ليس samples أو summaries.</p>
+      <p>القدرات الأساسية: يعمل داخل <strong>Agentic Dialog Platform</strong> — conversations وconfiguration وtest suite وbranch model؛ في 30 يوم على deployments حقيقية: <strong>6000+ improvements</strong> مُقترحة؛ daily report على overall performance + weekly وmonthly rollups؛ fixes وimprovements + tracking long-term health؛ يُختبر recommendations قبل apply — metrics تتحرك فعلاً؛ متاح الآن في Dialog Studio.</p>
+      <p>للمبدعين العرب: كل bank وtelecom وhospitality brand في MENA يُشغّل voice/chat agents — Wren-style optimization packages وArabic dialog improvement playbooks وmanaged agent tuning retainers فرصة CX premium. «Wake up to a better agent each day» = ops revolution — consultants الذين يُصمّمون autonomous improvement loops مبكراً يبنون high-ticket vertical.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من PolyAI Wren وثورة تحسين الوكلاء المستمر؟</h3>
+        <ul>
+          <li><strong>Dialog agent optimization packages:</strong> Wren setup + metric baselines + improvement workflows — 5000–48000 دولار/مشروع.</li>
+          <li><strong>Autonomous improvement consulting:</strong> conversation analysis + test suite design — 4000–36000 دولار/عميل.</li>
+          <li><strong>Managed agent tuning retainers:</strong> daily report review + metric tracking + escalation — 3000–25000 دولار/شهر.</li>
+          <li><strong>دورات «Build Self-Improving Dialog Agents with Wren»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">PolyAI</span>
+        <span class="tag">Wren</span>
+        <span class="tag">Dialog Agents</span>
+        <span class="tag">Self-Improvement</span>
+        <span class="tag">CX AI</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 11-09-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="11-09-2026 -- 12-AM.html">
+          📰 11 سبتمبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">OpenAI Agents API · Medeo VideoClaw · Anthropic MCP 2026-07-28 · PolyAI Wren</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "11-09-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "أفكar", "دolار", "البروtokol"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
