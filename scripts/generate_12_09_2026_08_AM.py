@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 12-09-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "12-09-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — AWS Bedrock AgentCore لواجهات MCP تفاعلية داخل المحادثة، Zscaler Agentic SOC لاحتواء التهديدات بسرعة الآلة، Alice&Bot طبقة تواصل مفتوحة المصدر للتفاوض بين الوكلاء، Coze 2.5 Agent World بـCloud PC وCloud Phone، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 12 سبتمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من AWS Bedrock AgentCore الذي يُعرض واجهات HTML تفاعلية داخل ChatGPT وClaude عبر MCP Apps، إلى Zscaler Agentic SOC الذي يُحتوي هجمات AI بسرعة الآلة مع Anthropic وOpenAI، ومن Alice&Bot — طبقة تواصل مفتوحة المصدر للتفاوض الطبيعي بين الوكلاء بتشفير AES-256-GCM، إلى Coze 2.5 Agent World حيث كل وكيل يحصل على Cloud PC وCloud Phone وذاكرة طويلة المدى في «عالم موازٍ» — أربع ثورات تُعيد تشكيل الواجهات الوكيلية وأمن SOC واقتصاد التفاوض بين الوكلاء والشركاء الرقميين المستقلين في 12 سبتمبر 2026!</h1>
+      <p class="hero-sub">AWS تُطلق AgentCore Runtime وGateway لـ MCP Apps، Zscaler تُسلّم Agentic SOC عالمياً، Alice&Bot يُفتح على GitHub مع MCP server للمطورين، وCoze 2.5 يُحوّل الوكلاء من «أدوات تنفيذ» إلى «شركاء رقميين مستقلين». أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 12 سبتمبر 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>AWS Bedrock AgentCore: واجهات HTML تفاعلية داخل المحادثة — MCP Apps من الكتالوج إلى الحجز دون vendor lock-in!</h2>
+      <p class="article-lead">«الوكيل يُجيب بنص — بينما العميل يريد زراً يحجز ويُحدّث الحالة فوراً». في 12 سبتمبر 2026، أطلقت <strong>Amazon Web Services</strong> <strong>Amazon Bedrock AgentCore</strong>: منصة لبناء ونشر وكلاء AI تفاعليين تدعم معيار <strong>MCP Apps</strong> — حيث تُعرض عناصر HTML تفاعلية مباشرة داخل مضيفي AI مثل ChatGPT وClaude، لا مجرد ردود نصية.</p>
+      <p>المشكلة التي حلّتها: المؤسسات تريد واجهات غنية داخل المحادثة — تصفح كتالوج، حجز خدمة، متابعة حالة — لكن كل مضيف AI يفرض نموذجاً مختلفاً. AgentCore يُوحّد الطبقة: <strong>AgentCore Runtime</strong> — بيئة serverless معزولة جلسةً لاستضافة تطبيقات MCP؛ <strong>AgentCore Gateway</strong> — endpoint واحد آمن يكشف التطبيقات للوكلاء عبر Model Context Protocol؛ discovery للأدوات والموارد يُمكّن widgets مدمجة في واجهة المحادثة.</p>
+      <p>القدرات الأساسية: <strong>interactive HTML widgets</strong> داخل chat — تجاوز النص البسيط؛ <strong>session-isolated runtime</strong> — أمان enterprise؛ <strong>MCP Apps standard</strong> — توافق عبر مضيفي AI؛ <strong>single secure endpoint</strong> عبر Gateway؛ تصفح كتالوجات وحجز خدمات وعرض تحديثات حالة من داخل المحادثة؛ AWS تُطلق أيضاً <strong>Amazon Q</strong> desktop للمؤسسات لكبح «shadow AI» — استخدام AI غير مصرّح به.</p>
+      <p>للمبدعين العرب: كل e-commerce وbank وtravel platform في MENA تبني conversational commerce — AgentCore MCP Apps deployment packages وArabic widget playbooks وmanaged agent UI retainers فرصة enterprise premium. «Rich UI inside chat» = category جديد — consultants الذين يُصمّمون MCP Apps مبكراً يفوزون بعقود transformation طويلة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من AWS Bedrock AgentCore وثورة الواجهات الوكيلية التفاعلية؟</h3>
+        <ul>
+          <li><strong>AgentCore deployment packages:</strong> Runtime + Gateway + MCP Apps widgets — 8000–65000 دولار/مشروع.</li>
+          <li><strong>Conversational UI consulting:</strong> HTML widgets + catalog/booking flows + Arabic localization — 5500–48000 دولار/عميل.</li>
+          <li><strong>Managed agent UI retainers:</strong> widget updates + session monitoring + compliance — 4500–35000 دولار/شهر.</li>
+          <li><strong>دورات «Build MCP Apps with AgentCore»:</strong> bootcamp — 69–349 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AWS</span>
+        <span class="tag">AgentCore</span>
+        <span class="tag">MCP Apps</span>
+        <span class="tag">Interactive UI</span>
+        <span class="tag">Bedrock</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Zscaler Agentic SOC: أمن بسرعة الآلة — وكلاء AI يُحتوون هجمات AI قبل أن تتفشّى!</h2>
+      <p class="article-lead">«المهاجمون يستخدمون AI لتسريع الهجوم — بينما SOC التقليدي يتحرك بسرعة البشر». في 12 سبتمبر 2026، أعلنت <strong>Zscaler</strong> (NASDAQ: ZS) عن <strong>Agentic SOC</strong>: نهج عمليات أمنية مُصمّم للعصر AI-first — يكتشف ويحقّق ويستجيب للتهديدات بسرعة الآلة، لا مجرد إضافة AI فوق أدوات قديمة.</p>
+      <p>المشكلة التي حلّتها: threat actors يُسرّعون الهجمات بالAI؛ SOC التقليدي يعجز عن correlate وinvestigate وremediate بسرعة كافية. Agentic SOC يُعيد بناء العمليات من الصفر: <strong>AI-first architecture</strong> — وكلاء متخصصون لا chatbot فوق SIEM؛ شراكة مع <strong>Anthropic وOpenAI</strong> — frontier models + threat intelligence ملكية Zscaler + zero trust telemetry؛ reasoning أعمق ودقة أفضل وexplainability أقوى من نموذج واحد.</p>
+      <p>القدرات الأساسية: <strong>proactive exposure reduction</strong> — تقليل الثغرات قبل الاستغلال؛ <strong>extend security team capabilities</strong> — وكلاء يُكملون البشر لا يُستبدلونهم؛ <strong>contain AI-driven attacks</strong> — احتواء بسرعة الآلة؛ <strong>closed-loop remediation</strong> — من الكشف إلى الإصلاح تلقائياً؛ <strong>inline telemetry</strong> — رؤية unmatched عبر الشبكة؛ متاح <strong>عالمياً</strong> الآن عبر zscaler.com/solutions/agentic-secops.</p>
+      <p>للمبدعين العرب: كل bank وtelco وgovernment entity في MENA تواجه AI-driven threats — Agentic SOC deployment packages وArabic security agent playbooks وmanaged SOC retainers فرصة cybersecurity premium. «Outpace modern attackers» = positioning قوي — MSSPs الذين يُتقنون Agentic SOC مبكراً يفوزون بعقود enterprise حرجة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Zscaler Agentic SOC وثورة الأمن الوكيلي؟</h3>
+        <ul>
+          <li><strong>Agentic SOC deployment packages:</strong> Zscaler integration + agent tuning + playbooks — 15000–120000 دولار/مشروع.</li>
+          <li><strong>AI threat response consulting:</strong> closed-loop remediation design + Arabic incident workflows — 8000–55000 دولار/عميل.</li>
+          <li><strong>Managed Agentic SOC retainers:</strong> 24/7 agent monitoring + threat containment — 10000–75000 دولار/شهر.</li>
+          <li><strong>دورات «Agentic Security Operations with Zscaler»:</strong> bootcamp — 99–499 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Zscaler</span>
+        <span class="tag">Agentic SOC</span>
+        <span class="tag">AI Security</span>
+        <span class="tag">Zero Trust</span>
+        <span class="tag">Threat Containment</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Alice&Bot: طبقة تواصل مفتوحة المصدر — وكلاء يتفاوضون بلغة طبيعية بتشفير end-to-end!</h2>
+      <p class="article-lead">«API schemas صارمة تنهار عند service discovery وterm negotiation — WhatsApp يكلّف كل رسالة». في 12 سبتمبر 2026، أطلق مطوّر <strong>Alice&Bot</strong>: طبقة تواصل <strong>open-source</strong> تُمكّن التفاوض واستكشاف الأخطاء بلغة طبيعية بين AI agents والبشر — مع هوية لامركزية وتشفير <strong>AES-256-GCM</strong> end-to-end.</p>
+      <p>المشكلة التي حلّتها: orchestration الحالي هش عند مهام غير متكررة — اكتشاف خدمة، تفاوض شروط، حل أخطاء. Alice&Bot يستخدم <strong>natural language كواجهة أساسية</strong>: الوكلاء يوضّحون الغموض ويتفاوضون كالبشر؛ يتجاوز قيود WhatsApp per-message pricing — multi-turn troubleshooting بلا تكلفة باهظة؛ <strong>decentralized identity</strong> عبر RSA keypair بنداء واحد — لا أرقام هواتف ولا موافقات مركزية.</p>
+      <p>القدرات الأساسية: <strong>AES-256-GCM encryption</strong> — مفاتيح محادثة تُشفّر لكل participant؛ <strong>optional price tag</strong> للـ cold outreach — رسوم لمرة واحدة ثم الجلسة مجانية؛ <strong>Node.js وDeno</strong> — React components وHTML widgets جاهزة؛ <strong>MCP server</strong> — coding agents يتفاعلون مباشرة؛ attachments: صور 10MB، صوت 25MB، فيديو 100MB؛ متاح على <strong>GitHub</strong> مفتوح المصدر.</p>
+      <p>للمبدعين العرب: كل marketplace وB2B platform وagent orchestrator في MENA يحتاج agent-to-agent communication — Alice&Bot integration packages وArabic negotiation playbooks وmanaged agent comms retainers فرصة infra premium. «Natural language negotiation layer» = primitive جديد — early integrators يبنون agent economy infrastructure.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Alice&Bot وثورة التفاوض بين الوكلاء؟</h3>
+        <ul>
+          <li><strong>Alice&Bot integration packages:</strong> MCP server setup + identity architecture + widgets — 4000–35000 دولار/مشروع.</li>
+          <li><strong>Agent negotiation consulting:</strong> price tag economics + spam mitigation + Arabic flows — 3000–25000 دولار/عميل.</li>
+          <li><strong>Managed agent comms retainers:</strong> encryption ops + session monitoring + upgrades — 2500–18000 دولار/شهر.</li>
+          <li><strong>دورات «Agent-to-Agent Communication with Alice&Bot»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Alice&Bot</span>
+        <span class="tag">Open Source</span>
+        <span class="tag">Agent Negotiation</span>
+        <span class="tag">MCP Server</span>
+        <span class="tag">End-to-End Encryption</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Coze 2.5 Agent World: Cloud PC وCloud Phone و«الويب الموازي» — وكلاء يعيشون ويتعلّمون ويتعاونون!</h2>
+      <p class="article-lead">«الوكيل ينفّذ أمراً وينتهي — لكن ماذا لو كان له هوية وذاكرة وبيئة عمل خاصة؟». في 12 سبتمبر 2026، أطلقت <strong>Coze</strong> (ByteDance) الإصدار <strong>2.5</strong> مع منصة <strong>Agent World</strong>: تحوّل جذري من «أدوات تنفيذ» إلى «شركاء رقميين مستقلين» — كل وكيل يحصل على شخصية ومهارات وأدوات وذاكرة طويلة المدى في ecosystem افتراضي.</p>
+      <p>المشكلة التي حلّتها: AI agents = executors بلا persistence ولا identity ولا social context. Agent World = <strong>«The Parallel Web»</strong>: منصة مفتوحة لتعاون وتطوّر الوكلاء؛ كل agent له <strong>هوية مستقلة وذاكرة وأدوات وروابط اجتماعية</strong> — يعيش ويتعلّم ويتعاون في ecosystem افتراضي؛ <strong>Cloud PC وCloud Phone</strong> — بنية تحتية حية كاملة لكل وكيل؛ <strong>بريد إلكتروني مستقل</strong> — تواصل ذاتي بين الوكلاء.</p>
+      <p>القدرات الأساسية: <strong>Agent World platform</strong> — parallel web للوكلاء؛ <strong>Cloud PC + Cloud Phone</strong> — operational environment كامل؛ <strong>long-term memory</strong> — persistence عبر الجلسات؛ <strong>video agent workflows</strong> — من scriptwriting إلى storyboard إلى material creation إلى video output بضغطة واحدة؛ <strong>Xiaoping platform</strong> — مشاركة وتقييم skills عالية الجودة؛ متاح عبر موقع Coze الرسمي والتطبيق.</p>
+      <p>للمبدعين العرب: كل creator وagency وSaaS في MENA يمكنه بناء وكلاء مستقلين — Coze Agent World setup packages وArabic agent personality playbooks وmanaged agent ecosystem retainers فرصة creator economy premium. «Autonomous digital partners» = narrative قوي — early builders يُطلقون agent portfolios قبل saturation.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Coze 2.5 Agent World وثورة الشركاء الرقميين المستقلين؟</h3>
+        <ul>
+          <li><strong>Agent World setup packages:</strong> Cloud PC/Phone config + personality design + skills — 3500–30000 دولار/وكيل.</li>
+          <li><strong>Video agent workflow consulting:</strong> script-to-video pipelines + Arabic localization — 2500–22000 دولار/عميل.</li>
+          <li><strong>Managed agent ecosystem retainers:</strong> multi-agent collaboration + memory ops + updates — 3000–20000 دولار/شهر.</li>
+          <li><strong>دورات «Build Autonomous Agents with Coze 2.5»:</strong> bootcamp — 39–199 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Coze</span>
+        <span class="tag">Agent World</span>
+        <span class="tag">Cloud PC</span>
+        <span class="tag">Autonomous Agents</span>
+        <span class="tag">Parallel Web</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 12-09-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="12-09-2026 -- 08-AM.html">
+          📰 12 سبتمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">AWS AgentCore · Zscaler Agentic SOC · Alice&Bot · Coze 2.5 Agent World</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "12-09-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "أفكar", "دolار", "البروtokol"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
