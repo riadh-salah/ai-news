@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 14-09-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "14-09-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Bolt Forge وكيل بناء تطبيقات بموديلات مفتوحة، Sesame وكلاء محادثة على iOS من مؤسسي Oculus، AllSpark Iris-mini وIris-pro وكلاء بحث مفتوحة الوزن، AWS Pizza Bot صندوق وارد للوكلاء الخلفيين، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 14 سبتمبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Bolt Forge الذي يُشغّل Bolt.new بموديلات GLM وKimi وDeepSeek مع حتى 50× استخدام Pro مجاناً، إلى Sesame — أربعة وكلاء بأصوات وذاكرة حقيقية على iOS من مؤسسي Oculus، ومن AllSpark Iris-mini وIris-pro — أقوى وكلاء بحث مفتوحة الوزن مع Iris Harness كامل، إلى AWS Pizza Bot — صندوق وارد بريد لإدارة وكلاء الخلفية بـ MCP وموافقات بشرية — أربع ثورات تُعيد تشكيل بناء التطبيقات المفتوحة والمحادثة الطبيعية والبحث الوكيلي وإدارة المهام طويلة المدى في 14 سبتمبر 2026!</h1>
+      <p class="hero-sub">Forge يُحوّل Pro إلى مختبر تدريب مفتوح، Sesame يُقرب النظارات الذكية 2027، AllSpark يُثبت أن الـ harness وليس الوزن وحده يفوز بالبحث، وPizza Bot يُعيد اختراع «البريد الوارد» للوكلاء. أربع قصص عالمية مع خريطة ذهبية للمبدعين العرب.</p>
+      <div class="hero-meta">
+        <span>📅 14 سبتمبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Bolt Forge: وكيل Bolt.new بالموديلات المفتوحة — GLM 5.3 وKimi K3 وDeepSeek v4 مع 50× استخدام Pro!</h2>
+      <p class="article-lead">«تريد بناء تطبيق كامل دون أن تُقفل على موديل مغلق واحد؟». في 14 سبتمبر 2026، أطلقت <strong>Bolt.new</strong> <strong>Bolt Forge</strong> — وكيل بناء تطبيقات يعمل حصرياً على موديلات مفتوحة المصدر، ضمن نافذة <strong>research preview</strong> حتى 14 أكتوبر 2026، مع عرض خاص: حتى <strong>50×</strong> استخدام إضافي على خطة Pro بلا تكلفة إضافية.</p>
+      <p>المشكلة التي حلّتها: منصات no-code AI كانت تربط المطور بمزود واحد — تكلفة، حدود، وصعوبة تدريب نماذج محلية. Forge يُشغّل افتراضياً <strong>GLM 5.3 Flash</strong> مع خيارات <strong>GLM 5.3</strong> و<strong>Kimi K3</strong> و<strong>DeepSeek v4 Pro</strong> تجريبياً — كلها قابلة للاختيار من الواجهة.</p>
+      <p>القدرات الأساسية: شراكة مع <strong>Arcee AI</strong> لتدريب موديل open-weight بحجم تريليون معامل؛ المستخدمون يختارون مشاركة جلسات بناء مجهولة الهوية (اتفاقية معالجة بيانات موقّعة)؛ بعد 14 أكتوبر يستمر Forge كمختبر مفتوح لكن ينتهي مضاعف الـ 50× ونافذة التدريب الأولى؛ Pro الحاليون يبدأون فوراً دون شراء إضافي.</p>
+      <p>للمبدعين العرب: كل agency وproduct studio ومسابقات hackathon في MENA — Bolt Forge onboarding packages وArabic prompt libraries للموديلات المفتوحة و«open-model app factory» retainers فرصة builder premium. «Build on open weights + share-to-train» = نموذج اقتصادي جديد — من يُ package قوالب SaaS عربية على Forge يفوز بسرعة إطلاق.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Bolt Forge وثورة بناء التطبيقات بالموديلات المفتوحة؟</h3>
+        <ul>
+          <li><strong>Bolt Forge starter packages:</strong> اختيار موديل + قوالب + نشر — 800–12000 دولار/مشروع.</li>
+          <li><strong>Open-model app consulting:</strong> هندسة prompts + مراجعة جلسات + compliance — 2500–22000 دولار/عميل.</li>
+          <li><strong>Managed no-code retainers:</strong> تطوير أسبوعي على Forge — 1200–9500 دولار/شهر.</li>
+          <li><strong>دورات «Build Apps with Bolt Forge &amp; Open Models»:</strong> bootcamp — 29–149 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Bolt.new</span>
+        <span class="tag">Bolt Forge</span>
+        <span class="tag">Open Models</span>
+        <span class="tag">Arcee AI</span>
+        <span class="tag">No-Code AI</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Sesame على iOS: Maya وMiles وSimone وCharlie — محادثة طبيعية وذاكرة ومسار نحو نظارات 2027!</h2>
+      <p class="article-lead">«ChatGPT يُجيب بسرعة — لكنه لا يُحسّ وكأنه يستمع». في 14 سبتمبر 2026، أطلقت <strong>Sesame</strong> — startup من مؤسسي <strong>Oculus</strong> وفرق VR سابقة في Meta — معاينة عامة لتطبيق <strong>iOS</strong> بوكلاء محادثة: أربعة شخصيات (<strong>Maya</strong>، <strong>Miles</strong>، <strong>Simone</strong>، <strong>Charlie</strong>) بصوت وشخصية وذاكرة مستقلة.</p>
+      <p>المشكلة التي حلّتها: chatbots تتعامل مع كل سؤال كجلسة منفصلة؛ الصوت يبدو robotic؛ البحث البصري ضعيف. Sesame يُبقي تدفق المحادثة حتى عند تأخر المعالجة، يُضيف بطاقات بحث بصري، ملاحظات، وضع نصي، استفسارات deep-dive، و<strong>incognito</strong> للخصوصية — بناءً على مليون+ مستخدم في Research Preview السابق (جولة Series B ~250 مليون دولار مع Sequoia).</p>
+      <p>القدرات الأساسية: متاح في <strong>39 دولة</strong> مجاناً حالياً مع waitlist محتمل؛ Android لاحقاً؛ الرؤية: وكلاء يُنفّذون إجراءات نيابة عنك وليس محادثة فقط؛ هدف <strong>نظارات ذكية 2027</strong> — التطبيق خطوة أولى نحو embodied AI.</p>
+      <p>للمبدعين العرب: سوق voice-first وcompanion apps في الخليج ومصر ينمو — Sesame-style Arabic persona packages وUX consulting للـ aging وeducation و«voice brand» retainers فرصة consumer AI premium. «Personality + memory + action agents» = category — من يُ localize أربع شخصيات للثقافة العربية يبني IP نادر قبل موجة eyewear.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Sesame وثورة الوكلاء الصوتيين على الجوال؟</h3>
+        <ul>
+          <li><strong>Voice agent persona packages:</strong> شخصيات عربية + scripts + QA — 3500–28000 دولار/علامة.</li>
+          <li><strong>Conversational UX consulting:</strong> flows + incognito + accessibility — 4000–35000 دولار/عميل.</li>
+          <li><strong>Managed companion app retainers:</strong> content + analytics + localization — 900–7500 دولار/شهر.</li>
+          <li><strong>دورات «Design Natural Voice Agents like Sesame»:</strong> bootcamp — 39–199 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Sesame</span>
+        <span class="tag">Oculus</span>
+        <span class="tag">Voice AI</span>
+        <span class="tag">iOS Agents</span>
+        <span class="tag">Smart Glasses</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>AllSpark Iris-mini وIris-pro: وكلاء بحث مفتوحة الوزن على Qwen3 — Iris Harness وكود التقييم كاملاً!</h2>
+      <p class="article-lead">«Perplexity قوي — لكن أين weights وrecipe التدريب؟». في 13 سبتمبر 2026، أعلنت مختبرات <strong>AllSpark</strong> الصينية عن <strong>Iris-mini</strong> و<strong>Iris-pro</strong> — وكلاء بحث <strong>open-weight</strong> مبنيان على <strong>Qwen3</strong>، يتصدران فئتهما في أربعة benchmarks للبحث المستقل وفق الفريق.</p>
+      <p>المشكلة التي حلّتها: scores منشورة دون disclosing إدارة السياق؛ وكلاء chat عامون يفشلون في web research طويل. الإصدار يتضمن أوزاناً على Hugging Face، <strong>Iris Harness</strong> (حلقة الوكيل، أدوات، استراتيجيات context، benchmarks + scripts)، يعمل مع أي endpoint متوافق OpenAI — pipelines التدريب «قريباً» للتحقق المستقل.</p>
+      <p>القدرات الأساسية: Iris-mini وIris-pro لحجمين مختلفين؛ paper يُ argument أن scaffolding إدارة السياق — لا الوزن وحده — يُفسّر فجوة الأداء؛ تحسينات claimed على tool use عام ومكتبية حتى دون تدريب صريح — يُراقب عند إ release pipeline؛ مفتوح للفرق التي تبني research agents داخل MENA datacenters.</p>
+      <p>للمبدعين العرب: كل media house وlegal tech وdue diligence في المنطقة — Iris deployment packages وArabic search agent playbooks وmanaged open-research retainers فرصة enterprise premium. «Open search agent + harness» = بديل self-hosted لـ closed APIs — integrators الذين يُ host على sovereign cloud يفوزون ب contracts حكومية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Iris-mini/pro وثورة البحث الوكيلي المفتوح؟</h3>
+        <ul>
+          <li><strong>Iris self-hosted packages:</strong> Hugging Face + harness + GPU sizing — 6000–55000 دولار/مشروع.</li>
+          <li><strong>Research agent consulting:</strong> benchmarks + Arabic corpus tuning — 5000–48000 دولار/عميل.</li>
+          <li><strong>Managed open-search retainers:</strong> updates + eval + compliance — 3500–28000 دولار/شهر.</li>
+          <li><strong>دورات «Deploy Open Search Agents with Iris Harness»:</strong> bootcamp — 49–249 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AllSpark</span>
+        <span class="tag">Iris-mini</span>
+        <span class="tag">Iris-pro</span>
+        <span class="tag">Qwen3</span>
+        <span class="tag">Open Weight</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>AWS Pizza Bot: صندوق وارد للوكلاء الخلفيين — DeepAgents وLangGraph وMCP وموافقات بشرية!</h2>
+      <p class="article-lead">«الوكيل يعمل ساعات — وأنت تُحدّث terminal كل دقيقة؟». في 10 سبتمبر 2026، أعلن فريق AWS عن <strong>Pizza Bot</strong> — تطبيق desktop مفتوح المصدر (<strong>Apache 2.0</strong>) يُ simulates inbox بريد لإدارة <strong>background AI agents</strong>؛ استخدمه آلاف داخل Amazon قبل إعادة بنائه كمشروع مجتمعي مستقل على GitHub.</p>
+      <p>المشكلة التي حلّتها: long-running agents تُرهق المستخدم بـ polling؛ فقدان الحالة عند disconnect. Pizza Bot يُسلّم المهام المكتملة كـ threads غير مقروءة، يُبرز ما يحتاج قراراً بشرياً، و<strong>Activity panel</strong> يُظهر handoffs لوكلاء متخصصين مع tool use؛ runtime على <strong>DeepAgents</strong> + <strong>LangGraph</strong> مع checkpoints للاستئناف بعد موافقة أو انقطاع.</p>
+      <p>القدرات الأساسية: self-hosted بلا SLA AWS — community project؛ دعم مزودي موديل متعددين و<strong>MCP</strong> وskills؛ «غياب المستخدم» مبدأ تصميم — الوكيل يُكمل دون حضورك؛ persistence محلياً في DB وملفات؛ مناسب لفرق ops وstartups التي تُشغّل agent swarms.</p>
+      <p>للمبدعين العرب: كل DevOps وBPO وoperations-heavy SaaS — Pizza Bot deployment packages وArabic approval workflow templates وmanaged agent-inbox retainers فرصة automation premium. «Email UX for agents» = pattern قابل للنسخ — consultants الذين يُ integrate MCP + human-in-the-loop يبيعون ops transformation.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Pizza Bot وثورة صندوق الوارد للوكلاء؟</h3>
+        <ul>
+          <li><strong>Pizza Bot deployment packages:</strong> self-host + MCP + approval flows — 4500–38000 دولار/مشروع.</li>
+          <li><strong>Agent ops consulting:</strong> LangGraph patterns + specialist handoffs — 5500–50000 دولار/عميل.</li>
+          <li><strong>Managed agent-inbox retainers:</strong> monitoring + runbooks — 2800–22000 دولار/شهر.</li>
+          <li><strong>دورات «Run Background Agents with Pizza Bot»:</strong> bootcamp — 39–199 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AWS</span>
+        <span class="tag">Pizza Bot</span>
+        <span class="tag">DeepAgents</span>
+        <span class="tag">LangGraph</span>
+        <span class="tag">MCP</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 14-09-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="14-09-2026 -- 12-AM.html">
+          📰 14 سبتمبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Bolt Forge · Sesame iOS · Iris-mini/pro · AWS Pizza Bot</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "14-09-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = ["dollar", "mlions", "bringing", "الLlatin", "أفكar", "دolار", "البروtokol"]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
