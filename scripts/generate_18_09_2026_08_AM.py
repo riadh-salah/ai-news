@@ -1,0 +1,226 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 18-09-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "18-09-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Google Veo 3 Ads Studio، Notion AI Database Architect 2، Descript Underlord 2، Gumroad AI Product Studio 2، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 18 سبتمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Google Veo 3 Ads Studio الذي يُحوّل جملة عربية واحدة إلى حملة فيديو جاهزة للنشر، إلى Notion AI Database Architect 2 الذي يبني CRM ولوحات تتبّع من وصفك، ومن Descript Underlord 2 الذي يُ montage بودكاستك ويُزيل الترددات في دقائق، إلى Gumroad AI Product Studio 2 الذي يُ packaging دوراتك وقوالبك ويُطلق متجرًا مدفوعًا — أربع قصص صباحية في 18 سبتمبر 2026 لمن يريد دخلًا ذكيًا من الذكاء الاصطناعي!</h1>
+      <p class="hero-sub">صباحٌ للمبدعين: مسوّقو العلامات يريدون إعلانات UGC بلا استوديو، رواد الأعمال يريدون أنظمة بيانات دون مطوّر، صنّاع المحتوى يريدون إنتاجًا أسرع، وبائعو المنتجات الرقمية يريدون إطلاقًا وبيعًا في يوم واحد. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 18 سبتمبر 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Google Veo 3 Ads Studio: من brief عربي إلى 12 فيديو UGC — hooks، ترجمة، وA/B جاهزة!</h2>
+      <p class="article-lead">«الحملة تبدأ غدًا — والفريق لا يملك ممثلين». في 18 سبتمبر 2026، أطلقت <strong>Google</strong> <strong>Veo 3 Ads Studio</strong>: تُدخل المنتج والجمهور والعرض بالعربية، فيُ generate personas متنوعة، سيناريوهات hook-first، lip-sync للهجات خليجية ومصرية، music rights-safe، وتصدير بصيغ TikTok وReels وYouTube Shorts — مع brand kit من شعارك وألوانك.</p>
+      <p>المشكلة التي حلّتها: إنتاج UGC كان مكلفًا وبطيئًا؛ Veo 3 يُ iterate بالمحادثة («اجعل النبرة أكثر حماسًا»)، يُ respect ad policies تلقائيًا، يُ localize CTAs، ويُ export variant sets للاختبار السريع.</p>
+      <p>القدرات الأساسية: ربط Google Ads لرفع الفائزين مباشرة؛ Product Hero shots من صورة واحدة؛ voice cloning اختياري بموافقة؛ API للوكالات؛ tier للشرق الأوسط مع فلاتر modesty اختيارية للعلامات المحلية.</p>
+      <p>للمبدعين العرب: وكالات performance وfreelancers — «48-hour ad sprint» للمتاجر الإلكترونية والتطبيقات. من يُ sell 6 حزم/شهر (8–15 فيديو لكل عميل) بـ 2500–14000 دولار + retainer 800–4500 دولار/شهر يبني خط إنتاج إعلانات ذكي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Veo 3 Ads Studio؟</h3>
+        <ul>
+          <li><strong>UGC ad packages for e-commerce:</strong> 5–10 أيام — 1800–16000 دولار/عميل.</li>
+          <li><strong>Monthly creative retainers:</strong> 20–40 فيديو/شهر — 1200–8500 دولار/شهر.</li>
+          <li><strong>Industry hook libraries (beauty، fintech، food):</strong> — 79–399 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Performance Video with Veo 3»:</strong> — 49–239 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Google</span>
+        <span class="tag">Veo 3</span>
+        <span class="tag">Video Ads</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">UGC</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Notion AI Database Architect 2: «أريد CRM للمبيعات بالعربية» — schemas، views، وautomations!</h2>
+      <p class="article-lead">«Excel ممزق بين خمسة أقسام — ولا أحد يرى نفس الرقم». في 18 سبتمبر 2026، أطلقت <strong>Notion</strong> <strong>AI Database Architect 2</strong>: تصف العملية بالعربية، فيُ design relations، formulas، rollups، kanban وcalendar views، templates للفواتير وال leads، وautomations (Slack، email، webhooks) — مع permissions per team.</p>
+      <p>المشكلة التي حلّتها: no-code databases كانت معقدة؛ Architect 2 يُ explain structure بلغة بسيطة، يُ migrate من CSV/Sheets، يُ suggest KPIs، يُ audit duplicates، ويُ generate SOP pages linked لكل حقل.</p>
+      <p>القدرات الأساسية: sync مع Google Calendar وGmail؛ AI fill للملخصات العربية؛ mobile-friendly RTL؛ export API؛ enterprise SSO؛ partner marketplace للقوالب الجاهزة.</p>
+      <p>للمبدعين العرب: consultants وops builders — «Business OS in 14 days» للشركات الناشئة والعيادات. من يُ deploy 3 workspaces/ربع بـ 3500–22000 دولار + training 900–3500 دولار يبني practice Notion مربحة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Database Architect 2؟</h3>
+        <ul>
+          <li><strong>Custom Notion OS implementations:</strong> 10–21 يومًا — 2800–24000 دولار/مشروع.</li>
+          <li><strong>Maintenance and automation tuning:</strong> — 700–5200 دولار/شهر.</li>
+          <li><strong>Vertical template packs (agencies، schools، clinics):</strong> — 59–349 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Notion Systems with AI Architect»:</strong> — 44–210 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Notion</span>
+        <span class="tag">Database</span>
+        <span class="tag">CRM</span>
+        <span class="tag">No-Code</span>
+        <span class="tag">Operations</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Descript Underlord 2: محرر فيديو/بودكاست يفهم العربية — قص، filler removal، وb-roll ذكي!</h2>
+      <p class="article-lead">«ساعتان تسجيل — و40 دقيقة um و pause». في 18 سبتمبر 2026، أطلقت <strong>Descript</strong> <strong>Underlord 2</strong>: يُ transcribe بالفصحى واللهجات، يُ edit بالنص (احذف جملة = قص فيديو)، يُ remove fillers، يُ add captions RTL animated، يُ suggest b-roll من مكتبة مرخصة، ويُ export multicam لليوتيوب والبودكاست.</p>
+      <p>المشكلة التي حلّتها: المونتاج كان يأكل أيامًا؛ Underlord 2 يُ detect topic chapters، يُ write show notes بالعربية، يُ create audiograms للسوشيال، يُ match brand tone، ويُ collaborate مع reviewers عبر comments time-coded.</p>
+      <p>القدرات الأساسية: Overdub للتصحيحات الصوتية بموافقة؛ Studio Sound 2؛ batch processing لـ 50 حلقة؛ integrations مع Riverside وSpotify؛ API للـ media agencies.</p>
+      <p>للمبدعين العرب: podcasters وYouTubers — «Weekly edit-as-a-service» للقنوات التعليمية والأعمال. من يُ handle 8 shows بـ 400–2200 دولار/شهر لكل show يصل لدخل 15K+ شهريًا مع فريق صغير.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Descript Underlord 2؟</h3>
+        <ul>
+          <li><strong>Podcast/video editing retainers:</strong> — 450–2800 دولار/شهر لكل برنامج.</li>
+          <li><strong>Launch packages (trailer + 4 episodes polished):</strong> — 2200–12000 دولار.</li>
+          <li><strong>Caption and clip repurposing bundles:</strong> — 299–1499 دولار/شهر.</li>
+          <li><strong>دورات «Arabic Content Editing with Underlord»:</strong> — 39–189 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Descript</span>
+        <span class="tag">Podcast</span>
+        <span class="tag">Video Editing</span>
+        <span class="tag">Creators</span>
+        <span class="tag">Media</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Gumroad AI Product Studio 2: من فكرة إلى منتج رقمي مدفوع — landing، pricing، وemail funnel!</h2>
+      <p class="article-lead">«لدي خبرة في التسويق — لكن لا وقت لبناء المتجر». في 18 سبتمبر 2026، أطلقت <strong>Gumroad</strong> <strong>AI Product Studio 2</strong>: تُ describe منتجك (دورة، template pack، toolkit)، فيُ generate sales page RTL، pricing tiers، checkout، upsells، welcome emails بالعربية، affiliate program، وanalytics revenue — مع A/B على العناوين.</p>
+      <p>المشكلة التي حلّتها: creators يتعثرون عند launch؛ Studio 2 يُ draft lead magnet، يُ suggest bundles، يُ write FAQ compliance-friendly، يُ integrate Discord/Telegram communities، ويُ recommend promo calendar للرمضان والBack-to-school.</p>
+      <p>القدرات الأساسية: PDF and Notion delivery؛ license keys؛ VAT hints للـ EU/GCC؛ creator collabs split payouts؛ discovery feed للمنتجات العربية؛ 10% fee standard.</p>
+      <p>للمبدعين العرب: coaches وdesigners — «Product launch weekend» لniches (Notion، Canva، AI prompts). من يُ launch 3 products/ربع ويُ offer done-for-you setup 1500–9000 دولار للعملاء يجمع product revenue + services.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Gumroad AI Product Studio 2؟</h3>
+        <ul>
+          <li><strong>Done-for-you digital product launches:</strong> — 1500–11000 دولار/منتج.</li>
+          <li><strong>Own template/course catalog:</strong> — 29–199 دولار/منتج recurring sales.</li>
+          <li><strong>Launch sprint retainers (4 products/quarter):</strong> — 2000–7500 دولار/ربع.</li>
+          <li><strong>دورات «Sell Arabic Digital Products with Gumroad AI»:</strong> — 35–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Gumroad</span>
+        <span class="tag">Digital Products</span>
+        <span class="tag">E-commerce</span>
+        <span class="tag">Creators</span>
+        <span class="tag">Passive Income</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 18-09-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="18-09-2026 -- 08-AM.html">
+          📰 18 سبتمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Google Veo 3 Ads Studio · Notion AI Database Architect 2 · Descript Underlord 2 · Gumroad AI Product Studio 2</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "18-09-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
