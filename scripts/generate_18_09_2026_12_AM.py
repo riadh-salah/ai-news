@@ -1,0 +1,226 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 18-09-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "18-09-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Anthropic Claude Computer Use 2، OpenAI Instant Apps Studio، Microsoft Power Automate Copilot 3، Beehiiv Monetize AI 2، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 18 سبتمبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Anthropic Claude Computer Use 2 الذي يُنجز مهامك على المتصفح والبريد بينما أنت نائم، إلى OpenAI Instant Apps Studio الذي يحوّل فكرة تطبيقك إلى منتج مدفوع في ساعات، ومن Microsoft Power Automate Copilot 3 الذي يُ automate عمليات شركتك بالعربية، إلى Beehiiv Monetize AI 2 الذي يبني لك نشرة بريدية تُ sold subscriptions — أربع شرارات ليلية في 18 سبتمبر 2026 لمن يريد دخلًا ذكيًا من الذكاء الاصطناعي!</h1>
+      <p class="hero-sub">منتصف ليلٍ للمبادرين: رواد الأعمال يريدون أتمتة دون مطورين، المبدعون يريدون تطبيقات مصغرة تُباع، فرق العمليات تريد workflows ذكية، وكتاب النشرات يريدون اشتراكات متكررة. أربع قصص عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 18 سبتمبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Anthropic Claude Computer Use 2: وكيل يُدير شاشتك بأمان — طلبات، فواتير، وCRM دون لمس الفأرة!</h2>
+      <p class="article-lead">«100 فاتورة PDF في البريد — والموعد قبل الفجر». في 18 سبتمبر 2026، أطلقت <strong>Anthropic</strong> <strong>Claude Computer Use 2</strong>: وكيل يرى المتصفح (مع sandbox)، يُ navigate portals، يُ fill forms، يُ download attachments، ويُ update spreadsheets — مع human-in-the-loop للخطوات الحساسة وaudit log كامل.</p>
+      <p>المشكلة التي حلّتها: RPA القديمة تتكسر عند تغيير UI؛ Computer Use 2 يُ adapt visually، يُ read Arabic RTL dashboards، يُ retry on errors، ويُ respect enterprise policies (no password export، geo-fencing).</p>
+      <p>القدرات الأساسية: MCP connectors لـ Salesforce وQuickBooks؛ batch mode لـ 500 مهمة/ليلة؛ Teams وSlack approvals؛ API للـ agencies؛ tier للـ GCC مع data residency options.</p>
+      <p>للمبدعين العرب: virtual assistants وops freelancers — «Night shift automation» للعيادات والمكاتب القانونية في الخليج. من يُ package 3 playbooks (invoicing، vendor onboarding، lead enrichment) ويبيع setup 4000–18000 دولار + 800–3500 دولار/شهر maintenance يبني دخلًا متكررًا.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Claude Computer Use 2؟</h3>
+        <ul>
+          <li><strong>Business process automation sprints:</strong> 7–21 يومًا — 3500–28000 دولار/مشروع.</li>
+          <li><strong>Managed automation retainers:</strong> monitoring + updates — 1200–9500 دولار/شهر.</li>
+          <li><strong>Industry playbook packs (clinics، logistics، e-commerce):</strong> — 99–549 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Ops Automation with Claude Computer Use»:</strong> — 55–265 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Anthropic</span>
+        <span class="tag">Claude</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Agents</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>OpenAI Instant Apps Studio: من prompt عربي إلى mini-app مدفوع — auth، payments، وhosting!</h2>
+      <p class="article-lead">«تريد أداة لحساب zakat للمتاجر الصغيرة — لكن لا وقت لبرمجة». في 18 سبتمبر 2026، أطلقت <strong>OpenAI</strong> <strong>Instant Apps Studio</strong>: تصف التطبيق بالعربية، فيُ generate UI responsive، backend serverless، Stripe checkout، user accounts، وanalytics — deploy على subdomain خلال دقائق.</p>
+      <p>المشكلة التي حلّتها: no-code كان بطيئًا ومحصورًا في templates؛ Studio يُ iterate بالمحادثة («أضف export PDF»)، يُ enforce security best practices، ويُ publish updates one-click — marketplace للـ creators لبيع apps.</p>
+      <p>القدرات الأساسية: RTL وArabic numerals؛ OpenAI API embedding optional؛ revenue share 15% على paid apps؛ white-label للـ agencies؛ compliance mode للـ EU.</p>
+      <p>للمبدعين العرب: indie hackers وconsultants — «Micro-SaaS in a weekend» لniches (HR، real estate، halal finance). من يُ launch 2 paid apps/شهر بـ 9–49 دولار/مستخدم ويُ cross-sell setup 1500–8000 دولار للشركات الصغيرة يصل لـ 20K MRR خلال ربع.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Instant Apps Studio؟</h3>
+        <ul>
+          <li><strong>Custom micro-app builds for SMBs:</strong> — 2800–22000 دولار/تطبيق.</li>
+          <li><strong>App marketplace listings + maintenance:</strong> — 29–199 دولار/شهر per app.</li>
+          <li><strong>Template packs (calculators، dashboards، booking):</strong> — 49–299 دولار/حزمة.</li>
+          <li><strong>دورات «Launch Arabic Micro-SaaS with OpenAI Studio»:</strong> — 62–289 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">Instant Apps</span>
+        <span class="tag">Micro-SaaS</span>
+        <span class="tag">No-Code</span>
+        <span class="tag">Startups</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Microsoft Power Automate Copilot 3: «أتمت عملية الموافقات» — flows بالعربية من وصف طبيعي!</h2>
+      <p class="article-lead">«كل طلب إجازة يمر بـ 4 emails — والموظفون يشتكون». في 18 سبتمبر 2026، أطلقت <strong>Microsoft</strong> <strong>Power Automate Copilot 3</strong>: تكتب بالعربية ما تريد («عندما يُ submit نموذج Teams، أرسل للمدير ثم HR»)، فيُ build flow كامل مع conditions، approvals، Teams notifications، وSharePoint archiving — test mode قبل التفعيل.</p>
+      <p>المشكلة التي حلّتها: IT queues طويلة؛ Copilot 3 يُ suggest connectors (Dynamics، SAP)، يُ detect PII ويُ mask، يُ document flows للـ compliance، ويُ monitor failures مع auto-fix suggestions.</p>
+      <p>القدرات الأساسية: Azure OpenAI governance؛ desktop flows للـ legacy apps؛ premium templates للـ banking وhealthcare؛ Copilot Studio handoff للـ chatbots؛ MENA data centers support.</p>
+      <p>للمبدعين العرب: Microsoft partners وfreelance automators — «Ops rescue in 10 days» للشركات 50–500 موظف. من يُ sell 4 implementations/ربع بـ 6000–35000 دولار + support retainer يبني practice مستدامة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Power Automate Copilot 3؟</h3>
+        <ul>
+          <li><strong>End-to-end workflow implementations:</strong> — 4500–42000 دولار/مشروع.</li>
+          <li><strong>Monthly automation support:</strong> — 1400–11000 دولار/شهر.</li>
+          <li><strong>Prebuilt flow libraries (HR، procurement، customer service):</strong> — 79–449 دولار/مكتبة.</li>
+          <li><strong>دورات «Arabic Business Automation with Microsoft Copilot»:</strong> — 58–275 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Microsoft</span>
+        <span class="tag">Power Automate</span>
+        <span class="tag">Copilot</span>
+        <span class="tag">Workflows</span>
+        <span class="tag">Enterprise</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Beehiiv Monetize AI 2: نشرة بريدية من صفر — محتوى، sponsors، paid tiers، وgrowth loops!</h2>
+      <p class="article-lead">«تريد newsletter عن AI بالعربية — لكن الكتابة والتسويق يأكلان شهرًا». في 18 سبتمبر 2026، أطلقت <strong>Beehiiv</strong> <strong>Monetize AI 2</strong>: تُ define niche وtone، فيُ plan editorial calendar، يُ draft issues بالفصحى، يُ design templates RTL، يُ suggest sponsorship packages، يُ setup paid subscriptions وreferral rewards — مع A/B على subject lines.</p>
+      <p>المشكلة التي حلّتها: creators يتوقفون عند issue 5؛ Monetize AI 2 يُ repurpose top posts إلى LinkedIn threads، يُ track churn reasons، يُ recommend premium upsells (community، reports)، ويُ integrate Stripe + local payment hints للـ MENA.</p>
+      <p>القدرات الأساسية: ad network matching؛ analytics revenue per subscriber؛ multi-publication dashboard؛ API للـ agencies؛ partner program 30% recurring على referrals.</p>
+      <p>للمبدعين العرب: journalists و niche experts — «Launch + 90-day growth» للقطاعات (fintech، parenting، dev careers). من يُ run 6 client newsletters بـ 2000–12000 دولار setup + 500–4000 دولار/شهر ops يبني media agency خفيفة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Beehiiv Monetize AI 2؟</h3>
+        <ul>
+          <li><strong>Newsletter launch + monetization setup:</strong> — 2200–18000 دولار/عميل.</li>
+          <li><strong>Ongoing editorial + sponsor sales:</strong> — 900–7500 دولار/شهر.</li>
+          <li><strong>Niche newsletter templates (crypto، SaaS، wellness):</strong> — 59–329 دولار/قالب.</li>
+          <li><strong>دورات «Build Paid Arabic Newsletters with Beehiiv AI»:</strong> — 47–225 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Beehiiv</span>
+        <span class="tag">Newsletter</span>
+        <span class="tag">Media</span>
+        <span class="tag">Subscriptions</span>
+        <span class="tag">Creators</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 18-09-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="18-09-2026 -- 12-AM.html">
+          📰 18 سبتمبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Claude Computer Use 2 · OpenAI Instant Apps Studio · Power Automate Copilot 3 · Beehiiv Monetize AI 2</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "18-09-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
