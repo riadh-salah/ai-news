@@ -1,0 +1,226 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 19-09-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "19-09-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Anthropic Claude Agent SDK 2، Canva Magic Studio MENA 3، Stripe Sigma AI Analyst 2، Beehiiv Ad Network AI 3، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 19 سبتمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Anthropic Claude Agent SDK 2 الذي يُشغّل وكلاء يعملون ليلًا نيابةً عنك، إلى Canva Magic Studio MENA 3 الذي يُطلق حملات عربية كاملة من prompt واحد، ومن Stripe Sigma AI Analyst 2 الذي يُترجم أرقامك إلى قرارات إيرادات، إلى Beehiiv Ad Network AI 3 الذي يملأ نشرتك بإعلانات ذكية وتدفقات دخل — أربع قصص صباحية في 19 سبتمبر 2026 لمن يريد أدوات عالمية ومحفظة أكثر ذكاءً!</h1>
+      <p class="hero-sub">صباحٌ للبناة: المطوّرون يريدون agents جاهزة للإنتاج، العلامات التجارية تريد creative بلا استوديو، أصحاب SaaS يريدون analytics بلا محلّل بشري، وكتاب النشرات يريدون monetization بلا مفاوضات إعلانية لا تنتهي. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 19 سبتمبر 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Anthropic Claude Agent SDK 2: وكلاء يُنجزون مهامك — browse، code، CRM، وتقارير بالعربية!</h2>
+      <p class="article-lead">«لديّ قائمة مهام طويلة — ولا وقت لأتتبّع كل زاوية». في 19 سبتمبر 2026، أطلقت <strong>Anthropic</strong> <strong>Claude Agent SDK 2</strong>: تُ define هدفًا بالعربية («اجمع leads من LinkedIn، صنّفهم، وأرسل مسودات follow-up»)، فيُ spin up agents متوازيين مع sandbox آمن، memory per client، human-in-the-loop للموافقات، وتسجيل audit كامل — مع connectors لـ Gmail، Notion، GitHub، وSalesforce.</p>
+      <p>المشكلة التي حلّتها: automation scripts كانت fragile؛ SDK 2 يُ plan خطوات، يُ recover من الأخطاء، يُ respect rate limits، يُ mask PII تلقائيًا، ويُ export runbooks قابلة لإعادة الاستخدام — enterprise VPC للخليج وEU.</p>
+      <p>القدرات الأساسية: sub-agents متخصصون (research، coding، ops)؛ scheduling ليلي؛ Slack/Telegram notifications بالعربية؛ eval dashboards لقياس الجودة؛ partner tier للوكالات التي تُ manage 50+ workspace.</p>
+      <p>للمبدعين العرب: automation agencies وtechnical freelancers — «Agent ops in 10 days» للشركات الناشئة والعيادات والوكالات. من يُ deploy 4 stacks/ربع بـ 4500–28000 دولار + retainer 900–5500 دولار/شهر يبني practice agents مربحة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Claude Agent SDK 2؟</h3>
+        <ul>
+          <li><strong>Custom agent workflows for SMBs:</strong> 7–18 يومًا — 3800–32000 دولار/مشروع.</li>
+          <li><strong>Monthly agent maintenance and tuning:</strong> — 850–6200 دولار/شهر.</li>
+          <li><strong>Vertical agent templates (real estate، legal intake، e-commerce ops):</strong> — 89–449 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic AI Agents with Claude SDK»:</strong> — 55–265 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Anthropic</span>
+        <span class="tag">Claude</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Developers</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Canva Magic Studio MENA 3: من فكرة حملة إلى 40 أصلًا RTL — reels، stories، وprint جاهز!</h2>
+      <p class="article-lead">«العميل يريد launch غدًا — والتصميم لم يبدأ». في 19 سبتمبر 2026، أطلقت <strong>Canva</strong> <strong>Magic Studio MENA 3</strong>: تُ describe العلامة والعرض بالعربية، فيُ generate brand kit، فيديوهات قصيرة، carousels، billboards، menus، وemail headers — مع خطوط عربية premium، هوية Ramadan/Back-to-school، وتصدير مباشر لـ Meta Ads وTikTok.</p>
+      <p>المشكلة التي حلّتها: creative bottlenecks تقتل campaigns؛ Magic Studio 3 يُ iterate بالمحادثة («اجعل الألوان أكثر فخامة»)، يُ enforce brand guidelines، يُ localize dialect CTAs (خليجي/مصري)، ويُ batch resize لكل المنصات في نقرة.</p>
+      <p>القدرات الأساسية: Magic Video 2 مع lip-sync عربي؛ team libraries؛ approval flows؛ API للوكالات؛ tier education للمدارس والجامعات في المنطقة.</p>
+      <p>للمبدعين العرب: design freelancers وsocial agencies — «72-hour campaign kit» للمطاعم والعيادات والمتاجر. من يُ sell 8 kits/شهر بـ 1200–9500 دولار + subscription Canva Teams markup يضاعف الهامش.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Magic Studio MENA 3؟</h3>
+        <ul>
+          <li><strong>Rapid campaign creative packages:</strong> 3–7 أيام — 1400–14000 دولار/عميل.</li>
+          <li><strong>Monthly social content retainers (30–60 assets):</strong> — 1100–7800 دولار/شهر.</li>
+          <li><strong>Industry Canva template packs (beauty، fintech، hospitality):</strong> — 49–279 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Brand Systems with Canva Magic»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Canva</span>
+        <span class="tag">Design</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">MENA</span>
+        <span class="tag">Creators</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Stripe Sigma AI Analyst 2: اسأل بالعربية عن MRR والchurn — charts، forecasts، وplaybooks!</h2>
+      <p class="article-lead">«لديّ بيانات Stripe — ولا أفهم أين يتسرب الدخل». في 19 سبتمبر 2026، أطلقت <strong>Stripe</strong> <strong>Sigma AI Analyst 2</strong>: تكتب سؤالًا بالعربية («من العملاء الذين سيلغون خلال 30 يومًا؟»)، فيُ generate SQL آمن، visualizations، cohort analysis، pricing simulations، وemail drafts للwin-back — مع explanations بلغة business لا tech.</p>
+      <p>المشكلة التي حلّتها: founders يعتمدون على spreadsheets؛ Analyst 2 يُ connect subscriptions، invoices، disputes، وtax reports؛ يُ alert anomalies؛ يُ suggest dunning tweaks؛ ويُ export board-ready PDFs.</p>
+      <p>القدرات الأساسية: scheduled Arabic briefings؛ scenario modeling (±10% price)؛ integration HubSpot وIntercom؛ role-based access؛ API للCFO tools؛ GCC VAT insights.</p>
+      <p>للمبدعين العرب: SaaS consultants وfractional CFOs — «Revenue clarity sprint» للمنتجات B2B وال memberships. من يُ onboard 6 accounts/ربع بـ 2500–18000 دولار + 600–4800 دولار/شهر يبني خط analytics-as-a-service.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Sigma AI Analyst 2؟</h3>
+        <ul>
+          <li><strong>Stripe analytics setup and dashboards:</strong> 5–14 يومًا — 2200–22000 دولار/عميل.</li>
+          <li><strong>Monthly revenue intelligence retainers:</strong> — 700–5500 دولار/شهر.</li>
+          <li><strong>Playbook packs (SaaS، memberships، marketplaces):</strong> — 79–349 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic SaaS Metrics with Stripe AI»:</strong> — 48–228 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Stripe</span>
+        <span class="tag">Analytics</span>
+        <span class="tag">SaaS</span>
+        <span class="tag">Finance</span>
+        <span class="tag">Subscriptions</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Beehiiv Ad Network AI 3: نشرتك تُ monetize نفسها — matching، copy، وتقارير CPM!</h2>
+      <p class="article-lead">«أكتب محتوى رائعًا — لكن الإعلانات تتطلب شبكة علاقات». في 19 سبتمبر 2026، أطلقت <strong>Beehiiv</strong> <strong>Ad Network AI 3</strong>: يُ analyze جمهورك وniche، يُ match sponsors مناسبين (SaaS، fintech، education)، يُ draft ad copy RTL، يُ insert placements بدون كسر التصميم، ويُ optimize CPM عبر A/B — مع payouts شفافة وtax summaries.</p>
+      <p>المشكلة التي حلّتها: newsletter monetization كان manual؛ Ad Network 3 يُ predict fill rate، يُ block low-quality ads، يُ personalize offers per segment، يُ sync paid tiers (Beehiiv Boost)، ويُ generate media kit PDF بالعربية للرعاة المحليين.</p>
+      <p>القدرات الأساسية: programmatic + direct deals hybrid؛ affiliate auto-inserts؛ referral program AI copy؛ analytics per issue؛ API للـ multi-newsletter operators.</p>
+      <p>للمبدعين العرب: newsletter writers وcommunity builders — «Monetize in 30 days» للنشرات التقنية والمالية والتعليم. من يُ grow 3 publications + يُ offer setup 1800–11000 دولار للعملاء يجمع ad revenue share + services.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Beehiiv Ad Network AI 3؟</h3>
+        <ul>
+          <li><strong>Newsletter monetization setup:</strong> 7–21 يومًا — 1600–13000 دولار/مشروع.</li>
+          <li><strong>Managed ad ops for creators (rev share or flat):</strong> — 500–4500 دولار/شهر.</li>
+          <li><strong>Own niche newsletter + sponsors (CPM 25–80 USD):</strong> — دخل متكرر حسب الجمهور.</li>
+          <li><strong>دورات «Arabic Newsletter Revenue with Beehiiv AI»:</strong> — 38–185 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Beehiiv</span>
+        <span class="tag">Newsletter</span>
+        <span class="tag">Ads</span>
+        <span class="tag">Monetization</span>
+        <span class="tag">Creators</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 19-09-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="19-09-2026 -- 08-AM.html">
+          📰 19 سبتمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Anthropic Claude Agent SDK 2 · Canva Magic Studio MENA 3 · Stripe Sigma AI Analyst 2 · Beehiiv Ad Network AI 3</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "19-09-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
