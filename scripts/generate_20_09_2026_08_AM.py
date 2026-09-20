@@ -1,0 +1,226 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 20-09-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "20-09-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Mistral Le Chat Enterprise 3، ClickUp Brain 3، Jasper Brand Voice GCC 2، Paddle Retain AI 2، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 20 سبتمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">☀️ نشرة AI العالمية</span>
+      <h1>من Mistral Le Chat Enterprise 3 الذي يُشغّل مساعدًا أوروبيًا متوافقًا مع GDPR داخل شركتك بالعربية، إلى ClickUp Brain 3 الذي يُحوّل الفوضى إلى خطة تنفيذ في دقائق، ومن Jasper Brand Voice GCC 2 الذي يكتب بصوت علامتك للخليج ومصر والمغرب، إلى Paddle Retain AI 2 الذي يُنقذ اشتراكات SaaS قبل أن يغادر العميل — أربع قصص صباحية في 20 سبتمبر 2026 لمن يريد أدوات عالمية ودخلًا يتسارع مع الفجر!</h1>
+      <p class="hero-sub">صباحٌ للقادة: المؤسسات تريد AI بلا مخاطر امتثال، الفرق تريد productivity بلا اجتماعات لا تنتهي، الوكالات تريد copy عربي يبيع، وصناع المنتجات يريدون MRR يُ repaired تلقائيًا. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 20 سبتمبر 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Mistral Le Chat Enterprise 3: مساعد AI أوروبي داخل شركتك — عربي، GDPR، وdata residency جاهزة!</h2>
+      <p class="article-lead">«نريد ChatGPT لكن legal يقول لا — والبيانات لا تغادر EU». في 20 سبتمبر 2026، أطلقت <strong>Mistral</strong> <strong>Le Chat Enterprise 3</strong>: workspace للشركات يُ connect بـ SharePoint وConfluence وSlack، يُ answer بالعربية والفرنسية والإنجليزية، يُ enforce policies (no PII export)، يُ host في Frankfurt أو Paris، ويُ audit كل prompt — مع connectors لـ SAP وMicrosoft 365.</p>
+      <p>المشكلة التي حلّتها: enterprises في MENA تتبع EU vendors؛ Enterprise 3 يُ offer Arabic UI، dialect-aware summaries للاجتماعات، RAG على مستندات PDF RTL، SSO وSCIM، وmodel routing بين Mistral Large وSmall حسب الحساسية والتكلفة.</p>
+      <p>القدرات الأساسية: department bots (HR، legal، finance)؛ citation links لكل إجابة؛ red-team filters؛ API للوكالات؛ partner program للintegrators في الخليج؛ SLA 99.9%.</p>
+      <p>للمبدعين العرب: IT consultancies وcompliance-first agencies — «Enterprise AI rollout in 14 days» للبنوك والتأمين والlogistics. من يُ deploy 3 tenants/ربع بـ 12000–85000 دولار + retainer 2500–12000 دولار/شهر يبني practice enterprise AI آمن.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Le Chat Enterprise 3؟</h3>
+        <ul>
+          <li><strong>Enterprise pilot + policy design:</strong> 10–21 يومًا — 8500–72000 دولار/مؤسسة.</li>
+          <li><strong>Managed workspace (users + governance):</strong> — 2200–15000 دولار/شهر.</li>
+          <li><strong>Arabic RAG playbooks (banking، healthcare، gov):</strong> — 99–549 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic EU-Compliant AI with Mistral Enterprise»:</strong> — 65–320 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Mistral</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">GDPR</span>
+        <span class="tag">Arabic</span>
+        <span class="tag">Compliance</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>ClickUp Brain 3: من Slack وemail إلى خطة مشروع — tasks، owners، وdeadlines تلقائيًا!</h2>
+      <p class="article-lead">«الاجتماع انتهى — ولا أحد يعرف ماذا نفعل غدًا». في 20 سبتمبر 2026، أطلقت <strong>ClickUp</strong> <strong>Brain 3</strong>: تُ feed threads وtranscripts وvoice notes، فيُ extract action items، يُ assign owners، يُ suggest priorities، يُ draft status updates بالعربية — ويُ sync مع Calendar وGitHub وFigma — مع «Ask Brain» على أي task.</p>
+      <p>المشكلة التي حلّتها: remote teams تغرق في coordination؛ Brain 3 يُ detect blockers، يُ propose standup agendas، يُ auto-create subtasks من specs، يُ summarize sprint retro، يُ flag scope creep، ويُ integrate Zoom وTeams للMENA teams.</p>
+      <p>القدرات الأساسية: workspace templates (agency، product، events)؛ AI time estimates؛ client portals للوكالات؛ white-label reports؛ mobile voice capture باللهجة المحلية.</p>
+      <p>للمبدعين العرب: ops consultants وPM freelancers — «Brain setup week» للشركات 20–200 موظف. من يُ onboard 5 workspaces/شهر بـ 1800–9500 دولار setup + 600–4200 دولار/شهر training يحوّل chaos إلى recurring ops revenue.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من ClickUp Brain 3؟</h3>
+        <ul>
+          <li><strong>Workspace migration + Brain tuning:</strong> 5–12 يومًا — 1500–8800 دولار/شركة.</li>
+          <li><strong>Weekly ops coaching (Brain + dashboards):</strong> — 750–4800 دولار/شهر.</li>
+          <li><strong>Industry ClickUp templates (construction، clinics، media):</strong> — 45–229 دولار/قالب.</li>
+          <li><strong>دورات «Arabic Team Velocity with ClickUp Brain»:</strong> — 42–210 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">ClickUp</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">PM</span>
+        <span class="tag">Remote</span>
+        <span class="tag">Automation</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Jasper Brand Voice GCC 2: حملات عربية بصوت واحد — إعلانات، landing pages، وemail sequences!</h2>
+      <p class="article-lead">«النص جميل — لكنه لا يبدو مثل علامتنا في دبي ولا في القاهرة». في 20 سبتمبر 2026، أطلقت <strong>Jasper</strong> <strong>Brand Voice GCC 2</strong>: تُ upload brand guide و20 sample posts، فيُ learn tone للخليج ومصر والLevant، يُ generate campaigns متسقة (Meta ads، Google RSA، WhatsApp broadcasts)، يُ A/B hooks، ويُ export إلى Canva وHubSpot — مع compliance hints للfinance وhealth ads.</p>
+      <p>المشكلة التي حلّتها: copywriters multilingual م scarce؛ GCC 2 يُ separate formal فصحى من conversational خليجي، يُ maintain glossary (product names)، يُ localize CTAs، يُ score readability، ويُ team review workflows للوكالات.</p>
+      <p>القدرات الأساسية: campaign wizard (launch، Ramadan، Black Friday MENA)؛ SEO blog clusters بالعربية؛ influencer brief generator؛ API للmartech stacks؛ seats للfreelance pools.</p>
+      <p>للمبدعين العرب: performance agencies وcontent studios — «30-day Arabic content engine» للe-commerce وfintech. من يُ deliver 8 retainers بـ 1400–7500 دولار/شهر + performance bonus يبني studio copy بscale.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Brand Voice GCC 2؟</h3>
+        <ul>
+          <li><strong>Brand voice onboarding + 90-day calendar:</strong> 7–14 يومًا — 2200–14500 دولار/علامة.</li>
+          <li><strong>Monthly Arabic performance copy retainer:</strong> — 1100–8200 دولار/شهر.</li>
+          <li><strong>Vertical Jasper recipes (real estate، beauty، edtech MENA):</strong> — 39–199 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Performance Copy with Jasper GCC»:</strong> — 48–235 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Jasper</span>
+        <span class="tag">Copywriting</span>
+        <span class="tag">GCC</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Brand</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Paddle Retain AI 2: يتنبأ بإلغاء الاشتراك — ويرسل save offer قبل أن يضغط العميل cancel!</h2>
+      <p class="article-lead">«MRR ينمو — لكن churn يأكل نصف المكاسب». في 20 سبتمبر 2026، أطلقت <strong>Paddle</strong> <strong>Retain AI 2</strong>: يُ analyze usage وsupport tickets وpayment failures، يُ predict churn risk، يُ trigger personalized offers (discount، pause، upgrade path)، يُ draft Arabic emails وin-app messages — ويُ report ROI per cohort لـ SaaS وdigital products globally.</p>
+      <p>المشكلة التي حلّتها: founders لا time لretention manual؛ Retain AI 2 يُ integrate Stripe وPaddle billing، يُ test offer ladders، يُ respect VAT MENA rules، يُ sync with Intercom وCustomer.io، ويُ suggest pricing experiments للأسواق العربية.</p>
+      <p>القدرات الأساسية: dunning optimization؛ win-back sequences؛ affiliate churn alerts؛ dashboard للinvestors؛ playbooks for course creators وB2B tools.</p>
+      <p>للمبدعين العرب: SaaS consultants وRevOps freelancers — «Churn rescue in 21 days» للمنتجات 500–50000 MRR. من يُ save 15% churn لـ 6 clients بـ success fee 20% من recovered revenue + 3500–18000 دولار setup يبني niche revenue ops مربح.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Retain AI 2؟</h3>
+        <ul>
+          <li><strong>Churn audit + Retain playbook deployment:</strong> 14–28 يومًا — 3200–24000 دولار/منتج.</li>
+          <li><strong>Monthly retention optimization:</strong> — 900–6500 دولار/شهر + % من saved MRR.</li>
+          <li><strong>Paddle + Retain starter kits (courses، templates SaaS):</strong> — 59–329 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic SaaS Retention with Paddle AI»:</strong> — 52–248 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Paddle</span>
+        <span class="tag">SaaS</span>
+        <span class="tag">Retention</span>
+        <span class="tag">Revenue</span>
+        <span class="tag">Monetization</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 20-09-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="20-09-2026 -- 08-AM.html">
+          📰 20 سبتمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Mistral Le Chat Enterprise 3 · ClickUp Brain 3 · Jasper Brand Voice GCC 2 · Paddle Retain AI 2</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "20-09-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
