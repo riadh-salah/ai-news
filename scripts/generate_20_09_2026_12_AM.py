@@ -1,0 +1,226 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 20-09-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "20-09-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — OpenAI Sora 2 Brand Studio، GitHub Copilot Workspace 2، Meta WhatsApp AI Commerce 3، Cursor Background Agents 2، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 20 سبتمبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌙 نشرة AI العالمية</span>
+      <h1>من OpenAI Sora 2 Brand Studio الذي يُحوّل فكرة إعلانك إلى فيديو جاهز للنشر بالعربية، إلى GitHub Copilot Workspace 2 الذي يُنجز مشروعك من issue إلى pull request، ومن Meta WhatsApp AI Commerce 3 الذي يُغلق المبيعات داخل المحادثة، إلى Cursor Background Agents 2 الذي يُشغّل وكالة تطوير على مدار الساعة — أربع قصص ليلية في 20 سبتمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضاعِف نفسه!</h1>
+      <p class="hero-sub">منتصف الليل للصُنّاع: العلامات التجارية تريد فيديوهات بلا استوديو، الشركات الناشئة تريد shipping أسرع، التجار يريدون بوتات تبيع باللهجة المحلية، ووكالات التقنية تريد agents تعمل بينما ينام الفريق. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 20 سبتمبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>OpenAI Sora 2 Brand Studio: من brief عربي إلى إعلان 15 ثانية — storyboard، voice-over، وrights جاهزة!</h2>
+      <p class="article-lead">«نحتاج reel للإطلاق غدًا — والميزانية لا تكفي لفريق تصوير». في 20 سبتمبر 2026، أطلقت <strong>OpenAI</strong> <strong>Sora 2 Brand Studio</strong>: تُدخل product shots ونصًا بالعربية («عرض Ramadan bundle للعائلات في الرياض»)، فيُ generate storyboard، clips متسقة بالشخصيات، voice-over بلهجات MENA، موسيقى مرخّصة، وexport لـ Instagram وTikTok وSnap — مع brand safety filters وwatermark اختياري.</p>
+      <p>المشكلة التي حلّتها: UGC agencies مكلفة وبطيئة؛ Brand Studio يُ lock character identity عبر المشاهد، يُ edit بالمحادثة («اجعل الإضاءة أدفأ»)، يُ sync مع ChatGPT للـ copy، يُ respect likeness policies، ويُ deliver C2PA metadata للامتثال الإعلاني.</p>
+      <p>القدرات الأساسية: template packs (retail، fintech، tourism GCC)؛ A/B variants تلقائية؛ Arabic RTL captions؛ team review links؛ API للوكالات؛ tier enterprise مع SLA.</p>
+      <p>للمبدعين العرب: social media agencies وfreelance video editors — «48-hour ad sprint» للمتاجر والمطاعم. من يُ deliver 10 campaigns/شهر بـ 800–6500 دولار/حملة + retainer يبني خط video-as-a-service بلا كاميرات.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Sora 2 Brand Studio؟</h3>
+        <ul>
+          <li><strong>Short-form ad packages (3–5 variants):</strong> 2–4 أيام — 950–7200 دولار/علامة.</li>
+          <li><strong>Monthly content retainer (Reels + Stories):</strong> — 1200–8800 دولار/شهر.</li>
+          <li><strong>Vertical prompt libraries (beauty، food، real estate MENA):</strong> — 49–279 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Performance Ads with Sora Brand Studio»:</strong> — 55–265 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">Sora</span>
+        <span class="tag">Video Ads</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">MENA</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>GitHub Copilot Workspace 2: من تذكرة Jira إلى PR مُ merge-ready — specs، tests، وdocs!</h2>
+      <p class="article-lead">«المطور الوحيد في الشركة — والbacklog يتضاعف كل أسبوع». في 20 سبتمبر 2026، أطلقت <strong>GitHub</strong> <strong>Copilot Workspace 2</strong>: تربط issue، فيُ plan implementation، يُ generate branch، code، unit tests، migration scripts، وPR description — مع review checklist وsecurity scan — وتدعم تعليقات بالعربية على المتطلبات.</p>
+      <p>المشكلة التي حلّتها: startups تدفع outsourcing باهظًا؛ Workspace 2 يُ understand monorepo context، يُ reuse patterns من PRs سابقة، يُ run CI locally، يُ suggest rollbacks، يُ document APIs تلقائيًا، ويُ integrate Azure DevOps وLinear.</p>
+      <p>القدرات الأساسية: multi-agent roles (architect، implementer، tester)؛ policy gates للـ fintech؛ Arabic commit summaries؛ sandbox deploy previews؛ marketplace skills من المجتمع.</p>
+      <p>للمبدعين العرب: dev shops وsolo founders — «Feature factory» للمنتجات SaaS العربية. من يُ ship 4 features/شهر للعملاء بـ 2800–22000 دولار + subscription Copilot markup يحوّل velocity إلى margin.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Copilot Workspace 2؟</h3>
+        <ul>
+          <li><strong>Fixed-scope feature delivery (MVP modules):</strong> 7–21 يومًا — 3500–32000 دولار/ميزة.</li>
+          <li><strong>Managed dev retainer (Workspace + reviews):</strong> — 2200–14000 دولار/شهر.</li>
+          <li><strong>Starter repos + Workspace playbooks (Next.js، Laravel، Flutter):</strong> — 79–399 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic AI-Assisted Shipping with GitHub Workspace»:</strong> — 62–290 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">GitHub</span>
+        <span class="tag">Copilot</span>
+        <span class="tag">Developers</span>
+        <span class="tag">SaaS</span>
+        <span class="tag">Automation</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Meta WhatsApp AI Commerce 3: catalog، دفع، ودعم — كلّه داخل WhatsApp باللهجة المحلية!</h2>
+      <p class="article-lead">«الزبون يرسل „كم السعر؟“ — ونحن نرد بعد ساعتين». في 20 سبتمبر 2026، أطلقت <strong>Meta</strong> <strong>WhatsApp AI Commerce 3</strong>: merchant يربط catalog وinventory، فيُ run agent يُ recommend منتجات، يُ apply coupons، يُ collect Apple Pay وlocal wallets، يُ escalate للبشر — مع فصحى وخليجية ومصرية — وanalytics لconversion.</p>
+      <p>المشكلة التي حلّتها: DM selling فوضوي؛ Commerce 3 يُ sync Shopify وSalla وZid، يُ recover abandoned carts برسائل ذكية، يُ handle returns policy، يُ block spam، يُ comply WhatsApp Business API rules، ويُ train على FAQs من PDF بالعربية.</p>
+      <p>القدرات الأساسية: broadcast campaigns مع opt-in؛ voice note replies؛ multi-store routing؛ partner dashboard للوكالات؛ insights per SKU وper dialect.</p>
+      <p>للمبدعين العرب: e-commerce consultants وWhatsApp agencies — «Commerce bot in 10 days» للمتاجر المحلية. من يُ onboard 6 merchants/ربع بـ 1800–12000 دولار setup + 400–3500 دولار/شهر يبني recurring revenue من conversations.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من WhatsApp AI Commerce 3؟</h3>
+        <ul>
+          <li><strong>Store setup + catalog AI tuning:</strong> 8–14 يومًا — 1500–9500 دولار/متجر.</li>
+          <li><strong>Conversation optimization retainers:</strong> — 450–3200 دولار/شهر.</li>
+          <li><strong>Industry bot templates (fashion، electronics، clinics):</strong> — 69–349 دولار/قالب.</li>
+          <li><strong>دورات «Arabic WhatsApp Sales with Meta AI Commerce»:</strong> — 48–225 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Meta</span>
+        <span class="tag">WhatsApp</span>
+        <span class="tag">E-commerce</span>
+        <span class="tag">Chatbots</span>
+        <span class="tag">MENA</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Cursor Background Agents 2: مهام تطوير تعمل ليلًا — fixes، refactors، وPRs جاهزة للمراجعة!</h2>
+      <p class="article-lead">«العميل يريد hotfix — والفريق offline». في 20 سبتمبر 2026، أطلقت <strong>Cursor</strong> <strong>Background Agents 2</strong>: تُ assign task («أصلح flaky tests في payments»)، فيُ clone repo، يُ plan، يُ implement، يُ run tests، يُ open PR مع video walkthrough — مع secrets vault، branch policies، وaudit log — ويدعم instructions بالعربية.</p>
+      <p>المشكلة التي حلّتها: agencies تفوت SLAs؛ Agents 2 يُ queue parallel jobs، يُ respect CODEOWNERS، يُ comment on failures، يُ integrate Slack وPagerDuty، يُ cap spend per task، ويُ learn stack conventions من `.cursor/rules`.</p>
+      <p>القدرات الأساسية: scheduled hygiene (deps، lint، dead code)؛ security patch mode؛ client-facing status pages؛ team seats للوكالات؛ self-hosted runner option للامتثال.</p>
+      <p>للمبدعين العرب: software houses وtechnical co-founders — «Night shift dev» package لل startups. من يُ run 20 agent-hours/أسبوع للعملاء بـ 35–95 دولار/ساعة markup يُ monetize وقت النوم دون hiring ليلي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Background Agents 2؟</h3>
+        <ul>
+          <li><strong>Overnight fix and refactor sprints:</strong> 1–3 أيام — 900–8500 دولار/ sprint.</li>
+          <li><strong>Agent-hours packages (40h/month managed):</strong> — 1800–12000 دولار/شهر.</li>
+          <li><strong>Cursor rules + agent playbooks for stacks:</strong> — 59–299 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Dev Agency Ops with Cursor Agents»:</strong> — 58–275 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Cursor</span>
+        <span class="tag">Agents</span>
+        <span class="tag">DevOps</span>
+        <span class="tag">Agencies</span>
+        <span class="tag">Automation</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 20-09-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="20-09-2026 -- 12-AM.html">
+          📰 20 سبتمبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">OpenAI Sora 2 Brand Studio · GitHub Copilot Workspace 2 · Meta WhatsApp AI Commerce 3 · Cursor Background Agents 2</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "20-09-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
