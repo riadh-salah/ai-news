@@ -1,0 +1,226 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 23-09-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "23-09-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Zendesk AI Agents 3 Arabic، Airtable Omni AI 2 Arabic، Snowflake Cortex Analyst 3 Arabic، Retool AI App Generator 3، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 23 سبتمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Zendesk AI Agents 3 Arabic الذي يُغلق تذاكر الدعم ويبيع upgrades داخل المحادثة بالعربية، إلى Airtable Omni AI 2 Arabic الذي يُحوّل جداولك إلى تطبيقات تشغيلية بprompt واحد، ومن Snowflake Cortex Analyst 3 Arabic الذي يُجيب CFO عن revenue وmargin من data cloud دون انتظار BI، إلى Retool AI App Generator 3 الذي يُبني لوحات admin وportals للعملاء في ساعات — أربع قصص صباحية في 23 سبتمبر 2026 لمن يريد أدوات عالمية ودخلًا يستيقظ مع القهوة!</h1>
+      <p class="hero-sub">صباحٌ للمُشغّلين: فرق CX تريد deflection حقيقي لا chatbot فارغ، ops managers يريدون ERP-lite من spreadsheets، finance يريد self-service analytics بالعربية، وconsultants يريدون internal tools يرفعون فواتيرها بثمن enterprise. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 23 سبتمبر 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Zendesk AI Agents 3 Arabic: دعم ذكي — حل، upsell، ورضا العميل في محادثة واحدة!</h2>
+      <p class="article-lead">«300 تذكرة مفتوحة — والعميل ينتظر ردًا بالعربية منذ ساعتين». في 23 سبتمبر 2026، أطلقت <strong>Zendesk</strong> <strong>AI Agents 3 Arabic</strong>: وكلاء داخل messaging وemail وvoice يقرأون knowledge base وorder history، يُ resolve 65% من الطلبات دون human، يُ escalate بملخص عربي دقيق، يُ suggest macro replies للوكلاء، ويُ detect churn risk ليُ trigger retention offer — مع tone MSA وخليجي ومصري configurable.</p>
+      <p>المشكلة التي حلّتها: bots القديمة تُ frustrate؛ Agents 3 يُ reason multi-step (refund + replacement + apology coupon)، يُ integrate Shopify وSAP وcustom APIs، يُ respect PDPL وGDPR على PII، يُ coach agents live أثناء المكالمة، ويُ report CSAT وcost-per-ticket per channel.</p>
+      <p>القدرات الأساسية: Agent Builder no-code بالعربية؛ 120+ industry playbooks (telecom، banking، e-commerce)؛ WhatsApp Business native؛ analytics «why customers contact»؛ partner sandbox للintegrators في MENA.</p>
+      <p>للمبدعين العرب: CX consultants وBPO partners — «Arabic AI support in 12 days» للretail وfintech. من يُ deploy 4 Zendesk AI stacks/ربع بـ 3800–35000 دولار + optimization 900–6800 دولار/شهر يبني practice support automation premium في الخليج.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Zendesk AI Agents 3 Arabic؟</h3>
+        <ul>
+          <li><strong>End-to-end Zendesk AI rollout (KB، agents، Arabic tone، integrations):</strong> 10–22 يومًا — 3400–38000 دولار/عميل.</li>
+          <li><strong>Managed deflection tuning and playbook updates:</strong> — 850–6200 دولار/شهر.</li>
+          <li><strong>Vertical CX packs (airlines، clinics، marketplaces):</strong> — 69–320 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Customer AI with Zendesk Agents»:</strong> — 52–240 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Zendesk</span>
+        <span class="tag">CX</span>
+        <span class="tag">Support</span>
+        <span class="tag">Arabic</span>
+        <span class="tag">Enterprise</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Airtable Omni AI 2 Arabic: من spreadsheet إلى app تشغيلي — workflows، portals، وautomations!</h2>
+      <p class="article-lead">«الفريق يعيش على Excel — وكل update يضيع في WhatsApp». في 23 سبتمبر 2026، أطلقت <strong>Airtable</strong> <strong>Omni AI 2 Arabic</strong>: ت describe العملية بالعربية («onboarding موظف + approvals + IT checklist») فيُ generate base schema، interfaces للمدير والموظف، automations Slack/Teams، وreports — مع RTL في portals وArabic field labels.</p>
+      <p>المشكلة التي حلّتها: no-code tools كانت English-first وfragmented؛ Omni 2 يُ map existing CSV/PDF imports، يُ suggest formulas وrollups، يُ enforce permissions per role، يُ sync two-way مع Jira وSalesforce optional، ويُ version changes للaudit.</p>
+      <p>القدرات الأساسية: AI field agents تُ enrich leads وtriage tickets؛ calendar وGantt views localized؛ mobile app Arabic؛ enterprise SSO؛ template marketplace «Arabic HR ops» و«Arabic procurement».</p>
+      <p>للمبدعين العرب: ops freelancers وdigital transformation boutiques — «Replace 5 spreadsheets in one week» للSMEs وNGOs. من يُ sell 5 Omni builds/شهر بـ 1800–14000 دولار/each + care plan 450–3600 دولار/شهر ي scale بدون army of developers.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Airtable Omni AI 2 Arabic؟</h3>
+        <ul>
+          <li><strong>Omni operational apps (schema، interfaces، automations):</strong> 4–12 يومًا — 1600–18000 دولار/مشروع.</li>
+          <li><strong>Monthly ops support and new modules:</strong> — 420–3400 دولار/شهر.</li>
+          <li><strong>Industry Airtable starter kits (events، inventory، grants):</strong> — 45–210 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Ops Apps with Airtable Omni»:</strong> — 40–195 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Airtable</span>
+        <span class="tag">No-Code</span>
+        <span class="tag">Ops</span>
+        <span class="tag">Workflows</span>
+        <span class="tag">SME</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Snowflake Cortex Analyst 3 Arabic: اسأل عن revenue — SQL، charts، وnarrative للمجلس!</h2>
+      <p class="article-lead">«كم gross margin في الإمارات Q3؟ — المحلل في إجازة». في 23 سبتمبر 2026، أطلقت <strong>Snowflake</strong> <strong>Cortex Analyst 3 Arabic</strong>: conversational analytics فوق Snowflake Data Cloud، يُ translate السؤال العربي إلى SQL verified، يُ visualize trends، يُ write executive summary بالعربية مع assumptions وdata lineage، ويُ alert anomalies إلى Slack — مع role-based masking للبيانات الحساسة.</p>
+      <p>المشكلة التي حلّتها: BI queues وshadow spreadsheets؛ Analyst 3 يُ leverage semantic models، يُ suggest KPI definitions aligned مع IFRS، يُ compare scenarios («what if discount +5%»)، يُ export board deck Arabic PDF، ويُ log every query للgovernance.</p>
+      <p>القدرات الأساسية: multi-table joins safe؛ Arabic numerals وcurrency SAR/AED/EGP؛ integration Power BI وTableau embed؛ partner certifications للconsultancies؛ cost caps على LLM inference per workspace.</p>
+      <p>للمبدعين العرب: data engineers وfinance consultants — «Arabic board analytics in 10 days» للholding groups وretail chains. من يُ implement 3 Cortex workspaces بـ 5200–48000 دولار + managed insights 1100–9200 دولار/شهر يدخل سوق CFO tools في MENA.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Snowflake Cortex Analyst 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Cortex Analyst workspace (semantic layer، Arabic narratives، training):</strong> 12–28 يومًا — 5000–52000 دولار/مشروع.</li>
+          <li><strong>Managed financial Q&amp;A and metric governance:</strong> — 980–7800 دولار/شهر.</li>
+          <li><strong>Sector KPI libraries (hospitality، telecom، pharma):</strong> — 95–450 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Finance Analytics with Snowflake Cortex»:</strong> — 62–290 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Snowflake</span>
+        <span class="tag">Finance</span>
+        <span class="tag">Analytics</span>
+        <span class="tag">Cortex</span>
+        <span class="tag">Enterprise</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Retool AI App Generator 3: admin panel من prompt — APIs، auth، وdeploy في ساعات!</h2>
+      <p class="article-lead">«العميل يريد dashboard للـ inventory — والمطور مشغول شهرًا». في 23 سبتمبر 2026، أطلقت <strong>Retool</strong> <strong>AI App Generator 3</strong>: ت describe التطبيق بالعربية أو الإنجليزية فيُ generate tables، forms، charts، وworkflows م connected لPostgreSQL وREST وGraphQL، مع RBAC وaudit logs — ثم one-click deploy على Retool Cloud أو self-hosted للبنوك.</p>
+      <p>المشكلة التي حلّتها: internal tools backlog؛ Generator 3 يُ iterate from screenshots وOpenAPI specs، يُ generate SQL queries reviewed، يُ add approval steps وemail notifications، يُ localize UI strings Arabic RTL، ويُ sync changes via Git للteams engineering-heavy.</p>
+      <p>القدرات الأساسية: AI copilot داخل editor؛ 200+ components؛ secrets management؛ SOC2-ready hosting؛ templates «Arabic vendor portal» و«Arabic loan ops» للpartners.</p>
+      <p>للمبدعين العرب: full-stack freelancers وSI partners — «Internal tool in 48 hours» للlogistics وhealthcare admin. من يُ deliver 6 Retool apps/ربع بـ 2200–24000 دولار/each + hosting support 500–4200 دولار/شهر يحوّل السرعة إلى أرباح — عملاء enterprise يدفعون premium عن التسليم السريع.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Retool AI App Generator 3؟</h3>
+        <ul>
+          <li><strong>Retool app builds (Generator + custom APIs + Arabic UI):</strong> 2–10 أيام — 1900–28000 دولار/تطبيق.</li>
+          <li><strong>Managed app evolution and user training:</strong> — 480–3900 دولار/شهر.</li>
+          <li><strong>Connector packs (Oracle، SAP B1، local ERPs):</strong> — 75–340 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Internal Tools with Retool AI»:</strong> — 44–205 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Retool</span>
+        <span class="tag">Internal Tools</span>
+        <span class="tag">Low-Code</span>
+        <span class="tag">Dev</span>
+        <span class="tag">Enterprise</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 23-09-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="23-09-2026 -- 08-AM.html">
+          📰 23 سبتمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Zendesk AI Agents 3 Arabic · Airtable Omni AI 2 Arabic · Snowflake Cortex Analyst 3 Arabic · Retool AI App Generator 3</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "23-09-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
