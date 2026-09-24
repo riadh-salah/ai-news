@@ -1,0 +1,227 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 24-09-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "24-09-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — SAP Joule 3 Arabic، Workday Illuminate 2 Arabic، Klaviyo K:AI Marketing 2 Arabic، Box AI Content Cloud 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 24 سبتمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من SAP Joule 3 Arabic الذي يُجيب عن procurement وfinance بالعربية داخل ERP، إلى Workday Illuminate 2 Arabic الذي يُخطّط talent وpayroll قبل أن تسأل HR، ومن Klaviyo K:AI Marketing 2 Arabic الذي يُ personalizes email وSMS لمليون مشترك، إلى Box AI Content Cloud 3 Arabic الذي يُ extract clauses من عقود MENA في ثوانٍ — أربع قصص مسائية في 24 سبتمبر 2026 لمن يريد أدوات عالمية ودخلًا يُشتعل مع الغروب!</h1>
+      <p class="hero-sub">مساءٌ للمُنفّذين: CFOs يريدون copilot يفهم S/4HANA بالعربية، CHROs يريدون skills gap وsuccession بضغطة، تجّار e-commerce يريدون campaigns تُ sell بدون copywriter ليلي، وlegal ops تبحث عن contract intelligence على scale. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 24 سبتمبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>SAP Joule 3 Arabic: copilot ERP — procurement، finance، وsupply chain بلسان عربي موثوق!</h2>
+      <p class="article-lead">«مدير المشتريات يسأل: أين تأخير shipment PO 8842؟ — وثلاثة تقارير Excel متضاربة». في 24 سبتمبر 2026، أطلقت <strong>SAP</strong> <strong>Joule 3 Arabic</strong>: مساعد مدمج في S/4HANA Cloud وSuccessFactors يقرأ master data وopen items، يُ answer بالعربية مع drill-down لdocument، يُ suggest PO actions، يُ simulate cash impact، يُ draft vendor emails compliant، ويُ escalate anomalies للcontroller — dialect MSA enterprise.</p>
+      <p>المشكلة التي حلّتها: Joule 2 كان assist على screens؛ Joule 3 يُ act عبر BTP agents (create PR، approve within limit، post journal draft for review)، يُ ground على SAP Knowledge Base وcustomer tenant only، يُ integrate Microsoft Teams وSAP Build Work Zone، يُ audit every action SOX-ready، ويُ localize VAT وZATCA hints للخليج.</p>
+      <p>القدرات الأساسية: Joule Studio Arabic prompts؛ 120+ LoB skills (MM، FI، PP)؛ partner packs manufacturing وretail MENA؛ mobile Arabic voice query؛ dual-run migration assistant EN→AR UI.</p>
+      <p>للمبدعين العرب: SAP partners وERP consultants — «Arabic Joule go-live in 14 days» لل distributors وholding groups. من يُ deliver 2 Joule 3 rollouts/ربع بـ 4500–55000 دولار + care 950–7200 دولار/شهر ي ride digital core wave في السعودية ومصر.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من SAP Joule 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Joule enablement (skills، Arabic UX، governance، BTP agents):</strong> 12–28 يومًا — 4200–58000 دولار/عميل.</li>
+          <li><strong>Managed Joule tuning and LoB expansion:</strong> — 900–6800 دولار/شهر.</li>
+          <li><strong>Vertical Joule playbooks (F&amp;B، pharma، utilities):</strong> — 72–340 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic ERP AI with SAP Joule»:</strong> — 55–260 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">SAP</span>
+        <span class="tag">ERP</span>
+        <span class="tag">Finance</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Workday Illuminate 2 Arabic: HR ذكي — skills، succession، وpayroll insights قبل Monday standup!</h2>
+      <p class="article-lead">«200 شاغر وskill matrix قديم — والمجلس يسأل: من يُ replace VP خلال 90 يومًا؟». في 24 سبتمبر 2026، أطلقت <strong>Workday</strong> <strong>Illuminate 2 Arabic</strong>: طبقة AI فوق HCM وTalent وPayroll تُ map skills من learning وperformance، تُ recommend internal mobility بالعربية، تُ flag pay equity gaps، تُ draft job descriptions localized، تُ simulate headcount cost scenarios، وتُ answer «من لديه certification X؟» من chat RTL.</p>
+      <p>المشكلة التي حلّتها: Illuminate 1 كان analytics-heavy؛ Illuminate 2 يُ act (create requisition draft، schedule interview panel، nudge manager on review)، يُ respect GDPR وSaudi PDPL fields، يُ integrate LinkedIn Learning optional، يُ generate board-ready Arabic workforce narrative، ويُ connect Absence وScheduling for shift-heavy industries.</p>
+      <p>القدرات الأساسية: Illuminate Agents for HRBP؛ Arabic NL dashboards؛ partner templates banking وhospitality GCC؛ employee self-service copilot WhatsApp optional؛ benchmark data MENA subset.</p>
+      <p>للمبدعين العرب: HR tech implementers وPeople consultants — «Arabic talent intelligence in 10 days» للgroups 3000+ employees. من يُ sell 4 Illuminate packs/سنة بـ 2800–32000 دولار/each + retainer 520–4100 دولار/شهر ي build sticky HR transformation practice.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Workday Illuminate 2 Arabic؟</h3>
+        <ul>
+          <li><strong>Illuminate deployment (skills model، Arabic copilot، reports):</strong> 8–22 يومًا — 2600–35000 دولار/مشروع.</li>
+          <li><strong>Quarterly talent analytics and agent updates:</strong> — 480–3800 دولار/شهر.</li>
+          <li><strong>Industry HR AI kits (retail، healthcare، energy):</strong> — 48–225 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic People AI with Workday Illuminate»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Workday</span>
+        <span class="tag">HR</span>
+        <span class="tag">Talent</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Klaviyo K:AI Marketing 2 Arabic: email وSMS وWhatsApp — حملات تُ sell بلهجة العميل!</h2>
+      <p class="article-lead">«100 ألف subscriber — وopen rate 12% لأن النص إنجليزي templates مكررة». في 24 سبتمبر 2026، أطلقت <strong>Klaviyo</strong> <strong>K:AI Marketing 2 Arabic</strong>: AI يقرأ catalog وbehavior وRFM، يُ generate subject lines وbody بالعربية (خليجي، مصري، MSA)، يُ personalize product blocks per segment، يُ schedule send-time per timezone MENA، يُ A/B multivariate auto-winner، ويُ sync Shopify وSalla وZid native.</p>
+      <p>المشكلة التي حلّتها: generic AI copy off-brand؛ K:AI 2 يُ lock brand voice من past campaigns، يُ respect unsubscribe وconsent، يُ predict churn وtrigger win-back flows Arabic، يُ integrate reviews and UGC، ويُ report attributed revenue per dialect variant.</p>
+      <p>القدرات الأساسية: Flow AI builder NL Arabic؛ SMS and WhatsApp templates PDPL-aware؛ agency multi-tenant; benchmark open rates GCC ecommerce؛ creator marketplace pre-built Ramadan flows.</p>
+      <p>للمبدعين العرب: ecommerce agencies وemail freelancers — «Arabic retention machine in 6 days» للD2C brands. من يُ onboard 10 Klaviyo stacks/ربع بـ 800–6800 دولار/each + optimization 220–1750 دولار/شهر ي scale high-volume retainer model.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Klaviyo K:AI Marketing 2 Arabic؟</h3>
+        <ul>
+          <li><strong>K:AI setup (integrations، flows، Arabic voice، segments):</strong> 4–11 يومًا — 750–7200 دولار/متجر.</li>
+          <li><strong>Managed campaign optimization and flow adds:</strong> — 210–1650 دولار/شهر.</li>
+          <li><strong>Seasonal flow packs (Eid، White Friday، back-to-school):</strong> — 38–175 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Ecommerce AI with Klaviyo K:AI»:</strong> — 35–168 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Klaviyo</span>
+        <span class="tag">Ecommerce</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Email</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Box AI Content Cloud 3 Arabic: عقود، policies، وdue diligence — intelligence على كل ملف!</h2>
+      <p class="article-lead">«500 GB data room — والمحامي يريد every change-of-control clause قبل موعد bidding». في 24 سبتمبر 2026، أطلقت <strong>Box</strong> <strong>AI Content Cloud 3 Arabic</strong>: AI يقرأ PDF وOffice وscanned Arabic OCR، يُ extract entities dates obligations، يُ compare versions redline narrative عربي، يُ Q&amp;A «ما penalty التأخير في contract 2024؟» مع citation page، يُ route sensitive folders governance، ويُ integrate e-signature workflows.</p>
+      <p>المشكلة التي حلّتها: point OCR tools break on Arabic legal؛ Content Cloud 3 يُ train on customer vault only، يُ detect PII and mask، يُ support bilingual EN/AR side-by-side summary، يُ connect Salesforce and ServiceNow for case files، ويُ offer legal hold and audit for banks.</p>
+      <p>القدرات الأساسية: Box Hubs Arabic UI؛ 40+ metadata AI extractors؛ partner MENA legal templates؛ mobile approve with AI summary؛ FedRAMP path for gov contractors regionally.</p>
+      <p>للمبدعين العرب: legal ops consultants and IT integrators — «Arabic contract AI vault in 9 days» للlaw firms and corporates. من يُ deploy 5 Box AI hubs/سنة بـ 1900–24000 دولار/each + governance 350–2800 دولار/شهر ي capture document AI niche high margin.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Box AI Content Cloud 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Content Cloud AI rollout (taxonomy، Arabic Q&amp;A، connectors):</strong> 6–18 يومًا — 1800–26000 دولار/مشروع.</li>
+          <li><strong>Monthly governance and extractor tuning:</strong> — 330–2650 دولار/شهر.</li>
+          <li><strong>Legal vertical packs (real estate، banking, M&amp;A):</strong> — 55–248 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Legal AI with Box Content Cloud»:</strong> — 40–185 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Box</span>
+        <span class="tag">Legal</span>
+        <span class="tag">Documents</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 24-09-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="24-09-2026 -- 04-PM.html">
+          📰 24 سبتمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">SAP Joule 3 Arabic · Workday Illuminate 2 Arabic · Klaviyo K:AI Marketing 2 Arabic · Box AI Content Cloud 3 Arabic</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "24-09-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
