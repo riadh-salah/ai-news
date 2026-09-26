@@ -1,0 +1,255 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 26-09-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "26-09-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — AWS Bedrock Agents 3 Arabic، Google Gemini Code Assist 3 Arabic، Slack AI Workflows 3 Arabic، Zoom AI Companion 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 26 سبتمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من AWS Bedrock Agents 3 Arabic الذي يُحوّل prompt عربي إلى وكيل يُشغّل Lambda وRDS وStep Functions في production، إلى Google Gemini Code Assist 3 Arabic الذي يُراجع PR ويُصلّح bugs ويُكتب tests بلهجة فريقك، ومن Slack AI Workflows 3 Arabic الذي يُغلق حلقات الموافقات داخل القنوات، إلى Zoom AI Companion 3 Arabic الذي يُلخّص اجتماعات MENA ويُطلق action items قبل أن تغادر الغرفة — أربع قصص صباحية في 26 سبتمبر 2026 لمن يريد أدوات عالمية ودخلًا يستيقظ مع أول قهوته!</h1>
+      <p class="hero-sub">صباحٌ للبناة: مهندسو cloud يريدون agents على Bedrock بـ guardrails عربية، studios تطوير تبحث عن copilot يفهم legacy code، ops teams تريد automation داخل Slack، ومديرون يطالبون باجتماعات «تُنتج قرارات» لا تسجيلات طويلة. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 26 سبتمبر 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>AWS Bedrock Agents 3 Arabic: من فكرة بالعربية إلى وكيل production — knowledge bases، tools، وmulti-agent orchestration!</h2>
+      <p class="article-lead">«نريد وكيلًا يقرأ policy من S3 ويُفتح ticket في Jira — والفريق عالق في POC منذ شهر». في 26 سبتمبر 2026، أطلقت <strong>Amazon Web Services</strong> <strong>Bedrock Agents 3 Arabic</strong>: منصة لبناء agents يفهمون NL بالعربية (MSA وخليجي ومصري)، يُ retrieve من knowledge bases، يُ invoke action groups (Lambda، API Gateway، Step Functions)، يُ plan multi-step، يُ enforce guardrails وPII redaction، ويُ deploy في region Bahrain وFrankfurt — للبنوك وfintech وlogistics في MENA.</p>
+      <p>المشكلة التي حلّتها: Agents 2 كان orchestration محدود وEnglish-first في UX؛ الإصدار 3 يُ act (query Aurora، update DynamoDB row، send SES email مع approval، post Arabic summary في Chime)، يُ integrate Claude 4 وNova Pro وLlama 4 via Bedrock، يُ offer agent evaluation «Arabic faithfulness»، يُ multi-agent supervisor pattern، يُ log CloudTrail لكل tool invocation، ويُ ship vertical accelerators (KYC review، vendor risk، IT helpdesk).</p>
+      <p>القدرات الأساسية: Arabic Agent Builder في console؛ prebuilt templates (invoice chase، onboarding، SOC triage lite)؛ MCP connector preview؛ cost budgets per agent؛ A/B بين foundation models؛ partner SDK للintegrators في الخليج.</p>
+      <p>للمبدعين العرب: AWS partners وAI studios — «Arabic Bedrock agent in 8 days» لل enterprises 300+ seats. من يُ deliver 5 Agents 3 programs/ربع بـ 3200–46000 دولار + managed tuning 650–4900 دولار/شهر يركب موجة cloud agents في المنطقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من AWS Bedrock Agents 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Bedrock Agents 3 rollout (Arabic UX، KB، tools، guardrails، go-live):</strong> 7–20 يومًا — 3100–48000 دولار/عميل.</li>
+          <li><strong>Managed agent eval and prompt/tool tuning:</strong> — 620–4800 دولار/شهر.</li>
+          <li><strong>Vertical agent kits (banking، logistics، healthcare):</strong> — 55–285 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Cloud Agents with Amazon Bedrock»:</strong> — 46–228 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AWS</span>
+        <span class="tag">Bedrock</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Google Gemini Code Assist 3 Arabic: copilot للمطورين — refactor، tests، security fixes، وcode review بلهجة الفريق!</h2>
+      <p class="article-lead">«PR مفتوح منذ أسبوع — والمراجع ينتظر أحدًا يفهم module legacy بالعربية في التعليقات». في 26 سبتمبر 2026، أطلقت <strong>Google</strong> <strong>Gemini Code Assist 3 Arabic</strong>: مساعد تطوير enterprise في IDE وGitHub وGitLab يُ explain code بالعربية، يُ suggest refactors، يُ generate unit tests، يُ flag vulnerabilities (OWASP)، يُ draft PR descriptions Arabic/EN، ويُ respect org policies وprivate codebase — لـ dev shops وbanks وtelcos في MENA.</p>
+      <p>المشكلة التي حلّتها: Code Assist 2 كان autocomplete-heavy؛ الإصدار 3 يُ act across repo (cross-file edits، migration scripts، Terraform plans review)، يُ integrate Cloud Workstations وSecure Source Manager، يُ org glossary للأسماء الداخلية، يُ bilingual docstrings، يُ analytics «hours saved per squad»، يُ on-prem air-gap option للقطاع الحساس، يُ partner packs Java و.NET وGo common في الخليج.</p>
+      <p>القدرات الأساسية: Arabic chat في VS Code وIntelliJ؛ agent mode «fix issue #1234»؛ test coverage booster؛ license compliance scanner؛ admin dashboard للCISO.</p>
+      <p>للمبدعين العرب: software houses وplatform teams — «Gemini Code Assist 3 rollout + Arabic playbook in 6 days» لل orgs 50–800 devs. من يُ sell 4 enterprise rollouts/سنة بـ 4200–58000 دولار/each + care 780–5900 دولار/شهر يبني practice dev productivity premium.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Google Gemini Code Assist 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Code Assist 3 deployment (SSO، policies، training، squad pilots):</strong> 5–18 يومًا — 3800–62000 دولار/مشروع.</li>
+          <li><strong>Monthly code quality and security tuning:</strong> — 720–5400 دولار/شهر.</li>
+          <li><strong>Stack starter packs (Spring، .NET، Flutter):</strong> — 48–235 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Dev Copilots with Gemini Code Assist»:</strong> — 44–218 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Google</span>
+        <span class="tag">Gemini</span>
+        <span class="tag">Developers</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Slack AI Workflows 3 Arabic: موافقات، onboarding، وincident response — automation داخل القناة بلسان عربي!</h2>
+      <p class="article-lead">«الموافقة على PO عالقة في email — والمدير يرى Slack فقط». في 26 سبتمبر 2026، أطلقت <strong>Slack</strong> <strong>AI Workflows 3 Arabic</strong>: layer فوق Slack lists وcanvas وconnectors يُ understand requests بالعربية، يُ route approvals (finance، legal، IT)، يُ collect forms، يُ sync Salesforce وJira وWorkday، يُ summarize threads، يُ escalate SLA breaches — لـ holding companies وscale-ups في الخليج.</p>
+      <p>المشكلة التي حلّتها: Workflows 2 كان template catalog محدود؛ الإصدار 3 يُ act (create channel، assign owner، post Arabic status، trigger webhook)، يُ dialect packs Gulf/Egypt/Levant، يُ enterprise grid governance، يُ analytics «cycle time per workflow»، يُ certified partners MENA، يُ no-code builder مع AI «describe workflow in Arabic».</p>
+      <p>القدرات الأساسية: Arabic Workflow Designer؛ prebuilt packs (employee onboarding، vendor onboarding، incident comms)؛ huddle summaries Arabic؛ Salesforce Service Cloud hooks؛ audit export للcompliance.</p>
+      <p>للمبدعين العرب: Slack consultants وRevOps — «Arabic workflow factory live in 4 days» لل teams 200–5000 users. من يُ deploy 10 Workflow 3 estates/ربع بـ 1800–22000 دولار/each + optimization 320–2400 دولار/شهر ي capture pain «كل شيء في Slack» في MENA.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Slack AI Workflows 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Workflows 3 setup (Arabic flows، connectors، training، UAT):</strong> 4–14 يومًا — 1600–24500 دولار/عميل.</li>
+          <li><strong>Monthly workflow hygiene and SLA tuning:</strong> — 290–2200 دولار/شهر.</li>
+          <li><strong>Department packs (HR، finance، engineering):</strong> — 42–198 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Ops Automation in Slack»:</strong> — 38–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Slack</span>
+        <span class="tag">Workflows</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Zoom AI Companion 3 Arabic: اجتماعات تُنتج قرارات — summaries، action items، وfollow-ups قبل أن تُغلق الكاميرا!</h2>
+      <p class="article-lead">«ساعة اجتماع — ولا أحد يتذكر من وافق على الميزانية». في 26 سبتمبر 2026، أطلقت <strong>Zoom</strong> <strong>AI Companion 3 Arabic</strong>: assistant فوق Meetings وTeam Chat وMail يُ transcribe وsummarize بالعربية (MSA + dialect hints)، يُ extract decisions وowners، يُ draft follow-up emails Arabic/EN، يُ schedule next meeting، يُ answer «ماذا قررنا في Q3 review؟» من corpus meetings — لـ consultancies وbanks وuniversities في MENA.</p>
+      <p>المشكلة التي حلّتها: Companion 2 كان summary-generic؛ الإصدار 3 يُ act (create Asana tasks، post Arabic recap في Slack، update CRM note)، يُ role-based views (exec vs IC)، يُ retention policies PDPL-ready، يُ whiteboard capture OCR Arabic، يُ analytics «meetings with clear outcomes»، يُ healthcare وlegal redaction modes.</p>
+      <p>القدرات الأساسية: Arabic Companion side panel؛ clip highlights للtraining؛ custom vocabulary org؛ partner resale للVARs؛ mobile voice query post-meeting.</p>
+      <p>للمبدعين العرب: productivity consultants وIT — «Arabic meeting intelligence in 5 days» لل orgs 100–3000 seats. من يُ onboard 9 Companion 3 workspaces/ربع بـ 1300–16500 دولار/each + hygiene 240–1850 دولار/شهر يُحقّق الدخل من «اجتماعات بلا ضياع» في كل مكتب عربي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Zoom AI Companion 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Companion 3 rollout (Arabic summaries، integrations، governance، training):</strong> 4–12 يومًا — 1150–17800 دولار/عميل.</li>
+          <li><strong>Monthly meeting playbook and vocabulary tuning:</strong> — 230–1780 دولار/شهر.</li>
+          <li><strong>Industry packs (consulting، banking، education):</strong> — 40–190 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Meeting AI with Zoom Companion»:</strong> — 34–165 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Zoom</span>
+        <span class="tag">Meetings</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 26-09-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="26-09-2026 -- 08-AM.html">
+          📰 26 سبتمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">AWS Bedrock Agents 3 Arabic · Google Gemini Code Assist 3 Arabic · Slack AI Workflows 3 Arabic · Zoom AI Companion 3 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/26-09-2026 -- 08-AM.html`](news/26-09-2026%20--%2008-AM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "26-09-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "26-09-2026 -- 08-AM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
