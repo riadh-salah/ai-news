@@ -1,0 +1,259 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 26-09-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "26-09-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Microsoft Copilot Studio 3 Arabic، HubSpot Breeze AI 3 Arabic، Atlassian Rovo 3 Arabic، Anthropic Claude Team Workspace 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 26 سبتمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Microsoft Copilot Studio 3 Arabic الذي يُحوّل وصفًا بالعربية إلى وكيل يُرسل Teams ويُحدّث Dataverse قبل أن ينتهي الاجتماع، إلى HubSpot Breeze AI 3 Arabic الذي يُقترح صفقات ويُكتب sequences ويُنبّه فريق المبيعات بلهجة الخليج، ومن Atlassian Rovo 3 Arabic الذي يُجيب عن Jira وConfluence ويُفتح tickets من سؤال واحد، إلى Anthropic Claude Team Workspace 3 Arabic الذي يُشغّل projects وartifacts وconnectors بسياسات enterprise للقطاع الحساس — أربع قصص مسائية في 26 سبتمبر 2026 لمن يريد أدوات عالمية ودخلًا يُغلق قبل منتصف الليل!</h1>
+      <p class="hero-sub">مساءٌ للمُنفّذين: IT يريد agents low-code على Microsoft 365، RevOps يبحث عن AI فوق CRM، product teams تريد Rovo داخل Atlassian، والامتثال يطلب Claude بـ audit trail عربي. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 26 سبتمبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Microsoft Copilot Studio 3 Arabic: وكلاء بدون كود — من prompt عربي إلى Teams وOutlook وERP في أيام!</h2>
+      <p class="article-lead">«نريد bot يُجيب على استفسارات الموظفين بالعربية ويُفتح طلب IT — والمطورون مشغولون بـ six months backlog». في 26 سبتمبر 2026، أطلقت <strong>Microsoft</strong> <strong>Copilot Studio 3 Arabic</strong>: منصة citizen-developer لبناء agents يفهمون NL بالعربية (MSA وخليجي ومصري)، يُ connect إلى Microsoft 365 وDynamics وSharePoint وAzure OpenAI، يُ invoke plugins وPower Automate flows، يُ enforce DLP وEntra ID، ويُ publish في Teams وweb وWhatsApp Business preview — للحكومات وholding companies في MENA.</p>
+      <p>المشكلة التي حلّتها: Copilot Studio 2 كان dialog trees ثقيل وEnglish-first في authoring؛ الإصدار 3 يُ act (create case في CRM، book room، send Arabic approval card، query SQL via gateway)، يُ generative orchestration مع topic hints عربية، يُ multi-agent handoff إلى Azure AI Foundry، يُ analytics «resolution rate per dialect»، يُ sovereign cloud option UAE، يُ partner accelerators (HR policy، procurement، field service).</p>
+      <p>القدرات الأساسية: Arabic Agent Designer مع voice preview؛ catalog من 40+ connector templates؛ MCP bridge preview؛ testing sandbox «simulate employee chat»؛ Copilot Analytics dashboard للCIO.</p>
+      <p>للمبدعين العرب: Microsoft partners وPower Platform shops — «Arabic Copilot Studio agent live in 5 days» لل orgs 500–8000 seats. من يُ deliver 6 Studio 3 rollouts/ربع بـ 2800–42000 دولار + care 580–4500 دولار/شهر ي capture wave «every employee gets an agent» في الخليج.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Microsoft Copilot Studio 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Copilot Studio 3 rollout (Arabic topics، connectors، governance، go-live):</strong> 5–16 يومًا — 2600–44000 دولار/عميل.</li>
+          <li><strong>Managed agent tuning and conversation analytics:</strong> — 540–4200 دولار/شهر.</li>
+          <li><strong>Vertical agent packs (HR، finance، citizen services):</strong> — 52–248 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Low-Code Agents with Copilot Studio»:</strong> — 42–205 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Microsoft</span>
+        <span class="tag">Copilot Studio</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>HubSpot Breeze AI 3 Arabic: CRM يُفكّر معك — leads، sequences، وforecasting بلهجة فريق المبيعات!</h2>
+      <p class="article-lead">«المندوب ينسى follow-up — والمدير يريد pipeline حقيقي لا Excel». في 26 سبتمبر 2026، أطلقت <strong>HubSpot</strong> <strong>Breeze AI 3 Arabic</strong>: طبقة intelligence فوق Marketing Hub وSales Hub وService Hub تُ summarize deals بالعربية، تُ suggest next-best-action، تُ draft emails وWhatsApp templates، تُ score leads مع explainability، تُ build sequences من brief عربي، وتُ sync مع Salesforce bi-directional — لـ scale-ups وSME chains في MENA.</p>
+      <p>المشكلة التي حلّتها: Breeze 2 كان assistive-lite؛ الإصدار 3 يُ act (update deal stage، create task، enroll sequence، post Arabic note)، يُ dialect-aware copy للخليج ومصر وLevant، يُ revenue intelligence «why deal stalled»، يُ integrate LinkedIn وZoom transcripts Arabic، يُ GDPR/PDPL consent tracking، يُ partner marketplace MENA integrators.</p>
+      <p>القدرات الأساسية: Arabic Breeze Copilot sidebar؛ AI forecasting with scenario chat؛ content remix للsocial عربي؛ smart forms Arabic/EN؛ admin playbook للRevOps.</p>
+      <p>للمبدعين العرب: HubSpot agencies وRevOps consultants — «Breeze 3 Arabic GTM stack in 7 days» لل teams 20–400 seats. من يُ onboard 8 Breeze estates/ربع بـ 1900–28000 دولار/each + optimization 350–2600 دولار/شهر يبني practice CRM AI premium في المنطقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من HubSpot Breeze AI 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Breeze 3 setup (Arabic workflows، data hygiene، training، pilots):</strong> 4–14 يومًا — 1750–29500 دولار/عميل.</li>
+          <li><strong>Monthly pipeline and content tuning:</strong> — 320–2450 دولار/شهر.</li>
+          <li><strong>Industry playbooks (real estate، edtech، healthcare SMB):</strong> — 38–185 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Revenue AI with HubSpot Breeze»:</strong> — 36–168 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">HubSpot</span>
+        <span class="tag">CRM</span>
+        <span class="tag">Sales</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Atlassian Rovo 3 Arabic: Jira وConfluence يُجيبان — search وagents وautomation من سؤال واحد بالعربية!</h2>
+      <p class="article-lead">«أين spec مشروع الرياض؟ — والمهندس يبحث في 12 space». في 26 سبتمبر 2026، أطلقت <strong>Atlassian</strong> <strong>Rovo 3 Arabic</strong>: teammate AI فوق Jira وConfluence وBitbucket وLoom يُ answer بالعربية، يُ create وupdate issues، يُ summarize sprints، يُ draft PRDs، يُ link decisions إلى pages، يُ respect project permissions وdata residency — لـ software houses وbanks وtelcos في MENA.</p>
+      <p>المشكلة التي حلّتها: Rovo 2 كان search-heavy؛ الإصدار 3 يُ act (transition ticket، assign reviewer، post Arabic standup recap في Slack bridge، generate test plan)، يُ team agents «Scrum Master Arabic» و«Security Review Arabic»، يُ cross-tool Rovo Chat في mobile، يُ analytics «time saved per squad»، يُ FedRAMP path للpartners، يُ Solution Partners program GCC.</p>
+      <p>القدرات الأساسية: Arabic Rovo Studio لcustom agents؛ semantic search over attachments OCR Arabic؛ automation recipes no-code؛ integration packs Azure DevOps وGitHub؛ admin controls للPII in comments.</p>
+      <p>للمبدعين العرب: Atlassian partners وAgile coaches — «Rovo 3 Arabic delivery cockpit in 6 days» لل orgs 100–2500 devs. من يُ deploy 7 Rovo 3 programs/ربع بـ 2200–32000 دولار/each + hygiene 410–3100 دولار/شهر ي monetize «knowledge trapped in Confluence» pain.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Atlassian Rovo 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Rovo 3 rollout (Arabic agents، permissions، training، UAT):</strong> 5–15 يومًا — 2100–33500 دولار/مشروع.</li>
+          <li><strong>Monthly knowledge base and agent tuning:</strong> — 390–2950 دولار/شهر.</li>
+          <li><strong>Squad starter kits (platform، mobile، data):</strong> — 45–210 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Team AI with Atlassian Rovo»:</strong> — 40–192 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Atlassian</span>
+        <span class="tag">Rovo</span>
+        <span class="tag">Jira</span>
+        <span class="tag">Developers</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Anthropic Claude Team Workspace 3 Arabic: projects وartifacts وconnectors — Claude enterprise بلهجة فريقك!</h2>
+      <p class="article-lead">«نريد Claude داخل firewall — والامتثال يرفض shadow ChatGPT». في 26 سبتمبر 2026، أطلقت <strong>Anthropic</strong> <strong>Claude Team Workspace 3 Arabic</strong>: بيئة teams تُ chat بالعربية، يُ run projects مع shared artifacts (docs، sheets، slides)، يُ invoke connectors (Google Drive، Slack، GitHub، custom MCP)، يُ enforce SSO وaudit logs وusage caps، يُ offer Claude 4 Opus/Sonnet routing — للlegal وconsulting وresearch في MENA.</p>
+      <p>المشكلة التي حلّتها: Team 2 كان chat-only؛ الإصدار 3 يُ act (draft contract Arabic/EN، analyze dataset upload، code review repo، schedule summary email)، يُ workspace memory per department with retention policies، يُ Arabic citation mode للfatwa-style research disclaimers، يُ admin analytics «prompt categories»، يُ HIPAA-ready BAA path، يُ partner enablement Dubai وRiyadh.</p>
+      <p>القدرات الأساسية: Arabic Projects UI؛ artifact versioning؛ team playbooks (M&A due diligence، policy drafting)؛ API batch for integrators؛ red-team tested jailbreak filters Arabic.</p>
+      <p>للمبدعين العرب: AI consultancies وlegal tech — «Claude Team Workspace 3 Arabic in 4 days» لل orgs 30–600 seats. من يُ sell 5 workspace rollouts/ربع بـ 1500–24000 دولار/each + governance 280–2100 دولار/شهر ي capture premium «safe Claude» demand في المنطقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Anthropic Claude Team Workspace 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Workspace 3 deployment (SSO، connectors، Arabic playbooks، training):</strong> 3–12 يومًا — 1400–25500 دولار/عميل.</li>
+          <li><strong>Monthly governance and prompt library curation:</strong> — 260–2050 دولار/شهر.</li>
+          <li><strong>Department playbooks (legal، finance، R&amp;D):</strong> — 35–175 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Enterprise AI with Claude Teams»:</strong> — 38–178 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Anthropic</span>
+        <span class="tag">Claude</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Workspace</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 26-09-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="26-09-2026 -- 04-PM.html">
+          📰 26 سبتمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Microsoft Copilot Studio 3 Arabic · HubSpot Breeze AI 3 Arabic · Atlassian Rovo 3 Arabic · Anthropic Claude Team Workspace 3 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/26-09-2026 -- 04-PM.html`](news/26-09-2026%20--%2004-PM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "26-09-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "26-09-2026 -- 04-PM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "yُ ",
+        "yُ",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
