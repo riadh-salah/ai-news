@@ -1,0 +1,261 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 27-09-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "27-09-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Salesforce Agentforce 3 Arabic، Google NotebookLM 3 Arabic، Canva Magic Studio 3 Arabic، SAP Joule 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 27 سبتمبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Salesforce Agentforce 3 Arabic الذي يُحوّل «تابع العميل بالخليجي» إلى وكيل يُحدّث CRM ويُرسل WhatsApp قبل أن يبرد lead، إلى Google NotebookLM 3 Arabic الذي يُحوّل PDFs ومحاضرات إلى بودكاست عربي وملخصات امتحان، ومن Canva Magic Studio 3 Arabic الذي يُنتج reels وbrand kits من جملة واحدة بالفصحى أو العامية، إلى SAP Joule 3 Arabic الذي يُجيب عن procurement وfinance من داخل S/4HANA — أربع قصص ليلية في 27 سبتمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء منتصف الليل!</h1>
+      <p class="hero-sub">ليلٌ للمُبدعين والمُنفّذين: فرق المبيعات تريد agents حقيقيين فوق Salesforce، المربّون وصنّاع المحتوى يطمحون لـ NotebookLM بالعربية، وكالات التسويق تبحث عن Canva end-to-end، وCFOs في MENA يريدون Joule داخل ERP لا chatbot منفصل. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 27 سبتمبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Salesforce Agentforce 3 Arabic: وكلاء مبيعات وخدمة — من أمر عربي إلى CRM وWhatsApp وEinstein!</h2>
+      <p class="article-lead">«المندوب ينسى follow-up — والعميل يسأل على WhatsApp والرد يتأخر ساعات». في 27 سبتمبر 2026، أطلقت <strong>Salesforce</strong> <strong>Agentforce 3 Arabic</strong>: منصة autonomous agents فوق Sales Cloud وService Cloud وMarketing Cloud تفهم NL بالعربية (MSA وخليجي ومصري وLevant)، تُ execute actions (update opportunity، create case، book meeting، send bilingual template)، تُ integrate Einstein Trust Layer وData Cloud، وتُ publish agents في Experience Cloud وWhatsApp Business API — للbanks وretail chains وB2B في MENA.</p>
+      <p>المشكلة التي حلّتها: Agentforce 2 كان assistive-heavy؛ الإصدار 3 يُ act بـ guardrails (approval flows للخصومات، PII masking، PDPL consent)، يُ multi-agent orchestration «SDR Arabic + Service Arabic + Supervisor»، يُ dialect routing حسب region code، يُ analytics «conversion per agent topic»، يُ sovereign hosting option UAE preview، يُ AppExchange packs للreal estate وhospitality.</p>
+      <p>القدرات الأساسية: Arabic Agent Builder مع simulation replay؛ catalog من 50+ action templates؛ MCP connector preview؛ voice handoff Arabic/EN؛ admin center لـ prompt versioning وA/B tests.</p>
+      <p>للمبدعين العرب: Salesforce partners وRevOps boutiques — «Agentforce 3 Arabic GTM in 6 days» لل orgs 80–12000 users. من يُ deliver 5 rollouts/ربع بـ 3200–48000 دولار + managed tuning 620–4800 دولار/شهر يركب موجة «agentic CRM» في الخليج.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Salesforce Agentforce 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Agentforce 3 deployment (Arabic topics، Data Cloud، WhatsApp، UAT):</strong> 6–18 يومًا — 3000–52000 دولار/عميل.</li>
+          <li><strong>Monthly agent optimization and conversation QA:</strong> — 580–4600 دولار/شهر.</li>
+          <li><strong>Vertical agent packs (banking، telecom، logistics):</strong> — 55–265 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Agentic CRM with Agentforce»:</strong> — 44–215 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Salesforce</span>
+        <span class="tag">Agentforce</span>
+        <span class="tag">CRM</span>
+        <span class="tag">WhatsApp</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Google NotebookLM 3 Arabic: مصادرك تتحدّث — بودكاست عربي، mind maps، وامتحانات من ملفاتك!</h2>
+      <p class="article-lead">«عندي 40 PDF للمقرر — وأريد مراجعة سريعة قبل الامتحان». في 27 سبتمبر 2026، أطلقت <strong>Google</strong> <strong>NotebookLM 3 Arabic</strong>: research companion يُ ingest docs وslides وYouTube (Arabic captions) وGoogle Drive، يُ chat بالعربية مع citations، يُ generate Audio Overview بلهجة MSA أو Gulf preview، يُ build study guides وflashcards وmind maps RTL، يُ share notebooks للteams مع permissions — للuniversities وtraining centers وconsultants في MENA.</p>
+      <p>المشكلة التي حلّتها: NotebookLM 2 كان English-first في audio وUI hints؛ الإصدار 3 يُ Arabic-native summaries مع quote anchors، يُ multi-source synthesis «قارن بين سياسة HR وهذا العقد»، يُ enterprise Vault retention، يُ export to Google Docs/Slides Arabic layout، يُ API للEdTech integrators، يُ watermarking للshared notebooks.</p>
+      <p>القدرات الأساسية: Arabic Audio Overview voices؛ citation click-through إلى page/paragraph؛ batch upload OCR لل scanned Arabic؛ team analytics «questions students ask»؛ mobile app offline read.</p>
+      <p>للمبدعين العرب: EdTech creators وcorporate L&amp;D — «NotebookLM 3 Arabic course hub in 3 days» لل cohorts 200–8000 learners. من يُ sell 10 academy setups/ربع بـ 900–18500 دولار/each + content refresh 280–2200 دولار/شهر ي monetize «study smarter» demand.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Google NotebookLM 3 Arabic؟</h3>
+        <ul>
+          <li><strong>NotebookLM 3 academy setup (sources، Arabic audio، governance، training):</strong> 3–10 أيام — 850–19800 دولار/مشروع.</li>
+          <li><strong>Monthly notebook curation and study guide updates:</strong> — 260–2150 دولار/شهر.</li>
+          <li><strong>Subject packs (law، medicine، engineering prep):</strong> — 32–168 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Research AI with NotebookLM»:</strong> — 35–165 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Google</span>
+        <span class="tag">NotebookLM</span>
+        <span class="tag">Education</span>
+        <span class="tag">Audio</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Canva Magic Studio 3 Arabic: من brief عربي إلى brand kit وreels وpresentations — استوديو كامل!</h2>
+      <p class="article-lead">«العميل يريد حملة رمضان خلال 48 ساعة — والمصمم مشغول». في 27 سبتمبر 2026، أطلقت <strong>Canva</strong> <strong>Magic Studio 3 Arabic</strong>: suite فوق Canva Pro/Teams يُ generate copy وvisuals وvideo من prompt عربي، يُ apply brand voice (خليجي/مصري/MSA)، يُ resize لـ Instagram وSnapchat وLinkedIn وTikTok، يُ Magic Switch للtranslate EN↔AR مع layout fix، يُ bulk create من CSV products — لـ agencies وSMEs وcreators في MENA.</p>
+      <p>المشكلة التي حلّتها: Magic Studio 2 كان templates-heavy؛ الإصدار 3 يُ act (schedule posts via integrations، export ad specs، generate variant tests)، يُ Arabic typography engine (Kashida-aware)، يُ video storyboard from script، يُ team approvals وcomment RTL، يُ enterprise SSO وasset library sync، يُ partner program Dubai وCairo.</p>
+      <p>القدرات الأساسية: Magic Design Arabic؛ Magic Write dialect toggle؛ Magic Video بدقة 1080p مع ترجمة عربية محروقة؛ Brand Kit AI from logo upload؛ analytics «best performing Arabic hook».</p>
+      <p>للمبدعين العرب: social agencies وfreelance designers — «Magic Studio 3 Arabic campaign factory in 4 days» لل brands 5–200 SKUs. من يُ onboard 12 Canva Teams/ربع بـ 1200–22000 دولار/each + monthly creative 350–2800 دولار/شهر ي scale «Arabic content at speed».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Canva Magic Studio 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Magic Studio 3 rollout (Brand Kit، templates، workflows، training):</strong> 4–12 يومًا — 1100–23500 دولار/عميل.</li>
+          <li><strong>Monthly campaign production and A/B creative:</strong> — 330–2700 دولار/شهر.</li>
+          <li><strong>Industry template libraries (F&amp;B، fashion، fintech):</strong> — 40–195 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Visual AI with Canva Magic Studio»:</strong> — 38–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Canva</span>
+        <span class="tag">Magic Studio</span>
+        <span class="tag">Design</span>
+        <span class="tag">Social</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>SAP Joule 3 Arabic: مساعد ERP يُفهم finance وprocurement — داخل S/4HANA لا خارجها!</h2>
+      <p class="article-lead">«أين PO رقم 8842؟ — والمحاسب يتنقل بين شاشات SAP». في 27 سبتمبر 2026، أطلقت <strong>SAP</strong> <strong>Joule 3 Arabic</strong>: copilot مدمج في S/4HANA وSuccessFactors وAriba يُ answer بالعربية، يُ draft purchase requisitions، يُ explain variance reports، يُ suggest payment runs with approval chains، يُ respect role-based auth وaudit logs — للmanufacturing وenergy وpublic sector في MENA.</p>
+      <p>المشكلة التي حلّتها: Joule 2 كان FAQ-lite؛ الإصدار 3 يُ act (create GR، post journal entry draft، trigger workflow، notify vendor portal Arabic email)، يُ cross-module context «link HR leave to project staffing»، يُ Arabic numerals and date formats Hijri preview، يُ integration SAP Build Process Automation، يُ sovereign cloud KSA option، يُ partner enablement for Gulf SI.</p>
+      <p>القدرات الأساسية: Joule Studio Arabic intents؛ document grounding on S/4 attachments OCR Arabic؛ mobile Joule voice MSA؛ admin analytics «top Arabic queries»؛ red-team tested for financial prompt injection.</p>
+      <p>للمبدعين العرب: SAP partners وfinance transformation shops — «Joule 3 Arabic finance cockpit in 8 days» لل entities 500–15000 employees. من يُ deliver 4 Joule programs/ربع بـ 4500–65000 دولار/each + hypercare 720–5500 دولار/شهر ي capture ERP AI premium في المنطقة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من SAP Joule 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Joule 3 activation (Arabic intents، RBAC، UAT، change mgmt):</strong> 7–20 يومًا — 4200–68000 دولار/مشروع.</li>
+          <li><strong>Monthly intent tuning and finance playbook updates:</strong> — 680–5200 دولار/شهر.</li>
+          <li><strong>Module starter kits (FI، MM، HR):</strong> — 48–225 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic ERP AI with SAP Joule»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">SAP</span>
+        <span class="tag">Joule</span>
+        <span class="tag">ERP</span>
+        <span class="tag">Finance</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 27-09-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="27-09-2026 -- 12-AM.html">
+          📰 27 سبتمبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Salesforce Agentforce 3 Arabic · Google NotebookLM 3 Arabic · Canva Magic Studio 3 Arabic · SAP Joule 3 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/27-09-2026 -- 12-AM.html`](news/27-09-2026%20--%2012-AM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "27-09-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "27-09-2026 -- 12-AM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "yُ ",
+        "yُ",
+        "tربح",
+        "القدrات",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
