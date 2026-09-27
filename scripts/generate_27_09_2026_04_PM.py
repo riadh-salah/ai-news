@@ -1,0 +1,258 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 27-09-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "27-09-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — OpenAI ChatGPT Enterprise Agents 3 Arabic، Adobe Firefly Video Studio 3 Arabic، Notion AI Agents 3 Arabic، PayPal Fastlane Commerce AI 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 27 سبتمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من OpenAI ChatGPT Enterprise Agents 3 Arabic الذي يُشغّل وكلاء يُنجزون مهام CRM وERP بلغة طبيعية عربية، إلى Adobe Firefly Video Studio 3 Arabic الذي يُحوّل storyboard بالخليجي إلى فيديو إعلاني جاهز، ومن Notion AI Agents 3 Arabic الذي يُدير قواعد المعرفة ويُحدّث المشاريع تلقائيًا، إلى PayPal Fastlane Commerce AI 3 Arabic الذي يُ boost التحويل ويُ personalize checkout للمتاجر العربية — أربع قصص مسائية في 27 سبتمبر 2026 لمن يريد أدوات عالمية ودخلًا يُغلق قبل منتصف الليل!</h1>
+      <p class="hero-sub">مساءٌ للمُنفّذين: CIOs يريدون agents enterprise على ChatGPT مع SSO، وكالات تسويق تطلب فيديو AI باللهجات، فرق remote تبحث عن Notion يُ think ويُ act، وتجّار e-commerce يريدون PayPal يُ recover carts بالعربية. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 27 سبتمبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>OpenAI ChatGPT Enterprise Agents 3 Arabic: وكلاء مؤسسية — من أمر عربي إلى Salesforce وSAP وOutlook!</h2>
+      <p class="article-lead">«نريد AI يُحدّث CRM ويُرسل follow-up — لكن البيانات لا تغادر VPC». في 27 سبتمبر 2026، أطلقت <strong>OpenAI</strong> <strong>ChatGPT Enterprise Agents 3 Arabic</strong>: طبقة agentic فوق ChatGPT Enterprise تُ author workflows بالعربية (MSA وخليجي ومصري وlevant)، تُ connect Salesforce وHubSpot وMicrosoft 365 وSAP وServiceNow عبر connectors معتمدة، تُ enforce RBAC وaudit logs وdata residency EU/UAE، تُ run scheduled وevent-driven tasks مع human-in-the-loop — للbanks وretail groups وtelco في MENA.</p>
+      <p>المشكلة التي حلّتها: Enterprise Agents 2 كان English-first وplan-heavy؛ الإصدار 3 يُ execute multi-step (research account، draft Arabic proposal، schedule Teams، log opportunity)، يُ shared agent library per department، يُ evaluation harness Arabic toxicity وPII leak tests، يُ MCP server catalog للcustom tools، يُ admin console «cost per agent workflow»، يُ partner tier للSIs في Dubai وCairo.</p>
+      <p>القدرات الأساسية: GPT-5.2 Enterprise routing؛ sandboxed code interpreter for reports؛ memory scoped per business unit؛ SSO SAML/OIDC؛ export to SIEM؛ migration from Custom GPTs v2.</p>
+      <p>للمبدعين العرب: enterprise AI consultancies — «ChatGPT Enterprise Agents 3 Arabic go-live in 10 days» لل orgs 2000–80000 seats. من يُ deliver 5 rollouts/ربع بـ 4200–85000 دولار + governance retainer 680–6200 دولار/شهر يركب موجة «Arabic agentic workplace».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OpenAI ChatGPT Enterprise Agents 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Agents 3 deployment (connectors، Arabic playbooks، UAT، training):</strong> 8–22 يومًا — 4000–88000 دولار/عميل.</li>
+          <li><strong>Monthly agent ops and prompt regression:</strong> — 650–6100 دولار/شهر.</li>
+          <li><strong>Department starter packs (sales، HR، legal، IT):</strong> — 55–268 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Enterprise Agents on ChatGPT»:</strong> — 44–215 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">ChatGPT Enterprise</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Adobe Firefly Video Studio 3 Arabic: من نص وstoryboard عربي إلى فيديو 4K — إعلانات وsocial في ساعات!</h2>
+      <p class="article-lead">«الحملة Ramadan جاهزة نصًا — لكن الإنتاج يأخذ أسابيع». في 27 سبتمبر 2026، أطلقت <strong>Adobe</strong> <strong>Firefly Video Studio 3 Arabic</strong>: suite لتوليد وتحرير فيديو generative داخل Creative Cloud يفهم prompts بالعربية واللهجات، يُ storyboard من brief، يُ generate B-roll وproduct shots وtalking-head style، يُ brand kit (colors، fonts، logo safe zones)، يُ export لTikTok وYouTube وSnap وTV — لوكالات وbrands في الخليج ومصر.</p>
+      <p>المشكلة التي حلّتها: Firefly Video 2 كان MSA captions فقط؛ الإصدار 3 يُ dialect-aware voiceover sync، يُ Arabic typography motion graphics، يُ extend وinpaint clips، يُ collaboration Premiere وAfter Effects roundtrip، يُ content credentials C2PA، يُ stock-safe training claims للenterprise legal.</p>
+      <p>القدرات الأساسية: Up to 60s 4K clips؛ character consistency across scenes؛ auto RTL subtitle burn-in؛ batch variants for A/B ads؛ API for DAM integration.</p>
+      <p>للمبدعين العرب: creative studios وfreelance motion designers — «Firefly Video Studio 3 Arabic campaign pack in 3 days» لل brands 5–500 SKUs. من يُ sell 15 packages/ربع بـ 950–18500 دولار/each + subscription margin 120–980 دولار/شهر ي scale «Arabic video at agency speed».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Adobe Firefly Video Studio 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Video Studio 3 retainer (briefs، variants، brand guardrails):</strong> 3–10 أيام/حملة — 900–22000 دولار/عميل.</li>
+          <li><strong>Monthly creative ops and template library:</strong> — 220–1950 دولار/شهر.</li>
+          <li><strong>Industry reels (F&amp;B، fashion، fintech، tourism):</strong> — 48–235 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Generative Video with Firefly Studio»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Adobe</span>
+        <span class="tag">Firefly</span>
+        <span class="tag">Video AI</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Notion AI Agents 3 Arabic: وكلاء يُ think في workspace — مهام، docs، وOKRs تُحدّث نفسها!</h2>
+      <p class="article-lead">«Notion مليء بالمعرفة — لكن لا أحد يُحدّث status pages». في 27 سبتمبر 2026، أطلقت <strong>Notion</strong> <strong>AI Agents 3 Arabic</strong>: agents داخل workspace يُ read/write pages وdatabases بالعربية، يُ triage tasks من Slack/Email، يُ summarize meetings ويُ assign owners، يُ sync OKRs وweekly reports، يُ respect guest permissions وSOC2 — لل startups وconsultancies وremote teams في MENA.</p>
+      <p>المشكلة التي حلّتها: Notion AI 2 كان Q&amp;A فقط؛ الإصدار 3 يُ autonomous loops «every Monday compile Arabic exec brief»، يُ connectors Google Drive وGitHub وFigma، يُ custom agent personas (PM Arabic، Legal Arabic)، يُ audit trail per edit، يُ enterprise SCIM وEU data region.</p>
+      <p>القدرات الأساسية: Multi-agent handoffs Research→Write→Review؛ scheduled runs؛ @mention agents in comments؛ template marketplace Arabic HR وfundraising؛ mobile approve/reject.</p>
+      <p>للمبدعين العرب: Notion certified consultants وops freelancers — «AI Agents 3 Arabic workspace in 4 days» لل teams 10–800 users. من يُ onboard 12 clients/ربع بـ 1100–24000 دولار/each + support 260–2100 دولار/شهر ي monetize «knowledge that runs itself».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Notion AI Agents 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Agents 3 workspace build (schemas، agents، automations، training):</strong> 4–12 يومًا — 1050–25500 دولار/عميل.</li>
+          <li><strong>Monthly workspace hygiene and agent tuning:</strong> — 250–2050 دولار/شهر.</li>
+          <li><strong>Vertical OS templates (agency، VC، EdTech، NGO):</strong> — 32–165 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Autonomous Notion with AI Agents»:</strong> — 38–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Notion</span>
+        <span class="tag">AI Agents</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Remote Work</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>PayPal Fastlane Commerce AI 3 Arabic: checkout ذكي — استرداد سلات، عروض شخصية، ودفع one-tap!</h2>
+      <p class="article-lead">«70% يُ abandoning cart — والرسائل بالإنجليزية لا تُ convert». في 27 سبتمبر 2026، أطلقت <strong>PayPal</strong> <strong>Fastlane Commerce AI 3 Arabic</strong>: intelligence layer فوق PayPal Commerce Platform وFastlane يُ personalize checkout Arabic RTL، يُ send WhatsApp/SMS recovery بالخليجي والمصري، يُ dynamic discounts with margin guardrails، يُ fraud score tuned MENA cards، يُ A/B payment buttons — للmerchants وmarketplaces في GCC وLevant وNorth Africa.</p>
+      <p>المشكلة التي حلّتها: Fastlane AI 2 كان US-centric copy؛ الإصدار 3 يُ Arabic product recommendations، يُ act (issue store credit، swap shipping tier) via merchant rules، يُ integrate Shopify وWooCommerce وMagento Arabic storefronts، يُ Ramadan/Eid campaign presets، يُ dashboard «recovered GMV in SAR/EGP».</p>
+      <p>القدرات الأساسية: Guest checkout identity vault؛ BNPL hints localized؛ conversational support widget Arabic؛ PCI DSS؛ partner revenue share for agencies.</p>
+      <p>للمبدعين العرب: e-commerce agencies وgrowth freelancers — «Fastlane Commerce AI 3 Arabic lift in 5 days» لل stores 20K–5M GMV/year. من يُ deliver 20 optimizations/ربع بـ 800–16000 دولار/each + performance fee 2–8% recovered GMV ي capture «Arabic checkout that pays».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من PayPal Fastlane Commerce AI 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Fastlane AI 3 setup (Arabic UX، recovery flows، rules، analytics):</strong> 4–14 يومًا — 750–17500 دولار/متجر.</li>
+          <li><strong>Monthly conversion and campaign optimization:</strong> — 180–1650 دولار/شهر.</li>
+          <li><strong>Vertical playbooks (beauty، electronics، grocery، luxury):</strong> — 35–178 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic E-commerce AI with PayPal Fastlane»:</strong> — 34–168 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">PayPal</span>
+        <span class="tag">E-commerce</span>
+        <span class="tag">Conversion</span>
+        <span class="tag">Fastlane</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 27-09-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="27-09-2026 -- 04-PM.html">
+          📰 27 سبتمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">OpenAI ChatGPT Enterprise Agents 3 Arabic · Adobe Firefly Video Studio 3 Arabic · Notion AI Agents 3 Arabic · PayPal Fastlane Commerce AI 3 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/27-09-2026 -- 04-PM.html`](news/27-09-2026%20--%2004-PM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "27-09-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "27-09-2026 -- 04-PM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
