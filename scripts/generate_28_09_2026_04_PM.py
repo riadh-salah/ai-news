@@ -1,0 +1,259 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 28-09-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "28-09-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Meta Llama 4 Business Arabic، Amazon Q Business 3 Arabic، Microsoft Dynamics 365 Copilot 3 Arabic، Anthropic Claude Code 2 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 28 سبتمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI المسائية</span>
+      <h1>من Meta Llama 4 Business Arabic الذي يُشغّل نماذج مفتوحة المصدر على بنيتك مع fine-tune للفصحى واللهجات، إلى Amazon Q Business 3 Arabic الذي يُجيب الموظفين من S3 وSharePoint وSlack دون تسريب بيانات، ومن Microsoft Dynamics 365 Copilot 3 Arabic الذي يُ draft عروض أسعار ويُحدّث CRM من جملة عربية واحدة، إلى Anthropic Claude Code 2 Arabic الذي يُحوّل ticket بالعربية إلى pull request مع tests — أربع قصص مسائية في 28 سبتمبر 2026 لمن يريد أدوات عالمية ودخلًا يُغلق قبل منتصف الليل!</h1>
+      <p class="hero-sub">مساءٌ للقادة التقنيين ورواد الأعمال: CIOs يطلبون Llama على-prem بسياسات PDPL، فرق operations تبحث عن Q Business يفهم policies بالعربية، مبيعات B2B تحلم بـ Dynamics يُنجز admin work، ومطورون يريدون Claude Code يقرأ requirements باللهجة. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 28 سبتمبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Meta Llama 4 Business Arabic: open weights على بنيتك — fine-tune، guardrails، وWhatsApp agents بلا vendor lock-in!</h2>
+      <p class="article-lead">«نريد AI قويًا — لكن البيانات لا تغادر المملكة». في 28 سبتمبر 2026، أطلقت <strong>Meta</strong> <strong>Llama 4 Business Arabic</strong>: حزمة enterprise فوق Llama 4 (405B و70B و8B) مع Arabic tokenizer improvements، تُ deploy على AWS وGCP وon-prem GPU clusters، تُ offer supervised fine-tune على contracts وpolicies محلية، تُ ship safety classifiers للمحتوى الديني والسياسي، تُ integrate Ray Serve وvLLM وMeta AI Studio — للbanks وgovtech وtelco في MENA.</p>
+      <p>المشكلة التي حلّتها: Llama 3 enterprise كان English-centric وself-host معقد؛ الإصدار Business Arabic يُ one-click Helm charts، يُ dialect-aware routing (Gulf vs Levant prompts)، يُ RAG templates Arabic PDF/OCR، يُ license clarity للcommercial use في GCC، يُ partner program مع integrators في Riyadh وAbu Dhabi، يُ benchmark يتفوق على GPT-4.1 mini على Arabic legal QA.</p>
+      <p>القدرات الأساسية: Quantization AWQ/FP8؛ LoRA packs per industry؛ audit logs؛ multi-tenant isolation؛ connector WhatsApp Cloud API preview؛ SLA support tiers.</p>
+      <p>للمبدعين العرب: MLOps boutiques وsovereign cloud vendors — «Llama 4 Business Arabic cluster live in 12 days» لل orgs 500–50000 users. من يُ deliver 4 deployments/ربع بـ 5200–95000 دولار + GPU managed ops 720–6800 دولار/شهر يركب «Arabic sovereign AI stack».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Meta Llama 4 Business Arabic؟</h3>
+        <ul>
+          <li><strong>Llama 4 Business rollout (cluster، fine-tune، guardrails، UAT):</strong> 10–28 يومًا — 5000–98000 دولار/عميل.</li>
+          <li><strong>Monthly model ops and Arabic eval regression:</strong> — 690–6700 دولار/شهر.</li>
+          <li><strong>Vertical LoRA packs (banking، healthcare، retail):</strong> — 58–285 دولار/حزمة.</li>
+          <li><strong>دورات «Self-Hosted Arabic LLM with Llama 4 Business»:</strong> — 49–238 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Meta</span>
+        <span class="tag">Llama 4</span>
+        <span class="tag">Open Source</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Amazon Q Business 3 Arabic: «اسأل شركتك» — answers من Confluence وDrive وERP مع citations وRBAC!</h2>
+      <p class="article-lead">«الموظف يسأل: ما سياسة الإجازة؟ — وHR تكرر نفس الرد 200 مرة/شهر». في 28 سبتمبر 2026، أطلقت <strong>Amazon</strong> <strong>Q Business 3 Arabic</strong>: مساعد enterprise يُ index internal sources (SharePoint، Google Drive، S3، Salesforce، ServiceNow، SAP)، يُ answer بالعربية مع source links، يُ respect row-level security، يُ generate summaries وaction items، يُ plug into Slack وTeams وweb chat — للholding companies وcontact centers في MENA.</p>
+      <p>المشكلة التي حلّتها: Q Business 2 كان English NLU ضعيفًا على scanned Arabic PDFs؛ الإصدار 3 يُ improved OCR for RTL، يُ multi-hop reasoning «قارن policy 2024 vs 2025»، يُ admin analytics «top unanswered Arabic questions»، يُ connector marketplace 40+ apps، يُ guardrails block salary PII، يُ UAE AWS region GA with data residency.</p>
+      <p>القدرات الأساسية: Quick prompts library HR/IT/finance Arabic؛ scheduled digest emails؛ plugin custom APIs؛ usage-based pricing caps؛ migration from Kendra legacy.</p>
+      <p>للمبدعين العرب: AWS partners وinternal comms agencies — «Q Business 3 Arabic knowledge hub in 8 days» لل orgs 1000–80000 employees. من يُ ship 6 rollouts/ربع بـ 3800–72000 دولار + content curation retainer 540–4900 دولار/شهر ي monetize «Arabic intranet brain».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Amazon Q Business 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Q Business 3 build (connectors، Arabic corpus cleanup، RBAC):</strong> 6–18 يومًا — 3600–76000 دولار/عميل.</li>
+          <li><strong>Monthly FAQ tuning and new-hire Arabic packs:</strong> — 520–4800 دولار/شهر.</li>
+          <li><strong>Department starter kits (legal، procurement، sales enablement):</strong> — 45–220 دولار/حزمة.</li>
+          <li><strong>دورات «Enterprise Arabic Q&amp;A with Amazon Q Business»:</strong> — 44–215 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Amazon</span>
+        <span class="tag">Q Business</span>
+        <span class="tag">RAG</span>
+        <span class="tag">Knowledge</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Microsoft Dynamics 365 Copilot 3 Arabic: من voice note بالخليجي إلى quote وpipeline وfield service!</h2>
+      <p class="article-lead">«المندوب في السيارة يرسل voice note — والبيانات لا تدخل CRM حتى المساء». في 28 سبتمبر 2026، أطلقت <strong>Microsoft</strong> <strong>Dynamics 365 Copilot 3 Arabic</strong>: copilot عبر Sales وCustomer Service وField Service وFinance يُ transcribe Arabic dialects، يُ update accounts وopportunities وcases، يُ draft emails وproposals RTL، يُ suggest next-best-action من Customer Insights، يُ sync Teams وOutlook — للdistributors وFMCG وutilities في GCC.</p>
+      <p>المشكلة التي حلّتها: Copilot 2 كان MSA-only وsurface-level؛ الإصدار 3 يُ Egyptian and Khaleeji ASR، يُ multi-record updates «أضف follow-up لكل leads الرياض»، يُ Power Automate trigger from copilot chat، يُ compliance D365 audit trail Arabic، يُ mobile offline queue، يُ integration LinkedIn Sales Navigator Arabic insights.</p>
+      <p>القدرات الأساسية: Role-based copilot skills؛ quote PDF generation؛ case sentiment Arabic؛ forecast narratives for managers؛ Copilot Studio extensibility.</p>
+      <p>للمبدعين العرب: Dynamics partners وRevOps freelancers — «D365 Copilot 3 Arabic sales acceleration in 7 days» لل orgs 50–8000 users. من يُ sell 10 projects/ربع بـ 2400–52000 دولار/each + adoption coaching 380–3200 دولار/شهر يركب «Arabic CRM that listens».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Microsoft Dynamics 365 Copilot 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Copilot 3 enablement (data hygiene، Arabic playbooks، seller training):</strong> 5–15 يومًا — 2200–55000 دولار/عميل.</li>
+          <li><strong>Monthly pipeline hygiene and copilot prompt library:</strong> — 350–3100 دولار/شهر.</li>
+          <li><strong>Industry workflow packs (pharma، construction، logistics):</strong> — 42–205 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Sales Copilot on Dynamics 365»:</strong> — 41–195 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Microsoft</span>
+        <span class="tag">Dynamics 365</span>
+        <span class="tag">Copilot</span>
+        <span class="tag">CRM</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Anthropic Claude Code 2 Arabic: من ticket عربي إلى refactor وtests — مهندس وكيلي في IDE!</h2>
+      <p class="article-lead">«Product يرسل spec بالعربية — والفريق يترجمه يدويًا قبل أي commit». في 28 سبتمبر 2026، أطلقت <strong>Anthropic</strong> <strong>Claude Code 2 Arabic</strong>: agentic coding في VS Code وJetBrains وterminal يُ parse requirements بالعربية (MSA وtech-Arabic mix)، يُ plan multi-file changes، يُ run tests وlinters، يُ open PRs with Arabic/English descriptions، يُ respect org policies via Claude for Work — للproduct companies وoutsourcing shops في MENA.</p>
+      <p>المشكلة التي حلّتها: Claude Code 1 كان English specs only؛ الإصدار 2 يُ Arabic comment preservation in legacy codebases، يُ security review OWASP hints، يُ monorepo awareness، يُ Jira and Linear Arabic issue linking، يُ cost caps per developer، يُ audit for regulated fintech.</p>
+      <p>القدرات الأساسية: Subagents for frontend/backend؛ sandbox bash؛ MCP tools catalog؛ diff view RTL-friendly docs؛ team shared instruction files Arabic.</p>
+      <p>للمبدعين العرب: dev shops وCTO advisors — «Claude Code 2 Arabic velocity pilot in 5 days» لل teams 5–120 engineers. من يُ run 8 enablement programs/ربع بـ 1600–38000 دولار + office hours retainer 290–2600 دولار/شهر يركب «ship faster with Arabic-first specs».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Anthropic Claude Code 2 Arabic؟</h3>
+        <ul>
+          <li><strong>Claude Code 2 rollout (policies، Arabic spec templates، CI hooks):</strong> 4–12 يومًا — 1500–40000 دولار/عميل.</li>
+          <li><strong>Monthly office hours and regression on Arabic tickets:</strong> — 270–2500 دولار/شهر.</li>
+          <li><strong>Stack playbooks (React، .NET، Flutter، data pipelines):</strong> — 36–175 دولار/حزمة.</li>
+          <li><strong>دورات «Agentic Development with Claude Code 2 Arabic»:</strong> — 39–188 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Anthropic</span>
+        <span class="tag">Claude Code</span>
+        <span class="tag">Developers</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 28-09-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="28-09-2026 -- 04-PM.html">
+          📰 28 سبتمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Meta Llama 4 Business Arabic · Amazon Q Business 3 Arabic · Microsoft Dynamics 365 Copilot 3 Arabic · Anthropic Claude Code 2 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/28-09-2026 -- 04-PM.html`](news/28-09-2026%20--%2004-PM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "28-09-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "28-09-2026 -- 04-PM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " yُ ",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
