@@ -1,0 +1,265 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 03-10-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "03-10-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Google Gemini Live 2 Arabic، Anthropic Claude Artifacts 3 Arabic، Intercom Fin 3 Arabic، Clay AI Enrichment 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 3 أكتوبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🔥 نشرة AI العالمية</span>
+      <h1>من Google Gemini Live 2 Arabic الذي يُجري محادثة صوتية حيّة بفهم لهجات MENA ويُ translate فورًا، إلى Anthropic Claude Artifacts 3 Arabic الذي يُ birth تطبيقات وdashboards تفاعلية من prompt عربي واحد، ومن Intercom Fin 3 Arabic الذي يُ resolve تذاكر الدعم قبل أن يُصبح العميل غاضبًا، إلى Clay AI Enrichment 3 Arabic الذي يُ enrich قوائم leads ببيانات حية من LinkedIn وcrunchbase — أربع قصص ليلية في 3 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء منتصف الليل!</h1>
+      <p class="hero-sub">ليلٌ للمُنفّذين: call centers تريد voice AI يفهم «شلونك؟» و«كيف الحال؟»، product teams تطمح لـ prototypes من جملة عربية، SaaS في MENA يحتاج support agent يقرأ knowledge base RTL، وفرق outbound sales تبحث عن enrichment تلقائي قبل كل cold email. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 3 أكتوبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Google Gemini Live 2 Arabic: محادثة صوتية حيّة — لهجات، vision، وترجمة فورية!</h2>
+      <p class="article-lead">«أريد مساعدًا يُجيبني وأنا أقود — ويفهم لهجتي دون أن أُ repeat». في 3 أكتوبر 2026، أطلقت <strong>Google</strong> <strong>Gemini Live 2 Arabic</strong>: وضع محادثة صوتية real-time يُ detect لهجات (خليجية، مصرية، مغاربية، شامية)، يُ interrupt طبيعي، يُ share camera للمساعدة في shopping وrepair، يُ translate bidirectional عربي↔إنجليزي أثناء المكالمة، يُ integrate مع Android وPixel وWorkspace — لل consumers وfield teams وclinics في MENA.</p>
+      <p>المشكلة التي حلّتها: Gemini Live 1 كان يُ lag على code-switching سريع؛ الإصدار 2 يُ dialect classifier محلي، يُ benchmark −52% misrecognition في noisy environments مقابل الإصدار السابق في fleet logistics سعودي، يُ privacy mode on-device لل keywords حساسة، يُ enterprise admin controls.</p>
+      <p>القدرات الأساسية: Screen share مع annotations؛ memory opt-in لل preferences؛ API لل IVR replacement؛ integration مع Maps وCalendar؛ multilingual group calls حتى 6 مشاركين.</p>
+      <p>للمبدعين العرب: voice UX studios وGoogle Cloud partners — «Gemini Live 2 Arabic voice concierge in 6 days» لل brands 1–50 locations. من يُ deploy 12 pilots/ربع بـ 1800–42000 دولار + support 150–1400 دولار/شهر يركب «Arabic live voice AI bureau».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Google Gemini Live 2 Arabic؟</h3>
+        <ul>
+          <li><strong>Voice concierge pilot (flows، dialect tuning، UAT):</strong> 4–10 أيام — 1800–42000 دولار/عميل.</li>
+          <li><strong>Monthly tuning and analytics for live sessions:</strong> — 150–1400 دولار/شهر.</li>
+          <li><strong>Vertical phrase packs (retail، healthcare، hospitality):</strong> — 35–175 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Voice UX with Gemini Live»:</strong> — 45–220 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Google</span>
+        <span class="tag">Gemini</span>
+        <span class="tag">Voice</span>
+        <span class="tag">Live</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Anthropic Claude Artifacts 3 Arabic: من فكرة عربية إلى app تفاعلي — React، charts، وshare!</h2>
+      <p class="article-lead">«المدير يريد dashboard غدًا — والفريق backend مشغول أسبوعين». في 3 أكتوبر 2026، أطلقت <strong>Anthropic</strong> <strong>Claude Artifacts 3 Arabic</strong>: workspace يُ generate mini-apps (calculators، CRM views، training quizzes) من وصف عربي، يُ RTL layout auto، يُ iterate بالمحادثة، يُ export code وembed share links، يُ respect org policies وaudit — لل PMs وconsultants وeducators في MENA.</p>
+      <p>المشكلة التي حلّتها: Artifacts 2 كان يُ break Arabic numerals في charts؛ الإصدار 3 يُ locale-aware formatting، يُ benchmark −44% time-to-demo في consulting firm إماراتي، يُ version history وrollback، يُ SSO لل teams.</p>
+      <p>القدرات الأساسية: Templates (OKR tracker، invoice generator، lesson plan); API hooks; integration مع Notion embed; mobile-responsive previews; accessibility checks WCAG.</p>
+      <p>للمبدعين العرب: no-code agencies وAnthropic partners — «Artifacts 3 Arabic sprint dashboard in 2 days» لل clients 3–25 stakeholders. من يُ deliver 18 sprints/ربع بـ 900–36000 دولار + maintenance 100–950 دولار/شهر يركب «Arabic AI prototype studio».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Anthropic Claude Artifacts 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Prototype sprint (artifact، iterations، handoff):</strong> 1–4 أيام — 900–36000 دولار/عميل.</li>
+          <li><strong>Monthly artifact maintenance and feature tweaks:</strong> — 100–950 دولار/شهر.</li>
+          <li><strong>Industry starter kits (legal، HR، finance RTL):</strong> — 30–155 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Rapid Prototyping with Claude Artifacts»:</strong> — 38–185 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Anthropic</span>
+        <span class="tag">Claude</span>
+        <span class="tag">Artifacts</span>
+        <span class="tag">Prototyping</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Intercom Fin 3 Arabic: وكيل دعم AI — empathy، macros، وhandoff بلا فجوات!</h2>
+      <p class="article-lead">«300 تذكرة يوميًا — والعملاء ينتظرون ردًا بالعربية يفهم السياق». في 3 أكتوبر 2026، أطلقت <strong>Intercom</strong> <strong>Fin 3 Arabic</strong>: agent support يُ read help center وmacros وpast tickets RTL، يُ tone empathy-aware لل complaints، يُ propose refunds وshipping updates grounded، يُ escalate مع summary عربي لل human، يُ CSAT boost tracking — لل SaaS وfintech وmarketplaces في MENA.</p>
+      <p>المشكلة التي حلّتها: Fin 2 كان يُ over-promise على policies معقدة؛ الإصدار 3 يُ policy graph وsimulation sandbox، يُ benchmark +31% first-contact resolution في subscription app مصري، يُ red-team tests لل PII، يُ WhatsApp وInstagram DM channels.</p>
+      <p>القدرات الأساسية: Custom Fin personas per brand; Copilot لل agents البشريين; multilingual inbox unified; Revenue reporting tied to saved churn; Fin Insights dashboard بالعربية.</p>
+      <p>للمبدعين العرب: CX consultancies — «Fin 3 Arabic support transformation in 11 days» لل orgs 5k–500k MAU. من يُ onboard 9 clients/ربع بـ 2800–68000 دولار + managed 250–2100 دولار/شهر يركب «Arabic AI support excellence shop».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Intercom Fin 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Support transformation (KB، Fin training، go-live):</strong> 7–16 يومًا — 2800–68000 دولار/عميل.</li>
+          <li><strong>Managed Fin optimization and QA:</strong> — 250–2100 دولار/شهر.</li>
+          <li><strong>Macro and playbook packs (e-commerce، banking):</strong> — 50–240 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic CX AI with Intercom Fin»:</strong> — 42–205 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Intercom</span>
+        <span class="tag">Fin</span>
+        <span class="tag">Support</span>
+        <span class="tag">CX</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Clay AI Enrichment 3 Arabic: sales intelligence — enrich، personalize، وsequences ذكية!</h2>
+      <p class="article-lead">«قائمة 5000 lead — ولا email واحد personalized». في 3 أكتوبر 2026، أطلقت <strong>Clay</strong> <strong>AI Enrichment 3 Arabic</strong>: platform GTM يُ enrich contacts من 75+ sources، يُ write outreach بالعربية (MSA أو dialect hint)، يُ research companies وnews local، يُ sync إلى HubSpot وSalesforce، يُ waterfall credits ذكي — لل B2B agencies وstartups وrecruiters في MENA.</p>
+      <p>المشكلة التي حلّتها: Enrichment 2 كان يُ generic Arabic في cold emails؛ الإصدار 3 يُ brand voice templates وhumanization score، يُ benchmark +26% reply rate في outbound agency لبناني، يُ GDPR-style consent flags، يُ Claygent agents لل multi-step research.</p>
+      <p>القدرات الأساسية: Tables collaborative; AI formulas; LinkedIn and web scrape guards; integration مع Apollo وInstantly; export to CSV and webhooks.</p>
+      <p>للمبدعين العرب: growth agencies — «Clay 3 Arabic outbound engine in 5 days» لل teams 2–40 SDRs. من يُ run 15 engines/ربع بـ 1200–32000 دولار + ops 180–1600 دولار/شهر يركب «Arabic AI outbound lab».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Clay AI Enrichment 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Outbound engine setup (tables، enrich، sequences):</strong> 3–8 أيام — 1200–32000 دولار/عميل.</li>
+          <li><strong>Monthly Clay ops and list hygiene:</strong> — 180–1600 دولار/شهر.</li>
+          <li><strong>Niche list packs (GCC SaaS، proptech، HR):</strong> — 40–190 دولار/حزمة.</li>
+          <li><strong>دورات «Arabic Outbound with Clay AI»:</strong> — 35–168 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Clay</span>
+        <span class="tag">Sales</span>
+        <span class="tag">Enrichment</span>
+        <span class="tag">GTM</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 03-10-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="03-10-2026 -- 12-AM.html">
+          📰 3 أكتوبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Google Gemini Live 2 Arabic · Anthropic Claude Artifacts 3 Arabic · Intercom Fin 3 Arabic · Clay AI Enrichment 3 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/03-10-2026 -- 12-AM.html`](news/03-10-2026%20--%2012-AM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "03-10-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "03-10-2026 -- 12-AM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "أktobar",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " yُ ",
+        "yü ",
+        "yü",
+        "تü",
+        "أktober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
