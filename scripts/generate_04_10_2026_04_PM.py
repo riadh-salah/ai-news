@@ -1,0 +1,268 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 04-10-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "04-10-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Zendesk AI Agent 4 Arabic، Webflow AI CMS 3 Arabic، Typeform AI Insights 2 Arabic، Jasper Campaigns 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 4 أكتوبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من Zendesk AI Agent 4 Arabic الذي يُغلق تذكرة الدعم ويُ draft ردًا RTL قبل أن يُنهي العميل جملته، إلى Webflow AI CMS 3 Arabic الذي يُبني صفحات marketing وblog من brief عربي، ومن Typeform AI Insights 2 Arabic الذي يُحوّل استبيانات آلاف المشاركين إلى قرارات product بلغة بسيطة، إلى Jasper Campaigns 3 Arabic الذي يُ launch حملات multichannel بصوت علامتك للخليج ومصر — أربع قصص مسائية في 4 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء نهاية يوم الأحد!</h1>
+      <p class="hero-sub">مساءٌ للمُشغّلين والمُبدعين: فرق CX في telco تغرق في WhatsApp، وكالات web تُسلّم landing pages بمواعيد ضيقة، product managers يبحثون عن «لماذا churn؟» في بيانات الاستبيان، وmarketers يريدون campaigns متسقة RTL دون copywriter لكل قناة. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 4 أكتوبر 2026</span>
+        <span>🌇 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Zendesk AI Agent 4 Arabic: دعم ذكي — WhatsApp، voice، وhandoff بلا فقدان سياق!</h2>
+      <p class="article-lead">«التذكرة #8842 — والعميل ينتظر منذ ساعتين». في 4 أكتوبر 2026، أطلقت <strong>Zendesk</strong> <strong>AI Agent 4 Arabic</strong>: وكيل يُفهم dialects MENA، يُ resolve FAQs من knowledge base RTL، يُ process refunds وorder status من Shopify وSalla، يُ escalate للبشر مع ملخص عربي، يُ operate عبر email وchat وWhatsApp Business وvoice IVR — لل e-commerce وfintech وBPO في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Agent 3 كان جيدًا في English؛ الإصدار 4 يُ detect sentiment عربي، يُ benchmark −38% first-response time في marketplace إماراتي، يُ auto-translate internal notes للفرق الم distributed، يُ compliance PDPL وconsent logging، ويُ coach agents live أثناء المكالمة.</p>
+      <p>القدرات الأساسية: Copilot لل agents؛ macros ذكية؛ QA scoring على محادثات عربية؛ integration Salesforce وHubSpot؛ analytics CSAT cohorts.</p>
+      <p>للمبدعين العرب: CX consultancies — «Zendesk AI 4 Arabic rollout in 10 days» لل orgs 20–800 agents. من يُ deliver 8 implementations/ربع بـ 2200–38000 دولار + tuning 180–1450 دولار/شهر يبني «مركز دعم AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Zendesk AI Agent 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة دعم (KB audit، flows، Arabic tone، channel wiring):</strong> 5–14 يومًا — 2200–38000 دولار/عميل.</li>
+          <li><strong>رعاية شهرية لل QA والتحسين:</strong> — 180–1450 دولار/شهر.</li>
+          <li><strong>Playbooks قطاعية (travel، insurance، SaaS):</strong> — 70–310 دولار/playbook.</li>
+          <li><strong>دورات «تشغيل Zendesk AI بالعربية للفرق»:</strong> — 45–215 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Zendesk</span>
+        <span class="tag">Customer Support</span>
+        <span class="tag">WhatsApp</span>
+        <span class="tag">CX</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Webflow AI CMS 3 Arabic: مواقع ذكية — صفحات، SEO RTL، وpublish بضغطة!</h2>
+      <p class="article-lead">«العميل يريد 40 landing page — وال deadline غدًا». في 4 أكتوبر 2026، أطلقت <strong>Webflow</strong> <strong>AI CMS 3 Arabic</strong>: مساعد يُ generate layouts RTL من wireframe أو prompt، يُ populate CMS collections من CSV عربي، يُ suggest meta titles وschema لل SEO المحلي، يُ localize variants (KSA vs Egypt tone)، يُ sync forms وanalytics، ويُ export clean code لل dev teams — لل agencies وstartups وenterprise marketing في MENA.</p>
+      <p>المشكلة التي حلّتها: CMS 2 كان manual components؛ الإصدار 3 يُ maintain design system tokens، يُ benchmark −55% time-to-publish في agency دبي، يُ accessibility checks WCAG على نصوص عربية، يُ A/B hero sections، ويُ guard brand colors وfonts.</p>
+      <p>القدرات الأساسية: AI copy blocks؛ image alt generation؛ membership وe-commerce hooks؛ staging workflows؛ API لل headless.</p>
+      <p>للمبدعين العرب: Webflow partners — «AI CMS 3 Arabic site sprint in 6 days» لل brands 5–200 pages. من يُ ship 11 sites/ربع بـ 1400–22000 دولار + care 130–980 دولار/شهر يبني «استوديو Webflow AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Webflow AI CMS 3 Arabic؟</h3>
+        <ul>
+          <li><strong>سباق موقع (design system، pages، CMS، launch):</strong> 4–12 يومًا — 1400–22000 دولار/عميل.</li>
+          <li><strong>رعاية شهرية لل content وSEO:</strong> — 130–980 دولار/شهر.</li>
+          <li><strong>حزم landing (product، event، recruitment):</strong> — 50–230 دولار/حزمة.</li>
+          <li><strong>دورات «Webflow AI CMS بالعربية للمصمّمين»:</strong> — 40–190 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Webflow</span>
+        <span class="tag">Web Design</span>
+        <span class="tag">CMS</span>
+        <span class="tag">SEO</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Typeform AI Insights 2 Arabic: استبيانات تُفكّر — themes، churn signals، وreports للمدير!</h2>
+      <p class="article-lead">«5000 رد — ولا وقت لقراءتها». في 4 أكتوبر 2026، أطلقت <strong>Typeform</strong> <strong>AI Insights 2 Arabic</strong>: طبقة تحليل تُ cluster open-ended answers عربية، تُ surface pain points وfeature requests، تُ correlate NPS مع cohorts، تُ generate executive summary RTL، تُ suggest follow-up questions، وتُ push highlights إلى Slack وNotion — لل product وHR وresearch teams.</p>
+      <p>المشكلة التي حلّتها: Insights 1 كان English-biased؛ الإصدار 2 يُ handle mixed Arabic-English responses، يُ benchmark +31% faster decision cycles في edtech سعودي، يُ privacy redaction PII، يُ export charts لل board decks، ويُ integrate Zapier وHubSpot.</p>
+      <p>القدرات الأساسية: Smart branching forms؛ video responses transcription عربي؛ panel recruitment helpers؛ API webhooks؛ team workspaces.</p>
+      <p>للمبدعين العرب: research freelancers وUX studios — «Typeform AI Insights 2 Arabic study setup in 5 days» لل programs 1k–50k responses. من يُ run 9 studies/ربع بـ 950–14000 دولار + analysis retainer 110–850 دولار/شهر يبني «معمل استبيانات AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Typeform AI Insights 2 Arabic؟</h3>
+        <ul>
+          <li><strong>دراسة كاملة (survey design، Arabic QA، insights deck):</strong> 3–9 أيام — 950–14000 دولار/عميل.</li>
+          <li><strong>تحليل شهري لل panels المتكررة:</strong> — 110–850 دولار/شهر.</li>
+          <li><strong>قوالب قطاعية (employee pulse، post-purchase، concept test):</strong> — 38–175 دولار/قالب.</li>
+          <li><strong>دورات «research سريع بـ Typeform AI بالعربية»:</strong> — 35–168 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Typeform</span>
+        <span class="tag">Surveys</span>
+        <span class="tag">Product Research</span>
+        <span class="tag">Analytics</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Jasper Campaigns 3 Arabic: حملات متكاملة — social، ads، email، وbrand voice MENA!</h2>
+      <p class="article-lead">«حملة Ramadan — و20 asset لكل قناة». في 4 أكتوبر 2026، أطلقت <strong>Jasper</strong> <strong>Campaigns 3 Arabic</strong>: suite تُ plan calendar من objective واحد، تُ generate copy وvisual briefs RTL، تُ adapt لل LinkedIn وMeta وGoogle وTikTok وemail، تُ enforce brand voice (خليجي، مصري، فصحى)، تُ compliance checks لل claims، وتُ handoff إلى Canva وHubSpot — لل brands وagencies في MENA.</p>
+      <p>المشكلة التي حلّتها: Campaigns 2 كان channel-siloed؛ الإصدار 3 يُ orchestrate multichannel kits، يُ benchmark +36% faster campaign launch في FMCG خليجي، يُ localize idioms دون faux pas، يُ performance learnings loop، ويُ team approvals workflow.</p>
+      <p>القدرات الأساسية: Jasper Grid collaboration؛ image prompts؛ SEO blog bundles؛ API لل custom apps؛ analytics على variant performance.</p>
+      <p>للمبدعين العرب: content agencies — «Jasper Campaigns 3 Arabic seasonal launch in 7 days» لل clients 4–30 SKUs/season. من يُ retain 13 brands/ربع بـ 1600–24000 دولار + ops 150–1150 دولار/شهر يبني «مكتب حملات AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Jasper Campaigns 3 Arabic؟</h3>
+        <ul>
+          <li><strong>حزمة حملة (strategy، assets RTL، channel kits، QA):</strong> 4–11 يومًا — 1600–24000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل calendars والاختبارات:</strong> — 150–1150 دولار/شهر.</li>
+          <li><strong>Playbooks موسمية (White Friday، back-to-school، National Day):</strong> — 58–265 دولار/playbook.</li>
+          <li><strong>دورات «marketing multichannel بـ Jasper بالعربية»:</strong> — 43–205 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Jasper</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Content</span>
+        <span class="tag">Campaigns</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 04-10-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="04-10-2026 -- 04-PM.html">
+          📰 4 أكتوبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Zendesk AI Agent 4 Arabic · Webflow AI CMS 3 Arabic · Typeform AI Insights 2 Arabic · Jasper Campaigns 3 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/04-10-2026 -- 04-PM.html`](news/04-10-2026%20--%2004-PM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "04-10-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "04-10-2026 -- 04-PM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "أktobar",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " yُ ",
+        "yü ",
+        "yü",
+        "تü",
+        "فيdeo",
+        "montaje",
+        "أktober",
+        "أktobar",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
