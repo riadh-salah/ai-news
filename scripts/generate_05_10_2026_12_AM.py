@@ -1,0 +1,268 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 05-10-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "05-10-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Coda AI Brain 3 Arabic، Sprout Social AI Assist 3 Arabic، Ahrefs AI Content Helper 2 Arabic، Hootsuite OwlyGPT 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 5 أكتوبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌙 نشرة AI العالمية</span>
+      <h1>من Coda AI Brain 3 Arabic الذي يُحوّل docs وtables إلى نظام تشغيل لفريقك بأمر عربي واحد، إلى Sprout Social AI Assist 3 Arabic الذي يُ draft منشورات ويُ reply على التعليقات بصوت علامتك، ومن Ahrefs AI Content Helper 2 Arabic الذي يُ bridge بين keyword research ومحتوى RTL يُ rank، إلى Hootsuite OwlyGPT 3 Arabic الذي يُ orchestrate social calendar وcrisis replies عبر كل قناة — أربع قصص ليلية في 5 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء بداية الأسبوع!</h1>
+      <p class="hero-sub">ليلٌ للمُشغّلين والمُبدعين: ops teams تغرق في Notion وSheets منفصلة، social managers يُطفئون حرائق comments بعد منتصف الليل، SEO writers يبحثون عن intent عربي حقيقي لا ترجمة حرفية، وagencies تُ manage عشرات حسابات brand دون copywriter لكل client. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 5 أكتوبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Coda AI Brain 3 Arabic: عقل المستند — automations، dashboards، وQ&amp;A فوق بياناتك!</h2>
+      <p class="article-lead">«الـ wiki في مكان، والـ OKRs في آخر، والـ sprint board في ثالث — والاجتماع غدًا». في 5 أكتوبر 2026، أطلقت <strong>Coda</strong> <strong>AI Brain 3 Arabic</strong>: طبقة ذكاء تُفهم docs وtables وpacks معًا، تُ answer أسئلة «من يملك milestone X؟» مع citations، تُ generate automations من جملة عربية، تُ build dashboards RTL من dataset، تُ draft specs وmeeting notes، وتُ sync Slack وJira وGoogle Calendar — لل product وops وconsulting teams في MENA.</p>
+      <p>المشكلة التي حلّتها: Brain 2 كان English-first؛ الإصدار 3 يُ parse mixed Arabic-English cells، يُ benchmark −42% time-to-decision في fintech startup قطرية، يُ role-based permissions على AI actions، يُ audit trail لكل suggestion، ويُ template gallery لـ HR وsales وfundraising.</p>
+      <p>القدرات الأساسية: Pack AI connectors؛ formula copilot؛ bulk row enrichment؛ mobile Q&amp;A؛ export to PDF executive briefs.</p>
+      <p>للمبدعين العرب: ops freelancers وNo-code studios — «Coda Brain 3 Arabic workspace in 8 days» لل teams 15–400 seats. من يُ ship 9 hubs/ربع بـ 1800–32000 دولار + care 140–1100 دولار/شهر يبني «استوديو Coda AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Coda AI Brain 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة workspace (audit، tables، automations، Arabic tone):</strong> 5–13 يومًا — 1800–32000 دولار/عميل.</li>
+          <li><strong>رعاية شهرية لل packs والتحسين:</strong> — 140–1100 دولار/شهر.</li>
+          <li><strong>قوالب قطاعية (OKR، CRM lite، agency client portal):</strong> — 55–240 دولار/قالب.</li>
+          <li><strong>دورات «تشغيل Coda Brain بالعربية للفرق»:</strong> — 44–210 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Coda</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Automation</span>
+        <span class="tag">No-Code</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Sprout Social AI Assist 3 Arabic: social ذكي — compose، inbox، وlistening بلهجة MENA!</h2>
+      <p class="article-lead">«127 mention — ولا أحد يرد قبل أن تتحول إلى أزمة». في 5 أكتوبر 2026، أطلقت <strong>Sprout Social</strong> <strong>AI Assist 3 Arabic</strong>: مساعد يُ suggest replies RTL على X وInstagram وFacebook وLinkedIn وTikTok، يُ draft posts من brief عربي، يُ summarize sentiment spikes، يُ recommend best time per market (KSA، Egypt، Levant)، يُ compliance tone لل regulated industries، ويُ handoff threads لل humans مع context — لل brands وagencies وgovernment comms.</p>
+      <p>المشكلة التي حلّتها: Assist 2 كان generic translation؛ الإصدار 3 يُ dialect-aware، يُ benchmark +29% faster inbox clearance في telco خليجي، يُ crisis playbooks auto-suggest، يُ competitor listening Arabic keywords، ويُ report ROI على campaigns multichannel.</p>
+      <p>القدرات الأساسية: Smart Inbox prioritization؛ influencer discovery MENA؛ approval workflows؛ API لل custom dashboards؛ integration Salesforce وZendesk.</p>
+      <p>للمبدعين العرب: social agencies — «Sprout AI Assist 3 Arabic command center in 6 days» لل accounts 5–80 brands. من يُ retain 12 clients/ربع بـ 1500–26000 دولار + ops 125–980 دولار/شهر يبني «غرفة social AI عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Sprout Social AI Assist 3 Arabic؟</h3>
+        <ul>
+          <li><strong>إعداد command center (listening، inbox rules، Arabic voice):</strong> 4–11 يومًا — 1500–26000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل content والcrisis drills:</strong> — 125–980 دولار/شهر.</li>
+          <li><strong>Playbooks قطاعية (F&amp;B، banking، entertainment):</strong> — 48–220 دولار/playbook.</li>
+          <li><strong>دورات «social ops بـ Sprout AI بالعربية»:</strong> — 39–188 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Sprout Social</span>
+        <span class="tag">Social Media</span>
+        <span class="tag">Community</span>
+        <span class="tag">Listening</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Ahrefs AI Content Helper 2 Arabic: SEO يُفهم العربية — outlines، clusters، وinternal links!</h2>
+      <p class="article-lead">«Volume 40k — لكن المحتوى لا يُ rank في Google.sa». في 5 أكتوبر 2026، أطلقت <strong>Ahrefs</strong> <strong>AI Content Helper 2 Arabic</strong>: copilot يُ analyze SERP عربي، يُ suggest topic clusters وpillar pages RTL، يُ draft outlines مع H2/H3 وFAQ schema، يُ recommend internal links من site audit، يُ flag cannibalization بين صفحات عربية، ويُ export briefs لـ writers وagencies — لل publishers وe-commerce وSaaS في MENA.</p>
+      <p>المشكلة التي حلّتها: Helper 1 كان English SERP biased؛ الإصدار 2 يُ Google.ae و.sa و.eg intent، يُ benchmark +34% organic clicks في marketplace مصري، يُ Arabic keyword difficulty model، يُ competitor gap reports، ويُ integrate Content Explorer Arabic filters.</p>
+      <p>القدرات الأساسية: AI rewrite for readability؛ meta description generator؛ rank tracking alerts؛ batch brief export؛ team comments على outlines.</p>
+      <p>للمبدعين العرب: SEO freelancers وcontent studios — «Ahrefs AI Helper 2 Arabic content sprint in 5 days» لل sites 200–50k pages. من يُ run 10 sprints/ربع بـ 1100–18500 دولار + retainer 95–780 دولار/شهر يبني «مكتب SEO AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Ahrefs AI Content Helper 2 Arabic؟</h3>
+        <ul>
+          <li><strong>سباق محتوى (audit، clusters، briefs، QA):</strong> 3–10 أيام — 1100–18500 دولار/عميل.</li>
+          <li><strong>رعاية شهرية لل monitoring والتحديث:</strong> — 95–780 دولار/شهر.</li>
+          <li><strong>حزم niche (travel، real estate، fintech):</strong> — 42–195 دولار/حزمة.</li>
+          <li><strong>دورات «SEO content بـ Ahrefs AI بالعربية»:</strong> — 36–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Ahrefs</span>
+        <span class="tag">SEO</span>
+        <span class="tag">Content</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Hootsuite OwlyGPT 3 Arabic: تقويم social وcrisis — Owly يُفكر، يُ schedule، ويُ report!</h2>
+      <p class="article-lead">«حملة White Friday — و15 timezone و8 brands». في 5 أكتوبر 2026، أطلقت <strong>Hootsuite</strong> <strong>OwlyGPT 3 Arabic</strong>: agent يُ plan content calendar من objective واحد، يُ generate captions RTL وhashtag sets MENA، يُ resize assets suggestions، يُ monitor mentions ويُ draft crisis statements، يُ A/B post variants، يُ compile weekly reports لل CMO بالعربية — لل enterprises وSMBs وNGOs في المنطقة.</p>
+      <p>المشكلة التي حلّتها: OwlyGPT 2 كان English captions؛ الإصدار 3 يُ brand voice profiles (خليجي، مصري، فصحى)، يُ benchmark −48% planning time في retail chain سعودي، يُ approval chains multi-brand، يُ compliance archive، ويُ integrate Talkwalker listening Arabic.</p>
+      <p>القدرات الأساسية: Bulk schedule؛ employee advocacy packs؛ ad comment moderation؛ analytics benchmarks؛ mobile approve-on-the-go.</p>
+      <p>للمبدعين العرب: boutique agencies — «OwlyGPT 3 Arabic seasonal calendar in 7 days» لل clients 3–25 channels. من يُ deliver 11 calendars/ربع بـ 1300–21000 دولار + care 115–920 دولار/شهر يبني «مكتب Hootsuite AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Hootsuite OwlyGPT 3 Arabic؟</h3>
+        <ul>
+          <li><strong>حزمة تقويم (strategy، posts RTL، approvals، launch):</strong> 4–12 يومًا — 1300–21000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل calendars والتقارير:</strong> — 115–920 دولار/شهر.</li>
+          <li><strong>Playbooks موسمية (Ramadan، National Day، summer):</strong> — 52–245 دولار/playbook.</li>
+          <li><strong>دورات «social planning بـ OwlyGPT بالعربية»:</strong> — 41–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Hootsuite</span>
+        <span class="tag">Social Media</span>
+        <span class="tag">Scheduling</span>
+        <span class="tag">OwlyGPT</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 05-10-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="05-10-2026 -- 12-AM.html">
+          📰 5 أكتوبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Coda AI Brain 3 Arabic · Sprout Social AI Assist 3 Arabic · Ahrefs AI Content Helper 2 Arabic · Hootsuite OwlyGPT 3 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/05-10-2026 -- 12-AM.html`](news/05-10-2026%20--%2012-AM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "05-10-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "05-10-2026 -- 12-AM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "أktobar",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " yُ ",
+        "yü ",
+        "yü",
+        "تü",
+        "فيdeo",
+        "montaje",
+        "المشك problem",
+        " yُ ",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
