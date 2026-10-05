@@ -1,0 +1,268 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 05-10-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "05-10-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Notion AI Q&amp;A 3 Arabic، Figma AI Design 4 Arabic، ClickUp Brain 3 Arabic، Shopify Sidekick 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 5 أكتوبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">☀️ نشرة AI العالمية</span>
+      <h1>من Notion AI Q&amp;A 3 Arabic الذي يُجيب عن كل wiki شركتك بجملة عربية واحدة، إلى Figma AI Design 4 Arabic الذي يُحوّل brief إلى واجهات RTL جاهزة للتسليم، ومن ClickUp Brain 3 Arabic الذي يُ orchestrate مهامك وmeetings وdocs في workspace واحد، إلى Shopify Sidekick 3 Arabic الذي يُ draft متجرك وcampaigns وsupport replies قبل أن تُنهي فنجان القهوة — أربع قصص صباحية في 5 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يبدأ مع أول ضوء!</h1>
+      <p class="hero-sub">صباحٌ للمُبادرين: product teams تغرق في pages متفرقة، designers يُعيدون نفس الشاشات لكل client، ops managers يُ chase status updates يدويًا، وmerchants في MENA يحلمون بمتجر يُ sell ويُ support بالعربية دون فريق 20 شخصًا. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 5 أكتوبر 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Notion AI Q&amp;A 3 Arabic: wiki حيّ — أسئلة، summaries، وautomations فوق knowledge base!</h2>
+      <p class="article-lead">«أين policy الإجازات؟ — و15 page مختلفة». في 5 أكتوبر 2026، أطلقت <strong>Notion</strong> <strong>AI Q&amp;A 3 Arabic</strong>: طبقة ذكاء تُ index databases وdocs وmeeting notes، تُ answer أسئلة الفريق بالعربية مع روابط للمصدر، تُ summarize طويل pages إلى executive briefs RTL، تُ suggest templates من جملة واحدة، تُ auto-fill properties في CRM-lite databases، وتُ sync Slack وGoogle Drive — لل startups وenterprises وconsulting في MENA.</p>
+      <p>المشكلة التي حلّتها: Q&amp;A 2 كان English-centric؛ الإصدار 3 يُ parse mixed Arabic-English blocks، يُ benchmark −38% time-to-find-info في scale-up سعودي، يُ permission-aware answers (HR vs sales)، يُ audit log لكل query، ويُ connector pack لـ Jira وGitHub وFigma.</p>
+      <p>القدرات الأساسية: Bulk page generation؛ translation assist EN↔AR؛ task extraction من notes؛ mobile voice Q&amp;A؛ export PDF handbooks.</p>
+      <p>للمبدعين العرب: Notion consultants وops freelancers — «Notion Q&amp;A 3 Arabic knowledge hub in 6 days» لل teams 10–500 seats. من يُ ship 10 hubs/ربع بـ 1400–24000 دولار + care 120–950 دولار/شهر يبني «استوديو Notion AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Notion AI Q&amp;A 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة knowledge hub (audit، databases، Q&amp;A tuning، Arabic tone):</strong> 4–10 أيام — 1400–24000 دولار/عميل.</li>
+          <li><strong>رعاية شهرية لل content hygiene والautomations:</strong> — 120–950 دولار/شهر.</li>
+          <li><strong>قوالب قطاعية (onboarding، SOP، investor data room):</strong> — 50–225 دولار/قالب.</li>
+          <li><strong>دورات «تشغيل Notion Q&amp;A بالعربية للفرق»:</strong> — 42–205 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Notion</span>
+        <span class="tag">Knowledge</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Wiki</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Figma AI Design 4 Arabic: تصميم يُفهم RTL — wireframes، variants، وhandoff للمطور!</h2>
+      <p class="article-lead">«العميل يريد dashboard عربي — والـ deadline غدًا». في 5 أكتوبر 2026، أطلقت <strong>Figma</strong> <strong>AI Design 4 Arabic</strong>: copilot يُ generate wireframes من brief عربي، يُ suggest component variants RTL، يُ auto-layout للـ Arabic typography، يُ rename layers وorganize files، يُ draft microcopy MENA، يُ export specs وDev Mode notes بالعربية — لل agencies وproduct teams وfreelancers في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Design 3 كان LTR-first؛ الإصدار 4 يُ mirror layouts ذكيًا، يُ benchmark −45% first-draft time في fintech UI مصري، يُ design system aware (tokens، colors)، يُ accessibility contrast checks، ويُ integrate FigJam brainstorming Arabic.</p>
+      <p>القدرات الأساسية: Image-to-layout؛ batch reskin؛ plugin suggestions؛ comment summaries؛ prototype flow من user story.</p>
+      <p>للمبدعين العرب: UI/UX studios — «Figma AI Design 4 Arabic sprint in 5 days» لل products 3–40 screens. من يُ deliver 12 sprints/ربع بـ 1600–28000 دولار + retainer 110–880 دولار/شهر يبني «مكتب تصميم AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Figma AI Design 4 Arabic؟</h3>
+        <ul>
+          <li><strong>سباق تصميم (brief، wireframes RTL، system، handoff):</strong> 3–9 أيام — 1600–28000 دولار/عميل.</li>
+          <li><strong>رعاية شهرية لل design system والتحديث:</strong> — 110–880 دولار/شهر.</li>
+          <li><strong>حزم UI niche (banking، edtech، marketplace):</strong> — 45–210 دولار/حزمة.</li>
+          <li><strong>دورات «Figma AI للمصممين العرب»:</strong> — 38–185 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Figma</span>
+        <span class="tag">Design</span>
+        <span class="tag">UI/UX</span>
+        <span class="tag">RTL</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>ClickUp Brain 3 Arabic: عقل المشروع — tasks، docs، goals، وstandups بلهجة الفريق!</h2>
+      <p class="article-lead">«47 task متأخرة — ولا أحد يعرف السبب». في 5 أكتوبر 2026، أطلقت <strong>ClickUp</strong> <strong>Brain 3 Arabic</strong>: agent يُ summarize project health، يُ draft standup reports RTL، يُ assign tasks من chat عربي، يُ write SOPs وmeeting agendas، يُ predict bottlenecks، يُ connect goals إلى KPIs dashboards — لل PMO وagencies وremote teams في MENA.</p>
+      <p>المشكلة التي حلّتها: Brain 2 كان generic English summaries؛ الإصدار 3 يُ dialect-friendly updates، يُ benchmark +31% on-time delivery في construction PMO إماراتي، يُ cross-space search Arabic، يُ time tracking insights، ويُ integration Slack وGitHub وHubSpot.</p>
+      <p>القدرات الأساسية: Autopilot recurring tasks؛ doc Q&amp;A؛ workload balancing؛ client portal summaries؛ mobile voice commands.</p>
+      <p>للمبدعين العرب: PM consultants — «ClickUp Brain 3 Arabic ops stack in 7 days» لل teams 8–300 users. من يُ onboard 11 workspaces/ربع بـ 1200–22000 دولار + ops 100–820 دولار/شهر يبني «غرفة ClickUp AI عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من ClickUp Brain 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة ops stack (spaces، automations، Brain tuning، Arabic reports):</strong> 5–12 يومًا — 1200–22000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل standups والتقارير:</strong> — 100–820 دولار/شهر.</li>
+          <li><strong>Playbooks (agency delivery، software sprint، events):</strong> — 44–205 دولار/playbook.</li>
+          <li><strong>دورات «PM بـ ClickUp Brain بالعربية»:</strong> — 35–172 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">ClickUp</span>
+        <span class="tag">Project Management</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Teams</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Shopify Sidekick 3 Arabic: متجر ذكي — products، campaigns، وsupport بلهجة MENA!</h2>
+      <p class="article-lead">«200 SKU — ولا description عربي واحد جاهز للبيع». في 5 أكتوبر 2026، أطلقت <strong>Shopify</strong> <strong>Sidekick 3 Arabic</strong>: مساعد يُ write product descriptions RTL وSEO، يُ suggest collections وpricing، يُ draft email وSMS campaigns، يُ reply customer tickets بالعربية، يُ analyze sales trends وinventory alerts، يُ build landing pages من prompt — لل merchants وagencies وD2C brands في الخليج ومصر والمغرب.</p>
+      <p>المشكلة التي حلّتها: Sidekick 2 كان English storefront biased؛ الإصدار 3 يُ ZATCA وVAT hints، يُ benchmark +27% conversion في fashion store كويتي، يُ multi-store Arabic voice profiles، يُ integration Meta ads copy، ويُ theme customization suggestions RTL.</p>
+      <p>القدرات الأساسية: Bulk catalog enrichment؛ abandoned cart Arabic sequences؛ influencer outreach drafts؛ fraud alert summaries؛ POS Arabic receipts.</p>
+      <p>للمبدعين العرب: Shopify partners — «Sidekick 3 Arabic store launch in 8 days» لل merchants 50–5000 SKUs. من يُ launch 9 stores/ربع بـ 1500–26000 دولار + care 130–1050 دولار/شهر يبني «وكالة Shopify AI عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Shopify Sidekick 3 Arabic؟</h3>
+        <ul>
+          <li><strong>حزمة إطلاق (catalog RTL، Sidekick tuning، campaigns، training):</strong> 5–14 يومًا — 1500–26000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل content والsupport AI:</strong> — 130–1050 دولار/شهر.</li>
+          <li><strong>حزم موسمية (White Friday، Ramadan، back-to-school):</strong> — 55–260 دولار/حزمة.</li>
+          <li><strong>دورات «تجارة Sidekick بالعربية للتجار»:</strong> — 40–195 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Shopify</span>
+        <span class="tag">E-commerce</span>
+        <span class="tag">Sidekick</span>
+        <span class="tag">Retail</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 05-10-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="05-10-2026 -- 08-AM.html">
+          📰 5 أكتوبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Notion AI Q&amp;A 3 Arabic · Figma AI Design 4 Arabic · ClickUp Brain 3 Arabic · Shopify Sidekick 3 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/05-10-2026 -- 08-AM.html`](news/05-10-2026%20--%2008-AM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "05-10-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "05-10-2026 -- 08-AM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "أktobar",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " yُ ",
+        "yü ",
+        "yü",
+        "تü",
+        "فيdeo",
+        "montaje",
+        "المشك problem",
+        " yُ ",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
