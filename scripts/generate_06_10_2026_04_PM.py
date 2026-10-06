@@ -1,0 +1,267 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 06-10-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "06-10-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Vercel v0 4 Arabic، Replit Agent 4 Arabic، Linear AI Projects 3 Arabic، Help Scout AI Answers 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 6 أكتوبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من Vercel v0 4 Arabic الذي يُحوّل وصفًا عربيًا إلى واجهة React جاهزة للنشر على edge في دقائق، إلى Replit Agent 4 Arabic الذي يُبني تطبيقًا كاملًا من فكرة Slack ويُ deploy تلقائيًا، ومن Linear AI Projects 3 Arabic الذي يُ priority المهندسين ويُلخص sprint بلسان product عربي، إلى Help Scout AI Answers 3 Arabic الذي يُغلق inbox الدعم بلهجة ودّية قبل أن يصل العميل للغضب — أربع قصص مسائية في 6 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء نهاية يوم الثلاثاء!</h1>
+      <p class="hero-sub">مساءٌ للمطوّرين والمُشغّلين: founders يُنتظرون MVP أسابيع لمجرد landing page، فرق product تغرق في tickets بلا ترتيب أولويات، وsupport teams في MENA تُجيب نفس الأسئلة بالإنجليزية بينما العميل يكتب بالعربية. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 6 أكتوبر 2026</span>
+        <span>🌇 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Vercel v0 4 Arabic: من فكرة نصية إلى UI منشور — components، themes، وRTL جاهزة!</h2>
+      <p class="article-lead">«نريد landing page غدًا — والمصمم مشغول». في 6 أكتوبر 2026، أطلقت <strong>Vercel</strong> <strong>v0 4 Arabic</strong>: مولّد واجهات يُفهم prompts عربية ولهجات MENA، يُ produce React وNext.js components مع Tailwind، يُ enforce RTL typography وspacing، يُ sync مع Vercel deploy وpreview links، يُ iterate بالمحادثة («اجعل الـ CTA أخضر وضَع شهادة عميل سعودي»)، ويُ export إلى GitHub — لل startups وagencies وproduct teams في الخليج ومصر وشمال أفريقيا.</p>
+      <p>المشكلة التي حلّتها: v0 3 كان RTL decorative؛ الإصدار 4 يُ Arabic numerals وdate formats، يُ benchmark −58% time-to-first-deploy في cohort fintech الرياض، يُ design tokens من brand PDF، يُ accessibility checks WCAG، ويُ team libraries مشتركة.</p>
+      <p>القدرات الأساسية: Multi-page flows من sitemap نصي؛ shadcn/ui blocks عربية؛ image placeholders brand-safe؛ env vars وAPI route stubs؛ analytics snippet جاهز؛ collaboration comments على preview.</p>
+      <p>للمبدعين العرب: no-code/low-code builders — «v0 4 Arabic launch sprint in 4 days» لل brands وSaaS early-stage. من يُ ship 10 sprints/ربع بـ 950–16500 دولار + care plan 85–640 دولار/شهر يبني «استوديو v0 عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Vercel v0 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة launch sprint (UI، deploy، brand tokens، handoff):</strong> 3–8 أيام — 950–16500 دولار/عميل.</li>
+          <li><strong>رعاية شهرية لل iterations وA/B layouts:</strong> — 85–640 دولار/شهر.</li>
+          <li><strong>مكتبة blocks قطاعية (fintech، edtech، clinics):</strong> — 52–225 دولار/قطاع.</li>
+          <li><strong>دورات «بناء واجهات عربية مع v0»:</strong> — 40–188 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Vercel</span>
+        <span class="tag">Frontend</span>
+        <span class="tag">No-code</span>
+        <span class="tag">RTL</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Replit Agent 4 Arabic: مهندس AI كامل — من prompt إلى production بلا IDE معقد!</h2>
+      <p class="article-lead">«لدينا فكرة تطبيق — ولا وقت لتوظيف فريق». في 6 أكتوبر 2026، أطلقت <strong>Replit</strong> <strong>Agent 4 Arabic</strong>: وكيل برمجة يُفهم مواصفات عربية، يُ scaffold backend وfrontend وDB، يُ write tests، يُ fix bugs من logs، يُ deploy على Replit Cloud أو export Docker، يُ integrate Stripe وAuth وWhatsApp webhooks، ويُ document بالعربية للفريق — لل hackathons وSMBs وconsultancies في MENA.</p>
+      <p>المشكلة التي حلّتها: Agent 3 كان يتعثر في Arabic comments وRTL CSS؛ الإصدار 4 يُ bilingual codebase standards، يُ benchmark 72% first-run success في marketplace pilot أبوظبي، يُ security scan dependencies، يُ human review gates، ويُ usage caps لل teams.</p>
+      <p>القدرات الأساسية: Natural language refactor؛ API from OpenAPI spec؛ cron jobs وbackground workers؛ mobile PWA wrapper؛ secrets management؛ pair mode مع مطوّر بشري.</p>
+      <p>للمبدعين العرب: indie hackers وdev shops — «Agent 4 Arabic MVP factory in 7 days» لل ideas B2B وconsumer. من يُ deliver 7 MVPs/ربع بـ 1200–22000 دولار + maintenance 90–780 دولار/شهر يبني «مصنع Replit عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Replit Agent 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة MVP factory (spec، build، deploy، docs):</strong> 5–12 يومًا — 1200–22000 دولار/عميل.</li>
+          <li><strong>رعاية شهرية لل fixes وال features:</strong> — 90–780 دولار/شهر.</li>
+          <li><strong>قوالب vertical (booking، inventory، loyalty):</strong> — 68–290 دولار/قالب.</li>
+          <li><strong>دورات «MVP سريع بالعربية مع Replit Agent»:</strong> — 45–210 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Replit</span>
+        <span class="tag">Coding</span>
+        <span class="tag">MVP</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Linear AI Projects 3 Arabic: product ops ذكي — triage، roadmaps، وstatus للمدير بجملة!</h2>
+      <p class="article-lead">«200 issue — وأيها يُ ship أولًا؟». في 6 أكتوبر 2026، أطلقت <strong>Linear</strong> <strong>AI Projects 3 Arabic</strong>: طبقة AI فوق Linear تُ ingest issues وcycles وOKRs، تُ suggest prioritization، تُ draft release notes RTL، تُ summarize standups من Slack threads، تُ detect blockers، تُ create subtasks من spec عربي، وتُ sync GitHub وFigma — لل product-led startups وengineering orgs في MENA.</p>
+      <p>المشكلة التي حلّتها: AI Projects 2 كان English summaries؛ الإصدار 3 يُ Gulf/Egypt product vocabulary، يُ benchmark −37% cycle time في neobank قطر، يُ customer impact scoring، يُ stakeholder digest أسبوعي، ويُ SOC2-friendly audit.</p>
+      <p>القدرات الأساسية: Voice-to-issue من Telegram؛ duplicate detection؛ estimate suggestions؛ incident postmortem drafts؛ API لل BI؛ mobile push لل hot items.</p>
+      <p>للمبدعين العرب: product ops freelancers — «AI Projects 3 Arabic rhythm in 6 days» لل teams 5–80 engineers. من يُ onboard 8 orgs/ربع بـ 1100–19500 دولار + tuning 95–720 دولار/شهر يبني «مكتب Linear AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Linear AI Projects 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة rhythm (taxonomy، automations، training):</strong> 4–11 يومًا — 1100–19500 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل prioritization وrelease notes:</strong> — 95–720 دولار/شهر.</li>
+          <li><strong>Playbooks (mobile app، platform، agency):</strong> — 55–235 دولار/playbook.</li>
+          <li><strong>دورات «Product ops بالعربية مع Linear AI»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Linear</span>
+        <span class="tag">Product</span>
+        <span class="tag">Engineering</span>
+        <span class="tag">Agile</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Help Scout AI Answers 3 Arabic: inbox دعم — يُ resolve، يُ empathize، ويُ escalate بذكاء!</h2>
+      <p class="article-lead">«300 email — والعميل ينتظر ردًا بالعربية». في 6 أكتوبر 2026، أطلقت <strong>Help Scout</strong> <strong>AI Answers 3 Arabic</strong>: وكيل دعم يُ ingest knowledge base وmacros وpast tickets، يُ draft replies بالخليجي والمصري والفصحى المهنية، يُ detect sentiment وurgency، يُ suggest refunds أو upsell بpolicy guardrails، يُ handoff إلى human مع ملخص RTL، ويُ integrate Shopify وStripe وWhatsApp — لل e-commerce وSaaS SMBs في MENA.</p>
+      <p>المشكلة التي حلّتها: AI Answers 2 كان tone robotic؛ الإصدار 3 يُ empathy templates MENA، يُ benchmark 78% auto-resolve في fashion retailer دبي، يُ multilingual thread continuity، يُ QA sampling لل managers، ويُ GDPR وlocal data residency options.</p>
+      <p>القدرات الأساسية: Auto-tag وSLA alerts؛ suggested macros learning؛ CSAT follow-ups؛ collision detection؛ reporting على top issues عربية؛ webhook to Slack.</p>
+      <p>للمبدعين العرب: CX freelancers — «AI Answers 3 Arabic inbox rescue in 5 days» لل stores وapps 500–50000 customers. من يُ deploy 9 rescues/ربع بـ 900–16800 دولار + managed 80–620 دولار/شهر يبني «مكتب Help Scout AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Help Scout AI Answers 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة inbox rescue (KB، tone، automations، training):</strong> 3–9 أيام — 900–16800 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل QA وmacro updates:</strong> — 80–620 دولار/شهر.</li>
+          <li><strong>حزم قطاع (travel، SaaS، marketplace):</strong> — 48–205 دولار/حزمة.</li>
+          <li><strong>دورات «دعم عملاء AI بالعربية»:</strong> — 38–180 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Help Scout</span>
+        <span class="tag">Support</span>
+        <span class="tag">CX</span>
+        <span class="tag">E-commerce</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 06-10-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="06-10-2026 -- 04-PM.html">
+          📰 6 أكتوبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Vercel v0 4 Arabic · Replit Agent 4 Arabic · Linear AI Projects 3 Arabic · Help Scout AI Answers 3 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/06-10-2026 -- 04-PM.html`](news/06-10-2026%20--%2004-PM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "06-10-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "06-10-2026 -- 04-PM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "أktobar",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " y\u064f ",
+        "yü ",
+        "yü",
+        "تü",
+        "فيdeo",
+        "montaje",
+        "المشk problem",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
