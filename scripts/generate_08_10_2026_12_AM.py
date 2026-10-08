@@ -1,0 +1,268 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 08-10-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "08-10-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — GitHub Copilot Workspace 3 Arabic، Asana AI Teammates 3 Arabic، Typeform AI Insights 4 Arabic، Snowflake Cortex Analyst 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 8 أكتوبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌙 نشرة AI العالمية</span>
+      <h1>من GitHub Copilot Workspace 3 Arabic الذي يُحوّل issue في Jira إلى pull request جاهز للمراجعة قبل أن تُطفأ شاشة المكتب، إلى Asana AI Teammates 3 Arabic الذي يُ distribute المهام ويُلخص standups بلهجة فريقك، ومن Typeform AI Insights 4 Arabic الذي يُحوّل آلاف الردود إلى قرارات مبيعات خلال دقائق، إلى Snowflake Cortex Analyst 4 Arabic الذي يُجيب عن أسئلة CFO بالعربية مباشرة من data warehouse — أربع قصص ليلية في 8 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء منتصف الليل!</h1>
+      <p class="hero-sub">ليلٌ للمطورين ومديري المشاريع وفرق النمو: squads تغرق في meetings بلا قرار، surveys تتراكم دون insight، ومحللو البيانات يُعيدون نفس التقارير كل أسبوع. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 8 أكتوبر 2026</span>
+        <span>🌃 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>GitHub Copilot Workspace 3 Arabic: من التذكرة إلى الكود — spec، branches، وPR بلسان squad عربي!</h2>
+      <p class="article-lead">«الـ backlog مليء — والـ sprint يبدأ الاثنين». في 8 أكتوبر 2026، أطلقت <strong>GitHub</strong> <strong>Copilot Workspace 3 Arabic</strong>: بيئة تطوير وكيلية تُ ingest issues من GitHub وLinear وJira، تُ draft technical spec بالعربية أو الإنجليزية، تُ propose architecture وfile plan، تُ generate code وtests، تُ open pull request مع summary RTL للمراجعين، وتُ sync CI status — لل startups وenterprises في MENA.</p>
+      <p>المشكلة التي حلّتها: Workspace 2 كان summaries إنجليزية فقط؛ الإصدار 3 يُ Arabic code comments اختياري، يُ benchmark −44% cycle time في fintech قطرية، يُ security scan قبل merge، يُ policy gates لل secrets، ويُ human-in-the-loop checkpoints.</p>
+      <p>القدرات الأساسية: Multi-repo context؛ dependency graph؛ migration assistants؛ docs auto-update؛ integration Azure DevOps؛ audit log لل compliance.</p>
+      <p>للمبدعين العرب: dev shops وfractional CTOs — «Copilot Workspace 3 Arabic velocity pack in 5 days» لل teams 5–80 engineers. من يُ deploy 8 packs/ربع بـ 2200–38000 دولار + retainer 140–1100 دولار/شهر يبني «مكتب Copilot عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من GitHub Copilot Workspace 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة velocity pack (workflows، policies، training):</strong> 4–10 أيام — 2200–38000 دولار/عميل.</li>
+          <li><strong>رعاية شهرية لل governance والـ prompts:</strong> — 140–1100 دولار/شهر.</li>
+          <li><strong>Playbooks (legacy refactor، API migration، mobile):</strong> — 58–265 دولار/playbook.</li>
+          <li><strong>دورات «تطوير أسرع بالعربية مع Copilot Workspace»:</strong> — 48–225 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">GitHub</span>
+        <span class="tag">Copilot</span>
+        <span class="tag">DevTools</span>
+        <span class="tag">Engineering</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Asana AI Teammates 3 Arabic: زملاء افتراضيون — توزيع مهام، ملخصات، ومتابعة بلهجة MENA!</h2>
+      <p class="article-lead">«من يُمسك هذا المشروع؟ — والجميع في meeting آخر». في 8 أكتوبر 2026، أطلقت <strong>Asana</strong> <strong>AI Teammates 3 Arabic</strong>: وكلاء داخل Asana يُ read goals وportfolios، يُ break down epics إلى tasks، يُ assign بالمهارات والحمل، يُ draft status updates بالفصحى أو اللهجة المختارة، يُ nudge المتأخرين بلطف، ويُ summarize Slack threads الم linked — لل marketing وproduct وops في MENA.</p>
+      <p>المشكلة التي حلّتها: Teammates 2 كان tone robotic بالعربية؛ الإصدار 3 يُ Gulf/Egyptian presets، يُ benchmark −36% overdue tasks في agency دبي، يُ risk flags لل dependencies، يُ calendar-aware planning، ويُ export reports PDF RTL.</p>
+      <p>القدرات الأساسية: Custom teammate personas (PM، content lead، QA)؛ rules engine؛ integration Salesforce وFigma؛ workload heatmaps؛ executive digest weekly.</p>
+      <p>للمبدعين العرب: PM consultants — «Asana Teammates 3 Arabic ops cockpit in 6 days» لل orgs 15–500 seats. من يُ roll out 9 cockpits/ربع بـ 1500–26500 دولار + tuning 100–820 دولار/شهر يبني «استوديو Asana AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Asana AI Teammates 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة ops cockpit (personas، rules، training):</strong> 5–11 يومًا — 1500–26500 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل tuning والـ reporting:</strong> — 100–820 دولار/شهر.</li>
+          <li><strong>Templates (campaign launch، hiring، compliance):</strong> — 45–198 دولار/template.</li>
+          <li><strong>دورات «إدارة مشاريع وكيلية بالعربية مع Asana»:</strong> — 42–195 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Asana</span>
+        <span class="tag">PM</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Teams</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Typeform AI Insights 4 Arabic: استبيانات تتحدث — themes، leads، وتوصيات مبيعات RTL!</h2>
+      <p class="article-lead">«5000 رد — ولا أحد قرأها». في 8 أكتوبر 2026، أطلقت <strong>Typeform</strong> <strong>AI Insights 4 Arabic</strong>: طبقة تحليل فوق forms وsurveys تُ cluster open-text بالعربية والإنجليزية، تُ detect sentiment وNPS drivers، تُ highlight quotes لل sales deck، تُ suggest follow-up questions، تُ score leads وpush إلى HubSpot وPipedrive، وتُ generate executive summary PDF RTL — لل SaaS وHR وmarket research في MENA.</p>
+      <p>المشكلة التي حلّتها: Insights 3 كان dialect mixing ضعيفًا؛ الإصدار 4 يُ MENA dialect tags، يُ benchmark +28% qualified leads في B2B سعودي، يُ privacy redaction لل PII، يُ multilingual compare، ويُ scheduled insight emails.</p>
+      <p>القدرات الأساسية: Video ask transcription Arabic؛ logic branch suggestions؛ integration Zapier؛ benchmark vs industry؛ shareable insight links لل clients.</p>
+      <p>للمبدعين العرب: research freelancers وgrowth agencies — «Typeform Insights 4 Arabic research sprint in 5 days» لل brands 2–20 studies/سنة. من يُ deliver 12 sprints/ربع بـ 950–17500 دولار + insights retainer 75–620 دولار/شهر يبني «مكتب research AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Typeform AI Insights 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة research sprint (form، insights، sales handoff):</strong> 4–9 أيام — 950–17500 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل studies والـ dashboards:</strong> — 75–620 دولار/شهر.</li>
+          <li><strong>Vertical kits (employee pulse، product-market fit، events):</strong> — 40–185 دولار/kit.</li>
+          <li><strong>دورات «استبيانات ذكية بالعربية مع Typeform AI»:</strong> — 36–172 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Typeform</span>
+        <span class="tag">Surveys</span>
+        <span class="tag">Research</span>
+        <span class="tag">Sales</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Snowflake Cortex Analyst 4 Arabic: محلل بيانات وكيلي — أسئلة CFO بالعربية من warehouse مباشرة!</h2>
+      <p class="article-lead">«أين margin هذا الربع؟ — والتقرير بعد 48 ساعة». في 8 أكتوبر 2026، أطلقت <strong>Snowflake</strong> <strong>Cortex Analyst 4 Arabic</strong>: وكيل analytics يُ query data warehouse بلغة طبيعية عربية، يُ explain SQL generated، يُ chart revenue وcohorts وinventory، يُ flag anomalies، يُ role-based masking لل sensitive fields، ويُ export slides-ready summaries — لل retail وbanking وlogistics في MENA.</p>
+      <p>المشكلة التي حلّتها: Analyst 3 كان hallucinate على أعمدة عربية؛ الإصدار 4 يُ semantic layer MENA calendars (Ramadan weeks)، يُ benchmark 92% answer accuracy في retailer مغربي، يُ lineage citations، يُ scheduled Arabic briefings، ويُ Teams/Slack delivery.</p>
+      <p>القدرات الأساسية: Multi-table joins natural language؛ forecast helpers؛ integration dbt وLooker؛ governance tags؛ API embed في portals العملاء.</p>
+      <p>للمبدعين العرب: data consultants — «Cortex Analyst 4 Arabic exec intelligence in 8 days» لل orgs 1–50 TB data. من يُ launch 6 stacks/ربع بـ 2400–42000 دolar + managed 130–980 دولار/شهر يبني «مكتب Snowflake AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Snowflake Cortex Analyst 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة exec intelligence (semantic layer، dashboards، training):</strong> 6–15 يومًا — 2400–42000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل models والـ governance:</strong> — 130–980 دولار/شهر.</li>
+          <li><strong>Industry accelerators (retail، telco، healthcare):</strong> — 62–285 دولار/accelerator.</li>
+          <li><strong>دورات «تحليل بيانات بالعربية مع Cortex Analyst»:</strong> — 50–235 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Snowflake</span>
+        <span class="tag">Analytics</span>
+        <span class="tag">Data</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 08-10-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="08-10-2026 -- 12-AM.html">
+          📰 8 أكتوبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">GitHub Copilot Workspace 3 Arabic · Asana AI Teammates 3 Arabic · Typeform AI Insights 4 Arabic · Snowflake Cortex Analyst 4 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/08-10-2026 -- 12-AM.html`](news/08-10-2026%20--%2012-AM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "08-10-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "08-10-2026 -- 12-AM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "أktobar",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " y\u064f ",
+        "yü ",
+        "yü",
+        "تü",
+        "فيdeo",
+        "montaje",
+        "المشk problem",
+        "أktober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
