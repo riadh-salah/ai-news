@@ -1,0 +1,273 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 11-10-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "11-10-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — OpenAI ChatGPT Atlas 4 Arabic، Google Gemini Enterprise Agents 4 Arabic، IBM watsonx Orchestrate 4 Arabic، Dropbox Dash 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 11 أكتوبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌙 نشرة AI العالمية</span>
+      <h1>من OpenAI ChatGPT Atlas 4 Arabic الذي يتصفح الويب نيابةً عنك ويُنجز حجوزات وتقارير قبل أن تُطفأ الشاشة، إلى Google Gemini Enterprise Agents 4 Arabic الذي يُشغّل وكلاء مؤسسية على Gmail وDrive وBigQuery بلغة فريقك، ومن IBM watsonx Orchestrate 4 Arabic الذي يُنسّق HR وfinance وIT في محادثة واحدة بالفصحى واللهجات، إلى Dropbox Dash 4 Arabic الذي يُجيب «أين العقد؟» من كل ملفات شركتك مع citations — أربع قصص ليلية في 11 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء منتصف الليل!</h1>
+      <p class="hero-sub">ليلٌ للمؤسسات والمبدعين: tabs لا تُغلق، وكلاء enterprise عالقون في pilot، موظفون يتنقلون بين ثلاثة portals، وملفات تُضاع في silos. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 11 أكتوبر 2026</span>
+        <span>🌃 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>OpenAI ChatGPT Atlas 4 Arabic: متصفح وكيلي — بحث، حجز، وملخصات RTL بثقة enterprise!</h2>
+      <p class="article-lead">«عشرون tab مفتوحة — ولا إجابة واحدة جاهزة للعميل». في 11 أكتوبر 2026، أطلقت <strong>OpenAI</strong> <strong>ChatGPT Atlas 4 Arabic</strong>: متصفح مدمج مع ChatGPT Enterprise يُ navigate sites، يُ fill forms، يُ compare prices، يُ download receipts، يُ summarize pages بالفصحى واللهجات الخليجية، مع memory session، SSO، audit log، وpolicies تمنع actions على domains محظورة — لل research وprocurement وlegal في MENA.</p>
+      <p>المشكلة التي حلّتها: Atlas 3 كان يُ hallucinate clicks وEnglish-only summaries؛ الإصدار 4 يُ Arabic step-by-step narration للمستخدم، يُ benchmark −38% وقت من research إلى deliverable في consulting إماراتية، يُ human-in-the-loop على payments، يُ integrate SharePoint export، ويُ red-team prompts ضد prompt injection على صفحات خارجية.</p>
+      <p>القدرات الأساسية: Multi-tab orchestration؛ scheduled browsing tasks؛ PDF bundle RTL؛ connector إلى Slack وTeams؛ data residency EU وGCC roadmap؛ admin dashboard لـ token spend per team.</p>
+      <p>للمبدعين العرب: AI ops consultants — «Atlas 4 Arabic research agent in 5 days» لل teams 20–2000 seats. من يُ deploy 8 workspaces/ربع بـ 3500–58000 دولار + care 175–1320 دولار/شهر يبني «مكتب browsing intelligence عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OpenAI ChatGPT Atlas 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة research agent (policies، workflows، training):</strong> 4–12 يومًا — 3500–58000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل governance والـ spend:</strong> — 175–1320 دولار/شهر.</li>
+          <li><strong>Vertical playbooks (legal due diligence، travel، vendor compare):</strong> — 65–280 دولار/playbook.</li>
+          <li><strong>دورات «متصفح وكيلي آمن بالعربية مع Atlas»:</strong> — 52–248 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">ChatGPT</span>
+        <span class="tag">Atlas</span>
+        <span class="tag">Browser</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Google Gemini Enterprise Agents 4 Arabic: وكلاء على Workspace — email، sheets، وdata بلا copy-paste!</h2>
+      <p class="article-lead">«المدير يريد dashboard — والمحلل ينسخ من BigQuery إلى Slides». في 11 أكتوبر 2026، أطلقت <strong>Google</strong> <strong>Gemini Enterprise Agents 4 Arabic</strong>: builder فوق Vertex AI يُ create agents تُ read Gmail وCalendar وDrive وSheets وBigQuery، تُ draft replies RTL، تُ schedule meetings، تُ run SQL guarded، تُ publish Looker snippets، مع IAM inherited وDLP وArabic tone packs — لل banks وretail وpublic sector في MENA.</p>
+      <p>المشكلة التي حلّتها: Enterprise Agents 3 كان tool routing بطيء وdialect weak؛ الإصدار 4 يُ Gulf وEgyptian NLU، يُ benchmark +31% task completion في telco سعودي، يُ grounding مع Google Search optional، يُ eval suite لل hallucinated numbers، ويُ marketplace templates (invoice chase، board prep، vendor RFQ).</p>
+      <p>القدرات الأساسية: Agent2Agent protocol preview؛ Cloud Run deployment؛ Secret Manager؛ bilingual audit trails؛ integration Chronicle لل security teams؛ partner SDK لل SI في الرياض ودبي.</p>
+      <p>للمبدعين العرب: Google Cloud partners — «Gemini Enterprise Agents 4 Arabic factory in 9 days» لل orgs 500–50000 users. من يُ ship 6 agent packs/ربع بـ 4500–85000 دولار + AMS 220–1680 دولار/شهر يبني «استوديو وكلاء Workspace عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Google Gemini Enterprise Agents 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة agent factory (templates، IAM، UAT):</strong> 7–20 يومًا — 4500–85000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل evals والـ compliance:</strong> — 220–1680 دولار/شهر.</li>
+          <li><strong>Industry packs (banking KYC، retail promo، gov citizen):</strong> — 78–335 دولار/pack.</li>
+          <li><strong>دورات «وكلاء Gemini Enterprise بالعربية»:</strong> — 56–268 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Google</span>
+        <span class="tag">Gemini</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>IBM watsonx Orchestrate 4 Arabic: موظف رقمي — approvals، tickets، وprocurement بconversation واحدة!</h2>
+      <p class="article-lead">«سؤال واحد — وثلاثة أنظمة مختلفة». في 11 أكتوبر 2026، أطلقت <strong>IBM</strong> <strong>watsonx Orchestrate 4 Arabic</strong>: digital worker layer فوق Workday وSAP وServiceNow وMicrosoft 365 يُ understand intents بالعربية، يُ orchestrate skills، يُ submit PTO وPO وaccess requests، يُ escalate exceptions، يُ summarize delays للمدير، مع watsonx.governance وon-prem option — لل holding companies وairlines وuniversities في الخليج.</p>
+      <p>المشكلة التي حلّتها: Orchestrate 3 كان catalog skills محدود؛ الإصدار 4 يُ act على 120+ skills MENA، يُ benchmark −42% handle time في HR shared services، يُ bilingual employee comms، يُ voice channel WhatsApp وTeams، ويُ partner accelerators government وenergy.</p>
+      <p>القدرات الأساسية: Skill Studio no-code عربي؛ integration watsonx.ai لل custom models؛ cost allocator per department؛ purple-team على privilege escalation؛ export compliance reports PDF RTL.</p>
+      <p>للمبدعين العرب: IBM partners — «Orchestrate 4 Arabic digital worker in 10 days» لل enterprises 5000–80000 employees. من يُ deliver 5 rollouts/ربع بـ 5200–98000 دولار + managed 250–1900 دولار/شهر يبني «مكتب digital workforce عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من IBM watsonx Orchestrate 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة digital worker (skills، integrations، change mgmt):</strong> 8–22 يومًا — 5200–98000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل skills والـ governance:</strong> — 250–1900 دولار/شهر.</li>
+          <li><strong>Tower packs (HR، finance، IT service):</strong> — 82–350 دولار/pack.</li>
+          <li><strong>دورات «موظف رقمي بالعربية مع watsonx Orchestrate»:</strong> — 60–285 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">IBM</span>
+        <span class="tag">watsonx</span>
+        <span class="tag">Orchestrate</span>
+        <span class="tag">HR</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Dropbox Dash 4 Arabic: universal search — «أين الملف؟» مع citations وpermissions محترمة!</h2>
+      <p class="article-lead">«العقد في Drive أو Box أو Slack — والموظف يبحث ساعة». في 11 أكتوبر 2026، أطلقت <strong>Dropbox</strong> <strong>Dash 4 Arabic</strong>: AI search عبر Dropbox وGoogle Drive وMicrosoft 365 وSlack وNotion وSalesforce، يُ answer بالفصحى مع snippets وlinks، يُ respect ACLs، يُ summarize folders، يُ suggest next actions (share، rename، archive)، ويُ stack cards RTL — لل legal وconsulting وconstruction في MENA.</p>
+      <p>المشكلة التي حلّتها: Dash 3 كان English queries أفضل وweak Arabic OCR؛ الإصدار 4 يُ Arabic PDF and scanned doc OCR، يُ benchmark −47% time-to-answer في engineering firm مصرية، يُ connector admin console، يُ prevent cross-tenant leakage tests، ويُ Dash for Teams بالعربية.</p>
+      <p>القدرات الأساسية: Stack templates (RFP، visa packet، audit folder)؛ scheduled digests للمدير؛ eDiscovery hold awareness؛ API لل custom connectors؛ EU and KSA data routing options.</p>
+      <p>للمبدعين العرب: productivity consultants — «Dash 4 Arabic knowledge hub in 6 days» لل orgs 200–20000 seats. من يُ roll out 7 hubs/ربع بـ 2800–52000 دولار + care 140–1050 دولار/شهر يبني «مكتب search enterprise عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Dropbox Dash 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة knowledge hub (connectors، stacks، training):</strong> 5–15 يومًا — 2800–52000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل connectors والـ hygiene:</strong> — 140–1050 دولار/شهر.</li>
+          <li><strong>Sector stacks (legal، PMO، sales ops):</strong> — 58–245 دولار/stack.</li>
+          <li><strong>دورات «بحث مؤسسي بالعربية مع Dash»:</strong> — 48–225 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Dropbox</span>
+        <span class="tag">Dash</span>
+        <span class="tag">Search</span>
+        <span class="tag">Knowledge</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 11-10-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="11-10-2026 -- 12-AM.html">
+          📰 11 أكتوبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">OpenAI ChatGPT Atlas 4 Arabic · Google Gemini Enterprise Agents 4 Arabic · IBM watsonx Orchestrate 4 Arabic · Dropbox Dash 4 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/11-10-2026 -- 12-AM.html`](news/11-10-2026%20--%2012-AM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "11-10-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "11-10-2026 -- 12-AM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:2] == b"\xff\xfe" or data[:2] == b"\xfe\xff":
+        raise SystemExit("ERROR: UTF-16 BOM detected")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "أktobar",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " y\u064f ",
+        "yü ",
+        "yü",
+        "تü",
+        "فيdeo",
+        "montaje",
+        "المشk problem",
+        "oktober",
+        "Oktober",
+        "traduce",
+        "dolar",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
