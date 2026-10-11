@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 11-10-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "11-10-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — OpenAI ChatGPT Atlas 4 Arabic، Anthropic Claude Cowork 4 Arabic، Google Gemini Live API 4 Arabic، Microsoft Copilot Studio Autonomous Agents 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 11 أكتوبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">☀️ نشرة AI العالمية</span>
+      <h1>من OpenAI ChatGPT Atlas 4 Arabic الذي يتصفّح الويب نيابةً عنك ويُنجز حجوزات وتسوقًا بالعربية، إلى Anthropic Claude Cowork 4 Arabic الذي يُنسّق مهام الفريق داخل مجلدات مشتركة، ومن Google Gemini Live API 4 Arabic الذي يُحوّل الصوت العربي إلى actions فورية في تطبيقاتك، إلى Microsoft Copilot Studio Autonomous Agents 4 Arabic الذي يُشغّل وكلاء مستقلين على SharePoint وDynamics — أربع قصص صباحية في 11 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُبنى على automation حقيقي!</h1>
+      <p class="hero-sub">صباحٌ للمتصفّح الذكي والتعاون والصوت والوكلاء المستقلين: tabs لا تنتهي، ملفات مبعثرة، latency يقتل UX، وflows تتوقف عند «موافقة بشرية». أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 11 أكتوبر 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>OpenAI ChatGPT Atlas 4 Arabic: متصفّح ذكي — يتصفّح، يقارن، ويُتمّم الشراء بلغتك!</h2>
+      <p class="article-lead">«فتحت عشرين تبويبًا للمقارنة — ونسيت أين وصلت». في 11 أكتوبر 2026، أطلقت <strong>OpenAI</strong> <strong>ChatGPT Atlas 4 Arabic</strong>: متصفّح مدمج مع ChatGPT يُفهم مواقع RTL، يُلخّص سياسات الشحن بالفصحى واللهجات، يُملأ نماذج KYC، يُقارن أسعار فنادق وطيران في MENA، يُحجز مواعيد حكومية، ويُوقف نفسه عند خطوة الدفع حتى تؤكّد أنت — مع memory مشفّرة وpolicies للشركات.</p>
+      <p>المشكلة التي حلّتها: Atlas 3 كان يُخطئ في حقول عربية معكوسة؛ الإصدار 4 يُ OCR للفواتير العربية، يُ benchmark −52% وقت research لل e-commerce خليجي، يُ integration enterprise SSO، يُ block phishing pages، ويُ export تقارير مقارنة PDF RTL لل procurement.</p>
+      <p>القدرات الأساسية: Agent mode متعدد الخطوات؛ connectors Shopify وNoon وAmazon.ae؛ voice commands بالخليجية؛ parental controls؛ audit trail لكل click لل compliance.</p>
+      <p>للمبدعين العرب: growth consultants — «Atlas 4 Arabic shopping research playbook in 5 days» لل brands وaffiliates. من يُ deploy 9 setups/ربع بـ 2900–48000 دولار + care 175–1320 دولار/شهر يبني «مكتب متصفّح ذكي عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OpenAI ChatGPT Atlas 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة Atlas enterprise (policies، SSO، training):</strong> 4–12 يومًا — 2900–48000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل flows والأمان:</strong> — 175–1320 دولار/شهر.</li>
+          <li><strong>Playbooks vertical (travel، procurement، real estate):</strong> — 62–285 دولار/playbook.</li>
+          <li><strong>دورات «بحث وتسوق آلي بالعربية مع Atlas»:</strong> — 48–235 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">Atlas</span>
+        <span class="tag">Browser</span>
+        <span class="tag">Commerce</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Anthropic Claude Cowork 4 Arabic: غرفة عمل مشتركة — ملفات، مهام، ومراجعات بلا فوضى!</h2>
+      <p class="article-lead">«النسخة النهائية_v7_final.docx في Slack وTeams والبريد». في 11 أكتوبر 2026، أطلقت <strong>Anthropic</strong> <strong>Claude Cowork 4 Arabic</strong>: مساحة teamwork حيث Claude يُ index مجلدات Google Drive وSharePoint، يُ draft RFPs وcontracts بالفصحى، يُ track todos عبر الأعضاء، يُ summarize اجتماعات Teams بالعربية، يُ suggest redlines قانونية، ويُ respect data residency — لل legal وconsulting وconstruction في MENA.</p>
+      <p>المشكلة التي حلّتها: Cowork 3 كان permissions ضبابية؛ الإصدار 4 يُ Arabic clause library، يُ benchmark −38% rework في مكتب هندسي سعودي، يُ version diff visual RTL، يُ integration Jira وMonday، ويُ eval على hallucinated citations.</p>
+      <p>القدرات الأساسية: Shared projects مع role matrix؛ Artifacts tables وcharts عربية؛ connectors Notion وConfluence؛ mobile approvals؛ export Word مع styles مؤسسية.</p>
+      <p>للمبدعين العرب: ops freelancers — «Cowork 4 Arabic team workspace in 6 days» لل firms 10–200 seats. من يُ roll out 7 workspaces/ربع بـ 3400–58000 دولار + AMS 195–1480 دولار/شهر يبني «استوديو Claude Cowork عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Anthropic Claude Cowork 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة workspace (connectors، templates، launch):</strong> 5–14 يومًا — 3400–58000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل governance والقوالب:</strong> — 195–1480 دولار/شهر.</li>
+          <li><strong>Pack قطاعي (legal، PMO، HR policy):</strong> — 70–310 دولار/pack.</li>
+          <li><strong>دورات «تعاون AI بالعربية مع Cowork»:</strong> — 52–248 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Anthropic</span>
+        <span class="tag">Claude</span>
+        <span class="tag">Cowork</span>
+        <span class="tag">Teams</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Google Gemini Live API 4 Arabic: صوت حيّ — محادثة، أدوات، وUI في ثوانٍ!</h2>
+      <p class="article-lead">«المستخدم يريد يتكلم — لا يكتب». في 11 أكتوبر 2026، أطلقت <strong>Google</strong> <strong>Gemini Live API 4 Arabic</strong>: واجهة real-time multimodal تُفهم لهجات MENA، تُ interrupt بسلاسة، تُ invoke function calls أثناء الحديث، تُ render cards RTL في companion app، وتُ run على Vertex مع latency &lt;400ms في region me-central — لل banking وhealthcare وfield service.</p>
+      <p>المشكلة التي حلّتها: Live API 3 كان code-switching يُربك NLU؛ الإصدار 4 يُ diarization للمكالمات ثنائية اللغة، يُ benchmark +31% completion في IVR telco مغاربي، يُ barge-in آمن، يُ redaction PII في stream، ويُ SDK Flutter وReact Native RTL.</p>
+      <p>القدرات الأساسية: Tool use parallel؛ session handoff إلى human agent؛ grounding على Knowledge Graph عربي؛ cost meter per minute؛ compliance recordings encrypted.</p>
+      <p>للمبدعين العرب: voice UX studios — «Gemini Live 4 Arabic voice app in 10 days» لل apps 1–3 flows. من يُ ship 6 voice products/ربع بـ 4100–72000 دولار + SRE 220–1650 دولار/شهر يبني «مختبر صوت Gemini عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Google Gemini Live API 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة voice product (API، UX، launch):</strong> 7–18 يومًا — 4100–72000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل latency والجودة:</strong> — 220–1650 دولار/شهر.</li>
+          <li><strong>Templates (IVR، drive-thru، clinic triage):</strong> — 78–335 دولار/template.</li>
+          <li><strong>دورات «تطبيقات صوتية بالعربية مع Gemini Live»:</strong> — 58–272 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Google</span>
+        <span class="tag">Gemini</span>
+        <span class="tag">Live API</span>
+        <span class="tag">Voice</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Microsoft Copilot Studio Autonomous Agents 4 Arabic: وكلاء يعملون وحدَهم — من ticket إلى حل!</h2>
+      <p class="article-lead">«التذكرة عمرها أسبوع — والعميل ينتظر». في 11 أكتوبر 2026، أطلقت <strong>Microsoft</strong> <strong>Copilot Studio Autonomous Agents 4 Arabic</strong>: وكلاء long-running يُ read emails وSharePoint، يُ open cases في Dynamics، يُ negotiate مواعيد بالفصحى، يُ request approvals في Teams، يُ update CRM، ويُ escalate بملخص عربي لل manager — لل utilities وinsurance وpublic services في MENA.</p>
+      <p>المشكلة التي حلّتها: Autonomous Agents 3 كان loops بلا guardrails؛ الإصدار 4 يُ Arabic tone presets، يُ benchmark −44% backlog في utility أردنية، يُ human-in-the-loop checkpoints، يُ integration Power Automate وAzure AI Content Safety، ويُ sovereign hosting options.</p>
+      <p>القدرات الأساسية: Agent orchestration graph visual؛ memory scoped per customer؛ plugin marketplace عربي؛ analytics على resolution rate؛ test harness simulation قبل production.</p>
+      <p>للمبدعين العرب: Power Platform partners — «Autonomous Agents 4 Arabic service desk in 8 days» لل orgs 500–15000 tickets/شهر. من يُ deliver 5 agents/ربع بـ 4800–82000 دولار + managed 250–1880 دولار/شهر يبني «مركز Copilot Agents عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Microsoft Copilot Studio Autonomous Agents 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة autonomous agent (design، integrations، go-live):</strong> 6–20 يومًا — 4800–82000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل tuning والامتثال:</strong> — 250–1880 دولار/شهر.</li>
+          <li><strong>Runbooks قطاعية (billing، claims، permits):</strong> — 82–350 دولار/runbook.</li>
+          <li><strong>دورات «وكلاء مستقلون بالعربية في Copilot Studio»:</strong> — 60–285 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Microsoft</span>
+        <span class="tag">Copilot Studio</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Dynamics</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 11-10-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="11-10-2026 -- 08-AM.html">
+          📰 11 أكتوبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">OpenAI ChatGPT Atlas 4 Arabic · Anthropic Claude Cowork 4 Arabic · Google Gemini Live API 4 Arabic · Microsoft Copilot Studio Autonomous Agents 4 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/11-10-2026 -- 08-AM.html`](news/11-10-2026%20--%2008-AM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "11-10-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "11-10-2026 -- 08-AM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:2] == b"\xff\xfe" or data[:2] == b"\xfe\xff":
+        raise SystemExit("ERROR: UTF-16 BOM detected")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "أktobar",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " y\u064f ",
+        "yü ",
+        "yü",
+        "تü",
+        "فيdeo",
+        "montaje",
+        "المشk problem",
+        "traduce",
+        "oktober",
+        "Oktober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
