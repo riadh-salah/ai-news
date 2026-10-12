@@ -1,0 +1,274 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 12-10-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "12-10-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — monday.com AI Blocks 4 Arabic، Freshworks Freddy AI 4 Arabic، Smartsheet AI Control Center 4 Arabic، Dropbox Dash 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 12 أكتوبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من monday.com AI Blocks 4 Arabic الذي يُحوّل board فوضوي إلى سير عمل يُغلق deals قبل أن تُطفأ شاشة المكتب، إلى Freshworks Freddy AI 4 Arabic الذي يُ resolve تذاكر ويُ upsell من CRM وDesk بلهجة العميل، ومن Smartsheet AI Control Center 4 Arabic الذي يُ orchestrate مشاريع enterprise وportfolios بأمر عربي واحد، إلى Dropbox Dash 4 Arabic الذي يُ hunt الملفات عبر Slack وDrive وNotion ويُ draft ردود من مصادر موثّقة — أربع قصص مسائية في 12 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء مع آخر ضوء!</h1>
+      <p class="hero-sub">مساءٌ للعمليات والإيرادات والمعرفة: boards بلا owners، دعم يتكرر، Gantt لا يُ sync، وملفات «اختفت» في silos. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 12 أكتوبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>monday.com AI Blocks 4 Arabic: boards حية — automations، summaries، وCRM sync من جملة واحدة!</h2>
+      <p class="article-lead">«120 task — ولا أحد يعرف من يُسلّم ماذا غدًا». في 12 أكتوبر 2026، أطلقت <strong>monday.com</strong> <strong>AI Blocks 4 Arabic</strong>: طبقة blocks داخل Work OS تُ parse briefs بالفصحى واللهجات، تُ generate columns وautomations، تُ summarize status للمدير RTL، تُ draft updates للعملاء، تُ sync Salesforce وHubSpot، وتُ flag bottlenecks — لل agencies وconstruction وretail ops في MENA.</p>
+      <p>المشكلة التي حلّتها: AI Blocks 3 كان يُ over-automate دون explainability؛ الإصدار 4 يُ Arabic intent packs، يُ benchmark −39% وقت weekly reporting في agency دبي، يُ human approval gates، يُ portfolio roll-ups multi-board، ويُ mobile voice capture لل updates من الموقع.</p>
+      <p>القدرات الأساسية: Natural-language automation builder; risk radar على deadlines; integration Microsoft Teams وSlack; template marketplace MENA; admin analytics بالعربية.</p>
+      <p>للمبدعين العرب: monday partners وops consultancies — «AI Blocks 4 Arabic work OS in 7 days» لل teams 15–2000 seats. من يُ deploy 6 orgs/ربع بـ 2400–48000 دولار + retainer 190–1580 دولار/شهر يبني «استوديو monday AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من monday.com AI Blocks 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة work OS (boards، AI Blocks، change):</strong> 5–13 يومًا — 2400–48000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل automations والتقارير:</strong> — 190–1580 دولار/شهر.</li>
+          <li><strong>Industry templates (real estate، events، logistics):</strong> — 58–265 دولار/template.</li>
+          <li><strong>دورات «تشغيل monday AI Blocks بالعربية»:</strong> — 42–195 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">monday.com</span>
+        <span class="tag">AI Blocks</span>
+        <span class="tag">Work OS</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Freshworks Freddy AI 4 Arabic: CRM وDesk وCX — resolve، upsell، وhandoff بلا فقدان سياق!</h2>
+      <p class="article-lead">«العميل يسأل عن فاتورة على WhatsApp — والوكيل يفتح ثلاثة tabs». في 12 أكتوبر 2026، أطلقت <strong>Freshworks</strong> <strong>Freddy AI 4 Arabic</strong>: copilot موحّد عبر Freshdesk وFreshsales وFreshchat يُ answer باللهجات، يُ suggest macro replies RTL، يُ detect churn signals، يُ draft upsell offers grounded على subscription data، يُ create tickets مع full context، ويُ route VIP escalations — لل SaaS وe-commerce وBPOs في MENA.</p>
+      <p>المشكلة التي حلّتها: Freddy 3 كان يُ confuse similar SKUs؛ الإصدار 4 يُ product graph Arabic، يُ benchmark +31% CSAT في neobank خليجي، يُ GDPR وlocal data residency، يُ QA sampling لل AI replies، ويُ manager coaching insights بالعربية.</p>
+      <p>القدرات الأساسية: Omnichannel inbox AI; revenue plays من usage signals; integration Shopify وStripe; voice transcription MENA dialects; API لل custom bots.</p>
+      <p>للمبدعين العرب: Freshworks partners — «Freddy AI 4 Arabic CX stack in 9 days» لل orgs 30–5000 agents. من يُ roll out 5 stacks/ربع بـ 2800–52000 دولار + tuning 220–1750 دولار/شهر يبني «مركز Freddy AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Freshworks Freddy AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة CX transformation (workflows، Freddy، training):</strong> 6–15 يومًا — 2800–52000 دولار/عميل.</li>
+          <li><strong>رعاية شهرية لل macros والـ QA:</strong> — 220–1750 دولار/شهر.</li>
+          <li><strong>Playbooks (SaaS، retail، telco):</strong> — 55–248 دولار/playbook.</li>
+          <li><strong>دورات «دعم ومبيعات AI بـ Freddy بالعربية»:</strong> — 44–205 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Freshworks</span>
+        <span class="tag">Freddy AI</span>
+        <span class="tag">CRM</span>
+        <span class="tag">Support</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Smartsheet AI Control Center 4 Arabic: portfolios enterprise — Gantt، risks، وexecutive briefs RTL!</h2>
+      <p class="article-lead">«مجلس الإدارة يسأل: لماذا تأخر المشروع؟ — والـ PM يبحث في عشر sheets». في 12 أكتوبر 2026، أطلقت <strong>Smartsheet</strong> <strong>AI Control Center 4 Arabic</strong>: command layer فوق Control Center وResource Management يُ narrate portfolio health بالعربية، يُ predict slip risks، يُ draft steering committee decks، يُ reconcile dependencies cross-program، يُ suggest resource shifts، ويُ export audit trails — لل construction وenergy وgov digital في MENA.</p>
+      <p>المشكلة التي حلّتها: Control Center 3 كان English-heavy في executive summaries؛ الإصدار 4 يُ Arabic narrative templates، يُ benchmark −42% وقت monthly PMO pack في contractor سعودي، يُ integration SAP وPrimavera connectors، يُ role-based redaction، ويُ what-if scenarios بالعربية.</p>
+      <p>القدرات الأساسية: Portfolio Q&amp;A natural language; automated RAID logs; Microsoft Power BI push; mobile approvals لل sponsors; Smartsheet Gov cloud options.</p>
+      <p>للمبدعين العرب: PMO boutiques — «Control Center 4 Arabic portfolio cockpit in 11 days» لل programs 5–80 projects. من يُ deliver 4 cockpits/ربع بـ 3800–72000 دولار + managed 290–2300 دولار/شهر يبني «مكتب Smartsheet AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Smartsheet AI Control Center 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة portfolio intelligence (taxonomy، AI، PMO training):</strong> 7–18 يومًا — 3800–72000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل reports والـ RAID:</strong> — 290–2300 دولار/شهر.</li>
+          <li><strong>Executive brief templates (infra، IT، transformation):</strong> — 72–310 دولار/template.</li>
+          <li><strong>دورات «PMO AI بـ Smartsheet بالعربية»:</strong> — 52–235 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Smartsheet</span>
+        <span class="tag">Control Center</span>
+        <span class="tag">PMO</span>
+        <span class="tag">Portfolio</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Dropbox Dash 4 Arabic: بحث موحّد — answers، actions، وcitations عبر كل silos!</h2>
+      <p class="article-lead">«أين نسخة العقد الموقّع؟ — والفريق يبحث في Slack وDrive وemail». في 12 أكتوبر 2026، أطلقت <strong>Dropbox</strong> <strong>Dash 4 Arabic</strong>: universal AI search يُ index Dropbox وGoogle Drive وMicrosoft 365 وSlack وNotion وJira، يُ answer بالفصحى مع citations صفحة-صفحة RTL، يُ draft emails وSlack replies grounded على docs، يُ trigger Box Sign وDocSend flows، يُ redact PII قبل share، ويُ admin analytics بالعربية — لل legal وfinance وconsulting في MENA.</p>
+      <p>المشكلة التي حلّتها: Dash 3 كان يُ miss Arabic OCR في scanned contracts؛ الإصدار 4 يُ enhanced Arabic extraction، يُ benchmark −45% وقت «find the file» في firm قانوني مصري، يُ connector marketplace، يُ multi-hub permissions، ويُ export memo PDF لل boards.</p>
+      <p>القدرات الأساسية: Cross-app Q&amp;A; proactive «doc changed» alerts; integration ServiceNow ticket create; team starter packs MENA; hybrid on-prem connectors.</p>
+      <p>للمبدعين العرب: knowledge ops freelancers — «Dash 4 Arabic enterprise search in 8 days» لل orgs 200–50K users. من يُ deploy 5 hubs/ربع بـ 3200–65000 دولار + managed 250–2050 دولار/شهر يبني «استوديو Dropbox Dash عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Dropbox Dash 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة knowledge search (connectors، Dash، governance):</strong> 5–14 يومًا — 3200–65000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل taxonomy والـ connectors:</strong> — 250–2050 دولار/شهر.</li>
+          <li><strong>Starter packs (legal، audit، consulting):</strong> — 65–285 دولار/pack.</li>
+          <li><strong>دورات «بحث مؤسسي AI بـ Dropbox Dash بالعربية»:</strong> — 46–215 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Dropbox</span>
+        <span class="tag">Dash</span>
+        <span class="tag">Search</span>
+        <span class="tag">Knowledge</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 12-10-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="12-10-2026 -- 04-PM.html">
+          📰 12 أكتوبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">monday.com AI Blocks 4 Arabic · Freshworks Freddy AI 4 Arabic · Smartsheet AI Control Center 4 Arabic · Dropbox Dash 4 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/12-10-2026 -- 04-PM.html`](news/12-10-2026%20--%2004-PM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "12-10-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "12-10-2026 -- 04-PM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:2] == b"\xff\xfe" or data[:2] == b"\xfe\xff":
+        raise SystemExit("ERROR: UTF-16 BOM detected")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "أktobar",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " y\u064f ",
+        "yü ",
+        "yü",
+        "تü",
+        "فيdeo",
+        "montaje",
+        "المشk problem",
+        "traduce",
+        "oktober",
+        "Oktober",
+        "mezclar",
+        "إنجليزي",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
