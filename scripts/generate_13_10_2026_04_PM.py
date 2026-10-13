@@ -1,0 +1,275 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 13-10-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "13-10-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — HubSpot Breeze Copilot 4 Arabic، Slack AI Workflows 4 Arabic، Asana AI Teammates 4 Arabic، Semrush ContentShake AI 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 13 أكتوبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من HubSpot Breeze Copilot 4 Arabic الذي يُحوّل inbox مبيعات فوضويًا إلى pipeline مُرتّب قبل أن تُغلق مكتبك، إلى Slack AI Workflows 4 Arabic الذي يُغلق موافقات وonboarding داخل القناة بلهجة فريقك، ومن Asana AI Teammates 4 Arabic الذي يُوزّع المهام ويُلخّص التقدّم للمدير بأمر عربي واحد، إلى Semrush ContentShake AI 4 Arabic الذي يُ bridge بين intent بحث MENA ومحتوى يُ rank ويُ monetize — أربع قصص مسائية في 13 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء مع آخر ضوء!</h1>
+      <p class="hero-sub">مساءٌ للإيرادات والعمليات والتسويق: leads تبرد، threads تضيع، Gantt لا يُ sync، وSEO يأكل أسابيع. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 13 أكتوبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>HubSpot Breeze Copilot 4 Arabic: revenue copilot — CRM، sequences، وdeals من محادثة واحدة!</h2>
+      <p class="article-lead">«200 lead — ولا أحد يعرف من يُتابع مَن غدًا». في 13 أكتوبر 2026، أطلقت <strong>HubSpot</strong> <strong>Breeze Copilot 4 Arabic</strong>: copilot موحّد فوق Smart CRM يُ parse emails وWhatsApp transcripts، يُ suggest next-best-action بالفصحى واللهجات، يُ draft sequences وmeeting briefs RTL، يُ update properties وdeals، يُ score intent، ويُ push tasks إلى Slack وTeams — لل B2B وreal estate وedtech في MENA.</p>
+      <p>المشكلة التي حلّتها: Breeze 3 كان يُ generic على tone محلي؛ الإصدار 4 يُ Gulf وEgyptian packs، يُ benchmark +34% meeting book rate في SaaS خليجي، يُ human-in-the-loop approvals، يُ integration LinkedIn Sales Navigator وZoom، يُ PDPL-friendly logging، ويُ mobile voice capture لل notes من الميدان.</p>
+      <p>القدرات الأساسية: NL ask على pipeline; auto-enrich companies; playbook marketplace MENA; forecast narratives بالعربية; API لل custom revops dashboards.</p>
+      <p>للمبدعين العرب: revops boutiques — «Breeze Copilot 4 Arabic revenue cockpit in 8 days» لل orgs 50–5000 contacts. من يُ deploy 7 programs/ربع بـ 2800–52000 دولار + retainer 220–1750 دولار/شهر يبني «مكتب HubSpot AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من HubSpot Breeze Copilot 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة revops (CRM hygiene، Copilot، sequences RTL):</strong> 6–16 يومًا — 2800–52000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل playbooks وforecast narratives:</strong> — 220–1750 دولار/شهر.</li>
+          <li><strong>Vertical sequence packs (proptech، clinics، logistics):</strong> — 48–210 دولار/pack.</li>
+          <li><strong>دورات «مبيعات ذكية بـ HubSpot Breeze Copilot بالعربية»:</strong> — 46–215 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">HubSpot</span>
+        <span class="tag">Breeze</span>
+        <span class="tag">CRM</span>
+        <span class="tag">RevOps</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Slack AI Workflows 4 Arabic: automations حية — approvals، incidents، وHR داخل القناة!</h2>
+      <p class="article-lead">«الموافقة عالقة في email — والعميل ينتظر». في 13 أكتوبر 2026، أطلقت <strong>Slack</strong> <strong>AI Workflows 4 Arabic</strong>: builder ذكي فوق Slack يُ translate طلبات عربية إلى workflows (multi-step forms، routing، timers)، يُ connect Jira وServiceNow وGoogle Drive، يُ summarize threads طويلة، يُ escalate overdue steps، يُ onboard hires بchecklists RTL، ويُ audit كل action — لل fintech وmedia وdistributed teams في MENA.</p>
+      <p>المشكلة التي حلّتها: Workflows 3 كان يُ break على code-switching؛ الإصدار 4 يُ Arabic NLU robust، يُ benchmark −47% وقت internal approvals في bank مصري، يُ Canvas templates MENA، يُ guest access policies، يُ integration Salesforce cases، ويُ export run metrics لل compliance.</p>
+      <p>القدرات الأساسية: Voice-to-workflow بالعربية; conditional branches; scheduled digests RTL; incident war-room starter; marketplace templates لل procurement وIT.</p>
+      <p>للمبدعين العرب: workflow consultancies — «Slack AI Workflows 4 Arabic ops hub in 6 days» لل orgs 100–8000 users. من يُ launch 9 hubs/ربع بـ 2100–44000 دولار + managed 170–1380 دولار/شهر يبني «استوديو Slack automation عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Slack AI Workflows 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة ops hub (workflows، integrations، training RTL):</strong> 5–14 يومًا — 2100–44000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل templates وSLA tuning:</strong> — 170–1380 دولار/شهر.</li>
+          <li><strong>Industry workflow kits (banking، agencies، gov digital):</strong> — 38–185 دولار/kit.</li>
+          <li><strong>دورات «أتمتة Slack بالعربية مع AI Workflows»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Slack</span>
+        <span class="tag">Workflows</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Ops</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Asana AI Teammates 4 Arabic: PM copilot — tasks، dependencies، وstatus للمدير!</h2>
+      <p class="article-lead">«المشروع أحمر — والسبب buried في 400 comment». في 13 أكتوبر 2026، أطلقت <strong>Asana</strong> <strong>AI Teammates 4 Arabic</strong>: teammates افتراضيون داخل Work Graph يُ decompose goals عربية إلى tasks، يُ assign owners وdue dates، يُ detect blockers، يُ draft weekly status لل stakeholders RTL، يُ sync Slack وTeams updates، يُ suggest re-prioritization، ويُ link goals إلى OKRs — لل product وmarketing وconstruction PMO في MENA.</p>
+      <p>المشكلة التي حلّتها: Teammates 3 كان يُ over-create noise؛ الإصدار 4 يُ Arabic brief parsing، يُ benchmark −42% وقت status prep في agency دبي، يُ approval gates على auto-assign، يُ portfolio roll-ups multi-project، يُ integration Figma وGitHub، ويُ mobile voice standups باللهجات.</p>
+      <p>القدرات الأساسية: NL project kickoff; risk radar بالعربية; resource heatmaps; client-facing update generator; API لل BI tools.</p>
+      <p>للمبدعين العرب: PMO studios — «Asana AI Teammates 4 Arabic delivery sprint in 7 days» لل orgs 5–80 active projects. من يُ deliver 6 sprints/ربع بـ 3200–58000 دولار + coaching 250–1900 دولار/شهر يبني «ممارسة Asana AI عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Asana AI Teammates 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة delivery (goals، Teammates، reporting RTL):</strong> 5–15 يومًا — 3200–58000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل status narratives وportfolio hygiene:</strong> — 250–1900 دولار/شهر.</li>
+          <li><strong>PMO template packs (software، events، infrastructure):</strong> — 52–225 دولار/pack.</li>
+          <li><strong>دورات «إدارة مشاريع ذكية بـ Asana Teammates بالعربية»:</strong> — 44–208 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Asana</span>
+        <span class="tag">Teammates</span>
+        <span class="tag">PMO</span>
+        <span class="tag">Projects</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Semrush ContentShake AI 4 Arabic: SEO + content — keywords، drafts، وmonetization!</h2>
+      <p class="article-lead">«نريد traffic من السعودية — والمقال يُ rank في صفحة 9». في 13 أكتوبر 2026، أطلقت <strong>Semrush</strong> <strong>ContentShake AI 4 Arabic</strong>: suite موحّدة يُ research Arabic keywords (MSA وdialect clusters)، يُ outline articles وlanding pages RTL، يُ optimize on-page وE-E-A-T signals، يُ suggest internal links وCTA monetization، يُ track SERP وcompetitors MENA، ويُ export إلى WordPress وWebflow — لل publishers وe-commerce وaffiliate marketers في المنطقة.</p>
+      <p>المشكلة التي حلّتها: ContentShake 3 كان يُ thin content risk؛ الإصدار 4 يُ Arabic fact-check hooks، يُ benchmark +29% organic clicks في niche finance خليجي، يُ brand voice training من corpus RTL، يُ compliance disclaimers لل regulated topics، يُ integration Google Search Console وGA4، ويُ batch refresh لل legacy posts.</p>
+      <p>القدرات الأساسية: Topic clusters بالعربية; AI editor مع tone sliders; affiliate link suggester; performance alerts RTL; API لل content agencies.</p>
+      <p>للمبدعين العرب: SEO content shops — «ContentShake AI 4 Arabic growth engine in 10 days» لل sites 50–5000 pages. من يُ onboard 5 engines/ربع بـ 3500–68000 دولار + ops 240–1850 دولار/شهر يبني «استوديو Semrush content عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Semrush ContentShake AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة growth engine (research، ContentShake، publish RTL):</strong> 7–18 يومًا — 3500–68000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل refresh وSERP monitoring:</strong> — 240–1850 دولار/شهر.</li>
+          <li><strong>Niche playbooks (travel، fintech، health):</strong> — 58–245 دولار/playbook.</li>
+          <li><strong>دورات «SEO ومحتوى عربي بـ Semrush ContentShake»:</strong> — 50–228 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Semrush</span>
+        <span class="tag">ContentShake</span>
+        <span class="tag">SEO</span>
+        <span class="tag">Content</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 13-10-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="13-10-2026 -- 04-PM.html">
+          📰 13 أكتوبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">HubSpot Breeze Copilot 4 Arabic · Slack AI Workflows 4 Arabic · Asana AI Teammates 4 Arabic · Semrush ContentShake AI 4 Arabic</small>
+        </a>
+      </li>
+"""
+
+README_LATEST = """- [`news/13-10-2026 -- 04-PM.html`](news/13-10-2026%20--%2004-PM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "13-10-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    content = README.read_text(encoding="utf-8")
+    import re
+
+    new_content = re.sub(
+        r"- \[`news/[^`]+`\]\([^)]+\) — أحدث إصدار \(4 أخبار \+ أفكار ربح من AI\)\n",
+        README_LATEST,
+        content,
+        count=1,
+    )
+    if new_content == content and "13-10-2026 -- 04-PM.html" not in content:
+        new_content = content.replace(
+            "## المحتوى\n\n",
+            "## المحتوى\n\n" + README_LATEST,
+        )
+    if new_content != content:
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(new_content)
+        print(f"Updated: {README}")
+    else:
+        print(f"README already up to date: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:2] == b"\xff\xfe" or data[:2] == b"\xfe\xff":
+        raise SystemExit("ERROR: UTF-16 BOM detected")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "سبtemبر",
+        "أktobar",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "Arbs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "رobots",
+        "despierta",
+        "yú ",
+        "yú",
+        "tربح",
+        " y\u064f ",
+        "yü ",
+        "yü",
+        "تü",
+        "فيdeo",
+        "montaje",
+        "المشk problem",
+        "traduce",
+        "oktober",
+        "Oktober",
+        "mezclar",
+        "إنجlizi",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"Mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
