@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 15-10-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "15-10-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Figma AI 4 Arabic، Airtable AI 4 Arabic، Zendesk AI Agents 4 Arabic، Perplexity Enterprise 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 15 أكتوبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من Figma AI 4 Arabic الذي يُحوّل brief عربي إلى واجهات RTL وprototypes تُناقش في نفس الاجتماع، إلى Airtable AI 4 Arabic الذي يُبني bases وautomations من جملة واحدة، ومن Zendesk AI Agents 4 Arabic الذي يُغلق tickets ويُ upsell من WhatsApp بلهجة العميل، إلى Perplexity Enterprise 4 Arabic الذي يُجيب عن أسئلة compliance وmarket research بمصادر موثّقة — أربع قصص مسائية في 15 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُغلق قبل غروب الشمس!</h1>
+      <p class="hero-sub">مساءٌ للتصميم والعمليات والدعم والبحث: product teams تريد UI أسرع، ops تبحث عن bases ذكية، support managers يحلمون بـ agents يفهمون اللهجة، وconsultants يطلبون answers بـ citations. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 15 أكتوبر 2026</span>
+        <span>🌇 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Figma AI 4 Arabic: تصميم وprototyping — من الفكرة إلى handoff للمطور بلسان الفريق!</h2>
+      <p class="article-lead">«العميل يريد redesign للتطبيق بالعربية — والموعد بعد 48 ساعة». في 15 أكتوبر 2026، أطلقت <strong>Figma</strong> <strong>AI 4 Arabic</strong>: طبقة ذكاء فوق Design وFigJam وDev Mode تُ generate screens RTL من prompt عربي، تُ rename layers وauto-layout بذكاء، تُ suggest design systems متوافقة مع brand، تُ write UX copy بالفصحى واللهجة، تُ prototype flows تفاعلية، وتُ export specs للـ engineers — لل product وagencies وstartups في MENA.</p>
+      <p>المشكلة التي حلّتها: Figma AI 3 كان يُ struggle مع اتجاه RTL وArabic typography؛ الإصدار 4 يُ mirror layouts تلقائيًا، يُ Cairo وTajawal presets، يُ benchmark −44% وقت first draft في fintech app الرياض، يُ integration Jira وLinear لل tickets، يُ redlines لل developers بالعربية، يُ accessibility checks WCAG، ويُ org libraries مشتركة لل franchises.</p>
+      <p>القدرات الأساسية: Make Designs من text; First Draft لـ mobile وweb; Visual Search داخل org files; AI comments summaries; FigJam AI لل workshops; plugin API لل custom brand guardrails.</p>
+      <p>للمبدعين العرب: design studios — «Figma AI 4 Arabic sprint in 4 days» لل brands 3–12 screens. من يُ deliver 10 sprints/ربع بـ 1800–32000 دولار + retainer 120–980 دولار/شهر يبني «استوديو Figma AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Figma AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة design sprint (RTL UI، prototypes، dev handoff):</strong> 3–8 أيام — 1800–32000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل design system وAI prompts:</strong> — 120–980 دولار/شهر.</li>
+          <li><strong>Vertical kits (banking، health، e-commerce RTL):</strong> — 48–220 دولار/kit.</li>
+          <li><strong>دورات «تصميم ذكي بـ Figma AI بالعربية»:</strong> — 38–185 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Figma</span>
+        <span class="tag">Design AI</span>
+        <span class="tag">RTL</span>
+        <span class="tag">Product</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Airtable AI 4 Arabic: bases وautomations — من spreadsheet إلى ops engine بمحادثة!</h2>
+      <p class="article-lead">«نفس Excel يُدارّه ثلاثة أقسام — ولا أحد يثق بالأرقام». في 15 أكتوبر 2026، أطلقت <strong>Airtable</strong> <strong>AI 4 Arabic</strong>: مساعد فوق bases يُ create tables وfields من وصف عربي، يُ write formulas بلغة طبيعية، يُ build automations (Slack، email، webhooks)، يُ summarize records، يُ generate reports للإدارة RTL، يُ suggest views وdashboards — لل events وreal estate وmedia ops في الخليج ومصر.</p>
+      <p>المشكلة التي حلّتها: AI 3 كان يُ hallucinate field names؛ الإصدار 4 يُ schema validation، يُ benchmark −37% وقت «بناء base جديد» في production house دبي، يُ integration Salesforce وHubSpot، يُ permissions granular، يُ Arabic date وcurrency formats، ويُ Cobuilder agents لـ multi-step workflows.</p>
+      <p>القدرات الأساسية: Omni assistant في كل base; AI field types (summarize، classify، translate); Interface Designer AI; synced tables; enterprise SSO وaudit logs.</p>
+      <p>للمبدعين العرب: no-code consultants — «Airtable AI 4 Arabic ops hub in 7 days» لل teams 15–200 users. من يُ launch 8 hubs/ربع بـ 2400–45000 دولار + managed 160–1200 دولار/شهر يبني «مكتب Airtable AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Airtable AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة ops hub (bases، automations، interfaces RTL):</strong> 5–14 يومًا — 2400–45000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل data hygiene وworkflows:</strong> — 160–1200 دولار/شهر.</li>
+          <li><strong>Industry templates (events، CRM light، content calendar):</strong> — 55–240 دولار/template.</li>
+          <li><strong>دورات «عمليات ذكية بـ Airtable AI بالعربية»:</strong> — 42–195 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Airtable</span>
+        <span class="tag">No-Code</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Ops</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Zendesk AI Agents 4 Arabic: دعم وsales — tickets، WhatsApp، وCSAT يصعد!</h2>
+      <p class="article-lead">«300 ticket مفتوح — والفريق يُ copy-paste نفس الرد». في 15 أكتوبر 2026، أطلقت <strong>Zendesk</strong> <strong>AI Agents 4 Arabic</strong>: وكلاء فوق Support وSales وKnowledge تُ answer بالعربية مع citations من help center، تُ route حسب intent وsentiment، تُ suggest macros لل agents، تُ proactive outreach لل churn risk، تُ integrate WhatsApp Business وInstagram وvoice — لل telecom وtravel وe-commerce في MENA.</p>
+      <p>المشكلة التي حلّتها: Agents 3 كان يُ escalate كثيرًا على dialect؛ الإصدار 4 يُ Gulf وEgyptian tone packs، يُ benchmark +31% first-reply resolution في airline خليجي، يُ Trust Layer لل PII، يُ admin analytics على knowledge gaps، يُ Copilot لل supervisors، ويُ marketplace apps لل regional payment gateways.</p>
+      <p>القدرات الأساسية: Autonomous agents لـ tier-1; Agent Copilot في workspace; Generative replies مع approval; QA scoring automatic; Sunshine Conversations unified inbox; sandbox لل testing قبل go-live.</p>
+      <p>للمبدعين العرب: CX agencies — «Zendesk AI Agents 4 Arabic launch in 9 days» لل orgs 50–5000 agents. من يُ deploy 5 launches/ربع بـ 3500–72000 دولار + optimization 220–1800 دولار/شهر يبني «مركز Zendesk AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Zendesk AI Agents 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة agent launch (KB Arabic، flows، UAT، training):</strong> 6–18 يومًا — 3500–72000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل content وQA وanalytics:</strong> — 220–1800 دولار/شهر.</li>
+          <li><strong>Channel packs (WhatsApp، voice، social DMs):</strong> — 65–280 دولار/pack.</li>
+          <li><strong>دورات «خدمة عملاء ذكية بـ Zendesk AI بالعربية»:</strong> — 44–210 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Zendesk</span>
+        <span class="tag">AI Agents</span>
+        <span class="tag">CX</span>
+        <span class="tag">Support</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Perplexity Enterprise 4 Arabic: بحث مؤسسي — إجابات موثّقة من web وdocs وSlack!</h2>
+      <p class="article-lead">«المستشار يحتاج market sizing لقطاع logistics في مصر — والموعد غدًا». في 15 أكتوبر 2026، أطلقت <strong>Perplexity</strong> <strong>Enterprise 4 Arabic</strong>: answer engine لل organizations يُ search web وinternal connectors (Google Drive، SharePoint، Slack، Notion)، يُ respond بالعربية مع footnotes، يُ Pro Search multi-step لل due diligence، يُ Spaces لل teams، يُ admin controls وSSO، يُ no-training-on-data policy — لل consulting وlegal وinvestment وstrategy في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Enterprise 3 كان يُ mix languages في citations؛ الإصدار 4 يُ Arabic-first summaries، يُ benchmark −48% وقت research brief في advisory firm أبوظبي، يُ file upload PDFs عربية، يُ API لل internal portals، يُ usage caps per department، ويُ compliance modes لل regulated sectors.</p>
+      <p>القدرات الأساسية: Enterprise Pro Search; Internal knowledge connectors; Shared Spaces with prompts; Export to Word وSlides; Mobile app offline cache; SOC2 وGDPR documentation.</p>
+      <p>للمبدعين العرب: research freelancers وboutique consultancies — «Perplexity Enterprise 4 Arabic research desk in 3 days» لل firms 20–500 seats. من يُ sell 12 desks/ربع بـ 900–15000 دولار + subscription margin 15–25% يبني «مكتب research AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Perplexity Enterprise 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة research desk (connectors، Spaces، playbooks RTL):</strong> 2–6 أيام — 900–15000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل prompt libraries وquality review:</strong> — 85–650 دولار/شهر.</li>
+          <li><strong>Sector brief packs (fintech، logistics، energy MENA):</strong> — 40–175 دولار/pack.</li>
+          <li><strong>دورات «بحث استراتيجي بـ Perplexity Enterprise بالعربية»:</strong> — 35–168 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Perplexity</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Research</span>
+        <span class="tag">Knowledge</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 15-10-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="15-10-2026 -- 04-PM.html">
+          📰 15 أكتوبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Figma AI 4 Arabic · Airtable AI 4 Arabic · Zendesk AI Agents 4 Arabic · Perplexity Enterprise 4 Arabic</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "15-10-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "yُ",
+        "y\u0650",
+        "المشkلة",
+        "القدrات",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
