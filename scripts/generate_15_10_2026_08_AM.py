@@ -1,0 +1,231 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 15-10-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "15-10-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Glean AI 4 Arabic، Workday Illuminate AI 4 Arabic، Stripe Billing AI Copilot 4 Arabic، ClickUp Brain 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 15 أكتوبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">☀️ نشرة AI العالمية</span>
+      <h1>من Glean AI 4 Arabic الذي يُجيب «أين آخر عرض pricing؟» من Slack وDrive وNotion قبل أن تبرد قهوتك، إلى Workday Illuminate AI 4 Arabic الذي يُ draft خطة ترقية وonboarding بلهجة HR عربية، ومن Stripe Billing AI Copilot 4 Arabic الذي يُ explain لماذا تراجع MRR ويُ suggest pricing experiments آمنة، إلى ClickUp Brain 4 Arabic الذي يُحوّل chaos المشاريع إلى خطة تنفيذ وsummary للمدير — أربع قصص صباحية في 15 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُشعل يومه من أول ضوء!</h1>
+      <p class="hero-sub">صباحٌ للمعرفة والموارد البشرية والاشتراكات والإنتاجية: مستندات مُ scatter، سياسات HR معقدة، churn غامض، وtasks تتكاثر. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 15 أكتوبر 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Glean AI 4 Arabic: بحث مؤسسي ذكي — إجابات موثّقة من كل أدواتك بلسان فريقك!</h2>
+      <p class="article-lead">«تذكّرنا قرار مجلس الإدارة عن التوسع في مصر — والملف في مكان ما بين Slack وSharePoint». في 15 أكتوبر 2026، أطلقت <strong>Glean</strong> <strong>AI 4 Arabic</strong>: منصة enterprise search وwork AI تُ index Jira وConfluence وGoogle Drive وMicrosoft 365 وSlack وSalesforce، تُ answer بالعربية مع citations، تُ respect permissions كما في المصدر، تُ build personal وteam assistants، تُ automate knowledge refresh، وتُ measure time-to-answer — لل tech وfinance وconsulting في MENA.</p>
+      <p>المشكلة التي حلّتها: Glean 3 كان يُ struggle مع Arabic PDFs الممسوحة؛ الإصدار 4 يُ OCR عربي محسّن، يُ semantic chunking لل dialects، يُ benchmark −52% وقت «البحث عن الملف الصحيح» في bank digital دبي، يُ human feedback loop، يُ integration ServiceNow وZendesk، يُ custom connectors لل data rooms، ويُ admin analytics على gaps في المعرفة.</p>
+      <p>القدرات الأساسية: Glean Chat في browser وmobile; agents لـ onboarding وsales enablement; «Ask my manager's docs» مع policy; Arabic summarization لل meetings; API لل internal portals; EU وUAE residency options.</p>
+      <p>للمبدعين العرب: IT consultancies — «Glean AI 4 Arabic knowledge hub in 10 days» لل orgs 200–8000 employees. من يُ deploy 6 hubs/ربع بـ 4200–62000 دولار + care 280–2100 دولار/شهر يبني «مكتب Glean AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Glean AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة knowledge hub (connectors، agents، governance RTL):</strong> 8–16 يومًا — 4200–62000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل indexing وcontent hygiene:</strong> — 280–2100 دولار/شهر.</li>
+          <li><strong>Vertical packs (legal، banking، healthcare):</strong> — 58–240 دولار/pack.</li>
+          <li><strong>دورات «معرفة مؤسسية ذكية بـ Glean بالعربية»:</strong> — 46–218 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Glean</span>
+        <span class="tag">Enterprise Search</span>
+        <span class="tag">Knowledge</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Workday Illuminate AI 4 Arabic: HR وpayroll وskills — copilot يفهم سياساتك ولهجة موظفيك!</h2>
+      <p class="article-lead">«موظف يسأل عن end-of-service calculation — وHR ينسخ من PDF قديم». في 15 أكتوبر 2026، أطلقت <strong>Workday</strong> <strong>Illuminate AI 4 Arabic</strong>: طبقة AI فوق HCM وFinancials تُ answer policy questions بالعربية، تُ draft job descriptions وperformance reviews RTL، تُ suggest learning paths من skills graph، تُ assist managers في headcount planning، تُ automate case routing لل leave وvisa، وتُ keep audit trail — لل enterprises وholding groups في الخليج ومصر والأردن.</p>
+      <p>المشكلة التي حلّتها: Illuminate 2 كان يُ confuse بين labor laws؛ الإصدار 4 يُ jurisdiction packs (UAE، KSA، Egypt)، يُ benchmark −41% ticket volume لـ tier-1 HR في conglomerate سعودي، يُ integration Teams وSlack employee self-service، يُ manager nudges قبل review cycles، يُ anonymized analytics على engagement، ويُ partner APIs لل payroll outsourcers.</p>
+      <p>القدرات الأساسية: Illuminate Assistant في mobile; skills-based succession; Arabic offer letters; workforce planning scenarios; compliance alerts; sandbox لل HR قبل go-live.</p>
+      <p>للمبدعين العرب: HR tech partners — «Illuminate AI 4 Arabic employee experience in 14 days» لل orgs 500–25000 seats. من يُ launch 4 experiences/ربع بـ 6800–95000 دولار + managed 420–3200 دولار/شهر يبني «استوديو Workday AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Workday Illuminate AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة employee experience (Illuminate، policies RTL، change mgmt):</strong> 10–22 يومًا — 6800–95000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل content وpolicy updates:</strong> — 420–3200 دولار/شهر.</li>
+          <li><strong>Country compliance micro-packs:</strong> — 85–320 دولار/pack.</li>
+          <li><strong>دورات «HR ذكي بـ Workday Illuminate بالعربية»:</strong> — 55–265 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Workday</span>
+        <span class="tag">Illuminate AI</span>
+        <span class="tag">HR</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Stripe Billing AI Copilot 4 Arabic: اشتراكات وMRR — تشخيص churn وتسعير بضغطة!</h2>
+      <p class="article-lead">«MRR هبط 3% — والفريق يُجادل في Slack من دون root cause». في 15 أكتوبر 2026، أطلقت <strong>Stripe</strong> <strong>Billing AI Copilot 4 Arabic</strong>: مساعد فوق Billing وRevenue Recognition وSigma يُ parse أسئلة finance بالعربية، يُ attribute churn إلى cohorts وplans وpayment failures، يُ recommend dunning وcoupon strategies، يُ simulate price changes، يُ draft investor metrics narratives RTL، يُ alert anomalies — لل SaaS وmarketplaces وsubscription media في MENA.</p>
+      <p>المشكلة التي حلّتها: Billing dashboards كانت لل experts؛ Copilot 4 يُ natural language على Arabic finance terms، يُ benchmark −38% وقت monthly close prep في edtech قطر، يُ integration QuickBooks وXero وNetSuite، يُ guardrails على destructive plan migrations، يُ multi-currency MENA، ويُ partner dashboard لل agencies.</p>
+      <p>القدرات الأساسية: Copilot chat في Stripe Dashboard; scheduled CFO briefs; usage-based billing insights; tax وVAT hints لل region; API hooks لل internal BI; certification path لل consultants.</p>
+      <p>للمبدعين العرب: SaaS finance freelancers — «Billing Copilot 4 Arabic revenue clinic in 6 days» لل startups Series A–C. من يُ run 12 clinics/ربع بـ 2400–28000 دولار + retainer 180–1400 دولار/شهر يبني «عيادة Stripe AI عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Stripe Billing AI Copilot 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة revenue clinic (Copilot، metrics، dunning RTL):</strong> 4–10 أيام — 2400–28000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل experiments وreporting:</strong> — 180–1400 دولار/شهر.</li>
+          <li><strong>Vertical playbooks (SaaS، creator subs، B2B marketplaces):</strong> — 45–195 دولار/playbook.</li>
+          <li><strong>دورات «Finance ops ذكي بـ Stripe Billing بالعربية»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Stripe</span>
+        <span class="tag">Billing Copilot</span>
+        <span class="tag">SaaS</span>
+        <span class="tag">Finance</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>ClickUp Brain 4 Arabic: مشاريع وtasks وdocs — من فوضى إلى خطة تنفيذ بلسان الفريق!</h2>
+      <p class="article-lead">«50 task مفتوح — ولا أحد يعرف الأولوية الحقيقية». في 15 أكتوبر 2026، أطلقت <strong>ClickUp</strong> <strong>Brain 4 Arabic</strong>: AI layer فوق workspaces يُ summarize threads، يُ generate subtasks من brief عربي، يُ write status updates لل executives، يُ auto-prioritize حسب deadlines وdependencies، يُ connect goals وOKRs، يُ search across docs وwhiteboards — لل agencies وproduct teams وops في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Brain 3 كان يُ overload notifications؛ الإصدار 4 يُ focus mode، يُ benchmark −33% meeting time في marketing agency أبوظبي، يُ integration Slack وGmail وFigma، يُ Arabic voice capture لل field teams، يُ client-facing summaries (redacted)، ويُ templates Ramadan campaign sprints.</p>
+      <p>القدرات الأساسية: Brain Ask في كل view; Autopilot لـ recurring workflows; AI fields في lists; time estimates calibrated; guest access controls; mobile offline summaries.</p>
+      <p>للمبدعين العرب: PM consultants — «Brain 4 Arabic ops accelerator in 5 days» لل teams 10–120 users. من يُ onboard 15 accelerators/ربع بـ 1200–18000 دولار + ops 95–780 دولار/شهر يبني «غرفة ClickUp AI عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من ClickUp Brain 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة ops accelerator (Brain، templates، training RTL):</strong> 3–9 أيام — 1200–18000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل workflows وreporting:</strong> — 95–780 دولار/شهر.</li>
+          <li><strong>Industry sprint kits (events، real estate، gaming):</strong> — 35–165 دولار/kit.</li>
+          <li><strong>دورات «إدارة مشاريع ذكية بـ ClickUp Brain بالعربية»:</strong> — 32–158 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">ClickUp</span>
+        <span class="tag">Brain 4</span>
+        <span class="tag">PM</span>
+        <span class="tag">Agencies</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 15-10-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="15-10-2026 -- 08-AM.html">
+          📰 15 أكتوبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Glean AI 4 Arabic · Workday Illuminate AI 4 Arabic · Stripe Billing AI Copilot 4 Arabic · ClickUp Brain 4 Arabic</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "15-10-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "yُ",
+        "y\u0650",
+        "المشkلة",
+        "القدrات",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+
+
+if __name__ == "__main__":
+    main()
