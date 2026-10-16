@@ -1,0 +1,250 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 16-10-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "16-10-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Adobe Firefly Enterprise 4 Arabic، Webflow AI Sites 4 Arabic، MongoDB Atlas AI 4 Arabic، Miro AI Workflows 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 16 أكتوبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من Adobe Firefly Enterprise 4 Arabic الذي يُحوّل brief عربي إلى فيديو وصور brand-safe قبل أن يُطفأ ضوء المكتب، إلى Webflow AI Sites 4 Arabic الذي يُ launch موقعًا RTL وCMS وSEO في جلسة واحدة، ومن MongoDB Atlas AI 4 Arabic الذي يُ answer أسئلة البيانات ويُبني vector apps دون migration مؤلم، إلى Miro AI Workflows 4 Arabic الذي يُحوّل workshop فوضوي إلى خطة تنفيذ وJira tickets — أربع قصص مسائية في 16 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُغلق مع آخر إشعار!</h1>
+      <p class="hero-sub">مساءٌ للإبداع والويب والبيانات والاستراتيجية: creative directors يطلبون فيديو سريعًا، agencies تُسلّم sites قبل نهاية الأسبوع، فرق data تبحث عن answers من MongoDB مباشرة، وconsultants يريدون workshops تُترجم إلى action. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 16 أكتوبر 2026</span>
+        <span>🌇 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Adobe Firefly Enterprise 4 Arabic: فيديو وصور — brand-safe، RTL، وحقوق واضحة للوكالات!</h2>
+      <p class="article-lead">«العميل يريد spot رمضان — والمخزون visual لا يكفي والموعد غدًا». في 16 أكتوبر 2026، أطلقت <strong>Adobe</strong> <strong>Firefly Enterprise 4 Arabic</strong>: suite إبداع مؤسسي يُ generate video clips وstill images من prompt عربي، يُ respect Brand Brain (colors، logos، tone)، يُ train على assets مرخّصة للشركة فقط، يُ export إلى Premiere وAfter Effects وExpress، ويُ audit trail لل compliance — لل agencies وmedia houses وretail chains في MENA.</p>
+      <p>المشكلة التي حلّتها: Firefly Enterprise 3 كان video قصيرًا جدًا على dialects؛ الإصدار 4 يُ MSA وGulf وEgyptian voice-over scripts، يُ benchmark −41% وقت «first cut» في telecom campaign السعودية، يُ gen-extend لل b-roll، يُ Content Credentials مدمجة، يُ API لل DAM pipelines، يُ indemnity enterprise لل commercial use، ويُ integration Creative Cloud Libraries RTL.</p>
+      <p>القدرات الأساسية: Text-to-video وimage-to-video; Firefly Boards لل moodboards; Custom Models على brand assets; Arabic typography في overlays; Team quotas وgovernance; Partner program Dubai وCairo.</p>
+      <p>للمبدعين العرب: production boutiques — «Firefly Enterprise 4 Arabic campaign kit in 5 days» لل brands 3–20 assets. من يُ deliver 9 kits/ربع بـ 2200–38000 دولار + retainer 140–1050 دولار/شهر يبني «استوديو Firefly عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Adobe Firefly Enterprise 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة campaign kit (video، stills، brand guardrails، handoff):</strong> 4–12 يومًا — 2200–38000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل prompts وseasonal refreshes:</strong> — 140–1050 دولار/شهر.</li>
+          <li><strong>Vertical packs (F&amp;B، fashion، fintech ads):</strong> — 52–228 دولار/pack.</li>
+          <li><strong>دورات «إنتاج إعلاني ذكي بـ Firefly Enterprise بالعربية»:</strong> — 44–205 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Adobe</span>
+        <span class="tag">Firefly</span>
+        <span class="tag">Video AI</span>
+        <span class="tag">Creative</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Webflow AI Sites 4 Arabic: مواقع RTL — design، CMS، SEO، وforms بمحادثة واحدة!</h2>
+      <p class="article-lead">«نحتاج landing بالعربية مع blog وCRM — والمطور مشغول أسبوعين». في 16 أكتوبر 2026، أطلقت <strong>Webflow</strong> <strong>AI Sites 4 Arabic</strong>: builder يُ generate full sites RTL من brief عربي، يُ style sections بذكاء، يُ populate CMS collections، يُ write meta tags وschema لل SEO المحلي، يُ connect forms إلى HubSpot وMailchimp، ويُ publish على Webflow hosting مع CDN MENA edge — لل startups وagencies وreal estate في الخليج ومصر.</p>
+      <p>المشكلة التي حلّتها: AI Sites 3 كان يُ break Arabic line-height؛ الإصدار 4 يُ typography presets (Cairo، IBM Plex Arabic)، يُ benchmark −48% وقت «site go-live» في proptech دبي، يُ localization duplicate EN↔AR، يُ accessibility checks، يُ Client Billing لل freelancers، ويُ export clean HTML/CSS لل dev teams.</p>
+      <p>القدرات الأساسية: Section-level regen; AI copy لل hero وFAQs; Ecommerce starter RTL; Membership وgated content; Analytics dashboard; SOC2 وSSO enterprise.</p>
+      <p>للمبدعين العرب: Webflow partners — «AI Sites 4 Arabic launch in 3 days» لل SMBs 5–40 pages. من يُ ship 14 sites/ربع بـ 950–18500 دولار + care plan 85–620 دولار/شهر يبني «مكتب Webflow AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Webflow AI Sites 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة site launch (RTL design، CMS، SEO، integrations):</strong> 2–7 أيام — 950–18500 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل content updates وA/B:</strong> — 85–620 دولار/شهر.</li>
+          <li><strong>Industry starters (clinics، restaurants، SaaS landing):</strong> — 38–165 دولار/starter.</li>
+          <li><strong>دورات «مواقع Webflow AI بالعربية بدون كود»:</strong> — 36–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Webflow</span>
+        <span class="tag">No-Code</span>
+        <span class="tag">RTL</span>
+        <span class="tag">SEO</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>MongoDB Atlas AI 4 Arabic: بياناتك تُجيب — natural language، vectors، وagents فوق cluster!</h2>
+      <p class="article-lead">«عندنا ملايين events — وال product manager يسأل بالعربية ولا أحد يكتب aggregation». في 16 أكتوبر 2026، أطلقت <strong>MongoDB</strong> <strong>Atlas AI 4 Arabic</strong>: copilot فوق Atlas يُ translate سؤال عربي إلى pipeline آمن، يُ suggest indexes، يُ build Vector Search على documents، يُ deploy AI agents مع Function Calling، ويُ explain slow queries — لل fintech وmarketplaces وgaming studios في MENA.</p>
+      <p>المشكلة التي حلّتها: Atlas AI 3 كان read-only؛ الإصدار 4 يُ governed write actions (staging only)، يُ benchmark −35% وقت «build RAG POC» في e-commerce مصري، يُ Arabic OCR ingest ل PDFs، يُ integration Voyage وCohere embeddings، يُ audit logs PDPL-ready، ويُ partner SI program في Riyadh Tech Hub.</p>
+      <p>القدرات الأساسية: Natural language to MQL; Vector Search wizard; Agent Builder templates; Data masking لل PII; Multi-cloud (AWS، Azure، GCP); Charts AI summaries RTL.</p>
+      <p>للمبدعين العرب: data freelancers وdev shops — «Atlas AI 4 Arabic RAG in 8 days» لل apps 1M–500M docs. من يُ deliver 6 RAG stacks/ربع بـ 4100–78000 دولار + managed 280–2100 دولار/شهر يبني «مكتب MongoDB AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من MongoDB Atlas AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة RAG (vectors، agents، security، UAT):</strong> 6–20 يومًا — 4100–78000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل index tuning وprompt QA:</strong> — 280–2100 دولار/شهر.</li>
+          <li><strong>Vertical accelerators (payments، logistics، edtech):</strong> — 62–265 دولار/accelerator.</li>
+          <li><strong>دورات «MongoDB Atlas AI وagents بالعربية»:</strong> — 48–225 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">MongoDB</span>
+        <span class="tag">Atlas AI</span>
+        <span class="tag">RAG</span>
+        <span class="tag">Data</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Miro AI Workflows 4 Arabic: workshops تُ translate — plans، diagrams، وJira في دقائق!</h2>
+      <p class="article-lead">«اجتماع استراتيجي ثلاث ساعات — ولا أحد يعرف ماذا نفّذنا». في 16 أكتوبر 2026، أطلقت <strong>Miro</strong> <strong>AI Workflows 4 Arabic</strong>: طبقة فوق boards تُ listen ل sticky notes وvoice (Arabic)، تُ cluster ideas، تُ generate roadmaps وuser journeys RTL، تُ export tasks إلى Jira وAsana وMonday، تُ summarize لل leadership، وتُ template workshops (OKRs، retros، discovery) — لل consultancies وproduct orgs وHR في GCC.</p>
+      <p>المشكلة التي حلّتها: Miro AI 3 كان summaries إنجليزية فقط؛ الإصدار 4 يُ bilingual summaries EN+AR، يُ benchmark −39% وقت «workshop to backlog» في digital agency قطر، يُ Sidekick facilitator mode، يُ enterprise data residency EU/US، يُ SSO وSCIM، ويُ marketplace templates MENA.</p>
+      <p>القدرات الأساسية: AI clustering وvoting; Diagram gen (flow، org، customer map); Action item extraction; Integrations 250+; Live embed في Zoom Teams; Mobile capture لل whiteboards.</p>
+      <p>للمبدعين العرب: facilitation coaches — «Miro AI Workflows 4 Arabic sprint in 2 days» لل teams 10–500. من يُ run 11 workshops/ربع بـ 680–14200 دولار + playbook subscription 72–540 دولار/شهر يبني «استوديو Miro AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Miro AI Workflows 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة facilitated sprint (board، AI workflow، tool sync):</strong> 1–4 أيام — 680–14200 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل templates وretros:</strong> — 72–540 دولار/شهر.</li>
+          <li><strong>Playbook packs (product discovery، change mgmt، HR):</strong> — 35–148 دولار/playbook.</li>
+          <li><strong>دورات «ورش استراتيجية بـ Miro AI بالعربية»:</strong> — 32–158 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Miro</span>
+        <span class="tag">Workshops</span>
+        <span class="tag">Product</span>
+        <span class="tag">Collaboration</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 16-10-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="16-10-2026 -- 04-PM.html">
+          📰 16 أكتوبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">Adobe Firefly Enterprise 4 Arabic · Webflow AI Sites 4 Arabic · MongoDB Atlas AI 4 Arabic · Miro AI Workflows 4 Arabic</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "16-10-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    old = "news/16-10-2026 -- 08-AM.html"
+    new = "news/16-10-2026 -- 04-PM.html"
+    topics = "Adobe Firefly Enterprise 4 Arabic · Webflow AI Sites 4 Arabic · MongoDB Atlas AI 4 Arabic · Miro AI Workflows 4 Arabic"
+    content = README.read_text(encoding="utf-8")
+    if new not in content:
+        content = content.replace(
+            f"[`{old}`](news/16-10-2026%20--%2008-AM.html) — أحدث إصدار",
+            f"[`{new}`](news/16-10-2026%20--%2004-PM.html) — أحدث إصدار ({topics})",
+        )
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "yُ",
+        "y\u0650",
+        "المشkلة",
+        "mezclar",
+        "وyُ",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()

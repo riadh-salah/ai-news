@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/16-10-2026 -- 08-AM.html`](news/16-10-2026%20--%2008-AM.html) — أحدث إصدار (4 أخبار + أفكار ربح من AI)
+- [`news/16-10-2026 -- 04-PM.html`](news/16-10-2026%20--%2004-PM.html) — أحدث إصدار (Adobe Firefly Enterprise 4 Arabic · Webflow AI Sites 4 Arabic · MongoDB Atlas AI 4 Arabic · Miro AI Workflows 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
