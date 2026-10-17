@@ -1,0 +1,251 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 17-10-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "17-10-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — OpenAI ChatGPT Atlas 4 Arabic، Notion AI Agents 4 Arabic، Canva Magic Studio 4 Arabic، Shopify Sidekick AI 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 17 أكتوبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من OpenAI ChatGPT Atlas 4 Arabic الذي يتصفّح الويب نيابةً عنك ويُرجع تقارير RTL قبل أن تُغلق تبويبك العاشر، إلى Notion AI Agents 4 Arabic الذي يُحوّل wiki فوضويًا إلى مشاريع وتذكيرات تعمل وحدها، ومن Canva Magic Studio 4 Arabic الذي يُولّد هوية بصرية كاملة من جملة عربية واحدة، إلى Shopify Sidekick AI 4 Arabic الذي يُقترح bundles وعروضًا ورسائل WhatsApp لمتجرك — أربع قصص مسائية في 17 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء المساء!</h1>
+      <p class="hero-sub">مساءٌ للتصفّح الذكي والمعرفة والتصميم والتجارة: researchers يريدون answers من الويب الحيّ، فرق product تُدير docs كـ ops، creators يُسلّمون brand kits قبل deadline، وتجّار e-commerce يطلبون growth من dashboard واحد. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 17 أكتوبر 2026</span>
+        <span>🌇 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>OpenAI ChatGPT Atlas 4 Arabic: متصفّح AI — بحث حيّ، تقارير RTL، ومهام ويب بموافقتك!</h2>
+      <p class="article-lead">«أحتاج مقارنة أسعار موردين في ثلاث دول — ولا وقت لـ 40 تبويبًا». في 17 أكتوبر 2026، أطلقت <strong>OpenAI</strong> <strong>ChatGPT Atlas 4 Arabic</strong>: متصفّح مدمج مع agent يُنفّذ journeys على الويب (compare، fill forms، export tables)، يُ summarize بالعربية الفصحى واللهجات، يُ cite sources مع snapshots، يُ respect enterprise allowlists وPII redaction، ويُ hand off إلى human قبل أي checkout أو send — لل analysts وprocurement وjournalists في MENA.</p>
+      <p>المشكلة التي حلّتها: Atlas 3 كان يُ weak على Arabic search queries وRTL tables؛ الإصدار 4 يُ OCR لل PDFs العربية، يُ benchmark −49% وقت «question to cited report» في media desk إماراتي، يُ multi-tab memory، يُ scheduled runs (يومي/أسبوعي)، يُ SSO وaudit logs، يُ integration Slack Teams مع ملخصات RTL، ويُ partner program لل consultancies في الرياض ودبي.</p>
+      <p>القدرات الأساسية: Live web browse + structured extracts; Arabic report templates; Form assist مع pause-before-submit; Export إلى Docs Notion CSV; Team playbooks; Mobile companion لل approvals.</p>
+      <p>للمبدعين العرب: research boutiques وvirtual assistants — «Atlas 4 Arabic intel pack in 48h» لل teams 5–200 seats. من يُ deliver 10 packs/ربع بـ 1400–28500 دولار + retainer 120–890 دولار/شهر يبني «مكتب Atlas عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OpenAI ChatGPT Atlas 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة intel pack (playbooks، sources، reports، training):</strong> 2–7 أيام — 1400–28500 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل monitors وQA على الاستشهادات:</strong> — 120–890 دولار/شهر.</li>
+          <li><strong>Vertical briefs (procurement، competitive intel، compliance):</strong> — 48–210 دولار/brief.</li>
+          <li><strong>دورات «Atlas للبحث والويب بالعربية»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">ChatGPT Atlas</span>
+        <span class="tag">Browser AI</span>
+        <span class="tag">Research</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Notion AI Agents 4 Arabic: ويكي يتحرّك — مهام، تذكيرات، وsync مع Jira وSlack!</h2>
+      <p class="article-lead">«كل المعرفة في Notion — لكن لا أحد يُحدّث status بعد الاجتماع». في 17 أكتوبر 2026، أطلقت <strong>Notion</strong> <strong>AI Agents 4 Arabic</strong>: agents داخل workspace تُقرأ pages بالعربية، تُ extract action items، تُ assign owners، تُ open tasks في Notion أو Jira، تُ draft weekly updates RTL لل leadership، وتُ answer أسئلة الفريق من docs موثّقة — لل startups وagencies وops teams في الخليج ومصر.</p>
+      <p>المشكلة التي حلّتها: Notion AI 3 كان summaries فقط؛ Agents 4 يُ dialect-aware، يُ benchmark −43% «meeting notes to closed tasks» في SaaS مصري، يُ permissions per database، يُ templates لل OKRs وSOPs، يُ webhook triggers، يُ data residency EU، ويُ marketplace packs من partners عرب.</p>
+      <p>القدرات الأساسية: Agent builder no-code; Multi-page context; Calendar وreminder nodes; Bilingual page gen; Admin analytics; API لل custom tools.</p>
+      <p>للمبدعين العرب: ops consultants — «Notion Agents 4 Arabic workspace in 6 days» لل orgs 20–800 users. من يُ ship 8 rollouts/ربع بـ 3200–42000 دولار + care 180–1350 دولار/شهر يبني «مكتب Notion AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Notion AI Agents 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة workspace rollout (structure، agents، SOPs، training):</strong> 4–14 يومًا — 3200–42000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل agent tuning وgovernance:</strong> — 180–1350 دولار/شهر.</li>
+          <li><strong>Industry kits (agency PM، legal ops، HR onboarding):</strong> — 55–248 دولار/kit.</li>
+          <li><strong>دورات «Notion Agents للفرق العربية»:</strong> — 46–215 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Notion</span>
+        <span class="tag">AI Agents</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Knowledge</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Canva Magic Studio 4 Arabic: استوديو كامل — شعار، reel، pitch deck، وbrand voice!</h2>
+      <p class="article-lead">«العميل يريد rebrand كاملًا — والميزانية لا تسمح بـ agency شهر». في 17 أكتوبر 2026، أطلقت <strong>Canva</strong> <strong>Magic Studio 4 Arabic</strong>: suite يُ generate logo variants وcolor systems وtypography RTL، يُ produce Reels وStories من script عربي، يُ build pitch decks مع charts وtalking points، يُ maintain Brand Kit synced لل team، ويُ export print وdigital — لل SMBs وinfluencers وfranchise chains في MENA.</p>
+      <p>المشكلة التي حلّتها: Magic Studio 3 كان kerning ضعيفًا على Arabic ligatures؛ الإصدار 4 يُ Noto وCairo presets، يُ benchmark −46% وقت «brief to client deck» في F&amp;B chain سعودي، يُ Magic Write لل captions MSA/Gulf/Egyptian، يُ video gen 15–60s، يُ Teams approvals، ويُ reseller program لل designers العرب.</p>
+      <p>القدرات الأساسية: Magic Design وResize; AI photo/video; Presentation narrator; Social scheduler; Print-ready PDF/X; Enterprise SSO.</p>
+      <p>للمبدعين العرب: freelance brand shops — «Magic Studio 4 Arabic brand sprint in 4 days» لل clients 1–15 SKUs. من يُ deliver 14 sprints/ربع بـ 950–19200 دولار + subscription care 75–580 دولار/شهر يبني «استوديو Canva عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Canva Magic Studio 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة brand sprint (logo، kit، social pack، deck):</strong> 3–9 أيام — 950–19200 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل content calendar وA/B creatives:</strong> — 75–580 دولار/شهر.</li>
+          <li><strong>Ramadan وseasonal packs (ads، stories، offers):</strong> — 38–175 دولار/pack.</li>
+          <li><strong>دورات «Magic Studio للعلامات العربية»:</strong> — 32–158 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Canva</span>
+        <span class="tag">Magic Studio</span>
+        <span class="tag">Design</span>
+        <span class="tag">Branding</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Shopify Sidekick AI 4 Arabic: شريك متجر — bundles، pricing، WhatsApp، وcopy يبيع!</h2>
+      <p class="article-lead">«المبيعات هادئة — ولا أعرف أي SKU أُ promote الليلة». في 17 أكتوبر 2026، أطلقت <strong>Shopify</strong> <strong>Sidekick AI 4 Arabic</strong> داخل <strong>Shopify Admin</strong>: copilot يُ analyze inventory وmargins، يُ suggest bundles وdiscounts، يُ write product descriptions وWhatsApp broadcasts RTL، يُ forecast stock، يُ draft email flows، ويُ explain analytics لل owner غير التقني — لل DTC وcross-border sellers في السعودية ومصر والإمارات.</p>
+      <p>المشكلة التي حلّتها: Sidekick 3 كان English-first؛ الإصدار 4 يُ optimize Arabic SEO keywords، يُ benchmark +22% AOV في beauty DTC خليجي بعد 6 أسابيع، يُ integrate Salla export path، يُ suggest Meta ads copy، يُدرج ملاحظات امتثال consumer protection، يُدير multi-store dashboard، ويُ offer partner certifications في Cairo.</p>
+      <p>القدرات الأساسية: Ask Sidekick chat RTL; One-click campaign drafts; Inventory alerts; Review reply assist; Markets expansion tips; POS sync لل retail hybrid.</p>
+      <p>للمبدعين العرب: Shopify experts — «Sidekick AI 4 Arabic growth sprint in 5 days» لل stores 500–50k orders/year. من يُ ship 12 sprints/ربع بـ 880–22400 دولار + optimization 85–640 دولار/شهر يبني «مكتب Sidekick عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Shopify Sidekick AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة growth sprint (audit، bundles، copy، flows، training):</strong> 4–11 يومًا — 880–22400 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لل campaigns وSidekick prompts:</strong> — 85–640 دولار/شهر.</li>
+          <li><strong>Niche playbooks (modest fashion، halal supplements، home decor):</strong> — 35–162 دولار/playbook.</li>
+          <li><strong>دورات «Sidekick AI لأصحاب المتاجر العرب»:</strong> — 28–142 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Shopify</span>
+        <span class="tag">Sidekick AI</span>
+        <span class="tag">E-commerce</span>
+        <span class="tag">Growth</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 17-10-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = """      <li>
+        <a href="17-10-2026 -- 04-PM.html">
+          📰 17 أكتوبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">OpenAI ChatGPT Atlas 4 Arabic · Notion AI Agents 4 Arabic · Canva Magic Studio 4 Arabic · Shopify Sidekick AI 4 Arabic</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "17-10-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    old = "news/17-10-2026 -- 08-AM.html"
+    new = "news/17-10-2026 -- 04-PM.html"
+    topics = "OpenAI ChatGPT Atlas 4 Arabic · Notion AI Agents 4 Arabic · Canva Magic Studio 4 Arabic · Shopify Sidekick AI 4 Arabic"
+    content = README.read_text(encoding="utf-8")
+    if new not in content:
+        content = content.replace(
+            f"[`{old}`](news/17-10-2026%20--%2008-AM.html) — أحدث إصدار",
+            f"[`{new}`](news/17-10-2026%20--%2004-PM.html) — أحدث إصدار ({topics})",
+        )
+        with open(README, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "y\u0650",
+        "المشkلة",
+        "mezclar",
+        "وyُ",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if "yُ" in text:
+        raise SystemExit("ERROR: mixed-script typo found: yُ")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
