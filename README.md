@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/16-10-2026 -- 04-PM.html`](news/16-10-2026%20--%2004-PM.html) — أحدث إصدار (Adobe Firefly Enterprise 4 Arabic · Webflow AI Sites 4 Arabic · MongoDB Atlas AI 4 Arabic · Miro AI Workflows 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/17-10-2026 -- 12-AM.html`](news/17-10-2026%20--%2012-AM.html) — أحدث إصدار (Anthropic Claude Code Enterprise 4 Arabic · Google Vids AI 4 Arabic · Splunk AI Assistant 4 Arabic · Make.com AI Agents 4 Arabic) (Adobe Firefly Enterprise 4 Arabic · Webflow AI Sites 4 Arabic · MongoDB Atlas AI 4 Arabic · Miro AI Workflows 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
