@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/18-10-2026 -- 12-AM.html`](news/18-10-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Power Pages Copilot 4 Arabic · Calendly AI Scheduling 4 Arabic · SendGrid Email AI 4 Arabic · NVIDIA NIM Agent Blueprints 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/18-10-2026 -- 08-AM.html`](news/18-10-2026%20--%2008-AM.html) — أحدث إصدار (Dropbox Dash Enterprise 4 Arabic · Asana AI Teammates 4 Arabic · DocuSign Agreement AI 4 Arabic · Twilio CustomerAI 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
