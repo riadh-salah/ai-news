@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/18-10-2026 -- 04-PM.html`](news/18-10-2026%20--%2004-PM.html) — أحدث إصدار (ElevenLabs Agents 4 Arabic · Pendo AI Guides 4 Arabic · Sentry Seer AI 4 Arabic · Deel AI Workforce 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/19-10-2026 -- 12-AM.html`](news/19-10-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Copilot Studio 4 Arabic · Coda AI Brain 4 Arabic · Amplitude AI Analyst 4 Arabic · Oracle OCI Generative AI Agents 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
