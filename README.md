@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/19-10-2026 -- 12-AM.html`](news/19-10-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Copilot Studio 4 Arabic · Coda AI Brain 4 Arabic · Amplitude AI Analyst 4 Arabic · Oracle OCI Generative AI Agents 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/19-10-2026 -- 08-AM.html`](news/19-10-2026%20--%2008-AM.html) — أحدث إصدار (Microsoft Viva Copilot 4 Arabic · Adobe Acrobat AI Assistant 4 Arabic · SAP SuccessFactors AI Companion 4 Arabic · Salesforce Marketing Cloud AI 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
