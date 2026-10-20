@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/19-10-2026 -- 04-PM.html`](news/19-10-2026%20--%2004-PM.html) — أحدث إصدار (GitHub Copilot Workspace 4 Arabic · HubSpot Breeze AI 4 Arabic · ServiceNow Now Assist 4 Arabic · Zendesk AI Agents 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/20-10-2026 -- 12-AM.html`](news/20-10-2026%20--%2012-AM.html) — أحدث إصدار (Lovable AI 4 Arabic · UiPath Autopilot 4 Arabic · ElevenLabs Dubbing Studio 4 Arabic · Cisco Webex AI Agent 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
