@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/20-10-2026 -- 12-AM.html`](news/20-10-2026%20--%2012-AM.html) — أحدث إصدار (Lovable AI 4 Arabic · UiPath Autopilot 4 Arabic · ElevenLabs Dubbing Studio 4 Arabic · Cisco Webex AI Agent 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/20-10-2026 -- 08-AM.html`](news/20-10-2026%20--%2008-AM.html) — أحدث إصدار (Anthropic Claude for Work 4 Arabic · Google NotebookLM Plus 4 Arabic · HashiCorp Terraform AI Assistant 4 Arabic · Celonis Process Intelligence 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
