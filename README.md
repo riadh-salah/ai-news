@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/21-10-2026 -- 08-AM.html`](news/21-10-2026%20--%2008-AM.html) — أحدث إصدار (OpenAI Codex Cloud 4 Arabic · Perplexity Comet Pro 4 Arabic · Figma AI Dev Mode 4 Arabic · HubSpot Breeze Agents 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/21-10-2026 -- 04-PM.html`](news/21-10-2026%20--%2004-PM.html) — أحدث إصدار (Salesforce Agentforce 4 Arabic · Notion AI Agents 4 Arabic · Runway Gen-4 Turbo 4 Arabic · Stripe Revenue Intelligence 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
