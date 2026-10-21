@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/21-10-2026 -- 12-AM.html`](news/21-10-2026%20--%2012-AM.html) — أحدث إصدار (Google Gemini Deep Research 4 Arabic · Amazon Q Developer 4 Arabic · JetBrains Junie 4 Arabic · Typeform AI Insights 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/21-10-2026 -- 08-AM.html`](news/21-10-2026%20--%2008-AM.html) — أحدث إصدار (OpenAI Codex Cloud 4 Arabic · Perplexity Comet Pro 4 Arabic · Figma AI Dev Mode 4 Arabic · HubSpot Breeze Agents 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 

@@ -1,0 +1,269 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 21-10-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "21-10-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "OpenAI Codex Cloud 4 Arabic · Perplexity Comet Pro 4 Arabic · "
+    "Figma AI Dev Mode 4 Arabic · HubSpot Breeze Agents 4 Arabic"
+)
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — OpenAI Codex Cloud 4 Arabic، Perplexity Comet Pro 4 Arabic، Figma AI Dev Mode 4 Arabic، HubSpot Breeze Agents 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 21 أكتوبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">☀️ نشرة AI العالمية</span>
+      <h1>من OpenAI Codex Cloud 4 Arabic الذي يُنفّذ backlog بالعربية في sandbox سحابي ويُرجع pull request قبل أن تُفرّغ فنجان القهوة، إلى Perplexity Comet Pro 4 Arabic الذي يُجوب الويب نيابة عنك ويُلخّص مصادر موثّقة لاجتماعات الصباح، ومن Figma AI Dev Mode 4 Arabic الذي يُحوّل frames RTL إلى specs وReact snippets جاهزة للمطور، إلى HubSpot Breeze Agents 4 Arabic الذي يُ qualifying leads ويُ draft follow-ups بلهجة خليجية ومصرية — أربع قصص صباحية في 21 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُشعل يومه من أول ضوء!</h1>
+      <p class="hero-sub">صباح للكود والبحث والتصميم والمبيعات: product owners يطاردون velocity، مستشارون يريدون research بلا tab chaos، designers وdevs يتخاصمون على spacing، وفرق growth تغرق في inbox. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 21 أكتوبر 2026</span>
+        <span>☀️ 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>OpenAI Codex Cloud 4 Arabic: وكيل كود في السحابة — من ticket عربي إلى PR جاهز للمراجعة!</h2>
+      <p class="article-lead">«الـ backlog ممتلئ — والـ sprint يبدأ بعد ساعتين». في 21 أكتوبر 2026، أطلقت <strong>OpenAI</strong> <strong>Codex Cloud 4 Arabic</strong>: بيئة agentic سحابية تفهم متطلبات بالفصحى واللهجات، تُ clone repos في sandbox معزول، تُ plan subtasks، تُ edit multi-file، تُ run tests وlinters، تُ fix failures iteratively، تُ open pull requests مع descriptions ثنائية اللغة، تُ integrate GitHub وGitLab وLinear وJira، وتُ respect org policies وsecret scanning — لل startups وenterprises في MENA.</p>
+      <p>المشكلة التي حلّتها: Codex Cloud 2 كان يُ misread Arabic comments في legacy PHP؛ الإصدار 4 يُ bilingual AST context، يُ benchmark −49% time-to-merge في fintech team دبي، يُ parallel agents لـ microservices، يُ human approval gates per environment، يُ cost dashboards per squad، ويُ SOC2-ready audit trails.</p>
+      <p>القدرات الأساسية: Arabic ticket-to-PR; Isolated cloud sandboxes; Test and lint loops; Git platform integrations; Approval workflows; Enterprise audit logs.</p>
+      <p>للمبدعين العرب: engineering boutiques — «Codex Cloud 4 Arabic delivery sprint in 5 days» لل teams 3–40 engineers. من يُ run 10 sprints/ربع بـ 2400–42000 دولار + managed 180–1450 دولار/شهر يبني «مكتب Codex Cloud عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OpenAI Codex Cloud 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة delivery sprint (triage، agents، PRs، demo):</strong> 4–12 يومًا — 2400–42000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ guardrails وbacklog automation:</strong> — 180–1450 دولار/شهر.</li>
+          <li><strong>Stack playbooks (Laravel RTL، NestJS، mobile Flutter):</strong> — 55–240 دولار/playbook.</li>
+          <li><strong>دورات «تسليم أسرع بـ Codex Cloud بالعربية»:</strong> — 52–248 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">Codex Cloud</span>
+        <span class="tag">Coding Agent</span>
+        <span class="tag">DevOps</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Perplexity Comet Pro 4 Arabic: متصفح يفكّر — research، citations، وbrief للمدير قبل الاجتماع!</h2>
+      <p class="article-lead">«العميل يسأل عن regulation جديد في السعودية — والمكالمة بعد 40 دقيقة». في 21 أكتوبر 2026، أطلقت <strong>Perplexity</strong> <strong>Comet Pro 4 Arabic</strong>: متصفح agentic يُ navigate tabs نيابة عنك، يُ search web وacademic وnews sources، يُ cross-check claims، يُ summarize بالفصحى واللهجات مع footnotes قابلة للنقر، يُ compare competitors في tables RTL، يُ export one-pager PDF وSlides، يُ sync Notion وGoogle Docs، ويُ enterprise SSO مع zero-retention mode — لل consultants وinvestors وjournalists في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Comet Pro 2 كان يُ skip Arabic primary sources؛ الإصدار 4 يُ MENA source prioritization، يُ benchmark −46% research time في advisory boutique القاهرة، يُ live page actions مع user consent، يُ team shared sessions لل due diligence، يُ API لل CRM note injection، ويُ compliance mode لل regulated sectors.</p>
+      <p>القدرات الأساسية: Agentic browsing RTL; Verified citations; Competitor tables; Doc and deck export; Team research rooms; Enterprise privacy modes.</p>
+      <p>للمبدعين العرب: research freelancers — «Comet Pro 4 Arabic morning brief pack in 24h» لل firms 5–30 briefs/week. من يُ deliver 20 packs/ربع بـ 650–24000 دولار + subscription margin 10–18% يبني «مكتب research Comet عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Perplexity Comet Pro 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة morning brief (scope، research، citations، PDF):</strong> 1–3 أيام — 650–24000 دولار/عميل.</li>
+          <li><strong>اشتراك research desk شهري (N briefs + QA):</strong> — 110–920 دولار/شهر.</li>
+          <li><strong>Vertical packs (fintech، logistics، tourism MENA):</strong> — 45–210 دولار/pack.</li>
+          <li><strong>دورات «بحث ذكي بـ Comet Pro بالعربية»:</strong> — 36–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Perplexity</span>
+        <span class="tag">Comet Pro</span>
+        <span class="tag">Research</span>
+        <span class="tag">Browser AI</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Figma AI Dev Mode 4 Arabic: من التصميم إلى الكود — specs، tokens، وReact RTL بضغطة!</h2>
+      <p class="article-lead">«Designer سلّم mockups RTL — والمطور يسأل عن spacing للمرة العاشرة». في 21 أكتوبر 2026، أطلقت <strong>Figma</strong> <strong>AI Dev Mode 4 Arabic</strong>: طبقة intelligence فوق Dev Mode تُ read component names وvariants بالعربية، تُ generate design tokens وCSS variables، تُ propose React وVue snippets مع dir=rtl، تُ diff design vs implementation، تُ annotate accessibility WCAG لل Arabic screen readers، تُ sync Jira وStorybook، وتُ respect design system libraries enterprise — لل product teams وagencies في MENA.</p>
+      <p>المشكلة التي حلّتها: AI Dev Mode 2 كان يُ break على mixed EN/AR layer names؛ الإصدار 4 يُ bilingual component graph، يُ benchmark −43% handoff cycles في ecommerce agency الرياض، يُ auto-fix contrast على Arabic typography، يُ codegen guarded by org rules، يُ MCP bridge لل Cursor وVS Code، ويُ analytics على design debt.</p>
+      <p>القدرات الأساسية: RTL codegen; Design token export; Design-dev diff; A11y annotations Arabic; Storybook sync; MCP IDE bridge.</p>
+      <p>للمبدعين العرب: design-engineering studios — «AI Dev Mode 4 Arabic handoff sprint in 6 days» لل products 20–200 screens. من يُ ship 9 sprints/ربع بـ 1600–28000 دولار + care 130–980 دولار/شهر يبني «استوديو Figma AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Figma AI Dev Mode 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة handoff sprint (audit، tokens، codegen، QA):</strong> 5–14 يومًا — 1600–28000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ design system وregression checks:</strong> — 130–980 دولار/شهر.</li>
+          <li><strong>UI kit packs (dashboard، ecommerce، fintech RTL):</strong> — 48–220 دولار/kit.</li>
+          <li><strong>دورات «من Figma إلى كود RTL بـ AI Dev Mode»:</strong> — 44–215 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Figma</span>
+        <span class="tag">Dev Mode</span>
+        <span class="tag">Design Systems</span>
+        <span class="tag">Frontend</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>HubSpot Breeze Agents 4 Arabic: مبيعات وخدمة عملاء — qualify، follow-up، وCRM نظيف!</h2>
+      <p class="article-lead">«200 lead جديد من حملة — وثلاثة SDRs فقط». في 21 أكتوبر 2026، أطلقت <strong>HubSpot</strong> <strong>Breeze Agents 4 Arabic</strong>: suite من agents داخل CRM يُ score leads بالعربية، يُ draft emails وWhatsApp templates بلهجات MENA، يُ book meetings مع calendar rules، يُ summarize call transcripts RTL، يُ suggest next-best-action، يُ clean duplicate contacts، يُ sync Marketing Hub وService Hub، ويُ respect GDPR وlocal consent — لل SaaS وreal estate وeducation في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Breeze Agents 2 كان يُ sound robotic في Gulf dialect؛ الإصدار 4 يُ tone libraries per country، يُ benchmark +38% meeting rate في proptech إماراتي، يُ human-in-the-loop قبل send، يُ playbook builder no-code Arabic، يُ revenue attribution dashboards، ويُ partner marketplace لل SIs.</p>
+      <p>القدرات الأساسية: Arabic lead scoring; Dialect-aware outreach; Meeting automation; Call summaries RTL; CRM hygiene agents; Consent-aware workflows.</p>
+      <p>للمبدعين العرب: RevOps consultants — «Breeze Agents 4 Arabic pipeline sprint in 8 days» لل companies 500–50K contacts. من يُ run 12 sprints/ربع بـ 1200–32000 دولار + care 95–850 دولار/شهر يبني «مكتب HubSpot AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من HubSpot Breeze Agents 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة pipeline sprint (audit، agents، templates، training):</strong> 6–18 يومًا — 1200–32000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ playbooks وA/B outreach:</strong> — 95–850 دولار/شهر.</li>
+          <li><strong>Industry agent packs (EdTech، proptech، clinics):</strong> — 38–185 دولار/pack.</li>
+          <li><strong>دورات «مبيعات أذكى بـ Breeze Agents بالعربية»:</strong> — 32–158 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">HubSpot</span>
+        <span class="tag">Breeze Agents</span>
+        <span class="tag">CRM</span>
+        <span class="tag">Sales AI</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 21-10-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="21-10-2026 -- 08-AM.html">
+          📰 21 أكتوبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "21-10-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/21-10-2026 -- 08-AM.html"
+    content = README.read_text(encoding="utf-8")
+    if new in content and "أحدث إصدار" in content.split(new)[0][-200:]:
+        print(f"README already contains entry: {README}")
+        return
+    old_marker = "news/21-10-2026 -- 12-AM.html"
+    new_line = (
+        f"- [`{new}`](news/21-10-2026%20--%2008-AM.html) — أحدث إصدار ({TOPICS}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if old_marker in line and "أحدث إصدار" in line:
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "y\u0650",
+        "المشkلة",
+        "mezclar",
+        "وy\u0650",
+        "prefe r",
+        " t\u0650",
+        " y\u0650",
+        "الإصrador",
+        "وy\u0650",
+        "Arabs:",
+        "يبni",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
