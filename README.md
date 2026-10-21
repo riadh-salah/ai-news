@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/20-10-2026 -- 04-PM.html`](news/20-10-2026%20--%2004-PM.html) — أحدث إصدار (Canva Magic Media 4 Arabic · Mistral Le Chat Enterprise 4 Arabic · Descript Underlord 4 Arabic · Make.com AI Scenarios 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/21-10-2026 -- 12-AM.html`](news/21-10-2026%20--%2012-AM.html) — أحدث إصدار (Google Gemini Deep Research 4 Arabic · Amazon Q Developer 4 Arabic · JetBrains Junie 4 Arabic · Typeform AI Insights 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
