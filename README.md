@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/21-10-2026 -- 04-PM.html`](news/21-10-2026%20--%2004-PM.html) — أحدث إصدار (Salesforce Agentforce 4 Arabic · Notion AI Agents 4 Arabic · Runway Gen-4 Turbo 4 Arabic · Stripe Revenue Intelligence 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/22-10-2026 -- 12-AM.html`](news/22-10-2026%20--%2012-AM.html) — أحدث إصدار (Windsurf Cascade 4 Arabic · Apollo.io AI Sequences 4 Arabic · Grammarly Business AI 4 Arabic · Brex Empower AI 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
