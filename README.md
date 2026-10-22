@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/22-10-2026 -- 08-AM.html`](news/22-10-2026%20--%2008-AM.html) — أحدث إصدار (Replit Agent 4 Arabic · Lovable 2 Arabic · Retool AI 4 Arabic · Webflow AI Site 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/22-10-2026 -- 04-PM.html`](news/22-10-2026%20--%2004-PM.html) — أحدث إصدار (Twilio Customer AI 4 Arabic · Linear AI Projects 4 Arabic · Framer AI Sites 4 Arabic · Supabase AI Assistant 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
