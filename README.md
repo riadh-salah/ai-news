@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/22-10-2026 -- 12-AM.html`](news/22-10-2026%20--%2012-AM.html) — أحدث إصدار (Windsurf Cascade 4 Arabic · Apollo.io AI Sequences 4 Arabic · Grammarly Business AI 4 Arabic · Brex Empower AI 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/22-10-2026 -- 08-AM.html`](news/22-10-2026%20--%2008-AM.html) — أحدث إصدار (Replit Agent 4 Arabic · Lovable 2 Arabic · Retool AI 4 Arabic · Webflow AI Site 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
