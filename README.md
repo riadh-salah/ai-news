@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/22-10-2026 -- 04-PM.html`](news/22-10-2026%20--%2004-PM.html) — أحدث إصدار (Twilio Customer AI 4 Arabic · Linear AI Projects 4 Arabic · Framer AI Sites 4 Arabic · Supabase AI Assistant 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/23-10-2026 -- 12-AM.html`](news/23-10-2026%20--%2012-AM.html) — أحدث إصدار (ElevenLabs Dubbing Studio 4 Arabic · Make.com AI Agents 4 Arabic · HubSpot Breeze AI 4 Arabic · Runway Gen-4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
