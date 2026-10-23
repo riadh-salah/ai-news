@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/23-10-2026 -- 12-AM.html`](news/23-10-2026%20--%2012-AM.html) — أحدث إصدار (ElevenLabs Dubbing Studio 4 Arabic · Make.com AI Agents 4 Arabic · HubSpot Breeze AI 4 Arabic · Runway Gen-4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/23-10-2026 -- 08-AM.html`](news/23-10-2026%20--%2008-AM.html) — أحدث إصدار (Microsoft Copilot Studio 4 Arabic · Asana AI Teammates 4 Arabic · Freshdesk Freddy AI 4 Arabic · Squarespace Blueprint AI 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
