@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/23-10-2026 -- 08-AM.html`](news/23-10-2026%20--%2008-AM.html) — أحدث إصدار (Microsoft Copilot Studio 4 Arabic · Asana AI Teammates 4 Arabic · Freshdesk Freddy AI 4 Arabic · Squarespace Blueprint AI 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/23-10-2026 -- 04-PM.html`](news/23-10-2026%20--%2004-PM.html) — أحدث إصدار (Airtable Omni 4 Arabic · Pipedrive AI Sales Assistant 4 Arabic · Tableau Pulse AI 4 Arabic · QuickBooks AI Bookkeeper 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
