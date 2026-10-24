@@ -1,0 +1,264 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 24-10-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "24-10-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Figma Slides AI 4 Arabic · Trello AI Butler 4 Arabic · "
+    "Microsoft Teams Facilitator 4 Arabic · Zoho Zia Agents 4 Arabic"
+)
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Figma Slides AI 4 Arabic، Trello AI Butler 4 Arabic، Microsoft Teams Facilitator 4 Arabic، Zoho Zia Agents 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 24 أكتوبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌙 نشرة AI العالمية</span>
+      <h1>من Figma Slides AI 4 Arabic الذي يُحوّل outline عربي إلى deck عرض تُناقش في Slack قبل أن تُطفأ شاشة المكتب، إلى Trello AI Butler 4 Arabic الذي يُ orchestrate boards وdeadlines وhandoffs بلهجة squad عربي، ومن Microsoft Teams Facilitator 4 Arabic الذي يُ moderate اجتماع hybrid ويُلخص قرارات وaction items RTL، إلى Zoho Zia Agents 4 Arabic الذي يُغلق lead من WhatsApp ويُصدر فاتورة وticket دعم دون تبديل بين عشر تطبيقات — أربع قصص ليلية في 24 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء منتصف الليل!</h1>
+      <p class="hero-sub">ليلة للعروض والتشغيل والاجتماعات والـ SMB: designers يُ rebuild decks يدويًا، فرق product تغرق في cards، managers يضيعون نصف الاجتماع في logistics، ورواد أعمال يدفعون لـ stack SaaS مُشتت. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 24 أكتوبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Figma Slides AI 4 Arabic: عروض تُ birth من brief — layouts، charts، وspeaker notes RTL!</h2>
+      <p class="article-lead">«العميل يريد pitch غدًا — والـ deck ما زال 12 slide فارغ». في 24 أكتوبر 2026، أطلقت <strong>Figma</strong> <strong>Slides AI 4 Arabic</strong>: copilot داخل Slides وDesign يُ ingest brief (MSA، Gulf، Egyptian)، يُ generate story arc وslide structure، يُ pull components من design system، يُ build charts من CSV، يُ draft speaker notes بلهجة presenter، يُ localize EN↔AR مع RTL mirroring، يُ comment mode للمراجعات، ويُ export إلى Google Slides وPowerPoint — لل agencies وstartups وconsultancies في MENA.</p>
+      <p>المشكلة التي حلّتها: Slides AI 2 كان يُ break Arabic typography في charts؛ الإصدار 4 يُ HarfBuzz-aware text، يُ benchmark −47% time-to-deck في fintech pitch دبي، يُ brand guardrails (colors، fonts، logos)، يُ data-linked slides refresh، يُ presenter coach (timing، Q&amp;A prep)، ويُ FigJam handoff لل workshops.</p>
+      <p>القدرات الأساسية: Arabic deck copilot; Design-system components; Data-linked charts; Speaker notes and coach; Bilingual RTL export; Review workflows.</p>
+      <p>للمبدعين العرب: presentation studios — «Slides AI 4 Arabic investor deck in 3 days» لل rounds seed–Series B. من يُ ship 18 decks/ربع بـ 1200–35000 دولار + retainer 95–820 دولار/شهر يبني «مصنع عروض Figma AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Figma Slides AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة deck (brief، story، Slides AI build، rehearsal، export):</strong> 3–9 أيام — 1200–35000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ data refresh وbrand updates:</strong> — 95–820 دولار/شهر.</li>
+          <li><strong>Vertical templates (fintech، health، govtech RTL):</strong> — 52–240 دولار/template.</li>
+          <li><strong>دورات «عروض استثمارية بـ Figma Slides AI بالعربية»:</strong> — 44–205 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Figma</span>
+        <span class="tag">Slides AI</span>
+        <span class="tag">Design</span>
+        <span class="tag">Pitch</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Trello AI Butler 4 Arabic: boards تُ think — automations، priorities، وcross-team sync!</h2>
+      <p class="article-lead">«200 card — ولا أحد يعرف blocker الحقيقي». في 24 أكتوبر 2026، أطلقت <strong>Atlassian</strong> <strong>Trello AI Butler 4 Arabic</strong>: layer فوق boards يُ parse lists وlabels وdue dates، يُ suggest automations من جملة عربية («انقل كل card متأخر إلى Escalation وأرسل Slack»)، يُ prioritize حسب impact وdependencies، يُ generate checklists وsubtasks، يُ summarize board لل manager أسبوعيًا، يُ sync مع Jira وSlack optional، ويُ detect stale work — لل marketing وops وevent teams في الخليج ومصر والمغرب.</p>
+      <p>المشكلة التي حلّتها: Butler 3 كان rules إنجليزية فقط؛ الإصدار 4 يُ NL rules Arabic-first، يُ benchmark −41% missed deadlines في agency events قطر، يُ smart due-date suggestions، يُ template packs (launch، hiring، wedding ops RTL)، يُ mobile Butler chat، ويُ audit log لل compliance.</p>
+      <p>القدرات الأساسية: Arabic automation copilot; Priority and dependency hints; Manager digests; Jira and Slack sync; Template packs; Mobile Butler chat.</p>
+      <p>للمبدعين العرب: ops freelancers — «Butler 4 Arabic board rescue in 4 days» لل teams 5–120 members. من يُ rescue 16 boards/ربع بـ 680–14500 دولار + care 72–580 دولار/شهر يبني «مكتب Trello AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Trello AI Butler 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة rescue (audit، rules، Butler 4 setup، training):</strong> 3–8 أيام — 680–14500 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ automations وhygiene:</strong> — 72–580 دولار/شهر.</li>
+          <li><strong>Industry board kits (agencies، clinics، schools RTL):</strong> — 38–175 دولار/kit.</li>
+          <li><strong>دورات «أتمتة boards بـ Trello Butler بالعربية»:</strong> — 32–155 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Trello</span>
+        <span class="tag">Butler AI</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Ops</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Microsoft Teams Facilitator 4 Arabic: اجتماعات تُ run نفسها — agenda، timing، وdecisions RTL!</h2>
+      <p class="article-lead">«ساعة اجتماع — و10 دقائق فقط للقرار». في 24 أكتوبر 2026، أطلقت <strong>Microsoft</strong> <strong>Teams Facilitator 4 Arabic</strong>: agent داخل Teams meetings يُ build agenda من invite وprior chats، يُ timebox topics ويُ nudge عند drift، يُ capture decisions و dissent politely، يُ assign action items إلى Planner وLoop، يُ translate live لل participants EN↔AR، يُ post recap RTL في channel، يُ integrate Copilot وViva Insights — لل enterprises وhybrid teams في MENA.</p>
+      <p>المشكلة التي حلّتها: Facilitator 2 كان summaries إنجليزية؛ الإصدار 4 يُ executive Arabic tone، يُ benchmark −35% meeting overrun في telco مصر، يُ consent banners لل recording، يُ conflict de-escalation prompts، يُ recurring meeting memory، يُ GDPR and residency EU/GCC options.</p>
+      <p>القدرات الأساسية: Arabic meeting facilitator; Timboxing and nudges; Decision and action capture; Live translation; Channel recaps; Planner and Loop sync.</p>
+      <p>للمبدعين العرب: meeting coaches — «Facilitator 4 Arabic rollout in 7 days» لل orgs 100–8000 seats. من يُ deploy 7 rollouts/ربع بـ 2400–52000 دولار + tuning 165–1280 دولار/شهر يبني «غرفة Teams Facilitator عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Microsoft Teams Facilitator 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة rollout (workshops، policies، Facilitator config، training):</strong> 5–12 يومًا — 2400–52000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ agenda templates وanalytics:</strong> — 165–1280 دولار/شهر.</li>
+          <li><strong>Meeting playbook packs (exec، product، sales RTL):</strong> — 48–225 دولار/pack.</li>
+          <li><strong>دورات «اجتماعات فعّالة بـ Teams Facilitator بالعربية»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Microsoft</span>
+        <span class="tag">Teams</span>
+        <span class="tag">Facilitator</span>
+        <span class="tag">Meetings</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Zoho Zia Agents 4 Arabic: SMB agentic — CRM، finance، support، وinventory من inbox واحد!</h2>
+      <p class="article-lead">«فريقنا 8 أشخاص — ونحتاج ERP وCRM وhelpdesk». في 24 أكتوبر 2026، أطلقت <strong>Zoho</strong> <strong>Zia Agents 4 Arabic</strong>: fleet of agents عبر CRM وBooks وDesk وInventory يُ qualify leads من WhatsApp وInstagram، يُ draft quotes وinvoices ZATCA-aware، يُ resolve tier-1 tickets باللهجة، يُ reorder stock وalert suppliers، يُ manager digest يومي RTL، يُ connect 800+ Zoho apps وexternal webhooks — لل SMB وfranchises في MENA.</p>
+      <p>المشكلة التي حلّتها: Zia Agents 3 كان handoffs يدوية بين modules؛ الإصدار 4 يُ unified memory across apps، يُ benchmark +33% lead-to-cash speed في retail chain سعودية، يُ dialect packs (Gulf، Egyptian، Levantine)، يُ human approval gates لل payments، يُ marketplace prebuilt agents (clinics، salons، logistics RTL).</p>
+      <p>القدرات الأساسية: Arabic agent fleet; Lead-to-cash automation; Support and inventory agents; Manager digests; Compliance hooks; Agent marketplace.</p>
+      <p>للمبدعين العرب: Zoho partners — «Zia Agents 4 Arabic business OS in 10 days» لل SMB 5–80 FTE. من يُ onboard 12 OS builds/ربع بـ 1500–28000 دولار + care 110–890 دولار/شهر يبني «استوديو Zoho AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Zoho Zia Agents 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة OS (discovery، agents، integrations، training، go-live):</strong> 6–14 يومًا — 1500–28000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ agents وdata quality:</strong> — 110–890 دولار/شهر.</li>
+          <li><strong>Vertical agent packs (retail، clinics، F&amp;B RTL):</strong> — 45–210 دولار/pack.</li>
+          <li><strong>دورات «تشغيل SMB بـ Zoho Zia Agents بالعربية»:</strong> — 36–168 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Zoho</span>
+        <span class="tag">Zia Agents</span>
+        <span class="tag">SMB</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 24-10-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="24-10-2026 -- 12-AM.html">
+          📰 24 أكتوبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "24-10-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/24-10-2026 -- 12-AM.html"
+    content = README.read_text(encoding="utf-8")
+    old_marker = "news/23-10-2026 -- 04-PM.html"
+    new_line = (
+        f"- [`{new}`](news/24-10-2026%20--%2012-AM.html) — أحدث إصدار ({TOPICS}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if old_marker in line and "أحدث إصدار" in line:
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أفكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
