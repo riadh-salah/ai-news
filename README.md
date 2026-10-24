@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/24-10-2026 -- 08-AM.html`](news/24-10-2026%20--%2008-AM.html) — أحدث إصدار (Perplexity Comet 4 Arabic · HeyGen Interactive Avatar 4 Arabic · Cloudflare Workers AI Gateway 4 Arabic · PandaDoc AI Hub 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/24-10-2026 -- 04-PM.html`](news/24-10-2026%20--%2004-PM.html) — أحدث إصدار (Linear AI 4 Arabic · Jasper Brand Voice 4 Arabic · Zapier Central 4 Arabic · Buffer AI Assistant 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
