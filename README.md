@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/24-10-2026 -- 12-AM.html`](news/24-10-2026%20--%2012-AM.html) — أحدث إصدار (Figma Slides AI 4 Arabic · Trello AI Butler 4 Arabic · Microsoft Teams Facilitator 4 Arabic · Zoho Zia Agents 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/24-10-2026 -- 08-AM.html`](news/24-10-2026%20--%2008-AM.html) — أحدث إصدار (Perplexity Comet 4 Arabic · HeyGen Interactive Avatar 4 Arabic · Cloudflare Workers AI Gateway 4 Arabic · PandaDoc AI Hub 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
