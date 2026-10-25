@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/25-10-2026 -- 08-AM.html`](news/25-10-2026%20--%2008-AM.html) — أحدث إصدار (Salesforce Agentforce 3 Arabic · Shopify Sidekick 5 Arabic · Atlassian Rovo 3 Arabic · Runway Gen-4 Turbo Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/25-10-2026 -- 04-PM.html`](news/25-10-2026%20--%2004-PM.html) — أحدث إصدار (Anthropic Claude for Excel 2 Arabic · Adobe Firefly Video 2 Arabic · Twilio CustomerAI 3 Arabic · ServiceNow Now Assist 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
