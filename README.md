@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/24-10-2026 -- 04-PM.html`](news/24-10-2026%20--%2004-PM.html) — أحدث إصدار (Linear AI 4 Arabic · Jasper Brand Voice 4 Arabic · Zapier Central 4 Arabic · Buffer AI Assistant 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/25-10-2026 -- 12-AM.html`](news/25-10-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Power Automate Copilot 4 Arabic · Google Gemini for Workspace 4 Arabic · Notion AI Meeting Notes 4 Arabic · Canva Visual Suite 6 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
