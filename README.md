@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/25-10-2026 -- 12-AM.html`](news/25-10-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Power Automate Copilot 4 Arabic · Google Gemini for Workspace 4 Arabic · Notion AI Meeting Notes 4 Arabic · Canva Visual Suite 6 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/25-10-2026 -- 08-AM.html`](news/25-10-2026%20--%2008-AM.html) — أحدث إصدار (Salesforce Agentforce 3 Arabic · Shopify Sidekick 5 Arabic · Atlassian Rovo 3 Arabic · Runway Gen-4 Turbo Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
