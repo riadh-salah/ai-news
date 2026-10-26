@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/26-10-2026 -- 12-AM.html`](news/26-10-2026%20--%2012-AM.html) — أحدث إصدار (Google NotebookLM 5 Arabic · Cohere North 4 Arabic · SAP Joule 5 Arabic · Snowflake Cortex Agents 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/26-10-2026 -- 08-AM.html`](news/26-10-2026%20--%2008-AM.html) — أحدث إصدار (Mistral Le Chat 5 Arabic · Grammarly AI Editor 4 Arabic · Vercel v0 5 Arabic · Replit Agent 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
