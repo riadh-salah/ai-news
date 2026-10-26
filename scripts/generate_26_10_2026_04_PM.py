@@ -1,0 +1,263 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 26-10-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "26-10-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Cursor Composer 3 Arabic · Nvidia NIM Agent Blueprints 2 Arabic · "
+    "Hugging Face Spaces Agents 3 Arabic · Wix Studio AI 5 Arabic"
+)
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Cursor Composer 3 Arabic، Nvidia NIM Agent Blueprints 2 Arabic، Hugging Face Spaces Agents 3 Arabic، Wix Studio AI 5 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 26 أكتوبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من Cursor Composer 3 Arabic الذي يُحوّل «أصلح bug الدفع RTL» إلى pull request يمرّ tests قبل أن تُغلق IDE، إلى Nvidia NIM Agent Blueprints 2 Arabic الذي يُشغّل وكلاء inference على GPU enterprise بامتثال MENA، ومن Hugging Face Spaces Agents 3 Arabic الذي يُ deploy agent مفتوح المصدر من model card في دقائق، إلى Wix Studio AI 5 Arabic الذي يُ birth متجرًا وSEO وCRM من brief عربي واحد — أربع قصص مسائية في 26 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُشتعل مع الغروب!</h1>
+      <p class="hero-sub">مساءٌ للبرمجة والبنية التحتية والمجتمع المفتوح والتجارة الرقمية: squads تغرق في refactor، مهندسو ML ينتظرون weeks لـ agent production، builders يريدون share agent بدون DevOps، ومتاجر SMB تبحث عن launch قبل موسم العروض. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 26 أكتوبر 2026</span>
+        <span>🌇 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Cursor Composer 3 Arabic: مهندس وكيلي في IDE — specs عربية، multi-file، وPR جاهز!</h2>
+      <p class="article-lead">«ال ticket يقول: عدّل flow الدفع للخليج — والكود موزّع على 14 ملفًا». في 26 أكتوبر 2026، أطلقت <strong>Cursor</strong> <strong>Composer 3 Arabic</strong>: وضع agentic داخل المحرر يفهم issues وSlack threads بالعربية، يُ plan refactor وfeature كاملة، يُ edit multi-file مع diff review، يُ run terminal وtests وlinter، يُ fix CI failures iteratively، يُ respect .cursorrules وmonorepo boundaries، يُ integrate Bugbot hints، ويُ enterprise mode لـ SSO وaudit — لل product teams وagencies وoutsourcing shops في MENA وEU.</p>
+      <p>المشكلة التي حلّتها: Composer 2 كان يُ drift على أسماء متغيرات عربية في comments وi18n keys؛ الإصدار 3 يُ RTL-aware codebase map، يُ benchmark −46% وقت «إغلاق ticket متوسط التعقيد» في fintech الرياض، يُ memory per-repo لل conventions، يُ parallel subagents لل frontend/backend، يُ sandbox commands مع allowlist، ويُ handoff summary بالعربية لل reviewers.</p>
+      <p>القدرات الأساسية: Arabic spec to PR; Multi-file agent; Tests and CI loop; Monorepo aware; Enterprise audit; Bugbot integration.</p>
+      <p>للمبدعين العرب: dev shops — «Composer 3 Arabic velocity pod in 6 days» لل teams 5–80 engineers. من يُ onboard 10 pods/ربع بـ 1800–52000 دولار + retainer 240–1900 دولار/شهر يبني «ممارسة Cursor عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Cursor Composer 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة velocity pod (rules، workflows، training، governance):</strong> 4–12 يومًا — 1800–52000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ rules refresh وquality gates:</strong> — 240–1900 دولار/شهر.</li>
+          <li><strong>Vertical playbooks (fintech RTL، e-commerce، gov portals):</strong> — 65–280 دولار/playbook.</li>
+          <li><strong>دورات «برمجة وكيلية بـ Cursor Composer بالعربية»:</strong> — 48–225 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Cursor</span>
+        <span class="tag">Composer</span>
+        <span class="tag">IDE Agent</span>
+        <span class="tag">Dev Productivity</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Nvidia NIM Agent Blueprints 2 Arabic: وكلاء production على GPU — RAG، tools، وlatency منخفض!</h2>
+      <p class="article-lead">«ال model جاهز — لكن inference يتعثر تحت 500 concurrent user». في 26 أكتوبر 2026، أطلقت <strong>Nvidia</strong> <strong>NIM Agent Blueprints 2 Arabic</strong>: قوالب جاهزة فوق NIM microservices تُ serve Llama وNemotron وpartners models، تُ wire RAG وfunction calling وguardrails، تُ optimize TensorRT-LLM لل Arabic tokenization، تُ deploy على DGX وcloud وedge، تُ observability مع latency SLOs، تُ Arabic system prompts وPII filters، ويُ partner kits لل telco وbanking — لل enterprises وSIs وISVs في GCC.</p>
+      <p>المشكلة التي حلّتها: Blueprints 1 كان يُ struggle مع mixed Arabic-English tool schemas؛ الإصدار 2 يُ bidi-safe JSON وschema validation، يُ benchmark −38% p99 latency في insurer chatbot أبوظبي، يُ multi-agent router blueprint، يُ fine-tune adapters hot-swap، يُ sovereign deploy templates، ويُ cost dashboard per tenant.</p>
+      <p>القدرات الأساسية: Production agent blueprints; Arabic RAG stack; Low-latency NIM; Multi-agent routing; Sovereign deploy; Enterprise observability.</p>
+      <p>للمبدعين العرب: ML consultancies — «NIM Blueprints 2 Arabic production agent in 10 days» لل orgs 1M–50M tokens/day. من يُ deploy 6 stacks/ربع بـ 4200–95000 دولار + managed 320–2600 دولار/شهر يبني «مركز Nvidia agent عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Nvidia NIM Agent Blueprints 2 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة production agent (blueprint، RAG، SLOs، handoff):</strong> 7–21 يومًا — 4200–95000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ model updates وcost tuning:</strong> — 320–2600 دولار/شهر.</li>
+          <li><strong>Regulated industry packs (banking، healthcare، telecom):</strong> — 88–390 دولار/pack.</li>
+          <li><strong>دورات «نشر وكلاء production بـ NIM Blueprints بالعربية»:</strong> — 55–265 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Nvidia</span>
+        <span class="tag">NIM</span>
+        <span class="tag">Enterprise AI</span>
+        <span class="tag">Inference</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Hugging Face Spaces Agents 3 Arabic: من model card إلى agent live — Gradio، MCP، وmonetization!</h2>
+      <p class="article-lead">«لدينا model عربي رائع — ولا أحد يستطيع تشغيله كـ product». في 26 أكتوبر 2026، أطلقت <strong>Hugging Face</strong> <strong>Spaces Agents 3 Arabic</strong>: layer فوق Spaces يُ wrap models كـ conversational agents، يُ Arabic UI templates RTL، يُ connect tools via MCP وwebhooks، يُ persistent sessions وusage billing، يُ export Docker وserverless، يُ moderation وrate limits، يُ discoverability في HF Hub لل MENA builders، ويُ Pro revenue share لل creators — لل researchers وstartups وeducators.</p>
+      <p>المشكلة التي حلّتها: Spaces Agents 2 كان يُ break على long Arabic context في Gradio chat؛ الإصدار 3 يُ streaming chunking محسّن، يُ benchmark −51% وقت «agent demo to paid tier» في EdTech startup القاهرة، يُ template marketplace، يُ white-label embed لل sites، يُ analytics على drop-off باللهجة، ويُ classroom mode لل universities.</p>
+      <p>القدرات الأساسية: Model to agent; Arabic RTL Gradio; MCP tools; Usage billing; White-label embed; Creator marketplace.</p>
+      <p>للمبدعين العرب: AI studios — «Spaces Agents 3 Arabic launch kit in 4 days» لل creators وSMBs. من يُ ship 14 agents/ربع بـ 950–28000 دولار + rev-share setup 120–980 دولار/شهر يبني «استوديو Hugging Face عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Hugging Face Spaces Agents 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة launch kit (agent، tools، billing، branding RTL):</strong> 3–9 يومًا — 950–28000 دولار/مشروع.</li>
+          <li><strong>تشغيل شهري لـ moderation وfeature iterations:</strong> — 120–980 دولار/شهر.</li>
+          <li><strong>Niche agent templates (legal FAQ، tourism guide، Quran tutor):</strong> — 45–195 دولار/template.</li>
+          <li><strong>دورات «ابنِ agent مربحًا على Hugging Face Spaces بالعربية»:</strong> — 36–172 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Hugging Face</span>
+        <span class="tag">Spaces</span>
+        <span class="tag">Open Source</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Wix Studio AI 5 Arabic: متجر وbrand كامل — copy، catalog، SEO، وautomations من brief!</h2>
+      <p class="article-lead">«نريد متجر Ramadan جاهزًا — والمصمم والكاتب مشغولان». في 26 أكتوبر 2026، أطلقت <strong>Wix</strong> <strong>Studio AI 5 Arabic</strong>: copilot فوق Studio يُ generate site structure RTL، يُ write product descriptions وpolicies باللهجات، يُ import catalog من CSV وShopify، يُ SEO local MENA وschema، يُ email flows وabandoned cart بالعربية، يُ connect Wix CRM وpayments وWhatsApp click-to-chat، يُ A/B hero sections، ويُ Velo code snippets لل custom logic — لل merchants وagencies وfranchises.</p>
+      <p>المشكلة التي حلّتها: Studio AI 4 كان يُ duplicate meta tags في multilingual stores؛ الإصدار 5 يُ hreflang-aware SEO engine، يُ benchmark −44% وقت «seasonal store relaunch» في fashion retailer الكويت، يُ image gen on-brand لل banners، يُ inventory-aware promos، يُ partner reseller dashboards، ويُ accessibility WCAG RTL checks.</p>
+      <p>القدرات الأساسية: Arabic store generator; RTL SEO; Catalog import; CRM automations; WhatsApp CTAs; Seasonal campaign AI.</p>
+      <p>للمبدعين العرب: Wix partners — «Studio AI 5 Arabic seasonal launch in 3 days» لل merchants 50–5000 SKUs. من يُ deliver 18 launches/ربع بـ 720–22000 دولار + care 140–1100 دولار/شهر يبني «وكالة Wix AI عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Wix Studio AI 5 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة seasonal launch (site، catalog، SEO، automations):</strong> 2–7 أيام — 720–22000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ campaigns وcatalog refresh:</strong> — 140–1100 دولار/شهر.</li>
+          <li><strong>Vertical kits (beauty، food، events، B2B catalog):</strong> — 52–235 دولار/kit.</li>
+          <li><strong>دورات «متاجر ذكية بـ Wix Studio AI بالعربية»:</strong> — 34–158 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Wix</span>
+        <span class="tag">Studio AI</span>
+        <span class="tag">E-commerce</span>
+        <span class="tag">SMB</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 26-10-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="26-10-2026 -- 04-PM.html">
+          📰 26 أكتوبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "26-10-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/26-10-2026 -- 04-PM.html"
+    content = README.read_text(encoding="utf-8")
+    old_marker = "news/26-10-2026 -- 08-AM.html"
+    new_line = (
+        f"- [`{new}`](news/26-10-2026%20--%2004-PM.html) — أحدث إصدار ({TOPICS}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if old_marker in line and "أحدث إصدار" in line:
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()

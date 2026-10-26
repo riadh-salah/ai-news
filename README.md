@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/26-10-2026 -- 08-AM.html`](news/26-10-2026%20--%2008-AM.html) — أحدث إصدار (Mistral Le Chat 5 Arabic · Grammarly AI Editor 4 Arabic · Vercel v0 5 Arabic · Replit Agent 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/26-10-2026 -- 04-PM.html`](news/26-10-2026%20--%2004-PM.html) — أحدث إصدار (Cursor Composer 3 Arabic · Nvidia NIM Agent Blueprints 2 Arabic · Hugging Face Spaces Agents 3 Arabic · Wix Studio AI 5 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
