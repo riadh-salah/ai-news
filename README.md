@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/26-10-2026 -- 04-PM.html`](news/26-10-2026%20--%2004-PM.html) — أحدث إصدار (Cursor Composer 3 Arabic · Nvidia NIM Agent Blueprints 2 Arabic · Hugging Face Spaces Agents 3 Arabic · Wix Studio AI 5 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/27-10-2026 -- 12-AM.html`](news/27-10-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Copilot Studio 2 Arabic · Canva Magic Studio 6 Arabic · ElevenLabs Voice Agents 2 Arabic · HubSpot Breeze Agents 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
