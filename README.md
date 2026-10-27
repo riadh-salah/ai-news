@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/27-10-2026 -- 12-AM.html`](news/27-10-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Copilot Studio 2 Arabic · Canva Magic Studio 6 Arabic · ElevenLabs Voice Agents 2 Arabic · HubSpot Breeze Agents 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/27-10-2026 -- 08-AM.html`](news/27-10-2026%20--%2008-AM.html) — أحدث إصدار (Google Gemini Enterprise 4 Arabic · OpenAI Codex CLI 2 Arabic · Perplexity Comet 3 Arabic · Stripe AI Billing Agents Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
