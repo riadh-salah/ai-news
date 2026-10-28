@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/27-10-2026 -- 04-PM.html`](news/27-10-2026%20--%2004-PM.html) — أحدث إصدار (Anthropic Claude for Work 3 Arabic · Runway Gen-4 Turbo Arabic · Shopify Sidekick 4 Arabic · Intercom Fin 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/28-10-2026 -- 12-AM.html`](news/28-10-2026%20--%2012-AM.html) — أحدث إصدار (Meta Llama 4 Workspace Arabic · Notion AI Agents 3 Arabic · Adobe Firefly Video 2 Arabic · Zapier Central 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
