@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/28-10-2026 -- 12-AM.html`](news/28-10-2026%20--%2012-AM.html) — أحدث إصدار (Meta Llama 4 Workspace Arabic · Notion AI Agents 3 Arabic · Adobe Firefly Video 2 Arabic · Zapier Central 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/28-10-2026 -- 08-AM.html`](news/28-10-2026%20--%2008-AM.html) — أحدث إصدار (Amazon Q Developer 3 Arabic · Make.com AI Scenarios 2 Arabic · Figma AI Dev Mode 3 Arabic · Airtable Omni AI 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
