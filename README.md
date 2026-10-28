@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/28-10-2026 -- 08-AM.html`](news/28-10-2026%20--%2008-AM.html) — أحدث إصدار (Amazon Q Developer 3 Arabic · Make.com AI Scenarios 2 Arabic · Figma AI Dev Mode 3 Arabic · Airtable Omni AI 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/28-10-2026 -- 04-PM.html`](news/28-10-2026%20--%2004-PM.html) — أحدث إصدار (Cognition Devin 2 Arabic · Zendesk AI Agents 5 Arabic · Vimeo AI Showcase 3 Arabic · Microsoft Teams Copilot Agents 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
