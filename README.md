@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/29-10-2026 -- 12-AM.html`](news/29-10-2026%20--%2012-AM.html) — أحدث إصدار (LangChain LangSmith Agents 2 Arabic · PayPal AI Commerce 3 Arabic · Gamma AI Presentations 3 Arabic · Todoist Ramble AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/29-10-2026 -- 04-PM.html`](news/29-10-2026%20--%2004-PM.html) — أحدث إصدار (GitHub Copilot Extensions 3 Arabic · Twilio Segment AI Predictions 3 Arabic · Kajabi AI Creator Hub 4 Arabic · Webflow AI Localization 5 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
