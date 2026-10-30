@@ -1,0 +1,265 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 30-10-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "30-10-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Cognition Devin 3 Arabic · OpenAI o3 Agents API Arabic · "
+    "Midjourney Video 2 Arabic · Discord Clyde AI 3 Arabic"
+)
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Cognition Devin 3 Arabic، OpenAI o3 Agents API Arabic، Midjourney Video 2 Arabic، Discord Clyde AI 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 30 أكتوبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">☀️ نشرة AI العالمية</span>
+      <h1>من Cognition Devin 3 Arabic الذي يُغلق sprint ويُ merge pull requests من brief عربي قبل أن تبرد قهوتك، إلى OpenAI o3 Agents API Arabic الذي يُشغّل وكلاء reasoning على أدواتك عبر API واحد، ومن Midjourney Video 2 Arabic الذي يُ birth spot إعلاني سينمائي من storyboard نصي RTL، إلى Discord Clyde AI 3 Arabic الذي يُ moderate مجتمعات gaming ويُ automate onboarding لل creators — أربع قصص صباحية في 30 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُشعل يومه من أول ضوء!</h1>
+      <p class="hero-sub">صباحٌ للمطورين ووكالات الفيديو ومديري المجتمعات: backlog يبتلع sprint، agents تتعطل عند أول tool call معقد، brands تنتظر agency شهرًا لـ 15 ثانية فيديو، وservers Discord تغرق في spam. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 30 أكتوبر 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Cognition Devin 3 Arabic: مهندس AI — repos، tests، staging، وhandoff بلسان squad!</h2>
+      <p class="article-lead">«الـ ticket يقول: أصلح webhook الدفع للخليج — والـ sprint ينتهي غدًا». في 30 أكتوبر 2026، أطلقت <strong>Cognition</strong> <strong>Devin 3 Arabic</strong>: وكيل هندسي مستقل يُ read Jira وLinear وGitHub، يُ plan subtasks بالعربية، يُ write code وtests وmigrations، يُ run CI ويُ open PRs مع summaries RTL، يُ sandbox staging على AWS وGCP، يُ respect branch policies وsecrets scanning، يُ pair مع humans في Slack وTeams، ويُ audit trail لكل command — لل fintech وSaaS وagencies 5–200 engineers في MENA.</p>
+      <p>المشكلة التي حلّتها: Devin 2 كان يُ stall على monorepos كبيرة؛ الإصدار 3 يُ incremental indexing، يُ benchmark −44% time-to-merge في payments startup الرياض، يُ multi-agent review (Devin + human)، يُ Arabic spec parsing للفصحى واللهجات في requirements، يُ SOC2 وISO-ready logs، يُ partner pods لل SIs، ويُ fixed-price task packs.</p>
+      <p>القدرات الأساسية: Arabic spec intake; Autonomous PR cycles; CI/CD integration; Staging deploys; Human-in-the-loop; Enterprise audit.</p>
+      <p>للمبدعين العرب: dev consultancies — «Devin 3 Arabic sprint rescue in 5 days» لل teams 8–120 devs. من يُ ship 10 rescues/ربع بـ 3200–62000 دولار + retainer 260–2200 دولار/شهر يبني «غرفة Devin عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Cognition Devin 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة sprint rescue (spec، sandbox، PRs، UAT):</strong> 4–14 يومًا — 3200–62000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ backlog grooming وDevin playbooks:</strong> — 260–2200 دولار/شهر.</li>
+          <li><strong>حزم قطاعية (payments، healthtech، logistics، gaming):</strong> — 62–285 دولار/حزمة.</li>
+          <li><strong>دورات «هندسة AI بـ Devin بالعربية»:</strong> — 52–248 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Cognition</span>
+        <span class="tag">Devin</span>
+        <span class="tag">Engineering</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>OpenAI o3 Agents API Arabic: reasoning agents — tools، memory، وorchestration للمنتجات!</h2>
+      <p class="article-lead">«نريد agent يُحجز، يُدفع، ويُرسل WhatsApp — لكن كل step يحتاج prompt جديد». في 30 أكتوبر 2026، أطلقت <strong>OpenAI</strong> <strong>o3 Agents API Arabic</strong>: واجهة برمجية تُ expose o3 reasoning models مع tool calling متعدد الخطوات، يُ parse intents عربية («قارن أسعار الشحن للخليج ثم أنشئ quote PDF»)، يُ persistent memory per user، يُ guardrails لل PII وpayments، يُ webhooks لل human approval، يُ tracing في OpenAI dashboard، يُ connect Stripe وShopify وinternal REST، ويُ latency tiers لل realtime chat — لل marketplaces وbanks وtravel في GCC ومصر.</p>
+      <p>المشكلة التي حلّتها: Chat Completions alone تُ break على workflows طويلة؛ o3 Agents API يُ plan-verify-act loops، يُ benchmark +31% task completion في concierge app دبي، يُ Arabic dialect routing، يُ cost caps per session، يُ eval harness templates، ويُ partner solution kits.</p>
+      <p>القدرات الأساسية: Multi-step reasoning; Arabic NL tools; Session memory; Approval gates; Observability; Solution templates.</p>
+      <p>للمبدعين العرب: AI studios — «o3 Agents API Arabic product agent in 7 days» لل startups وenterprises. من يُ launch 8 agents/ربع بـ 2800–55000 دولار + ops 220–1800 دولار/شهر يبني «مختبر o3 عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من OpenAI o3 Agents API Arabic؟</h3>
+        <ul>
+          <li><strong>باقة product agent (design، tools، evals، go-live):</strong> 5–18 يومًا — 2800–55000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ prompt tuning وincident response:</strong> — 220–1800 دولار/شهر.</li>
+          <li><strong>Vertical kits (travel، real estate، edtech، insurance):</strong> — 48–225 دولار/kit.</li>
+          <li><strong>دورات «بناء agents بـ o3 API بالعربية»:</strong> — 55–260 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">OpenAI</span>
+        <span class="tag">o3</span>
+        <span class="tag">API</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Midjourney Video 2 Arabic: فيديو brand-safe — storyboard، motion، وcaptions RTL!</h2>
+      <p class="article-lead">«العميل يريد teaser لـ GITEX — والـ agency quote 40 ألف دولار و3 أسابيع». في 30 أكتوبر 2026، أطلقت <strong>Midjourney</strong> <strong>Video 2 Arabic</strong>: استوديو يُ ingest brief عربي أو shot list، يُ generate scenes متسقة مع character lock، يُ camera motion وtransitions سينمائية، يُ Arabic typography overlays وsubtitles RTL، يُ brand palette enforcement، يُ export 9:16 و16:9 و4K، يُ extend clips وloop backgrounds، يُ API لل batch campaigns، ويُ moderation tier لل regulated ads — لل agencies وD2C وcreators في MENA وEurope.</p>
+      <p>المشكلة التي حلّتها: Video 1 كان drift في الوجوه بين cuts؛ الإصدار 2 يُ identity consistency، يُ benchmark −58% production cost في luxury retail campaign أبوظبي، يُ voiceover sync hooks لـ ElevenLabs، يُ storyboard editor collaborative، يُ commercial license clarity، ويُ partner reseller program.</p>
+      <p>القدرات الأساسية: Arabic brief intake; Character consistency; Cinematic motion; RTL captions; Brand controls; Campaign API.</p>
+      <p>للمبدعين العرب: video freelancers — «Video 2 Arabic campaign pack in 4 days» لل brands 3–20 assets. من يُ deliver 14 packs/ربع بـ 1400–32000 دولار + subscription mgmt 95–760 دولار/شهر يبني «استوديو Midjourney Video عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Midjourney Video 2 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة campaign pack (storyboard، renders، edits، delivery):</strong> 3–10 أيام — 1400–32000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ asset refresh وA/B variants:</strong> — 95–760 دولار/شهر.</li>
+          <li><strong>Template packs (luxury، fintech، tourism، gaming):</strong> — 38–178 دولار/pack.</li>
+          <li><strong>دورات «إعلانات AI بـ Midjourney Video بالعربية»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Midjourney</span>
+        <span class="tag">Video</span>
+        <span class="tag">Creative</span>
+        <span class="tag">Ads</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Discord Clyde AI 3 Arabic: مجتمعات ذكية — moderation، onboarding، وcreator monetization!</h2>
+      <p class="article-lead">«50 ألف عضو — و3 moderators يغرقون في spam وأسئلة متكررة». في 30 أكتوبر 2026، أطلقت <strong>Discord</strong> <strong>Clyde AI 3 Arabic</strong>: مساعد server-native يُ answer FAQs من pinned docs بالفصحى والخليجية والمصرية، يُ auto-mod toxic patterns وscam links، يُ welcome flows وrole assignment، يُ summarize channels لل admins، يُ suggest events وpolls، يُ integrate Stripe وPatreon لل paid channels، يُ analytics على engagement وchurn risk، ويُ App Directory لل custom plugins — لل gaming وcrypto-education وcourse communities في MENA diaspora.</p>
+      <p>المشكلة التي حلّتها: Clyde 2 كان English-first في moderation nuance؛ الإصدار 3 يُ Arabic dialect classifiers، يُ benchmark −36% moderator hours في esports server السعودية، يُ creator payout dashboards، يُ raid protection، يُ GDPR/PDPL export tools، ويُ partner certification لل community agencies.</p>
+      <p>القدرات الأساسية: Arabic community Q&amp;A; Smart moderation; Onboarding automation; Paid channel hooks; Admin summaries; Plugin ecosystem.</p>
+      <p>للمبدعين العرب: community managers — «Clyde 3 Arabic server upgrade in 3 days» لل servers 1K–200K members. من يُ upgrade 18 servers/ربع بـ 800–18500 دولار + care 70–560 دولار/شهر يبني «مكتب Discord AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Discord Clyde AI 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة server upgrade (rules، Clyde training، automations، launch):</strong> 2–8 أيام — 800–18500 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ moderation tuning وmonetization ops:</strong> — 70–560 دولار/شهر.</li>
+          <li><strong>Playbooks (gaming، courses، trading-edu، NFT communities):</strong> — 28–132 دولار/playbook.</li>
+          <li><strong>دورات «مجتمعات Discord بـ Clyde AI بالعربية»:</strong> — 32–152 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Discord</span>
+        <span class="tag">Clyde</span>
+        <span class="tag">Community</span>
+        <span class="tag">Moderation</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 30-10-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="30-10-2026 -- 08-AM.html">
+          📰 30 أكتوبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "30-10-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/30-10-2026 -- 08-AM.html"
+    content = README.read_text(encoding="utf-8")
+    old_marker = "news/29-10-2026 -- 04-PM.html"
+    new_line = (
+        f"- [`{new}`](news/30-10-2026%20--%2008-AM.html) — أحدث إصدار ({TOPICS}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if old_marker in line and "أحدث إصدار" in line:
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
