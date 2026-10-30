@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/30-10-2026 -- 08-AM.html`](news/30-10-2026%20--%2008-AM.html) — أحدث إصدار (Cognition Devin 3 Arabic · OpenAI o3 Agents API Arabic · Midjourney Video 2 Arabic · Discord Clyde AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/30-10-2026 -- 04-PM.html`](news/30-10-2026%20--%2004-PM.html) — أحدث إصدار (Anthropic Claude for Excel 2 Arabic · Perplexity Comet Agent Arabic · Salesforce Agentforce 3 Arabic · Canva Magic Studio 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 

@@ -1,0 +1,265 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 30-10-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "30-10-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Anthropic Claude for Excel 2 Arabic · Perplexity Comet Agent Arabic · "
+    "Salesforce Agentforce 3 Arabic · Canva Magic Studio 4 Arabic"
+)
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Anthropic Claude for Excel 2 Arabic، Perplexity Comet Agent Arabic، Salesforce Agentforce 3 Arabic، Canva Magic Studio 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 30 أكتوبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من Anthropic Claude for Excel 2 Arabic الذي يُحلّل pivot tables ويُبني forecasts من سؤال عربي واحد قبل أن تُغلق ملف الميزانية، إلى Perplexity Comet Agent Arabic الذي يُتصفّح الويب نيابةً عنك ويُجمّع تقارير due diligence بلهجة MENA، ومن Salesforce Agentforce 3 Arabic الذي يُغلق صفقات B2B ويُ draft عروض RTL من CRM data، إلى Canva Magic Studio 4 Arabic الذي يُ birth brand kit كاملًا من brief عربي — أربع قصص مسائية في 30 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء الغروب!</h1>
+      <p class="hero-sub">مساءٌ للمحللين وفرق المبيعات وصنّاع المحتوى: Excel يغرق في macros، research يأكل أيامًا، reps يكتبون proposals يدويًا، وbrands تنتظر designer أسبوعًا لـ logo refresh. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 30 أكتوبر 2026</span>
+        <span>🌇 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Anthropic Claude for Excel 2 Arabic: جداول حية — formulas، scenarios، وnarratives بلسان CFO!</h2>
+      <p class="article-lead">«أعطني variance Q3 للفروع الخليجية مع chart وthree scenarios — والاجتماع بعد ساعة». في 30 أكتوبر 2026، أطلقت <strong>Anthropic</strong> <strong>Claude for Excel 2 Arabic</strong>: add-in يُ read workbooks وlinked data، يُ answer questions بالفصحى واللهجات («لماذا انخفض margin الرياض؟»)، يُ write formulas وpivot tables وmacros آمنة، يُ generate scenario models وsensitivity charts، يُ export executive summaries RTL، يُ connect Snowflake وBigQuery وSAP exports، يُ audit changes وversion history، ويُ enterprise SSO وdata residency — لل finance وFP&amp;A وconsulting في GCC ومصر.</p>
+      <p>المشكلة التي حلّتها: الإصدار 1 كان يُ hallucinate cell refs؛ الإصدار 2 يُ grounded cell citations، يُ benchmark −52% close cycle time في retail group دبي، يُ Arabic number formatting (هجري/ميلادي)، يُ template library لل budgets وcashflow، يُ SOC2 وHIPAA tiers، ويُ partner enablement لل Big Four regional.</p>
+      <p>القدرات الأساسية: Arabic financial Q&amp;A; Safe formula generation; Scenario modeling; RTL narratives; Data warehouse hooks; Audit trail.</p>
+      <p>للمبدعين العرب: finance freelancers — «Claude for Excel 2 Arabic FP&amp;A sprint in 4 days» لل teams 5–80 analysts. من يُ deliver 12 sprints/ربع بـ 2200–48000 دولار + retainer 180–1650 دولار/شهر يبني «مكتب Claude Excel عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Anthropic Claude for Excel 2 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة FP&amp;A sprint (models، dashboards، training، handoff):</strong> 3–12 يومًا — 2200–48000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ template refresh وclose support:</strong> — 180–1650 دولار/شهر.</li>
+          <li><strong>حزم قطاعية (retail، healthcare، logistics، hospitality):</strong> — 55–245 دولار/حزمة.</li>
+          <li><strong>دورات «تحليل مالي بـ Claude Excel بالعربية»:</strong> — 48–225 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Anthropic</span>
+        <span class="tag">Claude</span>
+        <span class="tag">Excel</span>
+        <span class="tag">Finance</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Perplexity Comet Agent Arabic: متصفّح agentic — research، compare، وreports بلهجة MENA!</h2>
+      <p class="article-lead">«قارن 15 مورد ERP للسعودية واجمع pricing وcompliance في PDF واحد — والـ RFP يُرسل غدًا». في 30 أكتوبر 2026، أطلقت <strong>Perplexity</strong> <strong>Comet Agent Arabic</strong>: agent يُ browse tabs وforms وPDFs نيابةً عنك، يُ parse briefs عربية («ابحث عن competitors لـ fintech BNPL في MENA»)، يُ multi-step research مع citations، يُ compare tables وscorecards RTL، يُ fill web forms (بموافقتك)، يُ schedule recurring digests، يُ integrate Slack وEmail وNotion، يُ pro search tiers وteam vaults، ويُ compliance mode لل legal وinvestment teams — لل procurement وVC وjournalism في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Comet beta كان English UI فقط؛ الإصدار العربي يُ dialect-aware queries، يُ benchmark −61% research hours في PE firm أبوظبي، يُ Arabic source ranking (local media + global)، يُ export Word وSlides templates، يُ human-in-the-loop checkpoints، ويُ reseller program لل research boutiques.</p>
+      <p>القدرات الأساسية: Arabic research briefs; Multi-tab browsing; Cited comparisons; RTL exports; Team workflows; Compliance controls.</p>
+      <p>للمبدعين العرب: research agencies — «Comet Agent Arabic diligence pack in 5 days» لل funds وcorporates. من يُ ship 10 packs/ربع بـ 1800–42000 دولار + ops 150–1200 دولار/شهر يبني «غرفة Comet عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Perplexity Comet Agent Arabic؟</h3>
+        <ul>
+          <li><strong>باقة diligence pack (sources، matrix، executive memo):</strong> 4–14 يومًا — 1800–42000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ watchlists وsector updates:</strong> — 150–1200 دولار/شهر.</li>
+          <li><strong>Playbooks (M&amp;A، vendor selection، market entry، policy tracking):</strong> — 42–195 دولار/playbook.</li>
+          <li><strong>دورات «research agentic بـ Comet بالعربية»:</strong> — 45–210 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Perplexity</span>
+        <span class="tag">Comet</span>
+        <span class="tag">Research</span>
+        <span class="tag">Browser</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Salesforce Agentforce 3 Arabic: مبيعات autonomous — leads، proposals، وfollow-ups من CRM!</h2>
+      <p class="article-lead">«200 lead من معرض جدة — و8 reps ما عندهم وقت personal follow-up». في 30 أكتوبر 2026، أطلقت <strong>Salesforce</strong> <strong>Agentforce 3 Arabic</strong>: agents داخل Sales Cloud يُ qualify leads بالفصحى والخليجية، يُ draft emails وWhatsApp templates RTL، يُ build quotes من price books، يُ schedule meetings وsync calendars، يُ summarize calls وnext steps، يُ escalate hot deals لل humans، يُ connect Marketing Cloud journeys، يُ Einstein trust layer لل PII، ويُ industry accelerators لل real estate وtelecom — لل B2B في GCC وLevant.</p>
+      <p>المشكلة التي حلّتها: Agentforce 2 كان يُ over-automate tone-deaf messages؛ الإصدار 3 يُ brand voice training عربي، يُ benchmark +28% pipeline velocity في SaaS vendor الرياض، يُ Arabic objection handling library، يُ multi-currency quotes، يُ partner SI kits، ويُ usage-based pricing clarity.</p>
+      <p>القدرات الأساسية: Arabic lead nurture; Quote automation; RTL outreach; Call summaries; Human escalation; Industry templates.</p>
+      <p>للمبدعين العرب: Salesforce partners — «Agentforce 3 Arabic revenue pod in 7 days» لل orgs 20–500 seats. من يُ launch 9 pods/ربع بـ 3500–65000 دولار + care 280–2400 دولار/شهر يبني «مركز Agentforce عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Salesforce Agentforce 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة revenue pod (CRM tune، agents، playbooks، go-live):</strong> 5–21 يومًا — 3500–65000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ prompt tuning وpipeline reviews:</strong> — 280–2400 دولار/شهر.</li>
+          <li><strong>Vertical accelerators (property، telco، industrial، healthcare):</strong> — 58–268 دولار/accelerator.</li>
+          <li><strong>دورات «مبيعات AI بـ Agentforce بالعربية»:</strong> — 52–248 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Salesforce</span>
+        <span class="tag">Agentforce</span>
+        <span class="tag">Sales</span>
+        <span class="tag">CRM</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Canva Magic Studio 4 Arabic: brand factory — logos، decks، social، وvideo من brief واحد!</h2>
+      <p class="article-lead">«نريد rebrand كامل + 30 post + pitch deck — والـ launch بعد 10 أيام». في 30 أكتوبر 2026، أطلقت <strong>Canva</strong> <strong>Magic Studio 4 Arabic</strong>: suite يُ ingest brand brief عربي، يُ generate logo variants وcolor systems وtypography RTL-safe، يُ Magic Design لل presentations وsocial grids، يُ Magic Write لل captions بلهجات MENA، يُ Magic Video لل reels من templates، يُ Brand Kit sync لل teams، يُ print-ready exports وmockups، يُ API لل agencies، ويُ enterprise approval workflows — لل SMEs وcreators وagencies في MENA وdiaspora.</p>
+      <p>المشكلة التي حلّتها: Studio 3 كان inconsistent fonts في Arabic layouts؛ الإصدار 4 يُ Arabic shaping QA، يُ benchmark −47% time-to-launch في F&amp;B chain الكويت، يُ halal/regulated ad disclaimers templates، يُ collaborative brand rooms، يُ reseller margins لل regional agencies، ويُ training certification.</p>
+      <p>القدرات الأساسية: Arabic brand briefs; Logo and kit generation; RTL layouts; Multi-format campaigns; Team brand sync; Agency API.</p>
+      <p>للمبدعين العرب: design freelancers — «Magic Studio 4 Arabic launch kit in 3 days» لل brands 1–50 assets. من يُ deliver 16 kits/ربع بـ 950–28000 دولار + subscription mgmt 85–680 دولار/شهر يبني «استوديو Canva Magic عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Canva Magic Studio 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة launch kit (brand، social، deck، video snippets):</strong> 2–9 أيام — 950–28000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ content calendar وvariant tests:</strong> — 85–680 دولار/شهر.</li>
+          <li><strong>Industry kits (restaurants، clinics، e-commerce، events):</strong> — 35–165 دولار/kit.</li>
+          <li><strong>دورات «هوية بصرية بـ Magic Studio بالعربية»:</strong> — 38–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Canva</span>
+        <span class="tag">Magic Studio</span>
+        <span class="tag">Design</span>
+        <span class="tag">Branding</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 30-10-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="30-10-2026 -- 04-PM.html">
+          📰 30 أكتوبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "30-10-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/30-10-2026 -- 04-PM.html"
+    content = README.read_text(encoding="utf-8")
+    old_marker = "news/30-10-2026 -- 08-AM.html"
+    new_line = (
+        f"- [`{new}`](news/30-10-2026%20--%2004-PM.html) — أحدث إصدار ({TOPICS}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if old_marker in line and "أحدث إصدار" in line:
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
