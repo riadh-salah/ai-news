@@ -1,0 +1,265 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 31-10-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "31-10-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Moveworks AI 3 Arabic · Writer Palmyra-X4 Arabic · "
+    "Instabase AI Hub 3 Arabic · Dify Enterprise 3 Arabic"
+)
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Moveworks AI 3 Arabic، Writer Palmyra-X4 Arabic، Instabase AI Hub 3 Arabic، Dify Enterprise 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 31 أكتوبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌅 نشرة AI العالمية</span>
+      <h1>من Moveworks AI 3 Arabic الذي يُغلق تذاكر IT ويُجيب موظفين MENA بلهجتهم قبل أن يُصبح القهوة باردة، إلى Writer Palmyra-X4 Arabic الذي يُ birth محتوى enterprise متسقًا بالفصحى والخليجية، ومن Instabase AI Hub 3 Arabic الذي يُحوّل مستودعات PDF وcontracts إلى answers موثّقة، إلى Dify Enterprise 3 Arabic الذي يُ launch agents وworkflows من prompt عربي واحد — أربع قصص صباحية في 31 أكتوبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء بداية اليوم!</h1>
+      <p class="hero-sub">صباحٌ لفرق IT والكتابة المؤسسية وتحليل المستندات وصنّاع الـ agents: tickets تتراكم، brand voice يتشتت، عقود تُقرأ يدويًا، وprototypes تنتظر developers أسابيع. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 31 أكتوبر 2026</span>
+        <span>🌄 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Moveworks AI 3 Arabic: مكتب مساعدة ذكي — tickets، approvals، وknowledge بلهجات MENA!</h2>
+      <p class="article-lead">«VPN ما يشتغل والمدير يسأل على Slack — وIT team نائمون». في 31 أكتوبر 2026، أطلقت <strong>Moveworks</strong> <strong>AI 3 Arabic</strong>: copilot enterprise يُ resolve IT وHR وfacilities requests بالفصحى واللهجات («فكّ lock حسابي»، «أبغى leave balance»)، يُ search knowledge bases وSharePoint وConfluence، يُ automate password resets وsoftware access (بموافقات)، يُ route escalations لل humans، يُ integrate ServiceNow وJira وMicrosoft 365 وWorkday، يُ analytics لـ deflection وCSAT، ويُ data residency وSSO — لل conglomerates وbanks وtelcos في GCC ومصر والمغرب.</p>
+      <p>المشكلة التي حلّتها: الإصدار 2 كان يُ mistranslate dialect slang؛ الإصدار 3 يُ dialect classifiers، يُ benchmark −58% mean time to resolve في bank group الرياض، يُ Arabic KB authoring assistant، يُ WhatsApp وTeams native channels، يُ partner SI accelerators، ويُ transparent pricing tiers.</p>
+      <p>القدرات الأساسية: Arabic IT and HR Q&amp;A; Auto-remediation playbooks; Knowledge sync; Multi-channel support; Escalation routing; Enterprise security.</p>
+      <p>للمبدعين العرب: IT consultants — «Moveworks AI 3 Arabic helpdesk sprint in 6 days» لل orgs 500–50000 seats. من يُ deliver 8 sprints/ربع بـ 4200–72000 دولار + care 320–2800 دولار/شهر يبني «مركز Moveworks عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Moveworks AI 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة helpdesk sprint (connectors، playbooks، KB، go-live):</strong> 5–18 يومًا — 4200–72000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ intent tuning وKB refresh:</strong> — 320–2800 دولار/شهر.</li>
+          <li><strong>حزم قطاعية (banking، oil &amp; gas، healthcare، retail):</strong> — 62–285 دولار/حزمة.</li>
+          <li><strong>دورات «دعم ذكي بـ Moveworks بالعربية»:</strong> — 55–265 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Moveworks</span>
+        <span class="tag">ITSM</span>
+        <span class="tag">Helpdesk</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Writer Palmyra-X4 Arabic: LLM مؤسسي — marketing، legal، وcompliance بصوت brand واحد!</h2>
+      <p class="article-lead">«نريد 200 email و50 policy page — كلها بنفس tone وبدون أخطاء Sharia wording». في 31 أكتوبر 2026، أطلقت <strong>Writer</strong> <strong>Palmyra-X4 Arabic</strong>: family models مُ fine-tuned لل Arabic enterprise writing، يُ ingest style guides وglossaries، يُ generate campaigns وPR وinternal comms RTL، يُ legal disclaimers وregulatory templates (SAMA، CBB، etc.)، يُ fact-check hooks لـ RAG corpora، يُ human review queues وversion diff، يُ API وSDK لل CMS وCRM، يُ PII redaction وaudit logs، ويُ on-prem وVPC options — لل marketing وlegal وcompliance في MENA.</p>
+      <p>المشكلة التي حلّتها: Palmyra-X3 كان inconsistent diacritics في formal Arabic؛ X4 يُ MSA/dialect switches، يُ benchmark −44% copy revision cycles في insurer دبي، يُ terminology lock لل finance وhealth، يُ co-brand kits لل agencies، ويُ certification لل regional partners.</p>
+      <p>القدرات الأساسية: Arabic brand voice; Regulated templates; RAG grounding; Review workflows; CMS integrations; Compliance logging.</p>
+      <p>للمبدعين العرب: content agencies — «Palmyra-X4 Arabic content factory in 4 days» لل brands 10–200 assets/month. من يُ ship 14 factories/ربع بـ 1600–38000 دولار + retainer 140–1150 دولار/شهر يبني «استوديو Writer عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Writer Palmyra-X4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة content factory (voice train، templates، pilot campaign):</strong> 3–11 يومًا — 1600–38000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ glossary updates وQA sampling:</strong> — 140–1150 دولار/شهر.</li>
+          <li><strong>Playbooks (insurance، fintech، gov comms، e-commerce):</strong> — 45–210 دولار/playbook.</li>
+          <li><strong>دورات «كتابة مؤسسية بـ Palmyra بالعربية»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Writer</span>
+        <span class="tag">Palmyra</span>
+        <span class="tag">LLM</span>
+        <span class="tag">Content</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Instabase AI Hub 3 Arabic: ذكاء مستندات — OCR، extraction، وQ&amp;A على عقود MENA!</h2>
+      <p class="article-lead">«5000 صفحة عقود إيجار — والمحامي يريد clause summary قبل الاجتماع». في 31 أكتوبر 2026، أطلقت <strong>Instabase</strong> <strong>AI Hub 3 Arabic</strong>: platform يُ ingest scans وPDFs وemails، يُ Arabic OCR (typed + handwritten where supported)، يُ extract tables وsignatures وdates، يُ Q&amp;A مع citations («ما penalty clause في contract #882؟»)، يُ workflow automation لل loan origination وKYC وprocurement، يُ connect Snowflake وSAP وSalesforce، يُ human-in-the-loop validation UI RTL، ويُ FedRAMP-style controls لل banks — لل legal ops وfinance وgovernment في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Hub 2 كان weak على mixed Arabic-English tables؛ Hub 3 يُ layout-aware parsing، يُ benchmark −51% doc review hours في property developer أبوظبي، يُ notarization stamp detection، يُ batch redaction لل PII، ويُ partner marketplace لل vertical apps.</p>
+      <p>القدرات الأساسية: Arabic document OCR; Structured extraction; Cited Q&amp;A; Workflow orchestration; ERP connectors; Validation UI.</p>
+      <p>للمبدعين العرب: legal tech freelancers — «Instabase AI Hub 3 Arabic doc pipeline in 8 days» لل firms 1K–500K pages/month. من يُ launch 7 pipelines/ربع بـ 5500–85000 دولار + ops 380–3200 دولار/شهر يبني «مكتب Instabase عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Instabase AI Hub 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة doc pipeline (ingest، models، workflows، UAT):</strong> 6–22 يومًا — 5500–85000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ model retrain وexception handling:</strong> — 380–3200 دولار/شهر.</li>
+          <li><strong>Vertical packs (real estate، banking KYC، customs، healthcare claims):</strong> — 68–315 دولار/pack.</li>
+          <li><strong>دورات «أتمتة مستندات بـ Instabase بالعربية»:</strong> — 58–275 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Instabase</span>
+        <span class="tag">Documents</span>
+        <span class="tag">OCR</span>
+        <span class="tag">Legal</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Dify Enterprise 3 Arabic: مصنع agents — apps، RAG، وworkflows بدون code-heavy!</h2>
+      <p class="article-lead">«نريد chatbot للعملاء + internal copilot + approval flow — والـ deadline أسبوع». في 31 أكتوبر 2026، أطلقت <strong>Dify</strong> <strong>Enterprise 3 Arabic</strong>: platform open-core يُ build LLM apps visually، يُ Arabic system prompts وvariable libraries، يُ RAG على S3 وGoogle Drive وSharePoint، يُ agent tools (HTTP، SQL، code sandbox)، يُ workflow nodes لل branching وhuman approval، يُ observability وcost caps، يُ SSO وRBAC وtenant isolation، يُ export Docker وK8s helm، ويُ marketplace plugins لل MENA integrators — لل startups وSIs وenterprises.</p>
+      <p>المشكلة التي حلّتها: Enterprise 2 كان English-first admin UI؛ الإصدار 3 يُ full RTL console، يُ benchmark −39% time-to-first-agent في fintech incubator القاهرة، يُ Arabic eval datasets، يُ partner revenue share، ويُ air-gapped license لل regulated sectors.</p>
+      <p>القدرات الأساسية: Visual agent builder; Arabic prompt studio; Multi-source RAG; Workflow automation; Enterprise RBAC; Self-host deploy.</p>
+      <p>للمبدعين العرب: AI studios — «Dify Enterprise 3 Arabic agent pack in 5 days» لل use cases 1–8 apps. من يُ deliver 11 packs/ربع بـ 2400–52000 دولار + support 195–1680 دولار/شهر يبني «مختبر Dify عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Dify Enterprise 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة agent pack (design، RAG، workflows، handover):</strong> 4–16 يومًا — 2400–52000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ prompt ops وmonitoring:</strong> — 195–1680 دولار/شهر.</li>
+          <li><strong>Starter kits (customer support، HR FAQ، sales enablement، compliance FAQ):</strong> — 38–175 دولار/kit.</li>
+          <li><strong>دورات «بناء agents بـ Dify بالعربية»:</strong> — 46–220 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Dify</span>
+        <span class="tag">Agents</span>
+        <span class="tag">RAG</span>
+        <span class="tag">Low-code</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 31-10-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="31-10-2026 -- 08-AM.html">
+          📰 31 أكتوبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "31-10-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/31-10-2026 -- 08-AM.html"
+    content = README.read_text(encoding="utf-8")
+    old_marker = "news/30-10-2026 -- 04-PM.html"
+    new_line = (
+        f"- [`{new}`](news/31-10-2026%20--%2008-AM.html) — أحدث إصدار ({TOPICS}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if old_marker in line and "أحدث إصدار" in line:
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
