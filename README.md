@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/30-10-2026 -- 04-PM.html`](news/30-10-2026%20--%2004-PM.html) — أحدث إصدار (Anthropic Claude for Excel 2 Arabic · Perplexity Comet Agent Arabic · Salesforce Agentforce 3 Arabic · Canva Magic Studio 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/31-10-2026 -- 12-AM.html`](news/31-10-2026%20--%2012-AM.html) — أحدث إصدار (Moveworks AI 3 Arabic · Writer Palmyra-X4 Arabic · Instabase AI Hub 3 Arabic · Dify Enterprise 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
