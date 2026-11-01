@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/01-11-2026 -- 08-AM.html`](news/01-11-2026%20--%2008-AM.html) — أحدث إصدار (Snowflake Cortex Analyst 3 Arabic · Cognition Devin Teams 2 Arabic · ElevenLabs Dubbing Studio 3 Arabic · Asana AI Teammates 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/01-11-2026 -- 04-PM.html`](news/01-11-2026%20--%2004-PM.html) — أحدث إصدار (Notion AI Q&A Hub 3 Arabic · Shopify Sidekick 3 Arabic · Runway Gen-4 Turbo Arabic · HubSpot Breeze Agents 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
