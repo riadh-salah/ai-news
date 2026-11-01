@@ -1,0 +1,270 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 01-11-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "01-11-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Snowflake Cortex Analyst 3 Arabic · Cognition Devin Teams 2 Arabic · "
+    "ElevenLabs Dubbing Studio 3 Arabic · Asana AI Teammates 2 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Snowflake Cortex Analyst 3 Arabic، Cognition Devin Teams 2 Arabic، ElevenLabs Dubbing Studio 3 Arabic، Asana AI Teammates 2 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 1 نوفمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌅 نشرة AI العالمية</span>
+      <h1>من Snowflake Cortex Analyst 3 Arabic الذي يُجيب عن revenue وinventory بلسان CFO عربي قبل أن يبرد فنجان القهوة، إلى Cognition Devin Teams 2 Arabic الذي يُ ship tickets من Slack بلهجة الفريق، ومن ElevenLabs Dubbing Studio 3 Arabic الذي يُ localize فيديوهات training للخليج ومصر في ساعات، إلى Asana AI Teammates 2 Arabic الذي يُ orchestrate مشاريع وfollow-ups بفصحى واضحة — أربع قصص صباحية في 1 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء بداية الأسبوع!</h1>
+      <p class="hero-sub">صباحٌ لفرق البيانات والهندسة والمحتوى وإدارة المشاريع: dashboards تتأخر، backlog يتراكم، dubbing يكلف أسابيع، وstatus meetings تغرق في «من يفعل ماذا؟». أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 1 نوفمبر 2026</span>
+        <span>🌄 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Snowflake Cortex Analyst 3 Arabic: محلل بيانات محادثي — SQL، charts، وnarratives بلسان عربي!</h2>
+      <p class="article-lead">«ما margin SKU-442 في الرياض مقارنة بالدمام آخر 90 يومًا؟ — والاجتماع بعد 20 دقيقة». في 1 نوفمبر 2026، أطلقت <strong>Snowflake</strong> <strong>Cortex Analyst 3 Arabic</strong>: طبقة analytics داخل Snowflake تُ answer أسئلة business بالفصحى واللهجات، تُ generate SQL آمن مع row-level policies، تُ build dashboards وforecast charts، تُ produce executive summaries RTL، تُ cite tables وlineage لل audit، تُ connect ERP exports وdbt models، تُ guard PII وPCI، ويُ SSO مع data residency — لل retail وlogistics وhealthcare في MENA.</p>
+      <p>المشكلة التي حلّتها: الإصدار 2 كان يُ slow على semantic layers ضخمة؛ الإصدار 3 يُ incremental semantic cache، يُ benchmark −47% وقت «سؤال إلى slide» في conglomerate جدة، يُ bilingual footnotes، يُ template packs (F&amp;B، proptech، telco)، يُ copilot في Teams وSlack، ويُ partner certifications لل boutiques analytics.</p>
+      <p>القدرات الأساسية: Arabic natural language to SQL; Governed semantic layer; Executive narratives RTL; Lineage and citations; ERP and dbt connectors; Enterprise security.</p>
+      <p>للمبدعين العرب: data consultants — «Cortex Analyst 3 Arabic analytics sprint in 5 days» لل teams 10–200 analysts. من يُ deliver 9 sprints/ربع بـ 2800–48000 دولار + retainer 210–1850 دولار/شهر يبني «مكتب Snowflake Analyst عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Snowflake Cortex Analyst 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة analytics sprint (semantic layer، policies، UAT، exec pack):</strong> 4–14 يومًا — 2800–48000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ model refresh وvariance reviews:</strong> — 210–1850 دولار/شهر.</li>
+          <li><strong>حزم قطاعية (retail، hospitality، healthcare، logistics):</strong> — 52–245 دولار/حزمة.</li>
+          <li><strong>دورات «تحليل بيانات بـ Cortex Analyst بالعربية»:</strong> — 46–218 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Snowflake</span>
+        <span class="tag">Analytics</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Data</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Cognition Devin Teams 2 Arabic: مهندس AI في squad — tickets، PRs، وreviews بلهجة الفريق!</h2>
+      <p class="article-lead">«الـ sprint ينتهي غدًا وعندنا 14 bug — والـ seniors في اجتماع». في 1 نوفمبر 2026، أطلقت <strong>Cognition</strong> <strong>Devin Teams 2 Arabic</strong>: agent software engineer يُ join Slack وLinear وJira، يُ read specs عربية/إنجليزية، يُ implement features وfix bugs في repos مع CI، يُ open PRs مع tests وdescriptions RTL، يُ respond لـ code review comments، يُ sandbox آمن وapproval gates، يُ integrate GitHub وGitLab وAzure DevOps، يُ audit trail كامل، ويُ enterprise VPC deploy — لل startups وscale-ups في MENA.</p>
+      <p>المشكلة التي حلّتها: Devin Teams 1 كان يُ struggle مع mixed Arabic comments في tickets؛ الإصدار 2 يُ bilingual spec parsing، يُ benchmark −41% cycle time في fintech القاهرة، يُ pair mode مع humans، يُ security scanning قبل merge، يُ usage caps وcost dashboards، ويُ partner program لل dev shops.</p>
+      <p>القدرات الأساسية: Bilingual spec to code; PR and test automation; Review loop; Secure sandbox; DevOps integrations; Enterprise VPC.</p>
+      <p>للمبدعين العرب: dev agencies — «Devin Teams 2 Arabic velocity pilot in 7 days» لل teams 5–60 engineers. من يُ ship 6 pilots/ربع بـ 5200–68000 دولار + ops 380–3200 دولار/شهر يبني «سquad Devin عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Cognition Devin Teams 2 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة velocity pilot (onboarding، repos، guardrails، first sprint):</strong> 5–20 يومًا — 5200–68000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ tuning وincident review:</strong> — 380–3200 دولار/شهر.</li>
+          <li><strong>Stack packs (React، mobile، data pipelines، legacy .NET):</strong> — 68–295 دولار/pack.</li>
+          <li><strong>دورات «إدارة squads مع Devin Teams بالعربية»:</strong> — 58–265 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Cognition</span>
+        <span class="tag">Devin</span>
+        <span class="tag">Engineering</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>ElevenLabs Dubbing Studio 3 Arabic: dubbing وlocalization — voice clone، lip-sync، وQC للخليج ومصر!</h2>
+      <p class="article-lead">«نريد course إنجليزي بالخليجية خلال 48 ساعة — والميزانية tight». في 1 نوفمبر 2026، أطلقت <strong>ElevenLabs</strong> <strong>Dubbing Studio 3 Arabic</strong>: studio يُ ingest video وaudio، يُ translate scripts EN↔AR مع tone control، يُ synthesize Gulf وEgyptian وLevantine وMSA voices، يُ lip-sync وtime-align، يُ human-in-the-loop QC dashboard RTL، يُ batch API لل creators، يُ rights management وwatermarks، يُ YouTube وLMS exports، ويُ on-prem option لل media groups — لل edtech وstreaming وcorporate training في MENA.</p>
+      <p>المشكلة التي حلّتها: Studio 2 كان يُ drift في emotional delivery لل dialects؛ الإصدار 3 يُ prosody models per region، يُ benchmark −52% cost per minute في edtech pilot الرياض، يُ glossary locks لل brand terms، يُ Arabic subtitle burn-in، ويُ revenue share لل localization houses.</p>
+      <p>القدرات الأساسية: Arabic multi-dialect dubbing; Lip-sync and timing; QC workflow RTL; Batch API; LMS and social exports; Rights and watermarking.</p>
+      <p>للمبدعين العرب: media studios — «Dubbing Studio 3 Arabic launch pack in 6 days» لل catalogs 20–2000 minutes/month. من يُ deliver 8 packs/ربع بـ 1900–42000 دولار + ops 165–1380 دولار/شهر يبني «استوديو ElevenLabs عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من ElevenLabs Dubbing Studio 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة launch pack (voices، glossary، QC، first batch):</strong> 4–16 يومًا — 1900–42000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ QC وvoice refresh:</strong> — 165–1380 دولار/شهر.</li>
+          <li><strong>Vertical packs (courses، ads، podcasts، internal comms):</strong> — 44–210 دولار/pack.</li>
+          <li><strong>دورات «dubbing احترافي بـ ElevenLabs بالعربية»:</strong> — 40–188 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">ElevenLabs</span>
+        <span class="tag">Dubbing</span>
+        <span class="tag">Voice</span>
+        <span class="tag">Media</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Asana AI Teammates 2 Arabic: زميل مشروع ذكي — tasks، status، وnudges بفصحى واضحة!</h2>
+      <p class="article-lead">«47 task متأخر — والمدير يريد status قبل standup». في 1 نوفمبر 2026، أطلقت <strong>Asana</strong> <strong>AI Teammates 2 Arabic</strong>: teammates داخل Asana يُ summarize project health بالعربية، يُ draft status updates وmeeting agendas RTL، يُ suggest reassignment وdue dates، يُ auto-follow-up على blockers عبر Slack وemail، يُ ingest goals من Notion وOKR tools، يُ portfolio view لل executives، يُ SSO وaudit logs، ويُ templates لل agencies وconstruction وevents في MENA — لل PMO وmarketing ops وNGOs.</p>
+      <p>المشكلة التي حلّتها: Teammates 1 كان English-first في notifications؛ الإصدار 2 يُ bilingual nudges، يُ benchmark −36% overdue tasks في agency دبي، يُ Arabic custom fields parsing، يُ rules per portfolio، يُ API لل BI، ويُ marketplace playbooks لل consultants.</p>
+      <p>القدرات الأساسية: Arabic project summaries; Smart nudges and follow-ups; Status and agenda drafts RTL; Portfolio insights; Integrations; Enterprise governance.</p>
+      <p>للمبدعين العرب: PM consultants — «Asana AI Teammates 2 Arabic ops kit in 4 days» لل orgs 15–800 users. من يُ run 10 kits/ربع بـ 1200–22000 دولار + coaching 95–780 دولار/شهر يبني «غرفة Asana AI عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Asana AI Teammates 2 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة ops kit (taxonomy، rules، training، first month):</strong> 3–12 يومًا — 1200–22000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ playbook tuning وexec reporting:</strong> — 95–780 دولار/شهر.</li>
+          <li><strong>Playbooks (agency client work، construction milestones، event runbooks):</strong> — 34–158 دولار/playbook.</li>
+          <li><strong>دورات «إدارة مشاريع بـ Asana AI Teammates بالعربية»:</strong> — 38–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Asana</span>
+        <span class="tag">PMO</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Teams</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 01-11-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="01-11-2026 -- 08-AM.html">
+          📰 1 نوفمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "01-11-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/01-11-2026 -- 08-AM.html"
+    content = README.read_text(encoding="utf-8")
+    old_marker = "news/01-11-2026 -- 12-AM.html"
+    new_line = (
+        f"- [`{new}`](news/01-11-2026%20--%2008-AM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()

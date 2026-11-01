@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/01-11-2026 -- 12-AM.html`](news/01-11-2026%20--%2012-AM.html) — أحدث إصدار (Anthropic Claude for Excel 3 Arabic · Deepgram Voice Agent 2 Arabic · Retool AI Agents 3 Arabic · Linear AI Insights 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/01-11-2026 -- 08-AM.html`](news/01-11-2026%20--%2008-AM.html) — أحدث إصدار (Snowflake Cortex Analyst 3 Arabic · Cognition Devin Teams 2 Arabic · ElevenLabs Dubbing Studio 3 Arabic · Asana AI Teammates 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
