@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/01-11-2026 -- 04-PM.html`](news/01-11-2026%20--%2004-PM.html) — أحدث إصدار (Notion AI Q&A Hub 3 Arabic · Shopify Sidekick 3 Arabic · Runway Gen-4 Turbo Arabic · HubSpot Breeze Agents 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/02-11-2026 -- 12-AM.html`](news/02-11-2026%20--%2012-AM.html) — أحدث إصدار (Anthropic Claude for Excel 3 Arabic · Deepgram Voice Agent 2 Arabic · Retool AI Agents 3 Arabic · Linear AI Insights 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
