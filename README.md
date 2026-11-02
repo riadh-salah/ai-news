@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/02-11-2026 -- 08-AM.html`](news/02-11-2026%20--%2008-AM.html) — أحدث إصدار (Salesforce Einstein Copilot 4 Arabic · GitHub Copilot Workspace 3 Arabic · Jasper Brand Voice 4 Arabic · Monday.com AI Blocks 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/02-11-2026 -- 04-PM.html`](news/02-11-2026%20--%2004-PM.html) — أحدث إصدار (Microsoft Copilot Studio 3 Arabic · Stripe Revenue Intelligence 2 Arabic · Figma Make 2 Arabic · Zendesk AI Agents 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
