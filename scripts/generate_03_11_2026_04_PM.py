@@ -1,0 +1,269 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 03-11-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "03-11-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Atlassian Rovo 2 Arabic · Intercom Fin 3 Arabic · "
+    "Cloudflare AI Gateway 2 Arabic · Adobe Firefly Services 3 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Atlassian Rovo 2 Arabic، Intercom Fin 3 Arabic، Cloudflare AI Gateway 2 Arabic، Adobe Firefly Services 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 3 نوفمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من Atlassian Rovo 2 Arabic الذي يُجمع Jira وConfluence وSlack في copilot واحد يُجيب عن «متى يُسلّم sprint؟» بالفصحى قبل أن تُطفأ شاشة المكتب، إلى Intercom Fin 3 Arabic الذي يُحلّ تذاكر الدعم ويُ draft مقالات help center بلهجة الخليج والشام، ومن Cloudflare AI Gateway 2 Arabic الذي يُحمي مفاتيح LLM ويُ route الطلبات إلى أرخص model يليق بجودة العربية، إلى Adobe Firefly Services 3 Arabic الذي يُ batch-produce visuals وcampaign assets لفرق marketing في MENA — أربع قصص مسائية في 3 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء نهاية اليوم!</h1>
+      <p class="hero-sub">مساءٌ لفرق product وsupport وplatform وcreative: knowledge مبعثرة، CSAT يتراجع، فواتير API تتضخم، وdesigners ينتظرون revisions لا تنتهي. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 3 نوفمبر 2026</span>
+        <span>🌇 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Atlassian Rovo 2 Arabic: عقل مؤسستك — search، agents، وdecisions عبر Jira وConfluence!</h2>
+      <p class="article-lead">«من آخر من علّق على spec الميزة الجديدة؟ — والمدير يقلّب 12 tab». في 3 نوفمبر 2026، أطلقت <strong>Atlassian</strong> <strong>Rovo 2 Arabic</strong>: طبقة team intelligence فوق Cloud تُ federate search في Jira وConfluence وLoom وconnected apps، تُ answer بالعربية مع citations إلى issue وpage، تُ spawn Rovo agents لـ standup summaries وrelease notes وincident timelines، تُ draft PRDs وuser stories RTL، تُ respect permissions وdata residency وaudit trails — لل scale-ups وenterprises في MENA.</p>
+      <p>المشكلة التي حلّتها: Rovo 1 كان يخلط تشكيل العربية في جداول Confluence؛ الإصدار 2 يُ MENA tokenizer، يُ benchmark −44% وقت «سؤال → مصدر صحيح» في fintech دبي، يُ Jira automation triggers من natural language عربي، يُ partner templates لل banking وtelecom وgov digital، ويُ certification لل solution partners.</p>
+      <p>القدرات الأساسية: Arabic federated search; Cited answers RTL; Rovo agents for ops; PRD and story drafting; Permission-aware governance; Partner playbooks.</p>
+      <p>للمبدعين العرب: Atlassian partners — «Rovo 2 Arabic knowledge hub in 8 days» لل orgs 80–25000 seats. من يُ deliver 8 hubs/ربع بـ 2400–58000 دولار + managed 180–1520 دولار/شهر يبني «مركز Rovo عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Atlassian Rovo 2 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة knowledge hub (taxonomy، connectors، agents، training):</strong> 5–18 يومًا — 2400–58000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ agent tuning وgovernance reviews:</strong> — 180–1520 دولار/شهر.</li>
+          <li><strong>Vertical kits (banking، SaaS، logistics، health):</strong> — 48–220 دولار/kit.</li>
+          <li><strong>دورات «ذكاء الفريق بـ Rovo بالعربية»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Atlassian</span>
+        <span class="tag">Rovo</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Intercom Fin 3 Arabic: support agent — resolve، teach، وupsell بلهجة عميلك!</h2>
+      <p class="article-lead">«تذكرة #8842: أين شحنتي؟ — والوكيل ينسخ من macro إنجليزي». في 3 نوفمبر 2026، أطلقت <strong>Intercom</strong> <strong>Fin 3 Arabic</strong>: AI agent فوق Inbox وHelp Center يُ ingest policies وorder data وKB articles، يُ resolve tier-1 queries بالفصحى واللهجات (Gulf، Levant، Egyptian)، يُ escalate بملخص عربي لل human، يُ suggest macros وarticle updates من gaps، يُ personalize upsell offers post-resolution، يُ integrate Shopify وStripe وcustom CRM، يُ CSAT وcontainment analytics — لل e-commerce وSaaS وfintech في MENA.</p>
+      <p>المشكلة التي حلّتها: Fin 2 كان يُ over-apologize بالإنجليزية في chats عربية؛ الإصدار 3 يُ tone packs MENA، يُ benchmark +19% CSAT و−52% median handle time في marketplace الرياض، يُ voice-ready scripts لل IVR handoff، يُ compliance presets لل banking disclosures، ويُ agency sandbox لل multi-brand support shops.</p>
+      <p>القدرات الأساسية: Arabic resolution with sources; Smart escalation RTL; KB gap detection; Commerce-aware upsell; Omnichannel handoff; Agency multi-tenant.</p>
+      <p>للمبدعين العرب: CX studios — «Fin 3 Arabic support transformation in 10 days» لل brands 5K–500K conversations/month. من يُ run 9 transformations/ربع بـ 1900–42000 دولار + ops 150–1200 دولار/شهر يبني «خط دعم AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Intercom Fin 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة support transformation (audit، KB، Fin tuning، launch):</strong> 6–16 يومًا — 1900–42000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ tone refresh وcontainment reporting:</strong> — 150–1200 دولار/شهر.</li>
+          <li><strong>Industry playbooks (travel، telecom، insurance، edtech):</strong> — 40–175 دولار/playbook.</li>
+          <li><strong>دورات «دعم ذكي بـ Fin بالعربية»:</strong> — 38–185 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Intercom</span>
+        <span class="tag">Fin</span>
+        <span class="tag">Support</span>
+        <span class="tag">CX</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Cloudflare AI Gateway 2 Arabic: حارس LLM — cache، route، guard، وcost control!</h2>
+      <p class="article-lead">«فاتورة OpenAI تضاعفت — ولا أحد يعرف أي feature يلتهم tokens». في 3 نوفمبر 2026، أطلقت <strong>Cloudflare</strong> <strong>AI Gateway 2 Arabic</strong>: edge layer أمام أي LLM provider يُ log prompts/responses مع PII redaction، يُ semantic cache لل Arabic FAQs المتكررة، يُ route dynamic بين models (quality vs cost)، يُ apply rate limits وbudget caps per team، يُ detect jailbreaks وprompt injection، يُ dashboards RTL لل CIOs — لل banks وSaaS وgov clouds في MENA.</p>
+      <p>المشكلة التي حلّتها: Gateway 1 كان weak في Arabic cache keys؛ الإصدار 2 يُ normalized Arabic embeddings، يُ benchmark −38% token spend على support bot قطر، يُ fallback chains عند provider outage، يُ Workers AI binding لل on-edge inference، ويُ partner SKUs لل system integrators.</p>
+      <p>القدرات الأساسية: Arabic-aware semantic cache; Multi-model routing; Budget and rate governance; Security guardrails; Edge analytics RTL; Partner packaging.</p>
+      <p>للمبدعين العرب: platform consultancies — «AI Gateway 2 Arabic cost &amp; safety stack in 7 days» لل orgs 20–800 AI workloads. من يُ ship 11 stacks/ربع بـ 2100–48000 دولار + managed 165–1380 دولار/شهر يبني «بوابة AI عربية».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Cloudflare AI Gateway 2 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة gateway stack (providers، cache rules، guardrails، dashboards):</strong> 4–14 يومًا — 2100–48000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ routing tuning وspend reviews:</strong> — 165–1380 دولار/شهر.</li>
+          <li><strong>Compliance packs (PCI، HIPAA-style، gov data classes):</strong> — 55–240 دولار/pack.</li>
+          <li><strong>دورات «حوكمة LLM بـ AI Gateway بالعربية»:</strong> — 45–205 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Cloudflare</span>
+        <span class="tag">AI Gateway</span>
+        <span class="tag">Platform</span>
+        <span class="tag">Security</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Adobe Firefly Services 3 Arabic: creative factory — gen، edit، localize، وbrand-safe!</h2>
+      <p class="article-lead">«نحتاج 200 banner لـ 6 أسواق عربية — والاستوديو ينام على Photoshop». في 3 نوفمبر 2026، أطلقت <strong>Adobe</strong> <strong>Firefly Services 3 Arabic</strong>: APIs وCreative Cloud integration تُ generate وedit images وvideo frames، تُ localize copy overlays RTL، تُ apply brand kits وlegal-safe content credentials، تُ batch resize لل Snapchat وMeta وOOH specs MENA، تُ connect AEM وWorkfront pipelines، تُ usage metering وenterprise SSO — لل agencies وretail وmedia groups.</p>
+      <p>المشكلة التي حلّتها: Firefly Services 2 كان inconsistent في Arabic typography في generated layouts؛ الإصدار 3 يُ Arabic layout engine، يُ benchmark −55% production hours في campaign Ramadan لعلامة خليجية، يُ video object removal لل UGC ads، تُ partner marketplace templates، ويُ training credits لل creative ops teams.</p>
+      <p>القدرات الأساسية: Arabic gen and edit APIs; Brand-safe batch production; RTL localization; AEM/Workfront flows; Content credentials; Agency metering.</p>
+      <p>للمبدعين العرب: creative ops shops — «Firefly Services 3 Arabic campaign factory in 9 days» لل brands 50–5000 assets/month. من يُ deliver 12 factories/ربع بـ 1700–36000 دولار + retainer 130–1050 دولار/شهر يبني «مصنع creative AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Adobe Firefly Services 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة campaign factory (brand kit، pipelines، pilot campaign):</strong> 5–15 يومًا — 1700–36000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ template refresh وQC:</strong> — 130–1050 دولار/شهر.</li>
+          <li><strong>Seasonal asset packs (Ramadan، National Day، White Friday):</strong> — 32–155 دولار/pack.</li>
+          <li><strong>دورات «إنتاج إبداعي بـ Firefly Services بالعربية»:</strong> — 41–192 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Adobe</span>
+        <span class="tag">Firefly</span>
+        <span class="tag">Creative</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 03-11-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="03-11-2026 -- 04-PM.html">
+          📰 3 نوفمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "03-11-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/03-11-2026 -- 04-PM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/03-11-2026%20--%2004-PM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
