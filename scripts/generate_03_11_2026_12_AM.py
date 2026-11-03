@@ -1,0 +1,269 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 03-11-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "03-11-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "AWS Amazon Q Business 4 Arabic · Microsoft Power Automate Copilot 3 Arabic · "
+    "Synthesia 4 Arabic · Workday Illuminate 3 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — AWS Amazon Q Business 4 Arabic، Microsoft Power Automate Copilot 3 Arabic، Synthesia 4 Arabic، Workday Illuminate 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 3 نوفمبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌙 نشرة AI العالمية</span>
+      <h1>من AWS Amazon Q Business 4 Arabic الذي يُحوّل أسئلة الموظف بالعربية إلى إجابات موثّقة من SharePoint وConfluence قبل أن تبرد فنجان القهوة الليلية، إلى Microsoft Power Automate Copilot 3 Arabic الذي يُبني تدفقات موافقات وإشعارات من جملة واحدة فصحى أو عامية، ومن Synthesia 4 Arabic الذي يُ birth فيديوهات تدريب وإعلانات بمقدّمين افتراضيين ينطقون العربية بثقة، إلى Workday Illuminate 3 Arabic الذي يُ explain مسارك الوظيفي ورواتب الفريق بلسان HR — أربع قصص ليلية في 3 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء منتصف الليل!</h1>
+      <p class="hero-sub">ليلة لفرق knowledge وoperations وL&amp;D وHR: مستندات تضيع في silos، workflows تتعطل بين Teams وERP، فيديوهات training تنتظر استوديو، وموظفون يسألون «متى الترقية؟» دون رد. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 3 نوفمبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>AWS Amazon Q Business 4 Arabic: مساعد مؤسسي — search، summaries، وactions من knowledge موثّق!</h2>
+      <p class="article-lead">«أين سياسة السفر المحدّثة؟ — والموظف ينتظر قبل رحلة الغد». في 3 نوفمبر 2026، أطلقت <strong>AWS</strong> <strong>Amazon Q Business 4 Arabic</strong>: مساعد enterprise يُ index S3 وSharePoint Online وGoogle Drive وSlack archives، يُ answer بالفصحى واللهجات مع citations، يُ draft emails وpolicy FAQs RTL، يُ trigger Lambda actions (ticketing، access requests)، يُ respect IAM وKMS وdata residency في me-central وeu-west، يُ admin analytics على deflection — لل banks وholding groups وgov في MENA.</p>
+      <p>المشكلة التي حلّتها: Q Business 3 كان يُ confuse Arabic homographs في legal docs؛ الإصدار 4 يُ glossary lock، يُ benchmark −47% وقت «سؤال → document صحيح» في conglomerate الرياض، يُ multimodal (مسح PDF ممسوح)، يُ partner connectors لل SAP وServiceNow، ويُ certification track لل integrators.</p>
+      <p>القدرات الأساسية: Arabic grounded answers; Connector mesh; Action plugins; Enterprise security; Usage analytics; Partner marketplace.</p>
+      <p>للمبدعين العرب: knowledge consultancies — «Q Business 4 Arabic knowledge hub in 10 days» لل orgs 500–25000 seats. من يُ deliver 6 hubs/ربع بـ 3200–68000 دولار + managed 240–1950 دولار/شهر يبني «مركز Q عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Amazon Q Business 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة knowledge hub (connectors، taxonomy، pilot، training):</strong> 7–22 يومًا — 3200–68000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ content refresh وanalytics:</strong> — 240–1950 دولار/شهر.</li>
+          <li><strong>Vertical kits (banking، insurance، aviation، energy):</strong> — 58–270 دولار/kit.</li>
+          <li><strong>دورات «مساعد مؤسسي بـ Amazon Q بالعربية»:</strong> — 51–245 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">AWS</span>
+        <span class="tag">Amazon Q</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Knowledge</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Microsoft Power Automate Copilot 3 Arabic: من جملة عربية إلى flow — approvals، bots، وERP!</h2>
+      <p class="article-lead">«نريد workflow: طلب إجازة → مدير → HR → payroll — والـ IT مشغول شهرًا». في 3 نوفمبر 2026، أطلقت <strong>Microsoft</strong> <strong>Power Automate Copilot 3 Arabic</strong>: copilot داخل Power Platform يُ parse أوامر عربية، يُ generate cloud flows وdesktop flows، يُ wire Teams approvals وAdaptive Cards RTL، يُ connect Dynamics 365 وSAP connectors، يُ suggest error handling وlogging، يُ export documentation لل auditors، يُ govern via DLP وenvironment policies — لل SMB وenterprises في MENA.</p>
+      <p>المشكلة التي حلّتها: Copilot 2 كان يُ misroute Arabic branch conditions؛ الإصدار 3 يُ bidi-safe expressions، يُ benchmark −44% وقت «idea → production flow» في manufacturer جدة، يُ template gallery (procurement، onboarding، invoice matching)، يُ ALM packs لل dev/test/prod، ويُ partner accelerators لل VARs.</p>
+      <p>القدرات الأساسية: Arabic natural language to flow; Teams and Outlook integration; ERP connectors; ALM and DLP; Template library; Partner SDK.</p>
+      <p>للمبدعين العرب: automation studios — «Power Automate Copilot 3 Arabic sprint in 5 days» لل orgs 80–6000 users. من يُ ship 12 sprints/ربع بـ 1800–42000 دولار + retainer 160–1300 دولار/شهر يبني «خط automation عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Power Automate Copilot 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة automation sprint (discovery، flows، UAT، handover):</strong> 4–16 يومًا — 1800–42000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ monitoring وflow tuning:</strong> — 160–1300 دولار/شهر.</li>
+          <li><strong>Industry flow packs (retail، clinics، logistics، education):</strong> — 42–198 دولار/pack.</li>
+          <li><strong>دورات «أتمتة بـ Power Automate Copilot بالعربية»:</strong> — 46–218 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Microsoft</span>
+        <span class="tag">Power Automate</span>
+        <span class="tag">RPA</span>
+        <span class="tag">Workflow</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Synthesia 4 Arabic: avatars، scripts، وlocalization — فيديو corporate بجودة broadcast!</h2>
+      <p class="article-lead">«2000 موظف يحتاج onboarding بالعربية — والاستوديو محجوز شهرين». في 3 نوفمبر 2026، أطلقت <strong>Synthesia</strong> <strong>Synthesia 4 Arabic</strong>: منصة فيديو AI تُ generate presenters عرب (فصحى، خليجي، مصري، شامي)، تُ ingest slides وbrand kits، تُ sync lip-sync دقيق لل حروف العربية، تُ translate EN↔AR مع tone control، تُ SCORM export ل LMS، تُ team workspaces وreview links RTL، تُ enterprise SSO وSOC2 — لل L&amp;D وmarketing وinternal comms في MENA.</p>
+      <p>المشكلة التي حلّتها: Synthesia 3 كان weak في تشكيل «ت» و«ة» في fast speech؛ الإصدار 4 يُ phoneme model MENA، يُ benchmark −51% cost per training hour في telco دبي، يُ custom avatar cloning (consent workflow)، يُ API لل CMS pipelines، ويُ usage-based pricing لل agencies.</p>
+      <p>القدرات الأساسية: Arabic avatars and dialects; Brand-safe templates; LMS export; Review and versioning RTL; API and webhooks; Enterprise governance.</p>
+      <p>للمبدعين العرب: video agencies — «Synthesia 4 Arabic learning studio in 6 days» لل orgs 300–20000 learners. من يُ run 9 studios/ربع بـ 2200–52000 دولار + ops 175–1450 دولار/شهر يبني «استوديو Synthesia عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Synthesia 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة learning studio (scripts، avatars، LMS pack، launch):</strong> 5–18 يومًا — 2200–52000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ module updates وtranslation:</strong> — 175–1450 دولار/شهر.</li>
+          <li><strong>Template packs (compliance، sales، hospitality، banking):</strong> — 48–225 دولار/pack.</li>
+          <li><strong>دورات «فيديو تدريب AI بـ Synthesia بالعربية»:</strong> — 43–205 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Synthesia</span>
+        <span class="tag">Video</span>
+        <span class="tag">L&amp;D</span>
+        <span class="tag">Avatars</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Workday Illuminate 3 Arabic: HR copilot — skills، comp، وcareer paths بلسان الموظف!</h2>
+      <p class="article-lead">«لماذا راتبي مختلف عن زميلي؟ — وHR غارقة في tickets». في 3 نوفمبر 2026، أطلقت <strong>Workday</strong> <strong>Illuminate 3 Arabic</strong>: copilot فوق HCM يُ answer policies وbenefits بالعربية، يُ map skills gaps إلى learning paths، يُ draft job descriptions RTL، يُ simulate comp scenarios لل managers (role-based)، يُ surface retention risks مع privacy guardrails، يُ integrate Slack وTeams وemail digests، يُ audit trails لل compliance — لل multinationals وregional champions في MENA.</p>
+      <p>المشكلة التي حلّتها: Illuminate 2 كان يُ overshare English-only job codes؛ الإصدار 3 يُ localized job architecture، يُ benchmark −43% HR ticket volume في retailer القاهرة، يُ manager nudges باللهجة، يُ partner content لل labor law updates، ويُ analytics على adoption وtime-to-answer.</p>
+      <p>القدرات الأساسية: Arabic HR Q&amp;A; Skills and learning paths; Manager comp insights; Retention signals; Integrations; Compliance logging.</p>
+      <p>للمبدعين العرب: HR tech partners — «Illuminate 3 Arabic people hub in 12 days» لل orgs 800–45000 employees. من يُ deliver 5 hubs/ربع بـ 4100–78000 دولار + managed 260–2100 دولار/شهر يبني «مكتب Workday AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Workday Illuminate 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة people hub (config، knowledge، pilot cohorts، training):</strong> 8–25 يومًا — 4100–78000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ policy updates وadoption coaching:</strong> — 260–2100 دولار/شهر.</li>
+          <li><strong>Regional playbooks (Saudi، UAE، Egypt، Jordan):</strong> — 55–260 دولار/playbook.</li>
+          <li><strong>دورات «HR ذكي بـ Workday Illuminate بالعربية»:</strong> — 49–232 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Workday</span>
+        <span class="tag">HR</span>
+        <span class="tag">HCM</span>
+        <span class="tag">Copilot</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 03-11-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="03-11-2026 -- 12-AM.html">
+          📰 3 نوفمبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "03-11-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/03-11-2026 -- 12-AM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/03-11-2026%20--%2012-AM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()

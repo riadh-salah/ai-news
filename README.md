@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/02-11-2026 -- 04-PM.html`](news/02-11-2026%20--%2004-PM.html) — أحدث إصدار (Microsoft Copilot Studio 3 Arabic · Stripe Revenue Intelligence 2 Arabic · Figma Make 2 Arabic · Zendesk AI Agents 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/03-11-2026 -- 12-AM.html`](news/03-11-2026%20--%2012-AM.html) — أحدث إصدار (AWS Amazon Q Business 4 Arabic · Microsoft Power Automate Copilot 3 Arabic · Synthesia 4 Arabic · Workday Illuminate 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
