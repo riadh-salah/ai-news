@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/03-11-2026 -- 12-AM.html`](news/03-11-2026%20--%2012-AM.html) — أحدث إصدار (AWS Amazon Q Business 4 Arabic · Microsoft Power Automate Copilot 3 Arabic · Synthesia 4 Arabic · Workday Illuminate 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/03-11-2026 -- 08-AM.html`](news/03-11-2026%20--%2008-AM.html) — أحدث إصدار (Box AI 4 Arabic · LinkedIn Recruiter AI 3 Arabic · DocuSign IAM 3 Arabic · Klaviyo AI Marketing Agents 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 

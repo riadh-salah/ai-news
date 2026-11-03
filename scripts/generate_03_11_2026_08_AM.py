@@ -1,0 +1,269 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 03-11-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "03-11-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Box AI 4 Arabic · LinkedIn Recruiter AI 3 Arabic · "
+    "DocuSign IAM 3 Arabic · Klaviyo AI Marketing Agents 3 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Box AI 4 Arabic، LinkedIn Recruiter AI 3 Arabic، DocuSign IAM 3 Arabic، Klaviyo AI Marketing Agents 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 3 نوفمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌅 نشرة AI العالمية</span>
+      <h1>من Box AI 4 Arabic الذي يُحوّل مئات آلاف العقود والعروض المخزّنة في silos إلى إجابات موثّقة وملخّصات قانونية قبل أن يبرد فنجان القهوة، إلى LinkedIn Recruiter AI 3 Arabic الذي يُ shortlist مرشّحين ويُ draft رسائل outreach بالفصحى والخليجية في دقائق، ومن DocuSign IAM 3 Arabic الذي يُستخرج clauses ويُقارن نسخًا ويُطلق workflows توقيع من سؤال واحد، إلى Klaviyo AI Marketing Agents 3 Arabic الذي يُ orchestrate email وSMS وpush حملات personalization بلهجة عميلك — أربع قصص صباحية في 3 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُشعل يومه من أول ضوء!</h1>
+      <p class="hero-sub">صباحٌ لفرق legal وHR وrevenue وgrowth: عقود تضيع في email threads، فراغات talent تطول، اتفاقيات تنتظر legal review أسابيع، وحملات marketing تُبنى يدويًا channel بعد channel. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 3 نوفمبر 2026</span>
+        <span>🌄 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Box AI 4 Arabic: intelligence للملفات — Q&amp;A، summaries، وcontract review موثّق!</h2>
+      <p class="article-lead">«أين آخر نسخة من اتفاقية التوزيع مع الشريك السعودي؟ — والمحامي يبحث في 40 مجلدًا». في 3 نوفمبر 2026، أطلقت <strong>Box</strong> <strong>Box AI 4 Arabic</strong>: طبقة ذكاء فوق Content Cloud تُ index PDFs وWord وslides وscanned docs، تُ answer بالفصحى واللهجات مع citations إلى صفحة وparagraph، تُ compare contract versions ويُ highlight deltas RTL، تُ draft executive summaries وFAQ لل boards، تُ trigger Box Sign وworkflow tasks، تُ respect retention وlegal hold وSSO وdata residency — لل banks وlaw firms وholding groups في MENA.</p>
+      <p>المشكلة التي حلّتها: Box AI 3 كان يُخطئ في Arabic OCR diacritics في scanned agreements؛ الإصدار 4 يُ MENA OCR pack، يُ benchmark −46% وقت «سؤال → clause صحيح» في legal team دبي، يُ multimodal charts extraction، يُ partner connectors لل iManage وNetDocuments، ويُ certification track لل integrators.</p>
+      <p>القدرات الأساسية: Arabic grounded file Q&amp;A; Contract compare RTL; Executive summaries; Workflow and Sign triggers; Enterprise governance; Partner connectors.</p>
+      <p>للمبدعين العرب: legal tech studios — «Box AI 4 Arabic document hub in 9 days» لل orgs 200–35000 seats. من يُ deliver 7 hubs/ربع بـ 2900–72000 دولار + managed 220–1850 دولار/شهر يبني «مركز Box عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Box AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة document hub (taxonomy، OCR tuning، pilot، training):</strong> 6–20 يومًا — 2900–72000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ retention policies وmodel refresh:</strong> — 220–1850 دولار/شهر.</li>
+          <li><strong>Vertical kits (banking، real estate، pharma، energy):</strong> — 52–248 دولار/kit.</li>
+          <li><strong>دورات «ذكاء الملفات بـ Box AI بالعربية»:</strong> — 47–228 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Box</span>
+        <span class="tag">Documents</span>
+        <span class="tag">Legal</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>LinkedIn Recruiter AI 3 Arabic: talent intelligence — sourcing، outreach، وpipeline بلسان MENA!</h2>
+      <p class="article-lead">«نحتاج 15 مهندس DevOps في الرياض خلال 30 يومًا — والفريق يرسل رسائل generic بالإنجليزية». في 3 نوفمبر 2026، أطلقت <strong>LinkedIn</strong> <strong>Recruiter AI 3 Arabic</strong>: copilot داخل Recruiter وTalent Insights يُ parse briefs عربية، يُ rank candidates بskills graph وlocation وvisa signals، يُ draft InMail وemail sequences RTL (formal، Gulf friendly، Egyptian warm)، يُ suggest salary bands وmarket maps لل GCC وLevant وNorth Africa، يُ summarize profiles وhighlight gaps، يُ integrate ATS (Workday، SAP SuccessFactors)، يُ bias alerts وaudit logs — لل enterprises وRPOs في MENA.</p>
+      <p>المشكلة التي حلّتها: Recruiter AI 2 كان يُ flatten Arabic job titles؛ الإصدار 3 يُ localized title ontology، يُ benchmark −41% time-to-shortlist في tech hiring الرياض، يُ project templates لل engineering وsales وhealthcare، يُ team analytics على reply rates باللهجة، ويُ partner enablement لل staffing agencies.</p>
+      <p>القدرات الأساسية: Arabic brief to search; Personalized outreach RTL; Market and comp insights; ATS sync; Bias and compliance; Agency playbooks.</p>
+      <p>للمبدعين العرب: talent consultancies — «Recruiter AI 3 Arabic hiring sprint in 7 days» لل orgs 50–8000 hires/year. من يُ run 10 sprints/ربع بـ 1600–38000 دولار + retainer 140–1150 دولار/شهر يبني «خط توظيف AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من LinkedIn Recruiter AI 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة hiring sprint (roles، searches، sequences، handover):</strong> 5–14 يومًا — 1600–38000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ pipeline tuning وreporting:</strong> — 140–1150 دولار/شهر.</li>
+          <li><strong>Industry packs (fintech، oil &amp; gas، retail، health):</strong> — 38–185 دولار/pack.</li>
+          <li><strong>دورات «توظيف ذكي بـ LinkedIn Recruiter AI بالعربية»:</strong> — 44–210 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">LinkedIn</span>
+        <span class="tag">Recruiting</span>
+        <span class="tag">HR</span>
+        <span class="tag">Talent</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>DocuSign IAM 3 Arabic: agreements ذكية — extract، compare، negotiate، وsign!</h2>
+      <p class="article-lead">«العميل عدّل 12 بندًا في MSAs — والlegal يراجع يدويًا ثلاثة أيام». في 3 نوفمبر 2026، أطلقت <strong>DocuSign</strong> <strong>Intelligent Agreement Management 3 Arabic</strong>: منصة IAM تُ ingest signed وdraft agreements، تُ extract parties وdates وobligations وrenewal clauses بالعربية والإنجليزية، تُ compare redlines ويُ summarize risk RTL، تُ suggest fallback language من clause library، تُ launch CLM workflows وeSignature envelopes، تُ connect Salesforce وSAP وServiceNow، تُ analytics على cycle time وrenewal exposure، تُ SOC2 وregion hosting — لل procurement وlegal ops في MENA.</p>
+      <p>المشكلة التي حلّتها: IAM 2 كان weak في bilingual tables؛ الإصدار 3 يُ bidi table parser، يُ benchmark −48% legal review hours في conglomerate الكويت، يُ AI negotiate assistant (human-in-loop)، يُ vendor onboarding packs، ويُ partner SDK لل system integrators.</p>
+      <p>القدرات الأساسية: Arabic-English clause extraction; Redline compare; Risk summaries RTL; CLM and Sign automation; ERP/CRM connectors; Renewal analytics.</p>
+      <p>للمبدعين العرب: CLM partners — «DocuSign IAM 3 Arabic agreement hub in 11 days» لل orgs 100–12000 contracts/year. من يُ deliver 6 hubs/ربع بـ 3400–65000 دولار + managed 230–1900 دولار/شهر يبني «مكتب agreements عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من DocuSign IAM 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة agreement hub (library، extraction rules، pilot، training):</strong> 7–22 يومًا — 3400–65000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ renewal alerts وclause updates:</strong> — 230–1900 دولار/شهر.</li>
+          <li><strong>Playbooks (vendor، employment، NDAs، SaaS):</strong> — 45–215 دولار/playbook.</li>
+          <li><strong>دورات «إدارة اتفاقيات بـ DocuSign IAM بالعربية»:</strong> — 48–225 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">DocuSign</span>
+        <span class="tag">CLM</span>
+        <span class="tag">Legal</span>
+        <span class="tag">Contracts</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Klaviyo AI Marketing Agents 3 Arabic: growth autopilot — segments، campaigns، وLTV!</h2>
+      <p class="article-lead">«Black Friday بعد أسبوعين — والفريق يبني 40 حملة يدويًا لكل segment». في 3 نوفمبر 2026، أطلقت <strong>Klaviyo</strong> <strong>AI Marketing Agents 3 Arabic</strong>: agents فوق CDP تُ analyze purchase وbrowse behavior، تُ generate segments وpredict churn، تُ draft email وSMS وpush copy RTL (Ramadan، Eid، National Day tone packs)، تُ schedule multichannel flows وA/B tests، تُ personalize product recommendations وwin-back offers، تُ connect Shopify وMagento وcustom APIs، تُ ROI dashboards وattribution — لل D2C وretail وsubscription brands في MENA.</p>
+      <p>المشكلة التي حلّتها: Agents 2 كان inconsistent في Arabic subject lines؛ الإصدار 3 يُ dialect subject optimizer، يُ benchmark +22% open rate و−35% campaign build time في fashion brand الرياض، تُ creative variants لل WhatsApp templates، تُ compliance presets لل telecom opt-in، وتُ agency workspace لل multi-brand shops.</p>
+      <p>القدرات الأساسية: Arabic segment and copy; Multichannel orchestration; Personalization; A/B automation; Commerce integrations; Agency multi-tenant.</p>
+      <p>للمبدعين العرب: growth agencies — «Klaviyo AI Agents 3 Arabic revenue sprint in 6 days» لل brands 10K–2M profiles. من يُ ship 14 sprints/ربع بـ 1200–28000 دولار + ops 125–980 دولار/شهر يبني «خط growth AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Klaviyo AI Marketing Agents 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة revenue sprint (audit، segments، flows، launch):</strong> 4–12 يومًا — 1200–28000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ creative refresh وreporting:</strong> — 125–980 دولار/شهر.</li>
+          <li><strong>Seasonal packs (Ramadan، Back-to-school، White Friday):</strong> — 35–168 دولار/pack.</li>
+          <li><strong>دورات «نمو متاجر بـ Klaviyo AI Agents بالعربية»:</strong> — 39–188 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Klaviyo</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">E-commerce</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 03-11-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="03-11-2026 -- 08-AM.html">
+          📰 3 نوفمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "03-11-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/03-11-2026 -- 08-AM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/03-11-2026%20--%2008-AM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
