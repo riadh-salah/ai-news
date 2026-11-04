@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/04-11-2026 -- 12-AM.html`](news/04-11-2026%20--%2012-AM.html) — أحدث إصدار (Google Jules 2 Arabic · Tabnine Enterprise 3 Arabic · Sourcegraph Cody 5 Arabic · LangChain LangSmith Agents 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/04-11-2026 -- 08-AM.html`](news/04-11-2026%20--%2008-AM.html) — أحدث إصدار (Loom AI 3 Arabic · Miro AI 4 Arabic · Freshworks Freddy AI 5 Arabic · Paddle Monetization AI 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
