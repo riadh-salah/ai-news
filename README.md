@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/05-11-2026 -- 12-AM.html`](news/05-11-2026%20--%2012-AM.html) — أحدث إصدار (Notion AI Q&A 3 Arabic · Canva Magic Studio 4 Arabic · HubSpot Breeze AI 2 Arabic · Shopify Sidekick 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/05-11-2026 -- 08-AM.html`](news/05-11-2026%20--%2008-AM.html) — أحدث إصدار (Atlassian Confluence AI 5 Arabic · Wrike Copilot 3 Arabic · Retool AI 5 Arabic · Sanity Create AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 

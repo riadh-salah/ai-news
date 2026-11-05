@@ -1,0 +1,269 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 05-11-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "05-11-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Atlassian Confluence AI 5 Arabic · Wrike Copilot 3 Arabic · "
+    "Retool AI 5 Arabic · Sanity Create AI 3 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Atlassian Confluence AI 5 Arabic، Wrike Copilot 3 Arabic، Retool AI 5 Arabic، Sanity Create AI 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 5 نوفمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌅 نشرة AI العالمية</span>
+      <h1>من Atlassian Confluence AI 5 Arabic الذي يُحوّل wiki فوضويًا إلى إجابات موثّقة وSOPs جاهزة قبل أن يبرد فنجان القهوة، إلى Wrike Copilot 3 Arabic الذي يُ re-plan مشروعًا متأخرًا ويُ draft status للإدارة بلهجة ops عربية، ومن Retool AI 5 Arabic الذي يُ launch portal عملاء ولوحة finance من prompt واحد في ساعات، إلى Sanity Create AI 3 Arabic الذي يُ sync محتوى headless عبر sites وapps وnewsletters RTL — أربع قصص صباحية في 5 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء بداية اليوم!</h1>
+      <p class="hero-sub">صباحٌ لفرق knowledge وPMO وinternal tools وcontent: مستندات تتكرر، timelines تنهار، portals تُبنى أشهرًا، وCMS يتشتت بين قنوات. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 5 نوفمبر 2026</span>
+        <span>🌄 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Atlassian Confluence AI 5 Arabic: wiki يُفكّر — RAG، SOPs، وإجابات ب citations!</h2>
+      <p class="article-lead">«أين آخر نسخة من policy السفر؟ — وثلاثة Slack threads وPDF ممسوح». في 5 نوفمبر 2026، أطلقت <strong>Atlassian</strong> <strong>Confluence AI 5 Arabic</strong>: طبقة معرفة فوق Confluence وJira وLoom يُ index spaces وattachments وmeeting recordings، يُ answer بالفصحى واللهجات المختارة مع deep links، يُ draft SOPs وrunbooks من bullet notes، يُ detect duplicate pages ويُ suggest merges، يُ restrict answers حسب permissions وSSO، يُ summarize epic threads إلى decision logs، يُ bilingual Q&amp;A بين English docs وArabic queries — لل enterprises وscale-ups وgov digital في MENA.</p>
+      <p>المشكلة التي حلّتها: Confluence AI 4 كان يُ struggle مع scanned Arabic PDFs؛ الإصدار 5 يُ OCR محسّن، يُ benchmark −47% time-to-answer في holding الرياض، يُ connector packs لـ SharePoint وGoogle Drive، يُ analytics لـ «أسئلة بدون إجابة»، يُ stale content alerts، ويُ partner enablement في Dubai وCasablanca.</p>
+      <p>القدرات الأساسية: Arabic Q&amp;A with citations; SOP generation; Duplicate detection; Permission-aware RAG; Decision summaries; Bilingual search.</p>
+      <p>للمبدعين العرب: Atlassian partners — «Confluence AI 5 Arabic knowledge hub in 9 days» لل orgs 100–15000 seats. من يُ deploy 6 hubs/ربع بـ 2200–42000 دولار + managed 160–1200 دولار/شهر يبني «مكتب Confluence AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Atlassian Confluence AI 5 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة wiki AI (taxonomy، migrations، permissions، pilot):</strong> 6–16 يومًا — 2200–42000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ KB hygiene وquestion analytics:</strong> — 160–1200 دولار/شهر.</li>
+          <li><strong>Department playbooks (HR، legal، engineering):</strong> — 48–210 دولار/playbook.</li>
+          <li><strong>دورات «معرفة مؤسسية بـ Confluence AI بالعربية»:</strong> — 38–178 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Atlassian</span>
+        <span class="tag">Confluence</span>
+        <span class="tag">Knowledge</span>
+        <span class="tag">RAG</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Wrike Copilot 3 Arabic: PMO copilot — replan، risks، وexecutive briefs RTL!</h2>
+      <p class="article-lead">«المشروع متأخر أسبوعين — والمدير يسأل قبل standup». في 5 نوفمبر 2026، أطلقت <strong>Wrike</strong> <strong>Copilot 3 Arabic</strong>: copilot داخل Work Management يُ describe replans بالعربية («أعد جدولة phase 2، shift resources من team A»)، يُ generate risk registers وmitigation، يُ draft executive status RTL مع charts، يُ extract action items من meeting notes، يُ suggest dependencies من historical projects، يُ connect Salesforce وAdobe وSlack، يُ human approvals على critical changes — لل PMO وagencies وconstruction وevents في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Copilot 2 كان tone mismatch في formal Arabic reports؛ الإصدار 3 يُ MENA exec brief templates، يُ benchmark −38% وقت weekly status في agency دبي، يُ resource leveling hints، يُ integration مع Microsoft Project imports، ويُ reseller certifications لل regional consultancies.</p>
+      <p>القدرات الأساسية: Natural-language replanning; Risk registers; Executive briefs RTL; Action extraction; Dependency hints; Approval workflows.</p>
+      <p>للمبدعين العرب: PM consultancies — «Wrike Copilot 3 Arabic PMO uplift in 7 days» لل orgs 25–2000 users. من يُ run 8 programs/ربع بـ 1800–35000 دولار + coaching 130–980 دولار/شهر يبني «استوديو Wrike AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Wrike Copilot 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة PMO AI (templates، replan rules، training، pilot):</strong> 5–14 يومًا — 1800–35000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ status automation وrisk reviews:</strong> — 130–980 دولار/شهر.</li>
+          <li><strong>Vertical packs (construction، marketing، IT):</strong> — 42–195 دولار/pack.</li>
+          <li><strong>دورات «إدارة مشاريع ذكية بـ Wrike Copilot بالعربية»:</strong> — 36–168 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Wrike</span>
+        <span class="tag">Copilot</span>
+        <span class="tag">PMO</span>
+        <span class="tag">Planning</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Retool AI 5 Arabic: أدوات داخلية — portals، approvals، وops apps من prompt!</h2>
+      <p class="article-lead">«نحتاج portal للعملاء يُ track orders — والـ eng مشغول شهرين». في 5 نوفمبر 2026، أطلقت <strong>Retool</strong> <strong>Retool AI 5 Arabic</strong>: app generator يُ build admin panels وcustomer portals من brief عربي، يُ wire Postgres وREST وSnowflake وSAP connectors، يُ generate forms وworkflows وapproval chains RTL، يُ role-based access وaudit logs، يُ suggest queries وfix errors in-app، يُ deploy to cloud أو self-hosted، يُ mobile-responsive layouts — لل ops وfinance وlogistics وhealthtech في MENA.</p>
+      <p>المشكلة التي حلّتها: Retool AI 4 كان يُ produce UI بلا Arabic labels consistent؛ الإصدار 5 يُ RTL component library، يُ benchmark −55% time «idea to pilot» في fintech القاهرة، يُ AI-assisted testing scenarios، يُ SSO SAML وOIDC packs، ويُ partner marketplace لل regional SI.</p>
+      <p>القدرات الأساسية: Prompt to internal apps; RTL UI library; Connector orchestration; Approval workflows; In-app debugging; Enterprise SSO.</p>
+      <p>للمبدعين العرب: internal tools studios — «Retool AI 5 Arabic ops portal in 6 days» لل orgs 15–1200 users. من يُ deliver 9 portals/ربع بـ 1600–38000 دولار + support 120–950 دولار/شهر يبني «خط Retool AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Retool AI 5 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة internal tools (discovery، build، SSO، handoff):</strong> 4–12 يومًا — 1600–38000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ enhancements وmonitoring:</strong> — 120–950 دولار/شهر.</li>
+          <li><strong>Vertical starter kits (inventory، KYC، ticketing):</strong> — 55–240 دولار/kit.</li>
+          <li><strong>دورات «بناء ops apps بـ Retool AI بالعربية»:</strong> — 40–185 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Retool</span>
+        <span class="tag">Internal Tools</span>
+        <span class="tag">Portals</span>
+        <span class="tag">Workflows</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Sanity Create AI 3 Arabic: headless content — draft، localize، وomnichannel RTL!</h2>
+      <p class="article-lead">«المقال جاهز بالعربية — لكن الموقع والapp والnewsletter versions مختلفة». في 5 نوفمبر 2026، أطلقت <strong>Sanity</strong> <strong>Create AI 3 Arabic</strong>: content copilot داخل Sanity Studio يُ draft articles وproduct pages بالفصحى واللهجات، يُ localize إلى EN/FR مع RTL-safe blocks، يُ generate SEO metadata وstructured data، يُ suggest images وalt-text، يُ sync variants عبر web وmobile وemail، يُ brand voice lock من style guide، يُ review workflows وcomments RTL — لل media وe-commerce وSaaS marketing في MENA.</p>
+      <p>المشكلة التي حلّتها: Create AI 2 كان يُ break portable text على mixed scripts؛ الإصدار 3 يُ glyph-safe rich text، يُ benchmark +41% publish velocity في publisher أردني، يُ GROQ queries assist، يُ integration Next.js وRemix starters، ويُ agency partner tier في Dubai.</p>
+      <p>القدرات الأساسية: Arabic drafting; Multi-locale sync; SEO packs; Brand voice; Omnichannel variants; Review workflows.</p>
+      <p>للمبدعين العرب: headless agencies — «Sanity Create AI 3 Arabic content engine in 8 days» لل brands 20–500 pages. من يُ launch 7 engines/ربع بـ 1400–26000 دولار + ops 105–820 دولار/شهر يبني «استوديو Sanity AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Sanity Create AI 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة content engine (schema، migration، voice، 30-day sprint):</strong> 5–15 يومًا — 1400–26000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ localization وSEO refresh:</strong> — 105–820 دولار/شهر.</li>
+          <li><strong>Channel packs (blog، app strings، email):</strong> — 35–165 دولار/pack.</li>
+          <li><strong>دورات «محتوى headless بـ Sanity Create بالعربية»:</strong> — 32–155 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Sanity</span>
+        <span class="tag">Headless CMS</span>
+        <span class="tag">Content</span>
+        <span class="tag">Localization</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 05-11-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="05-11-2026 -- 08-AM.html">
+          📰 5 نوفمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "05-11-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/05-11-2026 -- 08-AM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/05-11-2026%20--%2008-AM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
