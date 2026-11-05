@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/04-11-2026 -- 04-PM.html`](news/04-11-2026%20--%2004-PM.html) — أحدث إصدار (Vercel v0 4 Arabic · GrammarlyGO Enterprise 2 Arabic · ServiceNow Now Assist 3 Arabic · Twilio CustomerAI 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/05-11-2026 -- 12-AM.html`](news/05-11-2026%20--%2012-AM.html) — أحدث إصدار (Notion AI Q&A 3 Arabic · Canva Magic Studio 4 Arabic · HubSpot Breeze AI 2 Arabic · Shopify Sidekick 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
