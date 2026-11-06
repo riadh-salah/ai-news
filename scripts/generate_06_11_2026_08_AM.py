@@ -1,0 +1,269 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 06-11-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "06-11-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Maze AI Research 3 Arabic · CircleCI AI Pipelines 3 Arabic · "
+    "Hex Magic AI 3 Arabic · Looker Gemini 3 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Maze AI Research 3 Arabic، CircleCI AI Pipelines 3 Arabic، Hex Magic AI 3 Arabic، Looker Gemini 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 6 نوفمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌅 نشرة AI العالمية</span>
+      <h1>من Maze AI Research 3 Arabic الذي يُحوّل مقابلات المستخدمين وheatmaps إلى insights عربية قبل أن يبرد فنجان القهوة، إلى CircleCI AI Pipelines 3 Arabic الذي يُ repair فشل CI ويُ suggest tests من سجل builds، ومن Hex Magic AI 3 Arabic الذي يُ answer أسئلة BI بلهجة finance عربية من notebook واحد، إلى Looker Gemini 3 Arabic الذي يُترجم dashboard معقّد إلى narrative للإدارة RTL — أربع قصص صباحية في 6 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء بداية اليوم!</h1>
+      <p class="hero-sub">صباحٌ لفرق product وDevOps وanalytics وdata: research يتأخر، pipelines تنهار، notebooks تتشتت، وC-level يسأل «ماذا يعني هذا الرسم؟». أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 6 نوفمبر 2026</span>
+        <span>🌄 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Maze AI Research 3 Arabic: UX research — synthesis، clips، وreports RTL!</h2>
+      <p class="article-lead">«عشر مقابلات مسجّلة — ولا أحد يكتب التقرير». في 6 نوفمبر 2026، أطلقت <strong>Maze</strong> <strong>AI Research 3 Arabic</strong>: طبقة research فوق unmoderated tests وlive interviews يُ transcribe بالفصحى واللهجات المختارة، يُ cluster themes وpain points، يُ generate highlight reels مع timestamps، يُ draft executive summaries RTL مع quotes موثّقة، يُ suggest follow-up questions، يُ sync findings إلى Notion وJira وFigma، يُ permission-aware sharing لل stakeholders — لل product وdesign وgrowth في MENA.</p>
+      <p>المشكلة التي حلّتها: Research 2 كان يُ struggle مع mixed Arabic-English sessions؛ الإصدار 3 يُ diarization محسّن، يُ benchmark −44% وقت «interview to insight» في fintech الرياض، يُ bias checks على sampling، يُ integration Figma prototypes وAmplitude events، ويُ partner certifications في Dubai وCasablanca.</p>
+      <p>القدرات الأساسية: Arabic transcription; Theme clustering; Highlight reels; Executive summaries RTL; Stakeholder sync; Bias-aware sampling.</p>
+      <p>للمبدعين العرب: UX research studios — «Maze Research 3 Arabic sprint in 5 days» لل teams 5–80 researchers. من يُ run 8 programs/ربع بـ 1900–32000 دولار + ops 125–920 دولار/شهر يبني «استوديو Maze AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Maze AI Research 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة research ops (templates، taxonomy، pilot، handoff):</strong> 4–12 يومًا — 1900–32000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ synthesis وstakeholder briefs:</strong> — 125–920 دولار/شهر.</li>
+          <li><strong>Vertical playbooks (fintech، health، e-commerce):</strong> — 45–198 دولار/playbook.</li>
+          <li><strong>دورات «بحث مستخدم ذكي بـ Maze بالعربية»:</strong> — 34–165 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Maze</span>
+        <span class="tag">UX Research</span>
+        <span class="tag">Insights</span>
+        <span class="tag">Product</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>CircleCI AI Pipelines 3 Arabic: CI/CD copilot — fix، tests، وrollbacks!</h2>
+      <p class="article-lead">«البuild فشل الساعة 2 صباحًا — والـ on-call نائم». في 6 نوفمبر 2026، أطلقت <strong>CircleCI</strong> <strong>AI Pipelines 3 Arabic</strong>: copilot داخل pipelines يُ explain failures بالعربية مع log citations، يُ suggest config patches وDockerfile fixes، يُ generate missing tests من diff، يُ predict flaky jobs ويُ recommend quarantine، يُ draft postmortems RTL، يُ integrate GitHub وGitLab وBitbucket، يُ human approval gates على production deploys — لل platform وSRE وmobile teams في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Pipelines 2 كان explanations تقنية بالإنجليزية فقط؛ الإصدار 3 يُ MENA-friendly runbooks، يُ benchmark −36% MTTR في scale-up القاهرة، يُ policy packs SOC2 وPCI، يُ self-hosted runner hints، ويُ reseller enablement لل regional DevOps shops.</p>
+      <p>القدرات الأساسية: Failure explanation RTL; Config suggestions; Test generation; Flaky detection; Postmortem drafts; Approval workflows.</p>
+      <p>للمبدعين العرب: DevOps consultancies — «CircleCI AI Pipelines 3 Arabic uplift in 6 days» لل orgs 10–500 engineers. من يُ deploy 7 stacks/ربع بـ 2100–45000 دولار + managed 140–1100 دولار/شهر يبني «خط CircleCI AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من CircleCI AI Pipelines 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة pipeline AI (audit، rules، training، pilot):</strong> 5–14 يومًا — 2100–45000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ reliability reviews وflaky hunts:</strong> — 140–1100 دولار/شهر.</li>
+          <li><strong>Compliance packs (SOC2، fintech، health):</strong> — 52–225 دولار/pack.</li>
+          <li><strong>دورات «CI/CD ذكي بـ CircleCI AI بالعربية»:</strong> — 38–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">CircleCI</span>
+        <span class="tag">DevOps</span>
+        <span class="tag">CI/CD</span>
+        <span class="tag">SRE</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Hex Magic AI 3 Arabic: analytics notebook — SQL، charts، وnarratives!</h2>
+      <p class="article-lead">«الCFO يسأل عن cohort retention — والمحلل مشغول بـ SQL». في 6 نوفمبر 2026، أطلقت <strong>Hex</strong> <strong>Magic AI 3 Arabic</strong>: copilot داخل collaborative notebooks يُ answer بالفصحى من Snowflake وBigQuery وPostgres، يُ generate SQL وPython مع explanations، يُ build charts RTL-ready، يُ draft board-ready narratives، يُ suggest data quality fixes، يُ schedule refreshes وSlack alerts، يُ role-based sharing وaudit — لل analytics وfinance وops في MENA.</p>
+      <p>المشكلة التي حلّتها: Magic 2 كان يُ misread Arabic column labels؛ الإصدار 3 يُ schema-aware Arabic metadata، يُ benchmark −48% وقت «question to deck» في retail دبي، يُ semantic layer assist، يُ SSO Okta وAzure AD، ويُ partner tier لل regional BI firms.</p>
+      <p>القدرات الأساسية: Natural-language analytics; SQL/Python generation; RTL charts; Executive narratives; Data quality hints; Scheduled insights.</p>
+      <p>للمبدعين العرب: analytics boutiques — «Hex Magic 3 Arabic analytics hub in 7 days» لل orgs 8–600 users. من يُ launch 6 hubs/ربع بـ 1700–34000 دولار + support 115–880 دولار/شهر يبني «استوديو Hex AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Hex Magic AI 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة analytics hub (models، semantic layer، training):</strong> 5–15 يومًا — 1700–34000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ dashboards وexecutive briefs:</strong> — 115–880 دولار/شهر.</li>
+          <li><strong>Department kits (finance، growth، supply chain):</strong> — 40–185 دولار/kit.</li>
+          <li><strong>دورات «تحليل بيانات بـ Hex Magic بالعربية»:</strong> — 35–168 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Hex</span>
+        <span class="tag">Analytics</span>
+        <span class="tag">Notebooks</span>
+        <span class="tag">BI</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Looker Gemini 3 Arabic: BI narratives — ask، explain، وforecast RTL!</h2>
+      <p class="article-lead">«Dashboard فيه 40 tile — والمدير يريد جملة واحدة». في 6 نوفمبر 2026، أطلقت <strong>Google Cloud</strong> <strong>Looker Gemini 3 Arabic</strong>: Gemini copilot داخل Looker يُ answer questions بالعربية من governed models، يُ explain metric definitions وlineage، يُ generate forecasts وwhat-if scenarios، يُ draft email summaries لل leadership RTL، يُ suggest explores وfixes لـ broken tiles، يُ connect BigQuery وSheets وSlack، يُ admin controls على sensitive fields — لل enterprises وretail chains وtelcos في MENA.</p>
+      <p>المشكلة التي حلّتها: Looker Gemini 2 كان hallucinations على Arabic KPI names؛ الإصدار 3 يُ grounded answers من LookML فقط، يُ benchmark +52% self-serve adoption في holding أبوظبي، يُ Arabic number formatting، يُ VPC-SC وCMEK options، ويُ Google Cloud partner accelerators في المنطقة.</p>
+      <p>القدرات الأساسية: Arabic Q&amp;A on LookML; Metric explanations; Forecasts; Leadership summaries RTL; Explore suggestions; Enterprise security.</p>
+      <p>للمبدعين العرب: Looker partners — «Gemini 3 Arabic BI narrative layer in 10 days» لل orgs 50–8000 users. من يُ run 5 rollouts/ربع بـ 2800–55000 دولار + managed 180–1350 دولار/شهر يبني «مكتب Looker Gemini عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Looker Gemini 3 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة Looker AI (LookML audit، prompts، governance، pilot):</strong> 7–18 يومًا — 2800–55000 دولار/عميل.</li>
+          <li><strong>تشغيل شهري لـ narrative refresh وadoption coaching:</strong> — 180–1350 دولار/شهر.</li>
+          <li><strong>Industry models (retail، telecom، banking):</strong> — 58–245 دولار/model.</li>
+          <li><strong>دورات «BI conversational بـ Looker Gemini بالعربية»:</strong> — 42–195 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Looker</span>
+        <span class="tag">Gemini</span>
+        <span class="tag">Google Cloud</span>
+        <span class="tag">BI</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 06-11-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="06-11-2026 -- 08-AM.html">
+          📰 6 نوفمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "06-11-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/06-11-2026 -- 08-AM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/06-11-2026%20--%2008-AM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
