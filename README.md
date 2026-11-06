@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/05-11-2026 -- 08-AM.html`](news/05-11-2026%20--%2008-AM.html) — أحدث إصدار (Atlassian Confluence AI 5 Arabic · Wrike Copilot 3 Arabic · Retool AI 5 Arabic · Sanity Create AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/06-11-2026 -- 08-AM.html`](news/06-11-2026%20--%2008-AM.html) — أحدث إصدار (Maze AI Research 3 Arabic · CircleCI AI Pipelines 3 Arabic · Hex Magic AI 3 Arabic · Looker Gemini 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
