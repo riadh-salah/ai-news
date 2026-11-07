@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/05-11-2026 -- 08-AM.html`](news/05-11-2026%20--%2008-AM.html) — أحدث إصدار (Atlassian Confluence AI 5 Arabic · Wrike Copilot 3 Arabic · Retool AI 5 Arabic · Sanity Create AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/07-11-2026 -- 04-PM.html`](news/07-11-2026%20--%2004-PM.html) — أحدث إصدار (Salesforce Agentforce 4 Arabic · monday.com AI Blocks 3 Arabic · Airtable Omni 2 Arabic · ClickUp Brain 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
