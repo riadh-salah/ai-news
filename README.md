@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/08-11-2026 -- 12-AM.html`](news/08-11-2026%20--%2012-AM.html) — أحدث إصدار (Databricks Assistant 3 Arabic · Elastic AI Assistant 3 Arabic · Glean AI 5 Arabic · Zoom AI Companion 5 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/08-11-2026 -- 08-AM.html`](news/08-11-2026%20--%2008-AM.html) — أحدث إصدار (SAP Joule 3 Arabic · Palantir AIP 4 Arabic · Cisco AI Defense 2 Arabic · Airtable Cobuilder 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
