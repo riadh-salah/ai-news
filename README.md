@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/05-11-2026 -- 08-AM.html`](news/05-11-2026%20--%2008-AM.html) — أحدث إصدار (Atlassian Confluence AI 5 Arabic · Wrike Copilot 3 Arabic · Retool AI 5 Arabic · Sanity Create AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/08-11-2026 -- 12-AM.html`](news/08-11-2026%20--%2012-AM.html) — أحدث إصدار (Databricks Assistant 3 Arabic · Elastic AI Assistant 3 Arabic · Glean AI 5 Arabic · Zoom AI Companion 5 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
