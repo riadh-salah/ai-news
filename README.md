@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/09-11-2026 -- 08-AM.html`](news/09-11-2026%20--%2008-AM.html) — أحدث إصدار (Salesforce Agentforce 2 Arabic · Snowflake Cortex Analyst 3 Arabic · Zendesk AI Agents 3 Arabic · Databricks Genie 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/09-11-2026 -- 04-PM.html`](news/09-11-2026%20--%2004-PM.html) — أحدث إصدار (ServiceNow Now Assist 3 Arabic · HubSpot Breeze Agents 2 Arabic · Adobe Firefly Services 4 Arabic · Palo Alto Networks Precision AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
