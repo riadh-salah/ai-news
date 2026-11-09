@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/08-11-2026 -- 04-PM.html`](news/08-11-2026%20--%2004-PM.html) — أحدث إصدار (Genesys AI Studio 3 Arabic · Nutanix GPT Advisor 2 Arabic · Bill.com FinAgent 2 Arabic · Linear AI Projects 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/09-11-2026 -- 12-AM.html`](news/09-11-2026%20--%2012-AM.html) — أحدث إصدار (Okta Identity Security AI 2 Arabic · Intuit QuickBooks Assist 3 Arabic · Confluent AI Assistance 3 Arabic · monday.com AI Docs 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
