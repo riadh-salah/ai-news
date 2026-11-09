@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/09-11-2026 -- 12-AM.html`](news/09-11-2026%20--%2012-AM.html) — أحدث إصدار (Okta Identity Security AI 2 Arabic · Intuit QuickBooks Assist 3 Arabic · Confluent AI Assistance 3 Arabic · monday.com AI Docs 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/09-11-2026 -- 08-AM.html`](news/09-11-2026%20--%2008-AM.html) — أحدث إصدار (Salesforce Agentforce 2 Arabic · Snowflake Cortex Analyst 3 Arabic · Zendesk AI Agents 3 Arabic · Databricks Genie 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
