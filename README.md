@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/09-11-2026 -- 04-PM.html`](news/09-11-2026%20--%2004-PM.html) — أحدث إصدار (ServiceNow Now Assist 3 Arabic · HubSpot Breeze Agents 2 Arabic · Adobe Firefly Services 4 Arabic · Palo Alto Networks Precision AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/10-11-2026 -- 12-AM.html`](news/10-11-2026%20--%2012-AM.html) — أحدث إصدار (GitLab Duo Enterprise 3 Arabic · Coupa Navi AI 2 Arabic · Procore Copilot 3 Arabic · Informatica CLAIRE GPT 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
