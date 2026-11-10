@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/10-11-2026 -- 12-AM.html`](news/10-11-2026%20--%2012-AM.html) — أحدث إصدار (GitLab Duo Enterprise 3 Arabic · Coupa Navi AI 2 Arabic · Procore Copilot 3 Arabic · Informatica CLAIRE GPT 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/10-11-2026 -- 08-AM.html`](news/10-11-2026%20--%2008-AM.html) — أحدث إصدار (Notion AI Agents 3 Arabic · Monday.com AI Workflows 2 Arabic · Canva Magic Studio 4 Arabic · Atlassian Rovo 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 

@@ -1,0 +1,271 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 10-11-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "10-11-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Notion AI Agents 3 Arabic · Monday.com AI Workflows 2 Arabic · "
+    "Canva Magic Studio 4 Arabic · Atlassian Rovo 3 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Notion AI Agents 3 Arabic، Monday.com AI Workflows 2 Arabic، Canva Magic Studio 4 Arabic، Atlassian Rovo 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 10 نوفمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌅 نشرة AI العالمية</span>
+      <h1>من Notion AI Agents 3 Arabic الذي يُحوّل قاعدة معرفة شركة إلى فريق وكلاء يُنجزون تقارير ومتابعات بالعربية، إلى Monday.com AI Workflows 2 Arabic الذي يُقود مشاريعك من تذكير صباحي حتى تقرير إنجاز للمدير، ومن Canva Magic Studio 4 Arabic الذي يُولّد هوية بصرية وحملات RTL بضغطة واحدة، إلى Atlassian Rovo 3 Arabic الذي يربط Jira وConfluence وSlack بإجابات فورية بلغة الفريق — أربع قصص صباحية في 10 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء بداية اليوم!</h1>
+      <p class="hero-sub">صباحٌ لفرق العمليات والتسويق والتصميم والهندسة: المهام تتشعّب، المشاريع تتأخر دون تلخيص، المحتوى البصري يستهلك أيامًا، والمعرفة تضيع بين الجداول والويكي. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 10 نوفمبر 2026</span>
+        <span>🌄 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Notion AI Agents 3 Arabic: معرفة مؤسسية — وكلاء يُنجزون تقارير ومتابعات بلسان فريقك!</h2>
+      <p class="article-lead">«اجمع ملخص اجتماعات الأسبوع وخطّة Q4 — والكل ينتظر ساعاتٍ من النسخ من Slack وMeetings». في 10 نوفمبر 2026، أطلقت <strong>Notion</strong> <strong>AI Agents 3 Arabic</strong>: وكلاء مستقلون فوق workspace يُ browse databases وdocs وmeeting notes، يُ draft تقارير إدارية بالفصحى واللهجات المختارة، يُ assign مهام follow-up ويُ sync مع calendars، يُ answer أسئلة موظفين من سياسات HR وproduct specs مع citations، يُ respect granular permissions وSAML وregion pinning، يُ integrate Slack وGmail وZoom وFigma embeds — لل scale-ups وconsultancies وmedia houses وNGOs في MENA.</p>
+      <p>المشكلة التي حلّتها: Agents 2 كان يُ over-write صفحات أو يُ miss row-level access؛ الإصدار 3 يُ sandboxed writes مع preview diff، يُ benchmark −52% وقت «طلب تقرير → صفحة معتمدة» في agency إماراتي 340 مقعدًا، يُ playbooks لـ OKRs وclient deliverables، يُ partner enablement في دبي والرياض وبيروت، ويُ templates لـ investment memos وRFP responses.</p>
+      <p>القدرات الأساسية: Multi-agent swarms لكل قسم؛ Arabic tone packs؛ scheduled morning briefings؛ connector marketplace؛ audit log لل prompts والتصدير.</p>
+      <p>للمبدعين العرب: Notion partners — «AI Agents 3 Arabic ops desk in 8 days» لل workspaces 40–4000 seats. من يُ launch 6 desks/ربع بـ 3200–62000 دولار + retainer 260–2100 دولار/شهر يبني «استوديو Notion AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Notion AI Agents 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Agent workspace design (permissions، Arabic playbooks، connectors، UAT):</strong> 6–18 يومًا — 3200–62000 دولار/عميل.</li>
+          <li><strong>Monthly briefing tuning وgovernance reviews:</strong> — 260–2100 دولار/شهر.</li>
+          <li><strong>Vertical kits (agencies، law firms، edtech):</strong> — 48–215 دولار/حزمة.</li>
+          <li><strong>دورات «معرفة مؤسسية ذكية بـ Notion بالعربية»:</strong> — 45–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Notion</span>
+        <span class="tag">AI Agents</span>
+        <span class="tag">Knowledge</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Monday.com AI Workflows 2 Arabic: تشغيل المشاريع — من تذكير صباحي إلى تقرير إنجاز للإدارة!</h2>
+      <p class="article-lead">«المهمة متأخرة ثلاثة أيام — ولا أحد يعرف السبب حتى يشتعل الاجتماع». في 10 نوفمبر 2026، أطلقت <strong>Monday.com</strong> <strong>AI Workflows 2 Arabic</strong>: طبقة ذكاء فوق Work OS تُ parse boards وtimelines بالفصحى، تُ suggest إعادة توزيع workloads، تُ draft status updates RTL لل stakeholders، تُ auto-create subitems من meeting transcripts عربية، تُ predict delays مع أسباب «نقص الموارد في مرحلة QA»، تُ integrate Microsoft Teams وOutlook وSalesforce وZendesk، تُ mobile voice summaries — لل construction PMOs وmarketing ops وIT service desks في MENA.</p>
+      <p>المشكلة التي حلّتها: Workflows 1 كان يُ generic بالإنجليزية؛ الإصدار 2 يُ Arabic NLP على أسماء مهام محلية، يُ benchmark +34% on-time delivery في retail rollout سعودي 18 فريقًا، يُ executive digest كل صباح 7:30، يُ partner certifications في Gitex، ويُ compliance exports لـ mega-projects.</p>
+      <p>القدرات الأساسية: Blueprints جاهزة للتسويق واللوجستيات؛ risk radar؛ bilingual column glossaries؛ automation recipes بالعربية؛ dashboards في WorkCanvas.</p>
+      <p>للمبدعين العرب: Monday partners — «AI Workflows 2 Arabic PMO boost in 5 days» لل orgs 25–2500 users. من يُ deploy 9 boosts/ربع بـ 2400–48000 دولار + support 200–1650 دولار/شهر يبني «مكتب Monday AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Monday.com AI Workflows 2 Arabic؟</h3>
+        <ul>
+          <li><strong>Workflow rollout (boards، Arabic automations، training، KPIs):</strong> 4–14 يومًا — 2400–48000 دولار/عميل.</li>
+          <li><strong>Monthly delivery coaching وexecutive digests:</strong> — 200–1650 دولار/شهر.</li>
+          <li><strong>Industry blueprints (events، pharma trials، gov portals):</strong> — 42–192 دولار/حزمة.</li>
+          <li><strong>دورات «إدارة مشاريع ذكية بـ Monday بالعربية»:</strong> — 40–185 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Monday.com</span>
+        <span class="tag">PMO</span>
+        <span class="tag">Workflows</span>
+        <span class="tag">Operations</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Canva Magic Studio 4 Arabic: تصميم وحملات — هوية RTL وحجوم اجتماعية في دقائق!</h2>
+      <p class="article-lead">«نحتاج 40 creative لرمضان والإطلاق بعد 72 ساعة — والمصمم الوحيد في إجازة». في 10 نوفمبر 2026، أطلقت <strong>Canva</strong> <strong>Magic Studio 4 Arabic</strong>: suite توليد داخل Canva Enterprise يُ write copy إعلاني بالفصحى واللهجات، يُ generate layouts RTL متوافقة مع brand kit، يُ resize وlocalize لـ Instagram وSnapchat وTikTok وOOH، يُ Magic Video من storyboard عربي، يُ brand guardrails يمنع ألوانًا أو خطوطًا خاطئة، يُ approve flows لل legal وcompliance، يُ integrate DAM وMeta Ads وGoogle Drive — لل FMCG وreal estate وbanks وcreator economies في MENA.</p>
+      <p>المشكلة التي حلّتها: Studio 3 كان يُ break kerning في العربية؛ الإصدار 4 يُ OpenType-aware Arabic shaping، يُ benchmark 8× سرعة إنتاج variants في telco campaign مصري، يُ voice-over Arabic في Magic Video، يُ partner studios في القاهرة والدار البيضاء ودبي، ويُ halal وcultural sensitivity filters.</p>
+      <p>القدرات الأساسية: Magic Design من brief عربي؛ bulk create آلاف المقاسات؛ team libraries ثنائية اللغة؛ analytics على CTR per variant؛ API لل agencies.</p>
+      <p>للمبدعين العرب: Canva resellers — «Magic Studio 4 Arabic creative cell in 4 days» لل brands 10–500 designers. من يُ stand 10 cells/ربع بـ 1800–36000 دولار + retainer 150–1250 دولار/شهر يبني «ستوديو Canva AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Canva Magic Studio 4 Arabic؟</h3>
+        <ul>
+          <li><strong>Brand kit + Magic rollout (RTL templates، guardrails، training):</strong> 3–10 أيام — 1800–36000 دولار/عميل.</li>
+          <li><strong>Monthly campaign sprints وA/B creative reviews:</strong> — 150–1250 دولار/شهر.</li>
+          <li><strong>Seasonal packs (Ramadan، National Day، back-to-school):</strong> — 35–168 دولار/حزمة.</li>
+          <li><strong>دورات «تصميم ذكي بـ Canva بالعربية»:</strong> — 38–172 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Canva</span>
+        <span class="tag">Magic Studio</span>
+        <span class="tag">Design</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Atlassian Rovo 3 Arabic: Jira وConfluence وSlack — إجابات فورية بلغة مهندسي المنتج!</h2>
+      <p class="article-lead">«أين وثيقة API للنسخة الجديدة؟ — وخمس رسائل في Slack ولا رابط واحد». في 10 نوفمبر 2026، أطلقت <strong>Atlassian</strong> <strong>Rovo 3 Arabic</strong>: teammate AI عبر Atlassian suite يُ search issues وpages وmessages بالفصحى، يُ summarize sprint health وblockers، يُ draft PRDs وrelease notes RTL من epics، يُ suggest JQL وautomation rules بشرح عربي، يُ respect data residency وBYOK encryption، يُ integrate GitHub وBitbucket وMS Teams، يُ Rovo Agents لـ incident response وon-call — لل product وengineering وITSM orgs في MENA.</p>
+      <p>المشكلة التي حلّتها: Rovo 2 كان يُ hallucinate issue keys؛ الإصدار 3 يُ strict grounding على permissions، يُ benchmark −39% وقت «سؤال → إجابة موثقة» في neobank خليجي 900 مقعد، يُ Teamwork Graph محسّن للعلاقات العربية بين teams، يُ partner academies في عمّان والرياض، ويُ ITSM playbooks للحكومة الرقمية.</p>
+      <p>القدرات الأساسية: Rovo Chat في كل منتج؛ deep links مع context؛ knowledge staleness alerts؛ admin controls لل prompts؛ mobile بالعربية.</p>
+      <p>للمبدعين العرب: Atlassian solution partners — «Rovo 3 Arabic dev intelligence hub in 7 days» لل clouds 100–10000 users. من يُ deliver 7 hubs/ربع بـ 3800–76000 دولار + support 280–2300 دولار/شهر يبني «مركز Atlassian AI عربي».</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Atlassian Rovo 3 Arabic؟</h3>
+        <ul>
+          <li><strong>Rovo enablement (permissions، Arabic glossaries، agents، handover):</strong> 5–16 يومًا — 3800–76000 دولار/عميل.</li>
+          <li><strong>Monthly sprint intelligence وITSM tuning:</strong> — 280–2300 دولار/شهر.</li>
+          <li><strong>Playbooks (fintech releases، gov ITSM، games live ops):</strong> — 50–225 دولار/حزمة.</li>
+          <li><strong>دورات «منصات Atlassian ذكية بالعربية»:</strong> — 48–210 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Atlassian</span>
+        <span class="tag">Rovo</span>
+        <span class="tag">Jira</span>
+        <span class="tag">DevTools</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 10-11-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="10-11-2026 -- 08-AM.html">
+          📰 10 نوفمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "10-11-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/10-11-2026 -- 08-AM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/10-11-2026%20--%2008-AM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    if "\u00fc" in text:
+        raise SystemExit("ERROR: Latin u-umlaut found — use Arabic يُ")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
