@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/11-11-2026 -- 12-AM.html`](news/11-11-2026%20--%2012-AM.html) — أحدث إصدار (AWS Bedrock Agents 4 Arabic · IBM watsonx Orchestrate 4 Arabic · Meta WhatsApp Business AI Agents 4 Arabic · Dropbox Dash 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/11-11-2026 -- 08-AM.html`](news/11-11-2026%20--%2008-AM.html) — أحدث إصدار (Google Gemini Enterprise Connectors 2 Arabic · Slack AI Enterprise Search 3 Arabic · Decagon AI Support 2 Arabic · Postman AI Agent Builder 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
