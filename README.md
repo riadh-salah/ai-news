@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/10-11-2026 -- 04-PM.html`](news/10-11-2026%20--%2004-PM.html) — أحدث إصدار (Salesforce Einstein Copilot 2 Arabic · Zendesk AI Agents 3 Arabic · Shopify Sidekick 3 Arabic · Snowflake Cortex Analyst 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/11-11-2026 -- 12-AM.html`](news/11-11-2026%20--%2012-AM.html) — أحدث إصدار (AWS Bedrock Agents 4 Arabic · IBM watsonx Orchestrate 4 Arabic · Meta WhatsApp Business AI Agents 4 Arabic · Dropbox Dash 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
