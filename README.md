@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/11-11-2026 -- 08-AM.html`](news/11-11-2026%20--%2008-AM.html) — أحدث إصدار (Google Gemini Enterprise Connectors 2 Arabic · Slack AI Enterprise Search 3 Arabic · Decagon AI Support 2 Arabic · Postman AI Agent Builder 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/11-11-2026 -- 04-PM.html`](news/11-11-2026%20--%2004-PM.html) — أحدث إصدار (Anthropic Claude for Work 2 Arabic · Canva AI Studio 3 Arabic · HubSpot Breeze AI Agents 2 Arabic · Perplexity Enterprise Pro 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 

@@ -1,0 +1,271 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 11-11-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "11-11-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Anthropic Claude for Work 2 Arabic · Canva AI Studio 3 Arabic · "
+    "HubSpot Breeze AI Agents 2 Arabic · Perplexity Enterprise Pro 3 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Anthropic Claude for Work 2 Arabic، Canva AI Studio 3 Arabic، HubSpot Breeze AI Agents 2 Arabic، Perplexity Enterprise Pro 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 11 نوفمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من Anthropic Claude for Work 2 Arabic الذي يُنفّذ مهام الموظف من جدول وملف ومحادثة واحدة بلهجة الفريق، إلى Canva AI Studio 3 Arabic الذي يُحوّل فكرة عربية إلى حملة بصرية كاملة قبل غروب الشمس، ومن HubSpot Breeze AI Agents 2 Arabic الذي يُتابع الـ leads ويُكتب رسائل المبيعات ويُحدّث الـ CRM أثناء غدائك، إلى Perplexity Enterprise Pro 3 Arabic الذي يُجيب بمصادر موثّقة على أسئلة الاستثمار والتشريع بالعربية — أربع قصص مسائية في 11 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء آخر ضوء في اليوم!</h1>
+      <p class="hero-sub">مساءٌ لفرق growth وmarketing وresearch وenterprise: الفرق تتشتّت بين أدوات، الحملات تتأخر، قمع المبيعات يبرد، والبحث يأكل ساعات. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 11 نوفمبر 2026</span>
+        <span>🌇 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Anthropic Claude for Work 2 Arabic: مساعد مؤسسي يُنفّذ — لا يُجيب فقط!</h2>
+      <p class="article-lead">«صف لـ Claude ماذا تريد من Slack وExcel وemail — ويرجع لك ملفًا جاهزًا». في 11 نوفمبر 2026، أطلقت <strong>Anthropic</strong> <strong>Claude for Work 2 Arabic</strong>: منصة enterprise تُربط Claude Opus وSonnet مع Microsoft 365 وGoogle Workspace وSalesforce وinternal databases، تُفهم تعليمات بالفصحى والخليجية والمصرية، تُنفّذ actions (تجميع تقرير، draft عرض، تحديث pipeline)، تُحترم zero-retention وSOC2 وISO للمؤسسات، وتُوفّر admin بالعربية — لشركات الخدمات والبنوك والحكومات الرقمية في MENA.</p>
+      <p>المشكلة التي حلّتها: الإصدار السابق كان Q&amp;A ثقيلًا؛ الإصدار 2 يُضيف workflows متعددة الخطوات مع checkpoints بشرية، يُقارن نسخ العقود، يُولّد ملخصات اجتماعات من Teams بالعربية، يُكامل MCP connectors محلية، يُخفّض وقت إعداد board deck بنسبة 44% في pilot استشاري خليجي، ويُتيح policy packs لمنع تسريب PII.</p>
+      <p>القدرات الأساسية: Workbench لتجميع أدوات الفريق؛ Skills marketplace MENA؛ audit trail لكل action؛ تكامل SSO وSCIM؛ دعم بيانات في region محلي عند الطلب.</p>
+      <p>للمبدعين العرب: شريك Anthropic وMicrosoft — «Claude for Work 2 Arabic rollout في 10 أيام» للمؤسسات 200–8000 مقعد. من يُسلّم 7 deployments ربعيًا بـ 5200–88000 دولار + عقد صيانة 850–6200 دولار/شهر يبني خط إيراد enterprise موثوق.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Anthropic Claude for Work 2 Arabic؟</h3>
+        <ul>
+          <li><strong>نشر Work 2 (connectors، سياسات، تدريب عربي، UAT):</strong> 8–22 يومًا — 5000–88000 دولار/عميل.</li>
+          <li><strong>تحسين workflows وجودة مخرجات شهرية:</strong> — 850–6200 دولار/شهر.</li>
+          <li><strong>حزم أقسام (قانونية، مالية، عمليات):</strong> — 58–295 دولار/حزمة.</li>
+          <li><strong>دورات «أتمتة العمل بـ Claude for Work بالعربية»:</strong> — 48–235 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Anthropic</span>
+        <span class="tag">Claude</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Canva AI Studio 3 Arabic: من جملة إلى هوية بصرية وحملة كاملة!</h2>
+      <p class="article-lead">«أريد بوست رمضان وستوري وreel بنفس الهوية — خلال دقائق». في 11 نوفمبر 2026، أطلقت <strong>Canva</strong> <strong>AI Studio 3 Arabic</strong>: استوديو إبداعي يُولّد نصوصًا وصورًا وفيديو قصيرًا من prompt عربي، يُحافظ على brand kit (ألوان وخطوط)، يُصدّر حزم Meta وTikTok وSnap، يُترجم copy بين اللهجات، يُقترح A/B variants، ويُتكامل مع Content Planner — للوكالات والمتاجر والمؤثرين في المنطقة العربية.</p>
+      <p>المشكلة التي حلّتها: Studio 2 كان أجنبي النبرة؛ الإصدار 3 يُفهم RTL layout، يُولّد عناوين خليجية ومصرية طبيعية، يُزامن مكتبة أصول الفريق، يُقيّم جودة الصورة قبل النشر، يُخفّض وقت حملة أسبوعية من 18 ساعة إلى 4 في case study وكالة دبي، ويُتيح حقوق استخدام commercial واضحة.</p>
+      <p>القدرات الأساسية: Magic Resize للمنصات العربية؛ Voice-over عربي TTS محسّن؛ Brand Guard لمنع شعار خاطئ؛ تعليقات الفريق بالعربية؛ قوالب قطاعات (ضيافة، عقارات، تعليم).</p>
+      <p>للمبدعين العرب: وكالات تسويق — «AI Studio 3 Arabic sprint في 3 أيام» للعلامات 5–40 حملة/شهر. من يُدير 12 عميلًا ربعيًا بـ 900–14500 دولار/عميل + retainer إبداع 220–1800 دولار/شهر يحوّل Canva إلى خط إنتاج مرئي عربي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Canva AI Studio 3 Arabic؟</h3>
+        <ul>
+          <li><strong>إعداد Studio 3 (هوية، قوالب، تدريب، أول حملة):</strong> 2–8 أيام — 850–14500 دولار/عميل.</li>
+          <li><strong>إنتاج محتوى وتحسين تحويل شهري:</strong> — 220–1800 دولار/شهر.</li>
+          <li><strong>حزم قطاعات (مطاعم، عيادات، تجارة إلكترونية):</strong> — 35–165 دولار/حزمة.</li>
+          <li><strong>دورات «إنتاج بصري سريع بـ Canva AI بالعربية»:</strong> — 32–158 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Canva</span>
+        <span class="tag">Design</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Content</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>HubSpot Breeze AI Agents 2 Arabic: وكلاء مبيعات وتسويق يعملون بينما أنت تغلق الصفقة!</h2>
+      <p class="article-lead">«الـ lead ساخن — لكن لا أحد كتب المتابعة». في 11 نوفمبر 2026، أطلقت <strong>HubSpot</strong> <strong>Breeze AI Agents 2 Arabic</strong>: طبقة وكلاء فوق CRM تُؤهّل leads، تُكتب emails وWhatsApp templates بالعربية، تُحدّث deals، تُجمع competitor intel، تُقترح أسعار، وتُزامن Marketing Hub وSales Hub — لشركات B2B وSaaS وedtech في الخليج ومصر والمغرب.</p>
+      <p>المشكلة التي حلّتها: Breeze 1 كان مسودات فقط؛ الإصدار 2 يُنفّذ sequences شرطية، يُفهم objections باللهجة، يُربط LinkedIn وGmail وتقويمات محلية، يُرفع معدل الرد على outreach عربي +26% في pilot SaaS، يُحترم GDPR وopt-in، ويُتيح human takeover فوري.</p>
+      <p>القدرات الأساسية: Agent Designer بالعربية؛ تقارير attribution واضحة؛ تكامل Salesforce ثنائي الاتجاه؛ playbooks للعقارات والتأمين؛ تدريب onboarding مختصر.</p>
+      <p>للمبدعين العرب: شركاء HubSpot — «Breeze Agents 2 Arabic go-live في 6 أيام» للفرق 15–300 مندوب. من يُشغّل 10 حسابات ربعيًا بـ 2100–32000 دولار + optimization 310–2400 دولار/شهر يصبح مرجع revenue operations عربي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من HubSpot Breeze AI Agents 2 Arabic؟</h3>
+        <ul>
+          <li><strong>نشر Agents 2 (بيانات، sequences، حوكمة، تدريب):</strong> 5–14 يومًا — 2000–32000 دولار/عميل.</li>
+          <li><strong>ضبط conversion وصحة CRM شهريًا:</strong> — 310–2400 دولار/شهر.</li>
+          <li><strong>حزم vertical (B2B SaaS، تعليم، خدمات):</strong> — 40–188 دولار/حزمة.</li>
+          <li><strong>دورات «مبيعات وكيلية بـ HubSpot Breeze بالعربية»:</strong> — 38–175 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">HubSpot</span>
+        <span class="tag">CRM</span>
+        <span class="tag">Sales</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Perplexity Enterprise Pro 3 Arabic: بحث مؤسسي بمصادر — قرارات أسرع بثقة!</h2>
+      <p class="article-lead">«هل التشريع الجديد يُسمح بـ X في السعودية؟ أريد مصدرًا رسميًا خلال دقيقة». في 11 نوفمبر 2026، أطلقت <strong>Perplexity</strong> <strong>Enterprise Pro 3 Arabic</strong>: محرك إجابات للمؤسسات يُفهرس docs داخلية ومواقع حكومية وصحافة عربية، يُرجع citations قابلة للتصدير، يُدعم أسئلة بالفصحى واللهجات، يُحترم VPC وno-train، يُتكامل Slack وTeams وAPI — لصناديق استثمار وقانونيين واستشاريين وmedia في MENA.</p>
+      <p>المشكلة التي حلّتها: Pro 2 كان إنجليزيًا أولًا؛ الإصدار 3 يُحسّن retrieval عربي، يُلخّص أبحاثًا طويلة بجداول، يُنشئ briefs استثمارية، يُقارن بيانات سوق من مصادر متعددة، يُخفّض وقت due diligence بنسبة 38% في fund صغير، ويُوفّر workspace مشترك للفريق.</p>
+      <p>القدرات الأساسية: Collections لموضوعات (طاقة، fintech، صحة)؛ تصدير PDF وWord؛ SSO SAML؛ حدود استعلام مرنة؛ دعم فني enterprise.</p>
+      <p>للمبدعين العرب: مكاتب أبحاث — «Enterprise Pro 3 Arabic knowledge layer في 5 أيام» للفرق 10–150 محلل. من يُقدّم 9 setups ربعيًا بـ 1800–42000 دولار + subscription management 290–2200 دولار/شهر يبيع «ذكاء بحث عربي» للمديرين التنفيذيين.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Perplexity Enterprise Pro 3 Arabic؟</h3>
+        <ul>
+          <li><strong>إعداد Pro 3 (مصادر، صلاحيات، SSO، تدريب):</strong> 4–11 يومًا — 1700–42000 دولار/عميل.</li>
+          <li><strong>صيانة فهرسة وجودة إجابات شهرية:</strong> — 290–2200 دولار/شهر.</li>
+          <li><strong>حزم قطاعات (قانون، VC، طاقة):</strong> — 45–210 دولار/حزمة.</li>
+          <li><strong>دورات «بحث تنفيذي بـ Perplexity Enterprise بالعربية»:</strong> — 42–198 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Perplexity</span>
+        <span class="tag">Research</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Citations</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 11-11-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="11-11-2026 -- 04-PM.html">
+          📰 11 نوفمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "11-11-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/11-11-2026 -- 04-PM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/11-11-2026%20--%2004-PM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    if "\u00fc" in text or "yü" in text:
+        raise SystemExit("ERROR: Latin ü found — use Arabic يُ")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
