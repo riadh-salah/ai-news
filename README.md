@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/12-11-2026 -- 12-AM.html`](news/12-11-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Copilot Studio 4 Arabic · GitHub Copilot Workspace 4 Arabic · Stripe Revenue Intelligence Agent 2 Arabic · Atlassian Rovo 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/12-11-2026 -- 08-AM.html`](news/12-11-2026%20--%2008-AM.html) — أحدث إصدار (OpenAI ChatGPT Atlas 2 Arabic · Salesforce Agentforce 3 Arabic · Notion AI 3 Arabic · Zapier AI Actions 5 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
