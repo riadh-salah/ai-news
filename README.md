@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/11-11-2026 -- 04-PM.html`](news/11-11-2026%20--%2004-PM.html) — أحدث إصدار (Anthropic Claude for Work 2 Arabic · Canva AI Studio 3 Arabic · HubSpot Breeze AI Agents 2 Arabic · Perplexity Enterprise Pro 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/12-11-2026 -- 12-AM.html`](news/12-11-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Copilot Studio 4 Arabic · GitHub Copilot Workspace 4 Arabic · Stripe Revenue Intelligence Agent 2 Arabic · Atlassian Rovo 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
