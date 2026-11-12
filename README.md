@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/12-11-2026 -- 08-AM.html`](news/12-11-2026%20--%2008-AM.html) — أحدث إصدار (OpenAI ChatGPT Atlas 2 Arabic · Salesforce Agentforce 3 Arabic · Notion AI 3 Arabic · Zapier AI Actions 5 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/12-11-2026 -- 04-PM.html`](news/12-11-2026%20--%2004-PM.html) — أحدث إصدار (Meta Llama Enterprise 4 Arabic · Databricks Mosaic AI Agent Framework 2 Arabic · Klaviyo AI Email Architect 5 Arabic · Wix AI Site Builder 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
