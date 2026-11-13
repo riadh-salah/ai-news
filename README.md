@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/13-11-2026 -- 08-AM.html`](news/13-11-2026%20--%2008-AM.html) — أحدث إصدار (Microsoft Copilot Studio 2 Arabic · Adobe Firefly Video 3 Arabic · Perplexity Enterprise Hub Arabic · monday.com AI Automations 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/13-11-2026 -- 04-PM.html`](news/13-11-2026%20--%2004-PM.html) — أحدث إصدار (Databricks Genie 2 Arabic · IBM Microsoft Imagine Enterprise Arabic · Sysdig AI Defense Arabic · Expedient AI CTRL Platform 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
