@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/13-11-2026 -- 12-AM.html`](news/13-11-2026%20--%2012-AM.html) — أحدث إصدار (Google Gemini Enterprise 3 Arabic · Anthropic Claude for Work 5 Arabic · Canva Magic Studio 4 Arabic · Shopify Sidekick 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/13-11-2026 -- 08-AM.html`](news/13-11-2026%20--%2008-AM.html) — أحدث إصدار (Microsoft Copilot Studio 2 Arabic · Adobe Firefly Video 3 Arabic · Perplexity Enterprise Hub Arabic · monday.com AI Automations 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 

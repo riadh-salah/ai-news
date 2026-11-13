@@ -1,0 +1,271 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 13-11-2026 -- 08-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "13-11-2026 -- 08-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Microsoft Copilot Studio 2 Arabic · Adobe Firefly Video 3 Arabic · "
+    "Perplexity Enterprise Hub Arabic · monday.com AI Automations 4 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Microsoft Copilot Studio 2 Arabic، Adobe Firefly Video 3 Arabic، Perplexity Enterprise Hub Arabic، monday.com AI Automations 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 13 نوفمبر 2026 | 08 صباحاً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">☀️ نشرة AI العالمية</span>
+      <h1>من Microsoft Copilot Studio 2 Arabic الذي يُبني وكيل خدمة عملاء باللهجة الخليجية ويُوصّله بـTeams خلال ساعة، إلى Adobe Firefly Video 3 Arabic الذي يُحوّل برومبت عربي إلى إعلان فيديو احترافي بعلامتك التجارية، ومن Perplexity Enterprise Hub Arabic الذي يُجيب على أسئلة الاستثمار والسوق بمصادر حية بالعربية، إلى monday.com AI Automations 4 Arabic الذي يُحوّل «حرّكنا هذا بعد الموافقة» إلى سير عمل ذكي — أربع قصص صباحية في 13 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُوقِظ الفرص مع أول ضوء!</h1>
+      <p class="hero-sub">صباحٌ للوكالات والمؤسسين وفرق العمليات والأبحاث: العملاء يريدون ردًا فوريًا، الفيديو يأكل الميزانية، القرارات تحتاج مصادر، والمهام تتعطل على الموافقات. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يشدّك من السطر الأول.</p>
+      <div class="hero-meta">
+        <span>📅 13 نوفمبر 2026</span>
+        <span>🌅 08 صباحاً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Microsoft Copilot Studio 2 Arabic: وكلاء أعمال يتحدثون العربية — connectors، guardrails، وTeams!</h2>
+      <p class="article-lead">«مركز الاتصال يريد بوتًا يفهم لهجة العميل ويُصعّد للبشري بلطف — والمطورون مشغولون بثلاثة أشهر». في 13 نوفمبر 2026، أطلقت <strong>Microsoft</strong> <strong>Copilot Studio 2 Arabic</strong>: منصة no-code لبناء وكلاء مؤسسيين يفهمون الفصحى واللهجات الخليجية والمصرية، يتصلون بـDynamics وSharePoint وSAP عبر connectors، يُجيبون مع سياسات امتثال، يُنشرون في Teams وWhatsApp ومواقع الويب — للبنوك والاتصالات والتعليم في المنطقة.</p>
+      <p>المشكلة التي حلّتها: الإصدار الأول كان يخلط الأدوار؛ الإصدار 2 يُفرّق بين وكيل مبيعات ووكيل دعم ووكيل موارد بشرية، يُختبر السيناريوهات قبل الإطلاق، يُسجّل كل محادثة في Purview، يُدعم multi-turn memory لمدة 30 يومًا، يُقيّم جودة الردود العربية تلقائيًا، ويُشحن حزم جاهزة للتأمين والعقارات والشحن.</p>
+      <p>القدرات الأساسية: Arabic Prompt Router؛ اختبار A/B للهجات؛ تكامل Power Platform؛ ميزانيات استخدام لكل قسم؛ شهادة شريك «MENA Copilot Agent Builder».</p>
+      <p>للمبدعين العرب: شركاء Microsoft واستوديوهات automation — «وكيل عربي live في 72 ساعة» للمؤسسات 200+ مستخدم. من يُسلّم 6 وكلاء Copilot Studio 2/ربع بـ 3800–45000 دولار + صيانة 750–5800 دولار/شهر يحوّل Power Platform إلى خط إنتاج خدمة ذكية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Microsoft Copilot Studio 2 Arabic؟</h3>
+        <ul>
+          <li><strong>تصميم وإطلاق وكيل (تدفقات، connectors، guardrails، تدريب):</strong> 5–18 يومًا — 3800–45000 دولار/عميل.</li>
+          <li><strong>مراقبة جودة محادثات وتحسين شهريًا:</strong> — 750–5800 دولار/شهر.</li>
+          <li><strong>حزم قطاعية (اتصالات، قطاع صحي، تمويل):</strong> — 72–310 دولار/حزمة.</li>
+          <li><strong>دورات «بناء وكلاء عرب مع Copilot Studio»:</strong> — 58–238 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Microsoft</span>
+        <span class="tag">Copilot</span>
+        <span class="tag">Agents</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Adobe Firefly Video 3 Arabic: فيديو إعلاني من جملة عربية — Brand Kit، 4K، وGenAI safe!</h2>
+      <p class="article-lead">«المسوق يريد 15 فيديو reel للموسم — والمنتج الخارجي مكلف ويستغرق أسبوعين». في 13 نوفمبر 2026، أطلقت <strong>Adobe</strong> <strong>Firefly Video 3 Arabic</strong>: مولّد فيديو تجاري يفهم أوامر عربية، يُحافظ على هوية العلامة عبر Brand Kit، يُخرج مقاطع 4K قصيرة وطويلة، يُولّد voiceover عربي متزامنًا مع الشفاه، يُصدّر لـPremiere وAfter Effects — للوكالات والعلامات في الخليج وشمال أفريقيا.</p>
+      <p>المشكلة التي حلّتها: Firefly Video 2 كان محدود الحركة؛ الإصدار 3 يُتحكم بالكاميرا والإضاءة من النص، يُمنع المحتوى المحمي قانونيًا، يُترجم storyboard EN↔AR، يُشارك المراجعة مع العميل داخل Frame.io، يُحلّل أداء الإعلان على المنصات، ويُقدّم credits سنوية للوكالات المعتمدة.</p>
+      <p>القدرات الأساسية: Arabic Scene Director؛ مكتبة مؤثرات موسمية؛ توليد شخصيات متسقة؛ حقوق تجارية واضحة؛ تكامل Creative Cloud Express.</p>
+      <p>للمبدعين العرب: production houses وfreelance video teams — «حزمة 12 فيديو عربي في 96 ساعة» للعلامات الناشئة. من يُشغّل 10 عقود Firefly Video 3/ربع بـ 2200–18000 دولار/حملة + retainer 680–3200 دولار/شهر يحوّل الذكاء الاصطناعي إلى مصنع إعلانات عربية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Adobe Firefly Video 3 Arabic؟</h3>
+        <ul>
+          <li><strong>حملات فيديو (storyboard، توليد، مراجعة، تسليم منصات):</strong> 4–14 يومًا — 2200–18000 دولار/حملة.</li>
+          <li><strong>اشتراك إنتاج شهري (reels، إعلانات، نسخ لهجات):</strong> — 680–3200 دولار/شهر/عميل.</li>
+          <li><strong>حزم قوالب (عقارات، سياحة، تجميل):</strong> — 48–195 دولار/حزمة.</li>
+          <li><strong>دورات «إعلان فيديو عربي بـFirefly»:</strong> — 45–188 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Adobe</span>
+        <span class="tag">Firefly</span>
+        <span class="tag">Video</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Perplexity Enterprise Hub Arabic: بحث مؤسسي بمصادر حية — Spaces، SSO، وامتثال!</h2>
+      <p class="article-lead">«مجلس الإدارة يسأل: ما تأثير قرار OPEC على هامشنا في الربع القادم؟ — والمحلل يبحث في خمسة مواقع». في 13 نوفمبر 2026، أطلقت <strong>Perplexity</strong> <strong>Enterprise Hub Arabic</strong>: مساحة بحث للفرق المالية والاستشارية والإعلام، تُجيب بالعربية مع روابط مصدر وزمن نشر، تُفهرس مكتبات داخلية عبر SSO، تُحجب بيانات حساسة، تُنشئ تقارير أسبوعية تلقائية — للشركات في دبي والرياض والقاهرة.</p>
+      <p>المشكلة التي حلّتها: Pro كان فرديًا؛ Hub يُخصص Spaces لكل مشروع، يُشارك threads مع صلاحيات، يُدمج Slack وNotion، يُقيّم دقة الإجابات العربية، يُحفظ السجل للمراجعة، يُدعم EU وUS residency، SLA لفرق 50+ مقعد، وحزم لقطاع الطاقة والتكنولوجيا والتجزئة.</p>
+      <p>القدرات الأساسية: Arabic Citation Mode؛ تنبيهات عند تغيّر خبر مهم؛ تصدير PDF وPowerPoint؛ API للتكامل مع BI؛ برنامج شركاء بحث للخليج.</p>
+      <p>للمبدعين العرب: research boutiques واستشاريون ماليون — «مركز معرفة عربي في 5 أيام» للفرق التي تعمل باللغتين. من يُبيع 8 اشتراكات Hub مُعدّلة/ربع بـ 2400–22000 دولار + تدريب 550–2800 دولار يحوّل البحث من Google عشوائي إلى ميزة تنافسية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Perplexity Enterprise Hub Arabic؟</h3>
+        <ul>
+          <li><strong>إعداد Hub (Spaces، سياسات، SSO، تدريب محللين):</strong> 4–12 يومًا — 2400–22000 دولار/منظمة.</li>
+          <li><strong>تقارير أسبوعية مخصصة ومراجعة مصادر:</strong> — 550–2800 دولار/شهر.</li>
+          <li><strong>حزم قطاعات (نفط، تقنية، تجزئة):</strong> — 62–268 دولار/حزمة.</li>
+          <li><strong>دورات «بحث استراتيجي عربي مع Perplexity»:</strong> — 52–215 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Perplexity</span>
+        <span class="tag">Research</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Analytics</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>monday.com AI Automations 4 Arabic: من جملة عربية إلى سير عمل كامل — boards، approvals، وCRM!</h2>
+      <p class="article-lead">«مدير المشروع يكتب في الواتساب: وافقنا على التصميم — انقل المهمة للتطوير وأرسل إشعار للعميل». في 13 نوفمبر 2026، أطلقت <strong>monday.com</strong> <strong>AI Automations 4 Arabic</strong>: طبقة ذكاء فوق boards تفهم أوامر عربية طبيعية، تُنشئ أتمتة متعددة الخطوات، تُربط Salesforce وHubSpot وGmail، تُتابع الموافقات وتُصعّد التأخير، تُولّد تقارير حالة بالعربية — للوكالات وفرق التشغيل في MENA.</p>
+      <p>المشكلة التي حلّتها: Automations 3 كانت قواعد ثابتة؛ الإصدار 4 يُفسّر النية من رسالة نصية أو صوتية، يُقترح تحسينات على سير العمل، يُقيس وقت الدورة، يُمنع تكرار المهام، يُدمج AI Assistant في كل board، يُدعم multi-workspace للمجموعات، ويُشحن playbooks للتسويق والموارد البشرية والتوريد.</p>
+      <p>القدرات الأساسية: Arabic Command Palette؛ قوالب أتمتة جاهزة؛ تنبيهات Slack وTeams؛ لوحة ROI للأتمتة؛ شهادة «monday AI Partner MENA».</p>
+      <p>للمبدعين العرب: ops consultants وCRM implementers — «لوحة تشغيل ذكية في أسبوع» للفرق 20–200 شخص. من يُنفّذ 14 عملية monday AI/ربع بـ 1600–12500 دولار/كل + optimization 420–1650 دولار/شهر يبيع وقتًا مستردًا لا أدوات فقط.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من monday.com AI Automations 4 Arabic؟</h3>
+        <ul>
+          <li><strong>تصميم boards وأتمتة (اكتشاف، بناء، تدريب، go-live):</strong> 6–20 يومًا — 1600–12500 دولار/عميل.</li>
+          <li><strong>تحسين سير عمل ومراجعة bottlenecks شهريًا:</strong> — 420–1650 دولار/شهر.</li>
+          <li><strong>حزم playbooks (وكالات، لوجستيات، تعليم):</strong> — 50–205 دولار/حزمة.</li>
+          <li><strong>دورات «تشغيل ذكي بالعربية مع monday AI»:</strong> — 40–172 دولار.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">monday.com</span>
+        <span class="tag">Workflow</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Operations</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 13-11-2026 -- 08-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="13-11-2026 -- 08-AM.html">
+          📰 13 نوفمبر 2026 — 08 صباحاً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "13-11-2026 -- 08-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/13-11-2026 -- 08-AM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/13-11-2026%20--%2008-AM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Updated: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    if "\u00fc" in text or "yü" in text:
+        raise SystemExit("ERROR: Latin ü found — use Arabic يُ")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
