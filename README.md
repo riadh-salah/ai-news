@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/12-11-2026 -- 04-PM.html`](news/12-11-2026%20--%2004-PM.html) — أحدث إصدار (Meta Llama Enterprise 4 Arabic · Databricks Mosaic AI Agent Framework 2 Arabic · Klaviyo AI Email Architect 5 Arabic · Wix AI Site Builder 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/13-11-2026 -- 12-AM.html`](news/13-11-2026%20--%2012-AM.html) — أحدث إصدار (Google Gemini Enterprise 3 Arabic · Anthropic Claude for Work 5 Arabic · Canva Magic Studio 4 Arabic · Shopify Sidekick 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
