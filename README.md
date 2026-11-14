@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/13-11-2026 -- 04-PM.html`](news/13-11-2026%20--%2004-PM.html) — أحدث إصدار (Databricks Genie 2 Arabic · IBM Microsoft Imagine Enterprise Arabic · Sysdig AI Defense Arabic · Expedient AI CTRL Platform 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/14-11-2026 -- 12-AM.html`](news/14-11-2026%20--%2012-AM.html) — أحدث إصدار (OpenAI Operator 2 Arabic · Vercel v0 Enterprise 3 Arabic · Mistral Agents API 2 Arabic · Glean Assistant 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
