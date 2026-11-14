@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/14-11-2026 -- 08-AM.html`](news/14-11-2026%20--%2008-AM.html) — أحدث إصدار (Google Gemini Live 2 Arabic · Anthropic Claude Skills Arabic · Shopify Sidekick 3 Arabic · ElevenLabs Dubbing Studio 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/14-11-2026 -- 04-PM.html`](news/14-11-2026%20--%2004-PM.html) — أحدث إصدار (OpenAI ChatGPT Atlas 3 Arabic · Cursor Cloud Agents 2 Arabic · Runway Gen-4 Director Arabic · HubSpot Breeze Copilot 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
