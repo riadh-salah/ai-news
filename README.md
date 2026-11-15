@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/14-11-2026 -- 04-PM.html`](news/14-11-2026%20--%2004-PM.html) — أحدث إصدار (OpenAI ChatGPT Atlas 3 Arabic · Cursor Cloud Agents 2 Arabic · Runway Gen-4 Director Arabic · HubSpot Breeze Copilot 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/15-11-2026 -- 12-AM.html`](news/15-11-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Copilot Studio 2 Arabic · Perplexity Comet 2 Arabic · Notion AI Agents Arabic · Canva Magic Studio 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
