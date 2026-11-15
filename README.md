@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/15-11-2026 -- 08-AM.html`](news/15-11-2026%20--%2008-AM.html) — أحدث إصدار (OpenAI Operator 2 Arabic · Google NotebookLM 3 Arabic · Replit Agent 3 Arabic · Descript Underlord 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/15-11-2026 -- 04-PM.html`](news/15-11-2026%20--%2004-PM.html) — أحدث إصدار (Anthropic Claude Cowork 2 Arabic · Salesforce Agentforce 3 Arabic · Figma Make 2 Arabic · ElevenLabs Dubbing Studio 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
