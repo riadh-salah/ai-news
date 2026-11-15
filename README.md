@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/15-11-2026 -- 12-AM.html`](news/15-11-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Copilot Studio 2 Arabic · Perplexity Comet 2 Arabic · Notion AI Agents Arabic · Canva Magic Studio 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/15-11-2026 -- 08-AM.html`](news/15-11-2026%20--%2008-AM.html) — أحدث إصدار (OpenAI Operator 2 Arabic · Google NotebookLM 3 Arabic · Replit Agent 3 Arabic · Descript Underlord 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
