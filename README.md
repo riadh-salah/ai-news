@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/16-11-2026 -- 08-AM.html`](news/16-11-2026%20--%2008-AM.html) — أحدث إصدار (Microsoft Copilot Studio 3 Arabic · Canva Magic Studio 3 Arabic · Perplexity Comet 2 Arabic · Stripe Revenue AI 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/16-11-2026 -- 04-PM.html`](news/16-11-2026%20--%2004-PM.html) — أحدث إصدار (OpenAI Sora 2 Pro Arabic · Zoom AI Companion 3 Arabic · Jasper Marketing AI 3 Arabic · Lovable Dev AI 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
