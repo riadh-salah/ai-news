@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/16-11-2026 -- 12-AM.html`](news/16-11-2026%20--%2012-AM.html) — أحدث إصدار (xAI Grok Workspace 2 Arabic · Airtable AI Omni 3 Arabic · Harvey AI Legal 2 Arabic · Spline AI 3D Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/16-11-2026 -- 08-AM.html`](news/16-11-2026%20--%2008-AM.html) — أحدث إصدار (Microsoft Copilot Studio 3 Arabic · Canva Magic Studio 3 Arabic · Perplexity Comet 2 Arabic · Stripe Revenue AI 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
