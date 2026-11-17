@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/17-11-2026 -- 12-AM.html`](news/17-11-2026%20--%2012-AM.html) — أحدث إصدار (GitHub Copilot Workspace 2 Arabic · Runway Gen-4 Arabic · Notion AI 3 Arabic · Hugging Face Inference Pro Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/17-11-2026 -- 08-AM.html`](news/17-11-2026%20--%2008-AM.html) — أحدث إصدار (Salesforce Agentforce 3 Arabic · Adobe Firefly Video 2 Arabic · Replit Agent 3 Arabic · ElevenLabs Conversational AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
