@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/16-11-2026 -- 04-PM.html`](news/16-11-2026%20--%2004-PM.html) — أحدث إصدار (OpenAI Sora 2 Pro Arabic · Zoom AI Companion 3 Arabic · Jasper Marketing AI 3 Arabic · Lovable Dev AI 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/17-11-2026 -- 12-AM.html`](news/17-11-2026%20--%2012-AM.html) — أحدث إصدار (GitHub Copilot Workspace 2 Arabic · Runway Gen-4 Arabic · Notion AI 3 Arabic · Hugging Face Inference Pro Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
