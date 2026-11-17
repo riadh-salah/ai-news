@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/17-11-2026 -- 08-AM.html`](news/17-11-2026%20--%2008-AM.html) — أحدث إصدار (Salesforce Agentforce 3 Arabic · Adobe Firefly Video 2 Arabic · Replit Agent 3 Arabic · ElevenLabs Conversational AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/17-11-2026 -- 04-PM.html`](news/17-11-2026%20--%2004-PM.html) — أحدث إصدار (Microsoft Copilot Studio 3 Arabic · Shopify Sidekick 2 Arabic · Canva Magic Studio 3 Arabic · Zapier Central 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
