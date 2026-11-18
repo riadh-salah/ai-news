@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/17-11-2026 -- 04-PM.html`](news/17-11-2026%20--%2004-PM.html) — أحدث إصدار (Microsoft Copilot Studio 3 Arabic · Shopify Sidekick 2 Arabic · Canva Magic Studio 3 Arabic · Zapier Central 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/18-11-2026 -- 12-AM.html`](news/18-11-2026%20--%2012-AM.html) — أحدث إصدار (Mistral Le Chat Enterprise 2 Arabic · Perplexity Pages 3 Arabic · Twilio AI Assistants 4 Arabic · Writer AI HQ 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
