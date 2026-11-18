@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 18-11-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "18-11-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Cohere Command R7 Arabic · Pika Video 2 Arabic · "
+    "Salesforce Data Cloud AI 3 Arabic · Calendly AI 3 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Cohere Command R7 Arabic، Pika Video 2 Arabic، Salesforce Data Cloud AI 3 Arabic، Calendly AI 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 18 نوفمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من Cohere Command R7 Arabic الذي يُجيب عن وثائق شركتك بالفصحى مع استشهاد لا يُختلَق، إلى Pika Video 2 Arabic الذي يُحوّل جملة عربية إلى مقطع إعلاني سينمائي قبل غروب الشمس، ومن Salesforce Data Cloud AI 3 Arabic الذي يُربط بيانات العملاء ويُتنبأ بمن سيشتري غدًا بلغة المبيعات العربية، إلى Calendly AI 3 Arabic الذي يُملأ تقويمك باجتماعات مؤهَّلة دون عشر رسائل مطاردة — أربع قصص مسائية في 18 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء آخر ضوء في اليوم!</h1>
+      <p class="hero-sub">مساءُ رواد الأعمال والمطورين وفرق المبيعات: المعرفة تبقى داخل شركتك، الفيديو يُنتج من النص، البيانات تتكلّم عربيًا، والمواعيد تُغلق الصفقات وحدها. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يأسرك من أول سطر.</p>
+      <div class="hero-meta">
+        <span>📅 18 نوفمبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Cohere Command R7 Arabic: بحث مؤسسي ووكلاء — إجابات عربية موثّقة من بياناتك فقط</h2>
+      <p class="article-lead">«نريد مساعدًا يقرأ سياساتنا وعقودنا ولا يختلق حقائق عندما يجهل». في 18 نوفمبر 2026، أطلقت <strong>Cohere</strong> <strong>Command R7 Arabic</strong>: نموذج وطبقة RAG للمؤسسات تفهرس PDF وSharePoint وقواعد بيانات، تُجيب بالفصحى أو لهجات المؤسسة، تُرفق اقتباسًا من الصفحة والفقرة، ترفض السؤال خارج النطاق، تدعم تعدد اللغات في المصدر مع إخراج عربي متسق، تتكامل مع AWS وGCP وAzure في منطقة الخليج، وتلتزم بعزل بيانات كل عميل — للبنوك والتأمين والطاقة والاتصالات في العالم العربي.</p>
+      <p>المشكلة التي حلّتها: الإصدار السابق كان يخلط بين مستندات قديمة أو يُقرّب الأرقام؛ Command R7 يدعم فهرسة متزامنة، تتبع إصدارات الوثائق، تلخيصًا مقارنًا بين نسختين من اللائحة، وكلاء متعدد الخطوات لطلبات «تحقق ثم صغّ ردًا رسميًا»، تكامل مع أنظمة التذاكر، قوالب «امتثال» و«موارد بشرية» و«دعم فني»، وبرنامج شركاء «Cohere Enterprise MENA».</p>
+      <p>القدرات الأساسية: RAG عربي دقيق؛ اقتباسات إلزامية؛ وكلاء مؤسسيون؛ عزل بيانات؛ استضافة إقليمية.</p>
+      <p>للمبدعين العرب: باقة «مركز معرفة مؤسسي آمن» — من ينفّذ 4 مشاريع ربعيًا بـ4200–24000 دولار للمشروع + 750–3200 دولار/شهر للصيانة يبيع ثقة للمنظمات التي تمنع ChatGPT العام على وثائقها الحساسة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Cohere Command R7 Arabic؟</h3>
+        <ul>
+          <li><strong>بناء مركز RAG وفهرسة وثائق عربية:</strong> 10–22 يومًا — 4200–24000 دولار.</li>
+          <li><strong>إدارة فهارس وسياسات إجابة شهريًا:</strong> — 750–3200 دولار/عميل/شهر.</li>
+          <li><strong>قوالب قطاعية (بنوك، نفط، اتصالات):</strong> — 68–290 دولار/حزمة.</li>
+          <li><strong>ورش «أسئلة شركتك بالعربية دون هلوسة»:</strong> — 55–220 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Cohere</span>
+        <span class="tag">Command R7</span>
+        <span class="tag">RAG</span>
+        <span class="tag">Enterprise</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Pika Video 2 Arabic: فيديو من نص — إعلانات، ريلز، وحركة كاميرا بلهجة عربية</h2>
+      <p class="article-lead">«العميل يريد ثمانية ريلز بالعربية قبل نهاية الأسبوع وليس لدينا طاقم تصوير». في 18 نوفمبر 2026، أطلقت <strong>Pika</strong> <strong>Video 2 Arabic</strong>: مولّد فيديو يفهم أوامر بالفصحى واللهجة، يُنتج مشاهد 4–12 ثانية بإضاءة سينمائية، يُدرج نصًا عربيًا واضحًا على الشاشة، يحافظ على شخصية المنتج بين اللقطات، يدعم صورة مرجعية للعلامة، يُولّد نسخًا متعددة للاختبار A/B، ويُصدّر بمقاسات Reels وTikTok وYouTube Shorts — لوكالات المحتوى والتجارة الإلكترونية والمؤثرين في المنطقة.</p>
+      <p>المشكلة التي حلّتها: الإصدار الأول كان يُشوّه الحروف أو يُبطئ الإنتاج؛ Video 2 يدعم خطوط عربية مقروءة، توليدًا دفعيًا لعشرات المقاطع، قوالب «إطلاق منتج» و«عرض موسمي» و«قصة عميل»، تحكمًا بزاوية الكاميرا والإيقاع، مكتبة تأثيرات مرخصة، وبرنامج «Pika Creator Network Arabia».</p>
+      <p>القدرات الأساسية: نص عربي إلى فيديو؛ نص على الشاشة RTL؛ اتساق بصري؛ إصدارات متعددة؛ صيغ منصات قصيرة.</p>
+      <p>للمبدعين العرب: استوديو «ريلز أسبوعية» — من يُسلّم 24 مقطعًا شهريًا بـ75–380 دولار للمقطع أو 1600–6800 دولار باقة شهرية يخدم متاجرًا تستهلك محتوى دون استوديو تقليدي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Pika Video 2 Arabic؟</h3>
+        <ul>
+          <li><strong>باقة فيديو قصير عربي شهرية (10–30 مقطعًا):</strong> — 1600–6800 دولار/شهر.</li>
+          <li><strong>مقطع مخصص بعلامة العميل:</strong> — 75–380 دولار/مقطع.</li>
+          <li><strong>إعداد قوالب Pika وهوية بصرية:</strong> 3–7 أيام — 880–4500 دولار.</li>
+          <li><strong>دورة «إعلانات ريلز بالذكاء الاصطناعي بالعربية»:</strong> — 48–195 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Pika</span>
+        <span class="tag">Video AI</span>
+        <span class="tag">Reels</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Salesforce Data Cloud AI 3 Arabic: عميل واحد، كل القنوات — تنبؤات ورسائل بالعربية</h2>
+      <p class="article-lead">«بياناتنا في خمس أنظمة والمبيعات لا تعرف من زار الموقع قبل أن يكتب على واتساب». في 18 نوفمبر 2026، أطلقت <strong>Salesforce</strong> <strong>Data Cloud AI 3 Arabic</strong>: طبقة ذكاء فوق Data Cloud تجمع سجل التصفح والبريد والمتجر ومركز الاتصال، تُنشئ ملفًا موحدًا لكل عميل، تُولّد رسائل متابعة بالفصحى أو لهجة الخليج، تُتنبأ باحتمال الشراء والانسحاب، تُقترح توقيت الإرسال، وتتزامن مع Marketing Cloud وService Cloud وWhatsApp — لشركات التجزئة والعقارات والتعليم والاشتراكات في العالم العربي.</p>
+      <p>المشكلة التي حلّتها: الإصدار 2 كان يُكرر شرائح أو يُهمل اللهجات؛ Data Cloud AI 3 يدعم تطبيع الأسماء العربية، قواعد نبرة حسب الدولة، تفعيلًا تلقائيًا للحملات عند إشارات السلوك، لوحات تنفيذية بالعربية، تكامل إعلانات ميتا وغوغل، قوالب «عقار فاخر» و«اشتراك برمجي» و«برنامج تدريبي»، وبرنامج «Salesforce Data Partners Gulf».</p>
+      <p>القدرات الأساسية: ملف عميل موحد؛ رسائل عربية مخصصة؛ تنبؤات شراء؛ تفعيل حملات؛ تكامل قنوات.</p>
+      <p>للمبدعين العرب: خدمة «ذكاء إيراد من بياناتك» — من يُدير 8 عملاء بـ620–2800 دولار/شهر لكل عميل يحوّل CRM إلى آلة نمو دون توظيف محللي بيانات بدوام كامل.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Salesforce Data Cloud AI 3 Arabic؟</h3>
+        <ul>
+          <li><strong>تفعيل Data Cloud وقواعد رسائل عربية:</strong> 12–25 يومًا — 5200–28000 دولار.</li>
+          <li><strong>إدارة شرائح وحملات وتقارير شهريًا:</strong> — 620–2800 دولار/عميل/شهر.</li>
+          <li><strong>حزم قوالب قطاع (تجزئة، عقار، تعليم):</strong> — 62–275 دولار/حزمة.</li>
+          <li><strong>ورش «مبيعات مدعومة ببيانات موحدة بالعربية»:</strong> — 58–232 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Salesforce</span>
+        <span class="tag">Data Cloud</span>
+        <span class="tag">CRM</span>
+        <span class="tag">Predictive</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Calendly AI 3 Arabic: مواعيد ذكية — تأهيل، تذكير، وإغلاق صفقة بلغة العميل</h2>
+      <p class="article-lead">«نضيع ساعات في رسائل «متى يناسبك؟» بينما العميل الساخن يبرد». في 18 نوفمبر 2026، أطلقت <strong>Calendly</strong> <strong>AI 3 Arabic</strong>: طبقة ذكاء فوق الجدولة تُصفّي الزوار بأسئلة تأهيل بالعربية، تُقترح أوقاتًا حسب المنطقة الزمنية والعطلات المحلية، تُرسل تذكيرات واتساب وبريد بلهجة مناسبة، تُلخّص المكالمة للبائع قبل اللقاء، تُحدّث CRM تلقائيًا، وتُفعّل متابعة ما بعد الاجتماع — لفرق المبيعات والاستشارات والتدريب والعقارات في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Calendly AI 2 كان يُرسل تذكيرات إنجليزية أو يتجاهل رمضان والجمعة؛ الإصدار 3 يدعم نصوص عربية RTL في رسائل البريد، تكامل HubSpot وSalesforce وZoho، قواعد «لا تحجز إلا إذا الميزانية فوق X»، تقويمات فريق ذكية، قوالب «استشارة مجانية» و«عرض عقار» و«جلسة تدريب»، وبرنامج «Calendly Partner MENA».</p>
+      <p>القدرات الأساسية: تأهيل عربي؛ تذكيرات متعددة القنوات؛ تلخيص قبل المكالمة؛ مزامنة CRM؛ قواعد حجز ذكية.</p>
+      <p>للمبدعين العرب: باقة «خط مواعيد يبيع» — من ينفّذ 10 إعدادات ربعيًا بـ1100–6500 دولار + 180–750 دولار/شهر للتحسين يخدم مستشارين ووكالات تخسر صفقات بسبب بطء التنسيق.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Calendly AI 3 Arabic؟</h3>
+        <ul>
+          <li><strong>إعداد Calendly AI وتأهيل وتكامل CRM:</strong> 4–10 أيام — 1100–6500 دولار.</li>
+          <li><strong>تحسين نصوص وحملات مواعيد شهريًا:</strong> — 180–750 دولار/عميل/شهر.</li>
+          <li><strong>قوالب قطاع (استشارات، عقار، تدريب):</strong> — 42–185 دولار/حزمة.</li>
+          <li><strong>ورش «لا تطارد المواعيد — دع الذكاء يؤهّل بالعربية»:</strong> — 45–180 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Calendly</span>
+        <span class="tag">Scheduling</span>
+        <span class="tag">Sales</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 18-11-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="18-11-2026 -- 04-PM.html">
+          📰 18 نوفمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "18-11-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/18-11-2026 -- 04-PM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/18-11-2026%20--%2004-PM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Written: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+        "ت TECH",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    if "\u00fc" in text or "yü" in text:
+        raise SystemExit("ERROR: Latin ü found — use Arabic يُ")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()

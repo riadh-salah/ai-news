@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/18-11-2026 -- 08-AM.html`](news/18-11-2026%20--%2008-AM.html) — أحدث إصدار (Google NotebookLM 3 Arabic · Anthropic Claude for Work 2 Arabic · HubSpot Breeze Intelligence 2 Arabic · Runway Gen-4 Turbo Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/18-11-2026 -- 04-PM.html`](news/18-11-2026%20--%2004-PM.html) — أحدث إصدار (Cohere Command R7 Arabic · Pika Video 2 Arabic · Salesforce Data Cloud AI 3 Arabic · Calendly AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
