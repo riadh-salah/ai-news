@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/18-11-2026 -- 12-AM.html`](news/18-11-2026%20--%2012-AM.html) — أحدث إصدار (Mistral Le Chat Enterprise 2 Arabic · Perplexity Pages 3 Arabic · Twilio AI Assistants 4 Arabic · Writer AI HQ 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/18-11-2026 -- 08-AM.html`](news/18-11-2026%20--%2008-AM.html) — أحدث إصدار (Google NotebookLM 3 Arabic · Anthropic Claude for Work 2 Arabic · HubSpot Breeze Intelligence 2 Arabic · Runway Gen-4 Turbo Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
