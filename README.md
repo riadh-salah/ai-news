@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/19-11-2026 -- 08-AM.html`](news/19-11-2026%20--%2008-AM.html) — أحدث إصدار (Microsoft Copilot Studio 3 Arabic · Canva Magic Studio 4 Arabic · Zapier AI Actions 2 Arabic · Shopify Sidekick 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/19-11-2026 -- 04-PM.html`](news/19-11-2026%20--%2004-PM.html) — أحدث إصدار (Anthropic Claude Computer Use 2 Arabic · Loom AI Workflows 3 Arabic · Jasper Campaigns 4 Arabic · Gamma AI Presentations 4 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 

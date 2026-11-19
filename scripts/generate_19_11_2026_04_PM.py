@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 19-11-2026 -- 04-PM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "19-11-2026 -- 04-PM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Anthropic Claude Computer Use 2 Arabic · Loom AI Workflows 3 Arabic · "
+    "Jasper Campaigns 4 Arabic · Gamma AI Presentations 4 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Anthropic Claude Computer Use 2 Arabic، Loom AI Workflows 3 Arabic، Jasper Campaigns 4 Arabic، Gamma AI Presentations 4 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 19 نوفمبر 2026 | 04 مساءً</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌆 نشرة AI العالمية</span>
+      <h1>من Anthropic Claude Computer Use 2 Arabic الذي يُنفّذ لك مهام المتصفح والملفات كأن موظفًا رقميًا يجلس بجانبك ويفهم الفصحى واللهجة التي تختارها، إلى Loom AI Workflows 3 Arabic الذي يُحوّل تسجيل شاشة واحدًا إلى دليل تدريب ومبيعات ومتابعة عملاء بأمر عربي، ومن Jasper Campaigns 4 Arabic الذي يُطلق حملة كاملة من منشور إلى إعلان إلى بريد بصوت علامتك في الخليج ومصر والمغرب، إلى Gamma AI Presentations 4 Arabic الذي يُولّد عرضًا استثماريًا من جملة عربية قبل أن يشتد ازدحام المساء — أربع قصص مسائية في 19 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء آخر ضوء في اليوم!</h1>
+      <p class="hero-sub">مساءُ المؤسسين والمسوقين وفرق التعليم عن بُعد: الجهاز يُنجز نيابة عنك، الفيديو يعمل لحسابك، الحملات تتكلم بلهجتك، والعروض تُقنع من أول شريحة. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يأسرك من أول سطر.</p>
+      <div class="hero-meta">
+        <span>📅 19 نوفمبر 2026</span>
+        <span>🌆 04 مساءً (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Anthropic Claude Computer Use 2 Arabic: يد رقمية على حاسوبك — بحث، نماذج، وفواتير بأمر عربي</h2>
+      <p class="article-lead">«أريدك أن تفتح بوابة المورد، وتنزّل الفاتورة الأخيرة، وتلخّصها لي بالعربية قبل اجتماع المدير». في 19 نوفمبر 2026، أطلقت <strong>Anthropic</strong> <strong>Claude Computer Use 2 Arabic</strong>: طبقة تشغيل تتيح لـClaude التحكم في المتصفح وتطبيقات سطح المكتب ضمن سياج أمان واضح، يقرأ الشاشة وينقر ويكتب بحرفية، يفهم الأوامر بالفصحى واللهجات الشائعة في المنطقة، يطلب تأكيدًا قبل أي دفع أو حذف، يُسجّل كل خطوة للمراجعة، يتكامل مع Claude for Work ويدعم وضع «موظف مؤقت» لمهام متكررة — للمكاتب الصغيرة والوكالات والفرق الإدارية التي تضيع ساعات في نقرات متكررة.</p>
+      <p>المشكلة التي حلّتها: الإصدار الأول كان يتوقف عند مواقع تتطلب تحققًا بشريًا أو يُخطئ في حقول RTL؛ Computer Use 2 يدعم قوالب «محاسبة» و«مشتريات» و«موارد بشرية»، محاكاة قبل التنفيذ الحقيقي، حدود زمنية وصلاحيات لكل جلسة، ربطًا مع أتمتة البريد والتقويم، تنبيهات عند مغادرة النطاق المسموح، وبرنامج شركاء «Claude Automation MENA» لمن يبني حلولًا جاهزة للمؤسسات العربية.</p>
+      <p>القدرات الأساسية: تشغيل متصفح وسطح مكتب؛ أوامر عربية طبيعية؛ حوكمة وتأكيد قبل الإجراءات الحساسة؛ قوالب مهام؛ سجل تدقيق كامل.</p>
+      <p>للمبدعين العرب: باقة «مكتب ذكي بدون نقرات» — من يُصمّم 6 حزم أتمتة لمكاتب وعيادات ومكاتب عقارية بـ5200–28000 دولار للمشروع يحول وقت الإدارة إلى وقت بيع وإبداع.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Anthropic Claude Computer Use 2 Arabic؟</h3>
+        <ul>
+          <li><strong>تصميم ونشر حزم أتمتة مؤسسية (8–15 مهمة):</strong> 12–28 يومًا — 5200–28000 دولار.</li>
+          <li><strong>صيانة وتحسين جلسات التشغيل شهريًا:</strong> — 680–2900 دولار/عميل/شهر.</li>
+          <li><strong>قوالب قطاع جاهزة (عقارات، خدمات، تجارة):</strong> — 88–340 دولار/حزمة.</li>
+          <li><strong>ورش «أتمتة المكتب بالعربية مع Claude Computer Use»:</strong> — 55–210 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Anthropic</span>
+        <span class="tag">Claude</span>
+        <span class="tag">Computer Use</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Loom AI Workflows 3 Arabic: فيديو واحد — تدريب، مبيعات، ومتابعة عملاء تتحرك وحدها</h2>
+      <p class="article-lead">«سجّلت شرح المنتج مرة؛ أريده يُقسّم لدروس، يُترجم، ويُرسل لكل عميل جديد باسمه». في 19 نوفمبر 2026، أطلقت <strong>Loom</strong> <strong>AI Workflows 3 Arabic</strong>: منصة تبدأ من تسجيل الشاشة والكاميرا، تُولّد فصولًا وعناوين وملخصات بالعربية، تُضيف ترجمة ونصوصًا متحركة RTL، تُنشئ صفحات مشاركة مخصصة لكل عميل، تربط الإكمال بـCRM وتُطلق رسائل متابعة، وتقيس من شاهد وماذا أعاد — لشركات البرمجيات كخدمة والتدريب والاستشارات التي تعتمد على الفيديو القصير.</p>
+      <p>المشكلة التي حلّتها: Workflows 2 كان يكتفي بقص ولصق؛ الإصدار 3 يفهم سياق العرض ويقترح «مسار onboarding» و«مسار مبيعات» و«مسار دعم»، يُزيل التكرار والصمت تلقائيًا، يُولّد أسئلة اختبار قصيرة للمتدربين، يدعم تضمين هوية بصرية ولون العلامة، تكامل Slack وTeams وHubSpot، ومكتبة أفضل الممارسات للمحتوى التعليمي بالعربية مع برنامج «Loom Creators Gulf».</p>
+      <p>القدرات الأساسية: تقسيم وتحرير ذكي؛ نصوص وترجمة عربية؛ صفحات شخصية؛ أتمتة متابعة؛ تحليل مشاهدة.</p>
+      <p>للمبدعين العرب: استوديو «فيديو يبيع ويُعلّم» — من يُدير 10 عملاء بـ480–2100 دولار/شهر يحوّل تسجيلًا أسبوعيًا واحدًا إلى أصول دائمة تُغلق صفقات وتقلل تذاكر الدعم.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Loom AI Workflows 3 Arabic؟</h3>
+        <ul>
+          <li><strong>بناء مسار فيديو كامل (onboarding + مبيعات):</strong> 6–12 يومًا — 1900–9800 دولار.</li>
+          <li><strong>إنتاج وتحديث محتوى فيديو شهريًا:</strong> — 480–2100 دولار/عميل/شهر.</li>
+          <li><strong>حزم ترجمة وترجمة نصية لـ50 مقطعًا:</strong> — 420–1650 دولار/حزمة.</li>
+          <li><strong>دورة «فيديو عربي يُبيع مع Loom AI»:</strong> — 46–185 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Loom</span>
+        <span class="tag">Video</span>
+        <span class="tag">Workflows</span>
+        <span class="tag">Sales Enablement</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Jasper Campaigns 4 Arabic: حملة متعددة القنوات — من فكرة عربية إلى منشور وإعلان وبريد في دقائق</h2>
+      <p class="article-lead">«أعطني حملة إطلاق منتج للسوق السعودي: خمس منشورات، ثلاثة إعلانات، سلسلة بريد من ثلاث رسائل، كلها بنبرة فاخرة دون أن أكرّر نفسي». في 19 نوفمبر 2026، أطلقت <strong>Jasper</strong> <strong>Campaigns 4 Arabic</strong>: استوديو حملات يحفظ صوت علامتك وألوانها وكلماتها المحظورة، يُولّد محتوى متسقًا للفصحى واللهجات المستهدفة، يُقترح جداول نشر وتجارب ألفية للعناوين، يُصدّر إلى Meta وGoogle وLinkedIn ومنصات البريد، يراجع الامتثال للإعلانات المحلية، ويُتيح موافقة الفريق قبل النشر — للعلامات والوكالات التي تُطلق عشرات الحملات شهريًا في العالم العربي.</p>
+      <p>المشكلة التي حلّتها: Campaigns 3 كان يُنتج نصوصًا متقاربة الشكل بين القنوات؛ الإصدار 4 يُخصّص طولًا ونبرة لكل منصة، يدمج بيانات أداء سابقة لاقتراح زوايا جديدة، يدعم قوالب «عطور» و«عقارات» و«تطبيقات» و«تعليم»، توليد صور مرفقة متوافقة مع الهوية، تكامل Jasper مع Canva وقواعد بيانات المنتجات، وبرنامج «Jasper Agency MENA» للوكالات التي تبيع الحزم الجاهزة.</p>
+      <p>القدرات الأساسية: صوت علامة عربي؛ حملات متعددة القنوات؛ جدولة وتجارب؛ تصدير إعلاني؛ حوكمة المحتوى.</p>
+      <p>للمبدعين العرب: وكالة «حملة أسبوعية بالذكاء» — من يُسلّم 15 عميلًا باقة حملة كاملة بـ550–2600 دولار/شهر يستبدل فريق copywriting كاملًا بطبقة ذكاء مع مراجعة بشرية خفيفة.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Jasper Campaigns 4 Arabic؟</h3>
+        <ul>
+          <li><strong>إعداد Brand Voice وحملة إطلاق (شهر أول):</strong> 8–16 يومًا — 2400–12500 دولار.</li>
+          <li><strong>إدارة حملات ونصوص وتحسين شهريًا:</strong> — 550–2600 دولار/عميل/شهر.</li>
+          <li><strong>حزم موسمية (رمضان، العودة للمدارس، التخفيضات):</strong> — 95–420 دولار/حزمة.</li>
+          <li><strong>ورش «حملات عربية سريعة بـ Jasper Campaigns»:</strong> — 48–190 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Jasper</span>
+        <span class="tag">Campaigns</span>
+        <span class="tag">Marketing</span>
+        <span class="tag">Copywriting</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Gamma AI Presentations 4 Arabic: من جملة إلى deck استثماري — شرائح، رسوم، وقصة تُقنع المستثمر</h2>
+      <p class="article-lead">«لديّ اجتماع مستثمر بعد ساعتين ولا يوجد عرض؛ أعطني 12 شريحة عن منصة لوجستية في مصر مع أرقام وتوقعات». في 19 نوفمبر 2026، أطلقت <strong>Gamma</strong> <strong>AI Presentations 4 Arabic</strong>: مولّد عروض يبني هيكل قصة من وصف عربي، يُولّد نصوص شرائح وعناوين فرعية ومخططات بيانات، يختار تخطيطًا RTL أنيقًا، يُضيف صورًا وتدرجات متناسقة مع هوية اختيارية، يُصدّر PDF وPowerPoint ورابط تفاعلي، ويُتيح تعديلًا سريعًا بالأمر الطبيعي — للمؤسسين والمدربين والاستشاريين الذين يحتاجون إقناعًا بصريًا بسرعة.</p>
+      <p>المشكلة التي حلّتها: الإصدار 3 كان يُفرط في النص على الشريحة أو يُهمل اتجاه الرسم؛ Presentations 4 يوازن بين الإيجاز والإقناع، يدعم قوالب «عرض مستثمر» و«تدريب داخلي» و«عرض مبيعات»، يربط جداول بيانات بسيطة، يُولّد ملاحظات المتحدث بالعربية، يتكامل مع Notion وGoogle Drive، ويُقدّم برنامج شركاء «Gamma Pitch MENA» لمن يبيع العروض كخدمة.</p>
+      <p>القدرات الأساسية: توليد deck كامل RTL؛ رسوم ومخططات؛ تصدير متعدد؛ ملاحظات متحدث؛ قوالب احترافية.</p>
+      <p>للمبدعين العرب: استوديو «عرض في 24 ساعة» — من يُنجز 20 عرضًا شهريًا بـ380–1800 دولار للعرض يخدم رواد أعمال ومسرعات لا تملك مصمم عروض بدوام كامل.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Gamma AI Presentations 4 Arabic؟</h3>
+        <ul>
+          <li><strong>عرض مستثمر أو مبيعات كامل (12–18 شريحة):</strong> 2–5 أيام — 380–1800 دولار/عرض.</li>
+          <li><strong>اشتراك عروض غير محدود للفرق الصغيرة:</strong> — 620–2400 دولار/شهر.</li>
+          <li><strong>حزمة تدريب داخلي (5 عروض + هوية):</strong> — 1100–4800 دولار.</li>
+          <li><strong>ورش «عروض عربية تُقنع مع Gamma AI»:</strong> — 40–165 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Gamma</span>
+        <span class="tag">Presentations</span>
+        <span class="tag">Pitch Deck</span>
+        <span class="tag">Design</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 19-11-2026 -- 04-PM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="19-11-2026 -- 04-PM.html">
+          📰 19 نوفمبر 2026 — 04 مساءً (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "19-11-2026 -- 04-PM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/19-11-2026 -- 04-PM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/19-11-2026%20--%2004-PM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Written: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+        "ت TECH",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    if "\u00fc" in text or "yü" in text:
+        raise SystemExit("ERROR: Latin ü found — use Arabic يُ")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
