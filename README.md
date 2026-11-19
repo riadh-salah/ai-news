@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/18-11-2026 -- 04-PM.html`](news/18-11-2026%20--%2004-PM.html) — أحدث إصدار (Cohere Command R7 Arabic · Pika Video 2 Arabic · Salesforce Data Cloud AI 3 Arabic · Calendly AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/19-11-2026 -- 12-AM.html`](news/19-11-2026%20--%2012-AM.html) — أحدث إصدار (Notion AI Agents 3 Arabic · Intercom Fin 3 Arabic · Stripe Revenue Intelligence 2 Arabic · ElevenLabs Dubbing Studio 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
