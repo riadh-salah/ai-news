@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/20-11-2026 -- 12-AM.html`](news/20-11-2026%20--%2012-AM.html) — أحدث إصدار (Google Gemini Deep Research 3 Arabic · Meta WhatsApp Business AI 4 Arabic · Monday.com AI Automations 3 Arabic · HeyGen Interactive Avatar 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/20-11-2026 -- 08-AM.html`](news/20-11-2026%20--%2008-AM.html) — أحدث إصدار (Amazon Q Developer 3 Arabic · LinkedIn Hiring Assistant 2 Arabic · Typeform Insight AI 2 Arabic · Revolut Business AI Treasury 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
