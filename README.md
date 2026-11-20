@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/20-11-2026 -- 08-AM.html`](news/20-11-2026%20--%2008-AM.html) — أحدث إصدار (Amazon Q Developer 3 Arabic · LinkedIn Hiring Assistant 2 Arabic · Typeform Insight AI 2 Arabic · Revolut Business AI Treasury 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/20-11-2026 -- 04-PM.html`](news/20-11-2026%20--%2004-PM.html) — أحدث إصدار (Klarna AI Shopping Assistant 2 Arabic · GrammarlyGo for Business 2 Arabic · Semrush AI Content Toolkit 3 Arabic · Toast IQ for Restaurants 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
