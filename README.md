@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/19-11-2026 -- 04-PM.html`](news/19-11-2026%20--%2004-PM.html) — أحدث إصدار (Anthropic Claude Computer Use 2 Arabic · Loom AI Workflows 3 Arabic · Jasper Campaigns 4 Arabic · Gamma AI Presentations 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/20-11-2026 -- 12-AM.html`](news/20-11-2026%20--%2012-AM.html) — أحدث إصدار (Google Gemini Deep Research 3 Arabic · Meta WhatsApp Business AI 4 Arabic · Monday.com AI Automations 3 Arabic · HeyGen Interactive Avatar 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 

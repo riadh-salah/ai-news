@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 20-11-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "20-11-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Google Gemini Deep Research 3 Arabic · Meta WhatsApp Business AI 4 Arabic · "
+    "Monday.com AI Automations 3 Arabic · HeyGen Interactive Avatar 3 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Google Gemini Deep Research 3 Arabic، Meta WhatsApp Business AI 4 Arabic، Monday.com AI Automations 3 Arabic، HeyGen Interactive Avatar 3 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 20 نوفمبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌙 نشرة AI العالمية</span>
+      <h1>من Google Gemini Deep Research 3 Arabic الذي يُجري لك تحقيقات ليلية متعددة المصادر بالعربية ويُسلّمك تقريرًا جاهزًا للقرار قبل الفجر، إلى Meta WhatsApp Business AI 4 Arabic الذي يُحوّل محادثات واتساب إلى مبيعات ومواعيد بلهجتك دون أن يبدو روبوتًا، ومن Monday.com AI Automations 3 Arabic الذي يُبني لوحات المشاريع والمهام والرسائل التلقائية بأمر عربي، إلى HeyGen Interactive Avatar 3 Arabic الذي يُقدّم مدرّبًا افتراضيًا يتفاعل مع متدرّبيك في الوقت الفعلي — أربع قصص ليلية في 20 نوفمبر 2026 لمن يريد أدوات عالمية ودخلًا يُضيء أول ساعات اليوم!</h1>
+      <p class="hero-sub">ليلةٌ لفرق البحث والمتاجر الرقمية ومديري المشاريع ومنشئي التعليم: التحقيق يكتب نفسه، واتساب يُغلق الصفقات، اللوحات تتحرك وحدها، والأفاتار يُعلّم وجهًا لوجه. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يأسرك من أول سطر.</p>
+      <div class="hero-meta">
+        <span>📅 20 نوفمبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Google Gemini Deep Research 3 Arabic: محقق ليلي — تقارير استراتيجية من مئات المصادر بالعربية</h2>
+      <p class="article-lead">«أريد خلال ثماني ساعات دراسة سوق تطبيقات الصحة في الخليج مع مراجع موثوقة وجدول مقارنة وتوصيات بالعربية». في 20 نوفمبر 2026، أطلقت <strong>Google</strong> <strong>Gemini Deep Research 3 Arabic</strong>: وضع بحث عميق داخل Gemini يقرأ الويب والملفات والتقارير المرفقة، يُراجع المصادر ويُصنّفها، يُبني هيكل تقرير بالفصحى أو لهجة مختارة، يُضيف اقتباسات وروابط، يُولّد رسومًا بيانية مبسطة، يُصدّر إلى Google Docs وPDF، ويُتيح متابعة التقدم ليلًا مع تنبيه عند الاكتمال — للاستشاريين والمستثمرين وفرق الاستراتيجية التي تستهلك أيامًا في جمع المعلومات.</p>
+      <p>المشكلة التي حلّتها: الإصدار 2 كان يختصر المصادر أو يخلط بينها؛ Deep Research 3 يفرّق بين الحقائق والتوقعات، يدعم قوالب «تحليل منافسين» و«تقرير تنظيمي» و«دراسة جدوى»، يحترم حدود الاشتراك والخصوصية للمؤسسات، يربط Google Workspace، يُحدّث التقرير عند إضافة ملفات جديدة، ويُقدّم برنامج «Gemini Research Partners Arabia» للوكالات التي تبيع التقارير كخدمة.</p>
+      <p>القدرات الأساسية: بحث متعدد المصادر؛ تقارير عربية منظمة؛ اقتباسات ومراجع؛ تصدير ومشاركة؛ جدولة ليلية.</p>
+      <p>للمبدعين العرب: مكتب «استخبارات قرار» — من يُسلّم 12 تقريرًا متخصصًا شهريًا بـ650–4200 دولار للتقرير يخدم صناديق ومسرعات ومجالس إدارة لا تملك فريق بحث داخلي.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Google Gemini Deep Research 3 Arabic؟</h3>
+        <ul>
+          <li><strong>تقرير استراتيجي عميق (قطاع أو دولة):</strong> 3–7 أيام — 650–4200 دولار/تقرير.</li>
+          <li><strong>اشتراك تقارير شهرية للفرق القانونية والاستثمارية:</strong> — 880–3600 دولار/شهر.</li>
+          <li><strong>حزم «تحليل منافسين» جاهزة (5 قطاعات):</strong> — 120–480 دولار/حزمة.</li>
+          <li><strong>ورش «بحث احترافي بالعربية مع Gemini Deep Research»:</strong> — 52–210 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Google</span>
+        <span class="tag">Gemini</span>
+        <span class="tag">Deep Research</span>
+        <span class="tag">Strategy</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Meta WhatsApp Business AI 4 Arabic: متجرك على واتساب — بيع، حجز، ودعم بلهجة حقيقية</h2>
+      <p class="article-lead">«عميل كتب بعد منتصف الليل: هل يتوفر المقاس الكبير؟ أريد الذكاء أن يرد بلهجة سعودية لطيفة، يُنشئ طلبًا، ويُرسل رابط الدفع». في 20 نوفمبر 2026، أطلقت <strong>Meta</strong> <strong>WhatsApp Business AI 4 Arabic</strong>: مساعد داخل WhatsApp Business يفهم الرسائل والصوت والصور بالعربية واللهجات الشائعة، يُجيب من كتالوج المنتجات وسياسات الشحن، يُنشئ طلبات وروابط دفع متوافقة مع المحافظ المحلية، يُحجز المواعيد ويُذكّر العميل، يُحوّل المحادثة لموظف عند الحاجة، ويُحلّل سبب الخروج من السلة — للمتاجر الإلكترونية والعيادات والصالونات ومراكز التدريب في المنطقة.</p>
+      <p>المشكلة التي حلّتها: الإصدار 3 كان يكرر الردود أو يخطئ في الأسعار؛ Business AI 4 يتعلّم نبرة علامتك من رسائل سابقة، يدعم قوالب «رمضان» و«تخفيضات نهاية الأسبوع»، يتكامل Meta Catalog وShopify وSalla وزد، يلتزم بقواعد الإعلانات المحلية، يُقدّم لوحة تحليل معدل التحويل، وبرنامج «WhatsApp AI Commerce Gulf» للوكالات.</p>
+      <p>القدرات الأساسية: محادثة عربية طبيعية؛ طلبات ودفع؛ حجز وتذكير؛ تحويل بشري ذكي؛ تحليل مبيعات.</p>
+      <p>للمبدعين العرب: وكالة «واتساب يبيع نيابة عنك» — من يُدير 20 متجرًا بـ380–1650 دولار/شهر للمتجر يحوّل رسائل ليلية متفرقة إلى إيراد منتظم دون توظيف فريق دعم كامل.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Meta WhatsApp Business AI 4 Arabic؟</h3>
+        <ul>
+          <li><strong>إعداد بوت مبيعات ودعم (شهر أول):</strong> 6–14 يومًا — 2100–9800 دولار.</li>
+          <li><strong>إدارة محادثات وتحسين تحويل شهريًا:</strong> — 380–1650 دولار/متجر/شهر.</li>
+          <li><strong>حزم رسائل موسمية وجاهزة (20 قالبًا):</strong> — 75–310 دولار/حزمة.</li>
+          <li><strong>دورة «تجارة واتساب بالذكاء الاصطناعي»:</strong> — 45–185 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Meta</span>
+        <span class="tag">WhatsApp</span>
+        <span class="tag">Commerce</span>
+        <span class="tag">Customer Support</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Monday.com AI Automations 3 Arabic: لوحات مشاريع تُفهم العربية — مهام، تنبيهات، وتقارير تلقائية</h2>
+      <p class="article-lead">«عندما يتأخر عميل عن الدفع، أنشئ مهمة لمتابعته وأرسل ملخصًا للمدير بالعربية». في 20 نوفمبر 2026، أطلقت <strong>Monday.com</strong> <strong>AI Automations 3 Arabic</strong>: طبقة ذكاء فوق لوحات Monday تفهم الأوامر بالفصحى، تُبني أعمدة وعروض وفلاتر، تُنشئ قواعد أتمتة (عند حدوث X نفّذ Y)، تُولّد رسائل Slack وEmail بالعربية، تُلخّص حالة المشروع أسبوعيًا، ويقترح تخفيف اختناقات الموارد — لوكالات الإعلان والبناء البرمجي وفرق العمليات التي تعيش على Monday.</p>
+      <p>المشكلة التي حلّتها: Automations 2 كان يتطلب إنجليزية في شروط القواعد؛ الإصدار 3 يدعم شروطًا عربية، قوالب «وكالة إبداعية» و«تطوير برمجيات» و«خدمات ميدانية»، ربطًا مع CRM وفوترة، تنبيهات للمديرين بالجوال، سجلًا لكل أتمتة، وبرنامج «Monday AI Implementers MENA».</p>
+      <p>القدرات الأساسية: أوامر عربية للوحات؛ أتمتة متعددة الخطوات؛ تقارير مجدولة؛ تكامل بريد ودردشة؛ قوالب قطاع.</p>
+      <p>للمبدعين العرب: استشارة «Monday يعمل وحده» — من يُنفّذ 8 لوحات مؤسسية بـ3200–18500 دولار للمشروع + 520–2200 دولار/شهر للتحسين يبيع للفرق التي تضيع ساعات في تحديث الحالة يدويًا.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Monday.com AI Automations 3 Arabic؟</h3>
+        <ul>
+          <li><strong>بناء لوحة وأتمتة مؤسسية كاملة:</strong> 10–22 يومًا — 3200–18500 دولار.</li>
+          <li><strong>صيانة أتمتة وتقارير شهريًا:</strong> — 520–2200 دولار/عميل/شهر.</li>
+          <li><strong>حزم قوالب لوحة (تسويق، تقنية، خدمات):</strong> — 68–290 دولار/حزمة.</li>
+          <li><strong>ورش «أتمتة Monday بالعربية دون تعقيد»:</strong> — 50–200 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Monday.com</span>
+        <span class="tag">Project Management</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Workflow</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>HeyGen Interactive Avatar 3 Arabic: مُدرّب افتراضي يتكلّم ويستمع — تدريب ومبيعات حية بالعربية</h2>
+      <p class="article-lead">«نريد مدرّبًا للامتثال يشرح السياسة بالعربية ويجيب أسئلة المتدربين وكأنه بشري، على صفحة ويب دون حضور فعلي». في 20 نوفمبر 2026، أطلقت <strong>HeyGen</strong> <strong>Interactive Avatar 3 Arabic</strong>: أفاتار ثلاثي الأبعاد يتفاعل في الوقت الفعلي، يتحدث بالفصحى واللهجات المختارة، يفهم أسئلة المتدرب ويُجيب من قاعدة معرفة مرفوعة، يُقيّم الفهم باختبار قصير، يُسجّل الجلسات للامتثال، يُضمّن في المواقع وتطبيقات التعلم، ويدعم تخصيص المظهر والزي — للبنوك وشركات الاتصالات والأكاديميات والمؤسسات التي تحتاج تدريبًا على نطاق واسع.</p>
+      <p>المشكلة التي حلّتها: الإصدار 2 كان فيديو مسجلًا بلا تفاعل؛ Interactive 3 يقلّل زمن الاستجابة، يدعم وضع «مبيعات» لشرح المنتج والاعتراضات، قوالب «امتثال» و«تأهيل موظفين» و«عرض منتج»، حماية من الإجابات خارج النطاق، تكامل LMS وWebhooks، وبرنامج «HeyGen Academy Partners Arabia».</p>
+      <p>القدرات الأساسية: أفاتار تفاعلي عربي؛ قاعدة معرفة مخصصة؛ اختبارات وتسجيل؛ تضمين ويب؛ قوالب امتثال ومبيعات.</p>
+      <p>للمبدعين العرب: استوديو «تدريب حي دون مقر» — من يُنتج 6 أفاتار تدريبية سنويًا بـ4800–28000 دولار للمشروع + 600–2400 دولار/شهر للتحديث يخدم جهات تحتاج آلاف المتدربين دون تعبئة قاعات.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من HeyGen Interactive Avatar 3 Arabic؟</h3>
+        <ul>
+          <li><strong>أفاتار تدريب أو مبيعات تفاعلي (مع محتوى):</strong> 12–25 يومًا — 4800–28000 دولار.</li>
+          <li><strong>تحديث محتوى وأسئلة شائعة شهريًا:</strong> — 600–2400 دولار/عميل/شهر.</li>
+          <li><strong>حزمة 3 دروس تفاعلية جاهزة لقطاع واحد:</strong> — 890–3600 دولار.</li>
+          <li><strong>ورش «أفاتار عربي يُعلّم ويبيع مع HeyGen»:</strong> — 55–220 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">HeyGen</span>
+        <span class="tag">Avatar</span>
+        <span class="tag">Training</span>
+        <span class="tag">Interactive</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 20-11-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="20-11-2026 -- 12-AM.html">
+          📰 20 نوفمبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "20-11-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/20-11-2026 -- 12-AM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/20-11-2026%20--%2012-AM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Written: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+        "ت TECH",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    if "\u00fc" in text or "yü" in text:
+        raise SystemExit("ERROR: Latin ü found — use Arabic يُ")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
