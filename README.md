@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/20-11-2026 -- 04-PM.html`](news/20-11-2026%20--%2004-PM.html) — أحدث إصدار (Klarna AI Shopping Assistant 2 Arabic · GrammarlyGo for Business 2 Arabic · Semrush AI Content Toolkit 3 Arabic · Toast IQ for Restaurants 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/21-11-2026 -- 12-AM.html`](news/21-11-2026%20--%2012-AM.html) — أحدث إصدار (Microsoft Copilot Studio 2 Arabic · Canva AI Brand Studio 2 Arabic · Stripe AI Revenue Radar Arabic · Notion AI Meeting Hub 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
