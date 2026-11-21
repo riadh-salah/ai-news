@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/21-11-2026 -- 08-AM.html`](news/21-11-2026%20--%2008-AM.html) — أحدث إصدار (OpenAI ChatGPT Advanced Voice 3 Arabic · Miro AI Workflows 3 Arabic · Coursera Coach AI 2 Arabic · Asana AI Teammates 5 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/21-11-2026 -- 04-PM.html`](news/21-11-2026%20--%2004-PM.html) — أحدث إصدار (Freshworks Freddy AI 3 Arabic · Airtable Omni 2 Arabic · Squarespace Blueprint AI 2 Arabic · Adobe Express Brand Kit AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
