@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/22-11-2026 -- 12-AM.html`](news/22-11-2026%20--%2012-AM.html) — أحدث إصدار (Mailchimp Intuit Assist 3 Arabic · Hootsuite OwlyWriter AI 4 Arabic · Gong Engage AI 3 Arabic · QuickBooks AI Advisor 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/22-11-2026 -- 08-AM.html`](news/22-11-2026%20--%2008-AM.html) — أحدث إصدار (HubSpot Breeze AI 2 Arabic · Shopify Sidekick 3 Arabic · Intercom Fin 3 Arabic · Atlassian Rovo 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
