@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/22-11-2026 -- 08-AM.html`](news/22-11-2026%20--%2008-AM.html) — أحدث إصدار (HubSpot Breeze AI 2 Arabic · Shopify Sidekick 3 Arabic · Intercom Fin 3 Arabic · Atlassian Rovo 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/22-11-2026 -- 04-PM.html`](news/22-11-2026%20--%2004-PM.html) — أحدث إصدار (Salesforce Einstein Copilot 3 Arabic · Wix ADI 4 Arabic · Dropbox Dash 2 Arabic · Pendo AI Guides 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
