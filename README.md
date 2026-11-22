@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/21-11-2026 -- 04-PM.html`](news/21-11-2026%20--%2004-PM.html) — أحدث إصدار (Freshworks Freddy AI 3 Arabic · Airtable Omni 2 Arabic · Squarespace Blueprint AI 2 Arabic · Adobe Express Brand Kit AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/22-11-2026 -- 12-AM.html`](news/22-11-2026%20--%2012-AM.html) — أحدث إصدار (Mailchimp Intuit Assist 3 Arabic · Hootsuite OwlyWriter AI 4 Arabic · Gong Engage AI 3 Arabic · QuickBooks AI Advisor 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
