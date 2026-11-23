@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Generate 23-11-2026 -- 12-AM.html with proper UTF-8 encoding."""
+
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "news" / "23-11-2026 -- 12-AM.html"
+INDEX = ROOT / "news" / "index.html"
+README = ROOT / "README.md"
+
+TOPICS = (
+    "Canva Magic Studio 4 Arabic · Monday.com AI Blocks 2 Arabic · "
+    "Zendesk AI Agents 3 Arabic · Calendly AI Scheduling 2 Arabic"
+)
+
+TOPICS_PLAIN = TOPICS.replace("&amp;", "&")
+
+HTML = """<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="أحدث أخبار الذكاء الاصطناعي العالمية بالعربية — Canva Magic Studio 4 Arabic، Monday.com AI Blocks 2 Arabic، Zendesk AI Agents 3 Arabic، Calendly AI Scheduling 2 Arabic، وأفكار لتحقيق الدخل من AI">
+  <title>أخبار الذكاء الاصطناعي — 23 نوفمبر 2026 | 12 منتصف الليل</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="hero">
+      <span class="hero-badge">🌙 نشرة AI العالمية</span>
+      <h1>من Canva Magic Studio 4 Arabic الذي يُحوّل فكرتك العربية إلى هوية بصرية وحملة سوشيال كاملة قبل أن ينتهي قهوة الفجر، إلى Monday.com AI Blocks 2 Arabic الذي يُبني لوحة مشروع وتشغيل فريق من جملة واحدة، ومن Zendesk AI Agents 3 Arabic الذي يُجيب عميلك الخليجي أو المصري بثقة ودقة دون انتظار وكيل بشري، إلى Calendly AI Scheduling 2 Arabic الذي يُغلق الاجتماعات ويُرتّب أسبوع المبيعات بلغة طبيعية — أربع قصص ليلية في 23 نوفمبر 2026 لمن يبحث عن أدوات عالمية ودخلًا يتنفس قبل شروق الشمس!</h1>
+      <p class="hero-sub">ليلة التصميم والتنسيق والدعم والمواعيد: العلامة تُرسم، المشاريع تُهيكَل، التذاكر تُحلّ، والتقويم يُملأ بذكاء. أربع أخبار عالمية مع صندوق ذهبي لكل خبر — أسلوب يأسرك من أول عنوان.</p>
+      <div class="hero-meta">
+        <span>📅 23 نوفمبر 2026</span>
+        <span>🌙 12 منتصف الليل (UTC)</span>
+        <span>📰 4 أخبار عالمية</span>
+      </div>
+    </header>
+
+    <!-- المقال الأول -->
+    <article class="article" id="article-1">
+      <div class="article-number">الخبر الأول</div>
+      <h2>Canva Magic Studio 4 Arabic: استوديو إبداعي بالعربية — شعارات، فيديو قصير، وحملات RTL من وصف واحد!</h2>
+      <p class="article-lead">«العميل يريد هوية جديدة و20 منشورًا لرمضان — والمصمم مشغول لأسبوعين». في 23 نوفمبر 2026، أطلقت <strong>Canva</strong> <strong>Magic Studio 4 Arabic</strong>: طبقة ذكاء موحّدة داخل Canva تفهم الموجز بالفصحى واللهجات التجارية، تُولّد شعارات وقوالب RTL متناسقة، تكتب نصوصًا تسويقية للصور والريلز، تُنشئ فيديوهات قصيرة من سكربت عربي، تُعدّ Kit علامة بألوان وخطوط معتمدة، تُحسّن العناوين للسوشيال المحلي، تُصدّر حزمًا جاهزة لInstagram وTikTok وLinkedIn، وتقترح اختبارات A/B بصريًا — للمطاعم والمتاجر والمدربين والوكالات في الخليج ومصر وشمال أفريقيا.</p>
+      <p>المشكلة التي حلّتها: Studio 3 كان يُهمل تشكيل العناوين أو يُنتج نصوصًا طويلة للستوري؛ الإصدار 4 يدعم «بطاقة نبرة» لكل علامة، قوالب قطاعية للعقارات والتجميل والتعليم، تكاملًا مع Brandfolder، توليد صور بنمط محلي، امتثالًا لسياسات الإعلان الإقليمية، وبرنامج «Canva Creators AI Arabia» للمنفّذين المعتمدين.</p>
+      <p>القدرات الأساسية: تصميم RTL من وصف؛ فيديو قصير عربي؛ Kit علامة؛ نصوص سوشيال؛ قوالب قطاعية.</p>
+      <p>للمبدعين العرب: استوديو «حزمة شهرية للعلامة» — من يُسلّم 30 تصميمًا وفيديوين وKit محدّثًا بـ750–4800 دولار/علامة/شهر يخدم العملاء الذين يريدون حضورًا بصريًا دون توظيف مصمم بدوام كامل.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Canva Magic Studio 4 Arabic؟</h3>
+        <ul>
+          <li><strong>بناء هوية بصرية + Kit علامة (شعار، ألوان، قوالب):</strong> 5–14 يومًا — 1200–7500 دولار.</li>
+          <li><strong>اشتراك إنتاج محتوى شهري (تصاميم + فيديو + نصوص):</strong> — 380–2200 دولار/عميل/شهر.</li>
+          <li><strong>حزمة 50 قالب رمضان/مواسم عربية:</strong> — 110–440 دولار/حزمة.</li>
+          <li><strong>ورش «تصميم ذكي بالعربية مع Canva Magic Studio»:</strong> — 42–168 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Canva</span>
+        <span class="tag">Design</span>
+        <span class="tag">Creative</span>
+        <span class="tag">Video</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثاني -->
+    <article class="article" id="article-2">
+      <div class="article-number">الخبر الثاني</div>
+      <h2>Monday.com AI Blocks 2 Arabic: لوحة مشروع كاملة من جملة — مهام، جداول زمنية، وتقارير بالعربية!</h2>
+      <p class="article-lead">«كل مشروع جديد يبدأ بساعات من بناء اللوحة — والفريق لا يزال يكتب المهام يدويًا في المساء». في 23 نوفمبر 2026، أطلقت <strong>Monday.com</strong> <strong>AI Blocks 2 Arabic</strong>: كتل ذكاء داخل Work OS تفهم وصف المشروع بالعربية، تُنشئ لوحة بأعمدة ومكدسات ملائمة، تُقسّم المهام على الأعضاء، تُولّد جدولًا زمنيًا واقعيًا، تكتب أوصاف مهام واضحة بالفصحى، تُربط تبعيات بين المراحل، تُنشئ تقرير حالة أسبوعي للإدارة، وتتزامن مع Slack وGmail وGoogle Drive — لوكالات التسويق وشركات البرمجيات والتجزئة والعقارات في المنطقة.</p>
+      <p>المشكلة التي حلّتها: Blocks 1 كان يخلط بين أسماء المراحل العربية والإنجليزية؛ الإصدار 2 يدعم قوالب «تسليم عميل» و«إطلاق منتج» و«حملة إعلانية»، تنبيهات تأخير بالعربية، تكاملًا مع Jira وAsana للترحيل، لوحات متعددة اللغات للفرق المختلطة، وبرنامج «Monday Partners AI MENA» للاستشاريين.</p>
+      <p>القدرات الأساسية: لوحة من وصف عربي؛ مهام وتبعيات؛ تقارير إدارية؛ قوالب قطاع؛ تكامل أدوات.</p>
+      <p>للمبدعين العرب: خدمة «تشغيل مشاريع بذكاء» — من يُهيّئ Monday لفرق 10–60 عضوًا بـ1800–11200 دولار للإطلاق + 420–1980 دولار/شهر للتحسين يبيع للشركات التي تضيع وقتًا في إدارة يدوية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Monday.com AI Blocks 2 Arabic؟</h3>
+        <ul>
+          <li><strong>تصميم وتفعيل Work OS (لوحات، أتمتة، تدريب فريق):</strong> 7–21 يومًا — 1800–11200 دولار.</li>
+          <li><strong>إدارة وتحسين لوحات وتقارير شهريًا:</strong> — 420–1980 دولار/عميل/شهر.</li>
+          <li><strong>حزمة 8 قوالب مشاريع عربية (وكالة، تقنية، عقار):</strong> — 88–352 دولار/حزمة.</li>
+          <li><strong>ورش «إدارة مشاريع ذكية بالعربية مع Monday»:</strong> — 48–192 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Monday.com</span>
+        <span class="tag">PM</span>
+        <span class="tag">Workflow</span>
+        <span class="tag">Teams</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الثالث -->
+    <article class="article" id="article-3">
+      <div class="article-number">الخبر الثالث</div>
+      <h2>Zendesk AI Agents 3 Arabic: دعم عملاء يتحدث عربيًا طبيعيًا — حل تذاكر، ترتيب، وتصعيد ذكي!</h2>
+      <p class="article-lead">«مئات التذاكر يوميًا — والعملاء ينتظرون ساعات لرد بسيط عن الشحن أو الاسترجاع». في 23 نوفمبر 2026، أطلقت <strong>Zendesk</strong> <strong>AI Agents 3 Arabic</strong>: وكلاء ذكاء داخل Zendesk Suite يفهمون الفصحى واللهجات الشائعة في الخدمة، يُجيبون أسئلة الشحن والفواتير والاشتراك فورًا، يُسترجعون بيانات الطلب من أنظمة التجارة، يُنشئون تذاكر مُصنَّفة تلقائيًا، يُلخّصون محادثات طويلة للوكيل البشري، يُقترحون مقالات مركز المساعدة المناسبة، يُصعّدون للإنسان عند الغضب أو التعقيد، ويتكاملون مع WhatsApp Business وInstagram DM — للتجارة الإلكترونية والاتصالات والخدمات المالية في MENA.</p>
+      <p>المشكلة التي حلّتها: Agents 2 كان يرد بجمل رسمية جافة أو يُخطئ في أرقام الطلبات العربية؛ الإصدار 3 يدعم نبرة «ودية» و«رسمية» حسب القطاع، قاعدة معرفة RTL، تحليل مشاعر بالعربية، امتثالًا لسياسات الخصوصية المحلية، تدريبًا من محادثات سابقة، وبرنامج «Zendesk AI Partners Arabia».</p>
+      <p>القدرات الأساسية: حل تذاكر عربية؛ تصنيف تلقائي؛ تكامل تجارة؛ تصعيد ذكي؛ قنوات متعددة.</p>
+      <p>للمبدعين العرب: مكتب «دعم يُقلّل التكلفة» — من يُفعّل Zendesk AI لمتجر أو SaaS بـ2400–14500 دولار للإطلاق + 520–2350 دولار/شهر لصيانة المعرفة يبيع للشركات التي تنفق كثيرًا على مراكز اتصال تقليدية.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Zendesk AI Agents 3 Arabic؟</h3>
+        <ul>
+          <li><strong>إعداد وكلاء + مركز مساعدة عربي + تكامل متجر:</strong> 10–22 يومًا — 2400–14500 دولار.</li>
+          <li><strong>تحسين ردود وقاعدة معرفة شهريًا:</strong> — 520–2350 دولار/عميل/شهر.</li>
+          <li><strong>حزمة 30 مقالة مساعدة عربية (أسئلة شائعة قطاعية):</strong> — 125–500 دولار/حزمة.</li>
+          <li><strong>ورش «خدمة عملاء ذكية بالعربية مع Zendesk»:</strong> — 55–220 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Zendesk</span>
+        <span class="tag">Support</span>
+        <span class="tag">CX</span>
+        <span class="tag">Automation</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <!-- المقال الرابع -->
+    <article class="article" id="article-4">
+      <div class="article-number">الخبر الرابع</div>
+      <h2>Calendly AI Scheduling 2 Arabic: تقويم يُغلق الاجتماعات — رسائل عربية، أوقات ذكية، ومتابعة تلقائية!</h2>
+      <p class="article-lead">«فريق المبيعات يضيع نصف يومه في رسائل «متى يناسبك؟» — والصفقات تبرد». في 23 نوفمبر 2026، أطلقت <strong>Calendly</strong> <strong>AI Scheduling 2 Arabic</strong>: مساعد جدولة داخل Calendly يكتب دعوات الاجتماع بالفصحى واللهجات التجارية، يُقترح أوقاتًا حسب منطقة العميل الزمنية، يُرسل تذكيرات واتساب وبريد بالعربية، يُعيد جدولة تلقائيًا عند التعارض، يُلخّص نوايا الحجز (مبيعات، دعم، استشارة)، يُنشئ متابعات بعد الاجتماع، يربط Salesforce وHubSpot وZoom، ويُحلّل معدّل الحضور — للاستشاريين والوكالات وفرق المبيعات B2B في المنطقة العربية.</p>
+      <p>المشكلة التي حلّتها: الإصدار 1 كان يُرسل رسائل إنجليزية للعملاء العرب أو يتجاهل أيام العطل المحلية؛ الإصدار 2 يحترم تقويم العطل الخليجي والمصري، قوالب «عرض تجريبي» و«مقابلة توظيف» و«جلسة تدريب»، حدودًا لعدد الاجتماعات اليومية، تكاملًا مع Microsoft Teams وGoogle Meet، وبرنامج «Calendly Solutions Partners MENA».</p>
+      <p>القدرات الأساسية: دعوات عربية؛ أوقات ذكية؛ تذكيرات متعددة القنوات؛ متابعات ما بعد الاجتماع؛ تكامل CRM.</p>
+      <p>للمبدعين العرب: خدمة «تقويم يبيع» — من يُفعّل Calendly AI على مسار مبيعات كامل بـ680–4200 دولار للإعداد + 180–850 دولار/شهر للتحسين يخدم المستشارين والوكالات التي تريد إغلاقًا أسرع دون سكرتير.</p>
+
+      <div class="money-box">
+        <h3>💡 كيف تربح من Calendly AI Scheduling 2 Arabic؟</h3>
+        <ul>
+          <li><strong>إعداد أنواع اجتماعات + رسائل عربية + CRM:</strong> 3–9 أيام — 680–4200 دولار.</li>
+          <li><strong>تحسين نصوص ومعدلات حضور شهريًا:</strong> — 180–850 دولار/عميل/شهر.</li>
+          <li><strong>حزمة 12 قالب دعوة اجتماع عربية (مبيعات، تعليم، صحة):</strong> — 58–232 دولار/حزمة.</li>
+          <li><strong>ورش «جدولة ذكية بالعربية مع Calendly AI»:</strong> — 36–144 دولار/مقعد.</li>
+        </ul>
+      </div>
+
+      <div class="tags">
+        <span class="tag">Calendly</span>
+        <span class="tag">Scheduling</span>
+        <span class="tag">Sales</span>
+        <span class="tag">Productivity</span>
+        <span class="tag">Arabic</span>
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>نشرة أخبار الذكاء الاصطناعي العالمية — إصدار 23-11-2026 -- 12-AM</p>
+      <p style="margin-top: 0.5rem;"><a href="index.html">← جميع الإصدارات</a></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+"""
+
+INDEX_ENTRY = f"""      <li>
+        <a href="23-11-2026 -- 12-AM.html">
+          📰 23 نوفمبر 2026 — 12 منتصف الليل (UTC)
+          <br>
+          <small style="color: var(--text-muted); font-weight: 400;">{TOPICS}</small>
+        </a>
+      </li>
+"""
+
+
+def update_index():
+    content = INDEX.read_text(encoding="utf-8")
+    marker = '    <ul class="edition-list">\n'
+    if "23-11-2026 -- 12-AM.html" not in content:
+        content = content.replace(marker, marker + INDEX_ENTRY)
+        with open(INDEX, "w", encoding="utf-8", newline="\n") as f:
+            f.write(content)
+        print(f"Updated: {INDEX}")
+    else:
+        print(f"Index already contains entry: {INDEX}")
+
+
+def update_readme():
+    new = "news/23-11-2026 -- 12-AM.html"
+    content = README.read_text(encoding="utf-8")
+    new_line = (
+        f"- [`{new}`](news/23-11-2026%20--%2012-AM.html) — أحدث إصدار ({TOPICS_PLAIN}) "
+        f"(4 أخبار + أفكار ربح من AI)"
+    )
+    lines = content.splitlines()
+    for i, line in enumerate(lines):
+        if "أحدث إصدار" in line and "news/" in line:
+            if new in line:
+                print(f"README already points to latest: {README}")
+                return
+            lines[i] = new_line
+            break
+    else:
+        raise SystemExit("ERROR: could not find README latest edition line")
+    with open(README, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Written: {README}")
+
+
+def validate_output():
+    data = OUTPUT.read_bytes()
+    if b"\x00" in data:
+        raise SystemExit("ERROR: null bytes found in output")
+    if data[:3] == b"\xef\xbb\xbf":
+        raise SystemExit("ERROR: BOM found in output")
+    text = OUTPUT.read_text(encoding="utf-8")
+    if "article-4" not in text:
+        raise SystemExit("ERROR: missing article-4")
+    if text.count('class="article"') != 4:
+        raise SystemExit(f"ERROR: expected 4 articles, found {text.count('class=\"article\"')}")
+    if not text.startswith("<!DOCTYPE html>"):
+        raise SystemExit("ERROR: invalid HTML start")
+    if not text.rstrip().endswith("</html>"):
+        raise SystemExit("ERROR: invalid HTML end")
+    bad_patterns = [
+        "dollar",
+        "mlions",
+        "millones",
+        "bringing",
+        "الLlatin",
+        "أfكar",
+        "دolار",
+        "البروtokol",
+        "أktober",
+        "disappoint",
+        "Arabs:",
+        "القدrات",
+        "frighten",
+        "simulates",
+        "المشkلة",
+        "mezclar",
+        "prefe r",
+        "الإصrador",
+        "يبni",
+        "عArabية",
+        "أكtober",
+        "ت TECH",
+    ]
+    for pat in bad_patterns:
+        if pat in text:
+            raise SystemExit(f"ERROR: mixed-script typo found: {pat}")
+    if re.search(r"[yY][\u064B-\u0652\u0670]", text):
+        raise SystemExit("ERROR: Latin y with Arabic diacritic found")
+    if "\u00fc" in text or "yü" in text:
+        raise SystemExit("ERROR: Latin ü found — use Arabic يُ")
+    print("Validation passed: UTF-8, no null bytes, 4 articles, valid HTML structure")
+
+
+def main():
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
+        f.write(HTML)
+    print(f"Written: {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size} bytes")
+    validate_output()
+    update_index()
+    update_readme()
+
+
+if __name__ == "__main__":
+    main()
