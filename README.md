@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/23-11-2026 -- 04-PM.html`](news/23-11-2026%20--%2004-PM.html) — أحدث إصدار (Figma AI Design 3 Arabic · Notion AI Q&A 3 Arabic · Airtable Omni 2 Arabic · Loom AI Workflows 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/24-11-2026 -- 12-AM.html`](news/24-11-2026%20--%2012-AM.html) — أحدث إصدار (HubSpot AI Customer Agent 3 Arabic · Trello Inbox AI 3 Arabic · Power BI Copilot 3 Arabic · SurveyMonkey Genius 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
