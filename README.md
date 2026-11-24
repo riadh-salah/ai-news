@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/24-11-2026 -- 08-AM.html`](news/24-11-2026%20--%2008-AM.html) — أحدث إصدار (Salesforce Einstein Copilot 3 Arabic · Square AI Commerce 2 Arabic · LegalZoom Virtual Attorney AI 2 Arabic · Rippling Talent AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/24-11-2026 -- 04-PM.html`](news/24-11-2026%20--%2004-PM.html) — أحدث إصدار (MuleSoft Composer AI 2 Arabic · Workiva AI Disclosure 2 Arabic · Deel HR AI 3 Arabic · PandaDoc Contract AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
