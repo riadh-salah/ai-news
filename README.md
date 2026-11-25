@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/25-11-2026 -- 08-AM.html`](news/25-11-2026%20--%2008-AM.html) — أحدث إصدار (Stripe Radar AI 2 Arabic · Klaviyo AI Email 2 Arabic · Twilio Flex AI 2 Arabic · Microsoft Viva Copilot 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/25-11-2026 -- 04-PM.html`](news/25-11-2026%20--%2004-PM.html) — أحدث إصدار (Adobe Firefly Video 2 Arabic · Shopify Sidekick AI 3 Arabic · Zoom AI Companion 3 Arabic · Replit Agent 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
