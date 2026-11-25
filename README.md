@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/24-11-2026 -- 04-PM.html`](news/24-11-2026%20--%2004-PM.html) — أحدث إصدار (MuleSoft Composer AI 2 Arabic · Workiva AI Disclosure 2 Arabic · Deel HR AI 3 Arabic · PandaDoc Contract AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/25-11-2026 -- 12-AM.html`](news/25-11-2026%20--%2012-AM.html) — أحدث إصدار (PayPal AI Checkout 2 Arabic · Plaid AI Insights 2 Arabic · BambooHR AI Answers 2 Arabic · LinkedIn Sales Navigator AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
