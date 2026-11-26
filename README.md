@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/26-11-2026 -- 12-AM.html`](news/26-11-2026%20--%2012-AM.html) — أحدث إصدار (HubSpot Content AI 3 Arabic · Canva Magic Studio 4 Arabic · Intercom Fin 3 Arabic · DocuSign Agreement AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/26-11-2026 -- 08-AM.html`](news/26-11-2026%20--%2008-AM.html) — أحدث إصدار (Salesforce Agentforce 2 Arabic · Zendesk AI Agents 3 Arabic · Shopify Sidekick 3 Arabic · Atlassian Rovo 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
