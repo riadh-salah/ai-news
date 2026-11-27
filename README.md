@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/26-11-2026 -- 04-PM.html`](news/26-11-2026%20--%2004-PM.html) — أحدث إصدار (ServiceNow Now Assist 3 Arabic · Monday.com AI Blocks 2 Arabic · Freshdesk Freddy AI 3 Arabic · Zoho CRM Zia 4 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/27-11-2026 -- 12-AM.html`](news/27-11-2026%20--%2012-AM.html) — أحدث إصدار (Notion AI 3 Arabic · Airtable AI Assistant 2 Arabic · ClickUp Brain 3 Arabic · Dropbox Dash 2 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
