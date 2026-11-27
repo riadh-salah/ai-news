@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/27-11-2026 -- 12-AM.html`](news/27-11-2026%20--%2012-AM.html) — أحدث إصدار (Notion AI 3 Arabic · Airtable AI Assistant 2 Arabic · ClickUp Brain 3 Arabic · Dropbox Dash 2 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/27-11-2026 -- 08-AM.html`](news/27-11-2026%20--%2008-AM.html) — أحدث إصدار (Google Workspace Vids AI 2 Arabic · Elastic AI Assistant 4 Arabic · Glean AI 6 Arabic · Rippling AI Workforce 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
