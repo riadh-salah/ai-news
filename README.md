@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/27-11-2026 -- 08-AM.html`](news/27-11-2026%20--%2008-AM.html) — أحدث إصدار (Google Workspace Vids AI 2 Arabic · Elastic AI Assistant 4 Arabic · Glean AI 6 Arabic · Rippling AI Workforce 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/27-11-2026 -- 04-PM.html`](news/27-11-2026%20--%2004-PM.html) — أحدث إصدار (Microsoft Copilot Studio 3 Arabic · Workday Illuminate AI 2 Arabic · Sprinklr AI+ 4 Arabic · Tableau Pulse AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
