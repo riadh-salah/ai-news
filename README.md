@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/27-11-2026 -- 04-PM.html`](news/27-11-2026%20--%2004-PM.html) — أحدث إصدار (Microsoft Copilot Studio 3 Arabic · Workday Illuminate AI 2 Arabic · Sprinklr AI+ 4 Arabic · Tableau Pulse AI 3 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/28-11-2026 -- 12-AM.html`](news/28-11-2026%20--%2012-AM.html) — أحدث إصدار (Zendesk AI Copilot 3 Arabic · Oracle Fusion Cloud AI 3 Arabic · Snowflake Cortex AI 3 Arabic · UiPath Autopilot 5 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
