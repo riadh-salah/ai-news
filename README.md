@@ -5,7 +5,7 @@
 ## المحتوى
 
 - [`news/index.html`](news/index.html) — أرشيف جميع الإصدارات
-- [`news/28-11-2026 -- 12-AM.html`](news/28-11-2026%20--%2012-AM.html) — أحدث إصدار (Zendesk AI Copilot 3 Arabic · Oracle Fusion Cloud AI 3 Arabic · Snowflake Cortex AI 3 Arabic · UiPath Autopilot 5 Arabic) (4 أخبار + أفكار ربح من AI)
+- [`news/28-11-2026 -- 08-AM.html`](news/28-11-2026%20--%2008-AM.html) — أحدث إصدار (Wix Astro 2 Arabic · Gong Engage AI 4 Arabic · Typeform AI Insights 3 Arabic · Calendly AI Scheduling 3 Arabic) (4 أخبار + أفكار ربح من AI)
 
 ## تسمية الملفات
 
